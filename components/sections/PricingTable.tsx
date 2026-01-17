@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Link from 'next/link'
-import { ChevronDown, Camera, MessageCircle, HelpCircle } from 'lucide-react'
+import { ChevronDown, Camera, MessageCircle, HelpCircle, Truck, Check, Sparkles } from 'lucide-react'
 import { standardPricing, FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 
 const pricingRows = [
@@ -11,27 +11,32 @@ const pricingRows = [
     volume: '1/4 Truck',
     range: `$${standardPricing.quarter.min}-$${standardPricing.quarter.max}`,
     perfectFor: 'Single couch OR Dresser OR Grill',
+    fill: 25,
   },
   {
     volume: '1/2 Truck',
     range: `$${standardPricing.half.min}-$${standardPricing.half.max}`,
     perfectFor: 'Bedroom furniture OR Multiple appliances',
+    fill: 50,
   },
   {
     volume: '3/4 Truck',
     range: `$${standardPricing.threeQuarter.min}-$${standardPricing.threeQuarter.max}`,
     perfectFor: 'Living room OR Garage cleanout',
+    fill: 75,
   },
   {
     volume: 'Full Truck',
     range: `$${standardPricing.full.min}-$${standardPricing.full.max}`,
     perfectFor: 'Full garage OR Multiple rooms',
+    fill: 100,
   },
   {
     volume: 'Renovation Debris',
     range: '$600-$1,200+',
     perfectFor: 'Construction materials - Custom quote*',
     isConstruction: true,
+    fill: 100,
   },
 ]
 
@@ -46,61 +51,165 @@ export function PricingTable() {
   const [isExpanded, setIsExpanded] = useState(false)
 
   return (
-    <section className="py-20 bg-sand-50">
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+    <section className="py-16 md:py-24 bg-gradient-to-b from-sand-50 via-white to-sand-50 relative overflow-hidden">
+      {/* Background decorations */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-ocean-100/20 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-seafoam-100/20 rounded-full blur-3xl" />
+      </div>
+
+      <div className="relative mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 md:mb-16">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-ocean-100 text-ocean-700 text-sm font-medium mb-4"
+          >
+            <Check className="w-4 h-4" />
+            No Hidden Fees
+          </motion.div>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-3xl sm:text-4xl font-bold text-slate-800"
+            className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-800"
           >
-            Simple, Transparent Pricing
+            Simple,{' '}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-ocean-500 to-seafoam-500">
+              Transparent Pricing
+            </span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="mt-4 text-lg text-slate-600"
+            className="mt-4 text-lg md:text-xl text-slate-600"
           >
-            No hidden fees. No surprises. Just honest pricing.
+            No surprises. Just honest pricing based on truck volume.
           </motion.p>
         </div>
 
-        {/* Pricing Table */}
+        {/* Desktop Pricing Table */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="bg-white rounded-2xl shadow-lg overflow-hidden border border-sand-200"
+          className="hidden md:block"
         >
-          {/* Table Header */}
-          <div className="grid grid-cols-3 bg-slate-800 text-white">
-            <div className="px-6 py-4 font-semibold">Volume</div>
-            <div className="px-6 py-4 font-semibold">Price Range</div>
-            <div className="px-6 py-4 font-semibold">Perfect For</div>
-          </div>
+          <div className="relative">
+            {/* Gradient border effect */}
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-ocean-400 via-seafoam-400 to-ocean-400 rounded-3xl opacity-20 blur-sm" />
 
-          {/* Table Rows */}
-          {pricingRows.map((row, index) => (
-            <div
-              key={row.volume}
-              className={`grid grid-cols-3 ${
-                index % 2 === 0 ? 'bg-white' : 'bg-sand-50'
-              } ${row.isConstruction ? 'bg-gold-50 border-t-2 border-gold-200' : ''}`}
-            >
-              <div className="px-6 py-4 font-medium text-slate-800">{row.volume}</div>
-              <div
-                className={`px-6 py-4 font-semibold ${
-                  row.isConstruction ? 'text-gold-600' : 'text-ocean-600'
-                }`}
-              >
-                {row.range}
+            <div className="relative bg-white rounded-2xl shadow-xl overflow-hidden border border-sand-100">
+              {/* Table Header */}
+              <div className="grid grid-cols-12 bg-gradient-to-r from-slate-800 to-slate-900 text-white">
+                <div className="col-span-3 px-6 py-5 font-semibold flex items-center gap-2">
+                  <Truck className="w-5 h-5 text-ocean-400" />
+                  Volume
+                </div>
+                <div className="col-span-3 px-6 py-5 font-semibold">Price Range</div>
+                <div className="col-span-4 px-6 py-5 font-semibold">Perfect For</div>
+                <div className="col-span-2 px-6 py-5 font-semibold text-center">Fill</div>
               </div>
-              <div className="px-6 py-4 text-slate-600">{row.perfectFor}</div>
+
+              {/* Table Rows */}
+              {pricingRows.map((row, index) => (
+                <motion.div
+                  key={row.volume}
+                  initial={{ opacity: 0, x: -20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.05 }}
+                  className={`grid grid-cols-12 items-center transition-colors hover:bg-sand-50/80 ${
+                    index % 2 === 0 ? 'bg-white' : 'bg-sand-50/50'
+                  } ${row.isConstruction ? 'bg-gradient-to-r from-gold-50 to-amber-50 border-t-2 border-gold-200 hover:from-gold-100 hover:to-amber-100' : ''}`}
+                >
+                  <div className="col-span-3 px-6 py-5 font-semibold text-slate-800">{row.volume}</div>
+                  <div
+                    className={`col-span-3 px-6 py-5 font-bold text-xl ${
+                      row.isConstruction ? 'text-gold-600' : 'text-ocean-600'
+                    }`}
+                  >
+                    {row.range}
+                  </div>
+                  <div className="col-span-4 px-6 py-5 text-slate-600">{row.perfectFor}</div>
+                  <div className="col-span-2 px-6 py-5">
+                    <div className="w-full h-3 bg-sand-200 rounded-full overflow-hidden">
+                      <motion.div
+                        initial={{ width: 0 }}
+                        whileInView={{ width: `${row.fill}%` }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.8, delay: index * 0.1 }}
+                        className={`h-full rounded-full ${
+                          row.isConstruction
+                            ? 'bg-gradient-to-r from-gold-400 to-amber-500'
+                            : 'bg-gradient-to-r from-ocean-400 to-seafoam-500'
+                        }`}
+                      />
+                    </div>
+                  </div>
+                </motion.div>
+              ))}
             </div>
+          </div>
+        </motion.div>
+
+        {/* Mobile Pricing Cards */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="md:hidden space-y-4"
+        >
+          {pricingRows.map((row, index) => (
+            <motion.div
+              key={row.volume}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: index * 0.05 }}
+              className={`relative rounded-2xl p-5 border-2 overflow-hidden ${
+                row.isConstruction
+                  ? 'border-gold-300 bg-gradient-to-br from-gold-50 to-amber-50'
+                  : 'border-sand-200 bg-white'
+              }`}
+            >
+              {/* Fill indicator bar */}
+              <div className="absolute top-0 left-0 right-0 h-1">
+                <motion.div
+                  initial={{ width: 0 }}
+                  whileInView={{ width: `${row.fill}%` }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.8 }}
+                  className={`h-full ${
+                    row.isConstruction
+                      ? 'bg-gradient-to-r from-gold-400 to-amber-500'
+                      : 'bg-gradient-to-r from-ocean-400 to-seafoam-500'
+                  }`}
+                />
+              </div>
+
+              <div className="flex items-start justify-between gap-4">
+                <div className="flex-1">
+                  <div className="flex items-center gap-2 mb-1">
+                    <Truck className={`w-4 h-4 ${row.isConstruction ? 'text-gold-500' : 'text-ocean-500'}`} />
+                    <h4 className="font-bold text-slate-800">{row.volume}</h4>
+                  </div>
+                  <p className="text-sm text-slate-600">{row.perfectFor}</p>
+                </div>
+                <div className={`text-right`}>
+                  <p className={`text-2xl font-bold ${row.isConstruction ? 'text-gold-600' : 'text-ocean-600'}`}>
+                    {row.range.split('-')[0]}
+                  </p>
+                  <p className="text-xs text-slate-400">
+                    to {row.range.split('-')[1]}
+                  </p>
+                </div>
+              </div>
+            </motion.div>
           ))}
         </motion.div>
 

@@ -127,5 +127,5 @@ export function formatPhoneNumber(phone: string): string {
   return phone
 }
 
-export const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8505551234"
+export const PHONE_NUMBER = process.env.NEXT_PUBLIC_PHONE_NUMBER || "8503683495"
 export const FORMATTED_PHONE = formatPhoneNumber(PHONE_NUMBER)
