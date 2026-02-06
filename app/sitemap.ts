@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+import { getAllBlogSlugs } from '@/lib/blog'
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://30ajunkremoval.com'
 
@@ -24,12 +25,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/service-areas/seacrest',
     '/service-areas/destin',
     '/service-areas/panama-city-beach',
+    '/blog',
   ]
 
-  return routes.map((route) => ({
+  const blogSlugs = getAllBlogSlugs()
+  const blogRoutes = blogSlugs.map(slug => `/blog/${slug}`)
+
+  const allRoutes = [...routes, ...blogRoutes]
+
+  return allRoutes.map((route) => ({
     url: `${siteUrl}${route}`,
     lastModified: new Date(),
-    changeFrequency: route === '' ? 'weekly' : 'monthly',
-    priority: route === '' ? 1 : route.startsWith('/service') ? 0.8 : 0.6,
+    changeFrequency: route === '' ? 'weekly' : route.startsWith('/blog') ? 'monthly' : 'monthly',
+    priority: route === '' ? 1 : route === '/blog' ? 0.9 : route.startsWith('/blog/') ? 0.7 : route.startsWith('/service') ? 0.8 : 0.6,
   }))
 }
