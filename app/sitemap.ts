@@ -1,12 +1,53 @@
 import { MetadataRoute } from 'next'
 import { getAllBlogSlugs } from '@/lib/blog'
+import config from '@/lib/config'
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://30ajunkremoval.com'
+// Relester SEO Method: Priority Tier System
+// 1.0 = Homepage (most authoritative)
+// 0.9 = Primary conversion page (contact)
+// 0.8 = Blog listing, pricing, service listing (discovery hubs)
+// 0.7 = Service pages (core offer pages)
+// 0.6 = Blog posts (content pages)
+// 0.5 = Location pages (programmatic SEO pages)
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = [
-    '',
+  const now = new Date()
+
+  // PRIORITY 1.0: Homepage
+  const homepage: MetadataRoute.Sitemap = [
+    {
+      url: config.siteUrl,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 1.0,
+    },
+  ]
+
+  // PRIORITY 0.9: Primary conversion page
+  const conversionPages: MetadataRoute.Sitemap = [
+    {
+      url: `${config.siteUrl}/contact`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+  ]
+
+  // PRIORITY 0.8: Discovery hubs
+  const discoveryPages: MetadataRoute.Sitemap = [
+    '/blog',
     '/services',
+    '/pricing',
+    '/service-areas',
+  ].map(route => ({
+    url: `${config.siteUrl}${route}`,
+    lastModified: now,
+    changeFrequency: 'daily' as const,
+    priority: 0.8,
+  }))
+
+  // PRIORITY 0.7: Service pages (hand-crafted, high-value)
+  const servicePages: MetadataRoute.Sitemap = [
     '/services/property-management',
     '/services/one-time-hauls',
     '/services/construction-debris',
@@ -19,11 +60,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services/yard-debris',
     '/services/garage-cleanouts',
     '/services/office-furniture',
-    '/pricing',
-    '/about',
-    '/contact',
-    '/faq',
-    '/service-areas',
+  ].map(route => ({
+    url: `${config.siteUrl}${route}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
+
+  // PRIORITY 0.6: Blog posts (content pages)
+  const blogSlugs = getAllBlogSlugs()
+  const blogPosts: MetadataRoute.Sitemap = blogSlugs.map(slug => ({
+    url: `${config.siteUrl}/blog/${slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }))
+
+  // PRIORITY 0.5: Location pages (programmatic SEO)
+  const locationPages: MetadataRoute.Sitemap = [
     '/service-areas/seaside',
     '/service-areas/rosemary-beach',
     '/service-areas/alys-beach',
@@ -36,18 +90,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/service-areas/blue-mountain-beach',
     '/service-areas/destin',
     '/service-areas/panama-city-beach',
-    '/blog',
-  ]
-
-  const blogSlugs = getAllBlogSlugs()
-  const blogRoutes = blogSlugs.map(slug => `/blog/${slug}`)
-
-  const allRoutes = [...routes, ...blogRoutes]
-
-  return allRoutes.map((route) => ({
-    url: `${siteUrl}${route}`,
-    lastModified: new Date(),
-    changeFrequency: route === '' ? 'weekly' : route.startsWith('/blog') ? 'monthly' : 'monthly',
-    priority: route === '' ? 1 : route === '/blog' ? 0.9 : route.startsWith('/blog/') ? 0.7 : route.startsWith('/service') ? 0.8 : 0.6,
+  ].map(route => ({
+    url: `${config.siteUrl}${route}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.5,
   }))
+
+  // PRIORITY 0.6: Other pages (about, faq)
+  const otherPages: MetadataRoute.Sitemap = [
+    '/about',
+    '/faq',
+  ].map(route => ({
+    url: `${config.siteUrl}${route}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }))
+
+  return [
+    ...homepage,
+    ...conversionPages,
+    ...discoveryPages,
+    ...servicePages,
+    ...blogPosts,
+    ...locationPages,
+    ...otherPages,
+  ]
 }

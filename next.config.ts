@@ -16,6 +16,29 @@ const nextConfig: NextConfig = {
 
   // Enable React strict mode for better development warnings
   reactStrictMode: true,
+
+  // CRITICAL: Prevent non-production domains from being indexed
+  // This blocks Vercel preview URLs from competing with your production site
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            // Match any host EXCEPT www.30ajunkremoval.com
+            value: '(?!www\\.30ajunkremoval\\.com).*',
+          },
+        ],
+        headers: [
+          {
+            key: 'X-Robots-Tag',
+            value: 'noindex, nofollow',
+          },
+        ],
+      },
+    ]
+  },
 };
 
 export default nextConfig;

@@ -5,6 +5,7 @@ import { Header } from "@/components/layout/Header"
 import { Footer } from "@/components/layout/Footer"
 import { MobileCTA } from "@/components/ui/MobileCTA"
 import { LocalBusinessSchema, OrganizationSchema, ReviewSchema } from "@/components/seo/StructuredData"
+import { CorporationSchema } from "@/components/seo/CorporationSchema"
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics"
 import { FacebookPixel } from "@/components/analytics/FacebookPixel"
 import { GCLIDCapture } from "@/components/analytics/GCLIDCapture"
@@ -77,6 +78,7 @@ export default function RootLayout({
       <head>
         <LocalBusinessSchema />
         <OrganizationSchema />
+        <CorporationSchema />
         <ReviewSchema />
       </head>
       <body className="antialiased">
