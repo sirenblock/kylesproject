@@ -75,8 +75,8 @@ const colorClasses = {
   seafoam: {
     bg: 'bg-seafoam-50',
     border: 'border-seafoam-400',
-    text: 'text-seafoam-700',
-    icon: 'text-seafoam-600',
+    text: 'text-slate-800',  // Fixed: Better contrast on light seafoam background
+    icon: 'text-seafoam-500',
     pulse: 'bg-seafoam-400',
     dot: 'bg-seafoam-500'
   }

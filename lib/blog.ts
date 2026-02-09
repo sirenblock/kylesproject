@@ -32,51 +32,51 @@ export const blogPosts: BlogPost[] = [
     content: `
 # The Ultimate Guide to Junk Removal in 30A Florida
 
-Living along the stunning 30A corridor in Florida comes with its unique challenges when it comes to junk removal. Whether you're a property manager handling vacation rental turnovers, a homeowner decluttering your beach house, or dealing with renovation debris, this comprehensive guide covers everything you need to know.
+Living along the stunning 30A corridor in Florida comes with its unique challenges when it comes to junk removal. Whether you're a [property manager handling vacation rental](/services/property-management) turnovers, a homeowner decluttering your beach house, or dealing with [renovation debris](/services/construction-debris), this comprehensive guide covers everything you need to know.
 
 ## Why 30A Has Unique Junk Removal Needs
 
-The 30A area, stretching from Inlet Beach to Dune Allen, is home to some of Florida's most prestigious beach communities. With over 26 miles of scenic highway along the Emerald Coast, this area demands a specialized approach to junk removal.
+The 30A area, stretching from [Inlet Beach](/service-areas/inlet-beach) to Dune Allen, is home to some of Florida's most prestigious beach communities. With over 26 miles of scenic highway along the Emerald Coast, this area demands a specialized approach to [junk removal](/services).
 
 ### The 30A Communities
 
 **Luxury Beach Towns:**
-- **Rosemary Beach** - European-inspired architecture with strict HOA guidelines
-- **Alys Beach** - Ultra-premium white Mediterranean architecture
-- **Seaside** - The iconic New Urbanism community featured in "The Truman Show"
-- **WaterColor** - Resort-style living surrounding Western Lake
+- **[Rosemary Beach](/service-areas/rosemary-beach)** - European-inspired architecture with strict HOA guidelines
+- **[Alys Beach](/service-areas/alys-beach)** - Ultra-premium white Mediterranean architecture
+- **[Seaside](/service-areas/seaside)** - The iconic New Urbanism community featured in "The Truman Show"
+- **[WaterColor](/service-areas/watercolor)** - Resort-style living surrounding Western Lake
 
 **Laid-Back Beach Vibes:**
-- **Grayton Beach** - Historic Old Florida charm with vintage cottages
-- **Blue Mountain Beach** - Family-friendly with some of 30A's highest elevations
-- **Santa Rosa Beach** - The central hub with diverse neighborhoods
-- **Seagrove Beach** - Established beach community near Seaside
+- **[Grayton Beach](/service-areas/grayton-beach)** - Historic Old Florida charm with vintage cottages
+- **[Blue Mountain Beach](/service-areas/blue-mountain-beach)** - Family-friendly with some of 30A's highest elevations
+- **[Santa Rosa Beach](/service-areas/santa-rosa-beach)** - The central hub with diverse neighborhoods
+- **[Seagrove Beach](/service-areas/seagrove-beach)** - Established beach community near Seaside
 
-Each community has specific requirements for maintaining property aesthetics, HOA compliance, and environmental standards.
+Each community has specific requirements for maintaining property aesthetics, HOA compliance, and environmental standards. Our [service areas page](/service-areas) details what we offer in each location.
 
 ## Common Junk Removal Scenarios on 30A
 
 ### 1. Vacation Rental Turnovers (Most Common)
 
-The 30A vacation rental market is one of the most active in Florida, with properties turning over weekly during peak season. Property managers need lightning-fast service to clear:
+The 30A vacation rental market is one of the most active in Florida, with properties turning over weekly during peak season. [Property managers](/services/property-management) need lightning-fast service to clear:
 
 **Typical Items:**
-- Sun-damaged patio furniture
+- Sun-damaged [patio furniture](/services/furniture-removal)
 - Worn or stained mattresses (3-year replacement cycle)
-- Malfunctioning appliances
+- [Malfunctioning appliances](/services/appliance-removal)
 - Guest left-behinds (after 30-day hold period)
 - Broken beach equipment
 
-**Industry Secret:** Schedule junk removal between checkout (10 AM) and check-in (4 PM) for zero guest overlap. Most 30A property managers keep our number on speed dial for emergency same-day turnovers.
+**Industry Secret:** Schedule junk removal between checkout (10 AM) and check-in (4 PM) for zero guest overlap. Most 30A property managers keep our number on speed dial for [emergency same-day turnovers](/services/vacation-rentals).
 
 ### 2. Renovation & Construction Debris
 
-With property values soaring along 30A, homeowners constantly upgrade their investments. Renovation projects generate significant debris:
+With property values soaring along 30A, homeowners constantly upgrade their investments. [Renovation projects](/services/construction-debris) generate significant debris:
 
 **Kitchen Remodels:**
 - Old cabinets and countertops
 - Flooring tear-out (tile, hardwood)
-- Appliances and fixtures
+- [Appliances and fixtures](/services/appliance-removal)
 - Typical cost: $600-$800 for debris removal
 
 **Bathroom Renovations:**
@@ -89,12 +89,12 @@ With property values soaring along 30A, homeowners constantly upgrade their inve
 - Full home gut jobs
 - Deck and fence removal
 - Roofing materials
-- Mixed construction debris
+- Mixed [construction debris](/services/construction-debris)
 - Typical cost: $800-$1,500+
 
 ### 3. Estate Cleanouts & Downsizing
 
-With an aging population and property transfers, estate services are increasingly common:
+With an aging population and property transfers, [estate cleanout services](/services/estate-cleanouts) are increasingly common:
 
 - Full home cleanouts
 - Furniture and household goods
