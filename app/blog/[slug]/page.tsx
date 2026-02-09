@@ -5,6 +5,7 @@ import { blogPosts, getBlogPost, getAllBlogSlugs } from '@/lib/blog'
 import { Calendar, Clock, ArrowLeft, Phone, User } from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 import { ArticleSchema, FAQSchema, BreadcrumbSchema, HowToSchema } from '@/components/seo/StructuredData'
+import { PersonSchema } from '@/components/seo/PersonSchema'
 import { marked } from 'marked'
 import { LinksSection } from '@/components/seo/LinksSection'
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo'
@@ -63,6 +64,9 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <main className="min-h-screen bg-white">
+      {/* Relester Method: Person schema for E-E-A-T */}
+      <PersonSchema />
+
       <ArticleSchema
         title={post.title}
         description={post.metaDescription}

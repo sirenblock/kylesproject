@@ -14,6 +14,7 @@ import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo
 import { marked } from 'marked'
 import { QuickQuoteForm } from '@/components/ui/QuickQuoteForm'
 import { UrgencyBadge } from '@/components/ui/UrgencyBadge'
+import { FAQAccordion } from '@/components/ui/FAQAccordion'
 
 marked.setOptions({ breaks: true, gfm: true })
 
@@ -211,24 +212,10 @@ export default function ServicePage() {
         </div>
       </section>
 
-      {/* FAQ */}
+      {/* FAQ - Relester Method: Interactive accordion */}
       <section className="py-20 bg-slate-50">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">
-            Frequently Asked Questions
-          </h2>
-          <div className="space-y-6">
-            {service.faqs.map((faq, index) => (
-              <div key={index} className="bg-white border-2 border-slate-200 rounded-xl p-6 hover:border-ocean-300 hover:shadow-lg transition-all">
-                <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                  {faq.question}
-                </h3>
-                <p className="text-slate-700 leading-relaxed">
-                  {faq.answer}
-                </p>
-              </div>
-            ))}
-          </div>
+          <FAQAccordion faqs={service.faqs} />
         </div>
       </section>
 
