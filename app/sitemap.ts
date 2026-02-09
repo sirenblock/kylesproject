@@ -1,0 +1,53 @@
+import { MetadataRoute } from 'next'
+import { getAllBlogSlugs } from '@/lib/blog'
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://30ajunkremoval.com'
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const routes = [
+    '',
+    '/services',
+    '/services/property-management',
+    '/services/one-time-hauls',
+    '/services/construction-debris',
+    '/services/vacation-rentals',
+    '/services/estate-cleanouts',
+    '/services/appliance-removal',
+    '/services/furniture-removal',
+    '/services/hot-tub-removal',
+    '/services/donation-pickup',
+    '/services/yard-debris',
+    '/services/garage-cleanouts',
+    '/services/office-furniture',
+    '/pricing',
+    '/about',
+    '/contact',
+    '/faq',
+    '/service-areas',
+    '/service-areas/seaside',
+    '/service-areas/rosemary-beach',
+    '/service-areas/alys-beach',
+    '/service-areas/watercolor',
+    '/service-areas/grayton-beach',
+    '/service-areas/santa-rosa-beach',
+    '/service-areas/inlet-beach',
+    '/service-areas/seacrest',
+    '/service-areas/seagrove-beach',
+    '/service-areas/blue-mountain-beach',
+    '/service-areas/destin',
+    '/service-areas/panama-city-beach',
+    '/blog',
+  ]
+
+  const blogSlugs = getAllBlogSlugs()
+  const blogRoutes = blogSlugs.map(slug => `/blog/${slug}`)
+
+  const allRoutes = [...routes, ...blogRoutes]
+
+  return allRoutes.map((route) => ({
+    url: `${siteUrl}${route}`,
+    lastModified: new Date(),
+    changeFrequency: route === '' ? 'weekly' : route.startsWith('/blog') ? 'monthly' : 'monthly',
+    priority: route === '' ? 1 : route === '/blog' ? 0.9 : route.startsWith('/blog/') ? 0.7 : route.startsWith('/service') ? 0.8 : 0.6,
+  }))
+}
