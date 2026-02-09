@@ -4,6 +4,7 @@ import "./globals.css"
 import { Header } from "@/components/layout/Header"
 import { Footer } from "@/components/layout/Footer"
 import { MobileCTA } from "@/components/ui/MobileCTA"
+import { SimpleContactBar } from "@/components/ui/SimpleContactBar"
 import { LocalBusinessSchema, OrganizationSchema, ReviewSchema } from "@/components/seo/StructuredData"
 import { CorporationSchema } from "@/components/seo/CorporationSchema"
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics"
@@ -88,9 +89,9 @@ export default function RootLayout({
           <GCLIDCapture />
         </Suspense>
         <Header />
-        <main className="min-h-screen pt-16 pb-16 lg:pb-0">{children}</main>
+        <main className="min-h-screen pt-16 pb-20 md:pb-0">{children}</main>
         <Footer />
-        <MobileCTA />
+        <SimpleContactBar />
         <ExitIntentModal />
       </body>
     </html>
