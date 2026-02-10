@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { blogPosts } from '@/lib/blog'
 import { Calendar, Clock, ArrowRight, BookOpen } from 'lucide-react'
 import { LinksSection } from '@/components/seo/LinksSection'
@@ -17,6 +18,77 @@ export const metadata: Metadata = {
   alternates: {
     canonical: getCanonicalUrl('/blog'),
   },
+}
+
+function BlogGrid() {
+  return (
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {blogPosts.map((post) => (
+        <Link
+          key={post.slug}
+          href={`/blog/${post.slug}`}
+          className="group"
+        >
+          <article className="relative h-full bg-white rounded-2xl border border-sand-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+            {/* Featured Image */}
+            <div className="aspect-[16/10] relative overflow-hidden bg-gradient-to-br from-ocean-400 via-ocean-500 to-seafoam-500">
+              <Image
+                src={post.image}
+                alt={post.imageAlt}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+              <div className="absolute bottom-4 left-4 right-4">
+                <div className="flex flex-wrap gap-2">
+                  {post.tags.slice(0, 2).map(tag => (
+                    <span
+                      key={tag}
+                      className="px-3 py-1 text-xs font-medium bg-white/20 backdrop-blur-sm text-white rounded-full"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Content */}
+            <div className="p-6">
+              <div className="flex items-center gap-4 text-sm text-slate-500 mb-3">
+                <span className="flex items-center gap-1.5">
+                  <Calendar className="w-4 h-4" />
+                  {new Date(post.date).toLocaleDateString('en-US', {
+                    month: 'short',
+                    day: 'numeric',
+                    year: 'numeric'
+                  })}
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <Clock className="w-4 h-4" />
+                  {post.readTime}
+                </span>
+              </div>
+
+              <h2 className="text-xl font-bold text-slate-800 mb-3 group-hover:text-ocean-600 transition-colors line-clamp-2">
+                {post.title}
+              </h2>
+
+              <p className="text-slate-600 mb-4 line-clamp-3">
+                {post.excerpt}
+              </p>
+
+              <div className="flex items-center text-ocean-600 font-semibold group-hover:text-ocean-700">
+                Read More
+                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </div>
+          </article>
+        </Link>
+      ))}
+    </div>
+  )
 }
 
 export default function BlogPage() {
@@ -53,65 +125,7 @@ export default function BlogPage() {
       {/* Blog Posts Grid */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-sand-50 to-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {blogPosts.map((post, index) => (
-              <Link
-                key={post.slug}
-                href={`/blog/${post.slug}`}
-                className="group"
-              >
-                <article className="relative h-full bg-white rounded-2xl border border-sand-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-                  {/* Image placeholder with gradient */}
-                  <div className="aspect-[16/10] bg-gradient-to-br from-ocean-400 via-ocean-500 to-seafoam-500 relative overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-                    <div className="absolute bottom-4 left-4 right-4">
-                      <div className="flex flex-wrap gap-2">
-                        {post.tags.slice(0, 2).map(tag => (
-                          <span
-                            key={tag}
-                            className="px-3 py-1 text-xs font-medium bg-white/20 backdrop-blur-sm text-white rounded-full"
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Content */}
-                  <div className="p-6">
-                    <div className="flex items-center gap-4 text-sm text-slate-500 mb-3">
-                      <span className="flex items-center gap-1.5">
-                        <Calendar className="w-4 h-4" />
-                        {new Date(post.date).toLocaleDateString('en-US', {
-                          month: 'short',
-                          day: 'numeric',
-                          year: 'numeric'
-                        })}
-                      </span>
-                      <span className="flex items-center gap-1.5">
-                        <Clock className="w-4 h-4" />
-                        {post.readTime}
-                      </span>
-                    </div>
-
-                    <h2 className="text-xl font-bold text-slate-800 mb-3 group-hover:text-ocean-600 transition-colors line-clamp-2">
-                      {post.title}
-                    </h2>
-
-                    <p className="text-slate-600 mb-4 line-clamp-3">
-                      {post.excerpt}
-                    </p>
-
-                    <div className="flex items-center text-ocean-600 font-semibold group-hover:text-ocean-700">
-                      Read More
-                      <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                    </div>
-                  </div>
-                </article>
-              </Link>
-            ))}
-          </div>
+          <BlogGrid />
         </div>
       </section>
 

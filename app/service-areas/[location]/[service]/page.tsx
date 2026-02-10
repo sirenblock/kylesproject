@@ -114,6 +114,32 @@ export default async function ServiceLocationPage({ params }: Props) {
       />
       {service.faqs && <FAQSchema questions={service.faqs} />}
 
+      {/* Subtle Mobile Contact Bar */}
+      <div className="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-sand-200 shadow-lg z-40 safe-bottom">
+        <div className="flex gap-2 p-2">
+          <a
+            href={`tel:${PHONE_NUMBER}`}
+            className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-ocean-600 text-white rounded-lg font-semibold text-sm"
+          >
+            <Phone className="w-4 h-4" />
+            Call
+          </a>
+          <a
+            href="/#quote"
+            className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 border border-ocean-600 text-ocean-600 rounded-lg font-semibold text-sm"
+          >
+            Quote
+          </a>
+          <a
+            href={`sms:${PHONE_NUMBER}`}
+            className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 border border-slate-300 text-slate-700 rounded-lg font-semibold text-sm"
+          >
+            <Camera className="w-4 h-4" />
+            Text
+          </a>
+        </div>
+      </div>
+
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-800 text-white py-16 sm:py-20 lg:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -126,7 +152,7 @@ export default async function ServiceLocationPage({ params }: Props) {
               {service.title} in {location.name}
             </h1>
             <p className="text-xl sm:text-2xl text-ocean-100 mb-8">
-              {content.intro}
+              {content.heroSubtitle}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -155,8 +181,77 @@ export default async function ServiceLocationPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Why Choose Us Section */}
+      {/* Introduction Section */}
       <section className="py-16 bg-white">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center gap-3 mb-6">
+            <div className="h-1 w-12 bg-ocean-500 rounded-full"></div>
+            <h2 className="text-3xl font-bold text-slate-800">
+              Expert {service.title} for {location.name} Properties
+            </h2>
+          </div>
+          <div className="space-y-4">
+            {content.introParagraphs.map((paragraph, index) => (
+              <p
+                key={index}
+                className="text-slate-700 leading-relaxed text-lg"
+              >
+                {paragraph}
+              </p>
+            ))}
+          </div>
+
+          {/* Quick Stats or Highlight */}
+          <div className="mt-8 grid sm:grid-cols-3 gap-4">
+            <div className="bg-ocean-50 rounded-lg p-4 text-center border border-ocean-100">
+              <div className="text-2xl font-bold text-ocean-600">Same Day</div>
+              <div className="text-sm text-slate-600">Service Available</div>
+            </div>
+            <div className="bg-seafoam-50 rounded-lg p-4 text-center border border-seafoam-100">
+              <div className="text-2xl font-bold text-seafoam-600">Licensed</div>
+              <div className="text-sm text-slate-600">& Fully Insured</div>
+            </div>
+            <div className="bg-gold-50 rounded-lg p-4 text-center border border-gold-100">
+              <div className="text-2xl font-bold text-gold-600">Eco-Friendly</div>
+              <div className="text-sm text-slate-600">Disposal Practices</div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      {/* Quick Quote Request */}
+      <section className="py-12 bg-gradient-to-r from-ocean-600 to-ocean-700">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h3 className="text-2xl md:text-3xl font-bold text-white mb-3">
+              Ready for Your Free Quote?
+            </h3>
+            <p className="text-ocean-100 text-lg mb-6">
+              Get an instant estimate or speak with our {location.name} team
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a
+                href="/#quote"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-ocean-600 rounded-lg font-bold hover:bg-sand-50 transition-colors shadow-lg"
+              >
+                Get Instant Quote
+                <ArrowRight className="w-5 h-5" />
+              </a>
+              <a
+                href={`tel:${PHONE_NUMBER}`}
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white text-white rounded-lg font-bold hover:bg-white/10 transition-colors"
+              >
+                <Phone className="w-5 h-5" />
+                Call {FORMATTED_PHONE}
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Us Section */}
+      <section className="py-16 bg-sand-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-slate-800 mb-8">
@@ -284,6 +379,13 @@ export default async function ServiceLocationPage({ params }: Props) {
                 Get Your Instant Quote for {location.name}
               </h3>
               <QuoteCalculator />
+
+              {/* Subtle CTA below calculator */}
+              <div className="mt-6 pt-6 border-t border-ocean-200 text-center">
+                <p className="text-slate-600 mb-3">
+                  Prefer to speak with someone? <a href={`tel:${PHONE_NUMBER}`} className="text-ocean-600 font-semibold hover:underline">{FORMATTED_PHONE}</a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -322,6 +424,51 @@ export default async function ServiceLocationPage({ params }: Props) {
             </p>
           </div>
           <HowItWorks />
+        </div>
+      </section>
+
+      {/* Service Process Details */}
+      <section className="py-16 bg-white">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-slate-800 mb-8">
+            Our {service.title} Process for {location.name}
+          </h2>
+          <div className="space-y-6">
+            {content.serviceProcess.map((step, index) => (
+              <div key={index} className="flex gap-4 items-start">
+                <div className="shrink-0 w-10 h-10 rounded-full bg-ocean-600 text-white flex items-center justify-center font-bold text-lg">
+                  {index + 1}
+                </div>
+                <div className="flex-1 pt-1">
+                  <p className="text-slate-700 leading-relaxed">{step}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Location-Specific Details */}
+      <section className="py-16 bg-sand-50">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center gap-3 mb-6">
+            <MapPin className="w-8 h-8 text-ocean-600" />
+            <h2 className="text-3xl font-bold text-slate-800">
+              Why {location.name} Properties Choose Us
+            </h2>
+          </div>
+          <div className="bg-white rounded-xl p-8 border border-sand-200 shadow-sm">
+            <div className="space-y-4">
+              {content.locationSpecificsParagraphs.map((paragraph, index) => (
+                <p
+                  key={index}
+                  className="text-slate-700 leading-relaxed text-lg"
+                >
+                  {paragraph}
+                </p>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
