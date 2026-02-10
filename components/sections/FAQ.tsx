@@ -264,6 +264,7 @@ const colorMap = {
 function getPlainTextAnswer(answer: string | React.ReactNode): string {
   if (typeof answer === 'string') {
     return answer
+  }
 
   // For React nodes, extract meaningful text without links
   const answerMap: Record<string, string> = {
@@ -281,8 +282,10 @@ function getPlainTextAnswer(answer: string | React.ReactNode): string {
     "Do you provide documentation?": "Yes. We provide before and after photos for every job, detailed invoices, and donation receipts when items are donated to organizations like Goodwill. Perfect for your records and owner reporting.",
     "Can you handle donation pickups?": "Yes! We sort items and donate usable goods on your behalf to local charities. You'll receive tax-deductible donation receipts for everything we donate. Learn more about our estate cleanout services and donation process.",
     "Do you offer invoicing?": "Yes, we can invoice for property management companies. Monthly billing is available for clients with recurring service agreements. Visit our pricing page for more details on our rates and payment options."
+  }
 
   return answerMap[String(answer)] || ''
+}
 
 // Generate FAQ schema from categories
 function generateFAQSchema(categories: FAQCategory[]) {
