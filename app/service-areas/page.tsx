@@ -84,7 +84,7 @@ export default function ServiceAreasPage() {
   return (
     <div className="py-12">
       {/* Hero */}
-      <section className="-mt-20 py-16 bg-gradient-to-br from-ocean-50 to-seafoam-50">
+      <section className="-mt-20 pt-32 pb-16 bg-gradient-to-br from-ocean-50 to-seafoam-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-ocean-100 text-ocean-600 mb-6">

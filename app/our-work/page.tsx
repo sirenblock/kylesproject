@@ -48,7 +48,7 @@ export default function OurWorkPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="-mt-20 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white py-20 md:py-28">
+      <section className="-mt-20 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white pt-32 pb-20 md:pt-36 md:pb-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
