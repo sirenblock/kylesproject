@@ -132,22 +132,34 @@ export default function OurWorkPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-slate-800 mb-4">
-              Recent Jobs
+              Recent Jobs Around 30A
             </h2>
-            <p className="text-lg text-slate-600">
-              Click any photo to see full size
+            <p className="text-lg text-slate-600 mb-2">
+              Real junk removal projects from Seaside, Rosemary Beach, and surrounding areas
+            </p>
+            <p className="text-sm text-seafoam-600 font-medium">
+              Click any photo to view full size
             </p>
           </div>
 
           <Gallery images={galleryImages} />
 
-          <div className="mt-12 text-center">
-            <p className="text-slate-600 mb-4">
-              These are just a few examples of our work. Every job gets the same professional treatment.
-            </p>
-            <p className="text-sm text-slate-500">
-              Photos taken with customer permission. Your property and privacy are always protected.
-            </p>
+          <div className="mt-16 text-center max-w-2xl mx-auto">
+            <div className="bg-white rounded-2xl p-8 shadow-md border border-sand-200">
+              <p className="text-slate-700 mb-3 text-lg">
+                These are just a few examples of our work. Every job gets the same professional treatment and attention to detail.
+              </p>
+              <p className="text-sm text-slate-500 mb-6">
+                📸 Photos taken with customer permission. Your property and privacy are always protected.
+              </p>
+              <Link
+                href="/#quote"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-ocean-600 text-white rounded-xl font-semibold hover:bg-ocean-700 transition-colors shadow-md"
+              >
+                Get Your Free Quote
+                <ArrowRight className="w-5 h-5" />
+              </Link>
+            </div>
           </div>
         </div>
       </section>
