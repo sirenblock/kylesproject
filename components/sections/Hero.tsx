@@ -7,7 +7,7 @@ import { FORMATTED_PHONE, PHONE_NUMBER, getSMSLink } from '@/lib/utils'
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-slate-900">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-slate-900 -mt-20">
       {/* Static gradient background */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-ocean-900/50 to-slate-900" />

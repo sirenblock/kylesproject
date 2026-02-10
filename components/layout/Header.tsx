@@ -27,15 +27,14 @@ export function Header() {
   }, [])
 
   return (
-    <>
-      <motion.header
-        initial={{ y: -100 }}
-        animate={{ y: 0 }}
-        className={cn(
-          'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
-          scrolled ? 'pt-3 pb-3' : 'pt-4 pb-4'
-        )}
-      >
+    <motion.header
+      initial={{ y: -100 }}
+      animate={{ y: 0 }}
+      className={cn(
+        'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
+        scrolled ? 'pt-3 pb-3' : 'pt-4 pb-4'
+      )}
+    >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <nav
             className={cn(
