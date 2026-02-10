@@ -18,27 +18,27 @@ export const metadata: Metadata = {
 
 const galleryImages = [
   {
-    src: '/images/gallery/furniture-removal-1.jpg',
+    src: '/images/gallery/furniture-removal-1.webp',
     alt: 'Metal bed frame removal - 30A junk haul',
     category: 'Furniture Removal',
   },
   {
-    src: '/images/gallery/furniture-removal-2.jpg',
+    src: '/images/gallery/furniture-removal-2.webp',
     alt: 'Desk and furniture frame removal - Vacation rental cleanout',
     category: 'Furniture Removal',
   },
   {
-    src: '/images/gallery/before-removal-1.jpg',
+    src: '/images/gallery/before-removal-1.webp',
     alt: 'Before junk removal - 30A property cleanout',
     category: 'Before Photos',
   },
   {
-    src: '/images/gallery/furniture-removal-3.jpg',
+    src: '/images/gallery/furniture-removal-3.webp',
     alt: 'Furniture haul - 30A junk removal service',
     category: 'Furniture Removal',
   },
   {
-    src: '/images/gallery/furniture-removal-4.jpg',
+    src: '/images/gallery/furniture-removal-4.webp',
     alt: 'Office furniture removal - 30A commercial cleanout',
     category: 'Furniture Removal',
   },
