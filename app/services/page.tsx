@@ -114,7 +114,7 @@ export default function ServicesPage() {
   const externalLinks = getExternalLinks(5)
 
   return (
-    <div className="py-12">
+    <main className="min-h-screen">
       {/* Hero */}
       <section className="py-16 bg-gradient-to-br from-ocean-50 to-seafoam-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -141,7 +141,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Services Grid */}
-      <section className="py-8 bg-white">
+      <section className="py-16 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8">
             {services.map((service) => {
@@ -182,15 +182,8 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Links Section */}
-      <LinksSection
-        internalLinks={internalLinks}
-        externalLinks={externalLinks}
-        title="Service Areas & Additional Resources"
-      />
-
       {/* CTA */}
-      <section className="py-20 bg-slate-800 text-white">
+      <section className="py-16 bg-gradient-to-r from-ocean-600 to-ocean-700 text-white">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
           <p className="text-xl text-slate-300 mb-8">
@@ -213,6 +206,13 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
-    </div>
+
+      {/* Links Section */}
+      <LinksSection
+        internalLinks={internalLinks}
+        externalLinks={externalLinks}
+        title="Service Areas & Additional Resources"
+      />
+    </main>
   )
 }
