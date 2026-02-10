@@ -76,9 +76,9 @@ export function PricingTable() {
             viewport={{ once: true }}
             className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-800"
           >
-            Simple,{' '}
+            Volume-Based{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-ocean-500 to-seafoam-500">
-              Transparent Pricing
+              Pricing Guide
             </span>
           </motion.h2>
           <motion.p
