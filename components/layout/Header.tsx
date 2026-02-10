@@ -42,15 +42,13 @@ export function Header() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <nav
             className={cn(
-              'relative rounded-2xl transition-all duration-300',
+              'relative rounded-2xl transition-all duration-300 border border-slate-200/50',
               scrolled
-                ? 'bg-white/70 backdrop-blur-xl shadow-lg shadow-slate-900/5'
-                : 'bg-white/60 backdrop-blur-md shadow-md shadow-slate-900/5'
+                ? 'bg-white/90 backdrop-blur-xl shadow-lg shadow-slate-900/5'
+                : 'bg-white/85 backdrop-blur-md shadow-md shadow-slate-900/5'
             )}
             aria-label="Top"
           >
-            {/* Subtle gradient border */}
-            <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-ocean-200/20 via-seafoam-200/20 to-ocean-200/20 pointer-events-none" />
 
             <div className="relative flex h-16 items-center justify-between px-4 lg:px-6">
               {/* Logo */}
