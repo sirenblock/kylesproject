@@ -48,20 +48,13 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-24 pb-32 md:pt-28 md:pb-40">
         <div className="text-center">
-          {/* Badge with subtle pulse */}
+          {/* Badge */}
           <motion.div
-            initial={{ opacity: 0, y: 20, scale: 0.9 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full glass-dark text-white text-sm mb-8 shadow-lg shadow-ocean-500/20"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm mb-8"
           >
-            <motion.span
-              className="flex items-center justify-center w-5 h-5 rounded-full bg-gradient-to-r from-seafoam-400 to-ocean-400"
-              animate={{ scale: [1, 1.1, 1] }}
-              transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-            >
-              <Sparkles className="w-3 h-3 text-white" />
-            </motion.span>
             <span className="font-medium">
               Serving{' '}
               <Link href="/service-areas" className="text-ocean-200 hover:underline">30A</Link> from{' '}
@@ -102,99 +95,73 @@ export function Hero() {
             <Link href="/services/property-management" className="text-seafoam-200 hover:underline">estate management</Link></span>.
           </motion.p>
 
-          {/* Dual CTAs with enhanced styling */}
+          {/* CTAs */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="mt-10 md:mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 px-4"
+            className="mt-10 md:mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 px-4"
           >
-            {/* Primary CTA - Glowing button */}
             <Link
               href="/#quote"
-              className="group relative w-full sm:w-auto"
+              className="group w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-seafoam-400 to-seafoam-500 text-slate-900 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-[1.02]"
             >
-              {/* Glow effect */}
-              <div className="absolute -inset-1 bg-gradient-to-r from-seafoam-400 to-ocean-400 rounded-2xl blur-lg opacity-70 group-hover:opacity-100 transition-opacity" />
-
-              <div className="relative flex flex-col items-center px-8 py-5 bg-gradient-to-r from-seafoam-400 to-seafoam-500 text-slate-900 rounded-xl font-semibold shadow-xl transition-all duration-300 group-hover:shadow-2xl group-hover:scale-[1.02] btn-shine">
-                <span className="flex items-center gap-2 text-lg md:text-xl">
-                  Get Instant Quote
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </span>
-                <span className="text-sm font-normal text-slate-700 mt-1">
-                  Got junk? Get your price in 60 seconds
-                </span>
-              </div>
+              Get Instant Quote
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
 
-            {/* Secondary CTA - Glass morphism */}
             <Link
               href="/services/property-management"
-              className="group w-full sm:w-auto flex flex-col items-center px-8 py-5 glass-dark rounded-xl font-semibold transition-all duration-300 hover:bg-white/20 hover:scale-[1.02]"
+              className="group w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded-lg font-semibold hover:bg-white/20 transition-all duration-200"
             >
-              <span className="flex items-center gap-2 text-lg md:text-xl text-white">
-                <Star className="w-5 h-5 text-gold-400" />
-                Property Management
-              </span>
-              <span className="text-sm font-normal text-white/60 mt-1">
-                White-glove service for rental turnovers
-              </span>
+              <Star className="w-5 h-5 text-gold-400" />
+              Property Management
             </Link>
           </motion.div>
 
-          {/* Prominent Call or Text CTA */}
+          {/* Contact Options */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
             className="mt-10 md:mt-12"
           >
-            {/* Same-Day Service Badge */}
-            <div className="flex items-center justify-center gap-2 mb-4">
-              <div className="flex items-center gap-1.5 px-4 py-2 bg-emerald-500/20 border-2 border-emerald-400 rounded-full">
-                <Clock className="w-4 h-4 text-emerald-300" />
-                <span className="text-emerald-300 font-bold text-sm uppercase tracking-wide">Same-Day Service Available</span>
-              </div>
-            </div>
-
-            {/* Large Phone Number Display */}
+            {/* Phone Number */}
             <div className="text-center mb-6">
-              <div className="text-white/70 text-sm uppercase tracking-widest mb-2">Call or Text for Quote</div>
+              <div className="text-white/60 text-sm mb-2">Call or Text</div>
               <a
                 href={`tel:${PHONE_NUMBER}`}
-                className="text-4xl md:text-5xl font-bold text-white hover:text-emerald-300 transition-colors"
+                className="text-3xl md:text-4xl font-bold text-white hover:text-seafoam-300 transition-colors"
               >
                 {FORMATTED_PHONE}
               </a>
             </div>
 
             {/* Call/Text Buttons */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-2xl mx-auto">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-lg mx-auto">
               <a
                 href={`tel:${PHONE_NUMBER}`}
-                className="relative w-full sm:flex-1 group"
+                className="w-full sm:flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded-lg font-semibold hover:bg-white/20 transition-all"
                 data-cta
               >
-                {/* Pulse animation */}
-                <div className="absolute -inset-1 bg-emerald-400 rounded-2xl blur-lg opacity-70 group-hover:opacity-100 transition-opacity animate-pulse"></div>
-                <div className="relative flex items-center justify-center gap-3 px-8 py-5 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white rounded-xl font-bold text-xl shadow-xl transition-all hover:scale-105">
-                  <Phone className="w-6 h-6" />
-                  <span>Call Now</span>
-                </div>
+                <Phone className="w-5 h-5" />
+                <span>Call Now</span>
               </a>
 
               <a
                 href={getSMSLink(PHONE_NUMBER, "Hi, I need a quote for junk removal")}
-                className="w-full sm:flex-1 group relative"
+                className="w-full sm:flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded-lg font-semibold hover:bg-white/20 transition-all"
                 data-cta
               >
-                <div className="absolute -inset-1 bg-orange-400 rounded-2xl blur-lg opacity-70 group-hover:opacity-100 transition-opacity"></div>
-                <div className="relative flex items-center justify-center gap-3 px-8 py-5 bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-xl font-bold text-xl shadow-xl transition-all hover:scale-105">
-                  <MessageCircle className="w-6 h-6" />
-                  <span>Text for Quote</span>
-                </div>
+                <MessageCircle className="w-5 h-5" />
+                <span>Text for Quote</span>
               </a>
+            </div>
+
+            {/* Same-Day Badge */}
+            <div className="flex items-center justify-center gap-2 mt-6">
+              <Clock className="w-4 h-4 text-emerald-400" />
+              <span className="text-emerald-400 text-sm font-medium">Same-Day Service Available</span>
             </div>
           </motion.div>
 
