@@ -281,3 +281,4 @@ export function PricingTable() {
       </div>
     </section>
   )
+}

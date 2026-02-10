@@ -258,6 +258,7 @@ const colorMap = {
     text: 'text-seafoam-600',
     activeBg: 'bg-seafoam-100',
   },
+}
 
 // Helper function to convert React nodes to plain text for schema
 function getPlainTextAnswer(answer: string | React.ReactNode): string {

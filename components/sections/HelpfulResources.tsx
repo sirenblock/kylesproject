@@ -100,6 +100,7 @@ export function HelpfulResources({
       </div>
     </section>
   )
+}
 
 interface ResourcesSidebarProps {
   links: ExternalLink[]
