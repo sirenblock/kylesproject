@@ -213,6 +213,7 @@ export function QuoteCalculator() {
         ? prev.filter(id => id !== itemId)
         : [...prev, itemId]
     )
+  }
 
   const hasConstructionItems = selectedItems.some(id =>
     constructionItemsList.some(item => item.id === id)
