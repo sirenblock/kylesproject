@@ -1,6 +1,6 @@
 'use client'
 
-import { motion } from 'framer-motion'
+// Animations removed for performance
 import Link from 'next/link'
 import { MapPin, Check } from 'lucide-react'
 import dynamic from 'next/dynamic'
@@ -40,22 +40,16 @@ export function ServiceArea() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Interactive Map */}
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+          <div
             className="relative"
           >
             <div style={{ height: '500px' }}>
               <CoverageMap />
             </div>
-          </motion.div>
+          </div>
 
           {/* Content */}
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+          <div
           >
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 mb-4">
               Proudly Serving 30A
@@ -68,12 +62,8 @@ export function ServiceArea() {
             {/* Communities Grid */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {communities.map((community, index) => (
-                <motion.div
+                <div
                   key={community.slug}
-                  initial={{ opacity: 0, y: 10 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.03 }}
                 >
                   <Link
                     href={`/service-areas/${community.slug}`}
@@ -84,7 +74,7 @@ export function ServiceArea() {
                       {community.name}
                     </span>
                   </Link>
-                </motion.div>
+                </div>
               ))}
             </div>
 
@@ -95,9 +85,8 @@ export function ServiceArea() {
                 Give us a call! We're happy to help and may be able to accommodate areas outside our typical service zone.
               </p>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>
   )
-}

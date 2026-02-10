@@ -5,7 +5,6 @@ import { Phone, MapPin, CheckCircle, Clock, Shield, Camera, ArrowRight } from 'l
 import { getLocation, getLocationFAQs, getAllLocationSlugs, getNearbyLocations } from '@/lib/locations'
 import { FORMATTED_PHONE, PHONE_NUMBER, getSMSLink } from '@/lib/utils'
 import { BreadcrumbSchema, FAQSchema } from '@/components/seo/StructuredData'
-import { LocationBusinessSchema } from '@/components/seo/LocationBusinessSchema'
 import { ServicesGrid } from '@/components/sections/ServicesGrid'
 import { HowItWorks } from '@/components/sections/HowItWorks'
 import { Testimonials } from '@/components/sections/Testimonials'
@@ -90,15 +89,6 @@ export default async function LocationPage({ params }: Props) {
 
   return (
     <div className="min-h-screen">
-      {/* Relester Method: LocalBusiness schema for local search */}
-      <LocationBusinessSchema
-        locationName={location.name}
-        locationSlug={slug}
-        description={location.description}
-        latitude={location.coordinates?.lat}
-        longitude={location.coordinates?.lng}
-      />
-
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },
@@ -112,7 +102,7 @@ export default async function LocationPage({ params }: Props) {
       <UrgencyBadge variant="banner" type="serving-today" location={location.name} />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-800 text-white py-16 sm:py-20 lg:py-24">
+      <section className="-mt-20 pt-32 pb-16 sm:pb-20 lg:pb-24 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-800 text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <div className="flex items-center gap-3 mb-4 flex-wrap">

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { motion, AnimatePresence } from 'framer-motion'
+// Animations removed for performance
 import { Menu, X, Phone, MessageCircle, Truck, Sparkles } from 'lucide-react'
 import { cn, FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 
@@ -21,15 +21,12 @@ export function Header() {
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20)
-    }
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
   return (
-    <motion.header
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
+    <header
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
         scrolled ? 'pt-3 pb-3' : 'pt-4 pb-4'
@@ -101,59 +98,43 @@ export function Header() {
               </div>
 
               {/* Mobile Menu Button */}
-              <motion.button
-                whileTap={{ scale: 0.95 }}
+              <button
                 type="button"
                 className="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-xl text-slate-600 hover:bg-ocean-50 hover:text-ocean-600 transition-colors"
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               >
                 <span className="sr-only">Open main menu</span>
-                <AnimatePresence mode="wait">
+                
                   {mobileMenuOpen ? (
-                    <motion.div
+                    <div
                       key="close"
-                      initial={{ rotate: -90, opacity: 0 }}
-                      animate={{ rotate: 0, opacity: 1 }}
-                      exit={{ rotate: 90, opacity: 0 }}
-                      transition={{ duration: 0.2 }}
                     >
                       <X className="h-6 w-6" />
-                    </motion.div>
+                    </div>
                   ) : (
-                    <motion.div
+                    <div
                       key="menu"
-                      initial={{ rotate: 90, opacity: 0 }}
-                      animate={{ rotate: 0, opacity: 1 }}
-                      exit={{ rotate: -90, opacity: 0 }}
-                      transition={{ duration: 0.2 }}
                     >
                       <Menu className="h-6 w-6" />
-                    </motion.div>
+                    </div>
                   )}
-                </AnimatePresence>
-              </motion.button>
+                
+              </button>
             </div>
           </nav>
         </div>
 
         {/* Mobile Menu */}
-        <AnimatePresence>
+        
           {mobileMenuOpen && (
-            <motion.div
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.2 }}
+            <div
               className="lg:hidden mt-2 mx-4 sm:mx-6"
             >
               <div className="rounded-2xl bg-white/80 backdrop-blur-xl shadow-xl border border-slate-200/50 overflow-hidden">
                 <div className="p-4 space-y-1">
                   {navigation.map((item, index) => (
-                    <motion.div
+                    <div
                       key={item.name}
-                      initial={{ opacity: 0, x: -20 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: index * 0.05 }}
                     >
                       <Link
                         href={item.href}
@@ -162,7 +143,7 @@ export function Header() {
                       >
                         {item.name}
                       </Link>
-                    </motion.div>
+                    </div>
                   ))}
 
                   <div className="pt-4 mt-4 border-t border-slate-200/50 space-y-2">
@@ -202,9 +183,8 @@ export function Header() {
                   </div>
                 </div>
               </div>
-            </motion.div>
+            </div>
           )}
-        </AnimatePresence>
-      </motion.header>
+        
+      </header>
   )
-}

@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useMemo } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+// Animations removed for performance
 import {
   Truck,
   Sofa,
@@ -59,7 +59,6 @@ const itemIcons: Record<string, typeof Sofa> = {
   lumber: Hammer,
   concrete: Hammer,
   mixed: Hammer,
-}
 
 type TabType = 'volume' | 'items'
 
@@ -81,10 +80,8 @@ const TruckVisualization = React.memo(({ fillPercentage, isConstruction }: { fil
           />
 
           {/* Fill level with simple animation */}
-          <motion.div
-            initial={{ height: 0 }}
-            animate={{ height: `${fillPercentage}%` }}
-            transition={{ duration: 0.5, ease: "easeOut" }}
+          <div
+%` }}
             className={cn(
               "absolute bottom-0 left-0 right-0",
               isConstruction
@@ -180,32 +177,25 @@ export function QuoteCalculator() {
         }, 3000)
       } else {
         alert('Failed to submit. Please try texting photos instead.')
-      }
     } catch (error) {
       console.error('Submit error:', error)
       alert('Failed to submit. Please try texting photos instead.')
     } finally {
       setIsSubmittingPhotos(false)
-    }
-  }
 
   const estimate = useMemo(() => {
     if (activeTab === 'volume' && selectedVolume) {
       return calculateEstimate([], selectedVolume)
-    }
     if (activeTab === 'items' && selectedItems.length > 0) {
       return calculateEstimate(selectedItems)
-    }
     return null
   }, [activeTab, selectedVolume, selectedItems])
 
   const fillPercentage = useMemo((): number => {
     if (activeTab === 'volume' && selectedVolume) {
       return volumeOptions.find(v => v.value === selectedVolume)?.fill ?? 0
-    }
     if (estimate && 'volumePercentage' in estimate && typeof estimate.volumePercentage === 'number') {
       return estimate.volumePercentage
-    }
     return 0
   }, [activeTab, selectedVolume, estimate])
 
@@ -215,7 +205,6 @@ export function QuoteCalculator() {
         ? prev.filter(id => id !== itemId)
         : [...prev, itemId]
     )
-  }
 
   const hasConstructionItems = selectedItems.some(id =>
     constructionItemsList.some(item => item.id === id)
@@ -232,42 +221,28 @@ export function QuoteCalculator() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12 md:mb-16">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+          <div
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-ocean-100 text-ocean-700 text-sm font-medium mb-4"
           >
             <Zap className="w-4 h-4" />
             Instant Pricing
-          </motion.div>
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+          </div>
+          <h2
             className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-800"
           >
             Get Your{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-ocean-500 to-seafoam-500">
               Instant Quote
             </span>
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
+          </h2>
+          <p
             className="mt-4 text-lg md:text-xl text-slate-600 max-w-2xl mx-auto"
           >
             How much junk do you have? Get your price in seconds.
-          </motion.p>
+          </p>
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.2 }}
+        <div
           className="relative"
         >
           {/* Main card with gradient border */}
@@ -290,8 +265,8 @@ export function QuoteCalculator() {
                 <Truck className="w-5 h-5" />
                 <span>Select by Volume</span>
                 {activeTab === 'volume' && (
-                  <motion.div
-                    layoutId="activeTab"
+                  <div
+
                     className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-ocean-400 to-seafoam-400"
                   />
                 )}
@@ -311,8 +286,8 @@ export function QuoteCalculator() {
                 <Package className="w-5 h-5" />
                 <span>Select by Items</span>
                 {activeTab === 'items' && (
-                  <motion.div
-                    layoutId="activeTab"
+                  <div
+
                     className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-ocean-400 to-seafoam-400"
                   />
                 )}
@@ -323,21 +298,15 @@ export function QuoteCalculator() {
               <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
                 {/* Left: Selection Area */}
                 <div>
-                  <AnimatePresence mode="wait">
+                  
                     {activeTab === 'volume' ? (
-                      <motion.div
+                      <div
                         key="volume"
-                        initial={{ opacity: 0, x: -20 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        exit={{ opacity: 0, x: 20 }}
                         className="space-y-4"
                       >
                         {volumeOptions.map((option, index) => (
-                          <motion.button
+                          <button
                             key={option.value}
-                            initial={{ opacity: 0, y: 10 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: index * 0.05 }}
                             onClick={() => setSelectedVolume(option.value)}
                             className={cn(
                               "w-full flex items-center justify-between p-4 md:p-5 rounded-2xl border-2 transition-all text-left group",
@@ -356,13 +325,10 @@ export function QuoteCalculator() {
                                 )}
                               >
                                 {selectedVolume === option.value && (
-                                  <motion.div
-                                    initial={{ scale: 0 }}
-                                    animate={{ scale: 1 }}
-                                    transition={{ type: "spring", stiffness: 500 }}
+                                  <div
                                   >
                                     <Check className="w-4 h-4 text-white" />
-                                  </motion.div>
+                                  </div>
                                 )}
                               </div>
                               <div>
@@ -380,14 +346,11 @@ export function QuoteCalculator() {
                             )}>
                               ${standardPricing[option.value].min}-${standardPricing[option.value].max}
                             </span>
-                          </motion.button>
+                          </button>
                         ))}
 
                         {/* Construction Debris Option */}
-                        <motion.button
-                          initial={{ opacity: 0, y: 10 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          transition={{ delay: 0.2 }}
+                        <button
                           onClick={() => {
                             setActiveTab('items')
                             setSelectedVolume(null)
@@ -410,14 +373,11 @@ export function QuoteCalculator() {
                           <span className="text-lg font-bold text-gold-600">
                             $600+
                           </span>
-                        </motion.button>
-                      </motion.div>
+                        </button>
+                      </div>
                     ) : (
-                      <motion.div
+                      <div
                         key="items"
-                        initial={{ opacity: 0, x: -20 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        exit={{ opacity: 0, x: 20 }}
                         className="space-y-6"
                       >
                         {/* Household Items */}
@@ -431,9 +391,8 @@ export function QuoteCalculator() {
                               const Icon = itemIcons[item.id] || Package
                               const isSelected = selectedItems.includes(item.id)
                               return (
-                                <motion.button
+                                <button
                                   key={item.id}
-                                  whileTap={{ scale: 0.98 }}
                                   onClick={() => toggleItem(item.id)}
                                   className={cn(
                                     "flex items-center gap-3 p-3 md:p-4 rounded-xl border-2 transition-all text-left",
@@ -461,7 +420,7 @@ export function QuoteCalculator() {
                                   >
                                     {item.name}
                                   </span>
-                                </motion.button>
+                                </button>
                               )
                             })}
                           </div>
@@ -478,9 +437,8 @@ export function QuoteCalculator() {
                               const Icon = itemIcons[item.id] || Package
                               const isSelected = selectedItems.includes(item.id)
                               return (
-                                <motion.button
+                                <button
                                   key={item.id}
-                                  whileTap={{ scale: 0.98 }}
                                   onClick={() => toggleItem(item.id)}
                                   className={cn(
                                     "flex items-center gap-3 p-3 md:p-4 rounded-xl border-2 transition-all text-left",
@@ -508,7 +466,7 @@ export function QuoteCalculator() {
                                   >
                                     {item.name}
                                   </span>
-                                </motion.button>
+                                </button>
                               )
                             })}
                           </div>
@@ -525,9 +483,8 @@ export function QuoteCalculator() {
                               const Icon = itemIcons[item.id] || Hammer
                               const isSelected = selectedItems.includes(item.id)
                               return (
-                                <motion.button
+                                <button
                                   key={item.id}
-                                  whileTap={{ scale: 0.98 }}
                                   onClick={() => toggleItem(item.id)}
                                   className={cn(
                                     "flex items-center gap-3 p-3 md:p-4 rounded-xl border-2 transition-all text-left",
@@ -555,14 +512,14 @@ export function QuoteCalculator() {
                                   >
                                     {item.name}
                                   </span>
-                                </motion.button>
+                                </button>
                               )
                             })}
                           </div>
                         </div>
-                      </motion.div>
+                      </div>
                     )}
-                  </AnimatePresence>
+                  
                 </div>
 
                 {/* Right: Truck Visualization & Quote */}
@@ -576,12 +533,9 @@ export function QuoteCalculator() {
                   </div>
 
                   {/* Quote Display */}
-                  <AnimatePresence mode="wait">
+                  
                     {estimate && (
-                      <motion.div
-                        initial={{ opacity: 0, y: 20, scale: 0.95 }}
-                        animate={{ opacity: 1, y: 0, scale: 1 }}
-                        exit={{ opacity: 0, y: -20, scale: 0.95 }}
+                      <div
                         className={cn(
                           "rounded-2xl p-6 md:p-8 text-center relative overflow-hidden",
                           estimate.requiresCustomQuote
@@ -597,17 +551,15 @@ export function QuoteCalculator() {
                           <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-2">
                             Your Estimate
                           </p>
-                          <motion.p
+                          <p
                             key={estimate.range}
-                            initial={{ scale: 0.5, opacity: 0 }}
-                            animate={{ scale: 1, opacity: 1 }}
                             className={cn(
                               "text-5xl md:text-6xl font-bold",
                               estimate.requiresCustomQuote ? "text-gold-600" : "text-ocean-600"
                             )}
                           >
                             {estimate.range}
-                          </motion.p>
+                          </p>
 
                           {estimate.requiresCustomQuote ? (
                             <>
@@ -648,12 +600,10 @@ export function QuoteCalculator() {
                                     >
                                       {isSubmittingPhotos ? (
                                         <>
-                                          <motion.div
-                                            animate={{ rotate: 360 }}
-                                            transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
+                                          <div
                                           >
                                             <Zap className="w-5 h-5" />
-                                          </motion.div>
+                                          </div>
                                           Sending Photos...
                                         </>
                                       ) : (
@@ -693,9 +643,9 @@ export function QuoteCalculator() {
                             </div>
                           )}
                         </div>
-                      </motion.div>
+                      </div>
                     )}
-                  </AnimatePresence>
+                  
 
                   {!estimate && (
                     <div className="rounded-2xl p-8 text-center bg-gradient-to-br from-sand-50 to-sand-100 border-2 border-dashed border-sand-300">
@@ -711,14 +661,10 @@ export function QuoteCalculator() {
               </div>
             </div>
           </div>
-        </motion.div>
+        </div>
 
         {/* Phone CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.3 }}
+        <div
           className="mt-10 text-center"
         >
           <div className="inline-flex flex-wrap items-center justify-center gap-4 px-6 py-4 rounded-full glass">
@@ -739,8 +685,7 @@ export function QuoteCalculator() {
               Text Us
             </a>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   )
-}

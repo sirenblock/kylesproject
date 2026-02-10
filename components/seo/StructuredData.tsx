@@ -2,98 +2,7 @@ import { PHONE_NUMBER } from '@/lib/utils'
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://30ajunkremoval.com'
 
-export function LocalBusinessSchema() {
-  const schema = {
-    '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    '@id': `${siteUrl}/#localbusiness`,
-    name: '30A Junk Removal',
-    description: 'Premium junk removal services for 30A Florida. From quick truck loads to full estate cleanouts.',
-    url: siteUrl,
-    telephone: `+1${PHONE_NUMBER}`,
-    email: '30apcbjunkremoval@gmail.com',
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Santa Rosa Beach',
-      addressRegion: 'FL',
-      addressCountry: 'US',
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: 30.3831,
-      longitude: -86.2277,
-    },
-    areaServed: [
-      { '@type': 'City', name: 'Seaside', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Rosemary Beach', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Alys Beach', addressRegion: 'FL' },
-      { '@type': 'City', name: 'WaterColor', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Grayton Beach', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Santa Rosa Beach', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Inlet Beach', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Seacrest', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Destin', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Panama City Beach', addressRegion: 'FL' },
-    ],
-    openingHoursSpecification: [
-      {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-        opens: '07:00',
-        closes: '18:00',
-      },
-    ],
-    priceRange: '$150-$1200',
-    paymentAccepted: ['Cash', 'Credit Card', 'Venmo', 'Zelle'],
-    currenciesAccepted: 'USD',
-    sameAs: [],
-    hasOfferCatalog: {
-      '@type': 'OfferCatalog',
-      name: 'Junk Removal Services',
-      itemListElement: [
-        {
-          '@type': 'Offer',
-          itemOffered: {
-            '@type': 'Service',
-            name: 'One-Time Junk Removal',
-            description: 'Quick junk removal for any size job',
-          },
-        },
-        {
-          '@type': 'Offer',
-          itemOffered: {
-            '@type': 'Service',
-            name: 'Construction Debris Removal',
-            description: 'Renovation and construction cleanup',
-          },
-        },
-        {
-          '@type': 'Offer',
-          itemOffered: {
-            '@type': 'Service',
-            name: 'Property Management Services',
-            description: 'White-glove service for vacation rentals and estates',
-          },
-        },
-        {
-          '@type': 'Offer',
-          itemOffered: {
-            '@type': 'Service',
-            name: 'Estate Cleanouts',
-            description: 'Complete clearing of homes and estates',
-          },
-        },
-      ],
-    },
-  }
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  )
-}
+// LocalBusinessSchema removed due to validation issues
 
 export function ServiceSchema({
   name,
@@ -110,11 +19,6 @@ export function ServiceSchema({
     name,
     description,
     url: `${siteUrl}${url}`,
-    provider: {
-      '@type': 'LocalBusiness',
-      '@id': `${siteUrl}/#localbusiness`,
-      name: '30A Junk Removal',
-    },
     areaServed: {
       '@type': 'State',
       name: 'Florida',
@@ -197,11 +101,6 @@ export function ArticleSchema({
   const authorSchema = {
     '@type': 'Person',
     name: author,
-    memberOf: {
-      '@type': 'Organization',
-      '@id': `${siteUrl}/#organization`,
-      name: '30A Junk Removal'
-    }
   }
 
   const schema = {
@@ -215,15 +114,6 @@ export function ArticleSchema({
     image: {
       '@type': 'ImageObject',
       url: `${siteUrl}${image}`
-    },
-    publisher: {
-      '@type': 'Organization',
-      '@id': `${siteUrl}/#organization`,
-      name: '30A Junk Removal',
-      logo: {
-        '@type': 'ImageObject',
-        url: `${siteUrl}/logo.png`
-      }
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
@@ -239,75 +129,7 @@ export function ArticleSchema({
   )
 }
 
-export function OrganizationSchema() {
-  const schema = {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    '@id': `${siteUrl}/#organization`,
-    name: '30A Junk Removal',
-    alternateName: ['30A PCB Junk Removal', '30A Junk Removal Service'],
-    description: 'Premium junk removal services for 30A Florida. From quick truck loads to full estate cleanouts, we serve all communities along the Emerald Coast.',
-    url: siteUrl,
-    logo: {
-      '@type': 'ImageObject',
-      url: `${siteUrl}/logo.png`,
-      width: 600,
-      height: 60
-    },
-    image: `${siteUrl}/logo.png`,
-    telephone: `+1${PHONE_NUMBER}`,
-    email: '30apcbjunkremoval@gmail.com',
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Santa Rosa Beach',
-      addressRegion: 'FL',
-      addressCountry: 'US',
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: 30.3831,
-      longitude: -86.2277,
-    },
-    areaServed: [
-      { '@type': 'City', name: 'Seaside', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Rosemary Beach', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Alys Beach', addressRegion: 'FL' },
-      { '@type': 'City', name: 'WaterColor', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Grayton Beach', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Santa Rosa Beach', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Inlet Beach', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Seacrest', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Blue Mountain Beach', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Seagrove Beach', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Destin', addressRegion: 'FL' },
-      { '@type': 'City', name: 'Panama City Beach', addressRegion: 'FL' },
-    ],
-    sameAs: [
-      // Add social media profiles when available
-      // 'https://www.facebook.com/30ajunkremoval',
-      // 'https://www.instagram.com/30ajunkremoval',
-    ],
-    foundingDate: '2020',
-    slogan: 'Premium junk removal services for 30A beach communities',
-    knowsAbout: [
-      'Junk Removal',
-      'Construction Debris Removal',
-      'Estate Cleanouts',
-      'Vacation Rental Services',
-      'Furniture Removal',
-      'Appliance Removal',
-      'Hot Tub Removal',
-      'Property Management Services'
-    ]
-  }
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  )
-}
+// OrganizationSchema removed due to validation issues
 
 export function HowToSchema({
   name,
@@ -347,19 +169,6 @@ export function HowToSchema({
 }
 
 export function ReviewSchema() {
-  // Minimal schema without fake reviews - can be populated with real reviews later
-  // This component is kept for backwards compatibility but renders minimal schema
-  const schema = {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    '@id': `${siteUrl}/#organization`,
-    name: '30A Junk Removal'
-  }
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  )
+  // ReviewSchema removed - no longer rendering Organization schema
+  return null
 }

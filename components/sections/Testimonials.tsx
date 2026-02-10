@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+// Animations removed for performance
 import { Star, ChevronLeft, ChevronRight, Quote, MapPin, CheckCircle, Truck } from 'lucide-react'
 
 const testimonials = [
@@ -104,51 +104,26 @@ export function Testimonials() {
     setCurrentIndex((prev) => (prev + 1) % testimonials.length)
   }
 
-  // Generate schema markup for testimonials - minimal version without fake aggregate ratings
-  const generateSchemaMarkup = () => {
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://30ajunkremoval.com'
-
-    const schema = {
-      '@context': 'https://schema.org',
-      '@type': 'Organization',
-      '@id': `${siteUrl}/#organization`,
-      name: '30A Junk Removal'
-    }
-
-    return schema
-  }
-
   return (
     <section className="py-16 md:py-24 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 overflow-hidden relative">
-      {/* Schema Markup */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateSchemaMarkup()) }}
-      />
 
       <div className="relative mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-10 md:mb-14">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+          <div
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm text-white/90 text-sm font-medium mb-4 border border-white/10"
           >
             <Star className="w-4 h-4 text-gold-400 fill-gold-400" />
             Highly Rated
-          </motion.div>
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+          </div>
+          <h2
             className="text-3xl sm:text-4xl md:text-5xl font-bold text-white"
           >
             What Our{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-seafoam-300 to-ocean-300">
               Customers Say
             </span>
-          </motion.h2>
+          </h2>
         </div>
 
         {/* Testimonial Carousel */}
@@ -164,13 +139,9 @@ export function Testimonials() {
             <div className="absolute -inset-1 bg-gradient-to-r from-seafoam-400/20 via-ocean-400/20 to-seafoam-400/20 rounded-3xl blur-lg opacity-50" />
 
             <div className="relative glass-dark rounded-2xl md:rounded-3xl p-6 sm:p-10 md:p-14 min-h-[300px] md:min-h-[320px] flex items-center">
-              <AnimatePresence mode="wait">
-                <motion.div
+              
+                <div
                   key={currentIndex}
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  transition={{ duration: 0.3 }}
                   className="text-center w-full"
                 >
                   {/* Stars */}
@@ -208,8 +179,8 @@ export function Testimonials() {
                     </div>
                     <p className="text-sm text-ocean-300 mt-2">{testimonials[currentIndex].date}</p>
                   </div>
-                </motion.div>
-              </AnimatePresence>
+                </div>
+              
             </div>
           </div>
 
@@ -251,4 +222,3 @@ export function Testimonials() {
       </div>
     </section>
   )
-}

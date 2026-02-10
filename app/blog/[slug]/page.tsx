@@ -96,8 +96,8 @@ export default async function BlogPostPage({ params }: Props) {
       />
 
       {/* Header */}
-      <header className="bg-gradient-to-br from-slate-50 to-white border-b-2 border-slate-200">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12">
+      <header className="-mt-20 pt-32 pb-12 bg-gradient-to-br from-slate-50 to-white border-b-2 border-slate-200">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-4 mb-8 text-sm">
             <Link
               href="/blog"

@@ -107,6 +107,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Prevent flicker during initial hydration */
+body:not(.loaded) * {
+  animation-duration: 0s !important;
+  transition-duration: 0s !important;
+}
+
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;

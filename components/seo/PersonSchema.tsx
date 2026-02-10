@@ -11,10 +11,6 @@ export function PersonSchema() {
     url: config.siteUrl,
     image: `${config.siteUrl}/logo.svg`,
     jobTitle: config.ownerTitle,
-    worksFor: {
-      '@type': 'Organization',
-      name: config.businessName,
-    },
   }
 
   return (

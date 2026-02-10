@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+// Animations removed for performance
 import Link from 'next/link'
 import { ChevronDown, Camera, MessageCircle, HelpCircle, Truck, Check, Sparkles } from 'lucide-react'
 import { standardPricing, FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
@@ -61,42 +61,29 @@ export function PricingTable() {
       <div className="relative mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12 md:mb-16">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+          <div
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-ocean-100 text-ocean-700 text-sm font-medium mb-4"
           >
             <Check className="w-4 h-4" />
             No Hidden Fees
-          </motion.div>
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+          </div>
+          <h2
             className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-800"
           >
             Volume-Based{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-ocean-500 to-seafoam-500">
               Pricing Guide
             </span>
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
+          </h2>
+          <p
             className="mt-4 text-lg md:text-xl text-slate-600"
           >
             No surprises. Just honest pricing based on truck volume.
-          </motion.p>
+          </p>
         </div>
 
         {/* Desktop Pricing Table */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+        <div
           className="hidden md:block"
         >
           <div className="relative">
@@ -117,12 +104,8 @@ export function PricingTable() {
 
               {/* Table Rows */}
               {pricingRows.map((row, index) => (
-                <motion.div
+                <div
                   key={row.volume}
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.05 }}
                   className={`grid grid-cols-12 items-center transition-colors hover:bg-sand-50/80 ${
                     index % 2 === 0 ? 'bg-white' : 'bg-sand-50/50'
                   } ${row.isConstruction ? 'bg-gradient-to-r from-gold-50 to-amber-50 border-t-2 border-gold-200 hover:from-gold-100 hover:to-amber-100' : ''}`}
@@ -138,11 +121,8 @@ export function PricingTable() {
                   <div className="col-span-4 px-6 py-5 text-slate-600">{row.perfectFor}</div>
                   <div className="col-span-2 px-6 py-5">
                     <div className="w-full h-3 bg-sand-200 rounded-full overflow-hidden">
-                      <motion.div
-                        initial={{ width: 0 }}
-                        whileInView={{ width: `${row.fill}%` }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.8, delay: index * 0.1 }}
+                      <div
+%` }}
                         className={`h-full rounded-full ${
                           row.isConstruction
                             ? 'bg-gradient-to-r from-gold-400 to-amber-500'
@@ -151,26 +131,19 @@ export function PricingTable() {
                       />
                     </div>
                   </div>
-                </motion.div>
+                </div>
               ))}
             </div>
           </div>
-        </motion.div>
+        </div>
 
         {/* Mobile Pricing Cards */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+        <div
           className="md:hidden space-y-4"
         >
           {pricingRows.map((row, index) => (
-            <motion.div
+            <div
               key={row.volume}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.05 }}
               className={`relative rounded-2xl p-5 border-2 overflow-hidden ${
                 row.isConstruction
                   ? 'border-gold-300 bg-gradient-to-br from-gold-50 to-amber-50'
@@ -179,11 +152,8 @@ export function PricingTable() {
             >
               {/* Fill indicator bar */}
               <div className="absolute top-0 left-0 right-0 h-1">
-                <motion.div
-                  initial={{ width: 0 }}
-                  whileInView={{ width: `${row.fill}%` }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8 }}
+                <div
+%` }}
                   className={`h-full ${
                     row.isConstruction
                       ? 'bg-gradient-to-r from-gold-400 to-amber-500'
@@ -209,15 +179,12 @@ export function PricingTable() {
                   </p>
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
 
         {/* Construction Debris Accordion */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+        <div
           className="mt-6 bg-white rounded-xl shadow-md border border-gold-200 overflow-hidden"
         >
           <button
@@ -237,12 +204,9 @@ export function PricingTable() {
             />
           </button>
 
-          <AnimatePresence>
+          
             {isExpanded && (
-              <motion.div
-                initial={{ height: 0, opacity: 0 }}
-                animate={{ height: 'auto', opacity: 1 }}
-                exit={{ height: 0, opacity: 0 }}
+              <div
                 className="border-t border-gold-200"
               >
                 <div className="px-6 py-4 space-y-4">
@@ -300,10 +264,10 @@ export function PricingTable() {
                     </p>
                   </div>
                 </div>
-              </motion.div>
+              </div>
             )}
-          </AnimatePresence>
-        </motion.div>
+          
+        </div>
 
         {/* CTA */}
         <div className="mt-8 text-center">
@@ -317,4 +281,3 @@ export function PricingTable() {
       </div>
     </section>
   )
-}

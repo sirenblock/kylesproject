@@ -6,7 +6,6 @@ interface HelpfulResourcesProps {
   title?: string
   subtitle?: string
   showIcons?: boolean
-}
 
 export function HelpfulResources({
   links,
@@ -30,8 +29,6 @@ export function HelpfulResources({
         return 'bg-amber-50 text-amber-700 border-amber-200'
       default:
         return 'bg-slate-50 text-slate-700 border-slate-200'
-    }
-  }
 
   const getTypeLabel = (type: ExternalLink['type']) => {
     switch (type) {
@@ -47,8 +44,6 @@ export function HelpfulResources({
         return 'Educational'
       default:
         return 'Resource'
-    }
-  }
 
   return (
     <section className="py-16 bg-white">
@@ -104,13 +99,11 @@ export function HelpfulResources({
       </div>
     </section>
   )
-}
 
 interface ResourcesSidebarProps {
   links: ExternalLink[]
   title?: string
   compact?: boolean
-}
 
 export function ResourcesSidebar({
   links,
@@ -151,4 +144,3 @@ export function ResourcesSidebar({
       </ul>
     </div>
   )
-}

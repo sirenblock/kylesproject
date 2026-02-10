@@ -1,6 +1,6 @@
 'use client'
 
-import { motion } from 'framer-motion'
+// Animations removed for performance
 import Link from 'next/link'
 import { Phone, MessageCircle, ArrowRight, Sparkles, Clock, Truck } from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
@@ -22,44 +22,30 @@ export function CTASection() {
 
       <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
         {/* Badge */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+        <div
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm text-white/90 text-sm font-medium mb-6 border border-white/10"
         >
           <Sparkles className="w-4 h-4 text-seafoam-400" />
           Same-Day Service Available
-        </motion.div>
+        </div>
 
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+        <h2
           className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white leading-tight"
         >
           Ready to{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-seafoam-400 to-ocean-400">
             Clear the Clutter?
           </span>
-        </motion.h2>
+        </h2>
 
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.1 }}
+        <p
           className="mt-6 text-lg md:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed"
         >
           Get your instant quote online or give us a call. We're here 7 days a week to help.
-        </motion.p>
+        </p>
 
         {/* Feature pills */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.15 }}
+        <div
           className="mt-8 flex flex-wrap items-center justify-center gap-3"
         >
           <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/80 text-sm">
@@ -70,14 +56,10 @@ export function CTASection() {
             <Truck className="w-4 h-4 text-ocean-400" />
             Same-day pickup
           </div>
-        </motion.div>
+        </div>
 
         {/* CTA Buttons */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.2 }}
+        <div
           className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <Link
@@ -95,14 +77,10 @@ export function CTASection() {
             <Phone className="w-5 h-5 group-hover:animate-pulse" />
             Call {FORMATTED_PHONE}
           </a>
-        </motion.div>
+        </div>
 
         {/* Text CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.3 }}
+        <div
           className="mt-8"
         >
           <a
@@ -113,8 +91,7 @@ export function CTASection() {
             Or text us for a quick response
             <ArrowRight className="w-4 h-4 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />
           </a>
-        </motion.div>
+        </div>
       </div>
     </section>
   )
-}

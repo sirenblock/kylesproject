@@ -1,6 +1,6 @@
 'use client'
 
-import { motion } from 'framer-motion'
+// Animations removed for performance
 import Link from 'next/link'
 import {
   Truck,
@@ -92,7 +92,6 @@ const colorMap = {
     hover: 'hover:bg-seafoam-100',
     border: 'border-seafoam-200',
   },
-}
 
 export function ServicesGrid() {
   return (
@@ -100,23 +99,16 @@ export function ServicesGrid() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+          <h2
             className="text-3xl sm:text-4xl font-bold text-slate-800"
           >
             Our Services
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
+          </h2>
+          <p
             className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto"
           >
             Whatever you need removed, we've got you covered
-          </motion.p>
+          </p>
         </div>
 
         {/* Grid */}
@@ -125,12 +117,8 @@ export function ServicesGrid() {
             const Icon = service.icon
             const colors = colorMap[service.color as keyof typeof colorMap]
             return (
-              <motion.div
+              <div
                 key={service.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.05 }}
               >
                 <Link
                   href={service.href}
@@ -150,11 +138,10 @@ export function ServicesGrid() {
                     <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </Link>
-              </motion.div>
+              </div>
             )
           })}
         </div>
       </div>
     </section>
   )
-}

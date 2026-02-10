@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+// Animations removed for performance
 import { ChevronDown, Truck, Hammer, Building2 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import Link from 'next/link'
@@ -10,14 +10,12 @@ import Script from 'next/script'
 interface FAQQuestion {
   q: string
   a: string | React.ReactNode
-}
 
 interface FAQCategory {
   title: string
   icon: typeof Truck
   color: 'ocean' | 'gold' | 'seafoam'
   questions: FAQQuestion[]
-}
 
 const faqCategories: FAQCategory[] = [
   {
@@ -258,13 +256,11 @@ const colorMap = {
     text: 'text-seafoam-600',
     activeBg: 'bg-seafoam-100',
   },
-}
 
 // Helper function to convert React nodes to plain text for schema
 function getPlainTextAnswer(answer: string | React.ReactNode): string {
   if (typeof answer === 'string') {
     return answer
-  }
 
   // For React nodes, extract meaningful text without links
   const answerMap: Record<string, string> = {
@@ -282,10 +278,8 @@ function getPlainTextAnswer(answer: string | React.ReactNode): string {
     "Do you provide documentation?": "Yes. We provide before and after photos for every job, detailed invoices, and donation receipts when items are donated to organizations like Goodwill. Perfect for your records and owner reporting.",
     "Can you handle donation pickups?": "Yes! We sort items and donate usable goods on your behalf to local charities. You'll receive tax-deductible donation receipts for everything we donate. Learn more about our estate cleanout services and donation process.",
     "Do you offer invoicing?": "Yes, we can invoice for property management companies. Monthly billing is available for clients with recurring service agreements. Visit our pricing page for more details on our rates and payment options."
-  }
 
   return answerMap[String(answer)] || ''
-}
 
 // Generate FAQ schema from categories
 function generateFAQSchema(categories: FAQCategory[]) {
@@ -296,7 +290,6 @@ function generateFAQSchema(categories: FAQCategory[]) {
       "acceptedAnswer": {
         "@type": "Answer",
         "text": getPlainTextAnswer(q.a)
-      }
     }))
   )
 
@@ -304,15 +297,12 @@ function generateFAQSchema(categories: FAQCategory[]) {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": allQuestions
-  }
-}
 
 export function FAQ() {
   const [openItems, setOpenItems] = useState<Record<string, boolean>>({})
 
   const toggleItem = (key: string) => {
     setOpenItems((prev) => ({ ...prev, [key]: !prev[key] }))
-  }
 
   const faqSchema = generateFAQSchema(faqCategories)
 
@@ -329,23 +319,16 @@ export function FAQ() {
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+          <h2
             className="text-3xl sm:text-4xl font-bold text-slate-800"
           >
             Frequently Asked Questions
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
+          </h2>
+          <p
             className="mt-4 text-lg text-slate-600"
           >
             Got questions? We've got answers.
-          </motion.p>
+          </p>
         </div>
 
         {/* FAQ Categories */}
@@ -355,11 +338,8 @@ export function FAQ() {
             const colors = colorMap[category.color as keyof typeof colorMap]
 
             return (
-              <motion.div
+              <div
                 key={category.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
                 className={`rounded-2xl border ${colors.border} overflow-hidden`}
               >
                 {/* Category Header */}
@@ -390,26 +370,22 @@ export function FAQ() {
                             )}
                           />
                         </button>
-                        <AnimatePresence>
+                        
                           {isOpen && (
-                            <motion.div
-                              initial={{ height: 0, opacity: 0 }}
-                              animate={{ height: 'auto', opacity: 1 }}
-                              exit={{ height: 0, opacity: 0 }}
-                              transition={{ duration: 0.2 }}
+                            <div
                               className="overflow-hidden"
                             >
                               <div className="px-6 pb-4 text-slate-600">
                                 {item.a}
                               </div>
-                            </motion.div>
+                            </div>
                           )}
-                        </AnimatePresence>
+                        
                       </div>
                     )
                   })}
                 </div>
-              </motion.div>
+              </div>
             )
           })}
         </div>
@@ -417,4 +393,3 @@ export function FAQ() {
     </section>
     </>
   )
-}

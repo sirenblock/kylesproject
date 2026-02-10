@@ -5,8 +5,7 @@ import { Header } from "@/components/layout/Header"
 import { Footer } from "@/components/layout/Footer"
 import { MobileCTA } from "@/components/ui/MobileCTA"
 import { SimpleContactBar } from "@/components/ui/SimpleContactBar"
-import { LocalBusinessSchema, OrganizationSchema, ReviewSchema } from "@/components/seo/StructuredData"
-import { CorporationSchema } from "@/components/seo/CorporationSchema"
+import { ReviewSchema } from "@/components/seo/StructuredData"
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics"
 import { FacebookPixel } from "@/components/analytics/FacebookPixel"
 import { GCLIDCapture } from "@/components/analytics/GCLIDCapture"
@@ -77,12 +76,23 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        <LocalBusinessSchema />
-        <OrganizationSchema />
-        <CorporationSchema />
         <ReviewSchema />
       </head>
       <body className="antialiased">
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              // Mark body as loaded after hydration to enable animations
+              if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', () => {
+                  setTimeout(() => document.body.classList.add('loaded'), 100);
+                });
+              } else {
+                setTimeout(() => document.body.classList.add('loaded'), 100);
+              }
+            `,
+          }}
+        />
         <GoogleAnalytics />
         <FacebookPixel />
         <Suspense fallback={null}>
