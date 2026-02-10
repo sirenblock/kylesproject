@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import { useState } from 'react'
 import { X } from 'lucide-react'
 
@@ -26,13 +25,10 @@ export function Gallery({ images }: GalleryProps) {
             onClick={() => setSelectedImage(image)}
             className="relative aspect-square rounded-lg overflow-hidden group cursor-pointer"
           >
-            <Image
+            <img
               src={image.src}
               alt={image.alt}
-              width={800}
-              height={800}
               className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110"
-              sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
             />
             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
               <span className="text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -56,13 +52,10 @@ export function Gallery({ images }: GalleryProps) {
             <X className="w-8 h-8" />
           </button>
           <div className="relative w-full h-full max-w-6xl max-h-[90vh] flex items-center justify-center">
-            <Image
+            <img
               src={selectedImage.src}
               alt={selectedImage.alt}
-              width={1920}
-              height={1080}
               className="object-contain max-w-full max-h-full"
-              sizes="100vw"
             />
           </div>
         </div>
