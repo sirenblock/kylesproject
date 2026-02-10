@@ -312,6 +312,7 @@ export function FAQ() {
 
   const toggleItem = (key: string) => {
     setOpenItems((prev) => ({ ...prev, [key]: !prev[key] }))
+  }
 
   const faqSchema = generateFAQSchema(faqCategories)
 
