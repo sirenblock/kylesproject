@@ -206,6 +206,5 @@ export function Header() {
           )}
         </AnimatePresence>
       </motion.header>
-    </>
   )
 }
