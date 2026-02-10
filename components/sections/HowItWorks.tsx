@@ -169,3 +169,4 @@ export function HowItWorks() {
       </div>
     </section>
   )
+}

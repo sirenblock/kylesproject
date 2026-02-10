@@ -59,6 +59,7 @@ const itemIcons: Record<string, typeof Sofa> = {
   lumber: Hammer,
   concrete: Hammer,
   mixed: Hammer,
+}
 
 type TabType = 'volume' | 'items'
 
@@ -81,7 +82,7 @@ const TruckVisualization = React.memo(({ fillPercentage, isConstruction }: { fil
 
           {/* Fill level with simple animation */}
           <div
-%` }}
+            style={{ height: `${fillPercentage}%` }}
             className={cn(
               "absolute bottom-0 left-0 right-0",
               isConstruction

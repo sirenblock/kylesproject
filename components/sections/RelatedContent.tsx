@@ -8,6 +8,7 @@ interface RelatedServicesProps {
   serviceSlugs: string[]
   title?: string
   subtitle?: string
+}
 
 export function RelatedServices({ serviceSlugs, title = "Related Services", subtitle }: RelatedServicesProps) {
   const services = serviceSlugs.map(slug => getServiceDetail(slug)).filter(Boolean)
@@ -45,12 +46,14 @@ export function RelatedServices({ serviceSlugs, title = "Related Services", subt
       </div>
     </div>
   )
+}
 
 interface RelatedLocationsProps {
   locationSlugs: string[]
   title?: string
   subtitle?: string
   serviceSlug?: string
+}
 
 export function RelatedLocations({ locationSlugs, title = "Nearby Communities", subtitle, serviceSlug }: RelatedLocationsProps) {
   const locations = locationSlugs.map(slug => getLocation(slug)).filter(Boolean)
@@ -92,11 +95,13 @@ export function RelatedLocations({ locationSlugs, title = "Nearby Communities", 
       </div>
     </div>
   )
+}
 
 interface RelatedBlogPostsProps {
   postSlugs: string[]
   title?: string
   subtitle?: string
+}
 
 export function RelatedBlogPosts({ postSlugs, title = "Related Articles", subtitle }: RelatedBlogPostsProps) {
   const posts = postSlugs.map(slug => getBlogPost(slug)).filter(Boolean)
@@ -143,6 +148,7 @@ export function RelatedBlogPosts({ postSlugs, title = "Related Articles", subtit
       )}
     </div>
   )
+}
 
 interface RelatedContentGridProps {
   services?: string[]
@@ -150,6 +156,7 @@ interface RelatedContentGridProps {
   blogPosts?: string[]
   locationContext?: { name: string; slug: string }
   serviceSlug?: string
+}
 
 export function RelatedContentGrid({
   services = [],
@@ -203,3 +210,4 @@ export function RelatedContentGrid({
       </div>
     </section>
   )
+}
