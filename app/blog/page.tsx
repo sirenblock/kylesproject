@@ -98,7 +98,7 @@ export default function BlogPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 md:py-28 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 overflow-hidden">
+      <section className="relative -mt-20 py-20 md:py-28 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 overflow-hidden">
         {/* Background decoration */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-0 left-1/4 w-96 h-96 bg-seafoam-400/20 rounded-full blur-3xl" />
