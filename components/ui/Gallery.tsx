@@ -29,8 +29,9 @@ export function Gallery({ images }: GalleryProps) {
             <Image
               src={image.src}
               alt={image.alt}
-              fill
-              className="object-cover transition-transform duration-300 group-hover:scale-110"
+              width={800}
+              height={800}
+              className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110"
               sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
             />
             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
@@ -54,12 +55,13 @@ export function Gallery({ images }: GalleryProps) {
           >
             <X className="w-8 h-8" />
           </button>
-          <div className="relative w-full h-full max-w-6xl max-h-[90vh]">
+          <div className="relative w-full h-full max-w-6xl max-h-[90vh] flex items-center justify-center">
             <Image
               src={selectedImage.src}
               alt={selectedImage.alt}
-              fill
-              className="object-contain"
+              width={1920}
+              height={1080}
+              className="object-contain max-w-full max-h-full"
               sizes="100vw"
             />
           </div>
