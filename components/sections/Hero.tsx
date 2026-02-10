@@ -46,7 +46,7 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 pb-32 md:pt-12 md:pb-40">
+      <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-24 pb-32 md:pt-28 md:pb-40">
         <div className="text-center">
           {/* Badge with subtle pulse */}
           <motion.div

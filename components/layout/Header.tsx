@@ -28,15 +28,12 @@ export function Header() {
 
   return (
     <>
-      {/* Spacer to prevent content jump */}
-      <div className="h-20" />
-
       <motion.header
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         className={cn(
           'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
-          scrolled ? 'py-3' : 'py-4'
+          scrolled ? 'pt-3 pb-3' : 'pt-4 pb-4'
         )}
       >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -97,12 +94,10 @@ export function Header() {
                 </a>
                 <Link
                   href="/#quote"
-                  className="group relative inline-flex items-center justify-center gap-2 px-5 py-2.5 text-sm font-semibold text-white rounded-full overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg"
+                  className="group relative inline-flex items-center justify-center gap-2 px-5 py-2.5 text-sm font-semibold text-white rounded-full bg-gradient-to-r from-ocean-500 to-ocean-600 hover:from-ocean-600 hover:to-ocean-700 transition-all duration-300 hover:scale-105 hover:shadow-lg"
                 >
-                  <div className="absolute inset-0 bg-gradient-to-r from-ocean-500 via-ocean-600 to-seafoam-600 transition-all" />
-                  <div className="absolute inset-0 bg-gradient-to-r from-ocean-600 via-seafoam-600 to-ocean-500 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <Sparkles className="relative w-4 h-4 group-hover:rotate-12 transition-transform" />
-                  <span className="relative">Get Quote</span>
+                  <Sparkles className="w-4 h-4 group-hover:rotate-12 transition-transform" />
+                  <span>Get Quote</span>
                 </Link>
               </div>
 
