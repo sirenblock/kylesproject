@@ -122,7 +122,7 @@ export function PricingTable() {
                   <div className="col-span-2 px-6 py-5">
                     <div className="w-full h-3 bg-sand-200 rounded-full overflow-hidden">
                       <div
-%` }}
+                        style={{ width: `${row.fill}%` }}
                         className={`h-full rounded-full ${
                           row.isConstruction
                             ? 'bg-gradient-to-r from-gold-400 to-amber-500'

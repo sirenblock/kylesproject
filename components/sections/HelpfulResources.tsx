@@ -6,6 +6,7 @@ interface HelpfulResourcesProps {
   title?: string
   subtitle?: string
   showIcons?: boolean
+}
 
 export function HelpfulResources({
   links,

@@ -10,6 +10,7 @@ import Script from 'next/script'
 interface FAQQuestion {
   q: string
   a: string | React.ReactNode
+}
 
 interface FAQCategory {
   title: string

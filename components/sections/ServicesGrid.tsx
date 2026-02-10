@@ -92,6 +92,7 @@ const colorMap = {
     hover: 'hover:bg-seafoam-100',
     border: 'border-seafoam-200',
   },
+}
 
 export function ServicesGrid() {
   return (
