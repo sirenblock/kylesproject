@@ -296,6 +296,7 @@ function generateFAQSchema(categories: FAQCategory[]) {
       "acceptedAnswer": {
         "@type": "Answer",
         "text": getPlainTextAnswer(q.a)
+      }
     }))
   )
 
@@ -303,6 +304,8 @@ function generateFAQSchema(categories: FAQCategory[]) {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": allQuestions
+  }
+}
 
 export function FAQ() {
   const [openItems, setOpenItems] = useState<Record<string, boolean>>({})
