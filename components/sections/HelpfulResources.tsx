@@ -105,6 +105,7 @@ interface ResourcesSidebarProps {
   links: ExternalLink[]
   title?: string
   compact?: boolean
+}
 
 export function ResourcesSidebar({
   links,

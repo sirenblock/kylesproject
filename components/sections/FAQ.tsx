@@ -17,6 +17,7 @@ interface FAQCategory {
   icon: typeof Truck
   color: 'ocean' | 'gold' | 'seafoam'
   questions: FAQQuestion[]
+}
 
 const faqCategories: FAQCategory[] = [
   {

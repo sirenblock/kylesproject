@@ -153,7 +153,7 @@ export function PricingTable() {
               {/* Fill indicator bar */}
               <div className="absolute top-0 left-0 right-0 h-1">
                 <div
-%` }}
+                  style={{ width: `${row.fill}%` }}
                   className={`h-full ${
                     row.isConstruction
                       ? 'bg-gradient-to-r from-gold-400 to-amber-500'

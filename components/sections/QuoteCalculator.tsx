@@ -178,25 +178,32 @@ export function QuoteCalculator() {
         }, 3000)
       } else {
         alert('Failed to submit. Please try texting photos instead.')
+      }
     } catch (error) {
       console.error('Submit error:', error)
       alert('Failed to submit. Please try texting photos instead.')
     } finally {
       setIsSubmittingPhotos(false)
+    }
+  }
 
   const estimate = useMemo(() => {
     if (activeTab === 'volume' && selectedVolume) {
       return calculateEstimate([], selectedVolume)
+    }
     if (activeTab === 'items' && selectedItems.length > 0) {
       return calculateEstimate(selectedItems)
+    }
     return null
   }, [activeTab, selectedVolume, selectedItems])
 
   const fillPercentage = useMemo((): number => {
     if (activeTab === 'volume' && selectedVolume) {
       return volumeOptions.find(v => v.value === selectedVolume)?.fill ?? 0
+    }
     if (estimate && 'volumePercentage' in estimate && typeof estimate.volumePercentage === 'number') {
       return estimate.volumePercentage
+    }
     return 0
   }, [activeTab, selectedVolume, estimate])
 
