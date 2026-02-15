@@ -1,9 +1,11 @@
 import dynamic from "next/dynamic"
 import { Hero } from "@/components/sections/Hero"
-import { QuoteCalculator } from "@/components/sections/QuoteCalculator"
-import { ServiceCards } from "@/components/sections/ServiceCards"
 import { HowItWorks } from "@/components/sections/HowItWorks"
+import { ServiceCards } from "@/components/sections/ServiceCards"
 
+const QuoteCalculator = dynamic(() =>
+  import("@/components/sections/QuoteCalculator").then((m) => ({ default: m.QuoteCalculator }))
+)
 const Testimonials = dynamic(() =>
   import("@/components/sections/Testimonials").then((m) => ({ default: m.Testimonials }))
 )

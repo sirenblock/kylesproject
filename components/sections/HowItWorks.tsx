@@ -1,6 +1,3 @@
-'use client'
-
-import { motion } from 'framer-motion'
 import { Calculator, Truck, CheckCircle, Calendar, Camera, FileText } from 'lucide-react'
 
 const quickHaulSteps = [
@@ -51,23 +48,14 @@ export function HowItWorks() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-3xl sm:text-4xl font-bold text-slate-800"
-          >
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-800">
             How It Works
-          </motion.h2>
+          </h2>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
           {/* Quick Hauls */}
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-          >
+          <div>
             <div className="text-center lg:text-left mb-8">
               <span className="inline-block px-4 py-1.5 bg-ocean-100 text-ocean-700 rounded-full text-sm font-semibold mb-3">
                 For Quick Hauls
@@ -76,15 +64,11 @@ export function HowItWorks() {
             </div>
 
             <div className="space-y-6">
-              {quickHaulSteps.map((step, index) => {
+              {quickHaulSteps.map((step) => {
                 const Icon = step.icon
                 return (
-                  <motion.div
+                  <div
                     key={step.step}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: index * 0.1 }}
                     className="flex gap-4"
                   >
                     <div className="flex-shrink-0">
@@ -99,18 +83,14 @@ export function HowItWorks() {
                       <h4 className="text-lg font-semibold text-slate-800">{step.title}</h4>
                       <p className="text-slate-600 mt-1">{step.description}</p>
                     </div>
-                  </motion.div>
+                  </div>
                 )
               })}
             </div>
-          </motion.div>
+          </div>
 
           {/* Property Managers */}
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-          >
+          <div>
             <div className="text-center lg:text-left mb-8">
               <span className="inline-block px-4 py-1.5 bg-gold-100 text-gold-700 rounded-full text-sm font-semibold mb-3">
                 For Property Managers
@@ -119,15 +99,11 @@ export function HowItWorks() {
             </div>
 
             <div className="space-y-6">
-              {propertyManagerSteps.map((step, index) => {
+              {propertyManagerSteps.map((step) => {
                 const Icon = step.icon
                 return (
-                  <motion.div
+                  <div
                     key={step.step}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: index * 0.1 }}
                     className="flex gap-4"
                   >
                     <div className="flex-shrink-0">
@@ -142,11 +118,11 @@ export function HowItWorks() {
                       <h4 className="text-lg font-semibold text-slate-800">{step.title}</h4>
                       <p className="text-slate-600 mt-1">{step.description}</p>
                     </div>
-                  </motion.div>
+                  </div>
                 )
               })}
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

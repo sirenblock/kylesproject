@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, Phone, MessageCircle, Truck } from 'lucide-react'
 import { cn, FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 
@@ -88,53 +87,49 @@ export function Header() {
         </div>
       </nav>
 
-      {/* Mobile Menu */}
-      <AnimatePresence>
-        {mobileMenuOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden bg-white border-b border-sand-200"
-          >
-            <div className="px-4 py-4 space-y-2">
-              {navigation.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className="block px-4 py-3 text-base font-medium text-slate-700 hover:bg-sand-50 hover:text-ocean-600 rounded-lg transition-colors"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {item.name}
-                </Link>
-              ))}
-              <div className="pt-4 border-t border-sand-200 space-y-2">
-                <a
-                  href={`tel:${PHONE_NUMBER}`}
-                  className="flex items-center gap-3 px-4 py-3 text-base font-medium text-slate-700 hover:bg-sand-50 rounded-lg"
-                >
-                  <Phone className="w-5 h-5 text-ocean-600" />
-                  Call {FORMATTED_PHONE}
-                </a>
-                <a
-                  href={`sms:${PHONE_NUMBER}`}
-                  className="flex items-center gap-3 px-4 py-3 text-base font-medium text-slate-700 hover:bg-sand-50 rounded-lg"
-                >
-                  <MessageCircle className="w-5 h-5 text-ocean-600" />
-                  Text Us
-                </a>
-                <Link
-                  href="/#quote"
-                  className="block w-full text-center px-4 py-3 text-base font-medium text-white bg-gradient-to-r from-ocean-500 to-ocean-600 rounded-lg"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  Get Instant Quote
-                </Link>
-              </div>
-            </div>
-          </motion.div>
+      {/* Mobile Menu - CSS transition instead of Framer Motion */}
+      <div
+        className={cn(
+          "lg:hidden bg-white border-b border-sand-200 mobile-menu-enter",
+          mobileMenuOpen && "open"
         )}
-      </AnimatePresence>
+      >
+        <div className="px-4 py-4 space-y-2">
+          {navigation.map((item) => (
+            <Link
+              key={item.name}
+              href={item.href}
+              className="block px-4 py-3 text-base font-medium text-slate-700 hover:bg-sand-50 hover:text-ocean-600 rounded-lg transition-colors"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              {item.name}
+            </Link>
+          ))}
+          <div className="pt-4 border-t border-sand-200 space-y-2">
+            <a
+              href={`tel:${PHONE_NUMBER}`}
+              className="flex items-center gap-3 px-4 py-3 text-base font-medium text-slate-700 hover:bg-sand-50 rounded-lg"
+            >
+              <Phone className="w-5 h-5 text-ocean-600" />
+              Call {FORMATTED_PHONE}
+            </a>
+            <a
+              href={`sms:${PHONE_NUMBER}`}
+              className="flex items-center gap-3 px-4 py-3 text-base font-medium text-slate-700 hover:bg-sand-50 rounded-lg"
+            >
+              <MessageCircle className="w-5 h-5 text-ocean-600" />
+              Text Us
+            </a>
+            <Link
+              href="/#quote"
+              className="block w-full text-center px-4 py-3 text-base font-medium text-white bg-gradient-to-r from-ocean-500 to-ocean-600 rounded-lg"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Get Instant Quote
+            </Link>
+          </div>
+        </div>
+      </div>
     </header>
   )
 }
