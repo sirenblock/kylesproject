@@ -3,7 +3,6 @@ import { Suspense } from "react"
 import "./globals.css"
 import { Header } from "@/components/layout/Header"
 import { Footer } from "@/components/layout/Footer"
-import { MobileCTA } from "@/components/ui/MobileCTA"
 import { SimpleContactBar } from "@/components/ui/SimpleContactBar"
 import { ReviewSchema } from "@/components/seo/StructuredData"
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics"
@@ -76,8 +75,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="https://connect.facebook.net" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://connect.facebook.net" />
+        <link rel="preconnect" href="https://maps.googleapis.com" />
         <ReviewSchema />
       </head>
       <body className="antialiased">

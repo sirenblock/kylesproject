@@ -1,5 +1,3 @@
-'use client'
-
 // Animations removed for performance
 import Link from 'next/link'
 import { Phone, MessageCircle, ArrowRight, Sparkles, Clock, Truck } from 'lucide-react'

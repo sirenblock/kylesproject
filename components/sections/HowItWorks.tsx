@@ -1,5 +1,3 @@
-'use client'
-
 // Animations removed for performance
 import Link from 'next/link'
 import { Calculator, Truck, CheckCircle, Calendar, Camera, FileText } from 'lucide-react'

@@ -1,5 +1,3 @@
-'use client'
-
 // Animations removed for performance
 import Link from 'next/link'
 import { Truck, ClipboardCheck, ArrowRight, Check, Sparkles } from 'lucide-react'

@@ -8,7 +8,6 @@ import { HowItWorks } from "@/components/sections/HowItWorks"
 import { LinksSection } from "@/components/seo/LinksSection"
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from "@/lib/seo"
 import { TrustBadges } from "@/components/ui/TrustBadges"
-import { QuickQuoteForm } from "@/components/ui/QuickQuoteForm"
 import { Truck, CheckCircle, Clock, ArrowRight } from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 
@@ -19,6 +18,10 @@ export const metadata: Metadata = {
 }
 
 // Lazy load below-the-fold components for better performance
+const QuickQuoteForm = dynamic(() => import("@/components/ui/QuickQuoteForm").then(mod => ({ default: mod.QuickQuoteForm })), {
+  ssr: true,
+})
+
 const QuoteCalculator = dynamic(() => import("@/components/sections/QuoteCalculator").then(mod => ({ default: mod.QuoteCalculator })), {
   loading: () => <div className="h-screen flex items-center justify-center"><div className="text-slate-600">Loading calculator...</div></div>,
   ssr: true, // Enable SSR for SEO
