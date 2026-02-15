@@ -394,7 +394,7 @@ export function QuoteCalculator() {
                           <h3 className="text-sm font-bold text-slate-700 uppercase tracking-wider mb-3 flex items-center gap-2">
                             <div className="w-2 h-2 rounded-full bg-ocean-500" />
                             Household Items
-                          </h4>
+                          </h3>
                           <div className="grid grid-cols-2 gap-2 md:gap-3">
                             {householdItems.map((item) => {
                               const Icon = itemIcons[item.id] || Package
@@ -440,7 +440,7 @@ export function QuoteCalculator() {
                           <h3 className="text-sm font-bold text-slate-700 uppercase tracking-wider mb-3 flex items-center gap-2">
                             <div className="w-2 h-2 rounded-full bg-seafoam-500" />
                             Outdoor / Yard
-                          </h4>
+                          </h3>
                           <div className="grid grid-cols-2 gap-2 md:gap-3">
                             {outdoorItems.map((item) => {
                               const Icon = itemIcons[item.id] || Package
@@ -486,7 +486,7 @@ export function QuoteCalculator() {
                           <h3 className="text-sm font-bold text-gold-600 uppercase tracking-wider mb-3 flex items-center gap-2">
                             <AlertCircle className="w-4 h-4" />
                             Construction / Renovation
-                          </h4>
+                          </h3>
                           <div className="grid grid-cols-2 gap-2 md:gap-3">
                             {constructionItemsList.map((item) => {
                               const Icon = itemIcons[item.id] || Hammer
