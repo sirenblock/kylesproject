@@ -174,7 +174,7 @@ export function PricingTable() {
                   <p className={`text-2xl font-bold ${row.isConstruction ? 'text-gold-600' : 'text-ocean-600'}`}>
                     {row.range.split('-')[0]}
                   </p>
-                  <p className="text-xs text-slate-400">
+                  <p className="text-xs text-slate-500">
                     to {row.range.split('-')[1]}
                   </p>
                 </div>

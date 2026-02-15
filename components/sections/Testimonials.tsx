@@ -164,7 +164,7 @@ export function Testimonials() {
                       </p>
                     </div>
                     {testimonials[currentIndex].title && (
-                      <p className="text-seafoam-300 font-medium">{testimonials[currentIndex].title}</p>
+                      <p className="text-white/80 font-medium">{testimonials[currentIndex].title}</p>
                     )}
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mt-2 text-white/80">
                       <p className="inline-flex items-center gap-1.5">

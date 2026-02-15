@@ -96,7 +96,7 @@ const TruckVisualization = React.memo(({ fillPercentage, isConstruction }: { fil
             {['Full', '3/4', '1/2', '1/4'].map((label) => (
               <div key={label} className="flex items-center">
                 <div className="w-full border-b border-dashed border-slate-200" />
-                <span className="absolute -left-8 text-xs text-slate-400 font-medium">
+                <span className="absolute -left-8 text-xs text-slate-500 font-medium">
                   {label}
                 </span>
               </div>
@@ -685,7 +685,7 @@ export function QuoteCalculator() {
               <Phone className="w-4 h-4" />
               {FORMATTED_PHONE}
             </a>
-            <span className="text-slate-400 hidden sm:inline">or</span>
+            <span className="text-slate-500 hidden sm:inline">or</span>
             <a
               href={`sms:${PHONE_NUMBER}`}
               className="inline-flex items-center gap-2 px-4 py-2 border-2 border-ocean-500 text-ocean-600 rounded-full font-semibold hover:bg-ocean-50 transition-colors"
