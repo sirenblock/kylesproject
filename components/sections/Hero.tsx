@@ -93,15 +93,11 @@ export function Hero() {
             <span className="font-medium">Serving 30A from Destin to Panama City Beach</span>
           </div>
 
-          {/* Headline */}
-          <h1 className="animate-fade-up-lg delay-100 text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white tracking-tight leading-[1.1]">
+          {/* Headline — no animation delay on LCP element */}
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white tracking-tight leading-[1.1]">
             <span className="block">Premium Junk Removal</span>
             <span
-              className="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-seafoam-300 via-ocean-300 to-seafoam-400 animate-fade-up delay-300"
-              style={{
-                backgroundSize: '200% 200%',
-                animation: 'fade-up 0.7s ease-out 0.3s both, gradient-shift 5s ease infinite',
-              }}
+              className="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-seafoam-300 via-ocean-300 to-seafoam-400"
             >
               for 30A Homes
             </span>
@@ -142,7 +138,7 @@ export function Hero() {
                 <Star className="w-5 h-5 text-gold-400" />
                 Property Management
               </span>
-              <span className="text-sm font-normal text-white/60 mt-1">
+              <span className="text-sm font-normal text-white/70 mt-1">
                 White-glove service for rental turnovers
               </span>
             </Link>
@@ -158,7 +154,7 @@ export function Hero() {
                 <Phone className="w-5 h-5 text-white" />
               </div>
               <div className="text-left">
-                <div className="text-xs text-white/50 uppercase tracking-wider">Call Now</div>
+                <div className="text-xs text-white/70 uppercase tracking-wider">Call Now</div>
                 <div className="text-white font-semibold">{FORMATTED_PHONE}</div>
               </div>
             </a>
@@ -171,14 +167,14 @@ export function Hero() {
                 <MessageCircle className="w-5 h-5 text-white" />
               </div>
               <div className="text-left">
-                <div className="text-xs text-white/50 uppercase tracking-wider">Text Us</div>
+                <div className="text-xs text-white/70 uppercase tracking-wider">Text Us</div>
                 <div className="text-white font-semibold">Quick Quote</div>
               </div>
             </a>
           </div>
 
           {/* Trust indicators */}
-          <div className="animate-fade-up delay-800 mt-12 md:mt-16 flex flex-wrap items-center justify-center gap-6 text-white/40 text-sm">
+          <div className="animate-fade-up delay-800 mt-12 md:mt-16 flex flex-wrap items-center justify-center gap-6 text-white/60 text-sm">
             <div className="flex items-center gap-2">
               <Star className="w-5 h-5 text-gold-400 fill-gold-400" />
               <span>47 Five-Star Reviews</span>
