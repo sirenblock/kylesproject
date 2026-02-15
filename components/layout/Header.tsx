@@ -77,6 +77,7 @@ export function Header() {
               <div className="hidden md:flex items-center gap-2">
                 <a
                   href={`tel:${PHONE_NUMBER}`}
+                  aria-label={`Call ${FORMATTED_PHONE}`}
                   className="group flex items-center gap-2 px-3 py-2 text-sm font-medium text-slate-700 hover:text-ocean-600 transition-all duration-200 rounded-lg hover:bg-ocean-50/50"
                 >
                   <Phone className="w-4 h-4 group-hover:scale-110 transition-transform" />
@@ -84,6 +85,7 @@ export function Header() {
                 </a>
                 <a
                   href={`sms:${PHONE_NUMBER}`}
+                  aria-label="Text us for a quote"
                   className="group flex items-center gap-2 px-3 py-2 text-sm font-medium text-slate-700 hover:text-ocean-600 transition-all duration-200 rounded-lg hover:bg-ocean-50/50"
                 >
                   <MessageCircle className="w-4 h-4 group-hover:scale-110 transition-transform" />
@@ -101,7 +103,7 @@ export function Header() {
               {/* Mobile Menu Button */}
               <button
                 type="button"
-                className="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-xl text-slate-600 hover:bg-ocean-50 hover:text-ocean-600 transition-colors"
+                className="lg:hidden inline-flex items-center justify-center w-11 h-11 rounded-xl text-slate-600 hover:bg-ocean-50 hover:text-ocean-600 transition-colors"
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               >
                 <span className="sr-only">Open main menu</span>

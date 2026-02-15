@@ -166,7 +166,7 @@ export function PricingTable() {
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-1">
                     <Truck className={`w-4 h-4 ${row.isConstruction ? 'text-gold-500' : 'text-ocean-500'}`} />
-                    <h4 className="font-bold text-slate-800">{row.volume}</h4>
+                    <h3 className="font-bold text-slate-800">{row.volume}</h3>
                   </div>
                   <p className="text-sm text-slate-600">{row.perfectFor}</p>
                 </div>
@@ -226,7 +226,7 @@ export function PricingTable() {
                   </ul>
 
                   <div className="pt-4 border-t border-sand-200">
-                    <h4 className="font-semibold text-slate-800 mb-3">Common Examples:</h4>
+                    <h3 className="font-semibold text-slate-800 mb-3">Common Examples:</h3>
                     <div className="grid grid-cols-2 gap-3">
                       {constructionExamples.map((example) => (
                         <div

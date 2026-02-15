@@ -391,7 +391,7 @@ export function QuoteCalculator() {
                       >
                         {/* Household Items */}
                         <div>
-                          <h4 className="text-sm font-bold text-slate-700 uppercase tracking-wider mb-3 flex items-center gap-2">
+                          <h3 className="text-sm font-bold text-slate-700 uppercase tracking-wider mb-3 flex items-center gap-2">
                             <div className="w-2 h-2 rounded-full bg-ocean-500" />
                             Household Items
                           </h4>
@@ -437,7 +437,7 @@ export function QuoteCalculator() {
 
                         {/* Outdoor Items */}
                         <div>
-                          <h4 className="text-sm font-bold text-slate-700 uppercase tracking-wider mb-3 flex items-center gap-2">
+                          <h3 className="text-sm font-bold text-slate-700 uppercase tracking-wider mb-3 flex items-center gap-2">
                             <div className="w-2 h-2 rounded-full bg-seafoam-500" />
                             Outdoor / Yard
                           </h4>
@@ -483,7 +483,7 @@ export function QuoteCalculator() {
 
                         {/* Construction Items */}
                         <div>
-                          <h4 className="text-sm font-bold text-gold-600 uppercase tracking-wider mb-3 flex items-center gap-2">
+                          <h3 className="text-sm font-bold text-gold-600 uppercase tracking-wider mb-3 flex items-center gap-2">
                             <AlertCircle className="w-4 h-4" />
                             Construction / Renovation
                           </h4>

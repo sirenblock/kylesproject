@@ -44,21 +44,21 @@ export function Footer() {
                 <Shield className="w-6 h-6 text-ocean-400" />
               </div>
               <span className="font-medium">Fully Insured</span>
-              <span className="text-sm text-slate-400">Professional service for your protection</span>
+              <span className="text-sm text-slate-300">Professional service for your protection</span>
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="w-12 h-12 rounded-full bg-seafoam-500/20 flex items-center justify-center">
                 <Leaf className="w-6 h-6 text-seafoam-400" />
               </div>
               <span className="font-medium">Eco-Friendly</span>
-              <span className="text-sm text-slate-400">We recycle & donate whenever possible</span>
+              <span className="text-sm text-slate-300">We recycle & donate whenever possible</span>
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="w-12 h-12 rounded-full bg-gold-500/20 flex items-center justify-center">
                 <Award className="w-6 h-6 text-gold-400" />
               </div>
               <span className="font-medium">Locally Owned</span>
-              <span className="text-sm text-slate-400">Part of the 30A community</span>
+              <span className="text-sm text-slate-300">Part of the 30A community</span>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@ export function Footer() {
                 <span className="text-lg font-light text-ocean-400 ml-1">Junk Removal</span>
               </div>
             </Link>
-            <p className="text-slate-400 mb-6 max-w-sm">
+            <p className="text-slate-300 mb-6 max-w-sm">
               Premium junk removal services for 30A homes. From quick cleanouts to full estate management, we handle it all with white-glove service.
             </p>
             <div className="space-y-3">
@@ -120,7 +120,7 @@ export function Footer() {
                 <li key={item.name}>
                   <Link
                     href={item.href}
-                    className="text-slate-400 hover:text-white transition-colors"
+                    className="text-slate-300 underline decoration-slate-500 hover:text-white hover:decoration-white transition-colors"
                   >
                     {item.name}
                   </Link>
@@ -139,7 +139,7 @@ export function Footer() {
                 <li key={item.name}>
                   <Link
                     href={item.href}
-                    className="text-slate-400 hover:text-white transition-colors"
+                    className="text-slate-300 underline decoration-slate-500 hover:text-white hover:decoration-white transition-colors"
                   >
                     {item.name}
                   </Link>
@@ -158,7 +158,7 @@ export function Footer() {
                 <li key={item.name}>
                   <Link
                     href={item.href}
-                    className="text-slate-400 hover:text-white transition-colors"
+                    className="text-slate-300 underline decoration-slate-500 hover:text-white hover:decoration-white transition-colors"
                   >
                     {item.name}
                   </Link>
@@ -173,14 +173,14 @@ export function Footer() {
       <div className="border-t border-slate-700">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-slate-400 text-sm">
+            <p className="text-slate-300 text-sm">
               &copy; {currentYear} 30A Junk Removal. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
-              <Link href="/privacy" className="text-slate-400 hover:text-white transition-colors">
+              <Link href="/privacy" className="text-slate-300 underline decoration-slate-500 hover:text-white hover:decoration-white transition-colors">
                 Privacy Policy
               </Link>
-              <Link href="/terms" className="text-slate-400 hover:text-white transition-colors">
+              <Link href="/terms" className="text-slate-300 underline decoration-slate-500 hover:text-white hover:decoration-white transition-colors">
                 Terms of Service
               </Link>
             </div>

@@ -48,11 +48,11 @@ export function CTASection() {
         <div
           className="mt-8 flex flex-wrap items-center justify-center gap-3"
         >
-          <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/80 text-sm">
+          <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/90 text-sm">
             <Clock className="w-4 h-4 text-seafoam-400" />
             30-min response
           </div>
-          <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/80 text-sm">
+          <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/90 text-sm">
             <Truck className="w-4 h-4 text-ocean-400" />
             Same-day pickup
           </div>
@@ -85,7 +85,7 @@ export function CTASection() {
         >
           <a
             href={`sms:${PHONE_NUMBER}`}
-            className="group inline-flex items-center gap-2 text-ocean-300 hover:text-seafoam-300 transition-colors font-medium"
+            className="group inline-flex items-center gap-2 text-white/90 underline decoration-white/50 hover:decoration-white transition-colors font-medium"
           >
             <MessageCircle className="w-5 h-5 group-hover:scale-110 transition-transform" />
             Or text us for a quick response

@@ -166,18 +166,18 @@ export function Testimonials() {
                     {testimonials[currentIndex].title && (
                       <p className="text-seafoam-300 font-medium">{testimonials[currentIndex].title}</p>
                     )}
-                    <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mt-2 text-ocean-200">
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mt-2 text-white/80">
                       <p className="inline-flex items-center gap-1.5">
                         <MapPin className="w-4 h-4" />
                         {testimonials[currentIndex].location}
                       </p>
-                      <span className="hidden sm:inline text-ocean-400">•</span>
+                      <span className="hidden sm:inline text-white/50">•</span>
                       <p className="inline-flex items-center gap-1.5">
                         <Truck className="w-4 h-4" />
                         {testimonials[currentIndex].service}
                       </p>
                     </div>
-                    <p className="text-sm text-ocean-300 mt-2">{testimonials[currentIndex].date}</p>
+                    <p className="text-sm text-white/70 mt-2">{testimonials[currentIndex].date}</p>
                   </div>
                 </div>
               
