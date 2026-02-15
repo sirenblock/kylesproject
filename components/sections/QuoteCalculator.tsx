@@ -434,10 +434,10 @@ export function QuoteCalculator() {
                       >
                         {/* Household Items */}
                         <div>
-                          <h4 className="text-sm font-bold text-slate-700 uppercase tracking-wider mb-3 flex items-center gap-2">
+                          <h3 className="text-sm font-bold text-slate-700 uppercase tracking-wider mb-3 flex items-center gap-2">
                             <div className="w-2 h-2 rounded-full bg-ocean-500" />
                             Household Items
-                          </h4>
+                          </h3>
                           <div className="grid grid-cols-2 gap-2 md:gap-3">
                             {householdItems.map((item) => {
                               const Icon = itemIcons[item.id] || Package
@@ -481,10 +481,10 @@ export function QuoteCalculator() {
 
                         {/* Outdoor Items */}
                         <div>
-                          <h4 className="text-sm font-bold text-slate-700 uppercase tracking-wider mb-3 flex items-center gap-2">
+                          <h3 className="text-sm font-bold text-slate-700 uppercase tracking-wider mb-3 flex items-center gap-2">
                             <div className="w-2 h-2 rounded-full bg-seafoam-500" />
                             Outdoor / Yard
-                          </h4>
+                          </h3>
                           <div className="grid grid-cols-2 gap-2 md:gap-3">
                             {outdoorItems.map((item) => {
                               const Icon = itemIcons[item.id] || Package
@@ -528,10 +528,10 @@ export function QuoteCalculator() {
 
                         {/* Construction Items */}
                         <div>
-                          <h4 className="text-sm font-bold text-gold-600 uppercase tracking-wider mb-3 flex items-center gap-2">
+                          <h3 className="text-sm font-bold text-gold-600 uppercase tracking-wider mb-3 flex items-center gap-2">
                             <AlertCircle className="w-4 h-4" />
                             Construction / Renovation
-                          </h4>
+                          </h3>
                           <div className="grid grid-cols-2 gap-2 md:gap-3">
                             {constructionItemsList.map((item) => {
                               const Icon = itemIcons[item.id] || Hammer
@@ -635,10 +635,13 @@ export function QuoteCalculator() {
                                   Text Photos for Exact Quote
                                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                                 </a>
-                                <button className="flex items-center justify-center gap-2 w-full px-6 py-4 bg-white border-2 border-gold-300 text-gold-700 rounded-xl font-semibold hover:bg-gold-50 transition-colors">
+                                <a
+                                  href={`sms:${PHONE_NUMBER}?body=Hi! I have construction debris to remove. Here are some photos:`}
+                                  className="flex items-center justify-center gap-2 w-full px-6 py-4 bg-white border-2 border-gold-300 text-gold-700 rounded-xl font-semibold hover:bg-gold-50 transition-colors"
+                                >
                                   <Upload className="w-5 h-5" />
-                                  Upload Photos
-                                </button>
+                                  Send Photos via Text
+                                </a>
                               </div>
                             </>
                           ) : (

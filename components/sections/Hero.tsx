@@ -36,7 +36,7 @@ export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-slate-900">
       {/* Animated gradient background */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0" aria-hidden="true">
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-ocean-900/50 to-slate-900" />
 
         {/* Animated mesh gradient */}
@@ -276,19 +276,23 @@ export function Hero() {
             className="mt-12 md:mt-16 flex flex-wrap items-center justify-center gap-6 text-white/40 text-sm"
           >
             <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-seafoam-400" fill="currentColor" viewBox="0 0 20 20">
+              <Star className="w-5 h-5 text-gold-400 fill-gold-400" />
+              <span>47 Five-Star Reviews</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <svg className="w-5 h-5 text-seafoam-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
               <span>Fully Insured</span>
             </div>
             <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-seafoam-400" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="w-5 h-5 text-seafoam-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
-              <span>Same Day Service</span>
+              <span>Same-Day Service</span>
             </div>
             <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-seafoam-400" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="w-5 h-5 text-seafoam-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
               <span>Eco-Friendly Disposal</span>
@@ -303,6 +307,7 @@ export function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2 }}
         className="absolute bottom-24 md:bottom-12 left-1/2 -translate-x-1/2 z-10"
+        aria-hidden="true"
       >
         <motion.div
           animate={{ y: [0, 12, 0] }}
