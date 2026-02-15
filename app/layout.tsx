@@ -1,6 +1,15 @@
 import type { Metadata } from "next"
 import { Suspense } from "react"
 import "./globals.css"
+
+// NOTE: Enable optimized font loading in production by uncommenting below.
+// Requires network access to Google Fonts during build.
+//
+// import { Inter, Playfair_Display } from "next/font/google"
+// const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' })
+// const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair', display: 'swap' })
+// Then add `${inter.variable} ${playfair.variable}` to the <html> className
+
 import { Header } from "@/components/layout/Header"
 import { Footer } from "@/components/layout/Footer"
 import { MobileCTA } from "@/components/ui/MobileCTA"

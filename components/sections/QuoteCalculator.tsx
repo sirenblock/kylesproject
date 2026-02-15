@@ -22,6 +22,8 @@ import {
   Sparkles,
   Phone,
   Zap,
+  CheckCircle,
+  Loader2,
 } from 'lucide-react'
 import {
   cn,
@@ -200,6 +202,9 @@ export function QuoteCalculator() {
   const [activeTab, setActiveTab] = useState<TabType>('volume')
   const [selectedVolume, setSelectedVolume] = useState<VolumeLevel | null>(null)
   const [selectedItems, setSelectedItems] = useState<string[]>([])
+  const [leadName, setLeadName] = useState('')
+  const [leadPhone, setLeadPhone] = useState('')
+  const [leadStatus, setLeadStatus] = useState<'idle' | 'submitting' | 'saved'>('idle')
 
   const estimate = useMemo(() => {
     if (activeTab === 'volume' && selectedVolume) {
@@ -645,7 +650,7 @@ export function QuoteCalculator() {
                               </div>
                             </>
                           ) : (
-                            <div className="mt-6">
+                            <div className="mt-6 space-y-4">
                               <a
                                 href={`sms:${PHONE_NUMBER}?body=Hi! I'd like to book junk removal. My estimate was ${estimate.range}.`}
                                 className="group flex items-center justify-center gap-2 w-full px-6 py-4 bg-gradient-to-r from-ocean-500 to-seafoam-500 text-white rounded-xl font-bold shadow-lg shadow-ocean-200 hover:shadow-xl hover:shadow-ocean-300 transition-all btn-shine"
@@ -653,9 +658,76 @@ export function QuoteCalculator() {
                                 Book Now
                                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                               </a>
+
+                              {/* Lead capture form */}
+                              {leadStatus === 'saved' ? (
+                                <div className="flex items-center justify-center gap-2 p-3 rounded-lg bg-seafoam-50 text-seafoam-700 text-sm font-medium">
+                                  <CheckCircle className="w-4 h-4" />
+                                  Quote saved! We&apos;ll text you shortly.
+                                </div>
+                              ) : (
+                                <div className="p-4 rounded-xl bg-white/80 border border-ocean-100">
+                                  <p className="text-xs text-slate-500 text-center mb-3">
+                                    Save this quote &mdash; we&apos;ll text you to confirm
+                                  </p>
+                                  <form
+                                    onSubmit={async (e) => {
+                                      e.preventDefault()
+                                      if (!leadName.trim() || !leadPhone.trim()) return
+                                      setLeadStatus('submitting')
+                                      try {
+                                        await fetch('/api/contact', {
+                                          method: 'POST',
+                                          headers: { 'Content-Type': 'application/json' },
+                                          body: JSON.stringify({
+                                            name: leadName,
+                                            phone: leadPhone,
+                                            email: '',
+                                            serviceType: 'quote-calculator',
+                                            message: `Quote calculator lead: ${estimate.range} (${activeTab === 'volume' ? selectedVolume : selectedItems.join(', ')})`,
+                                          }),
+                                        })
+                                        setLeadStatus('saved')
+                                      } catch {
+                                        setLeadStatus('idle')
+                                      }
+                                    }}
+                                    className="flex flex-col sm:flex-row gap-2"
+                                  >
+                                    <input
+                                      type="text"
+                                      placeholder="Your name"
+                                      value={leadName}
+                                      onChange={(e) => setLeadName(e.target.value)}
+                                      required
+                                      className="flex-1 px-3 py-2 text-sm rounded-lg border border-sand-300 focus:border-ocean-500 focus:ring-1 focus:ring-ocean-200"
+                                    />
+                                    <input
+                                      type="tel"
+                                      placeholder="Phone number"
+                                      value={leadPhone}
+                                      onChange={(e) => setLeadPhone(e.target.value)}
+                                      required
+                                      className="flex-1 px-3 py-2 text-sm rounded-lg border border-sand-300 focus:border-ocean-500 focus:ring-1 focus:ring-ocean-200"
+                                    />
+                                    <button
+                                      type="submit"
+                                      disabled={leadStatus === 'submitting'}
+                                      className="px-4 py-2 text-sm font-semibold bg-ocean-500 text-white rounded-lg hover:bg-ocean-600 transition-colors disabled:opacity-70"
+                                    >
+                                      {leadStatus === 'submitting' ? (
+                                        <Loader2 className="w-4 h-4 animate-spin mx-auto" />
+                                      ) : (
+                                        'Save'
+                                      )}
+                                    </button>
+                                  </form>
+                                </div>
+                              )}
+
                               <a
                                 href={`tel:${PHONE_NUMBER}`}
-                                className="flex items-center justify-center gap-2 mt-3 text-sm text-ocean-600 hover:text-ocean-700 font-medium"
+                                className="flex items-center justify-center gap-2 text-sm text-ocean-600 hover:text-ocean-700 font-medium"
                               >
                                 <Phone className="w-4 h-4" />
                                 Or call {FORMATTED_PHONE}
