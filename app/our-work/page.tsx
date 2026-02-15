@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     '30A junk haul',
     'real junk removal work',
   ],
+  alternates: {
+    canonical: 'https://www.30ajunkremoval.com/our-work',
+  },
 }
 
 const galleryImages = [

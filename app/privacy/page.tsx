@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: 'Privacy Policy | 30A Junk Removal',
   description: 'Learn how 30A Junk Removal collects, uses, and protects your personal information. Our commitment to your privacy and data security.',
   robots: 'index, follow',
+  alternates: {
+    canonical: 'https://www.30ajunkremoval.com/privacy',
+  },
 }
 
 export default function PrivacyPage() {

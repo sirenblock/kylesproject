@@ -1,5 +1,7 @@
 import { MetadataRoute } from 'next'
 import { getAllBlogSlugs } from '@/lib/blog'
+import { getAllServiceSlugs } from '@/lib/services'
+import { getAllLocationSlugs } from '@/lib/locations'
 import config from '@/lib/config'
 
 // Relester SEO Method: Priority Tier System
@@ -77,35 +79,46 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   // PRIORITY 0.5: Location pages (programmatic SEO)
-  const locationPages: MetadataRoute.Sitemap = [
-    '/service-areas/seaside',
-    '/service-areas/rosemary-beach',
-    '/service-areas/alys-beach',
-    '/service-areas/watercolor',
-    '/service-areas/grayton-beach',
-    '/service-areas/santa-rosa-beach',
-    '/service-areas/inlet-beach',
-    '/service-areas/seacrest',
-    '/service-areas/seagrove-beach',
-    '/service-areas/blue-mountain-beach',
-    '/service-areas/destin',
-    '/service-areas/panama-city-beach',
-  ].map(route => ({
-    url: `${config.siteUrl}${route}`,
+  const locationSlugs = getAllLocationSlugs()
+  const locationPages: MetadataRoute.Sitemap = locationSlugs.map(slug => ({
+    url: `${config.siteUrl}/service-areas/${slug}`,
     lastModified: now,
     changeFrequency: 'monthly' as const,
     priority: 0.5,
   }))
 
-  // PRIORITY 0.6: Other pages (about, faq)
+  // PRIORITY 0.5: Service-Location combination pages (144 programmatic SEO pages)
+  const serviceSlugs = getAllServiceSlugs()
+  const serviceLocationPages: MetadataRoute.Sitemap = locationSlugs.flatMap(location =>
+    serviceSlugs.map(service => ({
+      url: `${config.siteUrl}/service-areas/${location}/${service}`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.5,
+    }))
+  )
+
+  // PRIORITY 0.6: Other pages (about, faq, our-work)
   const otherPages: MetadataRoute.Sitemap = [
     '/about',
     '/faq',
+    '/our-work',
   ].map(route => ({
     url: `${config.siteUrl}${route}`,
     lastModified: now,
     changeFrequency: 'monthly' as const,
     priority: 0.6,
+  }))
+
+  // PRIORITY 0.3: Legal pages
+  const legalPages: MetadataRoute.Sitemap = [
+    '/privacy',
+    '/terms',
+  ].map(route => ({
+    url: `${config.siteUrl}${route}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.3,
   }))
 
   return [
@@ -115,6 +128,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...servicePages,
     ...blogPosts,
     ...locationPages,
+    ...serviceLocationPages,
     ...otherPages,
+    ...legalPages,
   ]
 }

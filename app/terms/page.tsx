@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: 'Terms of Service | 30A Junk Removal',
   description: 'Terms and conditions for using 30A Junk Removal services. Learn about our service policies, payment terms, cancellations, and guarantees.',
   robots: 'index, follow',
+  alternates: {
+    canonical: 'https://www.30ajunkremoval.com/terms',
+  },
 }
 
 export default function TermsPage() {
