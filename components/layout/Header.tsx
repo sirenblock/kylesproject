@@ -23,7 +23,7 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center gap-2">
+            <Link href="/" className="flex items-center gap-2" aria-label="30A Junk Removal - Home">
               <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-ocean-500 to-ocean-600 text-white">
                 <Truck className="w-6 h-6" />
               </div>
@@ -52,6 +52,7 @@ export function Header() {
             <a
               href={`tel:${PHONE_NUMBER}`}
               className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-slate-700 hover:text-ocean-600 transition-colors"
+              aria-label={`Call ${FORMATTED_PHONE}`}
             >
               <Phone className="w-4 h-4" />
               <span className="hidden xl:inline">{FORMATTED_PHONE}</span>
@@ -59,6 +60,7 @@ export function Header() {
             <a
               href={`sms:${PHONE_NUMBER}`}
               className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-slate-700 hover:text-ocean-600 transition-colors"
+              aria-label="Text us for a quote"
             >
               <MessageCircle className="w-4 h-4" />
               <span className="hidden xl:inline">Text Us</span>

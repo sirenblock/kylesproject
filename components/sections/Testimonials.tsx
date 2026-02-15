@@ -70,23 +70,13 @@ export function Testimonials() {
 
   return (
     <section className="py-16 md:py-24 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 overflow-hidden relative">
-      {/* Animated background elements */}
+      {/* Background elements - CSS animated for compositing */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <motion.div
-          animate={{
-            scale: [1, 1.2, 1],
-            opacity: [0.1, 0.15, 0.1],
-          }}
-          transition={{ duration: 10, repeat: Infinity }}
-          className="absolute -top-40 -left-40 w-80 h-80 bg-seafoam-400 rounded-full blur-3xl"
+        <div
+          className="absolute -top-40 -left-40 w-80 h-80 bg-seafoam-400 rounded-full blur-3xl opacity-[0.12] animate-float"
         />
-        <motion.div
-          animate={{
-            scale: [1, 1.3, 1],
-            opacity: [0.1, 0.2, 0.1],
-          }}
-          transition={{ duration: 12, repeat: Infinity, delay: 3 }}
-          className="absolute -bottom-40 -right-40 w-80 h-80 bg-ocean-400 rounded-full blur-3xl"
+        <div
+          className="absolute -bottom-40 -right-40 w-80 h-80 bg-ocean-400 rounded-full blur-3xl opacity-15 animate-float-slow"
         />
       </div>
 
@@ -117,14 +107,12 @@ export function Testimonials() {
 
         {/* Testimonial Carousel */}
         <div className="relative">
-          {/* Quote Icon - floating */}
-          <motion.div
-            animate={{ y: [0, -8, 0] }}
-            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute -top-6 left-1/2 -translate-x-1/2 w-14 h-14 md:w-16 md:h-16 rounded-full bg-gradient-to-br from-seafoam-400 to-ocean-400 flex items-center justify-center shadow-lg shadow-ocean-900/50 z-10"
+          {/* Quote Icon - CSS float animation */}
+          <div
+            className="absolute -top-6 left-1/2 -translate-x-1/2 w-14 h-14 md:w-16 md:h-16 rounded-full bg-gradient-to-br from-seafoam-400 to-ocean-400 flex items-center justify-center shadow-lg shadow-ocean-900/50 z-10 animate-float"
           >
             <Quote className="w-7 h-7 md:w-8 md:h-8 text-white" />
-          </motion.div>
+          </div>
 
           {/* Testimonial Card */}
           <div className="relative">
@@ -195,8 +183,8 @@ export function Testimonials() {
           </button>
         </div>
 
-        {/* Dots - Enhanced */}
-        <div className="flex items-center justify-center gap-2 mt-8">
+        {/* Dots - Enhanced with accessible touch targets */}
+        <div className="flex items-center justify-center gap-1 mt-8">
           {testimonials.map((_, index) => (
             <button
               key={index}
@@ -204,13 +192,15 @@ export function Testimonials() {
                 setIsAutoPlaying(false)
                 setCurrentIndex(index)
               }}
-              className={`h-2 rounded-full transition-all duration-300 ${
+              className="relative flex items-center justify-center p-3"
+              aria-label={`Go to testimonial ${index + 1}`}
+            >
+              <span className={`block h-2 rounded-full transition-all duration-300 ${
                 index === currentIndex
                   ? 'bg-gradient-to-r from-seafoam-400 to-ocean-400 w-8'
                   : 'bg-white/30 hover:bg-white/50 w-2'
-              }`}
-              aria-label={`Go to testimonial ${index + 1}`}
-            />
+              }`} />
+            </button>
           ))}
         </div>
       </div>

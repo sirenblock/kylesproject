@@ -124,6 +124,7 @@ export function ServiceCards() {
                   {/* CTA */}
                   <Link
                     href={service.href}
+                    aria-label={`${service.cta} — ${service.title}`}
                     className={`mt-6 w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl bg-gradient-to-r ${service.gradient} text-white font-semibold shadow-lg hover:shadow-xl transition-all btn-shine group/btn`}
                   >
                     {service.cta}

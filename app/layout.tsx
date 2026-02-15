@@ -2,13 +2,9 @@ import type { Metadata } from "next"
 import { Suspense } from "react"
 import "./globals.css"
 
-// NOTE: Enable optimized font loading in production by uncommenting below.
-// Requires network access to Google Fonts during build.
-//
-// import { Inter, Playfair_Display } from "next/font/google"
-// const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' })
-// const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair', display: 'swap' })
-// Then add `${inter.variable} ${playfair.variable}` to the <html> className
+// Font optimization: preload via <link> tags in <head> with display=swap
+// to avoid render-blocking while providing consistent typography.
+// If build environment has Google Fonts access, switch to next/font/google for self-hosting.
 
 import { Header } from "@/components/layout/Header"
 import { Footer } from "@/components/layout/Footer"
@@ -86,6 +82,14 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        {/* Font preconnect and loading */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+          rel="stylesheet"
+        />
+        {/* Analytics preconnect */}
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />

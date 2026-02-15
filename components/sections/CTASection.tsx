@@ -8,32 +8,17 @@ import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 export function CTASection() {
   return (
     <section className="py-16 md:py-24 bg-gradient-to-br from-slate-800 via-slate-900 to-ocean-900 relative overflow-hidden">
-      {/* Animated background elements */}
+      {/* Background elements - CSS animated for compositing */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Gradient orbs */}
-        <motion.div
-          animate={{
-            scale: [1, 1.2, 1],
-            opacity: [0.1, 0.2, 0.1],
-          }}
-          transition={{ duration: 8, repeat: Infinity }}
-          className="absolute -top-20 -left-20 w-96 h-96 bg-ocean-500 rounded-full blur-3xl"
+        <div
+          className="absolute -top-20 -left-20 w-96 h-96 bg-ocean-500 rounded-full blur-3xl opacity-15 animate-float"
         />
-        <motion.div
-          animate={{
-            scale: [1, 1.3, 1],
-            opacity: [0.1, 0.15, 0.1],
-          }}
-          transition={{ duration: 10, repeat: Infinity, delay: 2 }}
-          className="absolute -bottom-20 -right-20 w-96 h-96 bg-seafoam-500 rounded-full blur-3xl"
+        <div
+          className="absolute -bottom-20 -right-20 w-96 h-96 bg-seafoam-500 rounded-full blur-3xl opacity-15 animate-float-slow"
         />
-        <motion.div
-          animate={{
-            scale: [1, 1.2, 1],
-            opacity: [0.05, 0.1, 0.05],
-          }}
-          transition={{ duration: 12, repeat: Infinity, delay: 4 }}
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gold-500 rounded-full blur-3xl"
+        <div
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gold-500 rounded-full blur-3xl opacity-[0.07] animate-float-delayed"
         />
 
         {/* Subtle grid pattern */}
