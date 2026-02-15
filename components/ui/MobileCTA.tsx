@@ -1,5 +1,3 @@
-'use client'
-
 import { Phone, MessageCircle, Calculator } from 'lucide-react'
 import Link from 'next/link'
 import { PHONE_NUMBER } from '@/lib/utils'

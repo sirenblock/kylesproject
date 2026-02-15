@@ -1,6 +1,3 @@
-'use client'
-
-import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { Truck, ClipboardCheck, ArrowRight, Check, Sparkles } from 'lucide-react'
 
@@ -58,55 +55,34 @@ export function ServiceCards() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12 md:mb-16">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-sand-100 text-slate-600 text-sm font-medium mb-4"
-          >
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-sand-100 text-slate-600 text-sm font-medium mb-4">
             <Sparkles className="w-4 h-4 text-gold-500" />
             Two Ways to Work With Us
-          </motion.div>
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-800"
-          >
+          </div>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-800">
             Choose Your{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-ocean-500 to-seafoam-500">
               Service Level
             </span>
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
-            className="mt-4 text-lg md:text-xl text-slate-600 max-w-2xl mx-auto"
-          >
+          </h2>
+          <p className="mt-4 text-lg md:text-xl text-slate-600 max-w-2xl mx-auto">
             From quick one-off pickups to full property management support
-          </motion.p>
+          </p>
         </div>
 
         {/* Cards */}
         <div className="grid md:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto">
-          {services.map((service, index) => {
+          {services.map((service) => {
             const Icon = service.icon
             return (
-              <motion.div
+              <div
                 key={service.title}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.15 }}
-                whileHover={{ y: -8, transition: { duration: 0.3 } }}
                 className="relative group"
               >
                 {/* Gradient border effect */}
                 <div className={`absolute -inset-0.5 bg-gradient-to-r ${service.gradient} rounded-3xl opacity-0 group-hover:opacity-100 blur transition-opacity duration-500`} />
 
-                <div className={`relative h-full rounded-2xl bg-gradient-to-br ${service.bgGradient} border border-sand-200 p-6 md:p-8 shadow-lg group-hover:shadow-2xl transition-all duration-500 overflow-hidden`}>
+                <div className={`relative h-full rounded-2xl bg-gradient-to-br ${service.bgGradient} border border-sand-200 p-6 md:p-8 shadow-lg group-hover:shadow-2xl transition-all duration-500 overflow-hidden hover-lift`}>
                   {/* Badge */}
                   {service.badge && (
                     <div className="absolute top-4 right-4 px-3 py-1 bg-gradient-to-r from-gold-500 to-amber-500 text-white text-xs font-bold rounded-full shadow-lg">
@@ -118,15 +94,10 @@ export function ServiceCards() {
                   <div className={`absolute -top-20 -right-20 w-40 h-40 bg-gradient-to-br ${service.gradient} rounded-full opacity-10 blur-2xl group-hover:opacity-20 transition-opacity`} />
 
                   {/* Icon */}
-                  <motion.div
-                    whileHover={{ scale: 1.1, rotate: 5 }}
-                    transition={{ type: "spring", stiffness: 400 }}
-                    className={`relative inline-flex items-center justify-center w-16 h-16 md:w-18 md:h-18 rounded-2xl bg-gradient-to-br ${service.gradient} text-white mb-6 shadow-lg`}
-                  >
+                  <div className={`relative inline-flex items-center justify-center w-16 h-16 md:w-18 md:h-18 rounded-2xl bg-gradient-to-br ${service.gradient} text-white mb-6 shadow-lg`}>
                     <Icon className="w-8 h-8" />
-                    {/* Icon glow */}
                     <div className={`absolute inset-0 rounded-2xl bg-gradient-to-br ${service.gradient} opacity-50 blur-lg -z-10`} />
-                  </motion.div>
+                  </div>
 
                   {/* Content */}
                   <h3 className="text-2xl md:text-3xl font-bold text-slate-800">{service.title}</h3>
@@ -159,7 +130,7 @@ export function ServiceCards() {
                     <ArrowRight className="w-5 h-5 group-hover/btn:translate-x-1 transition-transform" />
                   </Link>
                 </div>
-              </motion.div>
+              </div>
             )
           })}
         </div>
