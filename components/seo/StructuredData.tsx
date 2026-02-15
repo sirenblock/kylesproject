@@ -46,6 +46,7 @@ export function LocalBusinessSchema() {
     priceRange: '$150-$1200',
     paymentAccepted: ['Cash', 'Credit Card', 'Venmo', 'Zelle'],
     currenciesAccepted: 'USD',
+    // TODO: Add Google Business Profile URL and social media profiles
     sameAs: [],
     hasOfferCatalog: {
       '@type': 'OfferCatalog',

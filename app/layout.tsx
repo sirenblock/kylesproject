@@ -45,6 +45,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
   },
+  alternates: {
+    canonical: siteUrl,
+  },
   twitter: {
     card: "summary_large_image",
     title: "30A Junk Removal | Premium Junk Removal for 30A Homes",
