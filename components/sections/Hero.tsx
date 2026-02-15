@@ -140,7 +140,7 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-40 md:pt-24 md:pb-40">
+      <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-52 md:pt-24 md:pb-52">
         <div className="text-center">
           {/* Badge with glow */}
           <motion.div
@@ -306,7 +306,7 @@ export function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2 }}
-        className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 hidden md:block"
+        className="absolute bottom-44 left-1/2 -translate-x-1/2 z-10 hidden md:block"
         aria-hidden="true"
       >
         <motion.div
