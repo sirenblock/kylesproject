@@ -39,7 +39,7 @@ const services = [
       </>
     ),
     price: 'Custom pricing & scheduling',
-    cta: 'Learn More',
+    cta: 'Property Management Details',
     href: '/services/property-management',
     icon: ClipboardCheck,
     gradient: 'from-gold-500 to-amber-500',

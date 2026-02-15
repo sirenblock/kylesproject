@@ -1,4 +1,3 @@
-'use client'
 import Link from 'next/link'
 import { ArrowRight, Phone, MessageCircle, Star, Clock } from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER, getSMSLink } from '@/lib/utils'
@@ -47,9 +46,9 @@ export function Hero() {
           >
             <span className="font-medium">
               Serving{' '}
-              <Link href="/service-areas" className="text-ocean-200 hover:underline">30A</Link> from{' '}
-              <Link href="/service-areas/destin" className="text-ocean-200 hover:underline">Destin</Link> to{' '}
-              <Link href="/service-areas/panama-city-beach" className="text-ocean-200 hover:underline">Panama City Beach</Link>
+              <Link href="/service-areas" className="text-white underline decoration-white/50 hover:decoration-white">30A</Link> from{' '}
+              <Link href="/service-areas/destin" className="text-white underline decoration-white/50 hover:decoration-white">Destin</Link> to{' '}
+              <Link href="/service-areas/panama-city-beach" className="text-white underline decoration-white/50 hover:decoration-white">Panama City Beach</Link>
             </span>
           </div>
           {/* Headline with entrance animation */}
@@ -65,13 +64,13 @@ export function Hero() {
           </h1>
           {/* Subheadline */}
           <p
-            className="mt-6 md:mt-8 text-lg sm:text-xl md:text-2xl text-white/70 max-w-3xl mx-auto leading-relaxed px-4"
+            className="mt-6 md:mt-8 text-lg sm:text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed px-4"
           >
-            From <Link href="/#quote" className="text-ocean-300 hover:underline">quick truck loads</Link> to{' '}
-            <Link href="/services/estate-cleanouts" className="text-ocean-300 hover:underline">full estate cleanouts</Link>.{' '}
+            From <Link href="/#quote" className="text-white underline decoration-white/50 hover:decoration-white">quick truck loads</Link> to{' '}
+            <Link href="/services/estate-cleanouts" className="text-white underline decoration-white/50 hover:decoration-white">full estate cleanouts</Link>.{' '}
             <span className="text-white/90 font-medium">Easy enough for a quick cleanout</span>,{' '}
             <span className="text-seafoam-300 font-medium">professional enough for{' '}
-            <Link href="/services/property-management" className="text-seafoam-200 hover:underline">estate management</Link></span>.
+            <Link href="/services/property-management" className="text-white underline decoration-white/50 hover:decoration-white">estate management</Link></span>.
           </p>
           {/* CTAs */}
           <div
@@ -98,7 +97,7 @@ export function Hero() {
           >
             {/* Phone Number */}
             <div className="text-center mb-6">
-              <div className="text-white/60 text-sm mb-2">Call or Text</div>
+              <div className="text-white/80 text-sm mb-2">Call or Text</div>
               <a
                 href={`tel:${PHONE_NUMBER}`}
                 className="text-3xl md:text-4xl font-bold text-white hover:text-seafoam-300 transition-colors"
@@ -133,7 +132,7 @@ export function Hero() {
           </div>
           {/* Trust indicators */}
           <div
-            className="mt-12 md:mt-16 flex flex-wrap items-center justify-center gap-6 text-white/40 text-sm"
+            className="mt-12 md:mt-16 flex flex-wrap items-center justify-center gap-6 text-white/70 text-sm"
           >
             <div className="flex items-center gap-2">
               <svg className="w-5 h-5 text-seafoam-400" fill="currentColor" viewBox="0 0 20 20">
@@ -155,7 +154,7 @@ export function Hero() {
                 href="https://www.epa.gov/recycle/reducing-and-reusing-basics"
                 target="_blank"
                 rel="nofollow external noopener noreferrer"
-                className="text-seafoam-300 hover:underline"
+                className="text-seafoam-300 underline decoration-seafoam-300/50 hover:decoration-seafoam-300"
               >
                 Eco-Friendly Disposal
               </a>
@@ -168,7 +167,7 @@ export function Hero() {
         className="absolute bottom-24 md:bottom-12 left-1/2 -translate-x-1/2 z-10"
       >
         <div className="flex flex-col items-center gap-2">
-          <span className="text-white/40 text-xs uppercase tracking-widest">Scroll</span>
+          <span className="text-white/70 text-xs uppercase tracking-widest">Scroll</span>
           <div className="w-6 h-10 rounded-full border-2 border-white/20 flex items-start justify-center p-2">
             <div className="w-1.5 h-3 rounded-full bg-gradient-to-b from-white/60 to-white/20" />
           </div>

@@ -72,7 +72,7 @@ export function QuickQuoteForm() {
             <CheckCircle className="w-10 h-10 text-white" />
           </div>
         </div>
-        <h3 className="text-2xl font-bold text-slate-900 mb-2">Thanks!</h3>
+        <h2 className="text-2xl font-bold text-slate-900 mb-2">Thanks!</h2>
         <p className="text-lg text-slate-700 mb-4">We'll text you in under 15 minutes</p>
         <button
           onClick={() => setIsSuccess(false)}
@@ -91,7 +91,7 @@ export function QuickQuoteForm() {
           <MessageCircle className="w-4 h-4" />
           <span>Get a Quote in Minutes</span>
         </div>
-        <h3 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2">Quick Quote Request</h3>
+        <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2">Quick Quote Request</h2>
         <p className="text-slate-600">We'll text you back in under 15 minutes</p>
       </div>
 

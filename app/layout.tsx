@@ -81,16 +81,7 @@ export default function RootLayout({
       <body className="antialiased">
         <script
           dangerouslySetInnerHTML={{
-            __html: `
-              // Mark body as loaded after hydration to enable animations
-              if (document.readyState === 'loading') {
-                document.addEventListener('DOMContentLoaded', () => {
-                  setTimeout(() => document.body.classList.add('loaded'), 100);
-                });
-              } else {
-                setTimeout(() => document.body.classList.add('loaded'), 100);
-              }
-            `,
+            __html: `requestAnimationFrame(()=>document.body.classList.add('loaded'))`,
           }}
         />
         <GoogleAnalytics />

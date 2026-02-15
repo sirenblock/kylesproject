@@ -87,7 +87,7 @@ export default function HomePage() {
                   width={800}
                   height={600}
                   className="w-full h-auto object-cover"
-                  priority
+                  loading="lazy"
                 />
               </div>
             </div>
