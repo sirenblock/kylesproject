@@ -94,8 +94,8 @@
   --color-gold-500: var(--color-gold-500);
   --color-gold-600: var(--color-gold-600);
 
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-display: 'Playfair Display', Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-playfair), Georgia, serif;
 }
 
 body {
@@ -194,29 +194,33 @@ html {
 
 .animate-float {
   animation: float 6s ease-in-out infinite;
-  will-change: transform;
 }
 
 .animate-float-slow {
   animation: float 8s ease-in-out infinite;
-  will-change: transform;
 }
 
 .animate-float-delayed {
   animation: float 6s ease-in-out infinite;
   animation-delay: 2s;
-  will-change: transform;
 }
 
-/* Shimmer Effect */
+/* Shimmer Effect - uses composited transform instead of background-position */
 @keyframes shimmer {
-  0% { background-position: -1000px 0; }
-  100% { background-position: 1000px 0; }
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
 }
 
 .shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
   background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
-  background-size: 1000px 100%;
   animation: shimmer 2s infinite;
 }
 
@@ -228,7 +232,6 @@ html {
 
 .animate-pulse-glow {
   animation: pulse-glow 3s ease-in-out infinite;
-  will-change: transform, opacity;
   box-shadow: 0 0 30px rgba(14, 165, 233, 0.4);
 }
 
@@ -333,6 +336,14 @@ html {
 .stagger-children > *:nth-child(3) { animation-delay: 0.3s; }
 .stagger-children > *:nth-child(4) { animation-delay: 0.4s; }
 .stagger-children > *:nth-child(5) { animation-delay: 0.5s; }
+
+/* Defer rendering of below-fold sections on mobile */
+@media (max-width: 768px) {
+  .cv-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 600px;
+  }
+}
 
 /* Safe area for mobile */
 .safe-area-bottom {
@@ -455,17 +466,14 @@ img[loading] {
 
 .animate-wave-drift {
   animation: wave-drift 10s linear infinite;
-  will-change: transform;
 }
 
 .animate-wave-drift-slow {
   animation: wave-drift 14s linear infinite;
-  will-change: transform;
 }
 
 .animate-wave-drift-fast {
   animation: wave-drift 7s linear infinite;
-  will-change: transform;
 }
 
 /* Staggered delay utilities */

@@ -1,10 +1,7 @@
 import type { Metadata } from "next"
 import { Suspense } from "react"
+import { Inter, Playfair_Display } from "next/font/google"
 import "./globals.css"
-
-// Font optimization: preload via <link> tags in <head> with display=swap
-// to avoid render-blocking while providing consistent typography.
-// If build environment has Google Fonts access, switch to next/font/google for self-hosting.
 
 import { Header } from "@/components/layout/Header"
 import { Footer } from "@/components/layout/Footer"
@@ -13,6 +10,20 @@ import { LocalBusinessSchema } from "@/components/seo/StructuredData"
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics"
 import { FacebookPixel } from "@/components/analytics/FacebookPixel"
 import { GCLIDCapture } from "@/components/analytics/GCLIDCapture"
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+  variable: "--font-inter",
+})
+
+const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["700"],
+  display: "swap",
+  variable: "--font-playfair",
+})
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://30ajunkremoval.com'
 
@@ -80,15 +91,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className={`scroll-smooth ${inter.variable} ${playfairDisplay.variable}`}>
       <head>
-        {/* Font preconnect and loading */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap"
-          rel="stylesheet"
-        />
         {/* Analytics preconnect */}
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />

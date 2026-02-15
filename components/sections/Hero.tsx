@@ -16,33 +16,35 @@ export function Hero() {
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gold-500/10 via-transparent to-transparent" />
         </div>
 
-        {/* Floating orbs - CSS animated instead of Framer Motion */}
-        <div className="absolute top-20 left-10 md:left-20">
-          <div className="w-64 h-64 rounded-full bg-gradient-to-br from-ocean-400/30 to-ocean-600/20 blur-3xl animate-float" />
-        </div>
-        <div className="absolute top-40 right-10 md:right-32">
-          <div className="w-48 h-48 rounded-full bg-gradient-to-br from-seafoam-400/30 to-seafoam-600/20 blur-3xl animate-float-slow" />
-        </div>
-        <div className="absolute bottom-40 left-1/4">
-          <div className="w-32 h-32 rounded-full bg-gradient-to-br from-gold-400/20 to-gold-600/10 blur-3xl animate-float-delayed" />
-        </div>
-        <div className="absolute bottom-20 right-1/4">
-          <div className="w-48 h-48 rounded-full bg-gradient-to-br from-ocean-400/30 to-ocean-600/20 blur-3xl animate-float" style={{ animationDelay: '1s' }} />
+        {/* Floating orbs - hidden on mobile to reduce GPU cost from blur-3xl */}
+        <div className="hidden md:block">
+          <div className="absolute top-20 left-20">
+            <div className="w-64 h-64 rounded-full bg-gradient-to-br from-ocean-400/30 to-ocean-600/20 blur-3xl animate-float" />
+          </div>
+          <div className="absolute top-40 right-32">
+            <div className="w-48 h-48 rounded-full bg-gradient-to-br from-seafoam-400/30 to-seafoam-600/20 blur-3xl animate-float-slow" />
+          </div>
+          <div className="absolute bottom-40 left-1/4">
+            <div className="w-32 h-32 rounded-full bg-gradient-to-br from-gold-400/20 to-gold-600/10 blur-3xl animate-float-delayed" />
+          </div>
+          <div className="absolute bottom-20 right-1/4">
+            <div className="w-48 h-48 rounded-full bg-gradient-to-br from-ocean-400/30 to-ocean-600/20 blur-3xl animate-float" style={{ animationDelay: '1s' }} />
+          </div>
         </div>
 
-        {/* Grid pattern overlay */}
+        {/* Grid pattern overlay - hidden on mobile */}
         <div
-          className="absolute inset-0 opacity-[0.03]"
+          className="hidden md:block absolute inset-0 opacity-[0.03]"
           style={{
             backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
             backgroundSize: '50px 50px',
           }}
         />
 
-        {/* Wave layers - CSS animated */}
+        {/* Wave layers - simplified on mobile (1 wave), full on desktop (3 waves) */}
         <div className="absolute bottom-0 left-0 right-0 h-40 overflow-hidden">
           <svg
-            className="absolute bottom-0 w-[200%] h-40 text-ocean-900/50 animate-wave-drift-slow"
+            className="hidden md:block absolute bottom-0 w-[200%] h-40 text-ocean-900/50 animate-wave-drift-slow"
             viewBox="0 0 2880 120"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +57,7 @@ export function Hero() {
           </svg>
 
           <svg
-            className="absolute bottom-0 w-[200%] h-32 text-ocean-800/30 animate-wave-drift"
+            className="hidden md:block absolute bottom-0 w-[200%] h-32 text-ocean-800/30 animate-wave-drift"
             viewBox="0 0 2880 120"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +70,7 @@ export function Hero() {
           </svg>
 
           <svg
-            className="absolute bottom-0 w-[200%] h-24 text-white animate-wave-drift-fast"
+            className="absolute bottom-0 w-[200%] h-24 text-white animate-wave-drift-fast md:animate-wave-drift-fast"
             viewBox="0 0 2880 120"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
