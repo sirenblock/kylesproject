@@ -10,8 +10,8 @@ const services = [
     subtitle: 'One-Time Removal',
     description: (
       <>
-        Perfect for: <Link href="/services/furniture-removal" className="text-ocean-600 hover:underline">old furniture</Link>,{' '}
-        <Link href="/services/appliance-removal" className="text-ocean-600 hover:underline">appliances</Link>, patio sets, garage cleanouts
+        Perfect for: <Link href="/services/furniture-removal" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600">old furniture</Link>,{' '}
+        <Link href="/services/appliance-removal" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600">appliances</Link>, patio sets, garage cleanouts
       </>
     ),
     price: 'Starting at $150',
@@ -34,8 +34,8 @@ const services = [
     subtitle: 'Property Management',
     description: (
       <>
-        Perfect for: <Link href="/services/vacation-rentals" className="text-gold-600 hover:underline">rental turnovers</Link>,{' '}
-        <Link href="/services/estate-cleanouts" className="text-gold-600 hover:underline">estate cleanouts</Link>, ongoing service
+        Perfect for: <Link href="/services/vacation-rentals" className="text-gold-600 underline decoration-gold-300 hover:decoration-gold-600">rental turnovers</Link>,{' '}
+        <Link href="/services/estate-cleanouts" className="text-gold-600 underline decoration-gold-300 hover:decoration-gold-600">estate cleanouts</Link>, ongoing service
       </>
     ),
     price: 'Custom pricing & scheduling',
@@ -86,12 +86,12 @@ export function ServiceCards() {
             className="mt-4 text-lg md:text-xl text-slate-600 max-w-2xl mx-auto"
           >
             From quick one-off pickups to{' '}
-            <Link href="/services/property-management" className="text-ocean-600 hover:underline">full property management support</Link> for{' '}
+            <Link href="/services/property-management" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600">full property management support</Link> for{' '}
             <a
               href="https://www.visitflorida.com/places-to-go/northwest/south-walton/"
               target="_blank"
               rel="nofollow external noopener noreferrer"
-              className="text-seafoam-600 hover:underline"
+              className="text-seafoam-600 underline decoration-seafoam-300 hover:decoration-seafoam-600"
             >
               South Walton
             </a>

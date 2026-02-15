@@ -30,7 +30,7 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Our minimum is $150 for a 1/4 truck load. This covers items like a single couch, dresser, or grill. Check our{' '}
-            <Link href="/pricing" className="text-ocean-600 hover:underline font-medium">
+            <Link href="/pricing" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               pricing page
             </Link>
             {' '}for full details on volume-based rates.
@@ -42,15 +42,15 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Yes! We offer same-day service based on availability. The earlier you call, the better chance we can fit you in. We serve all areas including{' '}
-            <Link href="/service-areas/santa-rosa-beach" className="text-ocean-600 hover:underline font-medium">
+            <Link href="/service-areas/santa-rosa-beach" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               Santa Rosa Beach
             </Link>
             ,{' '}
-            <Link href="/service-areas/watercolor" className="text-ocean-600 hover:underline font-medium">
+            <Link href="/service-areas/watercolor" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               WaterColor
             </Link>
             , and{' '}
-            <Link href="/service-areas/alys-beach" className="text-ocean-600 hover:underline font-medium">
+            <Link href="/service-areas/alys-beach" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               Alys Beach
             </Link>
             . Text or call and we'll do our best to accommodate.
@@ -62,7 +62,7 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Not necessarily! As long as we can access the items (garage code, unlocked shed, etc.), we can handle the removal while you're away. We'll send before and after photos. This is especially convenient for{' '}
-            <Link href="/services/property-management-junk-removal" className="text-ocean-600 hover:underline font-medium">
+            <Link href="/services/property-management-junk-removal" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               property managers
             </Link>
             {' '}and vacation rental turnovers.
@@ -74,7 +74,7 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             We accept all major credit cards, cash, Venmo, and Zelle. Payment is due upon completion of the job. Visit our{' '}
-            <Link href="/contact" className="text-ocean-600 hover:underline font-medium">
+            <Link href="/contact" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               contact page
             </Link>
             {' '}for more information or to schedule service.
@@ -86,11 +86,11 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Often same-day or next-day. We understand junk removal is often time-sensitive, especially for property turnovers. Whether you need{' '}
-            <Link href="/services/furniture-removal" className="text-ocean-600 hover:underline font-medium">
+            <Link href="/services/furniture-removal" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               furniture removal
             </Link>
             {' '}or{' '}
-            <Link href="/services/appliance-removal" className="text-ocean-600 hover:underline font-medium">
+            <Link href="/services/appliance-removal" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               appliance hauling
             </Link>
             , give us a call and we'll work to accommodate your schedule.
@@ -109,11 +109,11 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Construction materials like concrete, tile, drywall, and lumber are significantly heavier and require special{' '}
-            <a href="https://www.epa.gov/smm/sustainable-management-construction-and-demolition-materials" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">
+            <a href="https://www.epa.gov/smm/sustainable-management-construction-and-demolition-materials" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 underline decoration-seafoam-300 hover:decoration-seafoam-600">
               disposal facilities
             </a>
             {' '}with weight-based fees. We price{' '}
-            <Link href="/services/construction-debris-removal" className="text-ocean-600 hover:underline font-medium">
+            <Link href="/services/construction-debris-removal" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               construction debris
             </Link>
             {' '}jobs based on material type and volume to give you the most accurate quote.
@@ -125,7 +125,7 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Just text us photos of your debris! We'll respond with an exact quote within 30 minutes. Photos help us assess material type, volume, and weight to give you accurate pricing. Learn more about our{' '}
-            <Link href="/services" className="text-ocean-600 hover:underline font-medium">
+            <Link href="/services" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               services
             </Link>
             {' '}and pricing structure.
@@ -137,11 +137,11 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Everything! Drywall, tile, flooring, cabinets, fixtures, lumber, concrete, brick, stone, roofing materials, and more. If it came from a renovation in{' '}
-            <Link href="/service-areas/blue-mountain-beach" className="text-ocean-600 hover:underline font-medium">
+            <Link href="/service-areas/blue-mountain-beach" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               Blue Mountain Beach
             </Link>
             {' '}or{' '}
-            <Link href="/service-areas/seagrove-beach" className="text-ocean-600 hover:underline font-medium">
+            <Link href="/service-areas/seagrove-beach" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               Seagrove Beach
             </Link>
             , we can haul it.
@@ -153,11 +153,11 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Absolutely. We sort and recycle whatever possible - metal, clean wood, concrete, and more. This helps keep costs down and is better for the environment. Learn more about{' '}
-            <a href="https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">
+            <a href="https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 underline decoration-seafoam-300 hover:decoration-seafoam-600">
               recycling best practices
             </a>
             {' '}and our commitment to{' '}
-            <a href="https://www.visitflorida.com/en-us/things-to-do/florida-nature.html" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">
+            <a href="https://www.visitflorida.com/en-us/things-to-do/florida-nature.html" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 underline decoration-seafoam-300 hover:decoration-seafoam-600">
               protecting Florida's environment
             </a>
             .
@@ -176,11 +176,11 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Yes! We offer preferred pricing and priority scheduling for{' '}
-            <Link href="/services/property-management-junk-removal" className="text-ocean-600 hover:underline font-medium">
+            <Link href="/services/property-management-junk-removal" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               property managers
             </Link>
             {' '}with recurring needs. Whether it's monthly cleanouts or on-call service in{' '}
-            <a href="https://www.visitsouthwalton.com/" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">
+            <a href="https://www.visitsouthwalton.com/" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 underline decoration-seafoam-300 hover:decoration-seafoam-600">
               South Walton
             </a>
             , we've got you covered.
@@ -192,7 +192,7 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Absolutely. We understand the timing constraints of vacation rentals and can work around check-in/check-out times to ensure minimal disruption. Check out our{' '}
-            <Link href="/about" className="text-ocean-600 hover:underline font-medium">
+            <Link href="/about" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               about page
             </Link>
             {' '}to learn more about our flexible service approach.
@@ -204,7 +204,7 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Yes. We provide before and after photos for every job, detailed invoices, and donation receipts when items are donated to organizations like{' '}
-            <a href="https://www.goodwill.org/" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">
+            <a href="https://www.goodwill.org/" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 underline decoration-seafoam-300 hover:decoration-seafoam-600">
               Goodwill
             </a>
             . Perfect for your records and owner reporting.
@@ -216,7 +216,7 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Yes! We sort items and donate usable goods on your behalf to local charities. You'll receive tax-deductible donation receipts for everything we donate. Learn more about our{' '}
-            <Link href="/services/estate-cleanouts" className="text-ocean-600 hover:underline font-medium">
+            <Link href="/services/estate-cleanouts" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               estate cleanout services
             </Link>
             {' '}and donation process.
@@ -228,7 +228,7 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Yes, we can invoice for property management companies. Monthly billing is available for clients with recurring service agreements. Visit our{' '}
-            <Link href="/pricing" className="text-ocean-600 hover:underline font-medium">
+            <Link href="/pricing" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               pricing page
             </Link>
             {' '}for more details on our rates and payment options.

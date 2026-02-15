@@ -46,7 +46,7 @@ export function Header() {
 
             <div className="relative flex h-16 items-center justify-between px-4 lg:px-6">
               {/* Logo */}
-              <Link href="/" className="flex items-center gap-2.5 group">
+              <Link href="/" className="flex items-center gap-2.5 group" aria-label="30A Junk Removal - Home">
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-ocean-400 to-ocean-600 rounded-xl blur-sm opacity-50 group-hover:opacity-70 transition-opacity" />
                   <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-br from-ocean-500 to-ocean-600 text-white shadow-sm">

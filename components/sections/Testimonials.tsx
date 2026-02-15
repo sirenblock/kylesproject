@@ -187,14 +187,14 @@ export function Testimonials() {
           {/* Navigation Arrows - Enhanced */}
           <button
             onClick={goToPrevious}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 sm:-translate-x-4 md:-translate-x-6 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 flex items-center justify-center text-white transition-all hover:scale-110 border border-white/10"
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 sm:-translate-x-4 md:-translate-x-6 w-11 h-11 md:w-12 md:h-12 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 flex items-center justify-center text-white transition-all hover:scale-110 border border-white/10"
             aria-label="Previous testimonial"
           >
             <ChevronLeft className="w-5 h-5 md:w-6 md:h-6" />
           </button>
           <button
             onClick={goToNext}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 sm:translate-x-4 md:translate-x-6 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 flex items-center justify-center text-white transition-all hover:scale-110 border border-white/10"
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 sm:translate-x-4 md:translate-x-6 w-11 h-11 md:w-12 md:h-12 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 flex items-center justify-center text-white transition-all hover:scale-110 border border-white/10"
             aria-label="Next testimonial"
           >
             <ChevronRight className="w-5 h-5 md:w-6 md:h-6" />
@@ -202,7 +202,7 @@ export function Testimonials() {
         </div>
 
         {/* Dots - Enhanced */}
-        <div className="flex items-center justify-center gap-2 mt-8">
+        <div className="flex items-center justify-center gap-1 mt-8">
           {testimonials.map((_, index) => (
             <button
               key={index}
@@ -210,13 +210,15 @@ export function Testimonials() {
                 setIsAutoPlaying(false)
                 setCurrentIndex(index)
               }}
-              className={`h-2 rounded-full transition-all duration-300 ${
-                index === currentIndex
-                  ? 'bg-gradient-to-r from-seafoam-400 to-ocean-400 w-8'
-                  : 'bg-white/30 hover:bg-white/50 w-2'
-              }`}
+              className="relative flex items-center justify-center w-11 h-11"
               aria-label={`Go to testimonial ${index + 1}`}
-            />
+            >
+              <span className={`block rounded-full transition-all duration-300 ${
+                index === currentIndex
+                  ? 'bg-gradient-to-r from-seafoam-400 to-ocean-400 w-8 h-2'
+                  : 'bg-white/30 hover:bg-white/50 w-2 h-2'
+              }`} />
+            </button>
           ))}
         </div>
       </div>

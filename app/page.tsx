@@ -105,7 +105,7 @@ export default function HomePage() {
                 </span>
               </h2>
               <p className="text-lg text-slate-600 mb-6">
-                Our trucks can handle anything from a single <Link href="/services/furniture-removal" className="text-ocean-600 hover:underline font-medium">furniture item</Link> to a full <Link href="/services/estate-cleanouts" className="text-ocean-600 hover:underline font-medium">estate cleanout</Link>. No job is too big or too small for our professional team serving <Link href="/service-areas" className="text-ocean-600 hover:underline font-medium">30A communities</Link>.
+                Our trucks can handle anything from a single <Link href="/services/furniture-removal" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">furniture item</Link> to a full <Link href="/services/estate-cleanouts" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">estate cleanout</Link>. No job is too big or too small for our professional team serving <Link href="/service-areas" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">30A communities</Link>.
               </p>
 
               <ul className="space-y-4 mb-8">

@@ -10,8 +10,8 @@ const quickHaulSteps = [
     title: 'Get Instant Quote Online',
     description: (
       <>
-        Use our <Link href="/#quote" className="text-ocean-600 hover:underline">calculator</Link> or text us photos for{' '}
-        <Link href="/pricing" className="text-ocean-600 hover:underline">pricing</Link> in minutes
+        Use our <Link href="/#quote" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600">calculator</Link> or text us photos for{' '}
+        <Link href="/pricing" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600">pricing</Link> in minutes
       </>
     ),
     icon: Calculator,
@@ -22,7 +22,7 @@ const quickHaulSteps = [
     description: (
       <>
         Choose your preferred date and time -{' '}
-        <Link href="/services" className="text-ocean-600 hover:underline">same day service</Link> available
+        <Link href="/services" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600">same day service</Link> available
       </>
     ),
     icon: Truck,
@@ -42,7 +42,7 @@ const propertyManagerSteps = [
     description: (
       <>
         Book recurring or one-time pickups for{' '}
-        <Link href="/services/vacation-rentals" className="text-gold-600 hover:underline">vacation rental turnovers</Link> around tenant schedules
+        <Link href="/services/vacation-rentals" className="text-gold-600 underline decoration-gold-300 hover:decoration-gold-600">vacation rental turnovers</Link> around tenant schedules
       </>
     ),
     icon: Calendar,
@@ -62,7 +62,7 @@ const propertyManagerSteps = [
           href="https://www.irs.gov/charities-non-profits/charitable-contributions-written-acknowledgments"
           target="_blank"
           rel="nofollow external noopener noreferrer"
-          className="text-seafoam-600 hover:underline"
+          className="text-seafoam-600 underline decoration-seafoam-300 hover:decoration-seafoam-600"
         >
           Tax receipts
         </a> for donations, detailed invoicing
@@ -87,9 +87,9 @@ export function HowItWorks() {
             className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto"
           >
             Serving{' '}
-            <Link href="/service-areas/seaside" className="text-ocean-600 hover:underline">Seaside</Link>,{' '}
-            <Link href="/service-areas/rosemary-beach" className="text-ocean-600 hover:underline">Rosemary Beach</Link>, and{' '}
-            <Link href="/service-areas" className="text-ocean-600 hover:underline">all 30A communities</Link>
+            <Link href="/service-areas/seaside" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600">Seaside</Link>,{' '}
+            <Link href="/service-areas/rosemary-beach" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600">Rosemary Beach</Link>, and{' '}
+            <Link href="/service-areas" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600">all 30A communities</Link>
           </p>
         </div>
 
