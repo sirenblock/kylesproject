@@ -9,7 +9,7 @@ import { ReviewSchema } from "@/components/seo/StructuredData"
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics"
 import { FacebookPixel } from "@/components/analytics/FacebookPixel"
 import { GCLIDCapture } from "@/components/analytics/GCLIDCapture"
-import { ExitIntentModal } from "@/components/ui/ExitIntentModal"
+import { ClientModals } from "@/components/ui/ClientModals"
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://30ajunkremoval.com'
 
@@ -76,6 +76,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://connect.facebook.net" />
         <ReviewSchema />
       </head>
       <body className="antialiased">
@@ -93,7 +95,7 @@ export default function RootLayout({
         <main className="min-h-screen pt-16 pb-20 md:pb-0">{children}</main>
         <Footer />
         <SimpleContactBar />
-        <ExitIntentModal />
+        <ClientModals />
       </body>
     </html>
   )

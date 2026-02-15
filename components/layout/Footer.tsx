@@ -1,5 +1,3 @@
-'use client'
-
 import Link from 'next/link'
 import { Truck, Phone, MessageCircle, Mail, MapPin, Shield, Leaf, Award } from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
