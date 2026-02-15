@@ -1,11 +1,14 @@
 'use client'
 
 import { useState } from 'react'
-import { Phone, MessageCircle, Mail, MapPin, Clock, Send, CheckCircle } from 'lucide-react'
+import { Phone, MessageCircle, Mail, MapPin, Clock, Send, CheckCircle, AlertCircle, Loader2 } from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 
+type FormStatus = 'idle' | 'submitting' | 'success' | 'error'
+
 export default function ContactPage() {
-  const [formSubmitted, setFormSubmitted] = useState(false)
+  const [status, setStatus] = useState<FormStatus>('idle')
+  const [errorMessage, setErrorMessage] = useState('')
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -13,19 +16,64 @@ export default function ContactPage() {
     message: '',
     serviceType: 'one-time',
   })
+  const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({})
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const validate = () => {
+    const errors: Record<string, string> = {}
+
+    if (!formData.name.trim()) errors.name = 'Name is required'
+    if (!formData.email.trim()) {
+      errors.email = 'Email is required'
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+      errors.email = 'Enter a valid email'
+    }
+    if (!formData.phone.trim()) {
+      errors.phone = 'Phone is required'
+    } else if (formData.phone.replace(/\D/g, '').length < 10) {
+      errors.phone = 'Enter a valid 10-digit phone number'
+    }
+    if (!formData.message.trim()) errors.message = 'Message is required'
+
+    setFieldErrors(errors)
+    return Object.keys(errors).length === 0
+  }
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // In production, this would send to a backend/webhook
-    console.log('Form submitted:', formData)
-    setFormSubmitted(true)
+    if (!validate()) return
+
+    setStatus('submitting')
+    setErrorMessage('')
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      })
+
+      if (!res.ok) {
+        const data = await res.json()
+        throw new Error(data.error || 'Something went wrong')
+      }
+
+      setStatus('success')
+    } catch (err) {
+      setStatus('error')
+      setErrorMessage(err instanceof Error ? err.message : 'Failed to send. Please call or text us instead.')
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    setFormData(prev => ({
-      ...prev,
-      [e.target.name]: e.target.value
-    }))
+    const { name, value } = e.target
+    setFormData(prev => ({ ...prev, [name]: value }))
+    if (fieldErrors[name]) {
+      setFieldErrors(prev => {
+        const next = { ...prev }
+        delete next[name]
+        return next
+      })
+    }
   }
 
   return (
@@ -38,7 +86,7 @@ export default function ContactPage() {
               Contact Us
             </h1>
             <p className="mt-6 text-xl text-slate-600">
-              Ready to get rid of that junk? Get in touch and we'll help you out.
+              Ready to get rid of that junk? Get in touch and we&apos;ll help you out.
             </p>
           </div>
         </div>
@@ -116,14 +164,14 @@ export default function ContactPage() {
 
             {/* Contact Form */}
             <div className="bg-white rounded-2xl shadow-lg border border-sand-200 p-8">
-              {formSubmitted ? (
+              {status === 'success' ? (
                 <div className="text-center py-12">
                   <div className="w-16 h-16 mx-auto rounded-full bg-seafoam-100 text-seafoam-600 flex items-center justify-center mb-4">
                     <CheckCircle className="w-8 h-8" />
                   </div>
                   <h3 className="text-xl font-semibold text-slate-800 mb-2">Message Sent!</h3>
                   <p className="text-slate-600 mb-6">
-                    We'll get back to you within 30 minutes during business hours.
+                    We&apos;ll get back to you within 30 minutes during business hours.
                   </p>
                   <a
                     href={`tel:${PHONE_NUMBER}`}
@@ -136,7 +184,22 @@ export default function ContactPage() {
               ) : (
                 <>
                   <h2 className="text-2xl font-bold text-slate-800 mb-6">Send a Message</h2>
-                  <form onSubmit={handleSubmit} className="space-y-6">
+
+                  {status === 'error' && (
+                    <div className="mb-6 p-4 rounded-lg bg-red-50 border border-red-200 flex items-start gap-3">
+                      <AlertCircle className="w-5 h-5 text-red-500 shrink-0 mt-0.5" />
+                      <div>
+                        <p className="font-medium text-red-800">Failed to send</p>
+                        <p className="text-sm text-red-600 mt-1">{errorMessage}</p>
+                        <p className="text-sm text-red-600 mt-1">
+                          You can also reach us at{' '}
+                          <a href={`tel:${PHONE_NUMBER}`} className="underline font-medium">{FORMATTED_PHONE}</a>
+                        </p>
+                      </div>
+                    </div>
+                  )}
+
+                  <form onSubmit={handleSubmit} className="space-y-6" noValidate>
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-2">
                         Name
@@ -148,9 +211,10 @@ export default function ContactPage() {
                         required
                         value={formData.name}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 rounded-lg border border-sand-300 focus:border-ocean-500 focus:ring-2 focus:ring-ocean-200 transition-colors"
+                        className={`w-full px-4 py-3 rounded-lg border transition-colors ${fieldErrors.name ? 'border-red-400 focus:border-red-500 focus:ring-2 focus:ring-red-200' : 'border-sand-300 focus:border-ocean-500 focus:ring-2 focus:ring-ocean-200'}`}
                         placeholder="Your name"
                       />
+                      {fieldErrors.name && <p className="mt-1 text-sm text-red-500">{fieldErrors.name}</p>}
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -165,9 +229,10 @@ export default function ContactPage() {
                           required
                           value={formData.email}
                           onChange={handleChange}
-                          className="w-full px-4 py-3 rounded-lg border border-sand-300 focus:border-ocean-500 focus:ring-2 focus:ring-ocean-200 transition-colors"
+                          className={`w-full px-4 py-3 rounded-lg border transition-colors ${fieldErrors.email ? 'border-red-400 focus:border-red-500 focus:ring-2 focus:ring-red-200' : 'border-sand-300 focus:border-ocean-500 focus:ring-2 focus:ring-ocean-200'}`}
                           placeholder="you@email.com"
                         />
+                        {fieldErrors.email && <p className="mt-1 text-sm text-red-500">{fieldErrors.email}</p>}
                       </div>
                       <div>
                         <label htmlFor="phone" className="block text-sm font-medium text-slate-700 mb-2">
@@ -180,9 +245,10 @@ export default function ContactPage() {
                           required
                           value={formData.phone}
                           onChange={handleChange}
-                          className="w-full px-4 py-3 rounded-lg border border-sand-300 focus:border-ocean-500 focus:ring-2 focus:ring-ocean-200 transition-colors"
+                          className={`w-full px-4 py-3 rounded-lg border transition-colors ${fieldErrors.phone ? 'border-red-400 focus:border-red-500 focus:ring-2 focus:ring-red-200' : 'border-sand-300 focus:border-ocean-500 focus:ring-2 focus:ring-ocean-200'}`}
                           placeholder="(850) 555-1234"
                         />
+                        {fieldErrors.phone && <p className="mt-1 text-sm text-red-500">{fieldErrors.phone}</p>}
                       </div>
                     </div>
 
@@ -216,17 +282,28 @@ export default function ContactPage() {
                         required
                         value={formData.message}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 rounded-lg border border-sand-300 focus:border-ocean-500 focus:ring-2 focus:ring-ocean-200 transition-colors resize-none"
+                        className={`w-full px-4 py-3 rounded-lg border transition-colors resize-none ${fieldErrors.message ? 'border-red-400 focus:border-red-500 focus:ring-2 focus:ring-red-200' : 'border-sand-300 focus:border-ocean-500 focus:ring-2 focus:ring-ocean-200'}`}
                         placeholder="Tell us about your junk removal needs..."
                       />
+                      {fieldErrors.message && <p className="mt-1 text-sm text-red-500">{fieldErrors.message}</p>}
                     </div>
 
                     <button
                       type="submit"
-                      className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-ocean-500 to-ocean-600 text-white rounded-lg font-semibold hover:from-ocean-600 hover:to-ocean-700 transition-all shadow-md hover:shadow-lg"
+                      disabled={status === 'submitting'}
+                      className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-ocean-500 to-ocean-600 text-white rounded-lg font-semibold hover:from-ocean-600 hover:to-ocean-700 transition-all shadow-md hover:shadow-lg disabled:opacity-70 disabled:cursor-not-allowed"
                     >
-                      Send Message
-                      <Send className="w-5 h-5" />
+                      {status === 'submitting' ? (
+                        <>
+                          <Loader2 className="w-5 h-5 animate-spin" />
+                          Sending...
+                        </>
+                      ) : (
+                        <>
+                          Send Message
+                          <Send className="w-5 h-5" />
+                        </>
+                      )}
                     </button>
                   </form>
                 </>
