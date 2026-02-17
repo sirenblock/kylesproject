@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { QuoteCalculator } from '@/components/sections/QuoteCalculator'
 import { PricingTable } from '@/components/sections/PricingTable'
 import { Phone, MessageCircle, Camera, CheckCircle, Clock, Truck, DollarSign, ArrowRight } from 'lucide-react'
@@ -103,6 +104,21 @@ export default function PricingPage() {
       {/* Quote Calculator */}
       <QuoteCalculator />
 
+      {/* Banner Image - Junk Removal Truck */}
+      <section className="py-12 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-xl mb-12 max-w-5xl mx-auto">
+            <Image
+              src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&h=500&fit=crop"
+              alt="Professional junk removal truck ready for affordable pickup service on 30A Florida"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1280px) 100vw, 1024px"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* What's Included & Construction Debris */}
       <section className="py-16 bg-sand-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -204,6 +220,21 @@ export default function PricingPage() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Lifestyle Image - 30A Home */}
+      <section className="py-12 bg-sand-50">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-xl mb-12 max-w-5xl mx-auto">
+            <Image
+              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=500&fit=crop"
+              alt="Beautiful 30A Florida home with clean exterior after professional junk removal service"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1280px) 100vw, 1024px"
+            />
           </div>
         </div>
       </section>

@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
+import Image from 'next/image'
 import Link from 'next/link'
 import { Phone, MessageCircle, Mail, MapPin, Clock, Send, CheckCircle, AlertCircle, Loader2 } from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
@@ -83,6 +84,21 @@ export default function ContactPage() {
             <p className="mt-6 text-xl text-slate-600">
               Ready to get rid of that junk? Whether you need <Link href="/services/furniture-removal" className="text-ocean-600 hover:underline font-medium">furniture removal</Link>, <Link href="/services/construction-debris" className="text-ocean-600 hover:underline font-medium">construction debris hauling</Link>, or <Link href="/services/estate-cleanouts" className="text-ocean-600 hover:underline font-medium">estate cleanout services</Link>, we're here to help. Serving communities from <Link href="/service-areas/seaside" className="text-ocean-600 hover:underline font-medium">Seaside</Link> to <Link href="/service-areas/panama-city-beach" className="text-ocean-600 hover:underline font-medium">Panama City Beach</Link>, get in touch and we'll help you out.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Beach Banner Image */}
+      <section className="py-12 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-xl mb-12 max-w-5xl mx-auto">
+            <Image
+              src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&h=500&fit=crop"
+              alt="Contact 30A Junk Removal for professional junk pickup services along the Florida Emerald Coast"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1280px) 100vw, 1024px"
+            />
           </div>
         </div>
       </section>

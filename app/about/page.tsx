@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 import { Shield, Leaf, Heart, Clock, Phone, CheckCircle, BadgeCheck } from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
@@ -83,14 +84,25 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-ocean-100 to-seafoam-100 rounded-2xl p-8 border border-sand-200">
-              <div className="grid grid-cols-2 gap-6">
-                {stats.map((stat) => (
-                  <div key={stat.label} className="text-center">
-                    <div className="text-3xl font-bold text-ocean-600">{stat.value}</div>
-                    <div className="text-sm text-slate-600 mt-1">{stat.label}</div>
-                  </div>
-                ))}
+            <div className="space-y-6">
+              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
+                <Image
+                  src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&h=600&fit=crop"
+                  alt="Beautiful white sand beach along the 30A Florida Emerald Coast where 30A Junk Removal serves local homeowners and businesses"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
+              <div className="bg-gradient-to-br from-ocean-100 to-seafoam-100 rounded-2xl p-8 border border-sand-200">
+                <div className="grid grid-cols-2 gap-6">
+                  {stats.map((stat) => (
+                    <div key={stat.label} className="text-center">
+                      <div className="text-3xl font-bold text-ocean-600">{stat.value}</div>
+                      <div className="text-sm text-slate-600 mt-1">{stat.label}</div>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
@@ -135,6 +147,16 @@ export default function AboutPage() {
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
               Dedicated to providing reliable, professional junk removal services throughout 30A.
             </p>
+          </div>
+
+          <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-xl mb-12 max-w-5xl mx-auto">
+            <Image
+              src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200&h=500&fit=crop"
+              alt="Professional junk removal service truck ready for same-day pickup along the 30A Florida corridor"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1280px) 100vw, 1024px"
+            />
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">

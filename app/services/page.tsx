@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import {
   Truck,
   Hammer,
@@ -310,6 +311,17 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* Hero Image */}
+      <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-xl my-12 max-w-6xl mx-auto">
+        <Image
+          src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&h=500&fit=crop"
+          alt="Luxury home on 30A Florida ready for professional junk removal and cleanout services"
+          fill
+          className="object-cover"
+          sizes="(max-width: 1280px) 100vw, 1200px"
+        />
+      </div>
+
       {/* Services Grid */}
       <section className="py-16 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -351,6 +363,17 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+
+      {/* Beach Community Image */}
+      <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-xl my-12 max-w-6xl mx-auto">
+        <Image
+          src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1200&h=500&fit=crop"
+          alt="Beautiful 30A Florida beach community served by professional junk removal"
+          fill
+          className="object-cover"
+          sizes="(max-width: 1280px) 100vw, 1200px"
+        />
+      </div>
 
       {/* CTA */}
       <section className="py-16 bg-gradient-to-r from-ocean-600 to-ocean-700 text-white">

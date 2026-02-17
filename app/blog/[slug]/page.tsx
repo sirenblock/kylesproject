@@ -469,11 +469,22 @@ export default async function BlogPostPage({ params }: Props) {
 }
 
 // Configure marked with custom heading renderer for TOC anchor IDs
+// and image renderer for lazy loading + webp optimization
 const renderer = new marked.Renderer()
 renderer.heading = ({ text, depth }: { text: string; depth: number }) => {
   const cleanText = text.replace(/<[^>]+>/g, '')
   const id = cleanText.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
   return `<h${depth} id="${id}">${text}</h${depth}>`
+}
+
+renderer.image = ({ href, title, text }: { href: string; title: string | null; text: string }) => {
+  // Add webp format and quality params for Unsplash images
+  let optimizedHref = href
+  if (href.includes('images.unsplash.com') && !href.includes('&fm=')) {
+    optimizedHref = `${href}&fm=webp&q=80`
+  }
+  const titleAttr = title ? ` title="${title}"` : ''
+  return `<img src="${optimizedHref}" alt="${text}" loading="lazy" width="800" height="450" decoding="async"${titleAttr} />`
 }
 
 marked.setOptions({
