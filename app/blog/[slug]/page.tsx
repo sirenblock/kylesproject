@@ -96,7 +96,7 @@ export default async function BlogPostPage({ params }: Props) {
       />
 
       {/* Header */}
-      <header className="-mt-16 pt-32 pb-12 bg-gradient-to-br from-slate-50 to-white border-b-2 border-slate-200">
+      <header className="-mt-24 pt-32 pb-12 bg-gradient-to-br from-slate-50 to-white border-b-2 border-slate-200">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-4 mb-8 text-sm">
             <Link

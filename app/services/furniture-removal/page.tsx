@@ -49,10 +49,10 @@ export default function ServicePage() {
       <FAQSchema questions={service.faqs} />
 
       {/* Hero */}
-      <section className="relative -mt-16 pb-20 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-800 text-white overflow-hidden">
+      <section className="relative -mt-24 pb-20 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-800 text-white overflow-hidden">
         <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
         {/* Urgency Banner */}
-        <div className="relative pt-16">
+        <div className="relative pt-24">
           <UrgencyBadge variant="banner" type="same-day" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8">

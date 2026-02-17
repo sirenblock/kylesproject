@@ -116,7 +116,7 @@ export default function ServicesPage() {
   return (
     <main className="min-h-screen">
       {/* Hero */}
-      <section className="-mt-16 pt-32 pb-16 bg-gradient-to-br from-ocean-50 to-seafoam-50">
+      <section className="-mt-24 pt-32 pb-16 bg-gradient-to-br from-ocean-50 to-seafoam-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl sm:text-5xl font-bold text-slate-800">

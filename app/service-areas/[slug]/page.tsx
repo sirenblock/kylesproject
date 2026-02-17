@@ -99,9 +99,9 @@ export default async function LocationPage({ params }: Props) {
       <FAQSchema questions={faqs} />
 
       {/* Hero Section */}
-      <section className="-mt-16 pb-16 sm:pb-20 lg:pb-24 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-800 text-white">
+      <section className="-mt-24 pb-16 sm:pb-20 lg:pb-24 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-800 text-white">
         {/* Urgency Banner */}
-        <div className="pt-16">
+        <div className="pt-24">
           <UrgencyBadge variant="banner" type="serving-today" location={location.name} />
         </div>
 
