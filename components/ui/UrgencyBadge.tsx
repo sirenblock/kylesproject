@@ -126,48 +126,30 @@ export function UrgencyBadge({
     )
   }
 
-  // Banner variant - full width attention-grabber
+  // Banner variant - sleek full-width bar for location pages
   if (variant === 'banner') {
     return (
       <div className={cn(
-        'relative w-full px-4 py-4 overflow-hidden',
-        colors.bg,
+        'relative w-full overflow-hidden bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900',
         className
       )}>
-        {/* Animated border */}
-        {animated && (
-          <div className={cn(
-            'absolute inset-0 border-2',
-            colors.border,
-            'animate-pulse'
-          )} />
-        )}
-
-        {/* Non-animated border */}
-        {!animated && (
-          <div className={cn(
-            'absolute inset-0 border-2',
-            colors.border
-          )} />
-        )}
-
-        <div className="relative flex items-center justify-center gap-3 max-w-7xl mx-auto">
-          {showDot && (
-            <div className="relative flex items-center justify-center">
-              <span className={cn('w-3 h-3 rounded-full', colors.dot)} />
+        <div className="relative flex items-center justify-center gap-x-6 py-2.5 px-4 max-w-7xl mx-auto">
+          <div className="flex items-center gap-x-3">
+            {/* Live indicator dot */}
+            <div className="relative hidden sm:flex items-center justify-center">
+              <span className="w-2 h-2 rounded-full bg-emerald-400" />
               {animated && (
-                <span className={cn(
-                  'absolute w-3 h-3 rounded-full animate-ping',
-                  colors.pulse,
-                  'opacity-75'
-                )} />
+                <span className="absolute w-2 h-2 rounded-full bg-emerald-400 animate-ping opacity-75" />
               )}
             </div>
-          )}
-          {!showDot && <Icon className={cn('w-6 h-6', colors.icon)} />}
-          <span className={cn('font-bold text-lg', colors.text)}>
-            {text}
-          </span>
+
+            <p className="text-sm font-medium text-white">
+              <Icon className="inline-block w-3.5 h-3.5 mr-1.5 text-emerald-400 -mt-0.5" />
+              <span>{text}</span>
+              <span className="mx-2 text-slate-500">|</span>
+              <span className="text-emerald-400 font-semibold">Open 7 Days</span>
+            </p>
+          </div>
         </div>
       </div>
     )

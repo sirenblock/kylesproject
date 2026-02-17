@@ -92,7 +92,11 @@ const colorMap = {
   },
 }
 
-export function ServicesGrid() {
+interface ServicesGridProps {
+  locationSlug?: string
+}
+
+export function ServicesGrid({ locationSlug }: ServicesGridProps = {}) {
   return (
     <section className="py-20 bg-sand-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -120,7 +124,7 @@ export function ServicesGrid() {
                 key={service.title}
               >
                 <Link
-                  href={service.href}
+                  href={locationSlug ? `/service-areas/${locationSlug}/${service.href.replace('/services/', '')}` : service.href}
                   className={`block p-6 rounded-xl border ${colors.border} ${colors.bg} ${colors.hover} transition-all group h-full`}
                 >
                   <div

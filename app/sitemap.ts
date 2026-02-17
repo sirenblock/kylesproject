@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next'
 import { getAllBlogSlugs } from '@/lib/blog'
 import { getAllServiceSlugs } from '@/lib/services'
 import { getAllLocationSlugs } from '@/lib/locations'
+import { getAllCountySlugs } from '@/lib/counties'
 import config from '@/lib/config'
 
 // Relester SEO Method: Priority Tier System
@@ -49,21 +50,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   // PRIORITY 0.7: Service pages (hand-crafted, high-value)
-  const servicePages: MetadataRoute.Sitemap = [
-    '/services/property-management',
-    '/services/one-time-hauls',
-    '/services/construction-debris',
-    '/services/vacation-rentals',
-    '/services/estate-cleanouts',
-    '/services/appliance-removal',
-    '/services/furniture-removal',
-    '/services/hot-tub-removal',
-    '/services/donation-pickup',
-    '/services/yard-debris',
-    '/services/garage-cleanouts',
-    '/services/office-furniture',
-  ].map(route => ({
-    url: `${config.siteUrl}${route}`,
+  const serviceSlugs = getAllServiceSlugs()
+  const servicePages: MetadataRoute.Sitemap = serviceSlugs.map(slug => ({
+    url: `${config.siteUrl}/services/${slug}`,
     lastModified: now,
     changeFrequency: 'monthly' as const,
     priority: 0.7,
@@ -78,6 +67,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }))
 
+  // PRIORITY 0.7: County hub pages (pillar content)
+  const countySlugs = getAllCountySlugs()
+  const countyPages: MetadataRoute.Sitemap = countySlugs.map(slug => ({
+    url: `${config.siteUrl}/service-areas/county/${slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
+
   // PRIORITY 0.5: Location pages (programmatic SEO)
   const locationSlugs = getAllLocationSlugs()
   const locationPages: MetadataRoute.Sitemap = locationSlugs.map(slug => ({
@@ -87,8 +85,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }))
 
-  // PRIORITY 0.5: Service-Location combination pages (144 programmatic SEO pages)
-  const serviceSlugs = getAllServiceSlugs()
+  // PRIORITY 0.5: Service-Location combination pages (programmatic SEO pages)
   const serviceLocationPages: MetadataRoute.Sitemap = locationSlugs.flatMap(location =>
     serviceSlugs.map(service => ({
       url: `${config.siteUrl}/service-areas/${location}/${service}`,
@@ -126,6 +123,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...conversionPages,
     ...discoveryPages,
     ...servicePages,
+    ...countyPages,
     ...blogPosts,
     ...locationPages,
     ...serviceLocationPages,

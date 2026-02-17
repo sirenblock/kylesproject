@@ -9,6 +9,8 @@ interface LocationBusinessSchemaProps {
   description: string
   latitude?: number
   longitude?: number
+  zipCodes?: string[]
+  county?: string
 }
 
 export function LocationBusinessSchema({
@@ -17,7 +19,38 @@ export function LocationBusinessSchema({
   description,
   latitude,
   longitude,
+  zipCodes,
+  county,
 }: LocationBusinessSchemaProps) {
+  const areaServed: Record<string, unknown>[] = [
+    {
+      '@type': 'City',
+      name: locationName,
+      containedInPlace: {
+        '@type': 'State',
+        name: 'Florida',
+      },
+    },
+  ]
+
+  if (zipCodes) {
+    zipCodes.forEach((zip) => {
+      areaServed.push({
+        '@type': 'PostalAddress',
+        postalCode: zip,
+        addressRegion: 'FL',
+        addressCountry: 'US',
+      })
+    })
+  }
+
+  if (county) {
+    areaServed.push({
+      '@type': 'AdministrativeArea',
+      name: `${county} County, FL`,
+    })
+  }
+
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
@@ -29,14 +62,7 @@ export function LocationBusinessSchema({
     image: `${siteUrl}/images/og-image.jpg`,
     logo: `${siteUrl}/images/logo.png`,
     priceRange: '$$',
-    areaServed: {
-      '@type': 'City',
-      name: locationName,
-      containedInPlace: {
-        '@type': 'State',
-        name: 'Florida',
-      },
-    },
+    areaServed,
     ...(latitude && longitude
       ? {
           geo: {
@@ -50,6 +76,7 @@ export function LocationBusinessSchema({
       '@type': 'PostalAddress',
       addressLocality: locationName,
       addressRegion: 'FL',
+      ...(zipCodes?.[0] ? { postalCode: zipCodes[0] } : {}),
       addressCountry: 'US',
     },
     openingHoursSpecification: [

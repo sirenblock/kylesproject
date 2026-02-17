@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Phone, MapPin, CheckCircle, Clock, Shield, Camera, ArrowRight } from 'lucide-react'
 import { getLocation, getLocationFAQs, getAllLocationSlugs, getNearbyLocations } from '@/lib/locations'
+import { getCountyForLocation } from '@/lib/counties'
 import { FORMATTED_PHONE, PHONE_NUMBER, getSMSLink } from '@/lib/utils'
 import { BreadcrumbSchema, FAQSchema } from '@/components/seo/StructuredData'
 import { LocationBusinessSchema } from '@/components/seo/LocationBusinessSchema'
@@ -19,7 +20,6 @@ import { LinksSection } from '@/components/seo/LinksSection'
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo'
 import { marked } from 'marked'
 import { QuickQuoteForm } from '@/components/ui/QuickQuoteForm'
-import { UrgencyBadge, BusinessHoursBadge } from '@/components/ui/UrgencyBadge'
 import { AllServiceAreasGrid } from '@/components/sections/AllServiceAreasGrid'
 
 marked.setOptions({ breaks: true, gfm: true })
@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `Junk Removal in ${location.name} FL | 30A Junk Removal | Same-Day Service`,
-    description: `Professional junk removal in ${location.name}, Florida. ${location.description.slice(0, 150)}. Same-day service available. Call ${FORMATTED_PHONE}.`,
+    description: `Professional junk removal in ${location.name}, FL ${location.zipCodes[0]}. ${location.description.slice(0, 120)}. Same-day service available. Call ${FORMATTED_PHONE}.`,
     keywords: [
       `junk removal ${location.name}`,
       `${location.name} junk removal`,
@@ -81,6 +81,7 @@ export default async function LocationPage({ params }: Props) {
   const location = getLocation(slug)
   const faqs = getLocationFAQs(slug)
   const nearbyLocations = getNearbyLocations(slug)
+  const county = getCountyForLocation(slug)
 
   if (!location) {
     notFound()
@@ -105,31 +106,44 @@ export default async function LocationPage({ params }: Props) {
         description={`Professional junk removal in ${location.name}, Florida. Same-day service, transparent pricing, serving the 30A corridor.`}
         latitude={location.coordinates.lat}
         longitude={location.coordinates.lng}
+        zipCodes={location.zipCodes}
+        county={location.county}
       />
 
       {/* Hero Section */}
       <section className="-mt-24 pb-16 sm:pb-20 lg:pb-24 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-800 text-white">
-        {/* Urgency Banner */}
-        <div className="pt-24">
-          <UrgencyBadge variant="banner" type="serving-today" location={location.name} />
-        </div>
+        <div className="pt-24" />
 
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8">
           <div className="max-w-4xl">
-            <div className="flex items-center gap-3 mb-4 flex-wrap">
-              <div className="flex items-center gap-2">
-                <MapPin className="w-5 h-5 text-gold-400" />
-                <span className="text-gold-400 font-semibold">Serving {location.name}</span>
-              </div>
-              <BusinessHoursBadge />
-              <UrgencyBadge variant="inline" type="last-minute" />
+            <div className="flex items-center gap-3 mb-4">
+              <span className="relative flex h-2.5 w-2.5">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+                <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-400" />
+              </span>
+              <span className="text-sm font-medium text-emerald-300">Serving {location.name} Today</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               Junk Removal in {location.name} FL
             </h1>
-            <p className="text-xl sm:text-2xl text-ocean-100 mb-8">
-              Professional junk removal serving {location.name} and surrounding 30A communities. Same-day service available.
+            <p className="text-xl sm:text-2xl text-ocean-100 mb-4">
+              Professional junk removal serving {location.name} and surrounding {location.county} County communities in the {location.areaCode} area. Same-day service available.
             </p>
+            <div className="flex flex-wrap gap-2 mb-8">
+              {location.zipCodes.map((zip) => (
+                <span key={zip} className="inline-flex items-center px-3 py-1 rounded-full bg-white/15 text-white text-sm font-medium border border-white/20">
+                  {zip}
+                </span>
+              ))}
+              {county && (
+                <Link
+                  href={`/service-areas/county/${county.slug}`}
+                  className="inline-flex items-center px-3 py-1 rounded-full bg-gold-500/20 text-gold-300 text-sm font-medium border border-gold-400/30 hover:bg-gold-500/30 transition-colors"
+                >
+                  {location.county} County →
+                </Link>
+              )}
+            </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href={`tel:${PHONE_NUMBER}`}
@@ -271,7 +285,7 @@ export default async function LocationPage({ params }: Props) {
               From <Link href="/services/vacation-rentals" className="text-ocean-600 hover:underline font-medium">vacation rental turnovers</Link> to <Link href="/services/estate-cleanouts" className="text-ocean-600 hover:underline font-medium">estate cleanouts</Link>, we handle all your junk removal needs in {location.name}. We also specialize in <Link href="/services/furniture-removal" className="text-ocean-600 hover:underline font-medium">furniture removal</Link>, <Link href="/services/appliance-removal" className="text-ocean-600 hover:underline font-medium">appliance disposal</Link>, and <Link href="/services/construction-debris" className="text-ocean-600 hover:underline font-medium">construction debris removal</Link>.
             </p>
           </div>
-          <ServicesGrid />
+          <ServicesGrid locationSlug={slug} />
         </div>
       </section>
 

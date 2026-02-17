@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const title = `${service.title} in ${location.name} FL | 30A Junk Removal`
-  const description = `Professional ${service.title.toLowerCase()} in ${location.name}, Florida. ${service.description.slice(0, 140)}. Same-day service. Call ${FORMATTED_PHONE}.`
+  const description = `Professional ${service.title.toLowerCase()} in ${location.name}, FL ${location.zipCodes[0]}. ${service.description.slice(0, 120)}. Same-day service. Call ${FORMATTED_PHONE}.`
 
   return {
     title,

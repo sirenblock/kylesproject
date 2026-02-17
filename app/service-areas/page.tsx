@@ -75,6 +75,116 @@ const communities = [
     slug: 'panama-city-beach',
     description: 'Beautiful beaches and year-round destination at the eastern end of our service area.',
   },
+  {
+    name: 'Miramar Beach',
+    slug: 'miramar-beach',
+    description: 'Popular beach community between Destin and 30A with resort properties and vacation rentals.',
+  },
+  {
+    name: 'Sandestin',
+    slug: 'sandestin',
+    description: 'Premier resort community with over 2,400 acres of condos, villas, and residential properties.',
+  },
+  {
+    name: 'Dune Allen Beach',
+    slug: 'dune-allen-beach',
+    description: 'Quiet beach community along 30A with vacation homes and stunning Gulf views.',
+  },
+  {
+    name: 'Point Washington',
+    slug: 'point-washington',
+    description: 'Inland community near Point Washington State Forest with larger lots and natural surroundings.',
+  },
+  {
+    name: 'WaterSound',
+    slug: 'watersound',
+    description: 'Upscale planned community with luxury homes, nature trails, and multiple neighborhoods.',
+  },
+  {
+    name: 'Seacrest Beach',
+    slug: 'seacrest-beach',
+    description: 'Vibrant beach community near Rosemary Beach known for vacation rentals and the iconic sky pool.',
+  },
+  {
+    name: 'Freeport',
+    slug: 'freeport',
+    description: 'Growing inland community in Walton County along the Choctawhatchee Bay.',
+  },
+  {
+    name: 'DeFuniak Springs',
+    slug: 'defuniak-springs',
+    description: 'Historic Walton County seat known for its perfectly round spring-fed lake.',
+  },
+  {
+    name: 'WaterSound Beach',
+    slug: 'watersound-beach',
+    description: 'Beachfront community at the eastern end of 30A with luxury rentals and Gulf access.',
+  },
+  {
+    name: 'Panama City',
+    slug: 'panama-city',
+    description: 'Bay County seat with diverse neighborhoods, revitalized downtown, and growing commercial district.',
+  },
+  {
+    name: 'Lynn Haven',
+    slug: 'lynn-haven',
+    description: 'Family-friendly suburb north of Panama City with excellent schools and parks.',
+  },
+  {
+    name: 'Callaway',
+    slug: 'callaway',
+    description: 'Residential community east of Panama City with small-town atmosphere.',
+  },
+  {
+    name: 'Springfield',
+    slug: 'springfield',
+    description: 'Small Bay County city undergoing revitalization with new construction and community growth.',
+  },
+  {
+    name: 'Parker',
+    slug: 'parker',
+    description: 'Small waterfront city on St. Andrew Bay with quiet residential neighborhoods.',
+  },
+  {
+    name: 'Laguna Beach',
+    slug: 'laguna-beach',
+    description: 'Unincorporated beach community between Panama City Beach and the 30A corridor.',
+  },
+  {
+    name: 'Mexico Beach',
+    slug: 'mexico-beach',
+    description: 'Small beach town actively rebuilding after Hurricane Michael with strong community spirit.',
+  },
+  {
+    name: 'Fort Walton Beach',
+    slug: 'fort-walton-beach',
+    description: 'Largest city in Okaloosa County with vibrant waterfront, military community, and diverse neighborhoods.',
+  },
+  {
+    name: 'Niceville',
+    slug: 'niceville',
+    description: 'Family-friendly city on Choctawhatchee Bay with excellent schools and quality of life.',
+  },
+  {
+    name: 'Crestview',
+    slug: 'crestview',
+    description: 'Okaloosa County seat experiencing rapid growth near Eglin Air Force Base.',
+  },
+  {
+    name: 'Mary Esther',
+    slug: 'mary-esther',
+    description: 'Small city near Hurlburt Field with tight-knit military community atmosphere.',
+  },
+  {
+    name: 'Shalimar',
+    slug: 'shalimar',
+    description: 'Residential community on Choctawhatchee Bay with waterfront living.',
+  },
+  {
+    name: 'Valparaiso',
+    slug: 'valparaiso',
+    description: 'Small city adjacent to Eglin AFB with close-knit community character.',
+  },
 ]
 
 export default function ServiceAreasPage() {
@@ -123,6 +233,36 @@ export default function ServiceAreasPage() {
         </div>
       </section>
 
+      {/* Interactive Coverage Map */}
+      <section className="py-16 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-ocean-100 text-ocean-700 text-sm font-medium mb-4">
+              <Sparkles className="w-4 h-4" />
+              Interactive Map
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 mb-4">Our Coverage Area</h2>
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
+              We serve the entire 30A corridor and surrounding areas, including <Link href="/service-areas/seaside" className="text-ocean-600 hover:underline font-medium">Seaside</Link>, <Link href="/service-areas/watercolor" className="text-ocean-600 hover:underline font-medium">WaterColor</Link>, and <Link href="/service-areas/grayton-beach" className="text-ocean-600 hover:underline font-medium">Grayton Beach</Link>. Click on any marker to learn more.
+            </p>
+          </div>
+
+          <div className="relative">
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-ocean-400 via-seafoam-400 to-ocean-400 rounded-3xl opacity-20 blur-sm" />
+            <div className="relative bg-white rounded-2xl shadow-xl overflow-hidden border border-sand-100">
+              <CoverageMap />
+            </div>
+          </div>
+
+          <div className="mt-6 text-center">
+            <p className="text-sm text-slate-600 flex items-center justify-center gap-2">
+              <MapPin className="w-4 h-4" />
+              Click on location markers for details and directions
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Key Benefits */}
       <section className="py-12 bg-white border-b border-sand-200">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -131,7 +271,7 @@ export default function ServiceAreasPage() {
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-ocean-100 text-ocean-600 mb-3">
                 <MapPin className="w-6 h-6" />
               </div>
-              <h3 className="font-semibold text-slate-800 mb-1">12 Communities</h3>
+              <h3 className="font-semibold text-slate-800 mb-1">34 Communities</h3>
               <p className="text-sm text-slate-600">Full coverage across 30A</p>
             </div>
             <div className="text-center">
@@ -211,40 +351,6 @@ export default function ServiceAreasPage() {
               Check our transparent pricing
               <ArrowRight className="w-4 h-4" />
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Interactive Coverage Map */}
-      <section className="py-20 bg-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-ocean-100 text-ocean-700 text-sm font-medium mb-4">
-              <Sparkles className="w-4 h-4" />
-              Interactive Map
-            </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 mb-4">Our Coverage Area</h2>
-            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              We serve the entire 30A corridor and surrounding areas, including <Link href="/service-areas/seaside" className="text-ocean-600 hover:underline font-medium">Seaside</Link>, <Link href="/service-areas/watercolor" className="text-ocean-600 hover:underline font-medium">WaterColor</Link>, and <Link href="/service-areas/grayton-beach" className="text-ocean-600 hover:underline font-medium">Grayton Beach</Link>. Click on any marker to learn more about that location.
-            </p>
-          </div>
-
-          <div className="relative">
-            {/* Gradient border effect */}
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-ocean-400 via-seafoam-400 to-ocean-400 rounded-3xl opacity-20 blur-sm" />
-            <div className="relative bg-white rounded-2xl shadow-xl overflow-hidden border border-sand-100">
-              <CoverageMap />
-            </div>
-          </div>
-
-          <div className="mt-8 text-center">
-            <p className="text-sm text-slate-600 flex items-center justify-center gap-2">
-              <MapPin className="w-4 h-4" />
-              Click on location markers for details and directions
-            </p>
-            <p className="text-sm text-slate-500 mt-2">
-              View our complete <Link href="/faq" className="text-ocean-600 hover:underline font-medium">FAQ</Link> for service details
-            </p>
           </div>
         </div>
       </section>

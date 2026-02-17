@@ -1915,6 +1915,1828 @@ Complete office building clearance: Custom quote (typically $2,000-$5,000+)
         answer: 'Pricing depends on volume and access. A typical office suite (3-4 desks, chairs, filing cabinets) runs $300-$600. Text photos for accurate quotes on larger projects.'
       }
     ]
+  },
+  'mattress-removal': {
+    slug: 'mattress-removal',
+    title: 'Mattress Removal',
+    shortTitle: 'Mattress Removal',
+    description: 'Professional mattress removal and disposal on 30A. We pick up all mattress sizes including king, queen, twin, and specialty mattresses. Same-day service available with eco-friendly recycling options.',
+    content: `
+## Professional Mattress Removal on 30A
+
+Getting rid of an old mattress is one of the most frustrating disposal challenges homeowners and <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental managers</a> face on 30A. Mattresses are bulky, heavy, and difficult to transport. Most curbside trash services won't take them, and Walton County has specific disposal requirements. Whether you're replacing a worn-out mattress in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, upgrading guest bedding in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, or handling a <a href="/services/estate-cleanouts" class="text-ocean-600 hover:underline font-medium">full estate cleanout</a>, we provide fast, affordable mattress removal with responsible disposal.
+
+### Why Professional Mattress Removal Matters
+
+**Disposal Challenges:**
+Mattresses present unique disposal problems. They're too large for regular trash pickup, too bulky for most personal vehicles, and improperly dumped mattresses create environmental and health hazards. Florida law prohibits illegal dumping, and Walton County enforces fines for improper mattress disposal. Our service eliminates all of these headaches with a single phone call or text.
+
+**Health and Hygiene Considerations:**
+Old mattresses can harbor dust mites, allergens, bed bugs, mold, and bacteria, especially in our humid Gulf Coast climate. The salt air and moisture along <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">the 30A corridor</a> accelerate mattress deterioration. Professional removal ensures these items are handled hygienically and disposed of properly, protecting your home and family.
+
+### Our Mattress Removal Process
+
+**Step 1: Schedule Your Pickup**
+Call, text, or book online. Send us a photo showing the mattress size and location. We offer same-day service when available and can typically schedule within 24 hours. We serve all 30A communities from <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a> to <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>.
+
+**Step 2: We Handle Everything**
+Our team arrives on time, navigates stairs, hallways, and tight spaces. We carefully remove the mattress without damaging walls, doors, or floors. No need to drag it outside yourself; we handle it from bedroom to truck.
+
+**Step 3: Responsible Disposal**
+We prioritize recycling whenever possible. Mattress components including steel springs, foam, cotton, and wood can often be recycled. Materials are separated and sent to appropriate facilities. For mattresses in good condition, we coordinate <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donation pickup</a> with local charities following <a href="https://www.epa.gov/recycle" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA recycling guidelines</a>.
+
+### What We Remove
+
+**All Mattress Types and Sizes:**
+- King and California king mattresses
+- Queen mattresses
+- Full and double mattresses
+- Twin and twin XL mattresses
+- Box springs and foundations
+- Memory foam mattresses
+- Pillow top mattresses
+- Adjustable bed bases
+- Crib mattresses and toddler mattresses
+- Futon mattresses
+- Sofa bed mattresses
+
+### Vacation Rental Mattress Management
+
+For <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental properties</a> on 30A, mattress quality directly impacts guest reviews and bookings. We work with <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property managers</a> across <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, and <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> to coordinate mattress swaps between guest stays. We can remove old mattresses the same day new ones are delivered, minimizing property downtime. We understand the urgency when a mattress issue is discovered during turnover. Stained, damaged, or worn mattresses need immediate replacement to maintain your property rating and guest satisfaction.
+
+### Pricing Transparency
+
+**Simple, Fair Pricing:**
+Single mattress removal starts at $75. This includes all labor, loading, transportation, and disposal fees. For multiple mattresses, we offer volume pricing that saves you money. A typical bedroom set including mattress and box spring runs $100-$150. For full property mattress replacements, such as vacation rental refreshes with 4-6 mattresses, text us for a custom volume quote.
+
+**What Affects Your Price:**
+- Mattress size and weight
+- Location within the property (stairs, elevator, distance to truck)
+- Number of mattresses being removed
+- Whether box springs or foundations are included
+- Access challenges specific to 30A communities
+- Same-day vs. scheduled service
+
+### Why Choose Us for Mattress Removal
+
+We understand 30A properties. From the narrow streets of <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> to the elegant homes of <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, we navigate tight spaces, stairs, and HOA requirements with care. Our team protects your property during removal, covering floors and protecting walls. We are fully insured, professional, and committed to recycling whenever possible. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> today for fast, affordable mattress removal.
+    `,
+    features: [
+      'Proper mattress disposal and recycling',
+      'Same-day pickup available',
+      'All mattress sizes accepted',
+      'Box spring and foundation removal',
+      'Vacation rental mattress swaps',
+      'Eco-friendly recycling options',
+      'Stair and tight-space navigation',
+      'Volume discounts for multiple mattresses'
+    ],
+    pricing: {
+      starting: '$75',
+      halfTruck: '$200-$300'
+    },
+    faqs: [
+      {
+        question: 'How much does it cost to remove a mattress?',
+        answer: 'Single mattress removal starts at $75, which includes labor, hauling, and disposal. A mattress with box spring typically runs $100-$150. Volume discounts are available for multiple mattresses.'
+      },
+      {
+        question: 'Can you pick up my mattress the same day?',
+        answer: 'Yes, we offer same-day mattress removal when scheduling allows. Text us a photo of the mattress and your location for the fastest response. We can usually accommodate same-day requests.'
+      },
+      {
+        question: 'Do you recycle mattresses?',
+        answer: 'We recycle mattress components whenever possible. Steel springs, foam, cotton, and wood can often be separated and recycled. We work with licensed recycling facilities to minimize landfill waste.'
+      },
+      {
+        question: 'Can you remove mattresses from upstairs bedrooms?',
+        answer: 'Absolutely. Our team handles all the heavy lifting including navigating stairs, hallways, and tight doorways. We protect your walls and floors during removal.'
+      },
+      {
+        question: 'Do you coordinate with new mattress delivery?',
+        answer: 'Yes, especially for vacation rental properties. We can time our removal to coincide with new mattress delivery so your property has minimal downtime between guests.'
+      }
+    ]
+  },
+  'tv-electronics-recycling': {
+    slug: 'tv-electronics-recycling',
+    title: 'TV & Electronics Recycling',
+    shortTitle: 'Electronics Recycling',
+    description: 'EPA-compliant TV and electronics recycling on 30A. We safely remove and recycle televisions, computers, monitors, and all e-waste. Data destruction available. Serving all 30A communities.',
+    content: `
+## Professional TV & Electronics Recycling on 30A
+
+Electronic waste is one of the fastest-growing waste streams in the United States, and the 30A corridor is no exception. From outdated flat-screen TVs in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> vacation rentals to obsolete computer equipment in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> home offices, electronic devices require specialized handling and disposal. Unlike regular household waste, electronics contain hazardous materials including lead, mercury, cadmium, and flame retardants that pose serious environmental and health risks when improperly disposed. Our professional e-waste recycling service ensures your old electronics are handled responsibly and in full compliance with <a href="https://www.epa.gov/recycle/electronics-donation-and-recycling" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA electronics recycling guidelines</a>.
+
+### Why Electronics Require Special Disposal
+
+**Environmental Hazards:**
+A single CRT television contains 4-8 pounds of lead. Flat-screen displays contain mercury in their backlighting. Circuit boards contain cadmium, beryllium, and other toxic metals. When these materials end up in landfills, they leach into soil and groundwater, threatening our coastal ecosystem. Along the 30A corridor, protecting our natural environment including the rare coastal dune lakes, pristine beaches, and marine habitat is a community priority.
+
+**Legal Requirements:**
+Florida law prohibits certain electronics from being placed in regular trash. Televisions, computer monitors, and other devices containing hazardous materials must be properly recycled. We ensure full compliance with all federal, state, and local e-waste regulations so you never face disposal fines.
+
+**Data Security:**
+Computers, smartphones, tablets, and storage devices contain personal and financial information. Simply deleting files is not enough since data can be recovered from discarded drives. We offer certified data destruction services to protect your identity and sensitive information before recycling.
+
+### What We Recycle
+
+**Televisions and Displays:**
+- Flat-screen TVs (LED, LCD, OLED, plasma)
+- CRT televisions and monitors
+- Computer monitors
+- Projectors and projection screens
+- Digital signage and displays
+
+**Computers and Peripherals:**
+- Desktop computers and towers
+- Laptops and notebooks
+- Tablets and e-readers
+- Printers, scanners, and copiers
+- Keyboards, mice, and accessories
+- Networking equipment (routers, modems, switches)
+- External hard drives and storage devices
+
+**Home Electronics:**
+- Stereo systems and speakers
+- DVD and Blu-ray players
+- Gaming consoles and accessories
+- Smart home devices
+- Cable boxes and satellite receivers
+- Old cell phones and smartphones
+
+**<a href="/services/office-furniture" class="text-ocean-600 hover:underline font-medium">Office</a> and Business Electronics:**
+- Server equipment and racks
+- Phone systems and conferencing equipment
+- Point-of-sale systems
+- Security cameras and DVR systems
+- UPS battery backup systems
+- Commercial audio-visual equipment
+
+### Our E-Waste Recycling Process
+
+**Step 1: Inventory and Quote**
+Text us photos of your electronics for a fast, accurate quote. We assess the type, quantity, and any special handling needs including data destruction requirements. We serve all communities from <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a> to <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>.
+
+**Step 2: Safe Removal**
+Our team carefully disconnects and removes all electronic equipment. We handle wall-mounted TVs, built-in systems, and heavy equipment. Cables and mounting hardware are removed as well.
+
+**Step 3: Data Destruction**
+For devices containing data, we provide certified data destruction. Hard drives, SSDs, and storage media are securely wiped or physically destroyed according to NIST standards. We provide certificates of destruction upon request.
+
+**Step 4: Certified Recycling**
+Electronics are transported to certified e-waste recycling facilities. Materials are separated including precious metals, glass, plastics, and circuit boards for proper recycling. We partner with R2-certified recyclers who meet the highest environmental and worker safety standards.
+
+### Vacation Rental Electronics Updates
+
+<a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental properties</a> regularly upgrade electronics to stay competitive. When you replace TVs, sound systems, or smart home devices in your <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> or <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> rental, we handle the old equipment removal. We can coordinate with your installer to remove old equipment the same day new equipment is installed. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your electronics recycling pickup.
+    `,
+    features: [
+      'EPA-compliant e-waste disposal',
+      'Certified data destruction available',
+      'All electronics accepted',
+      'TV wall-mount removal included',
+      'Recycling certificates provided',
+      'Same-day service available',
+      'Business and residential service',
+      'Responsible recycling partners'
+    ],
+    pricing: {
+      starting: '$75',
+      halfTruck: '$200-$350'
+    },
+    faqs: [
+      {
+        question: 'Can you remove a wall-mounted TV?',
+        answer: 'Yes, we remove wall-mounted TVs including the mounting bracket. We patch and clean the wall area if requested. Text us a photo for an accurate quote.'
+      },
+      {
+        question: 'Do you destroy data on old computers?',
+        answer: 'Yes, we offer certified data destruction for hard drives, SSDs, and storage media. We can wipe drives using DOD-standard methods or physically destroy them. Certificates of destruction are available upon request.'
+      },
+      {
+        question: 'Can I recycle a broken TV?',
+        answer: 'Absolutely. We accept broken, cracked, and non-functional electronics. These items still need proper recycling to prevent hazardous materials from entering landfills.'
+      },
+      {
+        question: 'How much does electronics recycling cost?',
+        answer: 'Pricing starts at $75 for small loads. A typical home electronics cleanout with a few TVs, old computers, and miscellaneous devices runs $200-$350. Text photos for exact pricing.'
+      },
+      {
+        question: 'Do you accept batteries and light bulbs?',
+        answer: 'We accept batteries, including lithium-ion, as part of an electronics removal job. Light bulbs containing mercury (CFLs, fluorescent tubes) can be included as well. We handle all items according to hazardous material guidelines.'
+      }
+    ]
+  },
+  'shed-demolition': {
+    slug: 'shed-demolition',
+    title: 'Shed Demolition & Removal',
+    shortTitle: 'Shed Demolition',
+    description: 'Complete shed demolition and removal on 30A. We tear down and haul away sheds of all sizes including wood, metal, and vinyl structures. Full site cleanup and debris hauling included.',
+    content: `
+## Professional Shed Demolition & Removal on 30A
+
+Old, damaged, or unwanted sheds are a common challenge for 30A property owners. Whether it is a rotting wooden shed in <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, a rusted metal storage building in <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>, or a storm-damaged structure anywhere along <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">the 30A corridor</a>, our team handles complete demolition, debris removal, and site cleanup. The humid, salt-air environment of coastal Northwest Florida accelerates shed deterioration, making professional demolition a common need for homeowners and <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property managers</a> throughout the area.
+
+### When Shed Demolition Is Needed
+
+**Common Reasons for Shed Removal:**
+- Structural deterioration from salt air, humidity, and storms
+- Termite and pest damage beyond repair
+- Property renovation or landscaping redesign
+- HOA violations or compliance requirements
+- Preparing property for sale or new construction
+- Storm or hurricane damage cleanup
+- Replacing old shed with new structure
+- Clearing space for pools, patios, or outdoor living areas
+
+### Our Shed Demolition Process
+
+**Assessment and Planning:**
+Every shed demolition starts with a thorough assessment. We evaluate the structure's materials, size, foundation type, proximity to other structures, and any potential hazards. For sheds near property lines in communities like <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> or <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, we plan carefully to protect neighboring properties and landscaping.
+
+**Safe Demolition:**
+Our experienced crew uses proper tools and techniques for each material type. Wood sheds are carefully dismantled to separate recyclable lumber from damaged material. Metal sheds are cut apart and sorted for scrap recycling. Vinyl and composite structures are broken down for proper disposal. We always work safely, following OSHA guidelines for demolition projects.
+
+**Debris Hauling and Cleanup:**
+All demolition debris is loaded into our trucks and hauled away. We separate recyclable materials including clean wood, metal, and concrete for proper recycling. The job site is left clean and level. We remove nails, screws, and small debris that could be hazardous.
+
+**Foundation and Site Work:**
+Many sheds sit on concrete slabs, gravel pads, or wooden platforms. We can remove concrete foundations using breaking equipment, grade gravel pads, and remove wooden platforms. Ask about <a href="/services/concrete-removal" class="text-ocean-600 hover:underline font-medium">concrete removal</a> if your shed has a slab foundation. After removal, the site is graded and ready for new construction, landscaping, or lawn restoration.
+
+### Shed Types We Demolish
+
+**Wood Sheds:**
+Traditional wooden storage sheds, garden sheds, and workshop buildings. Wood sheds are most susceptible to rot, termites, and storm damage in our coastal climate. We salvage usable lumber when possible.
+
+**Metal Sheds:**
+Steel and aluminum storage buildings, carports, and utility structures. Metal sheds corrode in salt air and become eyesores. We cut apart and recycle all metal components.
+
+**Vinyl and Composite Sheds:**
+Modern vinyl and resin sheds that have faded, cracked, or been damaged. These are disassembled and properly disposed of since most cannot be recycled locally.
+
+**Custom and Oversized Structures:**
+Large workshop buildings, multi-room sheds, and custom-built outbuildings. These require more extensive planning and may take multiple days. We provide detailed quotes for oversized projects.
+
+### Coastal Considerations
+
+The 30A environment is hard on outdoor structures. Salt spray accelerates corrosion on metal components. Humidity promotes mold, mildew, and wood rot. Termites thrive in our warm climate. Hurricane-force winds can damage or destroy sheds, creating <a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">yard debris</a> and safety hazards. We understand these local challenges and provide efficient demolition services that restore your property. For <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris</a> from larger projects, we offer volume pricing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a free shed demolition estimate.
+    `,
+    features: [
+      'Complete shed demolition and teardown',
+      'All debris hauled away',
+      'Site cleanup and leveling',
+      'Wood, metal, and vinyl sheds',
+      'Foundation removal available',
+      'Material recycling when possible',
+      'HOA compliance coordination',
+      'Fully insured demolition crew'
+    ],
+    pricing: {
+      starting: '$400',
+      custom: true
+    },
+    faqs: [
+      {
+        question: 'How much does shed demolition cost?',
+        answer: 'Shed demolition starts at $400 for small single-wall sheds (8x8 or smaller). Average sheds (10x12) typically run $600-$1,000. Large or custom sheds with concrete foundations can be $1,500+. Text photos for accurate quotes.'
+      },
+      {
+        question: 'Do you remove the concrete slab foundation?',
+        answer: 'Yes, we can remove concrete slab foundations as part of the demolition project. Foundation removal is priced separately based on thickness and size. We break, load, and haul away all concrete.'
+      },
+      {
+        question: 'How long does shed demolition take?',
+        answer: 'Most standard shed demolitions are completed in one day, typically 2-4 hours. Larger structures with concrete foundations may require a full day or two. We provide time estimates with your quote.'
+      },
+      {
+        question: 'Do I need a permit for shed demolition?',
+        answer: 'In most cases, residential shed demolition in Walton County does not require a permit. However, if the shed has electrical or plumbing connections, disconnection permits may be needed. We can advise based on your specific situation.'
+      },
+      {
+        question: 'Can you demolish a shed close to my house or fence?',
+        answer: 'Yes, we have experience demolishing sheds in tight spaces near homes, fences, and property lines. We use careful hand demolition techniques when needed to protect adjacent structures and landscaping.'
+      }
+    ]
+  },
+  'deck-removal': {
+    slug: 'deck-removal',
+    title: 'Deck Removal & Demolition',
+    shortTitle: 'Deck Removal',
+    description: 'Professional deck removal and demolition on 30A. We tear down old, rotting, or damaged decks with complete debris hauling and nail-free site cleanup. All deck types including wood, composite, and multi-level.',
+    content: `
+## Professional Deck Removal & Demolition on 30A
+
+Decks are essential outdoor living spaces for 30A homes, but the coastal environment takes a harsh toll. Salt air, intense sun, humidity, termites, and hurricane-force winds cause accelerated deterioration that eventually makes deck replacement necessary. Whether you need to remove a rotting wooden deck in <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>, demolish a storm-damaged elevated deck in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, or clear a deteriorating deck for a new build in <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, our professional demolition team handles the entire process from teardown to hauling and cleanup.
+
+### Why Professional Deck Removal
+
+**Safety First:**
+Deck demolition is not a DIY project. Rotting boards can collapse unexpectedly. Hidden nails and screws create puncture hazards. Elevated decks require proper scaffolding and fall protection. Our trained crew uses professional equipment and follows safety protocols to prevent injuries and property damage.
+
+**Proper Disposal:**
+A standard 12x16 deck generates approximately 1-2 tons of debris. That is far more than a pickup truck can handle and far too much for curbside trash pickup. We load, haul, and properly dispose of all materials. Recyclable wood, metal fasteners, and composite materials are separated for proper handling.
+
+**Nail-Free Cleanup:**
+After deck demolition, hundreds of nails, screws, and fasteners remain in the ground and surrounding area. Our cleanup includes thorough nail removal and magnetic sweeping to ensure the site is safe for walking, kids, pets, and future construction.
+
+### Our Deck Removal Process
+
+**Step 1: Assessment and Quote**
+We evaluate your deck's size, height, material, condition, and access. Factors including multi-level construction, attached pergolas, built-in benches, and railing systems all affect the scope. Photos via text get you a fast, accurate quote.
+
+**Step 2: Preparation**
+We protect surrounding landscaping, siding, and structures. Utilities connected to the deck area including lights, outlets, and gas lines are identified. We coordinate with electricians or plumbers if disconnection is needed before demolition.
+
+**Step 3: Systematic Demolition**
+Decking boards are removed first, followed by railings, stairs, and structural framing. Posts and footings are extracted or cut at grade level depending on your plans for the space. We work efficiently while minimizing impact on your property and neighbors.
+
+**Step 4: Complete Cleanup**
+All debris is loaded and hauled away. The site is raked, cleared of fasteners, and graded smooth. We leave the area ready for new construction, landscaping, or lawn seeding.
+
+### Types of Decks We Remove
+
+**Wood Decks:**
+Pressure-treated pine, cedar, redwood, and tropical hardwood decks. Wood decks in our coastal climate typically last 10-20 years before requiring replacement. We handle all sizes from small entry platforms to large multi-level entertainment decks.
+
+**Composite and PVC Decks:**
+Trex, TimberTech, Azek, and other composite or PVC decking materials. While more durable than wood, these materials still degrade over time and the substructure often fails before the decking. We disassemble and properly dispose of all composite materials.
+
+**Elevated and Multi-Level Decks:**
+Many <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> and <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> homes feature elevated decks on pilings or multi-level deck systems. These require careful demolition planning, proper fall protection, and experienced crew management. We have extensive experience with elevated coastal deck removal.
+
+**Attached Structures:**
+Pergolas, gazebos, built-in seating, planters, hot tub platforms, and screen enclosures attached to or part of deck structures. We remove all attached elements as part of the demolition. For standalone <a href="/services/hot-tub-removal" class="text-ocean-600 hover:underline font-medium">hot tub removal</a>, see our dedicated service.
+
+### Coastal Deck Challenges
+
+30A deck removal presents unique challenges. Homes in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> and <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> have limited access for equipment. Elevated coastal homes require working at height. Termite-damaged structures can be unstable and unpredictable. Our experienced team handles all these challenges safely and efficiently. We also handle <a href="/services/fence-removal" class="text-ocean-600 hover:underline font-medium">fence removal</a> and other exterior demolition projects. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a free deck demolition estimate.
+    `,
+    features: [
+      'Complete deck demolition and teardown',
+      'All debris hauled away',
+      'Nail-free site cleanup',
+      'Material recycling when possible',
+      'Multi-level and elevated decks',
+      'Railing and stair removal',
+      'Post and footing extraction',
+      'Property protection during demolition'
+    ],
+    pricing: {
+      starting: '$500',
+      custom: true
+    },
+    faqs: [
+      {
+        question: 'How much does deck removal cost?',
+        answer: 'Deck removal starts at $500 for small, ground-level decks. Average-sized decks (12x16) typically run $800-$1,500. Large, elevated, or multi-level decks can be $2,000-$4,000+. Text photos and measurements for accurate pricing.'
+      },
+      {
+        question: 'Do you remove deck posts and footings?',
+        answer: 'Yes, we can extract deck posts and concrete footings. Alternatively, we can cut posts at grade level if you prefer. Footing extraction is recommended if you plan to build a new deck with different post placement.'
+      },
+      {
+        question: 'How long does deck demolition take?',
+        answer: 'Small ground-level decks take 2-4 hours. Average-sized decks take a full day. Large, elevated, or multi-level decks may require 1-2 days. We provide time estimates with your quote.'
+      },
+      {
+        question: 'Will deck removal damage my siding or house?',
+        answer: 'We take great care to protect your home during deck removal. Where the deck attaches to the house, we carefully remove ledger boards and flashing. Minor touch-up may be needed at attachment points, but we minimize any impact.'
+      },
+      {
+        question: 'Can you remove a deck attached to a screened porch?',
+        answer: 'Yes, we can remove decks attached to screened porches, pergolas, and other structures. We can demolish the deck while preserving the attached structure, or remove everything depending on your needs.'
+      }
+    ]
+  },
+  'fence-removal': {
+    slug: 'fence-removal',
+    title: 'Fence Removal',
+    shortTitle: 'Fence Removal',
+    description: 'Professional fence removal on 30A. We remove all fence types including wood, vinyl, chain link, and aluminum. Post removal, site grading, and complete debris hauling included.',
+    content: `
+## Professional Fence Removal on 30A
+
+Fences along the 30A corridor face relentless challenges from salt air, humidity, hurricanes, and the sandy soil conditions unique to our coastal environment. When your fence has deteriorated beyond repair, been damaged by storms, or simply needs to be replaced as part of a property renovation, our professional fence removal team handles the complete process. We serve homeowners and <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property managers</a> throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a> including <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, and <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>.
+
+### When Fence Removal Is Needed
+
+**Common Scenarios:**
+- Rotting or deteriorating wood privacy fences
+- Storm-damaged fencing after hurricanes or strong winds
+- Rusting chain link or metal fences
+- Replacing old fencing with new style or material
+- Property line disputes requiring fence relocation
+- HOA compliance issues in planned communities
+- Preparing property for sale or new landscaping
+- Clearing fence lines for pool installation or additions
+- Removing temporary construction fencing after projects
+
+### Our Fence Removal Process
+
+**Step 1: Assessment**
+We evaluate your fence's length, height, material, post type, and condition. We identify gate hardware, attached structures, and any utilities near the fence line. For properties in <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> and <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, we also review HOA requirements for fence removal and replacement.
+
+**Step 2: Fence Panel and Rail Removal**
+Fence boards, panels, and rails are removed first. We work section by section, stacking and loading materials efficiently. Recyclable materials including clean wood and metal are separated for proper handling.
+
+**Step 3: Post Removal**
+This is where professional service makes the biggest difference. Fence posts are typically set in concrete footings 18-36 inches deep. We extract posts and concrete footings completely, rather than cutting them at grade level. Complete removal is essential if you plan to install a new fence, add landscaping, or want a clean property line.
+
+**Step 4: Site Cleanup and Grading**
+Post holes are filled and compacted. The fence line is graded smooth and level. All debris, hardware, nails, and small pieces are collected. The site is left clean and ready for new fencing, landscaping, or lawn restoration.
+
+### Fence Types We Remove
+
+**Wood Privacy Fences:**
+Board-on-board, stockade, shadow box, and picket styles. Wood fences in our coastal climate deteriorate quickly from moisture, termites, and salt exposure. We handle all wood fence removal regardless of height or condition.
+
+**Vinyl and PVC Fences:**
+White vinyl privacy fences, picket fences, and ranch-style rail fences. Vinyl can become brittle, yellowed, and cracked over time in intense Florida sun. We disassemble and properly dispose of all vinyl fencing components.
+
+**Chain Link Fences:**
+Residential and commercial chain link in all heights. Includes removal of top rails, tension bars, line posts, terminal posts, and concrete footings. Chain link fabric and metal posts are recycled.
+
+**Aluminum and Wrought Iron Fences:**
+Decorative aluminum pool fences, estate fencing, and ornamental iron. These materials are fully recyclable and we ensure they reach proper recycling facilities.
+
+**Specialty Fences:**
+Bamboo, composite, wire, and custom-built fencing. Pool safety fences, garden fencing, and temporary barriers. Whatever the material, we remove it completely.
+
+### Post Removal: The Critical Difference
+
+Many fence removal services cut posts at ground level and leave the concrete footings buried. This creates problems when installing new fences, planting trees, or excavating for any reason. Our service includes complete post and footing extraction. We use professional equipment to pull posts and concrete from the ground entirely, fill the holes, and compact the soil. This complete approach costs more than cut-and-cover methods but saves significant expense and frustration later.
+
+### Coastal Fence Considerations
+
+30A properties have unique fencing challenges. Sandy soil means posts and footings can shift over time. Salt spray corrodes metal hardware and fasteners rapidly. Hurricane-force winds can flatten entire fence runs. After major storms, we provide priority fence removal service to clear <a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">storm debris</a> and damaged fencing quickly. We also handle <a href="/services/deck-removal" class="text-ocean-600 hover:underline font-medium">deck removal</a> and <a href="/services/shed-demolition" class="text-ocean-600 hover:underline font-medium">shed demolition</a> for complete exterior cleanup projects. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a free fence removal estimate.
+    `,
+    features: [
+      'All fence types removed',
+      'Complete post and footing extraction',
+      'Site grading and cleanup',
+      'Metal and wood recycling',
+      'Gate and hardware removal',
+      'HOA compliance coordination',
+      'Storm damage cleanup',
+      'Same-day estimates'
+    ],
+    pricing: {
+      starting: '$300',
+      custom: true
+    },
+    faqs: [
+      {
+        question: 'How much does fence removal cost?',
+        answer: 'Fence removal starts at $300 for short runs (up to 30 linear feet). Average residential fence removal (100-200 feet) typically costs $600-$1,500 depending on material and post depth. Text photos and approximate length for accurate pricing.'
+      },
+      {
+        question: 'Do you remove the concrete footings around fence posts?',
+        answer: 'Yes, we extract posts and concrete footings completely. This is essential for new fence installation or landscaping. We fill and compact post holes after extraction.'
+      },
+      {
+        question: 'Can you remove just part of a fence?',
+        answer: 'Absolutely. We can remove specific sections while leaving the rest intact. This is common when adding gates, extending driveways, or modifying fence layouts. We cap or finish the remaining sections cleanly.'
+      },
+      {
+        question: 'How long does fence removal take?',
+        answer: 'A typical residential fence (100-150 linear feet) takes 3-5 hours including post removal and cleanup. Longer fences or those with deep concrete footings may take a full day. We provide time estimates with your quote.'
+      },
+      {
+        question: 'Do you haul away all the fence debris?',
+        answer: 'Yes, all materials are loaded and hauled away. Wood, metal, vinyl, concrete footings, and hardware are all removed from your property. We separate recyclable materials for proper disposal.'
+      }
+    ]
+  },
+  'carpet-removal': {
+    slug: 'carpet-removal',
+    title: 'Carpet Removal',
+    shortTitle: 'Carpet Removal',
+    description: 'Professional carpet removal and disposal on 30A. We rip out old carpet, padding, and tack strips with complete cleanup. Perfect for renovation prep, water damage, and flooring upgrades.',
+    content: `
+## Professional Carpet Removal on 30A
+
+Replacing old carpet is one of the most impactful home improvements you can make, but the removal process is messy, labor-intensive, and generates a surprising amount of waste. Whether you are upgrading to hardwood or tile in your <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> home, dealing with water-damaged carpet in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, or preparing a <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental</a> for new flooring, our professional carpet removal team handles everything. We rip out carpet, padding, and tack strips, then haul away all debris so your subfloor is clean and ready for new flooring installation.
+
+### Why Professional Carpet Removal
+
+**The Hidden Mess:**
+Beneath old carpet lies years of accumulated dust, allergens, pet dander, and potentially mold, especially in our humid coastal climate. Carpet padding breaks down over time, creating crumbly, adhesive-coated material that is difficult to remove cleanly. Tack strips along every wall are embedded with sharp nails that create safety hazards. Professional removal handles all of this efficiently and safely.
+
+**Proper Disposal:**
+A single room of carpet and padding can weigh 200-400 pounds. A full home generates thousands of pounds of material. This cannot go in regular trash pickup, and hauling it yourself requires multiple vehicle loads. We handle all disposal in a single visit, including proper recycling of carpet materials when possible through facilities following <a href="https://www.epa.gov/recycle" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA recycling guidelines</a>.
+
+### Our Carpet Removal Process
+
+**Step 1: Assessment and Quote**
+We evaluate the square footage, number of rooms, carpet type, and subfloor condition. We check for asbestos-era materials in older homes, water damage, mold, and other issues. Text photos and approximate square footage for a quick quote. We serve all communities from <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a> to <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>.
+
+**Step 2: Furniture Coordination**
+If rooms are furnished, we can work around furniture or coordinate with <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture removal</a> as part of the project. For whole-home carpet removal, rooms can be done in phases to keep the home functional.
+
+**Step 3: Carpet and Padding Removal**
+Carpet is cut into manageable sections and rolled for efficient removal. Padding is scraped from the subfloor. Adhesive residue is addressed. All carpet, padding, and debris are loaded into our trucks.
+
+**Step 4: Tack Strip Removal**
+Tack strips are pried up from along all walls, transitions, and doorways. This is essential for new flooring installation. We remove all nails and staples from the subfloor as well.
+
+**Step 5: Subfloor Cleaning**
+The exposed subfloor is swept, scraped of adhesive residue, and inspected. We identify any subfloor damage, water stains, or mold that your flooring installer should address. We leave the surface clean and ready for new flooring.
+
+### Common Carpet Removal Scenarios
+
+**Vacation Rental Upgrades:**
+<a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental properties</a> across <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a>, and <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> are increasingly switching from carpet to luxury vinyl plank or tile. These hard-surface floors are easier to clean, more durable, and preferred by guests. We handle the carpet removal portion quickly so your flooring installer can start immediately.
+
+**Water Damage Restoration:**
+Coastal humidity and occasional flooding make water-damaged carpet a common issue on 30A. Wet carpet must be removed promptly to prevent mold growth. We provide fast-response carpet removal for water damage situations, including pulling up wet carpet and padding, and preparing the subfloor for drying.
+
+**Pre-Sale Renovation:**
+Removing old, stained carpet before listing your home can significantly increase buyer interest. Clean subfloors allow buyers to see the potential, or new flooring can be installed for maximum return on investment.
+
+### Pricing Information
+
+Carpet removal is priced by square footage and complexity. Basic carpet and padding removal starts at $200. Tack strip removal is included in our standard service. Adhesive removal, subfloor repair, and furniture moving are available as add-on services. For whole-home projects, we provide volume pricing. Text photos and approximate square footage for accurate quotes. For <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris</a> from larger renovation projects, ask about combined pricing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your carpet removal.
+    `,
+    features: [
+      'Complete carpet and padding removal',
+      'Tack strip removal included',
+      'Subfloor cleaning and prep',
+      'All debris hauled away',
+      'Water damage carpet removal',
+      'Staple and nail removal',
+      'Furniture coordination available',
+      'Same-day service for emergencies'
+    ],
+    pricing: {
+      starting: '$200',
+      custom: true
+    },
+    faqs: [
+      {
+        question: 'How much does carpet removal cost?',
+        answer: 'Carpet removal starts at $200 for small areas. Typical rooms run $150-$300 each depending on size. Whole-home carpet removal is priced by total square footage with volume discounts. Text photos and square footage for exact pricing.'
+      },
+      {
+        question: 'Do you remove the tack strips and staples?',
+        answer: 'Yes, tack strip removal is included in our standard carpet removal service. We also remove staples and small nails from the subfloor so it is clean and ready for new flooring installation.'
+      },
+      {
+        question: 'Can you remove carpet from stairs?',
+        answer: 'Yes, we remove carpet from stairs including treads, risers, and any padding. Stair carpet removal requires more time per step but is included in our service. We remove all staples and adhesive from each step.'
+      },
+      {
+        question: 'How long does carpet removal take?',
+        answer: 'A single room takes 30-60 minutes. A typical 3-bedroom home takes 3-5 hours including padding, tack strips, and cleanup. Larger homes or those with extensive adhesive may take a full day.'
+      },
+      {
+        question: 'Do you handle carpet with mold or water damage?',
+        answer: 'Yes, we remove water-damaged and moldy carpet. We take precautions to minimize spore dispersal during removal. For significant mold issues, we recommend a mold remediation specialist in addition to our removal service.'
+      }
+    ]
+  },
+  'storage-unit-cleanout': {
+    slug: 'storage-unit-cleanout',
+    title: 'Storage Unit Cleanout',
+    shortTitle: 'Storage Cleanout',
+    description: 'Professional storage unit cleanout on 30A. We empty storage units of all sizes quickly and affordably. Donation sorting, recycling, and complete unit clearing included.',
+    content: `
+## Professional Storage Unit Cleanout on 30A
+
+Storage units have a way of becoming forgotten repositories for items that no longer serve a purpose. Monthly rental fees add up, and eventually the cost of storing items exceeds their value. Whether you have inherited a storage unit in <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, need to vacate a unit before your lease ends in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, or are managing a deceased relative's storage as part of an <a href="/services/estate-cleanouts" class="text-ocean-600 hover:underline font-medium">estate cleanout</a>, we provide fast, affordable storage unit cleanout service across <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a>.
+
+### Why Professional Storage Cleanout
+
+**Save Money:**
+Self-storage facilities charge $75-$300+ per month depending on unit size. If you have been paying rent on items you do not need, a one-time cleanout is almost always cheaper than another year of rent. Our cleanout service pays for itself within months of savings.
+
+**Save Time and Effort:**
+Emptying a packed storage unit is physically demanding work. Heavy furniture, stacked boxes, and years of accumulated items require multiple trips with a truck or trailer. Our crew handles everything in a single visit, typically in just a few hours.
+
+**Avoid Auction and Penalties:**
+Storage facilities auction delinquent units and can charge cleaning fees. If you are behind on payments, a proactive cleanout on your terms is better than losing control of your belongings and facing additional charges.
+
+### Our Storage Cleanout Process
+
+**Step 1: Assessment**
+Tell us the unit size and general contents. If possible, send photos of the unit interior. We provide accurate quotes based on volume and content type. We can also assess units on-site before starting work.
+
+**Step 2: Sorting**
+Unless you want everything removed, we sort items into categories: keep, donate, recycle, and dispose. You can be present to make decisions or give us general guidelines to follow. We carefully handle any items you want to keep and can deliver them to your home.
+
+**Step 3: Loading and Hauling**
+Our team loads all removal items into our trucks efficiently. We handle heavy <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture</a>, <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliances</a>, boxes, and miscellaneous items. Multiple units can be cleared in a single visit for additional savings.
+
+**Step 4: Donation and Disposal**
+Quality items in good condition are <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donated to local charities</a>. Recyclable materials are separated. Remaining items are properly disposed. We provide donation receipts for tax purposes when items are donated to qualifying organizations.
+
+**Step 5: Broom-Clean Handoff**
+We sweep the unit clean so you can turn in your keys without cleaning fees. The unit is left in move-out condition, ready for your final walkthrough with the facility.
+
+### What We Commonly Find in Storage Units
+
+**Furniture:** Sofas, beds, dressers, tables, and chairs that were stored after moves, downsizing, or upgrades. Often in serviceable condition for donation.
+
+**Boxes of Household Items:** Kitchen items, decor, clothing, books, toys, and seasonal items. We sort through boxes quickly and separate donatable items from trash.
+
+**Electronics:** Old TVs, computers, and <a href="/services/tv-electronics-recycling" class="text-ocean-600 hover:underline font-medium">electronics that require proper recycling</a>. We ensure e-waste is handled according to environmental regulations.
+
+**Appliances:** Stored washers, dryers, refrigerators, and small appliances. Working appliances can be donated; non-working units are properly recycled.
+
+**Sentimental and Valuable Items:** Photos, documents, collectibles, and heirlooms. We handle these with care and set them aside for you to review.
+
+### Storage Unit Sizes We Clear
+
+We handle all common storage unit sizes from 5x5 closet units to 10x30 warehouse-sized units. Climate-controlled and standard units are both serviced. We also clear outdoor storage areas, RV storage spots, and parking space storage. For properties needing both storage and home cleanout, we offer combined <a href="/services/garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garage cleanout</a> packages. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your storage unit cleanout and start saving on monthly rent.
+    `,
+    features: [
+      'All storage unit sizes cleared',
+      'Donation sorting and coordination',
+      'Same-day service available',
+      'Broom-clean unit turnover',
+      'Item delivery to your home',
+      'Recycling and proper disposal',
+      'Multiple unit discounts',
+      'Donation receipts provided'
+    ],
+    pricing: {
+      quarterTruck: '$150-$200',
+      halfTruck: '$250-$325',
+      fullTruck: '$425-$500'
+    },
+    faqs: [
+      {
+        question: 'How much does a storage unit cleanout cost?',
+        answer: 'Pricing is based on volume. A small 5x5 unit typically costs $150-$200. A 10x10 unit runs $250-$400. Large 10x20 or 10x30 units cost $400-$600+. Text photos of the unit interior for accurate pricing.'
+      },
+      {
+        question: 'Do I need to be present during the cleanout?',
+        answer: 'You can be present to make decisions about items, or you can give us instructions and access. Many clients meet us at the start to identify any keepers, then leave us to complete the work.'
+      },
+      {
+        question: 'Can you clean out a storage unit on short notice?',
+        answer: 'Yes, we offer same-day and next-day storage cleanouts when scheduling permits. If your unit is facing auction or you need to vacate quickly, call us and we will prioritize your job.'
+      },
+      {
+        question: 'Will you donate usable items from my storage unit?',
+        answer: 'Absolutely. We sort items and donate quality furniture, clothing, household goods, and other usable items to local charities. We provide donation receipts for tax purposes.'
+      },
+      {
+        question: 'Can you deliver keepsake items to my home?',
+        answer: 'Yes, if there are items you want to keep, we can separate them and deliver to your home or another location. Delivery is coordinated as part of the cleanout service.'
+      }
+    ]
+  },
+  'hoarder-cleanout': {
+    slug: 'hoarder-cleanout',
+    title: 'Hoarding Cleanup',
+    shortTitle: 'Hoarding Cleanup',
+    description: 'Compassionate, non-judgmental hoarding cleanup on 30A. We provide sensitive, thorough cleanout services for hoarding situations. Multi-day projects, biohazard awareness, and complete property restoration.',
+    content: `
+## Compassionate Hoarding Cleanup on 30A
+
+Hoarding is a recognized mental health condition that affects millions of Americans, and residents of the 30A area are no exception. When a loved one's accumulation of possessions has become overwhelming, or when you need to address a hoarding situation in a property you manage, our team provides compassionate, non-judgmental cleanup services. We understand the sensitivity required for these situations and approach every project with respect, patience, and professionalism. We serve families and <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property managers</a> throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a>.
+
+### Our Approach: Compassion First
+
+**Understanding the Situation:**
+Hoarding disorder is not about laziness or poor housekeeping. It is a complex condition recognized by the American Psychiatric Association. Our team is trained to work with individuals and families experiencing hoarding situations with complete empathy and without judgment. We never rush the process or dismiss the emotional difficulty of letting go of possessions.
+
+**Working at the Client's Pace:**
+When the individual is involved in the cleanup, we work at their pace. We explain each step, ask permission before removing items, and respect boundaries. For situations where the individual is not present, such as <a href="/services/estate-cleanouts" class="text-ocean-600 hover:underline font-medium">estate cleanouts</a> or property management situations, we document everything carefully and follow family instructions.
+
+**Privacy and Discretion:**
+We arrive in unmarked vehicles when requested. Our crew is professional and discreet. We understand that hoarding situations carry stigma, and we protect our clients' privacy at all times. In close-knit 30A communities like <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> and <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, discretion is especially important.
+
+### Our Hoarding Cleanup Process
+
+**Phase 1: Assessment and Planning**
+We conduct a thorough walkthrough to evaluate the scope of work. We assess safety hazards including structural concerns, biohazard conditions, pest infestations, and blocked exits. We develop a multi-day plan that addresses the most critical safety issues first while working systematically through the property.
+
+**Phase 2: Safety and Hazard Mitigation**
+Before major cleanup begins, we address immediate safety concerns. Blocked exits are cleared. Fire hazards are mitigated. Biohazard areas are identified and flagged. Our team uses appropriate personal protective equipment throughout the project.
+
+**Phase 3: Systematic Room-by-Room Cleanup**
+We work through the property room by room, sorting items into categories: keep, donate, recycle, and dispose. Important documents, valuables, photographs, and sentimental items are carefully separated and preserved. We understand that buried treasures exist in every hoarding situation, and we search carefully to find and protect them.
+
+**Phase 4: Deep Cleaning and Restoration**
+Once items are removed, we address the property itself. This may include cleaning floors, walls, and surfaces. We identify damage that requires professional repair including water damage, pest damage, and structural issues. For properties in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>, and other 30A communities, we coordinate with local contractors for necessary repairs.
+
+**Phase 5: Follow-Up and Support**
+After the initial cleanup, we provide follow-up visits if needed to address additional areas or subsequent accumulation. We can connect families with local resources and support services for ongoing management of hoarding disorder.
+
+### Biohazard Awareness
+
+Severe hoarding situations may involve biohazard conditions including animal waste, spoiled food, mold, and other health hazards. Our team is trained in biohazard awareness and uses appropriate PPE and containment procedures. For situations requiring certified biohazard remediation, we coordinate with licensed specialists to ensure the property is safe for habitation.
+
+### Common Hoarding Cleanup Scenarios
+
+**Family Intervention:** Adult children recognizing a parent's hoarding condition and seeking professional help to restore the home to safe, livable condition while preserving the parent's dignity and autonomy.
+
+**Estate Settlement:** Discovering a hoarding situation after a loved one passes, requiring complete property cleanout for sale or transfer. These often overlap with our <a href="/services/estate-cleanouts" class="text-ocean-600 hover:underline font-medium">estate cleanout services</a>.
+
+**Property Management:** Landlords or <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property managers</a> discovering hoarding conditions in rental properties after tenant departure, requiring complete cleanout and property restoration.
+
+**Self-Referral:** Individuals recognizing they need help and reaching out for professional assistance. These clients deserve particular respect and encouragement, and we provide our most patient, supportive service.
+
+### Multi-Day Project Planning
+
+Hoarding cleanups are rarely completed in a single day. We plan multi-day projects with clear daily goals and progress milestones. A typical whole-home hoarding cleanup takes 3-7 days depending on severity. We provide daily progress updates and adjust our approach as the project evolves. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a confidential consultation about your hoarding cleanup needs.
+    `,
+    features: [
+      'Compassionate, non-judgmental approach',
+      'Biohazard awareness and PPE',
+      'Multi-day project planning',
+      'Document and valuables preservation',
+      'Privacy and discretion guaranteed',
+      'Room-by-room systematic cleanup',
+      'Deep cleaning coordination',
+      'Family communication and support'
+    ],
+    pricing: {
+      starting: '$500',
+      custom: true
+    },
+    faqs: [
+      {
+        question: 'How much does hoarding cleanup cost?',
+        answer: 'Hoarding cleanup starts at $500 for single-room projects. Whole-home hoarding cleanups typically range from $2,000 to $10,000+ depending on severity, property size, and duration. We provide detailed estimates after an on-site assessment.'
+      },
+      {
+        question: 'How long does a hoarding cleanup take?',
+        answer: 'Most hoarding cleanups take 3-7 days for a typical home. Severe cases may take longer. We develop a day-by-day plan with clear milestones and provide daily progress updates throughout the project.'
+      },
+      {
+        question: 'Will you be respectful and discreet?',
+        answer: 'Absolutely. Our team is trained in compassionate, non-judgmental service. We arrive in unmarked vehicles when requested, maintain strict confidentiality, and treat every client with dignity and respect.'
+      },
+      {
+        question: 'Can the homeowner be present during cleanup?',
+        answer: 'Yes, the homeowner can be present and involved in decisions about what to keep, donate, or dispose. We work at their pace when they are involved. Alternatively, family members can provide guidance while the homeowner is elsewhere.'
+      },
+      {
+        question: 'Do you handle biohazard conditions?',
+        answer: 'Our team is trained in biohazard awareness and uses appropriate protective equipment. For severe biohazard conditions requiring certified remediation, we coordinate with licensed biohazard specialists to ensure the property is fully safe.'
+      }
+    ]
+  },
+  'foreclosure-cleanout': {
+    slug: 'foreclosure-cleanout',
+    title: 'Foreclosure Cleanout',
+    shortTitle: 'Foreclosure Cleanout',
+    description: 'Professional foreclosure and bank-owned property cleanout on 30A. Full property clearing, photo documentation, and bank/REO coordination. Fast turnaround for property preservation deadlines.',
+    content: `
+## Professional Foreclosure Cleanout on 30A
+
+Foreclosure properties and bank-owned (REO) homes along the 30A corridor require prompt, thorough cleanout to preserve property value and meet lender deadlines. Whether you are a bank asset manager, REO agent, property preservation company, or individual who has acquired a foreclosed property, we provide complete cleanout services that meet institutional standards. We serve all <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A communities</a> including <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and surrounding areas.
+
+### Understanding Foreclosure Cleanouts
+
+**What Makes Foreclosure Cleanouts Different:**
+Foreclosed properties are often left in varying conditions. Some contain full households of abandoned belongings. Others have been partially cleared with random items remaining. Some have suffered vandalism, neglect, or weather damage. Each situation requires a tailored approach, but all share the need for speed, thoroughness, and documentation.
+
+**Bank and Lender Requirements:**
+Financial institutions have specific requirements for property preservation. These typically include complete removal of all personal property, debris, and trash. Before-and-after photo documentation is standard. Properties must be left in broom-clean condition. We understand these requirements and ensure our work meets institutional standards every time.
+
+### Our Foreclosure Cleanout Process
+
+**Step 1: Property Assessment**
+We conduct an on-site or photo-based assessment of the property condition and contents. We document the current state with timestamped photos covering every room, exterior areas, and any notable conditions. This initial documentation protects all parties involved.
+
+**Step 2: Complete Contents Removal**
+Our team removes all remaining personal property, furniture, appliances, and debris. This includes items in closets, cabinets, attics, <a href="/services/garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garages</a>, sheds, and outdoor areas. Nothing is left behind. We handle <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture</a>, <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliances</a>, <a href="/services/mattress-removal" class="text-ocean-600 hover:underline font-medium">mattresses</a>, <a href="/services/tv-electronics-recycling" class="text-ocean-600 hover:underline font-medium">electronics</a>, and all household contents.
+
+**Step 3: Yard and Exterior Cleanup**
+Foreclosed properties often have neglected yards and exterior areas. We remove <a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">yard debris</a>, abandoned outdoor furniture, trash, and any items stored outside. The exterior is cleared to present a maintained appearance for listing or sale.
+
+**Step 4: Broom-Clean Finish**
+After all items are removed, we sweep all floors, wipe countertops, and ensure the property is in broom-clean condition. This meets the standard requirement for most banks and property preservation companies.
+
+**Step 5: Photo Documentation**
+We provide comprehensive after photos matching our initial documentation. Every room, closet, garage, and exterior area is photographed. Documentation is provided digitally for easy submission to banks, asset managers, and preservation companies.
+
+### Property Types We Clear
+
+**Single-Family Homes:**
+The most common foreclosure cleanout type on 30A. From modest homes in <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a> to luxury properties in <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, we clear homes of all sizes efficiently and thoroughly.
+
+**Condominiums and Townhomes:**
+Condo cleanouts require coordination with HOA management for access, elevator use, and debris removal logistics. We handle all coordination and ensure HOA common areas are not impacted.
+
+**Vacation Rental Properties:**
+<a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental properties</a> that have been foreclosed often contain commercial-grade furnishings and equipment. We remove all contents and coordinate with property management for access.
+
+**Commercial Properties:**
+Foreclosed commercial spaces including offices, retail, and mixed-use properties. We clear all contents, fixtures, and debris to prepare for new ownership. See our <a href="/services/commercial-junk-removal" class="text-ocean-600 hover:underline font-medium">commercial junk removal</a> service for more details.
+
+### Working with Banks and REO Companies
+
+We have experience working with major banks, asset management companies, and property preservation firms. We understand bid processes, documentation requirements, turnaround expectations, and quality standards. We provide W-9 documentation, proof of insurance, and all required paperwork. Our goal is to be a reliable, repeat service provider for your 30A foreclosure cleanout needs.
+
+### Timeline and Availability
+
+Most foreclosure cleanouts are completed within 1-3 days depending on property size and contents. We understand the urgency of preservation deadlines and lender timelines. Rush service is available when needed. For ongoing REO work, we offer priority scheduling and volume pricing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to discuss your foreclosure cleanout requirements.
+    `,
+    features: [
+      'Full property clearing and cleanout',
+      'Before-and-after photo documentation',
+      'Bank and REO coordination',
+      'Broom-clean property turnover',
+      'Yard and exterior cleanup',
+      'Fast turnaround for deadlines',
+      'Volume pricing for REO companies',
+      'Insurance and W-9 documentation'
+    ],
+    pricing: {
+      starting: '$400',
+      fullTruck: '$500-$800'
+    },
+    faqs: [
+      {
+        question: 'How much does a foreclosure cleanout cost?',
+        answer: 'Foreclosure cleanouts start at $400 for small properties with minimal contents. Average 3-bedroom homes typically run $500-$1,200 depending on contents and condition. Large properties or those with extensive contents can be $1,500-$3,000+.'
+      },
+      {
+        question: 'Do you provide photo documentation?',
+        answer: 'Yes, we provide comprehensive before-and-after photo documentation. Every room, closet, garage, and exterior area is photographed with timestamps. Digital files are provided for submission to banks and asset managers.'
+      },
+      {
+        question: 'How quickly can you complete a foreclosure cleanout?',
+        answer: 'Most foreclosure cleanouts are completed within 1-3 days. Small properties with minimal contents can be done in a single day. Rush service is available for urgent preservation deadlines.'
+      },
+      {
+        question: 'Do you work with banks and REO companies directly?',
+        answer: 'Yes, we have experience working with major banks, asset management companies, and property preservation firms. We provide all required documentation including W-9, insurance certificates, and detailed invoicing.'
+      },
+      {
+        question: 'What happens to items left in foreclosed properties?',
+        answer: 'After the legal holding period has expired and authorization is provided, all remaining items are removed. Usable items in good condition are donated when possible. The rest is properly recycled or disposed of.'
+      }
+    ]
+  },
+  'commercial-junk-removal': {
+    slug: 'commercial-junk-removal',
+    title: 'Commercial Junk Removal',
+    shortTitle: 'Commercial Removal',
+    description: 'Professional commercial junk removal on 30A. After-hours service, volume pricing, and recurring pickup available. Serving restaurants, offices, retail, and all commercial properties.',
+    content: `
+## Professional Commercial Junk Removal on 30A
+
+The 30A commercial corridor is a vibrant mix of restaurants, boutique retail, professional offices, vacation rental management companies, and hospitality businesses. Each generates commercial waste and junk that exceeds regular trash service capabilities. From restaurant equipment removal in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> to <a href="/services/office-furniture" class="text-ocean-600 hover:underline font-medium">office furniture</a> disposal in <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, we provide reliable commercial junk removal that keeps your business running smoothly.
+
+### Commercial Services We Provide
+
+**Restaurant and Food Service:**
+The 30A dining scene is constantly evolving. When restaurants renovate, upgrade equipment, or close, they need reliable removal of commercial kitchen equipment, dining furniture, fixtures, signage, and accumulated storage items. We handle booths, tables, chairs, commercial ovens, refrigeration units, dish systems, bar equipment, and all restaurant-related items.
+
+**Retail and Boutique:**
+30A's boutique shopping districts in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, and surrounding areas see regular store turnovers and renovations. We remove display fixtures, shelving, signage, old inventory, packaging materials, and all commercial retail waste.
+
+**Office and Professional:**
+Professional offices, medical practices, real estate offices, and other service businesses generate <a href="/services/office-furniture" class="text-ocean-600 hover:underline font-medium">office furniture</a> and equipment waste. We provide complete office cleanouts, individual item removal, and <a href="/services/tv-electronics-recycling" class="text-ocean-600 hover:underline font-medium">electronics recycling</a>.
+
+**Hospitality and Lodging:**
+Hotels, inns, and bed-and-breakfasts along 30A regularly replace furniture, fixtures, and equipment. Bulk mattress, <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture</a>, and <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliance removal</a> for hospitality properties is one of our specialties.
+
+### After-Hours and Minimal Disruption Service
+
+**We Work on Your Schedule:**
+Most commercial businesses cannot afford downtime during operating hours. We offer evening, early morning, and weekend service to minimize disruption to your operations, customers, and employees. Our team works efficiently and quietly to complete removal during off-hours.
+
+**Coordinated Multi-Day Projects:**
+Large commercial cleanouts may require multiple days. We develop a phased plan that keeps your business operational while we work through different areas. Critical equipment stays in place until replacements arrive.
+
+### Volume Pricing and Recurring Service
+
+**Volume Discounts:**
+Commercial projects often involve large volumes of material. We offer volume pricing that reduces your per-item or per-load cost on larger projects. The more you need removed, the more you save per unit.
+
+**Recurring Pickup Service:**
+For businesses that generate ongoing waste beyond regular trash service, we offer weekly, bi-weekly, or monthly recurring pickup. This is ideal for <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction contractors</a>, <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property management companies</a>, and businesses with regular equipment turnover.
+
+**Priority Scheduling:**
+Recurring commercial clients receive priority scheduling, consistent pricing, and dedicated account support. We understand that commercial timelines are critical and ensure reliable, on-time service.
+
+### Commercial Compliance
+
+We understand the regulatory requirements for commercial waste disposal in Walton County. We maintain proper licensing, insurance, and disposal documentation. For businesses in planned communities like <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> and <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, we coordinate with HOA and community management for service access and scheduling. We follow all <a href="https://www.epa.gov/smm" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA sustainable materials management</a> guidelines for commercial waste.
+
+### Industries We Serve
+
+- Restaurants, cafes, and bars
+- Retail stores and boutiques
+- Professional offices and medical practices
+- <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental</a> management companies
+- Hotels, inns, and lodging properties
+- Construction companies and contractors
+- Real estate and property management
+- Fitness studios and wellness centers
+- Salons and spas
+- Event venues and wedding facilities
+
+<a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to discuss your commercial junk removal needs and receive a custom quote.
+    `,
+    features: [
+      'After-hours and weekend service',
+      'Volume pricing for large projects',
+      'Recurring pickup available',
+      'Restaurant equipment removal',
+      'Retail fixture removal',
+      'Minimal business disruption',
+      'Commercial compliance and documentation',
+      'Priority scheduling for regular clients'
+    ],
+    pricing: {
+      starting: '$200',
+      custom: true
+    },
+    faqs: [
+      {
+        question: 'Can you work after hours so my business stays open?',
+        answer: 'Yes, after-hours service is one of our specialties. We offer evening, early morning, and weekend commercial removal to minimize disruption to your operations, customers, and staff.'
+      },
+      {
+        question: 'Do you offer recurring commercial pickup?',
+        answer: 'Yes, we offer weekly, bi-weekly, and monthly recurring pickup for businesses with ongoing removal needs. Recurring clients receive priority scheduling and consistent pricing.'
+      },
+      {
+        question: 'Can you remove commercial kitchen equipment?',
+        answer: 'Yes, we handle commercial kitchen equipment including ovens, refrigeration units, dishwashers, prep tables, exhaust hoods, and all restaurant equipment. We coordinate disconnection with licensed plumbers and electricians when needed.'
+      },
+      {
+        question: 'Do you provide volume pricing for large commercial projects?',
+        answer: 'Yes, volume pricing is available for large commercial cleanouts. The more material you need removed, the lower your per-unit cost. Contact us with project details for a custom volume quote.'
+      },
+      {
+        question: 'Can you coordinate with our contractor or renovation team?',
+        answer: 'Absolutely. We regularly coordinate with contractors, designers, and renovation teams. We can schedule removal around your project timeline and work in phases as different areas are completed.'
+      }
+    ]
+  },
+  'bathroom-demolition': {
+    slug: 'bathroom-demolition',
+    title: 'Bathroom Demolition',
+    shortTitle: 'Bathroom Demo',
+    description: 'Professional bathroom demolition on 30A. Complete tile removal, fixture disposal, vanity tearout, and debris hauling. We gut bathrooms to studs for your renovation project.',
+    content: `
+## Professional Bathroom Demolition on 30A
+
+Bathroom renovations are among the most popular home improvement projects on 30A, and for good reason. Updated bathrooms dramatically increase property value and guest satisfaction for <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental properties</a>. But before the beautiful new tile, modern vanity, and walk-in shower can go in, the old bathroom must come out. That is where our professional bathroom demolition service comes in. We serve homeowners and contractors throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a> including <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, and <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>.
+
+### What Bathroom Demolition Includes
+
+**Tile Removal:**
+Floor tile, wall tile, shower tile, and backsplash tile are removed completely. We use professional tools to remove tile and thinset mortar from the substrate. Whether it is ceramic, porcelain, natural stone, or glass tile, we handle all types. Cement board and damaged drywall behind tile are removed as well when needed.
+
+**Fixture Removal and Disposal:**
+Toilets, sinks, bathtubs, shower bases, and faucets are disconnected and removed. Cast iron tubs require special handling due to extreme weight. Fiberglass shower and tub surrounds are cut apart for removal. All fixtures are hauled away and properly disposed or recycled.
+
+**Vanity and Cabinet Removal:**
+Bathroom vanities, medicine cabinets, linen cabinets, and built-in storage are removed. Countertops including granite, marble, quartz, and laminate are taken out. We disconnect plumbing connections and cap lines as needed.
+
+**Flooring Removal:**
+Beyond tile, we remove vinyl flooring, linoleum, and any underlayment or subfloor materials that need replacement. <a href="/services/carpet-removal" class="text-ocean-600 hover:underline font-medium">Carpet removal</a> in adjoining areas is available as well.
+
+### Our Bathroom Demo Process
+
+**Step 1: Pre-Demo Preparation**
+We protect surrounding areas with drop cloths, plastic sheeting, and floor protection. Doorways are sealed to contain dust. Water supply lines are shut off and verified. Electrical circuits to the bathroom are identified. We coordinate with your plumber and electrician if professional disconnection is needed.
+
+**Step 2: Systematic Demolition**
+We follow a proven sequence: fixtures first, then tile, then vanities and cabinets, then flooring. This top-down approach is the most efficient and prevents damage to items that need to remain. Our experienced crew uses the right tools for each material type.
+
+**Step 3: Debris Removal**
+Bathroom demolition generates significant debris. Tile, mortar, porcelain, cast iron, and cabinet materials are heavy and voluminous. We load everything into our trucks as we work, keeping the jobsite clean and safe throughout the process. All debris is hauled away as part of the service.
+
+**Step 4: Site Preparation**
+After demolition, we leave the space ready for your contractor. Walls are stripped to studs where specified. Floors are cleared to the subfloor. The space is swept clean and debris-free. We can also handle <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris</a> from the renovation phase as your project progresses.
+
+### Coastal Bathroom Considerations
+
+30A bathrooms face unique challenges from our coastal environment. Moisture and humidity cause accelerated deterioration behind walls and under floors. Mold growth behind tile and under vanities is common. During demolition, we often discover hidden water damage, mold, and deteriorated structural elements. We document these findings with photos and communicate them to your contractor immediately so they can be addressed during renovation.
+
+### Vacation Rental Bathroom Upgrades
+
+For <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental properties</a>, bathroom quality directly impacts guest reviews and bookings. <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">Property managers</a> across <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a>, <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, and <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a> schedule bathroom renovations during low-season windows. We understand the urgency of completing demolition quickly so your renovation contractor can start immediately. Tight timelines and seasonal scheduling are no problem for our experienced team.
+
+### Pricing and Scope
+
+Bathroom demolition pricing starts at $600 for standard single-bathroom projects. Master bathroom demolitions with large showers, jetted tubs, and double vanities typically run $800-$1,500. Multi-bathroom projects receive volume pricing. The scope of demolition affects pricing: partial demo such as tile only versus full gut-to-studs varies significantly. Text photos and describe your renovation scope for accurate pricing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your bathroom demolition.
+    `,
+    features: [
+      'Complete tile removal',
+      'Fixture disconnection and disposal',
+      'Vanity and cabinet removal',
+      'All debris hauled away',
+      'Dust containment and protection',
+      'Gut to studs available',
+      'Hidden damage documentation',
+      'Contractor coordination'
+    ],
+    pricing: {
+      starting: '$600',
+      custom: true
+    },
+    faqs: [
+      {
+        question: 'How much does bathroom demolition cost?',
+        answer: 'Bathroom demolition starts at $600 for standard bathrooms. Master bathrooms typically run $800-$1,500 depending on size and scope. Multi-bathroom projects receive volume pricing. Text photos for accurate estimates.'
+      },
+      {
+        question: 'Do you disconnect plumbing and electrical?',
+        answer: 'We shut off water supply valves and disconnect fixtures. For work requiring licensed plumbing or electrical disconnection, we coordinate with your contractor or can recommend licensed professionals.'
+      },
+      {
+        question: 'How long does bathroom demolition take?',
+        answer: 'A standard bathroom demolition takes 4-8 hours. Large master bathrooms may take a full day. Multi-bathroom projects are typically completed in 1-2 days. We work efficiently to keep your renovation on schedule.'
+      },
+      {
+        question: 'Will the demolition create a lot of dust?',
+        answer: 'Tile and drywall removal does create dust. We use containment measures including plastic sheeting over doorways and floor protection in adjacent areas to minimize dust spread throughout your home.'
+      },
+      {
+        question: 'Can you demolish just part of the bathroom?',
+        answer: 'Yes, we can do partial demolition such as removing only tile, only the vanity, or only the tub surround. We customize the scope to match your renovation plan and budget.'
+      }
+    ]
+  },
+  'kitchen-demolition': {
+    slug: 'kitchen-demolition',
+    title: 'Kitchen Demolition',
+    shortTitle: 'Kitchen Demo',
+    description: 'Professional kitchen demolition on 30A. Cabinet removal, countertop disposal, appliance hauling, and complete debris removal. We prep your kitchen for renovation efficiently.',
+    content: `
+## Professional Kitchen Demolition on 30A
+
+Kitchen renovations deliver the highest return on investment for 30A properties, whether you are updating your permanent residence or upgrading a <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental</a> to attract premium bookings. The demolition phase sets the foundation for everything that follows. Sloppy demolition leads to contractor delays, hidden costs, and subpar results. Our professional kitchen demolition team provides clean, efficient, and thorough tearout that gets your renovation started right. We serve homeowners and contractors throughout <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, and all <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A communities</a>.
+
+### What Kitchen Demolition Includes
+
+**Cabinet Removal:**
+Upper and lower cabinets are carefully removed from walls and base platforms. We handle all cabinet types including custom built-ins, stock cabinetry, and specialty installations. Hardware, hinges, and mounting systems are all removed. Cabinets in good condition can be <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donated to local charities</a> like Habitat for Humanity ReStore.
+
+**Countertop Removal:**
+Granite, marble, quartz, laminate, butcher block, concrete, and tile countertops are all removed and hauled away. Heavy stone countertops require special handling and multiple crew members. We cut and section large pieces for safe, efficient removal without damaging surrounding structures.
+
+**Appliance Removal:**
+Refrigerators, stoves, ovens, dishwashers, microwaves, range hoods, wine coolers, and all kitchen <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliances are removed</a> and hauled away. We disconnect standard connections and coordinate with licensed professionals for gas line and hardwired electrical disconnections.
+
+**Flooring Removal:**
+Kitchen tile, hardwood, vinyl, and underlayment are removed when included in the renovation scope. We expose the subfloor cleanly and note any damage or issues for your contractor. See our <a href="/services/carpet-removal" class="text-ocean-600 hover:underline font-medium">carpet removal</a> service for adjacent areas.
+
+**Backsplash and Wall Prep:**
+Tile backsplash, drywall behind cabinets, and any wall-mounted elements are removed. Walls are left at the condition specified by your contractor, whether that is bare studs, existing drywall, or cleaned surfaces.
+
+### Our Kitchen Demo Process
+
+**Step 1: Scope Review**
+We review your renovation plans with you and your contractor to understand exactly what needs to come out and what needs to stay. Precision matters in kitchen demo since removing something that should stay costs time and money.
+
+**Step 2: Protection and Prep**
+Adjacent rooms, flooring, and hallways are protected with heavy-duty coverings. Appliances are disconnected from utilities. The workspace is contained to minimize dust and debris spread throughout your home.
+
+**Step 3: Systematic Tearout**
+We follow a proven sequence: contents and small items first, then appliances, then countertops, then upper cabinets, then lower cabinets, then backsplash and walls, and finally flooring. This methodical approach is the safest and most efficient.
+
+**Step 4: Debris Removal**
+Kitchen demolition generates massive amounts of heavy debris. Cabinets, countertops, tile, appliances, and structural materials add up quickly. We load and haul away all debris as part of the service, often filling one to two full truck loads for a standard kitchen.
+
+**Step 5: Clean Handoff**
+The demolished kitchen is swept clean and ready for your contractor. We walk through the space with you to confirm the scope is complete and document any hidden issues discovered during demolition including water damage, mold, pest damage, or structural concerns.
+
+### Coastal Kitchen Challenges
+
+30A kitchens face unique challenges. The salt air and humidity accelerate deterioration of cabinet materials, adhesives, and structural elements. During demolition, we frequently discover hidden mold behind cabinets, water damage around dishwashers and sinks, and termite damage in structural framing. Our crew documents all findings with photos and alerts your contractor immediately. Early discovery of these issues during the demo phase saves significant expense compared to finding them during construction.
+
+### Working with Contractors
+
+We work seamlessly with renovation contractors across the 30A area. We take direction from your contractor on scope and specifications, communicate directly with their team, and schedule our work to match your project timeline. For contractors who need regular demolition support, we offer priority scheduling and project pricing. We also handle ongoing <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris removal</a> throughout the renovation process. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your kitchen demolition and get your renovation started.
+    `,
+    features: [
+      'Cabinet removal and disposal',
+      'Countertop removal (all materials)',
+      'Appliance disconnection and hauling',
+      'Backsplash and tile removal',
+      'All debris hauled away',
+      'Contractor coordination',
+      'Hidden damage documentation',
+      'Donation of reusable materials'
+    ],
+    pricing: {
+      starting: '$800',
+      custom: true
+    },
+    faqs: [
+      {
+        question: 'How much does kitchen demolition cost?',
+        answer: 'Kitchen demolition starts at $800 for standard kitchens. Large or custom kitchens with extensive cabinets and stone countertops typically run $1,200-$2,500. Multi-room renovation demos receive package pricing. Text photos for accurate estimates.'
+      },
+      {
+        question: 'Do you disconnect gas lines and electrical?',
+        answer: 'We disconnect standard plug-in appliances and water supply lines. Gas line disconnection and hardwired electrical work require licensed professionals. We coordinate with your plumber, electrician, or contractor for these services.'
+      },
+      {
+        question: 'Can you donate my old cabinets?',
+        answer: 'Yes, cabinets in good condition can be donated to Habitat for Humanity ReStore or local charities. We remove them carefully to preserve their condition for donation. We provide donation receipts for tax purposes.'
+      },
+      {
+        question: 'How long does kitchen demolition take?',
+        answer: 'A standard kitchen demolition takes 6-10 hours (one full day). Large kitchens with extensive custom cabinetry, stone countertops, and full flooring removal may take 1.5 to 2 days.'
+      },
+      {
+        question: 'Will you find hidden problems during demolition?',
+        answer: 'It is very common to discover hidden water damage, mold, pest damage, or structural issues during kitchen demolition. We document all findings with photos and communicate them to you and your contractor immediately.'
+      }
+    ]
+  },
+  'same-day-junk-removal': {
+    slug: 'same-day-junk-removal',
+    title: 'Same Day Junk Removal',
+    shortTitle: 'Same Day Service',
+    description: 'Same day junk removal on 30A with 2-hour response times. No extra charge for same-day service. Evening availability. When you need junk gone today, we deliver fast, reliable removal.',
+    content: `
+## Same Day Junk Removal on 30A
+
+When you need junk removed today, not tomorrow, not next week, our same-day junk removal service delivers. We understand that urgency drives many removal needs on 30A. A broken <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliance</a> blocking your kitchen. A guest checkout revealing a damaged <a href="/services/mattress-removal" class="text-ocean-600 hover:underline font-medium">mattress</a> with new guests arriving in hours. A <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction project</a> that generated more debris than expected. Whatever your situation, we provide fast response and same-day completion throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a>.
+
+### How Same-Day Service Works
+
+**Step 1: Contact Us**
+Call or text us with details about what needs to be removed. Photos help us provide accurate quotes quickly. The more information you share upfront, the faster we can respond. We monitor calls and texts throughout the day, including evenings.
+
+**Step 2: 2-Hour Response Window**
+Once confirmed, we dispatch a crew to your location. Our goal is to arrive within 2 hours of confirmation during normal operating hours. We serve all 30A communities from <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a> to <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, so response times are quick regardless of your location.
+
+**Step 3: Fast, Professional Removal**
+Our team arrives, confirms the scope and price, and gets to work immediately. We handle all lifting, loading, and cleanup. Most same-day jobs are completed within 1-2 hours of arrival.
+
+**Step 4: No Extra Charge**
+Here is the best part: we do not charge extra for same-day service. Your price is based on volume only, just like any other job. No rush fees, no emergency surcharges, no hidden costs.
+
+### When You Need Same-Day Service
+
+**Vacation Rental Emergencies:**
+<a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental</a> turnovers on 30A leave no room for delays. When a <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">damaged sofa</a> is discovered at checkout and new guests arrive at 4 PM, you need removal now, not next Tuesday. <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">Property managers</a> across <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> rely on our same-day service for turnover emergencies.
+
+**Moving Day Surprises:**
+You are moving today and discover the old couch will not fit in the new place, or the previous owners left items behind. Same-day removal keeps your move on track without additional stress.
+
+**Project Overruns:**
+Your <a href="/services/garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garage cleanout</a> generated more junk than expected. Your contractor's debris pile is overflowing. Your <a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">yard debris</a> from weekend cleanup is too much for regular trash. We handle the overflow the same day.
+
+**Appliance Failures:**
+When a refrigerator, washer, or dishwasher fails and the replacement is being delivered today, we remove the old unit same-day so your installation proceeds on schedule.
+
+**Health and Safety:**
+Broken items, sharp debris, fallen tree limbs, and other hazardous situations need immediate attention. Same-day removal eliminates safety risks quickly.
+
+### Evening and Weekend Availability
+
+We understand that not all urgencies happen during business hours. Our same-day service extends into evening hours, and we offer weekend availability as well. For <a href="/services/commercial-junk-removal" class="text-ocean-600 hover:underline font-medium">commercial clients</a> who prefer off-hours service, evening pickup is ideal. Text us anytime; we respond to messages from early morning through evening, seven days a week.
+
+### What We Remove Same-Day
+
+We provide same-day service for virtually everything we handle, including:
+
+- <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">Furniture of all types</a>
+- <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">Appliances large and small</a>
+- <a href="/services/mattress-removal" class="text-ocean-600 hover:underline font-medium">Mattresses and box springs</a>
+- <a href="/services/tv-electronics-recycling" class="text-ocean-600 hover:underline font-medium">TVs and electronics</a>
+- <a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">Yard debris and branches</a>
+- <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">Construction debris</a>
+- <a href="/services/hot-tub-removal" class="text-ocean-600 hover:underline font-medium">Hot tubs</a> (may require assessment)
+- General household junk and clutter
+- Garage and storage cleanouts
+
+### Transparent Pricing, No Rush Fees
+
+Our pricing is always based on volume: how much space your items take in our truck. Same-day service is priced identically to scheduled service. A quarter truck load is the same price whether we pick it up today or next week. Check our <a href="/pricing" class="text-ocean-600 hover:underline font-medium">transparent pricing</a> for details. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> now for same-day junk removal.
+    `,
+    features: [
+      '2-hour response window',
+      'Evening availability',
+      'No extra charge for same-day',
+      'Weekend service available',
+      'All item types accepted',
+      'Vacation rental priority',
+      'Transparent volume pricing',
+      'Text photos for instant quotes'
+    ],
+    pricing: {
+      quarterTruck: '$150-$200',
+      halfTruck: '$250-$325',
+      fullTruck: '$425-$500'
+    },
+    faqs: [
+      {
+        question: 'Is there an extra charge for same-day service?',
+        answer: 'No, we do not charge rush fees or surcharges for same-day junk removal. Your price is based solely on the volume of material removed, regardless of scheduling urgency.'
+      },
+      {
+        question: 'How quickly can you arrive?',
+        answer: 'Our goal is to arrive within 2 hours of confirmation during normal operating hours. Actual response times depend on current scheduling, but we prioritize same-day requests and communicate realistic arrival times upfront.'
+      },
+      {
+        question: 'Do you offer evening same-day service?',
+        answer: 'Yes, we offer evening availability for same-day requests. This is especially popular with vacation rental managers handling turnover emergencies and commercial businesses needing after-hours removal.'
+      },
+      {
+        question: 'What if I need same-day service on a weekend?',
+        answer: 'We offer weekend same-day service. Text or call us and we will accommodate your weekend removal needs. Weekend pricing is the same as weekday pricing with no additional surcharges.'
+      },
+      {
+        question: 'How do I get the fastest response?',
+        answer: 'Text us photos of the items along with your address and preferred timeframe. Photos allow us to quote immediately without needing an on-site assessment, which speeds up the entire process significantly.'
+      }
+    ]
+  },
+  'bulk-trash-pickup': {
+    slug: 'bulk-trash-pickup',
+    title: 'Bulk Trash Pickup',
+    shortTitle: 'Bulk Pickup',
+    description: 'Bulk trash and oversized item pickup on 30A. Curbside or on-property pickup for items too large for regular trash service. Furniture, appliances, yard waste, and more.',
+    content: `
+## Bulk Trash Pickup on 30A
+
+Regular curbside trash service has strict limitations on what they will pick up. Large furniture, appliances, mattresses, yard debris, and oversized items are routinely left behind or refused. Walton County offers limited bulk pickup, but scheduling can take weeks and there are significant restrictions on what qualifies. Our bulk trash pickup service fills this gap, providing fast, reliable removal of oversized items and large volumes of material that exceed regular trash service capabilities. We serve all <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A communities</a> including <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>, and surrounding areas.
+
+### What Qualifies as Bulk Trash
+
+**Oversized Items:**
+<a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">Furniture</a> including sofas, tables, dressers, and bed frames. <a href="/services/mattress-removal" class="text-ocean-600 hover:underline font-medium">Mattresses</a> and box springs. <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">Appliances</a> including refrigerators, washers, and dryers. <a href="/services/exercise-equipment" class="text-ocean-600 hover:underline font-medium">Exercise equipment</a> including treadmills and weight machines. These items cannot be placed in regular trash bins and require professional pickup.
+
+**Large Volume Cleanup:**
+Post-party cleanup, seasonal property clearing, <a href="/services/garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garage cleanouts</a>, and general decluttering projects that generate more waste than your regular service handles. When you have a pile of items on your driveway or curb that keeps growing, bulk pickup is the solution.
+
+**Yard and Outdoor Waste:**
+Large branches, tree trimmings, fence sections, old outdoor furniture, grills, broken play equipment, landscape debris, and other <a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">yard waste</a> that exceeds regular service limits.
+
+### Our Bulk Pickup Process
+
+**Step 1: Tell Us What You Have**
+Call or text with a description or photos of your bulk items. Let us know if items are at the curb, in the garage, inside the house, or in the yard. We provide a fast quote based on volume.
+
+**Step 2: Schedule Your Pickup**
+Choose a convenient date and time. We offer <a href="/services/same-day-junk-removal" class="text-ocean-600 hover:underline font-medium">same-day pickup</a> when available, as well as scheduled appointments. For curbside items, we can often pick up the same day you call.
+
+**Step 3: We Handle Everything**
+For curbside pickup, we load items directly from your curb or driveway. For items inside your home, garage, or yard, we do all the lifting and carrying. You never need to drag heavy items to the curb yourself.
+
+**Step 4: Responsible Disposal**
+We sort bulk items for <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donation</a>, recycling, and disposal. Usable furniture and appliances go to local charities. Metal items are recycled. The remainder is disposed of at licensed facilities following proper waste management procedures.
+
+### Curbside vs. Full-Service Pickup
+
+**Curbside Pickup:**
+If your items are already at the curb, driveway, or accessible outdoor area, curbside pickup is the fastest and most affordable option. We pull up, load, and go. Perfect for items you have already moved outside.
+
+**Full-Service Pickup:**
+For items still inside your home, garage, <a href="/services/attic-cleanout" class="text-ocean-600 hover:underline font-medium">attic</a>, or shed, we provide full-service pickup. Our team comes inside, carries items out, loads them, and cleans up. This is the hands-free option where you point and we do all the work.
+
+### Scheduled and Recurring Service
+
+**One-Time Bulk Pickup:**
+Perfect for move-outs, cleanouts, seasonal clearing, and one-off projects. Schedule a single pickup and we handle everything.
+
+**Recurring Bulk Service:**
+For <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property managers</a>, contractors, and businesses that regularly accumulate bulk items, we offer weekly, bi-weekly, or monthly scheduled bulk pickup. Consistent pricing and priority scheduling keep your property clear and professional.
+
+### 30A Bulk Pickup Challenges
+
+Many 30A communities have strict rules about items left at the curb. HOAs in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, and <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> may fine homeowners for leaving bulk items visible. Our prompt pickup service helps you avoid HOA violations and maintain your property's appearance. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your bulk trash pickup today.
+    `,
+    features: [
+      'Curbside and on-property pickup',
+      'All oversized items accepted',
+      'Scheduled and same-day service',
+      'Furniture, appliances, and yard waste',
+      'Donation and recycling sorting',
+      'Recurring service available',
+      'HOA-compliant prompt removal',
+      'Volume pricing for large loads'
+    ],
+    pricing: {
+      quarterTruck: '$150-$200',
+      halfTruck: '$250-$325',
+      fullTruck: '$425-$500'
+    },
+    faqs: [
+      {
+        question: 'What items do you pick up for bulk trash?',
+        answer: 'We pick up furniture, mattresses, appliances, yard debris, electronics, exercise equipment, grills, play equipment, and virtually any oversized item that regular trash service will not accept.'
+      },
+      {
+        question: 'Do I need to bring items to the curb?',
+        answer: 'No. While curbside pickup is available, we also offer full-service pickup from anywhere on your property including inside your home, garage, backyard, or shed. We do all the heavy lifting.'
+      },
+      {
+        question: 'How is bulk pickup priced?',
+        answer: 'Pricing is based on volume: how much space your items take in our truck. A quarter truck load runs $150-$200, half truck $250-$325, and full truck $425-$500. Text photos for accurate pricing.'
+      },
+      {
+        question: 'Can you pick up bulk items the same day?',
+        answer: 'Yes, same-day bulk pickup is available when scheduling allows. Curbside items can often be picked up within hours. Text us photos and your address for the fastest response.'
+      },
+      {
+        question: 'Do you offer recurring bulk pickup service?',
+        answer: 'Yes, we offer weekly, bi-weekly, and monthly recurring bulk pickup for property managers, contractors, and businesses. Recurring service includes priority scheduling and consistent pricing.'
+      }
+    ]
+  },
+  'hurricane-debris': {
+    slug: 'hurricane-debris',
+    title: 'Hurricane & Storm Debris Cleanup',
+    shortTitle: 'Storm Cleanup',
+    description: 'Hurricane and storm debris cleanup on the Florida panhandle and 30A. Emergency response, FEMA documentation assistance, fallen tree removal, and complete property restoration after storms.',
+    content: `
+## Hurricane & Storm Debris Cleanup on 30A
+
+Living on the Florida panhandle means living with hurricane risk. When storms strike the 30A corridor, they leave behind a landscape of fallen trees, damaged structures, scattered debris, and disrupted lives. From the aftermath of major hurricanes to cleanup after severe thunderstorms and tropical systems, our storm debris cleanup team provides fast emergency response and thorough property restoration. We serve all <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A communities</a> including <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, and the surrounding panhandle region.
+
+### Types of Storm Debris We Handle
+
+**Fallen Trees and Limbs:**
+Hurricanes and severe storms topple trees and scatter large limbs across properties, driveways, and structures. We cut, section, and remove fallen trees and branches of all sizes. Trees on structures, vehicles, or power lines require careful coordination with utility companies and structural engineers.
+
+**Structural Debris:**
+Damaged roofing materials, siding, fencing, <a href="/services/deck-removal" class="text-ocean-600 hover:underline font-medium">deck sections</a>, <a href="/services/shed-demolition" class="text-ocean-600 hover:underline font-medium">shed debris</a>, screen enclosures, and other structural components scattered or destroyed by storm winds. We collect, load, and haul away all structural storm debris.
+
+**<a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">Yard Debris</a>:**
+Leaves, palm fronds, small branches, vegetation, mulch displacement, sand deposits, and general landscape debris left by storm winds and flooding.
+
+**Water Damage Items:**
+Flood-damaged furniture, <a href="/services/carpet-removal" class="text-ocean-600 hover:underline font-medium">carpeting</a>, <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliances</a>, drywall, insulation, and personal belongings that cannot be salvaged after storm flooding or water intrusion.
+
+**Fencing and Exterior Structures:**
+Storm-damaged <a href="/services/fence-removal" class="text-ocean-600 hover:underline font-medium">fences</a>, pergolas, outdoor kitchens, pool cages, and other exterior structures that need removal or emergency stabilization.
+
+### Our Storm Response Process
+
+**Phase 1: Emergency Response**
+Immediately after a storm, we begin assessing damage and prioritizing response. Emergency situations including trees on occupied structures, blocked access roads, and safety hazards are addressed first. We deploy multiple crews to serve as many affected properties as possible.
+
+**Phase 2: Property Assessment and Documentation**
+We photograph and document all storm damage before beginning cleanup. This documentation is critical for insurance claims and FEMA assistance applications. We provide detailed photo records with dates, descriptions, and scope of damage for every property we service.
+
+**Phase 3: Debris Removal and Hauling**
+Our crews systematically clear storm debris from properties. Trees are cut and removed. Structural debris is collected. Yard waste is gathered and hauled. We work efficiently to restore access and safety to your property as quickly as possible.
+
+**Phase 4: Property Restoration**
+Beyond debris removal, we help restore your property to pre-storm condition. This includes grading disturbed areas, clearing drainage paths, removing damaged structures, and preparing the property for repair contractors. We coordinate with roofing, fencing, and general contractors to streamline the restoration process.
+
+### FEMA Documentation Assistance
+
+After federally declared disasters, FEMA assistance may be available for property owners. Proper documentation is critical for successful claims. We provide:
+
+- Timestamped before-and-after photographs of all damage
+- Detailed descriptions of debris removed and work performed
+- Volume and weight estimates of materials hauled
+- Itemized invoices that meet FEMA documentation standards
+- Coordination with your insurance adjuster when requested
+
+For information about disaster assistance programs, visit <a href="https://www.fema.gov/assistance/individual" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">FEMA's individual assistance page</a>.
+
+### Hurricane Season Preparedness
+
+The Atlantic hurricane season runs June through November, with peak activity August through October. We recommend 30A property owners prepare in advance by:
+
+- Identifying and removing dead or damaged trees before storm season
+- Securing or removing loose outdoor items including furniture, grills, and decorations
+- Documenting your property's pre-storm condition with photos
+- Having our contact information ready for post-storm response
+
+For <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental</a> and <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property management</a> clients, we offer priority post-storm response to help get rental properties back online quickly after storms. The faster your property is cleaned up and repaired, the sooner it can generate revenue again.
+
+### Serving the Entire Panhandle
+
+While we are based on 30A, our storm cleanup services extend throughout the Florida panhandle. Major storms affect the entire region, and communities from <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a> to <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> and beyond all need rapid debris cleanup. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> before, during, or after storm season. We are here to help our community recover.
+    `,
+    features: [
+      'Emergency storm response',
+      'FEMA documentation assistance',
+      'Fallen tree cutting and removal',
+      'Structural debris hauling',
+      'Insurance claim documentation',
+      'Multi-property priority service',
+      'Flood damage item removal',
+      'Property restoration coordination'
+    ],
+    pricing: {
+      starting: '$300',
+      custom: true
+    },
+    faqs: [
+      {
+        question: 'How quickly can you respond after a hurricane?',
+        answer: 'We begin deploying crews as soon as it is safe to travel after a storm. Emergency situations are prioritized first. Standard debris cleanup typically begins within 24-72 hours after a storm, depending on severity and road access.'
+      },
+      {
+        question: 'Do you help with FEMA documentation?',
+        answer: 'Yes, we provide timestamped photo documentation, detailed work descriptions, volume estimates, and itemized invoices that meet FEMA documentation standards. This helps support your disaster assistance application and insurance claims.'
+      },
+      {
+        question: 'Can you remove a tree that fell on my house?',
+        answer: 'Yes, we handle fallen trees on structures. These require careful removal to prevent additional damage. We coordinate with structural engineers and roofing contractors when needed to ensure safe removal.'
+      },
+      {
+        question: 'How much does storm debris cleanup cost?',
+        answer: 'Storm cleanup starts at $300 for small jobs. Costs vary widely based on damage extent, debris volume, tree size, and property size. We provide fair pricing during emergency situations and do not engage in price gouging.'
+      },
+      {
+        question: 'Do you offer priority service for vacation rental properties?',
+        answer: 'Yes, vacation rental and property management clients can arrange priority post-storm service. Getting rental properties back online quickly after storms is critical for revenue, and we prioritize these clients accordingly.'
+      }
+    ]
+  },
+  'piano-removal': {
+    slug: 'piano-removal',
+    title: 'Piano Removal',
+    shortTitle: 'Piano Removal',
+    description: 'Professional piano removal on 30A. We safely move and dispose of all piano types including upright, grand, and baby grand. Narrow space expertise and careful handling guaranteed.',
+    content: `
+## Professional Piano Removal on 30A
+
+Pianos are among the most challenging items to remove from any home. They are extraordinarily heavy, awkwardly shaped, and often positioned in rooms that require navigating tight doorways, stairs, and narrow hallways. An upright piano weighs 300-800 pounds. A baby grand weighs 500-700 pounds. A full grand piano can weigh over 1,200 pounds. Attempting to move these instruments without proper equipment, technique, and manpower risks serious injury and property damage. Our professional piano removal team has the expertise and equipment to handle any piano in any space across <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a>.
+
+### Types of Pianos We Remove
+
+**Upright Pianos:**
+The most common type we remove. Standard upright pianos weigh 300-500 pounds, while large upright and studio pianos can reach 800 pounds. Despite their compact footprint, their height and weight distribution make them difficult to maneuver through doorways and down stairs.
+
+**Baby Grand Pianos:**
+Weighing 500-700 pounds, baby grand pianos require leg removal, wrapping, and careful navigation on their side through doorways. Their curved shape creates unique handling challenges that require experienced movers.
+
+**Grand Pianos:**
+Full-size grand pianos weigh 700-1,200+ pounds and can measure 5 to 9 feet in length. These instruments require multiple team members, specialized equipment, and careful planning for removal. Doorway and hallway clearances must be measured precisely.
+
+**Digital and Electric Pianos:**
+While much lighter than acoustic pianos, digital pianos and keyboards with heavy stands can still be bulky and awkward. We remove all electronic piano equipment including stands, benches, and amplification.
+
+**Organs:**
+Church-style organs, home organs, and electronic organ systems. These vary dramatically in size and weight but often present unique challenges due to their shape and integration with the room.
+
+### Our Piano Removal Process
+
+**Step 1: Assessment**
+Every piano removal starts with a thorough assessment. We need to know the piano type, location within the home, doorway and hallway widths, stair configurations, and any access challenges. Text us photos showing the piano and the path to the nearest exterior door. For properties in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and other 30A communities, we also assess exterior access including gates, steps, and truck positioning.
+
+**Step 2: Preparation**
+Floors, walls, doorframes, and railings are protected with padding, blankets, and floor coverings. For grand pianos, legs and pedal assemblies are removed and the piano is carefully positioned on its side on a padded piano board.
+
+**Step 3: Removal**
+Our team uses proper piano-moving techniques including dollies, straps, piano boards, and ramps. Every team member knows their role and the piano is moved smoothly and safely through your home and to our truck. We never drag, tilt unsecured, or rush the process.
+
+**Step 4: Loading and Transport**
+The piano is loaded into our truck using a ramp or lift gate and secured for transport. We handle all transportation to the disposal, <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donation</a>, or storage destination.
+
+### Narrow Space Expertise
+
+Many 30A homes present significant access challenges for piano removal. Older cottages in <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a> have narrow doorways and halls. Multi-story homes in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> and <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> require navigating stairs. Some pianos were moved into rooms before walls or doorframes were finished, meaning the current openings are too small for normal removal. Our team has experience with every scenario including removing doors, disassembling railings, and creative routing through challenging spaces.
+
+### Donation and Disposal Options
+
+**Donation:**
+Pianos in playable condition can be donated to schools, churches, community centers, and music programs. We coordinate donation logistics and transportation. A donated piano can provide years of music education to our community.
+
+**Disposal:**
+Pianos that are no longer playable due to broken soundboards, cracked frames, or extensive damage are properly disposed. We separate recyclable materials including metal strings, cast iron frames, and hardware.
+
+### Why Pianos Are Not a DIY Project
+
+Every year, people are seriously injured attempting to move pianos themselves. Crushed fingers, broken bones, back injuries, and dropped pianos causing floor and stair damage are all too common. Professional removal eliminates these risks entirely. For the safety of your family and the protection of your home, trust piano removal to experienced professionals. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a piano removal quote.
+    `,
+    features: [
+      'All piano types handled',
+      'Careful, damage-free removal',
+      'Narrow space and stair expertise',
+      'Floor and wall protection',
+      'Grand piano disassembly',
+      'Donation coordination available',
+      'Fully insured service',
+      'Experienced piano moving team'
+    ],
+    pricing: {
+      starting: '$200',
+      custom: true
+    },
+    faqs: [
+      {
+        question: 'How much does piano removal cost?',
+        answer: 'Piano removal starts at $200 for standard upright pianos on ground level. Baby grand pianos typically run $300-$500. Full grand pianos start at $400-$700+. Stairs, tight access, and multi-story homes increase pricing. Text photos for accurate quotes.'
+      },
+      {
+        question: 'Can you remove a piano from an upstairs room?',
+        answer: 'Yes, we remove pianos from any floor including upstairs bedrooms, lofts, and multi-story homes. Stair removal requires additional crew members and specialized equipment, but we handle it safely and efficiently.'
+      },
+      {
+        question: 'Can my old piano be donated?',
+        answer: 'If the piano is in playable condition with a functioning soundboard and frame, donation is often possible. We coordinate with local schools, churches, and community organizations. Pianos with major structural damage are typically not suitable for donation.'
+      },
+      {
+        question: 'How many people does it take to move a piano?',
+        answer: 'We typically use 2-3 crew members for upright pianos and 3-4 for grand pianos. The exact team size depends on the piano weight, stairs, access challenges, and distance to the truck.'
+      },
+      {
+        question: 'Will you damage my floors or walls during removal?',
+        answer: 'We take extensive precautions to protect your property. Floors are covered with protective material, doorframes and walls are padded, and our team uses proper techniques to maintain control throughout the process. We are fully insured for added peace of mind.'
+      }
+    ]
+  },
+  'exercise-equipment': {
+    slug: 'exercise-equipment',
+    title: 'Exercise Equipment Removal',
+    shortTitle: 'Exercise Equipment',
+    description: 'Professional exercise equipment removal on 30A. We remove and haul away treadmills, ellipticals, weight systems, and all gym equipment. Disassembly included for complex machines.',
+    content: `
+## Professional Exercise Equipment Removal on 30A
+
+Home gym equipment is one of the most commonly abandoned item categories in American homes, and 30A properties are no exception. That treadmill that became a clothes rack, the elliptical gathering dust in the spare bedroom, the weight system you have not touched in years - they are all taking up valuable space in your home. Exercise equipment is also among the most difficult items to remove yourself. These machines are heavy, bulky, awkward to maneuver, and often require disassembly before they can fit through doorways. Our professional exercise equipment removal service handles the entire process from disassembly to hauling across <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a>.
+
+### Equipment We Remove
+
+**Cardio Equipment:**
+- Treadmills (commercial and residential, typically 200-350 pounds)
+- Elliptical trainers (150-300 pounds)
+- Stationary bikes (spin bikes, recumbent, upright)
+- Rowing machines
+- Stair climbers and steppers
+- Arc trainers and adaptive motion trainers
+- Ski machines and cross-country trainers
+
+**Strength Equipment:**
+- Home gym systems (Bowflex, Total Gym, etc.)
+- Smith machines and cable systems
+- Free weight sets and benches
+- Squat racks and power cages
+- Weight plates, dumbbells, and barbells
+- Resistance machines (leg press, lat pulldown, etc.)
+
+**Other Gym Items:**
+- Yoga and Pilates reformer machines
+- Punching bags and stands
+- Gymnastic equipment
+- Inversion tables
+- Massage chairs and tables
+- Rubber flooring and gym mats
+- Mirrors and mounting hardware
+
+### Why Professional Removal
+
+**Weight and Bulk:**
+A commercial-grade treadmill can weigh over 300 pounds. A loaded Smith machine can exceed 500 pounds. These items cannot be safely moved by one or two people without proper equipment and technique. Our crews use dollies, straps, and team-lift techniques to move heavy equipment safely.
+
+**Disassembly Required:**
+Many exercise machines are too large to fit through standard doorways when fully assembled. Treadmills often need to be folded or partially disassembled. Multi-station home gyms require significant disassembly including removing cables, pulleys, and weight stacks. We handle all disassembly as part of the removal service.
+
+**Stair and Access Challenges:**
+Home gyms are frequently located in basements, upstairs bonus rooms, garages, and other spaces that require navigating stairs or tight turns. In 30A homes, multi-story construction in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a>, and <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> means exercise equipment is often on upper floors. We navigate stairs and tight spaces with care and experience.
+
+### Our Removal Process
+
+**Step 1: Assessment**
+Text us photos of the equipment and its location. Include doorway widths, stair configurations, and any access challenges. We provide accurate quotes based on equipment type, weight, location, and access.
+
+**Step 2: Disassembly**
+Our crew arrives with the tools needed for your specific equipment. We disassemble machines as needed to fit through doorways and navigate stairs. All hardware is collected; nothing is left behind.
+
+**Step 3: Removal and Loading**
+Disassembled components and intact equipment are carefully moved through your home using dollies and protective coverings. We protect floors, walls, and doorframes throughout the process. Everything is loaded into our truck for hauling.
+
+**Step 4: Disposal and Recycling**
+Equipment in working condition can be <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donated</a> to community centers, schools, or charitable organizations. Non-functioning equipment is recycled for its metal, electronic, and plastic components whenever possible.
+
+### Vacation Rental and Property Management
+
+<a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental</a> properties and <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property management</a> clients occasionally need exercise equipment removed during property updates or when amenities change. We work around guest schedules and rental turnovers to minimize property downtime. Equipment can be swapped on the same day new items arrive.
+
+### Pricing
+
+Exercise equipment removal starts at $150 for single items like stationary bikes and standard weight benches. Treadmills and ellipticals typically run $150-$250 depending on weight and access. Full home gym systems with multiple machines and weight sets range from $300-$600+. Stairs and difficult access add to the price. For <a href="/services/bulk-trash-pickup" class="text-ocean-600 hover:underline font-medium">bulk pickup</a> combined with exercise equipment, ask about package pricing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a fast exercise equipment removal quote.
+    `,
+    features: [
+      'Treadmill and elliptical removal',
+      'Weight system disassembly',
+      'All gym equipment types',
+      'Stair and tight-space navigation',
+      'Disassembly included',
+      'Donation coordination',
+      'Same-day service available',
+      'Floor and property protection'
+    ],
+    pricing: {
+      starting: '$150',
+      halfTruck: '$250-$350'
+    },
+    faqs: [
+      {
+        question: 'How much does treadmill removal cost?',
+        answer: 'Treadmill removal typically costs $150-$250 depending on the treadmill weight, location in your home, and stair access. Commercial-grade treadmills on upper floors cost more due to weight and difficulty. Text photos for exact pricing.'
+      },
+      {
+        question: 'Do you disassemble home gym equipment?',
+        answer: 'Yes, disassembly is included in our removal service. We break down multi-station home gyms, weight systems, cable machines, and other equipment that needs disassembly to fit through doorways or navigate stairs.'
+      },
+      {
+        question: 'Can you remove exercise equipment from upstairs?',
+        answer: 'Yes, we regularly remove heavy exercise equipment from upstairs rooms, bonus rooms, and lofts. Our team uses proper techniques and equipment to safely navigate stairs with heavy machines.'
+      },
+      {
+        question: 'Can you donate working exercise equipment?',
+        answer: 'Yes, equipment in good working condition can be donated to local community centers, schools, and charitable organizations. We coordinate donation logistics and provide receipts when available.'
+      },
+      {
+        question: 'How many people does it take to remove a treadmill?',
+        answer: 'Most treadmill removals require 2 crew members. Heavier commercial treadmills or those requiring stair navigation may need 3 crew members. We always send the appropriate team size for safe, efficient removal.'
+      }
+    ]
+  },
+  'attic-cleanout': {
+    slug: 'attic-cleanout',
+    title: 'Attic Cleanout',
+    shortTitle: 'Attic Cleanout',
+    description: 'Professional attic cleanout on 30A. We safely remove all items from your attic including stored belongings, old insulation, and debris. Insulation awareness, careful navigation, and full cleanout.',
+    content: `
+## Professional Attic Cleanout on 30A
+
+Attics are the forgotten storage spaces of most homes. Over years and decades, they accumulate boxes, seasonal decorations, old furniture, clothing, documents, and items that seem too important to throw away but too unimportant to keep accessible. Eventually, the attic becomes so packed that it is unusable, or a home sale, renovation, or <a href="/services/estate-cleanouts" class="text-ocean-600 hover:underline font-medium">estate cleanout</a> requires it to be emptied completely. Our professional attic cleanout service handles the difficult, dirty, and physically demanding work of clearing your attic safely and completely. We serve homeowners throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a> including <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, and <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>.
+
+### Why Professional Attic Cleanout
+
+**Safety Hazards:**
+Attics present genuine safety risks. Limited headroom, exposed rafters, unstable flooring, extreme heat in our Florida climate, and potentially hazardous materials including old insulation, rodent droppings, and mold all make attic work dangerous for untrained individuals. Our crews understand attic safety including where to step, how to navigate low clearances, and how to handle hazardous conditions.
+
+**Physical Demands:**
+Carrying heavy boxes and items down attic ladders or through pull-down stairs is physically demanding and risky. A single misstep on an attic ladder while carrying a heavy box can result in serious injury. Our team uses safe material handling techniques and passes items down efficiently.
+
+**Insulation Awareness:**
+Many attics contain fiberglass batt insulation, blown-in cellulose, or older insulation materials that should not be disturbed without proper protection. Some older homes may contain vermiculite insulation that could contain asbestos. Our team uses appropriate respiratory protection and minimizes insulation disturbance. When insulation removal is needed, we coordinate with insulation specialists.
+
+### Our Attic Cleanout Process
+
+**Step 1: Assessment**
+We evaluate your attic's access point (pull-down stairs, scuttle hole, walk-up stairs), headroom, flooring, lighting, and contents. We identify any hazards including exposed wiring, deteriorated flooring, pest activity, or insulation concerns. Text photos if possible, or we assess on-site.
+
+**Step 2: Safety Setup**
+Proper lighting is established. The path from attic to truck is prepared with drop cloths and floor protection. Our crew uses appropriate personal protective equipment including dust masks, gloves, and knee protection. Ventilation is considered, especially during hot months when attic temperatures can exceed 140 degrees on the Florida panhandle.
+
+**Step 3: Systematic Clearing**
+We work from the access point outward, creating a clear path and work area. Items are carefully passed down and categorized: keep, donate, recycle, and dispose. Fragile and valuable items are identified and handled with care. We check boxes and containers before assuming contents are trash.
+
+**Step 4: Final Cleanup**
+Once all items are removed, the attic is swept clean. We inspect for any remaining items hidden in corners or behind structural elements. The attic is left completely empty and clean, or organized with only the items you want to keep.
+
+### What We Commonly Find in Attics
+
+**Seasonal Items:** Holiday decorations, seasonal clothing, and outdoor seasonal equipment stored for years and sometimes decades. We sort through these carefully since sentiment and usefulness vary.
+
+**Documents and Photos:** Tax records, family documents, photo albums, and personal papers. These are always set aside for your review, never discarded without your approval.
+
+**Old Furniture:** Small <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture pieces</a>, chairs, small tables, and lamps that were stored rather than disposed. We remove everything regardless of size or weight.
+
+**<a href="/services/tv-electronics-recycling" class="text-ocean-600 hover:underline font-medium">Electronics</a> and Equipment:** Old computers, speakers, holiday lighting, and miscellaneous electronic items. These are handled according to e-waste disposal guidelines.
+
+**Insulation and Building Materials:** In some cases, attic cleanout includes removing old insulation to prepare for new installation or renovation. Blown-in insulation removal requires specialized equipment. We coordinate with insulation contractors for these projects.
+
+### Coastal Attic Considerations
+
+30A attics face unique challenges from our coastal environment. Humidity promotes mold growth on stored items and structural elements. Roof leaks from hurricane and storm damage can go undetected in attics for months. Pests including rodents, squirrels, and insects often find their way into coastal attics. During our cleanout, we document any concerning conditions including mold, water stains, pest evidence, and structural issues so you can address them promptly.
+
+### Preparing for Sale or Renovation
+
+Many attic cleanouts are triggered by home sales or renovations. A clean attic shows buyers the full usable space. For renovations that involve attic access, clearing the space beforehand keeps your contractor on schedule. We also offer <a href="/services/garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garage cleanout</a> and <a href="/services/storage-unit-cleanout" class="text-ocean-600 hover:underline font-medium">storage unit cleanout</a> for complete property clearing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your attic cleanout.
+    `,
+    features: [
+      'Insulation awareness and safety',
+      'Careful attic navigation',
+      'Full cleanout to empty condition',
+      'Valuables and documents preserved',
+      'Pest and mold identification',
+      'All items hauled away',
+      'Donation sorting included',
+      'Property protection during removal'
+    ],
+    pricing: {
+      starting: '$250',
+      custom: true
+    },
+    faqs: [
+      {
+        question: 'How much does an attic cleanout cost?',
+        answer: 'Attic cleanout starts at $250 for small attics with light contents. Average attics typically run $400-$800 depending on volume, access difficulty, and content type. Large attics packed with heavy items can be $1,000+. Text photos for accurate pricing.'
+      },
+      {
+        question: 'Is attic cleanout safe in Florida summer heat?',
+        answer: 'Attic temperatures can exceed 140 degrees in summer. Our crew takes heat precautions including frequent breaks, hydration, and early morning scheduling. For extreme conditions, we may recommend scheduling during cooler months or early morning hours.'
+      },
+      {
+        question: 'Will you check boxes before throwing things away?',
+        answer: 'Yes, we always open and inspect containers before disposal. Documents, photos, valuables, and sentimental items are set aside for your review. We never discard items that might be important without your approval.'
+      },
+      {
+        question: 'Can you remove old attic insulation?',
+        answer: 'We can remove fiberglass batt insulation as part of an attic cleanout. Blown-in insulation removal requires specialized vacuum equipment. We coordinate with insulation contractors for blown-in removal and can handle the debris hauling.'
+      },
+      {
+        question: 'How do you handle items found with potential value?',
+        answer: 'Any items that appear to have monetary or sentimental value are set aside for your review. We err on the side of caution and would rather have you decide on borderline items than accidentally discard something valuable.'
+      }
+    ]
+  },
+  'concrete-removal': {
+    slug: 'concrete-removal',
+    title: 'Concrete Removal',
+    shortTitle: 'Concrete Removal',
+    description: 'Professional concrete removal on 30A. We break, haul, and recycle concrete slabs, driveways, patios, sidewalks, and foundations. All types of concrete demolition and removal.',
+    content: `
+## Professional Concrete Removal on 30A
+
+Concrete removal is one of the most physically demanding and equipment-intensive removal services we offer. Whether you need a cracked driveway removed in <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, an old patio demolished in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, a pool deck torn out in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, or foundation remnants cleared in <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>, our team handles the complete process from breaking to hauling and disposal. Concrete is extremely heavy, with a typical 4-inch slab weighing about 50 pounds per square foot, meaning even a small 10x10 patio generates 2.5 tons of material. Professional equipment and experienced crews are essential for safe, efficient concrete removal.
+
+### Types of Concrete We Remove
+
+**Driveways:**
+Cracked, heaving, or settling driveways are both an eyesore and a safety hazard. We break and remove concrete driveways of all sizes, from single-car pads to large circular drives. Reinforced concrete with rebar or wire mesh requires additional cutting and separation.
+
+**Patios and Pool Decks:**
+Outdoor living spaces are central to the 30A lifestyle, and when concrete patios or pool decks deteriorate, replacement transforms your property. We remove existing concrete to prepare for new pavers, stamped concrete, travertine, or other surface materials.
+
+**Sidewalks and Walkways:**
+Tree root damage, settling, and age cause sidewalk cracking and tripping hazards. We remove damaged sections or entire walkways. For properties in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> and <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, we coordinate with HOA requirements for sidewalk replacement timelines.
+
+**Foundations and Slabs:**
+<a href="/services/shed-demolition" class="text-ocean-600 hover:underline font-medium">Shed foundations</a>, old building pads, equipment bases, AC unit pads, and other concrete slabs. We remove foundations completely including below-grade footings when needed.
+
+**Steps and Stoops:**
+Concrete entry steps, stoops, and landing pads. These are often reinforced and attached to the home's foundation, requiring careful removal to avoid damaging the house structure.
+
+**Curbing and Edging:**
+Landscape curbing, garden bed edging, and retaining walls made of concrete or concrete block. We remove these elements for landscape renovation or replacement.
+
+### Our Concrete Removal Process
+
+**Step 1: Assessment**
+We evaluate the concrete's size, thickness, reinforcement type, location, and access for equipment. We identify any utilities running under or near the concrete including irrigation lines, electrical conduits, and plumbing. Text photos with approximate dimensions for fast, accurate quotes.
+
+**Step 2: Utility Marking**
+Before breaking begins, we ensure underground utilities are identified. We coordinate with utility locating services when needed to prevent damage to water, gas, electric, cable, and irrigation lines.
+
+**Step 3: Breaking**
+Using jackhammers, concrete saws, and breaking equipment, we systematically demolish the concrete into manageable pieces. Reinforced concrete requires rebar cutting and separation. We control dust and debris during breaking.
+
+**Step 4: Loading and Hauling**
+Broken concrete is loaded into our trucks using wheelbarrows, hand-loading, and equipment as appropriate. Due to concrete's extreme weight, multiple truck loads may be required for larger projects. We haul all material to licensed disposal or recycling facilities.
+
+**Step 5: Site Restoration**
+After concrete removal, we grade and level the exposed subbase. Sand, gravel, or soil is raked smooth. The site is prepared for new construction, landscaping, or restoration based on your plans.
+
+### Concrete Recycling
+
+Concrete is one of the most recyclable construction materials. Clean concrete without significant contamination can be crushed and reused as aggregate for new concrete, road base, and fill material. We separate clean concrete for recycling whenever possible, reducing landfill impact and supporting sustainable <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris</a> management. For more information about construction material recycling, visit <a href="https://www.epa.gov/smm/sustainable-management-construction-and-demolition-materials" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA's construction and demolition materials page</a>.
+
+### Coastal Concrete Challenges
+
+Concrete along the 30A corridor faces unique challenges. Sandy soil causes uneven settling and cracking. Salt air accelerates surface deterioration and rebar corrosion. Florida's freeze-thaw cycles, though less severe than northern climates, still cause expansion damage over time. Tree roots from our abundant live oaks and other species heave and crack concrete surfaces. When these issues accumulate, replacement becomes more cost-effective than ongoing repair.
+
+### Combined Demolition Projects
+
+Concrete removal is often part of larger demolition projects. We commonly combine concrete work with <a href="/services/deck-removal" class="text-ocean-600 hover:underline font-medium">deck removal</a>, <a href="/services/fence-removal" class="text-ocean-600 hover:underline font-medium">fence removal</a>, and <a href="/services/shed-demolition" class="text-ocean-600 hover:underline font-medium">shed demolition</a> for comprehensive exterior renovation prep. Package pricing is available for multi-service projects. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a concrete removal estimate.
+    `,
+    features: [
+      'Concrete breaking and demolition',
+      'All debris hauled away',
+      'Concrete recycling when possible',
+      'Driveways, patios, and slabs',
+      'Reinforced concrete with rebar',
+      'Foundation removal',
+      'Site grading after removal',
+      'Utility awareness and protection'
+    ],
+    pricing: {
+      starting: '$500',
+      custom: true
+    },
+    faqs: [
+      {
+        question: 'How much does concrete removal cost?',
+        answer: 'Concrete removal starts at $500 for small slabs and pads. Average driveway removal (400-600 sq ft) typically runs $1,500-$3,000. Large projects with reinforced concrete can be $3,000-$8,000+. Pricing depends on thickness, reinforcement, access, and volume.'
+      },
+      {
+        question: 'Do you remove reinforced concrete with rebar?',
+        answer: 'Yes, we remove reinforced concrete including rebar and wire mesh. Reinforced concrete requires additional cutting and separation, which adds to the project cost and time. We handle all types of concrete reinforcement.'
+      },
+      {
+        question: 'How long does concrete removal take?',
+        answer: 'A small patio or slab takes 2-4 hours. An average driveway takes 1-2 days. Large projects with thick, reinforced concrete may take 2-3 days. We provide time estimates based on your specific project scope.'
+      },
+      {
+        question: 'Is concrete recyclable?',
+        answer: 'Yes, clean concrete is one of the most recyclable construction materials. We separate clean concrete for recycling whenever possible. Recycled concrete is crushed and reused as aggregate, road base, and fill material.'
+      },
+      {
+        question: 'Will you check for underground utilities before breaking?',
+        answer: 'Yes, we always assess for underground utilities before concrete demolition. We coordinate with utility locating services when needed and take precautions to protect water, gas, electric, and irrigation lines.'
+      }
+    ]
   }
 }
 
