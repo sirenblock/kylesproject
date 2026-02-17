@@ -93,6 +93,14 @@ export function LocationBusinessSchema({
         closes: '17:00',
       },
     ],
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '127',
+      bestRating: '5',
+      worstRating: '1',
+    },
+    sameAs: Object.values(config.socialLinks).filter(Boolean),
     parentOrganization: {
       '@type': 'LocalBusiness',
       '@id': `${siteUrl}#localbusiness`,

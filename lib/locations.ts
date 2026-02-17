@@ -1,3 +1,8 @@
+export interface LocalDirectoryEntry {
+  name: string
+  type: 'Neighborhood' | 'Condo Complex' | 'HOA Community' | 'Commercial Area' | 'Resort' | 'Subdivision'
+}
+
 export interface Location {
   name: string
   slug: string
@@ -5,6 +10,9 @@ export interface Location {
   description: string
   detailedDescription: string
   additionalContent?: string
+  h1Modifier: string
+  metaModifier: string
+  localDirectory?: LocalDirectoryEntry[]
   landmarks: string[]
   zipCodes: string[]
   county: string
@@ -22,6 +30,20 @@ export const locations: Record<string, Location> = {
   'seaside': {
     name: 'Seaside',
     slug: 'seaside',
+    h1Modifier: 'Premium',
+    metaModifier: 'Top-Rated',
+    localDirectory: [
+      { name: 'Central Square', type: 'Commercial Area' },
+      { name: 'Seaside Proper Cottages', type: 'Neighborhood' },
+      { name: 'Seaside Amphitheater District', type: 'Neighborhood' },
+      { name: 'Northern Cottage Neighborhood', type: 'Neighborhood' },
+      { name: 'Lyceum Lawn Area', type: 'Neighborhood' },
+      { name: 'Ruskin Place', type: 'Commercial Area' },
+      { name: 'Forest Street Residences', type: 'Neighborhood' },
+      { name: 'Tupelo Street', type: 'Neighborhood' },
+      { name: 'Savannah Street', type: 'Neighborhood' },
+      { name: 'Odessa Street', type: 'Neighborhood' },
+    ],
     coordinates: { lat: 30.3231, lng: -86.1433 },
     description: 'Iconic planned community known for New Urbanism architecture, pastel-colored homes, and walkable town center. Featured in "The Truman Show," Seaside embodies coastal living with strict architectural guidelines and a tight-knit community atmosphere.',
     detailedDescription: `## About Seaside
@@ -82,6 +104,20 @@ Seaside's property portfolio is remarkably diverse for a community of its size, 
   'rosemary-beach': {
     name: 'Rosemary Beach',
     slug: 'rosemary-beach',
+    h1Modifier: 'Luxury',
+    metaModifier: 'Premium',
+    localDirectory: [
+      { name: 'Barrett Square', type: 'Commercial Area' },
+      { name: 'Western Green', type: 'Neighborhood' },
+      { name: 'Eastern Green', type: 'Neighborhood' },
+      { name: 'South Side Beachfront', type: 'Neighborhood' },
+      { name: 'Carriage House District', type: 'Neighborhood' },
+      { name: 'Main Street Townhomes', type: 'Neighborhood' },
+      { name: 'The Pearl District', type: 'Commercial Area' },
+      { name: 'St. Augustine Green', type: 'Neighborhood' },
+      { name: 'North Barrett Square', type: 'Neighborhood' },
+      { name: 'Rosemary Beach Fitness Area', type: 'Commercial Area' },
+    ],
     coordinates: { lat: 30.2926, lng: -86.0726 },
     description: 'Upscale New Urbanist beach town featuring European-inspired architecture, cobblestone streets, and luxury vacation rentals. Known for high-end shops, restaurants, and pristine beaches, Rosemary Beach attracts discerning property owners and guests.',
     detailedDescription: `## About Rosemary Beach
@@ -146,6 +182,20 @@ We also understand that Rosemary Beach residents care about where their items en
   'alys-beach': {
     name: 'Alys Beach',
     slug: 'alys-beach',
+    h1Modifier: 'Elite',
+    metaModifier: 'Luxury',
+    localDirectory: [
+      { name: 'Caliza Pool Area', type: 'Resort' },
+      { name: 'Nature Trail Neighborhoods', type: 'Neighborhood' },
+      { name: 'Fonville Press District', type: 'Commercial Area' },
+      { name: 'Courtyard Homes Section', type: 'Neighborhood' },
+      { name: 'George\'s Restaurant Area', type: 'Commercial Area' },
+      { name: 'Spa & Wellness Area', type: 'Neighborhood' },
+      { name: 'South Beachfront Residences', type: 'Neighborhood' },
+      { name: 'Digital Graffiti Gallery Zone', type: 'Commercial Area' },
+      { name: 'Alys Beach Amphitheater', type: 'Commercial Area' },
+      { name: 'Gulf Green', type: 'Neighborhood' },
+    ],
     coordinates: { lat: 30.3050, lng: -86.0892 },
     description: 'Stunning Mediterranean-inspired community featuring signature white architecture, courtyard homes, and world-class amenities. Alys Beach represents the pinnacle of 30A luxury living with strict design controls and exceptional attention to detail.',
     detailedDescription: `## About Alys Beach
@@ -208,6 +258,20 @@ Long-term residents managing personal property transitions trust us because we h
   'watercolor': {
     name: 'WaterColor',
     slug: 'watercolor',
+    h1Modifier: 'Trusted',
+    metaModifier: 'Professional',
+    localDirectory: [
+      { name: 'WaterColor Beach Club', type: 'Resort' },
+      { name: 'Lake Area Residences', type: 'Neighborhood' },
+      { name: 'Park District', type: 'Neighborhood' },
+      { name: 'WaterColor Crossings', type: 'Commercial Area' },
+      { name: 'Marina District', type: 'Neighborhood' },
+      { name: 'Camp WaterColor', type: 'Resort' },
+      { name: 'Cerulean Park', type: 'Neighborhood' },
+      { name: 'Dragonfly Drive Area', type: 'Neighborhood' },
+      { name: 'Compass Point', type: 'Neighborhood' },
+      { name: 'WaterColor Boat House', type: 'Commercial Area' },
+    ],
     coordinates: { lat: 30.3300, lng: -86.1550 },
     description: 'Resort-style community surrounding Western Lake, featuring pastel beach cottages, the WaterColor Inn, and extensive recreational amenities. Popular with vacation rental investors and families seeking a full-service beach experience.',
     detailedDescription: `## About WaterColor
@@ -272,6 +336,20 @@ Homeowners in WaterColor's residential neighborhoods, particularly in Camp Creek
   'grayton-beach': {
     name: 'Grayton Beach',
     slug: 'grayton-beach',
+    h1Modifier: 'Reliable',
+    metaModifier: 'Trusted',
+    localDirectory: [
+      { name: 'Grayton Beach State Park Area', type: 'Neighborhood' },
+      { name: 'Old Grayton Beach', type: 'Neighborhood' },
+      { name: 'Grayton Corners', type: 'Subdivision' },
+      { name: 'Red Bar District', type: 'Commercial Area' },
+      { name: 'Western Lake Residences', type: 'Neighborhood' },
+      { name: 'Grayton Beach Heights', type: 'Subdivision' },
+      { name: 'Pine Street Area', type: 'Neighborhood' },
+      { name: 'Defuniak Street Area', type: 'Neighborhood' },
+      { name: 'Hotz Avenue', type: 'Neighborhood' },
+      { name: 'Grayton Beach Camp', type: 'Neighborhood' },
+    ],
     coordinates: { lat: 30.3392, lng: -86.1689 },
     description: 'Charming Old Florida beach village with a laid-back atmosphere, named one of America\'s best beaches. Mix of vintage cottages and newer homes, featuring local art galleries, seafood restaurants, and a strong sense of community.',
     detailedDescription: `## About Grayton Beach
@@ -334,6 +412,20 @@ Vacation rental investors entering the Grayton Beach market choose us because we
   'santa-rosa-beach': {
     name: 'Santa Rosa Beach',
     slug: 'santa-rosa-beach',
+    h1Modifier: 'Expert',
+    metaModifier: 'Reliable',
+    localDirectory: [
+      { name: 'Gulf Place', type: 'Commercial Area' },
+      { name: 'Driftwood Estates', type: 'Subdivision' },
+      { name: 'Churchill Oaks', type: 'HOA Community' },
+      { name: 'Cypress Dunes', type: 'HOA Community' },
+      { name: 'Sanctuary at Redfish', type: 'HOA Community' },
+      { name: 'The Retreat', type: 'HOA Community' },
+      { name: 'Magnolia Cottages by the Sea', type: 'HOA Community' },
+      { name: 'Grand Boulevard', type: 'Commercial Area' },
+      { name: 'Waterside at Redfish', type: 'Neighborhood' },
+      { name: 'Cottages at Camp Creek', type: 'HOA Community' },
+    ],
     coordinates: { lat: 30.3831, lng: -86.2277 },
     description: 'The central hub of the 30A corridor, encompassing multiple beach neighborhoods and communities. Mix of residential areas, commercial centers, and beach access points. Home to many property management companies and service businesses.',
     detailedDescription: `## About Santa Rosa Beach
@@ -400,6 +492,20 @@ Year-round residents in Santa Rosa Beach's inland neighborhoods appreciate our s
   'inlet-beach': {
     name: 'Inlet Beach',
     slug: 'inlet-beach',
+    h1Modifier: 'Professional',
+    metaModifier: 'Expert',
+    localDirectory: [
+      { name: 'The Pointe', type: 'HOA Community' },
+      { name: 'Inlet Beach Cottages', type: 'Neighborhood' },
+      { name: 'Seabreeze Subdivision', type: 'Subdivision' },
+      { name: 'Park Row', type: 'Neighborhood' },
+      { name: 'NatureWalk at Watersound', type: 'HOA Community' },
+      { name: 'Watersound Origins', type: 'HOA Community' },
+      { name: 'The Hub 30A', type: 'Commercial Area' },
+      { name: 'Inlet Beach Town Center', type: 'Commercial Area' },
+      { name: 'Seaview Estates', type: 'Subdivision' },
+      { name: 'Longitude 30A', type: 'Condo Complex' },
+    ],
     coordinates: { lat: 30.2900, lng: -86.0550 },
     description: 'Eastern gateway to 30A, featuring wide beaches, growing vacation rental market, and convenient access to Panama City Beach. Mix of established homes and new construction, popular with investors and year-round residents.',
     detailedDescription: `## About Inlet Beach
@@ -464,6 +570,8 @@ Property managers expanding their portfolios into Inlet Beach from neighboring <
   'seacrest': {
     name: 'Seacrest',
     slug: 'seacrest',
+    h1Modifier: 'Dedicated',
+    metaModifier: 'Dependable',
     coordinates: { lat: 30.3100, lng: -86.1150 },
     description: 'Quiet beach community adjacent to Rosemary Beach and Alys Beach, featuring traditional beach cottages and elegant homes. Seacrest offers a more relaxed atmosphere while maintaining close proximity to upscale amenities.',
     detailedDescription: `## About Seacrest
@@ -528,6 +636,8 @@ The community's family-oriented character means that many of our Seacrest client
   'seagrove-beach': {
     name: 'Seagrove Beach',
     slug: 'seagrove-beach',
+    h1Modifier: 'Dependable',
+    metaModifier: 'Dedicated',
     coordinates: { lat: 30.3200, lng: -86.1350 },
     description: 'Established beach neighborhood with mix of classic beach cottages and modern homes. Known for family-friendly atmosphere, convenient beach access, and proximity to Seaside amenities. Popular vacation rental area.',
     detailedDescription: `## About Seagrove Beach
@@ -592,6 +702,8 @@ Long-term Seagrove Beach residents managing personal household needs value our h
   'blue-mountain-beach': {
     name: 'Blue Mountain Beach',
     slug: 'blue-mountain-beach',
+    h1Modifier: 'Certified',
+    metaModifier: 'Certified',
     coordinates: { lat: 30.3450, lng: -86.1900 },
     description: 'Charming beach village featuring some of 30A\'s highest elevations and stunning views. Mix of residential homes and vacation rentals with strong community identity. Known for local restaurants, laid-back vibe, and family atmosphere.',
     detailedDescription: `## About Blue Mountain Beach
@@ -656,6 +768,22 @@ Vacation rental property managers operating Blue Mountain Beach properties value
   'destin': {
     name: 'Destin',
     slug: 'destin',
+    h1Modifier: 'Trusted',
+    metaModifier: 'Top-Rated',
+    localDirectory: [
+      { name: 'Crystal Beach', type: 'Neighborhood' },
+      { name: 'Holiday Isle', type: 'Neighborhood' },
+      { name: 'Destin Harbor', type: 'Commercial Area' },
+      { name: 'Kelly Plantation', type: 'HOA Community' },
+      { name: 'Regatta Bay', type: 'HOA Community' },
+      { name: 'Destiny by the Sea', type: 'Condo Complex' },
+      { name: 'Palms of Destin', type: 'Condo Complex' },
+      { name: 'Indian Bayou', type: 'Subdivision' },
+      { name: 'Destin Commons Area', type: 'Commercial Area' },
+      { name: 'Henderson Park', type: 'Neighborhood' },
+      { name: 'Emerald Bay', type: 'Condo Complex' },
+      { name: 'The Market Shops', type: 'Commercial Area' },
+    ],
     coordinates: { lat: 30.3935, lng: -86.4958 },
     description: 'World-famous fishing village turned premier beach destination, just west of 30A. Known for sugar-white beaches, emerald waters, and extensive vacation rental market. Hub for shopping, dining, and water sports.',
     detailedDescription: `## About Destin
@@ -726,6 +854,22 @@ Homeowners in Destin's residential neighborhoods — Crystal Beach, Holiday Isle
   'panama-city-beach': {
     name: 'Panama City Beach',
     slug: 'panama-city-beach',
+    h1Modifier: 'Expert',
+    metaModifier: 'Professional',
+    localDirectory: [
+      { name: 'Pier Park Area', type: 'Commercial Area' },
+      { name: 'Thomas Drive Corridor', type: 'Neighborhood' },
+      { name: 'Front Beach Road', type: 'Neighborhood' },
+      { name: 'Carillon Beach', type: 'HOA Community' },
+      { name: 'Palmetto Trace', type: 'Subdivision' },
+      { name: 'Breakfast Point', type: 'HOA Community' },
+      { name: 'Grand Panama Beach Resort', type: 'Condo Complex' },
+      { name: 'Calypso Towers', type: 'Condo Complex' },
+      { name: 'Tidewater Beach Resort', type: 'Condo Complex' },
+      { name: 'Treasure Island', type: 'Condo Complex' },
+      { name: 'Laketown Wharf', type: 'Condo Complex' },
+      { name: 'Bid-A-Wee Beach', type: 'Neighborhood' },
+    ],
     coordinates: { lat: 30.1760, lng: -85.8054 },
     description: 'Popular beach destination east of 30A, featuring extensive vacation rental market, beachfront condos, and family attractions. Diverse property mix from high-rise condos to beach houses serving various market segments.',
     detailedDescription: `## About Panama City Beach
@@ -796,6 +940,20 @@ Homeowners and year-round residents in Panama City Beach's residential neighborh
   'miramar-beach': {
     name: 'Miramar Beach',
     slug: 'miramar-beach',
+    h1Modifier: 'Premier',
+    metaModifier: 'Premier',
+    localDirectory: [
+      { name: 'Silver Sands Area', type: 'Commercial Area' },
+      { name: 'Crystal Beach', type: 'Neighborhood' },
+      { name: 'Emerald Shores', type: 'Condo Complex' },
+      { name: 'Gulf Pines', type: 'Subdivision' },
+      { name: 'Destiny by the Sea', type: 'HOA Community' },
+      { name: 'Hidden Dunes', type: 'Condo Complex' },
+      { name: 'Amalfi Coast Resort', type: 'Condo Complex' },
+      { name: 'Alerio', type: 'Condo Complex' },
+      { name: 'Surfside Resort', type: 'Condo Complex' },
+      { name: 'Beach House Condos', type: 'Condo Complex' },
+    ],
     coordinates: { lat: 30.3834, lng: -86.3571 },
     description: 'Popular beach community straddling the Walton-Okaloosa county line, known for its proximity to Silver Sands Premium Outlets, upscale dining along Scenic Highway 98, and beautiful Gulf beaches that attract both vacationers and year-round residents.',
     detailedDescription: `## About Miramar Beach
@@ -831,6 +989,20 @@ Our team has developed deep expertise serving Miramar Beach properties across th
   'sandestin': {
     name: 'Sandestin',
     slug: 'sandestin',
+    h1Modifier: 'Resort-Quality',
+    metaModifier: 'Trusted',
+    localDirectory: [
+      { name: 'Baytowne Wharf Village', type: 'Commercial Area' },
+      { name: 'Luau Condominiums', type: 'Condo Complex' },
+      { name: 'Westwinds', type: 'Condo Complex' },
+      { name: 'Beachside Condos', type: 'Condo Complex' },
+      { name: 'Grand Sandestin', type: 'Condo Complex' },
+      { name: 'Tops\'l Beach & Racquet Resort', type: 'Resort' },
+      { name: 'Burnt Pine Golf Area', type: 'Neighborhood' },
+      { name: 'Linkside Villas', type: 'Condo Complex' },
+      { name: 'Dunes of Sandestin', type: 'Condo Complex' },
+      { name: 'Jolee Island', type: 'Neighborhood' },
+    ],
     coordinates: { lat: 30.3886, lng: -86.3275 },
     description: 'Premier 2,400-acre resort community featuring four championship golf courses, a full-service marina, multiple neighborhoods, and diverse property types from luxury condominiums to spacious vacation homes along the Choctawhatchee Bay and Gulf of Mexico.',
     detailedDescription: `## About Sandestin
@@ -868,6 +1040,8 @@ We have built extensive expertise serving Sandestin properties across the resort
   'dune-allen-beach': {
     name: 'Dune Allen Beach',
     slug: 'dune-allen-beach',
+    h1Modifier: 'Local',
+    metaModifier: 'Reliable',
     coordinates: { lat: 30.3580, lng: -86.2140 },
     description: 'Quiet, family-friendly beach community at the western end of Scenic Highway 30A, known for its rare coastal dune lakes, relaxed atmosphere, and beautiful Gulf beaches with fewer crowds than neighboring resort communities.',
     detailedDescription: `## About Dune Allen Beach
@@ -903,6 +1077,8 @@ Our team has served Dune Allen Beach properties with the careful, environmentall
   'point-washington': {
     name: 'Point Washington',
     slug: 'point-washington',
+    h1Modifier: 'Community',
+    metaModifier: 'Local',
     coordinates: { lat: 30.4100, lng: -86.1700 },
     description: 'Charming inland community nestled along the Choctawhatchee Bay and adjacent to Point Washington State Forest, offering a more rural, nature-oriented lifestyle just minutes from the beaches of 30A.',
     detailedDescription: `## About Point Washington
@@ -940,6 +1116,8 @@ Our team brings experienced, environmentally conscious service to Point Washingt
   'watersound': {
     name: 'WaterSound',
     slug: 'watersound',
+    h1Modifier: 'Exclusive',
+    metaModifier: 'Premium',
     coordinates: { lat: 30.2920, lng: -86.0620 },
     description: 'Luxury planned community along 30A featuring distinctive modern coastal architecture, extensive nature preserves, and multiple neighborhoods connected by trails and boardwalks, attracting discerning buyers seeking upscale living in a natural setting.',
     detailedDescription: `## About WaterSound
@@ -975,6 +1153,8 @@ We have earned the trust of WaterSound property owners and managers through year
   'seacrest-beach': {
     name: 'Seacrest Beach',
     slug: 'seacrest-beach',
+    h1Modifier: 'Coastal',
+    metaModifier: 'Expert',
     coordinates: { lat: 30.2970, lng: -86.0780 },
     description: 'Charming beach community along 30A featuring a mix of vacation rental homes, cottages, and the distinctive Seacrest Beach towers, situated between Rosemary Beach and Alys Beach with convenient access to boutique shopping and dining.',
     detailedDescription: `## About Seacrest Beach
@@ -1012,6 +1192,8 @@ Our team has built specialized expertise serving Seacrest Beach properties, with
   'freeport': {
     name: 'Freeport',
     slug: 'freeport',
+    h1Modifier: 'Affordable',
+    metaModifier: 'Affordable',
     coordinates: { lat: 30.4985, lng: -86.1320 },
     description: 'Growing inland town in northern Walton County, serving as a residential hub for families and workers commuting to the 30A beach communities and Destin, with affordable housing and convenient access to both coastal and inland amenities.',
     detailedDescription: `## About Freeport
@@ -1049,6 +1231,8 @@ Our service area naturally extends to Freeport through our comprehensive coverag
   'defuniak-springs': {
     name: 'DeFuniak Springs',
     slug: 'defuniak-springs',
+    h1Modifier: 'Hometown',
+    metaModifier: 'Hometown',
     coordinates: { lat: 30.7213, lng: -86.1156 },
     description: 'Historic county seat of Walton County, known for its near-perfectly round spring-fed lake, Victorian-era architecture, and charming downtown district, offering small-town living with convenient access to the Emerald Coast beaches.',
     detailedDescription: `## About DeFuniak Springs
@@ -1086,6 +1270,8 @@ Our service coverage extends to DeFuniak Springs as part of our comprehensive Wa
   'watersound-beach': {
     name: 'WaterSound Beach',
     slug: 'watersound-beach',
+    h1Modifier: 'Boutique',
+    metaModifier: 'Exclusive',
     coordinates: { lat: 30.2890, lng: -86.0450 },
     description: 'Exclusive beachfront community within the WaterSound development, featuring luxury Gulf-front homes, private beach access, and the refined coastal architecture that defines the eastern 30A corridor.',
     detailedDescription: `## About WaterSound Beach
@@ -1123,6 +1309,8 @@ We have earned the trust of WaterSound Beach property owners and managers throug
   'panama-city': {
     name: 'Panama City',
     slug: 'panama-city',
+    h1Modifier: 'Full-Service',
+    metaModifier: 'Full-Service',
     coordinates: { lat: 30.1588, lng: -85.6602 },
     description: 'The Bay County seat and largest city in the region, Panama City features a revitalized downtown, diverse residential neighborhoods, and a community actively rebuilding and modernizing after Hurricane Michael. A blend of historic charm, waterfront living, and growing commercial districts.',
     detailedDescription: `## About Panama City
@@ -1168,6 +1356,8 @@ We also provide <a href="/services/office-furniture" class="text-ocean-600 hover
   'lynn-haven': {
     name: 'Lynn Haven',
     slug: 'lynn-haven',
+    h1Modifier: 'Neighborhood',
+    metaModifier: 'Neighborhood',
     coordinates: { lat: 30.2455, lng: -85.6483 },
     description: 'Family-friendly suburban city north of Panama City, known for tree-lined streets, quality schools, and a strong sense of community. Lynn Haven offers a quieter residential atmosphere while maintaining convenient access to Bay County amenities and employment centers.',
     detailedDescription: `## About Lynn Haven
@@ -1211,6 +1401,8 @@ Our familiarity with Lynn Haven's residential street layouts, including cul-de-s
   'callaway': {
     name: 'Callaway',
     slug: 'callaway',
+    h1Modifier: 'Family-Owned',
+    metaModifier: 'Family-Owned',
     coordinates: { lat: 30.1524, lng: -85.5660 },
     description: 'Residential community east of Panama City offering affordable housing, quiet neighborhoods, and convenient access to Tyndall Air Force Base. Callaway provides a laid-back suburban lifestyle within the Bay County metropolitan area.',
     detailedDescription: `## About Callaway
@@ -1254,6 +1446,8 @@ We have worked extensively with rental property owners operating in the Callaway
   'springfield': {
     name: 'Springfield',
     slug: 'springfield',
+    h1Modifier: 'Prompt',
+    metaModifier: 'Prompt',
     coordinates: { lat: 30.1552, lng: -85.6108 },
     description: 'Small city within the Panama City metropolitan area, offering affordable residential neighborhoods and a close-knit community atmosphere. Springfield provides convenient access to Bay County employment and amenities while maintaining its own distinct identity.',
     detailedDescription: `## About Springfield
@@ -1297,6 +1491,8 @@ Our relationships with property investors and rental owners operating in Springf
   'parker': {
     name: 'Parker',
     slug: 'parker',
+    h1Modifier: 'Efficient',
+    metaModifier: 'Efficient',
     coordinates: { lat: 30.1310, lng: -85.6030 },
     description: 'Small waterfront city on St. Andrew Bay offering affordable residential living, scenic bayfront views, and a tight-knit community atmosphere. Parker provides a quiet, family-friendly environment with convenient access to Bay County amenities.',
     detailedDescription: `## About Parker
@@ -1344,6 +1540,8 @@ We also handle the removal of deteriorated outdoor structures, old fencing, worn
   'laguna-beach': {
     name: 'Laguna Beach',
     slug: 'laguna-beach',
+    h1Modifier: 'Beachside',
+    metaModifier: 'Beachside',
     coordinates: { lat: 30.2380, lng: -85.9270 },
     description: 'Unincorporated beach community west of Panama City Beach, offering a quieter coastal living experience with direct Gulf access. Laguna Beach attracts vacation rental investors and residents seeking a more relaxed beach atmosphere without the commercial intensity of neighboring areas.',
     detailedDescription: `## About Laguna Beach
@@ -1391,6 +1589,8 @@ We also handle the removal of old <a href="/services/hot-tub-removal" class="tex
   'mexico-beach': {
     name: 'Mexico Beach',
     slug: 'mexico-beach',
+    h1Modifier: 'Coastal',
+    metaModifier: 'Coastal',
     coordinates: { lat: 29.9478, lng: -85.4171 },
     description: 'Small beach town on the Gulf of Mexico rebuilding with remarkable resilience after Hurricane Michael. Mexico Beach offers authentic Old Florida charm, uncrowded beaches, and a tight-knit community committed to thoughtful, sustainable recovery.',
     detailedDescription: `## About Mexico Beach
@@ -1441,6 +1641,20 @@ Site preparation and lot clearing services support builders preparing parcels fo
   'fort-walton-beach': {
     name: 'Fort Walton Beach',
     slug: 'fort-walton-beach',
+    h1Modifier: 'Veteran',
+    metaModifier: 'Veteran',
+    localDirectory: [
+      { name: 'Okaloosa Island', type: 'Neighborhood' },
+      { name: 'The Landing', type: 'Commercial Area' },
+      { name: 'Brooks Street', type: 'Neighborhood' },
+      { name: 'Santa Rosa Villas', type: 'Condo Complex' },
+      { name: 'Waterscape', type: 'Condo Complex' },
+      { name: 'Azure', type: 'Condo Complex' },
+      { name: 'Wright', type: 'Neighborhood' },
+      { name: 'Cinco Bayou', type: 'Neighborhood' },
+      { name: 'Downtown Fort Walton', type: 'Commercial Area' },
+      { name: 'Ferry Park Area', type: 'Neighborhood' },
+    ],
     coordinates: { lat: 30.4057, lng: -86.6189 },
     description: 'Largest city in Okaloosa County, nestled between the Santa Rosa Sound and Choctawhatchee Bay. A proud military community with deep ties to Eglin Air Force Base, Fort Walton Beach blends waterfront charm, family neighborhoods, and a thriving commercial corridor along Highway 98.',
     detailedDescription: `## About Fort Walton Beach
@@ -1470,6 +1684,8 @@ Military family relocations drive significant demand for comprehensive <a href="
   'niceville': {
     name: 'Niceville',
     slug: 'niceville',
+    h1Modifier: 'Quality',
+    metaModifier: 'Quality',
     coordinates: { lat: 30.5168, lng: -86.4822 },
     description: 'Family-friendly city on the shores of Choctawhatchee Bay, known for excellent schools, safe neighborhoods, and strong community identity. Closely connected to Eglin Air Force Base, Niceville attracts military families and long-term residents who value quality of life.',
     detailedDescription: `## About Niceville
@@ -1499,6 +1715,8 @@ We have developed thorough familiarity with Niceville's neighborhoods, community
   'crestview': {
     name: 'Crestview',
     slug: 'crestview',
+    h1Modifier: 'Dependable',
+    metaModifier: 'Dependable',
     coordinates: { lat: 30.7521, lng: -86.5705 },
     description: 'County seat and largest city by area in Okaloosa County, experiencing rapid growth along the I-10 corridor. A gateway to the Emerald Coast with affordable housing, expanding commercial development, and strong military connections to Eglin AFB and Duke Field.',
     detailedDescription: `## About Crestview
@@ -1528,6 +1746,8 @@ We serve Crestview with comprehensive knowledge of the city's diverse neighborho
   'mary-esther': {
     name: 'Mary Esther',
     slug: 'mary-esther',
+    h1Modifier: 'Swift',
+    metaModifier: 'Swift',
     coordinates: { lat: 30.4090, lng: -86.6623 },
     description: 'Small coastal city nestled between Fort Walton Beach and Hurlburt Field, offering quiet residential neighborhoods with convenient access to both beaches and military installations. A close-knit community with a strong sense of neighborhood identity.',
     detailedDescription: `## About Mary Esther
@@ -1557,6 +1777,8 @@ We serve Mary Esther with the attentiveness and respect that a small, close-knit
   'shalimar': {
     name: 'Shalimar',
     slug: 'shalimar',
+    h1Modifier: 'Professional',
+    metaModifier: 'Professional',
     coordinates: { lat: 30.4429, lng: -86.5784 },
     description: 'Quiet residential community along the shores of Choctawhatchee Bay, known for waterfront living, established neighborhoods, and convenient access to Eglin AFB. A preferred neighborhood for military families seeking bayside tranquility.',
     detailedDescription: `## About Shalimar
@@ -1586,6 +1808,8 @@ We approach Shalimar with the heightened awareness and personalized service that
   'valparaiso': {
     name: 'Valparaiso',
     slug: 'valparaiso',
+    h1Modifier: 'Reliable',
+    metaModifier: 'Reliable',
     coordinates: { lat: 30.5099, lng: -86.5063 },
     description: 'Small city adjacent to Eglin Air Force Base along Choctawhatchee Bay, with a charming downtown, established residential neighborhoods, and a strong military community identity. A hidden gem of the Emerald Coast with genuine small-town character.',
     detailedDescription: `## About Valparaiso

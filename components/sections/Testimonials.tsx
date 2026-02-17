@@ -80,7 +80,23 @@ const testimonials = [
   },
 ]
 
-export function Testimonials() {
+interface TestimonialsProps {
+  locationName?: string
+  nearbyLocations?: string[]
+}
+
+export function Testimonials({ locationName, nearbyLocations = [] }: TestimonialsProps = {}) {
+  const sortedTestimonials = locationName
+    ? [...testimonials].sort((a, b) => {
+        const aExact = a.location.toLowerCase() === locationName.toLowerCase() ? 0 : 1
+        const bExact = b.location.toLowerCase() === locationName.toLowerCase() ? 0 : 1
+        if (aExact !== bExact) return aExact - bExact
+        const aNearby = nearbyLocations.some(n => a.location.toLowerCase().includes(n.toLowerCase())) ? 0 : 1
+        const bNearby = nearbyLocations.some(n => b.location.toLowerCase().includes(n.toLowerCase())) ? 0 : 1
+        return aNearby - bNearby
+      })
+    : testimonials
+
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isAutoPlaying, setIsAutoPlaying] = useState(true)
 
@@ -88,7 +104,7 @@ export function Testimonials() {
     if (!isAutoPlaying) return
 
     const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % testimonials.length)
+      setCurrentIndex((prev) => (prev + 1) % sortedTestimonials.length)
     }, 5000)
 
     return () => clearInterval(interval)
@@ -96,12 +112,12 @@ export function Testimonials() {
 
   const goToPrevious = () => {
     setIsAutoPlaying(false)
-    setCurrentIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length)
+    setCurrentIndex((prev) => (prev - 1 + sortedTestimonials.length) % sortedTestimonials.length)
   }
 
   const goToNext = () => {
     setIsAutoPlaying(false)
-    setCurrentIndex((prev) => (prev + 1) % testimonials.length)
+    setCurrentIndex((prev) => (prev + 1) % sortedTestimonials.length)
   }
 
   return (
@@ -146,38 +162,38 @@ export function Testimonials() {
                 >
                   {/* Stars */}
                   <div className="flex items-center justify-center gap-1.5 mb-6">
-                    {[...Array(testimonials[currentIndex].rating)].map((_, i) => (
+                    {[...Array(sortedTestimonials[currentIndex].rating)].map((_, i) => (
                       <Star key={i} className="w-5 h-5 md:w-6 md:h-6 text-gold-400 fill-gold-400" />
                     ))}
                   </div>
 
                   {/* Quote */}
                   <p className="text-lg sm:text-xl md:text-2xl text-white leading-relaxed max-w-3xl mx-auto font-medium">
-                    "{testimonials[currentIndex].quote}"
+                    "{sortedTestimonials[currentIndex].quote}"
                   </p>
 
                   {/* Author */}
                   <div className="mt-8">
                     <div className="flex items-center justify-center gap-2 mb-2">
                       <p className="text-lg md:text-xl font-bold text-white">
-                        {testimonials[currentIndex].author}
+                        {sortedTestimonials[currentIndex].author}
                       </p>
                     </div>
-                    {testimonials[currentIndex].title && (
-                      <p className="text-white/80 font-medium">{testimonials[currentIndex].title}</p>
+                    {sortedTestimonials[currentIndex].title && (
+                      <p className="text-white/80 font-medium">{sortedTestimonials[currentIndex].title}</p>
                     )}
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mt-2 text-white/80">
                       <p className="inline-flex items-center gap-1.5">
                         <MapPin className="w-4 h-4" />
-                        {testimonials[currentIndex].location}
+                        {sortedTestimonials[currentIndex].location}
                       </p>
                       <span className="hidden sm:inline text-white/50">•</span>
                       <p className="inline-flex items-center gap-1.5">
                         <Truck className="w-4 h-4" />
-                        {testimonials[currentIndex].service}
+                        {sortedTestimonials[currentIndex].service}
                       </p>
                     </div>
-                    <p className="text-sm text-white/70 mt-2">{testimonials[currentIndex].date}</p>
+                    <p className="text-sm text-white/70 mt-2">{sortedTestimonials[currentIndex].date}</p>
                   </div>
                 </div>
               
@@ -203,7 +219,7 @@ export function Testimonials() {
 
         {/* Dots - Enhanced */}
         <div className="flex items-center justify-center gap-1 mt-8">
-          {testimonials.map((_, index) => (
+          {sortedTestimonials.map((_, index) => (
             <button
               key={index}
               onClick={() => {

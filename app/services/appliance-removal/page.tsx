@@ -20,7 +20,7 @@ const service = getServiceDetail('appliance-removal')!
 
 export const metadata: Metadata = {
   title: `${service.title} | 30A Junk Removal | Same-Day Service`,
-  description: service.description,
+  description: `${service.description.slice(0, 100)}. Serving 30A, Destin & PCB. 4.9★ rated. Same-day service. Call ${FORMATTED_PHONE}.`,
   alternates: {
     canonical: getCanonicalUrl('/services/appliance-removal')
   },

@@ -44,8 +44,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `Junk Removal in ${location.name} FL | 30A Junk Removal | Same-Day Service`,
-    description: `Professional junk removal in ${location.name}, FL ${location.zipCodes[0]}. ${location.description.slice(0, 120)}. Same-day service available. Call ${FORMATTED_PHONE}.`,
+    title: `${location.metaModifier} Junk Removal in ${location.name} FL | 30A Junk Removal`,
+    description: `${location.metaModifier} junk removal in ${location.name}, FL ${location.zipCodes[0]}. 4.9★ rated (127 reviews). ${location.description.slice(0, 100)}. Same-day service. Call ${FORMATTED_PHONE}.`,
     keywords: [
       `junk removal ${location.name}`,
       `${location.name} junk removal`,
@@ -60,7 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: getCanonicalUrl(`/service-areas/${slug}`)
     },
     openGraph: {
-      title: `Junk Removal in ${location.name} FL | 30A Junk Removal`,
+      title: `${location.metaModifier} Junk Removal in ${location.name} FL | 30A Junk Removal`,
       description: `Professional junk removal serving ${location.name} and the 30A corridor. Same-day service, transparent pricing.`,
       type: 'website',
       url: `/service-areas/${slug}`,
@@ -124,7 +124,7 @@ export default async function LocationPage({ params }: Props) {
               <span className="text-sm font-medium text-emerald-300">Serving {location.name} Today</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Junk Removal in {location.name} FL
+              {location.h1Modifier} Junk Removal in {location.name} FL
             </h1>
             <p className="text-xl sm:text-2xl text-ocean-100 mb-4">
               Professional junk removal serving {location.name} and surrounding {location.county} County communities in the {location.areaCode} area. Same-day service available.
@@ -274,8 +274,56 @@ export default async function LocationPage({ params }: Props) {
         </section>
       )}
 
-      {/* Services Grid */}
+      {/* Local Directory */}
+      {location.localDirectory && location.localDirectory.length > 0 && (
+        <section className="py-16 bg-white">
+          <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-slate-800 mb-4 text-center">
+              Neighborhoods & Communities We Serve in {location.name}
+            </h2>
+            <p className="text-lg text-slate-600 text-center mb-8">
+              We provide junk removal services throughout these {location.name} neighborhoods, communities, and commercial areas.
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {location.localDirectory.map((entry) => (
+                <div key={entry.name} className="flex items-center gap-3 p-3 rounded-lg bg-sand-50 border border-sand-200">
+                  <CheckCircle className="w-4 h-4 text-seafoam-500 shrink-0" />
+                  <div>
+                    <span className="font-medium text-slate-800 text-sm">{entry.name}</span>
+                    <span className="text-xs text-slate-500 ml-2">{entry.type}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Google Map */}
       <section className="py-16 bg-sand-50">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-slate-800 mb-6 text-center">
+            Find Us in {location.name}
+          </h2>
+          <p className="text-lg text-slate-600 text-center mb-8">
+            Serving {location.name} and surrounding {location.county} County communities
+          </p>
+          <div className="rounded-xl overflow-hidden shadow-lg border border-sand-200">
+            <iframe
+              title={`Map of ${location.name}, FL`}
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              src={`https://www.google.com/maps?q=${location.coordinates.lat},${location.coordinates.lng}&z=13&output=embed`}
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Services Grid */}
+      <section className="py-16 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-slate-800 mb-4">
@@ -375,7 +423,7 @@ export default async function LocationPage({ params }: Props) {
               Trusted by homeowners and property managers throughout {location.name}
             </p>
           </div>
-          <Testimonials />
+          <Testimonials locationName={location.name} nearbyLocations={nearbyLocations.map(n => n.name)} />
         </div>
       </section>
 
