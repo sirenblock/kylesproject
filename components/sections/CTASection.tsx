@@ -5,17 +5,11 @@ import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 
 export function CTASection() {
   return (
-    <section className="py-16 md:py-24 bg-gradient-to-br from-slate-800 via-slate-900 to-ocean-900 relative overflow-hidden">
-      {/* Static background elements */}
+    <section className="py-16 md:py-24 bg-gradient-to-br from-ocean-700 via-ocean-800 to-ocean-900 relative overflow-hidden">
+      {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {/* Subtle grid pattern */}
-        <div
-          className="absolute inset-0 opacity-5"
-          style={{
-            backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
-            backgroundSize: '50px 50px',
-          }}
-        />
+        <div className="absolute -top-40 -right-40 w-[500px] h-[500px] bg-seafoam-400/10 rounded-full blur-3xl" />
+        <div className="absolute -bottom-40 -left-40 w-[500px] h-[500px] bg-ocean-400/10 rounded-full blur-3xl" />
       </div>
 
       <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
@@ -31,27 +25,27 @@ export function CTASection() {
           className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white leading-tight"
         >
           Ready to{' '}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-seafoam-400 to-ocean-400">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-seafoam-300 to-ocean-300">
             Clear the Clutter?
           </span>
         </h2>
 
         <p
-          className="mt-6 text-lg md:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed"
+          className="mt-6 text-lg md:text-xl text-ocean-100 max-w-2xl mx-auto leading-relaxed"
         >
-          Get your instant quote online or give us a call. We're here 7 days a week to help.
+          Get your instant quote online or give us a call. We&apos;re here 7 days a week to help.
         </p>
 
         {/* Feature pills */}
         <div
           className="mt-8 flex flex-wrap items-center justify-center gap-3"
         >
-          <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/90 text-sm">
-            <Clock className="w-4 h-4 text-seafoam-400" />
+          <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/10 text-white/90 text-sm">
+            <Clock className="w-4 h-4 text-seafoam-300" />
             30-min response
           </div>
-          <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/90 text-sm">
-            <Truck className="w-4 h-4 text-ocean-400" />
+          <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/10 text-white/90 text-sm">
+            <Truck className="w-4 h-4 text-ocean-300" />
             Same-day pickup
           </div>
         </div>
@@ -62,7 +56,7 @@ export function CTASection() {
         >
           <Link
             href="/#quote"
-            className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-seafoam-400 to-seafoam-500 text-slate-900 rounded-xl font-bold shadow-lg shadow-seafoam-500/25 hover:shadow-xl hover:shadow-seafoam-500/40 transition-all hover:scale-105 btn-shine"
+            className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-ocean-700 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all hover:scale-105"
           >
             Get Instant Quote
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

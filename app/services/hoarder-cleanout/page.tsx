@@ -52,10 +52,18 @@ export default function ServicePage() {
       {/* Hero */}
       <section className="relative -mt-24 pb-20 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-800 text-white overflow-hidden">
         <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
-        {/* Urgency Banner */}
-        <div className="relative pt-24">
-          <UrgencyBadge variant="banner" type="same-day" />
+
+        <div className="relative pt-24" />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-6">
+          <div className="flex items-center gap-3 mb-0">
+            <span className="relative flex h-2.5 w-2.5">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+              <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-400" />
+            </span>
+            <span className="text-sm font-medium text-emerald-300">Same-Day Service Available</span>
+          </div>
         </div>
+
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8">
           <div className="max-w-3xl">
             <span className="inline-block px-4 py-1.5 bg-gold-400/20 text-gold-300 rounded-full text-sm font-semibold mb-6 border border-gold-400/30">
