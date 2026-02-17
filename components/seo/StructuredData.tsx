@@ -96,6 +96,7 @@ export function ArticleSchema({
   description,
   author,
   publishDate,
+  modifiedDate,
   image,
   url
 }: {
@@ -103,6 +104,7 @@ export function ArticleSchema({
   description: string
   author: string
   publishDate: string
+  modifiedDate?: string
   image: string
   url: string
 }) {
@@ -118,7 +120,7 @@ export function ArticleSchema({
     description: description,
     author: authorSchema,
     datePublished: publishDate,
-    dateModified: publishDate,
+    dateModified: modifiedDate || publishDate,
     image: {
       '@type': 'ImageObject',
       url: `${siteUrl}${image}`

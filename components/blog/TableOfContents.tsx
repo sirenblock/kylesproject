@@ -54,18 +54,14 @@ export function TableOfContents({ items }: { items: TOCItem[] }) {
         )}
       </div>
 
-      {/* Desktop Sidebar */}
-      <aside className="hidden lg:block">
-        <div className="sticky top-24">
-          <div className="bg-white border-2 border-slate-200 rounded-2xl p-6 shadow-lg">
-            <div className="flex items-center gap-2 mb-4 pb-4 border-b-2 border-slate-200">
-              <List className="w-5 h-5 text-ocean-600" />
-              <h3 className="font-bold text-slate-900">Table of Contents</h3>
-            </div>
-            <TOCList items={items} activeId={activeId} />
-          </div>
+      {/* Desktop Sidebar (parent controls sticky positioning) */}
+      <div className="hidden lg:block bg-white border-2 border-slate-200 rounded-2xl p-6 shadow-lg">
+        <div className="flex items-center gap-2 mb-4 pb-4 border-b-2 border-slate-200">
+          <List className="w-5 h-5 text-ocean-600" />
+          <h3 className="font-bold text-slate-900">Table of Contents</h3>
         </div>
-      </aside>
+        <TOCList items={items} activeId={activeId} />
+      </div>
     </>
   )
 }
