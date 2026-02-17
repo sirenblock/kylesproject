@@ -109,7 +109,7 @@ export default function PricingPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-xl mb-12 max-w-5xl mx-auto">
             <Image
-              src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&h=500&fit=crop"
+              src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=1200&h=500&fit=crop"
               alt="Professional junk removal truck ready for affordable pickup service on 30A Florida"
               fill
               className="object-cover"
