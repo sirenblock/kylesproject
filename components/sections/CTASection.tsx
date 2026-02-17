@@ -5,11 +5,11 @@ import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 
 export function CTASection() {
   return (
-    <section className="py-16 md:py-24 bg-gradient-to-br from-ocean-700 via-ocean-800 to-ocean-900 relative overflow-hidden">
+    <section className="py-16 md:py-24 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-40 -right-40 w-[500px] h-[500px] bg-seafoam-400/10 rounded-full blur-3xl" />
-        <div className="absolute -bottom-40 -left-40 w-[500px] h-[500px] bg-ocean-400/10 rounded-full blur-3xl" />
+        <div className="absolute -top-40 -right-40 w-[500px] h-[500px] bg-ocean-600/10 rounded-full blur-3xl" />
+        <div className="absolute -bottom-40 -left-40 w-[500px] h-[500px] bg-ocean-500/10 rounded-full blur-3xl" />
       </div>
 
       <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">

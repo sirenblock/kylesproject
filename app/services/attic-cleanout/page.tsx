@@ -60,7 +60,7 @@ export default function ServicePage() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
               <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-400" />
             </span>
-            <span className="text-sm font-medium text-emerald-300">Same-Day Service Available</span>
+            <span className="text-sm font-medium text-emerald-300">Available Now — Open 7 Days</span>
           </div>
         </div>
 
