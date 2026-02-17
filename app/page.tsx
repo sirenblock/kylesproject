@@ -77,6 +77,7 @@ export default function HomePage() {
         </div>
       </section>
 
+      <ServiceArea />
       <QuoteCalculator />
       <ServiceCards />
 
@@ -170,7 +171,6 @@ export default function HomePage() {
       <PricingTable />
       <ServicesGrid />
       <Testimonials />
-      <ServiceArea />
       <FAQ />
       <LinksSection
         internalLinks={internalLinks}
