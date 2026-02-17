@@ -47,10 +47,12 @@ export default function ServicePage() {
       <FAQSchema questions={service.faqs} />
 
       {/* Urgency Banner */}
-      <UrgencyBadge variant="banner" type="same-day" />
+      <div className="-mt-16 pt-16">
+        <UrgencyBadge variant="banner" type="same-day" />
+      </div>
 
       {/* Hero */}
-      <section className="relative -mt-20 pt-32 pb-20 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-800 text-white overflow-hidden">
+      <section className="relative pt-16 pb-20 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-800 text-white overflow-hidden">
         <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">

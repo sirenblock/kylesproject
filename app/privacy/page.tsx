@@ -17,7 +17,7 @@ export default function PrivacyPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-white to-slate-50">
       {/* Header */}
-      <section className="-mt-20 pt-32 pb-16 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white">
+      <section className="-mt-16 pt-32 pb-16 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <Shield className="w-8 h-8 text-seafoam-300" />

@@ -99,10 +99,12 @@ export default async function LocationPage({ params }: Props) {
       <FAQSchema questions={faqs} />
 
       {/* Urgency Banner */}
-      <UrgencyBadge variant="banner" type="serving-today" location={location.name} />
+      <div className="-mt-16 pt-16">
+        <UrgencyBadge variant="banner" type="serving-today" location={location.name} />
+      </div>
 
       {/* Hero Section */}
-      <section className="-mt-20 pt-32 pb-16 sm:pb-20 lg:pb-24 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-800 text-white">
+      <section className="pt-16 pb-16 sm:pb-20 lg:pb-24 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-800 text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <div className="flex items-center gap-3 mb-4 flex-wrap">
