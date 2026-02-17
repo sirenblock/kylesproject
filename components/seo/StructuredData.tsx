@@ -123,7 +123,7 @@ export function ArticleSchema({
     dateModified: modifiedDate || publishDate,
     image: {
       '@type': 'ImageObject',
-      url: `${siteUrl}${image}`
+      url: image.startsWith('http') ? image : `${siteUrl}${image}`
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
