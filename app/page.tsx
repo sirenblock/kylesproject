@@ -6,7 +6,7 @@ import { Hero } from "@/components/sections/Hero"
 import { ServiceCards } from "@/components/sections/ServiceCards"
 import { HowItWorks } from "@/components/sections/HowItWorks"
 import { LinksSection } from "@/components/seo/LinksSection"
-import { OfferCatalogSchema, HomepageFAQSchema } from "@/components/seo/HomepageSchemas"
+import { OfferCatalogSchema, HomepageFAQSchema, ImageGallerySchema } from "@/components/seo/HomepageSchemas"
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from "@/lib/seo"
 import { TrustBadges } from "@/components/ui/TrustBadges"
 import { Truck, CheckCircle, Clock, ArrowRight } from 'lucide-react'
@@ -60,6 +60,7 @@ export default function HomePage() {
     <>
       <OfferCatalogSchema />
       <HomepageFAQSchema />
+      <ImageGallerySchema />
       <Hero />
 
       {/* Quick Quote Form Section */}

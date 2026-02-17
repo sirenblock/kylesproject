@@ -139,9 +139,7 @@ export function GlobalLocalBusinessSchema() {
       bestRating: '5',
       worstRating: '1',
     },
-    sameAs: [
-      config.socialLinks.facebook,
-    ],
+    sameAs: Object.values(config.socialLinks).filter(Boolean),
   }
 
   return (

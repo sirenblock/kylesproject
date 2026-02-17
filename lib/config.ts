@@ -24,10 +24,11 @@ const config = {
   serviceArea: '30A Corridor',
   serviceAreaDescription: 'Serving the entire 30A corridor from Inlet Beach to Dune Allen Beach, plus extended coverage to Destin and Panama City Beach',
 
-  // Social Links (for Organization schema)
+  // Social Links (for Organization schema & sameAs)
   socialLinks: {
     facebook: 'https://www.facebook.com/30ajunkremoval',
-    // Add more as they're created
+    instagram: '', // Add Instagram URL when created (e.g., 'https://www.instagram.com/30ajunkremoval')
+    tiktok: '', // Add TikTok URL when created (e.g., 'https://www.tiktok.com/@30ajunkremoval')
   },
 
   // Notification Emails

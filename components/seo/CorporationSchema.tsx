@@ -22,9 +22,7 @@ export function CorporationSchema() {
       postalCode: '32459',
       addressCountry: 'US',
     },
-    sameAs: [
-      config.socialLinks.facebook,
-    ],
+    sameAs: Object.values(config.socialLinks).filter(Boolean),
     founder: {
       '@type': 'Person',
       name: config.ownerName,

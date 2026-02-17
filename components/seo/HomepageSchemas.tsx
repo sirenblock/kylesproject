@@ -3,18 +3,18 @@ import config from '@/lib/config'
 const siteUrl = config.siteUrl
 
 const serviceOffers = [
-  { name: 'One-Time Junk Removal', url: '/services/one-time-hauls', description: 'Quick, efficient junk removal for any size job with same-day service available.' },
-  { name: 'Furniture Removal', url: '/services/furniture-removal', description: 'Professional furniture removal and hauling from single items to entire homes.' },
-  { name: 'Appliance Removal', url: '/services/appliance-removal', description: 'Safe removal and eco-friendly disposal of all household appliances.' },
-  { name: 'Construction Debris Removal', url: '/services/construction-debris', description: 'Professional construction and renovation debris cleanup and hauling.' },
-  { name: 'Estate Cleanouts', url: '/services/estate-cleanouts', description: 'Compassionate estate cleanout services with donation coordination.' },
-  { name: 'Garage Cleanouts', url: '/services/garage-cleanouts', description: 'Complete garage cleanout and organization services.' },
-  { name: 'Hot Tub Removal', url: '/services/hot-tub-removal', description: 'Full hot tub and spa removal including disconnection coordination.' },
-  { name: 'Yard Debris Removal', url: '/services/yard-debris', description: 'Storm cleanup, landscaping waste, and yard debris hauling.' },
-  { name: 'Vacation Rental Cleanouts', url: '/services/vacation-rentals', description: 'Fast turnover junk removal for vacation rental properties.' },
-  { name: 'Property Management Services', url: '/services/property-management', description: 'Dedicated junk removal support for property managers.' },
-  { name: 'Donation Pickup', url: '/services/donation-pickup', description: 'Pickup and donation coordination with local charities.' },
-  { name: 'Office Furniture Removal', url: '/services/office-furniture', description: 'Commercial office furniture and equipment removal.' },
+  { name: 'One-Time Junk Removal', url: '/services/one-time-hauls', description: 'Quick, efficient junk removal for any size job with same-day service available.', price: '150', maxPrice: '500' },
+  { name: 'Furniture Removal', url: '/services/furniture-removal', description: 'Professional furniture removal and hauling from single items to entire homes.', price: '150', maxPrice: '500' },
+  { name: 'Appliance Removal', url: '/services/appliance-removal', description: 'Safe removal and eco-friendly disposal of all household appliances.', price: '150', maxPrice: '400' },
+  { name: 'Construction Debris Removal', url: '/services/construction-debris', description: 'Professional construction and renovation debris cleanup and hauling.', price: '600', maxPrice: '1200' },
+  { name: 'Estate Cleanouts', url: '/services/estate-cleanouts', description: 'Compassionate estate cleanout services with donation coordination.', price: '400', maxPrice: '1500' },
+  { name: 'Garage Cleanouts', url: '/services/garage-cleanouts', description: 'Complete garage cleanout and organization services.', price: '250', maxPrice: '800' },
+  { name: 'Hot Tub Removal', url: '/services/hot-tub-removal', description: 'Full hot tub and spa removal including disconnection coordination.', price: '350', maxPrice: '700' },
+  { name: 'Yard Debris Removal', url: '/services/yard-debris', description: 'Storm cleanup, landscaping waste, and yard debris hauling.', price: '150', maxPrice: '500' },
+  { name: 'Vacation Rental Cleanouts', url: '/services/vacation-rentals', description: 'Fast turnover junk removal for vacation rental properties.', price: '200', maxPrice: '600' },
+  { name: 'Property Management Services', url: '/services/property-management', description: 'Dedicated junk removal support for property managers.', price: '150', maxPrice: '500' },
+  { name: 'Donation Pickup', url: '/services/donation-pickup', description: 'Pickup and donation coordination with local charities.', price: '150', maxPrice: '400' },
+  { name: 'Office Furniture Removal', url: '/services/office-furniture', description: 'Commercial office furniture and equipment removal.', price: '200', maxPrice: '600' },
 ]
 
 export function OfferCatalogSchema() {
@@ -31,11 +31,21 @@ export function OfferCatalogSchema() {
     },
     itemListElement: serviceOffers.map((service) => ({
       '@type': 'Offer',
+      priceSpecification: {
+        '@type': 'PriceSpecification',
+        priceCurrency: 'USD',
+        minPrice: service.price,
+        maxPrice: service.maxPrice,
+      },
       itemOffered: {
         '@type': 'Service',
         name: service.name,
         description: service.description,
         url: `${siteUrl}${service.url}`,
+        provider: {
+          '@type': 'LocalBusiness',
+          '@id': `${siteUrl}#localbusiness`,
+        },
       },
     })),
   }
@@ -87,6 +97,43 @@ export function HomepageFAQSchema() {
         text: faq.answer,
       },
     })),
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  )
+}
+
+const galleryImages = [
+  { url: '/images/gallery/before-removal-1.webp', name: '30A Junk Removal truck loaded with furniture', description: 'Our truck fully loaded after a furniture removal job on 30A' },
+  { url: '/images/gallery/furniture-removal-1.webp', name: 'Furniture removal in progress on 30A', description: 'Professional furniture removal from a 30A vacation home' },
+  { url: '/images/gallery/furniture-removal-2.webp', name: 'Couch and mattress removal on 30A', description: 'Hauling away old furniture from a 30A residence' },
+  { url: '/images/gallery/furniture-removal-3.webp', name: 'Estate cleanout furniture haul on 30A', description: 'Large furniture items removed during an estate cleanout' },
+  { url: '/images/gallery/furniture-removal-4.webp', name: 'Junk removal completed on 30A', description: 'Clean space after professional junk removal service' },
+]
+
+export function ImageGallerySchema() {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'ImageGallery',
+    name: '30A Junk Removal - Our Work',
+    description: 'Photos from real junk removal jobs across the 30A corridor in Florida.',
+    url: siteUrl,
+    image: galleryImages.map((img) => ({
+      '@type': 'ImageObject',
+      url: `${siteUrl}${img.url}`,
+      name: img.name,
+      description: img.description,
+      contentUrl: `${siteUrl}${img.url}`,
+    })),
+    creator: {
+      '@type': 'LocalBusiness',
+      '@id': `${siteUrl}#localbusiness`,
+      name: '30A Junk Removal',
+    },
   }
 
   return (
