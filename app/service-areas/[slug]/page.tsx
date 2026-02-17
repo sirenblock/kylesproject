@@ -5,6 +5,7 @@ import { Phone, MapPin, CheckCircle, Clock, Shield, Camera, ArrowRight } from 'l
 import { getLocation, getLocationFAQs, getAllLocationSlugs, getNearbyLocations } from '@/lib/locations'
 import { FORMATTED_PHONE, PHONE_NUMBER, getSMSLink } from '@/lib/utils'
 import { BreadcrumbSchema, FAQSchema } from '@/components/seo/StructuredData'
+import { LocationBusinessSchema } from '@/components/seo/LocationBusinessSchema'
 import { ServicesGrid } from '@/components/sections/ServicesGrid'
 import { HowItWorks } from '@/components/sections/HowItWorks'
 import { Testimonials } from '@/components/sections/Testimonials'
@@ -19,6 +20,7 @@ import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo
 import { marked } from 'marked'
 import { QuickQuoteForm } from '@/components/ui/QuickQuoteForm'
 import { UrgencyBadge, BusinessHoursBadge } from '@/components/ui/UrgencyBadge'
+import { AllServiceAreasGrid } from '@/components/sections/AllServiceAreasGrid'
 
 marked.setOptions({ breaks: true, gfm: true })
 
@@ -97,6 +99,13 @@ export default async function LocationPage({ params }: Props) {
         ]}
       />
       <FAQSchema questions={faqs} />
+      <LocationBusinessSchema
+        locationName={location.name}
+        locationSlug={slug}
+        description={`Professional junk removal in ${location.name}, Florida. Same-day service, transparent pricing, serving the 30A corridor.`}
+        latitude={location.coordinates.lat}
+        longitude={location.coordinates.lng}
+      />
 
       {/* Hero Section */}
       <section className="-mt-24 pb-16 sm:pb-20 lg:pb-24 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-800 text-white">
@@ -225,6 +234,27 @@ export default async function LocationPage({ params }: Props) {
                 prose-li:text-lg prose-li:text-slate-700 prose-li:leading-relaxed
                 prose-li:marker:text-ocean-600"
               dangerouslySetInnerHTML={{ __html: marked.parse(location.detailedDescription) as string }}
+            />
+          </div>
+        </section>
+      )}
+
+      {/* Additional Content */}
+      {location.additionalContent && (
+        <section className="py-16 bg-white">
+          <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+            <div
+              className="prose prose-lg prose-slate max-w-none
+                prose-headings:font-bold prose-headings:text-slate-900 prose-headings:tracking-tight
+                prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:border-b-2 prose-h2:border-ocean-200 prose-h2:pb-4 prose-h2:first:mt-0
+                prose-h3:text-2xl prose-h3:mt-10 prose-h3:mb-4 prose-h3:text-slate-800
+                prose-h4:text-xl prose-h4:mt-8 prose-h4:mb-3 prose-h4:text-slate-700
+                prose-p:text-lg prose-p:text-slate-700 prose-p:leading-relaxed prose-p:mb-6
+                prose-strong:text-slate-900 prose-strong:font-bold
+                prose-ul:my-6 prose-ul:space-y-2 prose-ul:list-disc prose-ul:pl-6
+                prose-li:text-lg prose-li:text-slate-700 prose-li:leading-relaxed
+                prose-li:marker:text-ocean-600"
+              dangerouslySetInnerHTML={{ __html: marked.parse(location.additionalContent) as string }}
             />
           </div>
         </section>
@@ -405,6 +435,9 @@ export default async function LocationPage({ params }: Props) {
           </div>
         </section>
       )}
+
+      {/* All Service Areas Cross-Linking Grid */}
+      <AllServiceAreasGrid currentSlug={slug} />
 
       {/* Popular Services and Resources */}
       <RelatedContentGrid

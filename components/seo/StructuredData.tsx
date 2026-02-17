@@ -1,8 +1,7 @@
 import { PHONE_NUMBER } from '@/lib/utils'
+import config from '@/lib/config'
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://30ajunkremoval.com'
-
-// LocalBusinessSchema removed due to validation issues
+const siteUrl = config.siteUrl
 
 export function ServiceSchema({
   name,
@@ -19,10 +18,19 @@ export function ServiceSchema({
     name,
     description,
     url: `${siteUrl}${url}`,
-    areaServed: {
-      '@type': 'State',
-      name: 'Florida',
+    provider: {
+      '@type': 'LocalBusiness',
+      '@id': `${siteUrl}#localbusiness`,
+      name: '30A Junk Removal',
     },
+    areaServed: config.locations.map((loc) => ({
+      '@type': 'City',
+      name: loc,
+      containedInPlace: {
+        '@type': 'State',
+        name: 'Florida',
+      },
+    })),
   }
 
   return (
@@ -169,6 +177,6 @@ export function HowToSchema({
 }
 
 export function ReviewSchema() {
-  // ReviewSchema removed - no longer rendering Organization schema
+  // AggregateRating is now embedded in GlobalLocalBusinessSchema (layout.tsx)
   return null
 }

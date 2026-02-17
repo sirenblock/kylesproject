@@ -199,6 +199,28 @@ export default async function ServiceLocationPage({ params }: Props) {
                 {paragraph}
               </p>
             ))}
+            <p className="text-slate-700 leading-relaxed text-lg">
+              Learn more about all our{' '}
+              <Link href={`/services/${serviceSlug}`} className="text-ocean-600 hover:underline font-medium">{service.title.toLowerCase()} services</Link>
+              {' '}or explore our full range of{' '}
+              <Link href={`/service-areas/${locationSlug}`} className="text-ocean-600 hover:underline font-medium">junk removal services in {location.name}</Link>.
+              We also serve nearby communities including{' '}
+              {location.nearbyLocations.slice(0, 2).map((nearbySlug, idx) => {
+                const nearby = getLocation(nearbySlug)
+                if (!nearby) return null
+                return (
+                  <span key={nearbySlug}>
+                    {idx > 0 && ' and '}
+                    <Link href={`/service-areas/${nearbySlug}`} className="text-ocean-600 hover:underline font-medium">{nearby.name}</Link>
+                  </span>
+                )
+              })}.
+              {' '}View our{' '}
+              <Link href="/pricing" className="text-ocean-600 hover:underline font-medium">transparent pricing</Link>
+              {' '}or{' '}
+              <Link href="/contact" className="text-ocean-600 hover:underline font-medium">contact us</Link>
+              {' '}for a free quote.
+            </p>
           </div>
 
           {/* Quick Stats or Highlight */}
@@ -507,7 +529,6 @@ export default async function ServiceLocationPage({ params }: Props) {
               <div className="space-y-3">
                 {getAllServiceSlugs()
                   .filter(s => s !== serviceSlug)
-                  .slice(0, 5)
                   .map((slug) => {
                     const relatedService = getServiceDetail(slug)
                     if (!relatedService) return null
@@ -537,24 +558,24 @@ export default async function ServiceLocationPage({ params }: Props) {
             {/* This Service in Other Locations */}
             <div>
               <h2 className="text-2xl font-bold text-slate-800 mb-6">
-                {service.title} in Nearby Areas
+                {service.title} in Other Areas
               </h2>
               <div className="space-y-3">
-                {location.nearbyLocations
-                  .slice(0, 5)
-                  .map((nearbySlug) => {
-                    const nearbyLocation = getLocation(nearbySlug)
-                    if (!nearbyLocation) return null
+                {getAllLocationSlugs()
+                  .filter(s => s !== locationSlug)
+                  .map((otherSlug) => {
+                    const otherLocation = getLocation(otherSlug)
+                    if (!otherLocation) return null
                     return (
                       <Link
-                        key={nearbySlug}
-                        href={`/service-areas/${nearbySlug}/${serviceSlug}`}
+                        key={otherSlug}
+                        href={`/service-areas/${otherSlug}/${serviceSlug}`}
                         className="block bg-white rounded-lg p-4 border border-sand-200 hover:border-ocean-500 hover:shadow-md transition-all"
                       >
                         <div className="flex items-center justify-between">
                           <div className="flex items-center gap-2">
                             <MapPin className="w-4 h-4 text-ocean-500" />
-                            <span className="font-semibold text-slate-800">{nearbyLocation.name}</span>
+                            <span className="font-semibold text-slate-800">{otherLocation.name}</span>
                           </div>
                           <ArrowRight className="w-5 h-5 text-ocean-500" />
                         </div>

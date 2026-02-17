@@ -7,6 +7,7 @@ import { FAQSchema, BreadcrumbSchema } from '@/components/seo/StructuredData'
 import { CTASection } from '@/components/sections/CTASection'
 import { RelatedContentGrid } from '@/components/sections/RelatedContent'
 import { HelpfulResources } from '@/components/sections/HelpfulResources'
+import { AllServicesGrid } from '@/components/sections/AllServicesGrid'
 import { getRelatedServices, getRelatedLocationsForService, getRelatedBlogPostsForService } from '@/lib/internal-links'
 import { getExternalLinksForService } from '@/lib/external-links'
 import { LinksSection } from '@/components/seo/LinksSection'
@@ -219,6 +220,9 @@ export default function ServicePage() {
           </div>
         </div>
       </section>
+
+      {/* All Services Cross-Linking Grid */}
+      <AllServicesGrid currentSlug="donation-pickup" />
 
       {/* Related Content */}
       <RelatedContentGrid

@@ -4,13 +4,14 @@ import "./globals.css"
 import { Header } from "@/components/layout/Header"
 import { Footer } from "@/components/layout/Footer"
 import { SimpleContactBar } from "@/components/ui/SimpleContactBar"
-import { ReviewSchema } from "@/components/seo/StructuredData"
+import { GlobalLocalBusinessSchema } from "@/components/seo/LocationBusinessSchema"
+import { CorporationSchema } from "@/components/seo/CorporationSchema"
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics"
 import { FacebookPixel } from "@/components/analytics/FacebookPixel"
 import { GCLIDCapture } from "@/components/analytics/GCLIDCapture"
 import { ClientModals } from "@/components/ui/ClientModals"
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://30ajunkremoval.com'
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.30ajunkremoval.com'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -78,7 +79,8 @@ export default function RootLayout({
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://connect.facebook.net" />
         <link rel="preconnect" href="https://maps.googleapis.com" />
-        <ReviewSchema />
+        <GlobalLocalBusinessSchema />
+        <CorporationSchema />
       </head>
       <body className="antialiased">
         <script
