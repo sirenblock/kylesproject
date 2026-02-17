@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import { blogPosts, getBlogPost, getAllBlogSlugs } from '@/lib/blog'
 import { Calendar, Clock, ArrowLeft, Phone, User, RefreshCw } from 'lucide-react'
@@ -10,6 +11,7 @@ import { marked } from 'marked'
 import { LinksSection } from '@/components/seo/LinksSection'
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo'
 import { TableOfContents } from '@/components/blog/TableOfContents'
+import config from '@/lib/config'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -90,7 +92,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <main className="min-h-screen bg-white">
-      {/* Relester Method: Person schema for E-E-A-T */}
+      {/* Person schema for E-E-A-T */}
       <PersonSchema />
 
       <ArticleSchema
@@ -196,6 +198,21 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
       </header>
 
+      {/* Featured Image */}
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 -mb-6">
+        <div className="relative aspect-[21/9] md:aspect-[3/1] rounded-2xl overflow-hidden shadow-xl border border-slate-200 -mt-6">
+          <Image
+            src={post.image}
+            alt={post.imageAlt || post.title}
+            fill
+            className="object-cover"
+            sizes="(max-width: 1280px) 100vw, 1280px"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+        </div>
+      </div>
+
       {/* 2-Column Layout: Content + Sidebar */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
         {/* Mobile TOC */}
@@ -285,6 +302,37 @@ export default async function BlogPostPage({ params }: Props) {
                 </div>
               </div>
             )}
+
+            {/* Author Bio */}
+            <div className="mt-16 pt-12 border-t-2 border-slate-200">
+              <div className="flex items-start gap-6 bg-gradient-to-br from-slate-50 to-white rounded-2xl p-8 border-2 border-slate-200">
+                <div className="shrink-0 w-16 h-16 rounded-full bg-ocean-600 flex items-center justify-center">
+                  <User className="w-8 h-8 text-white" />
+                </div>
+                <div>
+                  <p className="text-sm text-ocean-600 font-semibold mb-1">Written by</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">{post.author}</h3>
+                  <p className="text-slate-600 leading-relaxed mb-3">
+                    {config.ownerTitle} at {config.businessName}. Serving the 30A corridor with professional junk removal, estate cleanouts, and property management services. Committed to eco-friendly disposal and supporting local charities.
+                  </p>
+                  <div className="flex flex-wrap gap-3 text-sm">
+                    <a
+                      href={`tel:${PHONE_NUMBER}`}
+                      className="inline-flex items-center gap-1.5 text-ocean-600 hover:text-ocean-700 font-medium"
+                    >
+                      <Phone className="w-3.5 h-3.5" />
+                      {FORMATTED_PHONE}
+                    </a>
+                    <Link href="/contact" className="text-ocean-600 hover:text-ocean-700 font-medium">
+                      Contact
+                    </Link>
+                    <Link href="/about" className="text-ocean-600 hover:text-ocean-700 font-medium">
+                      About Us
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <LinksSection
               internalLinks={internalLinks}
