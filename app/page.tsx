@@ -174,7 +174,7 @@ export default function HomePage() {
       <FAQ />
       <LinksSection
         internalLinks={internalLinks}
-        externalLinks={externalLinks}
+        externalLinks={[]}
         title="Explore More About 30A Junk Removal"
       />
       <CTASection />
