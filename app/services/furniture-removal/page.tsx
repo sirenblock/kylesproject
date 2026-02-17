@@ -48,15 +48,14 @@ export default function ServicePage() {
       />
       <FAQSchema questions={service.faqs} />
 
-      {/* Urgency Banner */}
-      <div className="-mt-16 pt-16">
-        <UrgencyBadge variant="banner" type="same-day" />
-      </div>
-
       {/* Hero */}
-      <section className="relative pt-16 pb-20 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-800 text-white overflow-hidden">
+      <section className="relative -mt-16 pb-20 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-800 text-white overflow-hidden">
         <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        {/* Urgency Banner */}
+        <div className="relative pt-16">
+          <UrgencyBadge variant="banner" type="same-day" />
+        </div>
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8">
           <div className="max-w-3xl">
             <span className="inline-block px-4 py-1.5 bg-gold-400/20 text-gold-300 rounded-full text-sm font-semibold mb-6 border border-gold-400/30">
               {service.shortTitle}
