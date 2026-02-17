@@ -162,17 +162,7 @@ export function Hero() {
           </div>
         </div>
       </div>
-      {/* Scroll indicator - simple fade */}
-      <div
-        className="absolute bottom-24 md:bottom-12 left-1/2 -translate-x-1/2 z-10"
-      >
-        <div className="flex flex-col items-center gap-2">
-          <span className="text-white/70 text-xs uppercase tracking-widest">Scroll</span>
-          <div className="w-6 h-10 rounded-full border-2 border-white/20 flex items-start justify-center p-2">
-            <div className="w-1.5 h-3 rounded-full bg-gradient-to-b from-white/60 to-white/20" />
-          </div>
-        </div>
-      </div>
+
     </section>
   )
 }
