@@ -50,15 +50,23 @@ export default function AboutPage() {
   const externalLinks = getExternalLinks(5)
 
   return (
-    <div>
+    <main className="min-h-screen">
       {/* Hero */}
-      <section className="-mt-24 pt-32 pb-20 bg-gradient-to-br from-ocean-50 to-seafoam-50">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section className="-mt-24 pt-32 pb-20 md:pt-36 md:pb-28 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white overflow-hidden relative">
+        {/* Decorative blobs */}
+        <div className="absolute top-0 right-0 w-96 h-96 bg-ocean-400/10 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2" />
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-seafoam-400/10 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2" />
+
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl sm:text-5xl font-bold text-slate-800">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm text-white/90 text-sm font-medium border border-white/10 rounded-full mb-6">
+              <Heart className="w-4 h-4" />
+              Locally Owned &amp; Operated
+            </div>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">
               About 30A Junk Removal
             </h1>
-            <p className="mt-6 text-xl text-slate-600">
+            <p className="mt-6 text-xl text-ocean-100">
               Premium junk removal services for the beautiful 30A corridor. We combine coastal hospitality with professional efficiency.
             </p>
           </div>
@@ -223,32 +231,27 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Community */}
-      <section className="py-20 bg-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-seafoam-100 text-seafoam-600 mb-6">
-              <Heart className="w-8 h-8" />
-            </div>
-            <h2 className="text-3xl font-bold text-slate-800 mb-6">Part of the 30A Community</h2>
-            <p className="text-lg text-slate-600 mb-8">
-              We're not just a service provider - we're your neighbors. We live and work along <a href="https://www.visitflorida.com/en-us/places-to-go/northwest/south-walton.html" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">30A's beautiful South Walton beaches</a>, and we're committed to keeping our communities clean. We partner with local organizations like <a href="https://www.goodwill.org/" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">Goodwill</a> to donate usable items and follow <a href="https://www.epa.gov/recycle" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">EPA recycling guidelines</a> to minimize our environmental impact. When you work with us, you're supporting a local business that cares about this area as much as you do.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href={`tel:${PHONE_NUMBER}`}
-                className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-ocean-600 text-white rounded-lg font-semibold hover:bg-ocean-700 transition-colors"
-              >
-                <Phone className="w-5 h-5" />
-                Call {FORMATTED_PHONE}
-              </a>
-              <Link
-                href="/#quote"
-                className="inline-flex items-center justify-center px-6 py-3 border-2 border-ocean-600 text-ocean-600 rounded-lg font-semibold hover:bg-ocean-50 transition-colors"
-              >
-                Get a Quote
-              </Link>
-            </div>
+      {/* Community CTA */}
+      <section className="py-20 bg-gradient-to-r from-ocean-600 to-ocean-700 text-white">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Part of the 30A Community</h2>
+          <p className="text-xl text-ocean-100 mb-8">
+            We're not just a service provider - we're your neighbors. We live and work along <a href="https://www.visitflorida.com/en-us/places-to-go/northwest/south-walton.html" target="_blank" rel="nofollow external noopener noreferrer" className="text-white hover:text-seafoam-200 underline">30A's beautiful South Walton beaches</a>, and we're committed to keeping our communities clean. We partner with local organizations like <a href="https://www.goodwill.org/" target="_blank" rel="nofollow external noopener noreferrer" className="text-white hover:text-seafoam-200 underline">Goodwill</a> to donate usable items and follow <a href="https://www.epa.gov/recycle" target="_blank" rel="nofollow external noopener noreferrer" className="text-white hover:text-seafoam-200 underline">EPA recycling guidelines</a> to minimize our environmental impact.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href={`tel:${PHONE_NUMBER}`}
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-ocean-600 rounded-xl font-bold hover:bg-sand-50 transition-colors shadow-lg"
+            >
+              <Phone className="w-5 h-5" />
+              Call {FORMATTED_PHONE}
+            </a>
+            <Link
+              href="/#quote"
+              className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white rounded-xl font-bold hover:bg-white/10 transition-colors"
+            >
+              Get a Quote
+            </Link>
           </div>
         </div>
       </section>
@@ -267,6 +270,6 @@ export default function AboutPage() {
           <TrustBadges />
         </div>
       </section>
-    </div>
+    </main>
   )
 }

@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { Gallery } from '@/components/ui/Gallery'
-import { CheckCircle, Phone, ArrowRight } from 'lucide-react'
+import { CheckCircle, Phone, ArrowRight, Camera } from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 import Link from 'next/link'
 
@@ -51,9 +51,17 @@ export default function OurWorkPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="-mt-24 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white pt-32 pb-20 md:pt-36 md:pb-28">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section className="-mt-24 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white pt-32 pb-20 md:pt-36 md:pb-28 overflow-hidden relative">
+        {/* Decorative blobs */}
+        <div className="absolute top-0 right-0 w-96 h-96 bg-ocean-400/10 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2" />
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-seafoam-400/10 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2" />
+
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm text-white/90 text-sm font-medium border border-white/10 rounded-full mb-6">
+              <Camera className="w-4 h-4" />
+              Real Results from Real Jobs
+            </div>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
               Our Work Across 30A
             </h1>
@@ -179,14 +187,14 @@ export default function OurWorkPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={`tel:${PHONE_NUMBER}`}
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-ocean-600 rounded-lg font-bold hover:bg-sand-50 transition-colors shadow-lg"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-ocean-600 rounded-xl font-bold hover:bg-sand-50 transition-colors shadow-lg"
             >
               <Phone className="w-5 h-5" />
               Call {FORMATTED_PHONE}
             </a>
             <Link
               href="/#quote"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white text-white rounded-lg font-bold hover:bg-white/10 transition-colors"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white text-white rounded-xl font-bold hover:bg-white/10 transition-colors"
             >
               Get Instant Quote
               <ArrowRight className="w-5 h-5" />

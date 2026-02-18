@@ -287,15 +287,38 @@ export default function ServicesPage() {
   return (
     <main className="min-h-screen">
       {/* Hero */}
-      <section className="-mt-24 pt-32 pb-16 bg-gradient-to-br from-ocean-50 to-seafoam-50">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section className="-mt-24 pt-32 pb-20 md:pt-36 md:pb-28 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white overflow-hidden relative">
+        {/* Decorative blobs */}
+        <div className="absolute top-0 right-0 w-96 h-96 bg-ocean-400/10 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2" />
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-seafoam-400/10 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2" />
+
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl sm:text-5xl font-bold text-slate-800">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm text-white/90 text-sm font-medium border border-white/10 rounded-full mb-6">
+              <Truck className="w-4 h-4" />
+              Full-Service Junk Removal
+            </div>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">
               Our Services
             </h1>
-            <p className="mt-6 text-xl text-slate-600">
-              Whatever you need removed, we've got you covered. Professional, reliable junk removal for all of <Link href="/service-areas" className="text-ocean-600 hover:underline font-medium">30A communities</Link> including <Link href="/service-areas/alys-beach" className="text-ocean-600 hover:underline font-medium">Alys Beach</Link>, <Link href="/service-areas/santa-rosa-beach" className="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</Link>, and beyond.
+            <p className="mt-6 text-xl text-ocean-100">
+              Whatever you need removed, we've got you covered. Professional, reliable junk removal for all of <Link href="/service-areas" className="text-white hover:text-seafoam-200 underline font-medium">30A communities</Link> including <Link href="/service-areas/alys-beach" className="text-white hover:text-seafoam-200 underline font-medium">Alys Beach</Link>, <Link href="/service-areas/santa-rosa-beach" className="text-white hover:text-seafoam-200 underline font-medium">Santa Rosa Beach</Link>, and beyond.
             </p>
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href={`tel:${PHONE_NUMBER}`}
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-ocean-600 rounded-xl font-bold hover:bg-sand-50 transition-colors shadow-lg"
+              >
+                <Phone className="w-5 h-5" />
+                Call {FORMATTED_PHONE}
+              </a>
+              <a
+                href={`sms:${PHONE_NUMBER}`}
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white text-white rounded-xl font-bold hover:bg-white/10 transition-colors"
+              >
+                Text for Quote
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -312,7 +335,8 @@ export default function ServicesPage() {
       </section>
 
       {/* Hero Image */}
-      <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-xl my-12 max-w-6xl mx-auto">
+      <section className="py-12 bg-white">
+      <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-xl max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <Image
           src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&h=500&fit=crop"
           alt="Luxury home on 30A Florida ready for professional junk removal and cleanout services"
@@ -321,6 +345,7 @@ export default function ServicesPage() {
           sizes="(max-width: 1280px) 100vw, 1200px"
         />
       </div>
+      </section>
 
       {/* Services Grid */}
       <section className="py-16 bg-white">
@@ -365,33 +390,35 @@ export default function ServicesPage() {
       </section>
 
       {/* Beach Community Image */}
-      <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-xl my-12 max-w-6xl mx-auto">
-        <Image
-          src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1200&h=500&fit=crop"
-          alt="Beautiful 30A Florida beach community served by professional junk removal"
-          fill
-          className="object-cover"
-          sizes="(max-width: 1280px) 100vw, 1200px"
-        />
-      </div>
+      <section className="py-12 bg-white">
+        <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-xl max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Image
+            src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1200&h=500&fit=crop"
+            alt="Beautiful 30A Florida beach community served by professional junk removal"
+            fill
+            className="object-cover"
+            sizes="(max-width: 1280px) 100vw, 1200px"
+          />
+        </div>
+      </section>
 
       {/* CTA */}
       <section className="py-16 bg-gradient-to-r from-ocean-600 to-ocean-700 text-white">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
-          <p className="text-xl text-slate-300 mb-8">
-            Get your instant quote online or give us a call. Same-day service available throughout <Link href="/service-areas/seaside" className="text-ocean-400 hover:text-ocean-300 underline font-medium">Seaside</Link>, <Link href="/service-areas/watercolor" className="text-ocean-400 hover:text-ocean-300 underline font-medium">WaterColor</Link>, and all 30A communities.
+          <p className="text-xl text-ocean-100 mb-8">
+            Get your instant quote online or give us a call. Same-day service available throughout <Link href="/service-areas/seaside" className="text-white hover:text-seafoam-200 underline font-medium">Seaside</Link>, <Link href="/service-areas/watercolor" className="text-white hover:text-seafoam-200 underline font-medium">WaterColor</Link>, and all 30A communities.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/#quote"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-seafoam-400 to-seafoam-500 text-slate-900 rounded-xl font-semibold hover:from-seafoam-500 hover:to-seafoam-600 transition-colors"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-ocean-600 rounded-xl font-bold hover:bg-sand-50 transition-colors shadow-lg"
             >
               Get Instant Quote
             </Link>
             <a
               href={`tel:${PHONE_NUMBER}`}
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white rounded-xl font-semibold hover:bg-white/10 transition-colors"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white text-white rounded-xl font-bold hover:bg-white/10 transition-colors"
             >
               <Phone className="w-5 h-5" />
               {FORMATTED_PHONE}

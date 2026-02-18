@@ -73,17 +73,41 @@ export default function ContactPage() {
   }
 
   return (
-    <div>
+    <main className="min-h-screen">
       {/* Hero */}
-      <section className="-mt-24 pt-32 pb-16 bg-gradient-to-br from-ocean-50 to-seafoam-50">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section className="-mt-24 pt-32 pb-20 md:pt-36 md:pb-28 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white overflow-hidden relative">
+        {/* Decorative blobs */}
+        <div className="absolute top-0 right-0 w-96 h-96 bg-ocean-400/10 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2" />
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-seafoam-400/10 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2" />
+
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl sm:text-5xl font-bold text-slate-800">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm text-white/90 text-sm font-medium border border-white/10 rounded-full mb-6">
+              <MessageCircle className="w-4 h-4" />
+              We Respond in 30 Minutes
+            </div>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">
               Contact Us
             </h1>
-            <p className="mt-6 text-xl text-slate-600">
-              Ready to get rid of that junk? Whether you need <Link href="/services/furniture-removal" className="text-ocean-600 hover:underline font-medium">furniture removal</Link>, <Link href="/services/construction-debris" className="text-ocean-600 hover:underline font-medium">construction debris hauling</Link>, or <Link href="/services/estate-cleanouts" className="text-ocean-600 hover:underline font-medium">estate cleanout services</Link>, we're here to help. Serving communities from <Link href="/service-areas/seaside" className="text-ocean-600 hover:underline font-medium">Seaside</Link> to <Link href="/service-areas/panama-city-beach" className="text-ocean-600 hover:underline font-medium">Panama City Beach</Link>, get in touch and we'll help you out.
+            <p className="mt-6 text-xl text-ocean-100">
+              Ready to get rid of that junk? Whether you need <Link href="/services/furniture-removal" className="text-white hover:text-seafoam-200 underline font-medium">furniture removal</Link>, <Link href="/services/construction-debris" className="text-white hover:text-seafoam-200 underline font-medium">construction debris hauling</Link>, or <Link href="/services/estate-cleanouts" className="text-white hover:text-seafoam-200 underline font-medium">estate cleanout services</Link>, we're here to help. Serving communities from <Link href="/service-areas/seaside" className="text-white hover:text-seafoam-200 underline font-medium">Seaside</Link> to <Link href="/service-areas/panama-city-beach" className="text-white hover:text-seafoam-200 underline font-medium">Panama City Beach</Link>, get in touch and we'll help you out.
             </p>
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href={`tel:${PHONE_NUMBER}`}
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-ocean-600 rounded-xl font-bold hover:bg-sand-50 transition-colors shadow-lg"
+              >
+                <Phone className="w-5 h-5" />
+                Call {FORMATTED_PHONE}
+              </a>
+              <a
+                href={`sms:${PHONE_NUMBER}`}
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white text-white rounded-xl font-bold hover:bg-white/10 transition-colors"
+              >
+                <MessageCircle className="w-5 h-5" />
+                Text Us
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -331,6 +355,6 @@ export default function ContactPage() {
         externalLinks={externalLinks}
         title="Related Resources"
       />
-    </div>
+    </main>
   )
 }
