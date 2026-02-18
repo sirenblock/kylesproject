@@ -102,10 +102,10 @@ export default function ContactPage() {
               </a>
               <a
                 href={`sms:${PHONE_NUMBER}`}
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white text-white rounded-xl font-bold hover:bg-white/10 transition-colors"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-ocean-600 rounded-xl font-bold hover:bg-sand-50 transition-colors shadow-lg"
               >
                 <MessageCircle className="w-5 h-5" />
-                Text Us
+                Text {FORMATTED_PHONE}
               </a>
             </div>
           </div>
@@ -200,9 +200,23 @@ export default function ContactPage() {
             </div>
 
             {/* Contact Form */}
-            <div className="bg-white rounded-2xl shadow-lg border border-sand-200 p-8">
+            <div className="bg-white rounded-2xl shadow-xl border border-sand-200 overflow-hidden">
+              {/* Form Header */}
+              <div className="bg-gradient-to-r from-ocean-600 to-ocean-700 px-8 py-6">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center">
+                    <Send className="w-5 h-5 text-white" />
+                  </div>
+                  <div>
+                    <h2 className="text-xl font-bold text-white">Send a Message</h2>
+                    <p className="text-ocean-100 text-sm">We respond within 30 minutes</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-8">
               {formSubmitted ? (
-                <div className="text-center py-12">
+                <div className="text-center py-8">
                   <div className="w-16 h-16 mx-auto rounded-full bg-seafoam-100 text-seafoam-600 flex items-center justify-center mb-4">
                     <CheckCircle className="w-8 h-8" />
                   </div>
@@ -212,33 +226,31 @@ export default function ContactPage() {
                   </p>
                   <a
                     href={`tel:${PHONE_NUMBER}`}
-                    className="inline-flex items-center gap-2 text-ocean-600 font-medium hover:text-ocean-700"
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-ocean-600 text-white rounded-xl font-bold hover:bg-ocean-700 transition-colors"
                   >
                     <Phone className="w-4 h-4" />
-                    Or call us now: {FORMATTED_PHONE}
+                    Call Us Now: {FORMATTED_PHONE}
                   </a>
                 </div>
               ) : (
                 <>
-                  <h2 className="text-2xl font-bold text-slate-800 mb-6">Send a Message</h2>
-
                   {submitError && (
-                    <div className="mb-6 p-4 rounded-lg bg-red-50 border border-red-200 flex items-start gap-3">
+                    <div className="mb-6 p-4 rounded-xl bg-red-50 border border-red-200 flex items-start gap-3">
                       <AlertCircle className="w-5 h-5 text-red-600 shrink-0 mt-0.5" />
                       <div className="text-sm text-red-800">{submitError}</div>
                     </div>
                   )}
 
-                  <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+                  <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
                     <div>
-                      <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-2">
+                      <label htmlFor="name" className="block text-sm font-semibold text-slate-700 mb-1.5">
                         Name
                       </label>
                       <input
                         type="text"
                         id="name"
                         {...register('name')}
-                        className={`w-full px-4 py-3 rounded-lg border ${
+                        className={`w-full px-4 py-3 rounded-xl border ${
                           errors.name ? 'border-red-300 focus:border-red-500 focus:ring-red-200' : 'border-sand-300 focus:border-ocean-500 focus:ring-ocean-200'
                         } focus:ring-2 transition-colors`}
                         placeholder="Your name"
@@ -250,14 +262,14 @@ export default function ContactPage() {
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div>
-                        <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-2">
+                        <label htmlFor="email" className="block text-sm font-semibold text-slate-700 mb-1.5">
                           Email
                         </label>
                         <input
                           type="email"
                           id="email"
                           {...register('email')}
-                          className={`w-full px-4 py-3 rounded-lg border ${
+                          className={`w-full px-4 py-3 rounded-xl border ${
                             errors.email ? 'border-red-300 focus:border-red-500 focus:ring-red-200' : 'border-sand-300 focus:border-ocean-500 focus:ring-ocean-200'
                           } focus:ring-2 transition-colors`}
                           placeholder="you@email.com"
@@ -267,17 +279,17 @@ export default function ContactPage() {
                         )}
                       </div>
                       <div>
-                        <label htmlFor="phone" className="block text-sm font-medium text-slate-700 mb-2">
+                        <label htmlFor="phone" className="block text-sm font-semibold text-slate-700 mb-1.5">
                           Phone
                         </label>
                         <input
                           type="tel"
                           id="phone"
                           {...register('phone')}
-                          className={`w-full px-4 py-3 rounded-lg border ${
+                          className={`w-full px-4 py-3 rounded-xl border ${
                             errors.phone ? 'border-red-300 focus:border-red-500 focus:ring-red-200' : 'border-sand-300 focus:border-ocean-500 focus:ring-ocean-200'
                           } focus:ring-2 transition-colors`}
-                          placeholder="8505551234"
+                          placeholder="(850) 555-1234"
                         />
                         {errors.phone && (
                           <p className="mt-1 text-sm text-red-600">{errors.phone.message}</p>
@@ -286,13 +298,13 @@ export default function ContactPage() {
                     </div>
 
                     <div>
-                      <label htmlFor="serviceType" className="block text-sm font-medium text-slate-700 mb-2">
+                      <label htmlFor="serviceType" className="block text-sm font-semibold text-slate-700 mb-1.5">
                         Service Type
                       </label>
                       <select
                         id="serviceType"
                         {...register('serviceType')}
-                        className={`w-full px-4 py-3 rounded-lg border ${
+                        className={`w-full px-4 py-3 rounded-xl border ${
                           errors.serviceType ? 'border-red-300 focus:border-red-500 focus:ring-red-200' : 'border-sand-300 focus:border-ocean-500 focus:ring-ocean-200'
                         } focus:ring-2 transition-colors`}
                       >
@@ -308,14 +320,14 @@ export default function ContactPage() {
                     </div>
 
                     <div>
-                      <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-2">
+                      <label htmlFor="message" className="block text-sm font-semibold text-slate-700 mb-1.5">
                         Message
                       </label>
                       <textarea
                         id="message"
                         rows={4}
                         {...register('message')}
-                        className={`w-full px-4 py-3 rounded-lg border ${
+                        className={`w-full px-4 py-3 rounded-xl border ${
                           errors.message ? 'border-red-300 focus:border-red-500 focus:ring-red-200' : 'border-sand-300 focus:border-ocean-500 focus:ring-ocean-200'
                         } focus:ring-2 transition-colors resize-none`}
                         placeholder="Tell us about your junk removal needs..."
@@ -328,7 +340,7 @@ export default function ContactPage() {
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-ocean-500 to-ocean-600 text-white rounded-lg font-semibold hover:from-ocean-600 hover:to-ocean-700 transition-all shadow-md hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+                      className="w-full flex items-center justify-center gap-2 px-8 py-4 bg-ocean-600 text-white rounded-xl font-bold hover:bg-ocean-700 transition-colors shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed"
                     >
                       {isSubmitting ? (
                         <>
@@ -342,9 +354,14 @@ export default function ContactPage() {
                         </>
                       )}
                     </button>
+
+                    <p className="text-center text-sm text-slate-500">
+                      Or call/text us directly at <a href={`tel:${PHONE_NUMBER}`} className="text-ocean-600 font-semibold hover:text-ocean-700">{FORMATTED_PHONE}</a>
+                    </p>
                   </form>
                 </>
               )}
+              </div>
             </div>
           </div>
         </div>
