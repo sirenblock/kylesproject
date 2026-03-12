@@ -20,6 +20,14 @@ const config = {
   ownerName: 'Kyle', // For Person schema
   ownerTitle: 'Owner & Operator', // For E-E-A-T
 
+  // Physical Address
+  address: {
+    street: '307 Sand Oak Blvd',
+    city: 'Panama City Beach',
+    state: 'FL',
+    zip: '32413',
+  },
+
   // Service Area
   serviceArea: '30A Corridor',
   serviceAreaDescription: 'Serving the entire 30A corridor from Inlet Beach to Dune Allen Beach, plus extended coverage to Destin and Panama City Beach',

@@ -122,9 +122,12 @@ export function Footer() {
                 <Mail className="w-4 h-4 text-ocean-400" />
                 30apcbjunkremoval@gmail.com
               </a>
-              <div className="flex items-center gap-3 text-slate-400 text-sm">
-                <MapPin className="w-4 h-4 text-ocean-400" />
-                Serving Destin to Panama City Beach
+              <div className="flex items-start gap-3 text-slate-300 text-sm">
+                <MapPin className="w-4 h-4 text-ocean-400 mt-0.5 flex-shrink-0" />
+                <address className="not-italic">
+                  307 Sand Oak Blvd<br />
+                  Panama City Beach, FL 32413
+                </address>
               </div>
             </div>
             {/* Social Media Links */}
