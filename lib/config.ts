@@ -17,8 +17,8 @@ const config = {
 
   // Business Details
   businessName: '30A Junk Removal',
-  ownerName: 'Kyle', // For Person schema
-  ownerTitle: 'Owner & Operator', // For E-E-A-T
+  ownerName: '30A Junk Removal LLC', // For Person schema
+  ownerTitle: 'Locally Owned & Operated', // For E-E-A-T
 
   // Physical Address
   address: {

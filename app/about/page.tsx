@@ -122,9 +122,9 @@ export default function AboutPage() {
       <section className="py-20 bg-gradient-to-br from-ocean-50 to-seafoam-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-12">
-            <h2 className="text-3xl font-bold text-slate-800 mb-4">Meet the Owner</h2>
+            <h2 className="text-3xl font-bold text-slate-800 mb-4">Who We Are</h2>
             <p className="text-lg text-slate-600">
-              Locally owned and operated by someone who calls the Emerald Coast home.
+              A locally owned and operated business proudly serving the Emerald Coast.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -139,7 +139,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <p className="text-slate-600">
-                As the owner and operator of {config.businessName}, I'm personally invested in every job we take on. When you call us, you're talking to a neighbor who understands the unique needs of 30A properties.
+                At {config.businessName}, we're personally invested in every job we take on. When you call us, you're talking to a local team that understands the unique needs of 30A properties.
               </p>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-sm border border-sand-200">
