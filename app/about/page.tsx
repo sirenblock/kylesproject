@@ -1,8 +1,9 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Shield, Leaf, Heart, Clock, Phone, CheckCircle, BadgeCheck } from 'lucide-react'
+import { Shield, Leaf, Heart, Clock, Phone, CheckCircle, BadgeCheck, MapPin, User } from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
+import config from '@/lib/config'
 import { LinksSection } from '@/components/seo/LinksSection'
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo'
 import { TrustBadges } from '@/components/ui/TrustBadges'
@@ -112,6 +113,55 @@ export default function AboutPage() {
                   ))}
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Owner & Location */}
+      <section className="py-20 bg-gradient-to-br from-ocean-50 to-seafoam-50">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center mb-12">
+            <h2 className="text-3xl font-bold text-slate-800 mb-4">Who We Are</h2>
+            <p className="text-lg text-slate-600">
+              A locally owned and operated business proudly serving the Emerald Coast.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="bg-white rounded-xl p-8 shadow-sm border border-sand-200">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-ocean-100 text-ocean-600">
+                  <User className="w-6 h-6" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-slate-800">{config.ownerName}</h3>
+                  <p className="text-ocean-600 font-medium">{config.ownerTitle}</p>
+                </div>
+              </div>
+              <p className="text-slate-600">
+                At {config.businessName}, we're personally invested in every job we take on. When you call us, you're talking to a local team that understands the unique needs of 30A properties.
+              </p>
+            </div>
+            <div className="bg-white rounded-xl p-8 shadow-sm border border-sand-200">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-ocean-100 text-ocean-600">
+                  <MapPin className="w-6 h-6" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-slate-800">Our Location</h3>
+                  <p className="text-ocean-600 font-medium">Panama City Beach, FL</p>
+                </div>
+              </div>
+              <address className="text-slate-600 not-italic">
+                <p className="font-semibold text-slate-800">{config.businessName}</p>
+                <p>{config.address.street}</p>
+                <p>{config.address.city}, {config.address.state} {config.address.zip}</p>
+                <p className="mt-3">
+                  <a href={`tel:${PHONE_NUMBER}`} className="text-ocean-600 hover:underline font-medium">
+                    {FORMATTED_PHONE}
+                  </a>
+                </p>
+              </address>
             </div>
           </div>
         </div>

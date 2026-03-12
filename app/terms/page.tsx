@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { FileText, Mail, Phone, Calendar } from 'lucide-react'
+import { FileText, Mail, Phone, Calendar, MapPin } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Terms of Service | 30A Junk Removal',
@@ -379,6 +379,17 @@ export default function TermsPage() {
                     <a href="tel:8507141928" className="text-ocean-600 hover:text-ocean-700">
                       (850) 714-1928
                     </a>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <MapPin className="w-5 h-5 text-ocean-600 mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="font-semibold text-slate-900">Mailing Address</p>
+                    <address className="text-slate-700 not-italic">
+                      30A Junk Removal<br />
+                      307 Sand Oak Blvd<br />
+                      Panama City Beach, FL 32413
+                    </address>
                   </div>
                 </div>
                 <div className="mt-6 pt-6 border-t border-slate-200">
