@@ -7,6 +7,7 @@ import { SimpleContactBar } from "@/components/ui/SimpleContactBar"
 import { GlobalLocalBusinessSchema } from "@/components/seo/LocationBusinessSchema"
 import { CorporationSchema } from "@/components/seo/CorporationSchema"
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics"
+import { GoogleAds } from "@/components/analytics/GoogleAds"
 import { FacebookPixel } from "@/components/analytics/FacebookPixel"
 import { GCLIDCapture } from "@/components/analytics/GCLIDCapture"
 import { ClientModals } from "@/components/ui/ClientModals"
@@ -89,6 +90,7 @@ export default function RootLayout({
           }}
         />
         <GoogleAnalytics />
+        <GoogleAds />
         <FacebookPixel />
         <Suspense fallback={null}>
           <GCLIDCapture />
