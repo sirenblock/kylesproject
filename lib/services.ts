@@ -118,7 +118,7 @@ Whether you're in <a href="/service-areas/alys-beach" class="text-ocean-600 hove
   },
   'construction-debris': {
     slug: 'construction-debris',
-    title: 'Construction Debris Removal',
+    title: 'Construction Debris Removal in 30A Florida',
     shortTitle: 'Construction Debris',
     description: 'Professional construction and renovation debris removal for contractors and homeowners. We handle everything from small remodeling projects to major renovations. Fast, reliable service that keeps your project on schedule.',
     content: `
@@ -264,7 +264,7 @@ Construction materials are significantly heavier than household items. A truck f
   },
   'vacation-rentals': {
     slug: 'vacation-rentals',
-    title: 'Vacation Rental Junk Removal',
+    title: 'Vacation Rental Junk Removal on 30A',
     shortTitle: 'Vacation Rentals',
     description: 'Specialized junk removal for vacation rental properties throughout 30A. We understand the demands of property management and offer flexible scheduling, quick turnarounds, and competitive pricing for property managers with multiple units.',
     content: `
@@ -1918,7 +1918,7 @@ Complete office building clearance: Custom quote (typically $2,000-$5,000+)
   },
   'mattress-removal': {
     slug: 'mattress-removal',
-    title: 'Mattress Removal',
+    title: 'Mattress Removal in 30A Florida',
     shortTitle: 'Mattress Removal',
     description: 'Professional mattress removal and disposal on 30A. We pick up all mattress sizes including king, queen, twin, and specialty mattresses. Same-day service available with eco-friendly recycling options.',
     content: `
@@ -2497,7 +2497,7 @@ Carpet removal is priced by square footage and complexity. Basic carpet and padd
   },
   'storage-unit-cleanout': {
     slug: 'storage-unit-cleanout',
-    title: 'Storage Unit Cleanout',
+    title: 'Storage Unit Cleanout in 30A Florida',
     shortTitle: 'Storage Cleanout',
     description: 'Professional storage unit cleanout on 30A. We empty storage units of all sizes quickly and affordably. Donation sorting, recycling, and complete unit clearing included.',
     content: `
@@ -2682,7 +2682,7 @@ Hoarding cleanups are rarely completed in a single day. We plan multi-day projec
   },
   'foreclosure-cleanout': {
     slug: 'foreclosure-cleanout',
-    title: 'Foreclosure Cleanout',
+    title: 'Foreclosure Cleanouts in 30A Florida',
     shortTitle: 'Foreclosure Cleanout',
     description: 'Professional foreclosure and bank-owned property cleanout on 30A. Full property clearing, photo documentation, and bank/REO coordination. Fast turnaround for property preservation deadlines.',
     content: `
@@ -2776,7 +2776,7 @@ Most foreclosure cleanouts are completed within 1-3 days depending on property s
   },
   'commercial-junk-removal': {
     slug: 'commercial-junk-removal',
-    title: 'Commercial Junk Removal',
+    title: 'Commercial Junk Removal in Florida',
     shortTitle: 'Commercial Removal',
     description: 'Professional commercial junk removal on 30A. After-hours service, volume pricing, and recurring pickup available. Serving restaurants, offices, retail, and all commercial properties.',
     content: `

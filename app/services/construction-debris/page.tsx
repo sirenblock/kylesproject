@@ -19,7 +19,7 @@ marked.setOptions({ breaks: true, gfm: true })
 const service = getServiceDetail('construction-debris')!
 
 export const metadata: Metadata = {
-  title: `${service.title} | 30A Junk Removal | Same-Day Service`,
+  title: `${service.title} | Same-Day Service | (850) 368-3495`,
   description: `${service.description.slice(0, 100)}. Serving 30A, Destin & PCB. 4.9★ rated. Same-day service. Call ${FORMATTED_PHONE}.`,
   alternates: {
     canonical: getCanonicalUrl('/services/construction-debris')

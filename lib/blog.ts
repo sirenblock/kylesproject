@@ -11682,6 +11682,318 @@ For property managers reading this — if you'd like to discuss a [preferred ven
         answer: 'The discipline calendar: February — renegotiate peak-season vendor SLAs and confirm Saturday dispatch capacity. March — pre-season inventory audit, identify items needing replacement before peak (mattresses, patio furniture, items from off-season). April — owner communication on planned replacements and associated charges, pre-approve major items to avoid mid-peak approval delays. May-August — operational mode with daily standups and weekly vendor coordination. September — post-peak audit, identify what didn\'t survive peak, schedule replacements before snowbird season (October-March).'
       }
     ]
+  },
+  {
+    slug: 'junk-removal-okaloosa-county-florida-complete-guide',
+    title: 'Junk Removal in Okaloosa County, Florida: Complete 2026 Guide to Disposal, Bulk Pickup, and Local Resources',
+    excerpt: 'Everything Okaloosa County residents and Destin, Fort Walton Beach, Niceville, and Crestview property owners need to know about junk removal — disposal facilities, bulk pickup rules, hurricane debris, and military housing considerations.',
+    author: '30A Junk Removal LLC',
+    date: '2026-05-24',
+    lastUpdated: '2026-05-24',
+    readTime: '11 min read',
+    image: 'https://images.unsplash.com/photo-1564769662533-4f00a87b4056?w=1200&h=630&fit=crop',
+    imageAlt: 'Okaloosa County Florida Emerald Coast properties and Eglin Air Force Base region',
+    tags: ['Okaloosa County', 'Local Resources', 'Destin', 'Fort Walton Beach', 'Bulk Pickup'],
+    metaDescription: 'Complete 2026 guide to junk removal in Okaloosa County FL. Disposal facilities, bulk pickup, hurricane debris, military housing rules, and the differences between Destin, Fort Walton, Niceville, and Crestview.',
+    keywords: [
+      'junk removal Okaloosa County',
+      'Okaloosa County bulk pickup',
+      'junk removal Destin FL',
+      'Fort Walton Beach junk removal',
+      'Niceville junk removal',
+      'Crestview junk removal',
+      'Eglin AFB junk removal',
+      'Okaloosa County solid waste',
+    ],
+    content: `
+# Junk Removal in Okaloosa County, Florida: Complete 2026 Guide
+
+Okaloosa County stretches from the Gulf-front condos of [Destin](/service-areas/destin) and the family beaches of [Fort Walton Beach](/service-areas/fort-walton-beach) up through the military housing markets around Eglin AFB ([Niceville](/service-areas/niceville), [Valparaiso](/service-areas/valparaiso), [Shalimar](/service-areas/shalimar), [Mary Esther](/service-areas/mary-esther)) and into [Crestview](/service-areas/crestview) in the north. That mix — high-end coastal real estate, military PCS turnovers, and growing inland residential — makes Okaloosa one of the most diverse junk-removal markets on the Emerald Coast.
+
+This guide consolidates everything we've learned operating [30A Junk Removal](/) across Okaloosa County: where disposal facilities are, how bulk pickup actually works in each municipality, the military housing patterns that drive seasonal volume spikes, and when professional removal makes more sense than waiting for the next bulk pickup window.
+
+## The Okaloosa County Disposal System
+
+Okaloosa County's solid waste program is administered by the County's Public Services Department in coordination with the cities of Crestview, Destin, Fort Walton Beach, Niceville, and Valparaiso. The system runs differently than Walton County's — it's more municipality-driven and less centralized, which means the rules vary noticeably by city.
+
+**County-operated facilities:**
+- The Okaloosa County Landfill in Baker (north county) is the main tipping site for solid waste and construction debris.
+- Convenience centers are distributed across the county for residential drop-off of household waste and recyclables.
+- Household hazardous waste (HHW) collection events run quarterly at announced locations — bring oil-based paint, solvents, pesticides, automotive fluids, electronics, batteries, and fluorescent bulbs to those.
+
+**Municipal differences worth knowing:**
+- **Destin** has its own contracted curbside service with a tight schedule because of the high condo/vacation rental density. Bulk pickup is monthly with strict size limits.
+- **Fort Walton Beach** runs city sanitation with weekly trash and bi-weekly recycling, plus a city-only bulk pickup program available to residents.
+- **Niceville** and **Valparaiso** share waste service infrastructure with surrounding county areas — schedules are less aggressive than Destin/Fort Walton.
+- **Crestview** is the most rural of the major Okaloosa municipalities; bulk pickup is less frequent and many residents self-haul to convenience centers.
+
+Always check your specific municipality's current rules — they update periodically and the unincorporated county areas follow different schedules than the cities.
+
+## Bulk Pickup Rules in Okaloosa County
+
+Bulk pickup — the curbside removal of large items that don't fit standard trash carts — is the most-asked question we field across Okaloosa. The general rules:
+
+**Frequency:** Monthly bulk pickup in most municipalities, weekly in higher-density vacation rental zones (parts of Destin, Fort Walton Beach commercial corridors). Inland areas including parts of Crestview operate on quarterly or by-request schedules.
+
+**Size and weight limits:** Most contractors cap items at 6 feet long max, 40-50 pounds per piece, with a 3-5 item count limit per pickup cycle.
+
+**Required prep:**
+- **Mattresses** must be wrapped in plastic disposal bags (Florida public health rule) — $10-$15 at any hardware store
+- **Branches and yard waste** must be in paper bags or bundled to 4-foot lengths
+- **Electronics** are NOT bulk pickup items — see the next section
+
+**Items that always get refused at the curb:**
+- Construction debris (drywall, lumber, tile, roofing)
+- Refrigerators and freezers with refrigerant intact
+- Tires
+- Electronics with circuit boards (TVs, computers, monitors)
+- Hot tubs and spas
+- Paint and household hazardous waste
+
+For our broader item-by-item disposal guide, see our [complete disposal guide for 30A](/blog/how-to-dispose-of-common-items-30a-florida) — most of those rules apply identically across Okaloosa, Walton, and Bay counties.
+
+## The Military Housing Pattern: PCS Junk Removal
+
+Okaloosa County's defining junk-removal pattern is military PCS (Permanent Change of Station) cycles. Eglin Air Force Base, Hurlburt Field, and Duke Field collectively house thousands of military families whose move cycles concentrate around two windows: late spring (May-July) and early fall (September-October).
+
+A typical military PCS move generates more disposal volume than a civilian move because:
+
+- **Furniture decisions are forced.** Families decide whether items go on the moving truck or get disposed; many opt to dispose rather than ship.
+- **Time pressure is real.** PCS dates are fixed; clearing the rental property before final inspection has a hard deadline.
+- **Volume is large.** A 4-person military family typically clears 1-3 truckloads of disposable items per move.
+- **Property condition matters.** Most military families rent off-base; landlord deposits depend on clean property at move-out.
+
+For military families in [Niceville](/service-areas/niceville), [Valparaiso](/service-areas/valparaiso), [Shalimar](/service-areas/shalimar), [Fort Walton Beach](/service-areas/fort-walton-beach), or [Crestview](/service-areas/crestview), the move-out junk removal workflow is usually:
+
+1. **Donate sellable items first** — Goodwill, Salvation Army, and Habitat ReStore all serve Okaloosa County and offer pickup for furniture donations. See our [donation guide](/blog/where-to-donate-furniture-household-items-30a-florida) for the workflow.
+2. **Schedule professional removal for the rest** — 1-2 weeks before the move date, schedule a truck for the non-donatable items. Don't leave it for the last day.
+3. **Document with photos** — for security deposit disputes, time-stamped photos of the cleared property protect you.
+
+We handle a steady stream of military PCS cleanouts in Okaloosa year-round, with the highest volume in May-July.
+
+## Vacation Rental Volume in Destin and Fort Walton Beach
+
+Outside the military pattern, Destin and Fort Walton Beach generate the second-largest junk-removal volume in Okaloosa from short-term vacation rentals. The Destin Harbor area, the Crystal Beach district, and the high-rise condo corridor along Highway 98 each generate constant turnover-driven junk volume.
+
+The patterns differ from 30A in ways worth knowing:
+
+- **High-rise condo turnovers** mean upper-floor access via elevator scheduling — coordinate with building management for service elevator reservations.
+- **Furniture replacement cycles are faster** at Destin condos due to high guest density (typical: 50-80 guest weeks per year vs. 30A's 30-50).
+- **HOA rules are looser** than 30A's strict communities — Destin condos typically allow curbside debris on scheduled days, though some buildings have their own internal trash chutes that bypass the city system entirely.
+
+For property managers along the Destin-Fort Walton corridor, our [property manager junk removal playbook](/blog/property-manager-junk-removal-playbook-30a) covers the vendor agreement and turnover workflow patterns that apply equally in Okaloosa as in Walton.
+
+## Hurricane Debris in Okaloosa County
+
+Okaloosa County's coastal geography puts it in the direct path of named storms forming in the Gulf of Mexico. The county's emergency debris pickup programs, run through pre-positioned contractors after a major storm, typically clear curbside hurricane debris for 30-60 days post-event. Outside that window, hurricane cleanup reverts to homeowner responsibility — and the volumes typically exceed routine curbside limits by an order of magnitude.
+
+Our [hurricane debris removal service](/services/hurricane-debris) handles post-storm cleanups across all Okaloosa municipalities. The pattern we see most often:
+
+- **Days 1-7 post-storm:** Emergency debris pickup is most active; municipal services handle most curbside volumes.
+- **Days 8-30:** Volume backs up at convenience centers and landfills; professional removal helps owners who can't wait their turn.
+- **Days 30-90:** Insurance-driven cleanups proceed; debris volumes from torn-up landscaping, fence damage, and partial roof repairs dominate.
+- **Days 90+:** Long-tail cleanouts and re-construction debris from properties requiring repair work.
+
+The [Bay County guide](/blog/junk-removal-bay-county-florida-complete-guide) covers the broader regional storm-recovery pattern in more detail — most of it applies to Okaloosa as well.
+
+## When to Call Junk Removal in Okaloosa County
+
+For routine household disposal — a single piece of furniture, a few bags from a garage cleanout, a working appliance you can donate — municipal curbside or convenience-center routing usually handles it cheaply and well. Use it.
+
+Call a [professional junk removal service](/services) when:
+
+- **PCS move-out timing** — military families with hard deadlines can't rely on monthly bulk pickup cycles.
+- **Volume exceeds limits** — anything over a half-truckload (3+ cubic yards) is faster to outsource than to handle in multiple trips.
+- **Special handling required** — refrigerators with refrigerant, hot tubs, electronics in volume, hoarder cleanouts.
+- **Upper-floor pickups** — Destin/Fort Walton high-rises with elevator scheduling needs.
+- **Vacation rental turnover deadlines** — Saturday checkout-to-check-in windows along the coast.
+- **HOA scrutiny** — condo communities with internal disposal procedures that bypass municipal service.
+- **Hurricane response** — high-volume storm cleanup beyond curbside limits.
+
+[30A Junk Removal](/) serves the full Okaloosa County corridor — [Destin](/service-areas/destin), [Fort Walton Beach](/service-areas/fort-walton-beach), [Niceville](/service-areas/niceville), [Valparaiso](/service-areas/valparaiso), [Shalimar](/service-areas/shalimar), [Mary Esther](/service-areas/mary-esther), [Crestview](/service-areas/crestview), and surrounding unincorporated areas. Our [pricing guide](/pricing) covers transparent rates from quarter-truck to full-truck loads, and the [Okaloosa County hub](/service-areas/county/okaloosa-county) lists every municipality we serve.
+
+## Frequently Asked Questions
+`,
+    faqs: [
+      {
+        question: 'Does Okaloosa County offer free bulk pickup?',
+        answer: 'Bulk pickup is included in standard municipal waste service for residents of Destin, Fort Walton Beach, Niceville, Valparaiso, and Crestview — frequency varies by municipality (monthly in most, weekly in high-density zones). Items must meet size and weight limits (typically 6 feet max, 40-50 pounds per piece, 3-5 items per pickup cycle). Excluded categories: construction debris, electronics, tires, refrigerators with refrigerant, hot tubs, paint, and hazardous waste. Unincorporated county areas operate on less frequent schedules.'
+      },
+      {
+        question: 'Where is the Okaloosa County landfill?',
+        answer: 'The Okaloosa County Landfill is located in Baker in north Okaloosa County and is the primary tipping site for residents self-hauling waste or construction debris. Residents pay resident tipping rates with valid ID; non-residents pay a surcharge. Closed/tarped loads are required by Florida law. The county also operates convenience centers distributed across the county for residential household waste and recyclable drop-off, which are usually free for residents.'
+      },
+      {
+        question: 'Where can I dispose of paint and chemicals in Okaloosa County?',
+        answer: 'Paint, solvents, and other household hazardous waste (HHW) are NOT accepted at the landfill or in regular trash. Okaloosa County runs HHW collection events quarterly at announced locations — bring oil-based paint, solvents, pesticides, automotive fluids, batteries, and fluorescent bulbs to those events. Latex (water-based) paint can be dried with cat litter or paint hardener and disposed in regular trash once fully solid. Check the county Public Services Department for current HHW event dates.'
+      },
+      {
+        question: 'Do military families on PCS orders get special junk removal pricing?',
+        answer: 'Most local Okaloosa County junk removal services don\'t advertise dedicated military pricing, but the operational pattern — military PCS cleanouts during peak window (May-July, September-October) — drives meaningful volume for the local industry. Ask any provider if they offer scheduling flexibility for PCS timing constraints. The bigger value driver for military families is donation routing (Habitat ReStore, Salvation Army) which converts disposal into tax deductions on the moving cost reimbursement filing.'
+      },
+      {
+        question: 'How long does hurricane debris pickup take in Okaloosa County?',
+        answer: 'After a major storm, Okaloosa County typically runs emergency debris pickup programs through pre-positioned contractors for 30-60 days post-event. Most curbside hurricane debris gets cleared within the first 30 days for properties on contractor routes. Volumes that exceed curbside limits (large trees, structural debris, flooded property cleanouts) usually require professional removal — these typically run from $400 for small loads to $2,500+ for full-property hurricane cleanups.'
+      },
+      {
+        question: 'What\'s the difference between junk removal services in Destin vs. Crestview?',
+        answer: 'Destin\'s coastal vacation rental market drives same-day turnover demand that\'s nearly absent in Crestview. Pricing tends to be 10-15% higher in Destin/Fort Walton due to traffic, HOA coordination, and high-rise access challenges. Crestview pricing is generally lower but service frequency is also lower — local providers cover Crestview on a route-day basis rather than dedicated same-day capacity. Both areas have strong donation infrastructure (Habitat ReStore, Goodwill, Salvation Army) for usable items.'
+      },
+      {
+        question: 'Can I take construction debris to the Okaloosa County landfill myself?',
+        answer: 'Yes, the Okaloosa County Landfill accepts construction debris from residents at the scale-house, with rates higher than household waste. Bring valid Okaloosa County ID for resident pricing. Sort the load if possible — clean wood and metal can go to recycling at lower rates; mixed C&D goes to standard tipping. Closed/tarped loads are required by state law. For projects over half a truckload of mixed debris, professional construction debris removal is usually cheaper than self-hauling once you factor in scale-house tickets, time, and dump truck rental.'
+      }
+    ]
+  },
+  {
+    slug: 'junk-removal-bay-county-florida-complete-guide',
+    title: 'Junk Removal in Bay County, Florida: Complete 2026 Guide to Panama City Beach, Lynn Haven, and Surrounding Areas',
+    excerpt: 'Everything Bay County residents need to know about junk removal — Steelfield Landfill, bulk pickup rules across Panama City, Panama City Beach, Lynn Haven, Springfield, Callaway, and Parker, plus hurricane recovery patterns and disposal resources.',
+    author: '30A Junk Removal LLC',
+    date: '2026-05-24',
+    lastUpdated: '2026-05-24',
+    readTime: '11 min read',
+    image: 'https://images.unsplash.com/photo-1583157432740-fbf36b09f73a?w=1200&h=630&fit=crop',
+    imageAlt: 'Bay County Florida Panama City Beach coastal properties and hurricane recovery',
+    tags: ['Bay County', 'Local Resources', 'Panama City Beach', 'Lynn Haven', 'Bulk Pickup'],
+    metaDescription: 'Complete 2026 guide to junk removal in Bay County FL. Steelfield Landfill, bulk pickup across Panama City Beach, Lynn Haven, Springfield, Callaway, and Parker — plus hurricane recovery and disposal resources.',
+    keywords: [
+      'junk removal Bay County',
+      'Bay County bulk pickup',
+      'Panama City Beach junk removal',
+      'Lynn Haven junk removal',
+      'Springfield FL junk removal',
+      'Callaway junk removal',
+      'Steelfield Landfill',
+      'Bay County solid waste',
+    ],
+    content: `
+# Junk Removal in Bay County, Florida: Complete 2026 Guide
+
+Bay County stretches 27 miles along the Gulf Coast from the eastern edge of [30A](/service-areas) through the high-rise condo corridor of [Panama City Beach](/service-areas/panama-city-beach), across the bay to [Panama City](/service-areas/panama-city), and inland through [Lynn Haven](/service-areas/lynn-haven), [Springfield](/service-areas/springfield), [Callaway](/service-areas/callaway), and [Parker](/service-areas/parker). The county was hit harder than almost any in Florida by Hurricane Michael in 2018, and the ongoing rebuild has fundamentally shaped the junk-removal industry here — disposal infrastructure, debris-handling patterns, and the construction-debris volumes that flow through the system today.
+
+This is the operational guide we wish existed for Bay County: where to dispose of what, how the rules differ across the municipalities, the storm-recovery patterns that still drive volume, and when professional [junk removal](/) is the right answer.
+
+## The Bay County Disposal System
+
+Bay County operates one of the most-used solid waste systems in the Florida Panhandle, owing to the combined volumes of permanent residents (~180,000), seasonal residents (peak summer ~50,000 additional), and ongoing post-hurricane reconstruction debris.
+
+**Steelfield Landfill** is the primary tipping facility for the county. Located off Steelfield Road, it accepts:
+- Household and bulk waste at standard rates
+- Construction and demolition (C&D) debris at separate rates
+- Yard waste and storm debris with special-acceptance pricing
+- Tires (with per-tire fees, capped at household limits)
+
+Self-haul disposal requires resident ID for in-county pricing; non-residents pay a surcharge. Closed/tarped loads are required by Florida law. Truck weight is recorded at the scale-house and again at exit — you pay for the difference.
+
+**Recycling** in Bay County operates a single-stream curbside program with bi-weekly pickup for most residential addresses. The county accepts paper, cardboard, aluminum, steel, and plastics #1-#2. Glass is **not** accepted in curbside recycling (a common point of confusion).
+
+**Household hazardous waste (HHW)** is one of Bay County's strongest categories — the county operates a year-round HHW drop-off (unlike Walton or Okaloosa, which use quarterly events). Residents can drop oil-based paint, solvents, pesticides, automotive fluids, batteries, fluorescent bulbs, electronics, and most other HHW categories at the designated facility. This is the easiest county on the Florida Panhandle for HHW disposal.
+
+## Bulk Pickup Rules by Municipality
+
+Bay County's junk removal landscape varies significantly between municipalities. The rules:
+
+**[Panama City Beach](/service-areas/panama-city-beach):** Weekly bulk pickup along the high-density condo and vacation rental corridors; monthly elsewhere in the city. Item count limits (typically 3-5 per pickup) and size limits (6 feet max) apply. Saturday turnover items from vacation rentals exceed what curbside can absorb.
+
+**Panama City (urban core, Hathaway Bridge to downtown):** Monthly bulk pickup; commercial corridors have additional dumpster service options. The downtown revitalization has driven significant renovation debris volumes that don't fit curbside.
+
+**[Lynn Haven](/service-areas/lynn-haven):** Family-residential suburb with weekly waste service and monthly bulk pickup. Lynn Haven has its own city sanitation program with specific rules — check the city website for current bulk schedules. Volume here is lower than the coastal municipalities but consistent year-round.
+
+**[Springfield](/service-areas/springfield):** Smaller residential community east of Panama City; bulk pickup runs on a per-route schedule, typically monthly. Many residents combine bulk pickup with self-haul trips to Steelfield Landfill for larger items.
+
+**[Callaway](/service-areas/callaway):** Residential community east of Panama City with bulk pickup on a longer cycle (typically monthly to quarterly depending on route). Bulk volumes are lower but special-needs disposal (construction debris, hurricane-related items) is still common.
+
+**[Parker](/service-areas/parker):** Smaller community on the east side of Bay County with limited municipal bulk service — many residents self-haul or use private providers.
+
+**Items refused at the curb across all Bay County municipalities:**
+- Construction debris
+- Refrigerators and freezers with refrigerant intact
+- Tires
+- Electronics with circuit boards
+- Hot tubs and spas
+- Paint and HHW
+
+For the item-by-item disposal breakdown that applies across Bay, Walton, and Okaloosa counties, see our [complete disposal guide for 30A](/blog/how-to-dispose-of-common-items-30a-florida).
+
+## The Hurricane Michael Legacy
+
+Bay County's junk-removal industry was fundamentally reshaped by Hurricane Michael in October 2018. The storm — a Category 5 at landfall near Mexico Beach — destroyed an estimated 90% of structures in some areas and damaged tens of thousands of homes county-wide. The disposal volume in the months that followed exceeded anything Florida had seen since Hurricane Andrew.
+
+Years later, the recovery patterns still shape the local industry:
+
+- **Construction-debris volume remains elevated.** New construction and renovation continues at higher per-capita rates than pre-storm Bay County, and that drives ongoing C&D disposal at Steelfield.
+- **Disposal infrastructure was upgraded.** The Steelfield Landfill expanded capacity in response to Michael volumes, and the county's HHW year-round program became one of the most robust on the Panhandle.
+- **Trust patterns shifted.** Many homeowners experienced unreliable or scam-prone contractors during the recovery; the local industry has consolidated toward established providers since.
+- **Insurance-driven cleanouts remain common.** Even now, properties still completing repairs from Michael-era damage trigger periodic large-volume cleanouts.
+
+For coastal Bay County properties along [Panama City Beach](/service-areas/panama-city-beach) or [Mexico Beach](/service-areas/mexico-beach), our [hurricane debris removal service](/services/hurricane-debris) handles both routine storm cleanup and the long-tail post-Michael disposal that occasionally surfaces during major renovations.
+
+## Vacation Rental and Seasonal Volume
+
+Panama City Beach generates the second-largest vacation rental volume in the Florida Panhandle (after the 30A corridor). The condo high-rises along Front Beach Road, the Pier Park district, and the resorts at the east end create constant turnover-driven junk removal demand.
+
+The patterns are different from 30A's:
+
+- **Higher guest density per unit.** Most PCB rentals do 50-80 guest weeks per year vs. 30A's 30-50, which means faster wear cycles on furniture and bedding.
+- **Looser HOA standards.** Most PCB condo HOAs allow curbside debris on scheduled days, though some buildings have internal service-chute systems.
+- **Upper-floor access via elevator.** Most PCB inventory is high-rise; service elevator scheduling is the bottleneck, not access path.
+- **Spring break volume spike.** PCB's spring break season (mid-March through April) drives the year's biggest single-month volume spike — heavier than even peak summer in many properties.
+
+Our [property manager junk removal playbook](/blog/property-manager-junk-removal-playbook-30a) covers vendor agreement patterns that apply equally in PCB as on 30A.
+
+## When to Call Junk Removal in Bay County
+
+For most household disposal in Bay County, municipal curbside or convenience-center routing works well. Use it for:
+- Single furniture pieces (within size and item-count limits)
+- Routine household waste
+- Donatable items (route through Habitat ReStore, Salvation Army, Goodwill via our [donation guide](/blog/where-to-donate-furniture-household-items-30a-florida))
+- Yard waste in compliant bundles or paper bags
+
+Call professional [junk removal](/services) when:
+
+- **Hurricane debris exceeds curbside limits.** Storm volumes routinely overwhelm monthly bulk schedules.
+- **Construction debris from renovation.** No curbside option in any Bay County municipality.
+- **Vacation rental turnover deadlines.** PCB Saturday turnovers can't wait for monthly bulk.
+- **Upper-floor condo pickups.** Service elevator coordination is the kind of logistics professional removal handles better than DIY.
+- **Estate cleanouts and large-volume jobs.** Multi-room cleanouts vastly exceed curbside item-count limits.
+- **Refrigerators, hot tubs, electronics in volume.** Curbside refuses these categories entirely.
+- **Move-out and closing deadlines.** Real estate transactions don't wait for monthly bulk schedules.
+
+[30A Junk Removal](/) serves the full Bay County corridor — [Panama City Beach](/service-areas/panama-city-beach), [Panama City](/service-areas/panama-city), [Lynn Haven](/service-areas/lynn-haven), [Springfield](/service-areas/springfield), [Callaway](/service-areas/callaway), [Parker](/service-areas/parker), and [Mexico Beach](/service-areas/mexico-beach). Our [pricing guide](/pricing) covers transparent rates, and the [Bay County hub](/service-areas/county/bay-county) lists every municipality we serve. Companion guides cover [Walton County](/blog/junk-removal-walton-county-florida-complete-guide) and [Okaloosa County](/blog/junk-removal-okaloosa-county-florida-complete-guide).
+
+## Frequently Asked Questions
+`,
+    faqs: [
+      {
+        question: 'Where is the Bay County landfill?',
+        answer: 'The Steelfield Landfill is Bay County\'s primary tipping facility, located off Steelfield Road. It accepts household waste, construction and demolition debris (at separate rates), yard waste, and tires (with per-tire fees). Residents pay in-county tipping rates with valid Bay County ID; non-residents pay a surcharge. Closed/tarped loads are required by Florida law for self-haul.'
+      },
+      {
+        question: 'Does Bay County offer free bulk pickup?',
+        answer: 'Bulk pickup is included in standard municipal waste service across Bay County, with frequency varying by municipality: weekly along Panama City Beach\'s high-density coastal corridors, monthly in most residential areas of Lynn Haven, Springfield, Callaway, and Parker. Size limits typically cap items at 6 feet max with 3-5 items per pickup cycle. Construction debris, refrigerators with refrigerant, tires, electronics, hot tubs, and hazardous waste are excluded categories.'
+      },
+      {
+        question: 'Where can I dispose of paint and chemicals in Bay County?',
+        answer: 'Bay County operates one of the most robust household hazardous waste (HHW) programs in the Florida Panhandle — a year-round HHW drop-off facility (rather than quarterly events). Residents can drop oil-based paint, solvents, pesticides, automotive fluids, batteries, fluorescent bulbs, electronics, and most HHW categories at the designated facility. Latex (water-based) paint can be dried with cat litter or paint hardener and disposed in regular trash once solid.'
+      },
+      {
+        question: 'Does Bay County recycle glass?',
+        answer: 'No — Bay County\'s curbside single-stream recycling program does NOT accept glass. Glass must go in regular trash, or to a private glass-recycling drop-off if available. The county does accept paper, cardboard, aluminum, steel, and plastics #1-#2 in curbside recycling. Check the current accepted-materials list with Bay County Solid Waste before assuming an item recycles.'
+      },
+      {
+        question: 'Is Bay County still dealing with Hurricane Michael debris?',
+        answer: 'Active Michael-related debris pickup ended years ago, but the long tail continues. Many properties are still completing repairs from 2018 storm damage, and those renovations trigger periodic large-volume cleanouts. Bay County also expanded Steelfield Landfill capacity in response to Michael volumes, and the disposal infrastructure today is significantly more robust than pre-storm. New hurricane events trigger separate emergency debris pickup programs run through pre-positioned contractors for 30-60 days post-event.'
+      },
+      {
+        question: 'How much does junk removal cost in Bay County?',
+        answer: 'Professional junk removal in Bay County typically runs $150-$300 for a quarter-truck (single item or small load), $300-$500 for a half-truck (bedroom set or moderate cleanout), $500-$700 for a three-quarter truck (multi-room cleanout), and $700-$900+ for a full truck (large estate, full garage, hurricane debris). Specialty items (refrigerators, hot tubs, hazardous materials) carry surcharges. For specific item-type pricing, see our hot tub removal cost guide and full pricing breakdown.'
+      },
+      {
+        question: 'Can vacation rental managers in Panama City Beach get same-day junk removal?',
+        answer: 'Yes — most professional junk removal services along the PCB corridor offer same-day service if called by 11 AM, with priority response for property management companies on preferred-vendor agreements. The PCB Saturday turnover window (10 AM checkout to 4 PM check-in) is the highest-demand window in Bay County for same-day service; book ahead during peak season (spring break March-April, summer June-August) to guarantee response.'
+      }
+    ]
   }
 ]
 
