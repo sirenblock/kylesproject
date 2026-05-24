@@ -4,6 +4,9 @@ import { MapPin, Check, Phone, ArrowRight, Clock, Truck, MessageCircle, Sparkles
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 import CoverageMap from '@/components/ui/CoverageMap'
 import { LinksSection } from '@/components/seo/LinksSection'
+import { CollectionPageSchema } from '@/components/seo/PagedSchemas'
+import { BreadcrumbSchema } from '@/components/seo/StructuredData'
+import { getAllLocationSlugs } from '@/lib/locations'
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo'
 
 export const metadata: Metadata = {
@@ -155,9 +158,22 @@ const communities = [
 export default function ServiceAreasPage() {
   const internalLinks = getContextualLinks('core', '/service-areas')
   const externalLinks = getExternalLinks(5)
+  const locationCount = getAllLocationSlugs().length
 
   return (
     <main className="min-h-screen">
+      <CollectionPageSchema
+        name="Service Areas - 30A and Panama City Beach"
+        description="Junk removal service areas across 30A and Panama City Beach, covering 27 communities throughout Walton and Bay Counties in Northwest Florida -- from Inlet Beach on the east to the Walton County line on the west."
+        url="/service-areas"
+        numberOfItems={locationCount}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Service Areas', url: '/service-areas' },
+        ]}
+      />
       {/* Hero */}
       <section className="relative -mt-24 pt-32 pb-20 md:pt-36 md:pb-28 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white overflow-hidden">
         {/* Background decoration */}

@@ -33,6 +33,9 @@ import {
 } from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 import { LinksSection } from '@/components/seo/LinksSection'
+import { CollectionPageSchema } from '@/components/seo/PagedSchemas'
+import { BreadcrumbSchema } from '@/components/seo/StructuredData'
+import { getAllServiceSlugs } from '@/lib/services'
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo'
 
 export const metadata: Metadata = {
@@ -283,9 +286,22 @@ const colorMap = {
 export default function ServicesPage() {
   const internalLinks = getContextualLinks('core', '/services')
   const externalLinks = getExternalLinks(5)
+  const serviceCount = getAllServiceSlugs().length
 
   return (
     <main className="min-h-screen">
+      <CollectionPageSchema
+        name="Junk Removal Services in 30A and Panama City Beach"
+        description="Complete list of junk removal services across the 30A corridor and Panama City Beach -- vacation rental cleanouts, estate cleanouts, construction debris, furniture and appliance removal, hot tub removal, hurricane debris, and more."
+        url="/services"
+        numberOfItems={serviceCount}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Services', url: '/services' },
+        ]}
+      />
       {/* Hero */}
       <section className="-mt-24 pt-32 pb-20 md:pt-36 md:pb-28 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white overflow-hidden relative">
         {/* Decorative blobs */}

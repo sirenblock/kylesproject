@@ -3,6 +3,7 @@ import { Gallery } from '@/components/ui/Gallery'
 import { CheckCircle, Phone, ArrowRight, Camera } from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 import Link from 'next/link'
+import { BreadcrumbSchema } from '@/components/seo/StructuredData'
 
 export const metadata: Metadata = {
   title: 'Our Work | Real Junk Removal Jobs in 30A',
@@ -50,6 +51,12 @@ const galleryImages = [
 export default function OurWorkPage() {
   return (
     <main className="min-h-screen">
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Our Work', url: '/our-work' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="-mt-24 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white pt-32 pb-20 md:pt-36 md:pb-28 overflow-hidden relative">
         {/* Decorative blobs */}

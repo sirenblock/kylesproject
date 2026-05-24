@@ -78,6 +78,50 @@ export function BlogHubSchema({ postCount }: { postCount: number }) {
   )
 }
 
+// CollectionPage schema for /services and /service-areas hubs -- declares
+// these as topical-authority index pages per the senior SEO playbook
+export function CollectionPageSchema({
+  name,
+  description,
+  url,
+  numberOfItems,
+}: {
+  name: string
+  description: string
+  url: string
+  numberOfItems: number
+}) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name,
+    description,
+    url: `${siteUrl}${url}`,
+    isPartOf: {
+      '@type': 'WebSite',
+      '@id': `${siteUrl}#website`,
+      name: '30A Junk Removal',
+      url: siteUrl,
+    },
+    publisher: {
+      '@type': 'LocalBusiness',
+      '@id': `${siteUrl}#localbusiness`,
+      name: '30A Junk Removal',
+    },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems,
+    },
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  )
+}
+
 // FAQPage schema for /pricing -- enables FAQ rich results on the highest-
 // commercial-intent page per senior SEO playbook SERP feature targeting
 export function PricingFAQSchema({

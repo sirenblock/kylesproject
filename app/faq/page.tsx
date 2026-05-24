@@ -3,6 +3,7 @@ import { FAQ } from '@/components/sections/FAQ'
 import { Phone, MessageCircle, HelpCircle } from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 import { LinksSection } from '@/components/seo/LinksSection'
+import { BreadcrumbSchema } from '@/components/seo/StructuredData'
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo'
 
 export const metadata: Metadata = {
@@ -19,6 +20,12 @@ export default function FAQPage() {
 
   return (
     <main className="min-h-screen">
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'FAQ', url: '/faq' },
+        ]}
+      />
       {/* Hero */}
       <section className="-mt-24 pt-32 pb-20 md:pt-36 md:pb-28 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white overflow-hidden relative">
         {/* Decorative blobs */}

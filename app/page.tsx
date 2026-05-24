@@ -9,8 +9,9 @@ import { LinksSection } from "@/components/seo/LinksSection"
 import { OfferCatalogSchema, HomepageFAQSchema, ImageGallerySchema } from "@/components/seo/HomepageSchemas"
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from "@/lib/seo"
 import { TrustBadges } from "@/components/ui/TrustBadges"
-import { Truck, CheckCircle, Clock, ArrowRight } from 'lucide-react'
+import { Truck, CheckCircle, Clock, ArrowRight, Calendar, BookOpen } from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
+import { blogPosts } from '@/lib/blog'
 
 export const metadata: Metadata = {
   alternates: {
@@ -171,6 +172,82 @@ export default function HomePage() {
       <PricingTable />
       <ServicesGrid />
       <Testimonials />
+
+      {/* Latest from the Blog -- distributes homepage link equity to cluster posts */}
+      <section className="py-16 md:py-20 bg-sand-50">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-ocean-50 text-ocean-700 text-sm font-medium mb-6">
+              <BookOpen className="w-4 h-4" />
+              Latest Guides
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-3">
+              Junk Removal Guides for 30A &amp; PCB
+            </h2>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+              In-depth operational guides for property owners, vacation rental managers, and homeowners across the 30A corridor and Panama City Beach.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            {blogPosts.slice(-6).reverse().map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="group block bg-white rounded-2xl border border-sand-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+              >
+                <div className="aspect-[16/10] relative bg-gradient-to-br from-ocean-400 to-seafoam-500 overflow-hidden">
+                  <Image
+                    src={post.image}
+                    alt={post.imageAlt}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+                  <div className="absolute bottom-3 left-3 right-3 flex gap-2">
+                    {post.tags.slice(0, 2).map((tag) => (
+                      <span
+                        key={tag}
+                        className="px-2.5 py-0.5 text-xs font-medium bg-white/25 backdrop-blur-sm text-white rounded-full"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-ocean-600 transition-colors line-clamp-2">
+                    {post.title}
+                  </h3>
+                  <p className="text-sm text-slate-600 line-clamp-2 mb-4">
+                    {post.excerpt}
+                  </p>
+                  <div className="flex items-center gap-3 text-xs text-slate-500">
+                    <span className="inline-flex items-center gap-1">
+                      <Calendar className="w-3.5 h-3.5" />
+                      {post.lastUpdated || post.date}
+                    </span>
+                    <span className="inline-flex items-center gap-1">
+                      <Clock className="w-3.5 h-3.5" />
+                      {post.readTime}
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-10 text-center">
+            <Link
+              href="/blog"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-ocean-600 text-white rounded-xl font-semibold hover:bg-ocean-700 transition-colors shadow-md hover:shadow-lg"
+            >
+              View All {blogPosts.length} Guides
+              <ArrowRight className="w-5 h-5" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <FAQ />
       <LinksSection
         internalLinks={internalLinks}
