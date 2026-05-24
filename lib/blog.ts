@@ -159,10 +159,24 @@ Each 30A community has its own logistics, HOA rules, and disposal patterns. We'v
 - [Alys Beach Junk Removal: The Complete Guide](/blog/alys-beach-junk-removal-complete-guide) — ultra-premium architectural standards, courtyard-home logistics, white-glove vendor expectations
 - [Rosemary Beach Junk Removal Guide](/blog/rosemary-beach-junk-removal-complete-guide) — cobblestone-street truck access, New Urbanist design constraints, premium vacation rental patterns
 - [Seaside Florida Junk Removal Guide](/blog/seaside-florida-junk-removal-complete-guide) — sand-path access, the original 30A community design, established vacation rental operations
+- [WaterColor Junk Removal Guide](/blog/watercolor-junk-removal-complete-guide) — resort and residential mix, Western Lake-adjacent properties, hybrid HOA environment
 - [Grayton Beach Junk Removal Guide](/blog/grayton-beach-junk-removal-complete-guide) — Old Florida historic cottages, eclectic property mix, relaxed HOA environment
+- [Santa Rosa Beach Junk Removal Guide](/blog/santa-rosa-beach-junk-removal-complete-guide) — 30A's commercial and residential hub, diverse property types, Highway 98 commercial corridor
+- [Inlet Beach Junk Removal Guide](/blog/inlet-beach-junk-removal-complete-guide) — eastern 30A gateway, mixed established and new construction, relaxed-HOA environment
 - [Miramar Beach Junk Removal Guide](/blog/miramar-beach-junk-removal-complete-guide) — beachfront condo logistics, mixed vacation rental and residential, western gateway to 30A
 - [Sandestin Junk Removal Guide](/blog/sandestin-junk-removal-resort-community-guide) — 2,400-acre gated resort, vendor authorization protocols, golf-course-adjacent properties
 - [Panama City Beach Junk Removal Guide](/blog/panama-city-beach-junk-removal-complete-guide) — high-rise condo towers, spring break peak season, Hurricane Michael rebuild patterns
+
+**Item-specific disposal guides:**
+- [How to Dispose of Common Items in 30A Florida](/blog/how-to-dispose-of-common-items-30a-florida) — comprehensive item-by-item guide across all categories
+- [Mattress Disposal in 30A and PCB: Complete Guide](/blog/mattress-disposal-30a-pcb-complete-guide) — Florida plastic-bag rule, recycling options, vacation rental volume patterns
+- [Refrigerator and Appliance Disposal in 30A and PCB](/blog/refrigerator-appliance-disposal-30a-pcb-complete-guide) — EPA Section 608 compliance, retailer take-back programs, scrap metal economics
+- [Hot Tub Removal Cost in 30A](/blog/hot-tub-removal-cost-30a-pricing-breakdown) — cost factors, size pricing, DIY vs. professional comparison
+- [Where to Donate Furniture and Household Items on 30A](/blog/where-to-donate-furniture-household-items-30a-florida) — Habitat ReStore, Salvation Army, and tax-deduction workflow
+
+**County-level disposal guides:**
+- [Walton County Junk Removal Complete Guide](/blog/junk-removal-walton-county-florida-complete-guide) — Mossy Head Landfill, county HHW events, bulk pickup rules
+- [Bay County Junk Removal Complete Guide](/blog/junk-removal-bay-county-florida-complete-guide) — Steelfield Landfill, Hurricane Michael recovery patterns, PCB and inland Bay County disposal
 
 ## What Makes 30A Junk Removal Different?
 
@@ -13175,6 +13189,666 @@ Mattress disposal volume varies dramatically by 30A community and across the bro
       {
         question: 'What\'s the fastest way to dispose of a mattress in 30A?',
         answer: 'For time-pressured disposal (vacation rental Saturday turnover, HOA-fine deadline, closing-date cleanout): professional same-day mattress removal is the fastest option, with typical response times of 2-4 hours if booked by 11 AM. For non-urgent disposal: curbside bulk pickup is free but requires waiting for the next scheduled pickup window (typically up to a week). Self-haul to Walton County or Bay County landfill takes 1-2 hours total but requires a truck and plastic wrapping. Wrapping in plastic is required for all three options.'
+      }
+    ]
+  },
+  {
+    slug: 'watercolor-junk-removal-complete-guide',
+    title: 'WaterColor Junk Removal: The Complete Guide for the Resort Community on 30A',
+    excerpt: "WaterColor blends resort amenities with residential character around Western Lake. From the WaterColor Inn area to private residential streets, here's the complete junk removal guide for this distinctive 30A community.",
+    author: '30A Junk Removal LLC',
+    date: '2026-05-24',
+    lastUpdated: '2026-05-24',
+    readTime: '10 min read',
+    image: 'https://images.unsplash.com/photo-1602169876503-d4e8c3c1bda1?w=1200&h=630&fit=crop',
+    imageAlt: 'WaterColor Florida resort community along Scenic Highway 30A with Western Lake',
+    tags: ['WaterColor', '30A', 'Walton County', 'Resort Communities', 'Vacation Rentals'],
+    metaDescription: 'Complete junk removal guide for WaterColor FL. Resort area logistics, residential neighborhood patterns, Western Lake-adjacent disposal, HOA standards, and pricing.',
+    keywords: [
+      'WaterColor junk removal',
+      'junk removal WaterColor FL',
+      'WaterColor vacation rental cleanout',
+      'WaterColor FL property service',
+      'WaterColor furniture removal',
+      'Western Lake junk removal',
+      'WaterColor HOA',
+      'WaterColor Inn junk removal',
+    ],
+    content: `
+# WaterColor Junk Removal: The Complete Guide
+
+[WaterColor](/service-areas/watercolor) is one of the most distinctive communities on 30A — combining resort hospitality, residential neighborhoods, and the natural setting of Western Lake into a single master-planned community spanning ~500 acres along the bay-to-Gulf corridor. From the WaterColor Inn and Resort area to the residential lanes around Cerulean Park, junk removal in WaterColor operates across multiple property types with their own logistics.
+
+This guide is the operational playbook for property owners and vacation rental managers in WaterColor — covering the resort-area logistics, the residential neighborhood patterns, the HOA standards, the Western Lake-adjacent property considerations, and the practical decisions about service routing.
+
+## The WaterColor Community Structure
+
+WaterColor's master plan integrates resort, residential, and amenity zones into a single contiguous community. Understanding which zone you're in matters for junk removal:
+
+**WaterColor Inn and Resort area:** The community's hospitality core — boutique hotel, resort amenities, beach access. Vendor activity in this zone is restricted during guest-traffic hours.
+
+**Residential neighborhoods (Cerulean Park, Sweet Bay, Camp WaterColor, the streets near Western Lake):** Single-family and townhome inventory. Most permitted standard service patterns with HOA aesthetic compliance.
+
+**Western Lake-adjacent properties:** Higher-end residential inventory with lake access. Some properties have boat docks, lake-adjacent storage, and water-recreation equipment that drives unique disposal needs.
+
+**Townhome and condo neighborhoods:** Mid-density residential inventory with simpler curbside access patterns.
+
+**The Cerulean Park central amenity zone:** Pool, parks, community center. Vendor restrictions during community-event hours.
+
+WaterColor's master HOA enforces community-wide standards; specific neighborhoods may layer on additional rules.
+
+## WaterColor Vacation Rental Operations
+
+WaterColor hosts a moderate vacation rental market — smaller than [Seaside](/blog/seaside-florida-junk-removal-complete-guide) or [Rosemary Beach](/blog/rosemary-beach-junk-removal-complete-guide), but operating at similar premium price points. Pattern:
+
+**Saturday turnovers dominate.** Standard 30A 10 AM - 4 PM window.
+
+**Higher-end vacation rental inventory.** WaterColor properties typically command weekly rates of $4,000-$12,000+ during peak season. Quality standards are correspondingly high.
+
+**Resort-managed and independently-managed mix.** Some WaterColor units are managed through the WaterColor Inn's resort management; others through independent property management companies or direct-owner management.
+
+**Photo-documented disposal** for owner billing — standard at WaterColor price points. 4-photo workflow per billed removal.
+
+Our [property manager playbook](/blog/property-manager-junk-removal-playbook-30a) covers the operational pattern.
+
+## HOA Aesthetic Standards in WaterColor
+
+WaterColor's master HOA enforces aesthetic standards similar to but slightly more permissive than [Rosemary Beach](/blog/rosemary-beach-junk-removal-complete-guide) or [Seaside](/blog/seaside-florida-junk-removal-complete-guide). For junk removal:
+
+**Visible curbside debris during high-traffic hours is generally prohibited** in most WaterColor neighborhoods. Items should be staged interior or in non-visible exterior staging areas (rear yards behind privacy landscaping) until vendor pickup.
+
+**Direct vendor removal is preferred** over curbside staging. Items go from property to vendor truck without intermediate curbside positioning.
+
+**Service vehicle hours.** Most WaterColor neighborhoods permit vendor activity during standard business hours (7 AM - 6 PM). Resort-area zones have tighter restrictions during guest-traffic peak hours.
+
+**Confirm with neighborhood HOA** for specific rules. WaterColor's various sub-neighborhoods may have neighborhood-level overlays on the master standards.
+
+## What Comes Out of WaterColor Properties
+
+WaterColor disposal patterns reflect the community's premium positioning and resort-residential mix:
+
+**Premium bedroom and living room furniture** — 4-6 year replacement cycles for primary furniture in vacation rental units, slightly longer for owner-occupied properties.
+
+**Outdoor patio furniture** — 2-4 year replacement cycle, longer for Western Lake-adjacent properties (less salt-air exposure than Gulf-front WaterColor units).
+
+**Lake equipment and boating supplies** — kayaks, paddleboards, fishing gear, lake-related storage clearance from Western Lake-adjacent properties.
+
+**Renovation debris** during ownership transitions — kitchen and bathroom remodels are particularly common at WaterColor due to the community's evolving design standards.
+
+**Hot tub removal** at private residences — some WaterColor homes include private spas. See our [hot tub removal guide](/blog/hot-tub-removal-30a-complete-guide) and [cost breakdown](/blog/hot-tub-removal-cost-30a-pricing-breakdown).
+
+**Estate clearance** during property sales — moderate volume, typical of 30A premium communities.
+
+## Pricing in WaterColor
+
+WaterColor pricing typically runs 8-15% higher than equivalent work in less-restrictive 30A communities, slightly below [Rosemary Beach](/blog/rosemary-beach-junk-removal-complete-guide) or [Alys Beach](/blog/alys-beach-junk-removal-complete-guide) premiums:
+
+- **Single-item haul:** $200-$350
+- **Bedroom set or moderate cleanout:** $425-$625
+- **Multi-room cleanout:** $600-$900
+- **Full-property clearance:** $900-$1,800+
+- **Hot tub removal:** $550-$950
+
+See [junk removal cost guide](/blog/junk-removal-cost-30a-2026-pricing-guide) for specifics.
+
+## When WaterColor Owners Should Call
+
+For routine disposal — single donatable furniture piece, small bag of garage cleanout — Walton County bulk pickup works for most WaterColor residential neighborhoods (with attention to HOA aesthetic compliance).
+
+Call [professional removal](/services) when:
+
+- **Vacation rental turnover timing** — Saturday 10 AM - 4 PM window
+- **Multi-piece replacement** — anything exceeding standard curbside item-count limits
+- **Resort-area properties** — strict vendor-hour restrictions during guest traffic
+- **HOA-strict residential neighborhoods** — curbside staging not workable
+- **Lake equipment cleanout** — bulky boating supplies requiring specialty handling
+- **Construction debris from renovations** — never eligible for curbside
+
+## Frequently Asked Questions
+`,
+    faqs: [
+      {
+        question: 'What are the HOA rules for junk removal in WaterColor?',
+        answer: "WaterColor's master HOA enforces aesthetic standards prohibiting visible curbside debris during high-traffic hours in most neighborhoods. Items should be staged interior to the property or in non-visible exterior staging areas (rear yards behind privacy landscaping) until vendor pickup. Direct vendor removal is preferred over curbside staging. Service vehicle hours are typically 7 AM - 6 PM with tighter restrictions in resort-area zones during guest-traffic peak hours. Confirm specific neighborhood rules with the WaterColor HOA."
+      },
+      {
+        question: 'How much does junk removal cost in WaterColor?',
+        answer: 'WaterColor pricing typically runs 8-15% higher than less-restrictive 30A communities, slightly below Rosemary Beach or Alys Beach premiums. Typical 2026 rates: single-item haul $200-$350, bedroom set/moderate cleanout $425-$625, multi-room cleanout $600-$900, full-property clearance $900-$1,800+. Hot tub removal at private WaterColor residences runs $550-$950 depending on access.'
+      },
+      {
+        question: 'How does junk removal work for the WaterColor Inn and resort area?',
+        answer: 'The WaterColor Inn and resort-area properties operate under tighter vendor-hour restrictions than the residential neighborhoods due to guest traffic. Most vendor activity in the resort area is restricted to off-peak windows (typically early morning or after standard guest check-in hours). For vacation rental units within the resort-managed inventory, coordination through the WaterColor Inn property management is typical. Independent vacation rental units within WaterColor follow standard 30A property management protocols.'
+      },
+      {
+        question: 'Can I get same-day junk removal in WaterColor?',
+        answer: 'Yes — most professional junk removal services in WaterColor offer same-day response if called by 11 AM. Saturday turnover during peak season (spring break March-April, summer June-August) has tighter capacity; book by 9-10 AM to guarantee same-day. Property management companies on preferred-vendor agreements typically get prioritized response within 4-hour SLAs.'
+      },
+      {
+        question: 'Do WaterColor properties near Western Lake have unique disposal needs?',
+        answer: 'Yes. Western Lake-adjacent WaterColor properties often include boat docks, water-recreation equipment storage, and lake-related supplies (kayaks, paddleboards, fishing gear, dock supplies, water-recreation items). Periodic clearance of these specialty items requires either DIY routing to appropriate donation channels (some can go to outdoor recreation nonprofits) or professional removal. Standard residential disposal patterns apply for furniture, appliances, and household goods.'
+      },
+      {
+        question: 'Where do donatable items from WaterColor properties go?',
+        answer: 'Donatable items from WaterColor typically route to Habitat for Humanity ReStore (multiple Walton County locations) or Salvation Army Family Stores. Given the premium nature of WaterColor inventory, donations recover meaningful tax-deduction value — fair-market values commonly run $150-$700 per furniture piece for items in good condition. Donation receipts route back to the property owner for tax-deduction filing. Our donation guide covers the full workflow.'
+      },
+      {
+        question: 'What\'s the busiest junk removal season in WaterColor?',
+        answer: 'Summer (June-August) is WaterColor\'s most consistent high-volume window for vacation rental turnovers. Spring break (mid-March through April) drives intense but more concentrated volume. Shoulder seasons (September-October, March pre-peak) drive significant property-refresh and seasonal-preparation volume. January-February are the slowest months and best for owner renovation projects.'
+      }
+    ]
+  },
+  {
+    slug: 'santa-rosa-beach-junk-removal-complete-guide',
+    title: "Santa Rosa Beach Junk Removal: The Complete Guide for 30A's Commercial and Residential Hub",
+    excerpt: "Santa Rosa Beach is the commercial and residential heart of 30A — combining diverse neighborhoods, commercial corridors, and access to every other 30A community. Here's the complete junk removal guide.",
+    author: '30A Junk Removal LLC',
+    date: '2026-05-24',
+    lastUpdated: '2026-05-24',
+    readTime: '10 min read',
+    image: 'https://images.unsplash.com/photo-1582719367756-3a4d2bb88c8f?w=1200&h=630&fit=crop',
+    imageAlt: 'Santa Rosa Beach Florida residential and commercial corridor along 30A',
+    tags: ['Santa Rosa Beach', '30A', 'Walton County', 'Local Resources'],
+    metaDescription: "Complete junk removal guide for Santa Rosa Beach FL. Diverse property types, commercial corridor logistics, residential neighborhoods, and the operational patterns for 30A's commercial hub.",
+    keywords: [
+      'Santa Rosa Beach junk removal',
+      'junk removal Santa Rosa Beach FL',
+      'Santa Rosa Beach vacation rental cleanout',
+      'Santa Rosa Beach furniture removal',
+      'SRB junk removal',
+      'Santa Rosa Beach property service',
+      'Santa Rosa Beach commercial junk removal',
+      '30A central hub junk removal',
+    ],
+    content: `
+# Santa Rosa Beach Junk Removal: The Complete Guide
+
+[Santa Rosa Beach](/service-areas/santa-rosa-beach) — commonly abbreviated SRB — is the commercial and residential hub of 30A. While communities like [Seaside](/blog/seaside-florida-junk-removal-complete-guide), [Rosemary Beach](/blog/rosemary-beach-junk-removal-complete-guide), and [Alys Beach](/blog/alys-beach-junk-removal-complete-guide) are master-planned villages with tight aesthetic controls, Santa Rosa Beach is a broader, less-controlled area encompassing modern coastal developments, established residential neighborhoods, commercial corridors along Highway 98, and the access points to most other 30A communities.
+
+This guide covers junk removal in Santa Rosa Beach — the diverse property mix, the commercial corridor disposal patterns, the residential neighborhood logistics, and the practical considerations that come up regularly in SRB work.
+
+## What Makes Santa Rosa Beach Different
+
+Santa Rosa Beach's character is defined by its scale and diversity rather than a singular community design:
+
+**Geographic spread.** Santa Rosa Beach covers a much larger area than the smaller master-planned 30A communities. It stretches from the Highway 98 commercial corridor down to Gulf-front properties, encompassing dozens of subdivisions and neighborhood developments.
+
+**Diverse property types.** Modern coastal homes, established residential neighborhoods, condominium developments, mobile home communities, commercial properties — all coexist in Santa Rosa Beach in a way that doesn't happen in the tightly-defined master-planned villages.
+
+**Mixed commercial and residential.** The Highway 98 commercial corridor through Santa Rosa Beach hosts restaurants, retail, services, and offices — generating commercial junk removal demand alongside the residential market.
+
+**Relatively relaxed HOA environment.** Most Santa Rosa Beach subdivisions have moderate HOA standards. Curbside debris during scheduled pickup windows is generally workable. Strict-aesthetic communities like Alys Beach or Rosemary Beach are exceptions, not the norm.
+
+**Access to all other 30A communities.** Santa Rosa Beach's central location makes it the operational base for many 30A property managers and service vendors.
+
+## The Property Mix Drives Service Patterns
+
+Santa Rosa Beach's disposal patterns reflect the diverse property mix:
+
+**Gulf-front and beach-area homes** — premium vacation rental and second-home inventory along the southern (Gulf-side) portions of SRB. Operationally similar to other 30A communities with vacation rental patterns: Saturday turnovers, premium furniture refresh cycles, HOA compliance considerations.
+
+**Established residential neighborhoods** — long-term resident communities with standard suburban disposal patterns. Walton County curbside bulk pickup handles most routine disposal needs.
+
+**Modern coastal developments** — newer construction with full driveway access, standard service patterns, contemporary HOA rules typical of newer subdivisions.
+
+**Highway 98 commercial corridor** — restaurants, retail, offices generating commercial waste streams. Restaurant kitchen cleanouts, office furniture replacement, retail fixture disposal all common.
+
+**Mobile home and manufactured home communities** — distinct from the rest of SRB inventory, with their own removal patterns (often older inventory with periodic full-property clearance during sales or estate transitions).
+
+## Santa Rosa Beach Commercial Junk Removal
+
+The Highway 98 commercial corridor drives consistent [commercial junk removal](/services/commercial-junk-removal) demand:
+
+**Restaurant cleanouts** during ownership transitions or major remodels — kitchen equipment, dining furniture, refrigeration disposal.
+
+**Retail store fixtures** during business closures or major remodels — display racks, shelving, counters, custom millwork.
+
+**Office furniture disposal** during corporate relocations or downsizing — workstations, conference furniture, electronics.
+
+**Periodic commercial cleanouts** for property management companies handling commercial inventory along Highway 98 and the surrounding commercial zones.
+
+Commercial pricing in Santa Rosa Beach typically runs at standard rates with discounts available for scheduled-service relationships.
+
+## Santa Rosa Beach Vacation Rental Patterns
+
+Vacation rental volume in Santa Rosa Beach is moderate — less concentrated than [Seaside](/blog/seaside-florida-junk-removal-complete-guide) or [Rosemary Beach](/blog/rosemary-beach-junk-removal-complete-guide), but still substantial across the Gulf-front and beach-adjacent neighborhoods. Pattern:
+
+**Saturday turnovers** — standard 30A 10 AM - 4 PM window.
+
+**Mixed quality tier.** SRB vacation rentals range from budget-conscious family rentals to premium beach houses commanding $5,000-$12,000+ weekly during peak season. Furniture refresh cycles vary accordingly.
+
+**More relaxed HOA environment.** Most SRB neighborhoods permit standard curbside staging during pickup windows.
+
+**Saturday capacity demand.** Same-day SLA matters even in less-strict communities — guest arrival timing is fixed regardless of community type.
+
+Our [property manager playbook](/blog/property-manager-junk-removal-playbook-30a) covers operational patterns that apply across the full SRB inventory.
+
+## Residential Junk Removal in SRB
+
+For year-round Santa Rosa Beach residents, junk removal patterns are typical of suburban Walton County:
+
+**Routine bulk pickup** through Walton County curbside service. Weekly to bi-weekly schedules depending on specific neighborhood.
+
+**Periodic cleanouts** — garage cleanouts, basement cleanouts, estate transitions, hurricane preparation. These typically exceed curbside size or item-count limits and benefit from professional service.
+
+**Construction debris from home renovations** — never eligible for curbside; requires either self-haul to Walton County's Mossy Head Landfill or [professional construction debris removal](/services/construction-debris).
+
+**Appliance replacement** — refrigerators, washers, dryers, dishwashers. Refrigerators require certified refrigerant removal before disposal.
+
+**Standard disposal infrastructure** — Walton County operates the system covered in our [Walton County junk removal guide](/blog/junk-removal-walton-county-florida-complete-guide).
+
+## Pricing in Santa Rosa Beach
+
+Santa Rosa Beach pricing typically runs at standard Walton County coastal rates without the HOA-coordination premiums charged in strict-aesthetic communities:
+
+- **Single-item haul:** $150-$300
+- **Bedroom set or moderate cleanout:** $325-$525
+- **Multi-room cleanout:** $525-$750
+- **Full-property clearance:** $750-$1,600+
+- **Hot tub removal:** $450-$900
+- **Commercial cleanout (small):** $400-$800
+- **Commercial cleanout (large):** $800-$2,500+
+
+Specialty items (refrigerators with refrigerant, hot tubs, hazardous materials) carry standard surcharges. See [junk removal cost guide](/blog/junk-removal-cost-30a-2026-pricing-guide) for specifics.
+
+## When Santa Rosa Beach Residents Should Call Professional Removal
+
+For routine disposal in SRB residential neighborhoods, Walton County bulk pickup typically handles things well. Call [professional removal](/services) when:
+
+- **Volume exceeds curbside limits** — typically 3+ items or anything over 6 feet long
+- **Construction debris** — never eligible for curbside
+- **Refrigerators, hot tubs, electronics in volume** — all curbside-exempt categories
+- **Vacation rental turnover timing** — Saturday window pressures
+- **Commercial cleanouts** — restaurant, retail, office work
+- **Mixed waste streams** — jobs spanning donatable + disposable + recyclable + hazardous categories
+- **Estate clearance** — multi-decade accumulation requiring full-property workup
+
+[30A Junk Removal](/) serves the full Santa Rosa Beach corridor for both residential and commercial work.
+
+## Frequently Asked Questions
+`,
+    faqs: [
+      {
+        question: 'What are the HOA rules for junk removal in Santa Rosa Beach?',
+        answer: "Santa Rosa Beach is a broader, less-controlled area than master-planned 30A villages like Alys Beach or Rosemary Beach. Most SRB neighborhoods have moderate HOA standards permitting standard curbside staging during scheduled bulk pickup windows. Specific subdivisions may have additional rules; confirm with your neighborhood HOA. Strict-aesthetic standards like those in Alys Beach are exceptions in SRB, not the norm."
+      },
+      {
+        question: 'How much does junk removal cost in Santa Rosa Beach?',
+        answer: 'Santa Rosa Beach pricing typically runs at standard Walton County coastal rates without HOA-coordination premiums. Typical 2026 rates: single-item haul $150-$300, bedroom set/moderate cleanout $325-$525, multi-room cleanout $525-$750, full-property clearance $750-$1,600+. Hot tub removal $450-$900 depending on access. Commercial cleanouts $400-$2,500+ depending on scope.'
+      },
+      {
+        question: 'Does Santa Rosa Beach have commercial junk removal services?',
+        answer: 'Yes. The Highway 98 commercial corridor through Santa Rosa Beach drives consistent commercial junk removal demand. Common categories: restaurant cleanouts during ownership transitions, retail store fixture disposal, office furniture replacement during corporate transitions, and periodic commercial cleanouts. Commercial pricing runs at standard rates with discounts available for scheduled-service relationships. See our commercial junk removal service page for details.'
+      },
+      {
+        question: 'Can I get same-day junk removal in Santa Rosa Beach?',
+        answer: 'Yes — most professional junk removal services in SRB offer same-day response if called by 11 AM. SRB\'s central location and relatively relaxed access makes same-day capacity easier to maintain than strict-HOA communities. During peak season (spring break March-April, summer June-August), capacity fills faster — book by 9-10 AM to guarantee same-day Saturday service.'
+      },
+      {
+        question: 'What\'s the property mix in Santa Rosa Beach?',
+        answer: 'Santa Rosa Beach combines Gulf-front and beach-area vacation rental homes, established residential neighborhoods, modern coastal developments, condominium properties, mobile home communities, and the Highway 98 commercial corridor. This diverse mix means disposal patterns vary significantly across the area — premium vacation rental turnovers in beach-area properties, suburban residential disposal in established neighborhoods, commercial cleanouts along Highway 98.'
+      },
+      {
+        question: 'How does Santa Rosa Beach junk removal differ from 30A villages like Seaside or Rosemary Beach?',
+        answer: "Santa Rosa Beach is operationally simpler than the master-planned 30A villages. No master HOA enforcing strict aesthetic standards. Standard curbside staging is workable in most SRB neighborhoods. Pricing runs lower without the HOA-coordination premiums charged in Alys Beach (15-25%), Rosemary Beach (10-20%), or Seaside (10-15%). For most SRB residents, the operational pattern is more like suburban Walton County than premium 30A village service."
+      },
+      {
+        question: 'Where do items removed from Santa Rosa Beach properties go?',
+        answer: 'Santa Rosa Beach is in Walton County, so disposal follows the Walton County system: donatable items to Habitat for Humanity ReStore or Salvation Army with receipts back to the property owner, working appliances and electronics to certified recyclers, standard household disposal to Walton County\'s Mossy Head Landfill, construction debris sorted at the property when possible. Our Walton County guide covers the full disposal infrastructure.'
+      }
+    ]
+  },
+  {
+    slug: 'inlet-beach-junk-removal-complete-guide',
+    title: 'Inlet Beach Junk Removal: The Complete Guide for the Eastern Gateway to 30A',
+    excerpt: "Inlet Beach sits at the eastern entry to 30A, combining established beach community character with newer construction and a growing vacation rental market. Here's the complete junk removal guide.",
+    author: '30A Junk Removal LLC',
+    date: '2026-05-24',
+    lastUpdated: '2026-05-24',
+    readTime: '9 min read',
+    image: 'https://images.unsplash.com/photo-1564013434775-f71db0030976?w=1200&h=630&fit=crop',
+    imageAlt: 'Inlet Beach Florida eastern entry to 30A corridor with beach houses and vacation rentals',
+    tags: ['Inlet Beach', '30A', 'Walton County', 'Vacation Rentals'],
+    metaDescription: 'Complete junk removal guide for Inlet Beach FL. Eastern 30A gateway logistics, mixed property types, vacation rental turnover patterns, and the operational guide for property owners.',
+    keywords: [
+      'Inlet Beach junk removal',
+      'junk removal Inlet Beach FL',
+      'Inlet Beach vacation rental cleanout',
+      'Inlet Beach furniture removal',
+      'eastern 30A junk removal',
+      'Inlet Beach property service',
+      'Inlet Beach 30A',
+      '30A gateway junk removal',
+    ],
+    content: `
+# Inlet Beach Junk Removal: The Complete Guide
+
+[Inlet Beach](/service-areas/inlet-beach) sits at the easternmost end of 30A, marking the gateway from Bay County (Panama City Beach) into Walton County and the 30A corridor. The community combines established beach-cottage character with newer construction, a growing vacation rental market, and access patterns shaped by being the connection point between two of the highest-volume vacation rental markets in Florida.
+
+This guide covers junk removal in Inlet Beach — the property mix, the eastern-gateway access logistics, the vacation rental dynamics, the HOA environment, and the practical considerations for residents and property managers.
+
+## Inlet Beach's Distinct Position on 30A
+
+Inlet Beach occupies a unique geographic position with operational implications:
+
+**Eastern entry to 30A.** The community is the first 30A neighborhood traveling west from Panama City Beach. Visitors entering the 30A corridor pass through Inlet Beach first, which drives some commercial and traffic patterns unique to the area.
+
+**County line proximity.** Inlet Beach is in Walton County (so Walton County disposal infrastructure applies), but Bay County is just across the Phillips Inlet bridge. Some disposal options for Bay County residents are nearby; some Walton County options require driving deeper into the 30A corridor.
+
+**Mixed property age and style.** Inlet Beach has established beach cottages from earlier decades alongside newer construction in recently-developed subdivisions. Some properties have decades of accumulated inventory; others are 5-10 year-old construction with shorter accumulation histories.
+
+**Growing vacation rental market.** Inlet Beach has expanded as a vacation rental destination over the past decade, particularly with new construction targeting the rental market.
+
+**Less strictly controlled than master-planned 30A villages.** Inlet Beach doesn't have a single master HOA enforcing community-wide aesthetic standards. Individual subdivisions have their own rules.
+
+## Property Mix and Disposal Patterns
+
+Inlet Beach's diverse property inventory drives varied disposal needs:
+
+**Established beach cottages** dating back several decades. Periodic estate clearance during ownership transitions; vintage and mid-century inventory occasionally has collector value.
+
+**Newer construction beach houses and townhomes** built in the past 10-15 years targeting the vacation rental market. Standard 30A furniture replacement cycles apply.
+
+**Condominium developments** scattered through the community. Standard service-elevator access patterns for the larger buildings.
+
+**Inland Inlet Beach** north of Highway 98 includes residential subdivisions with suburban disposal patterns.
+
+**Mobile home and manufactured home communities** in some Inlet Beach areas — distinct disposal patterns from the beach-oriented inventory.
+
+## Inlet Beach Vacation Rental Operations
+
+The vacation rental market in Inlet Beach has grown significantly. Volume patterns:
+
+**Saturday turnovers** — standard 30A 10 AM - 4 PM window.
+
+**Mixed price tier.** Some Inlet Beach rentals command premium 30A rates ($5,000-$10,000+ peak weekly); others target more budget-conscious renters at $2,000-$4,000 weekly.
+
+**Furniture refresh cycles** — 4-6 years for primary furniture in premium-tier rentals; longer for budget-tier rentals.
+
+**Same-day service capacity** during peak season is operationally important — Saturday turnover timing doesn't permit waiting for next-day pickup.
+
+Our [property manager playbook](/blog/property-manager-junk-removal-playbook-30a) covers the operational pattern.
+
+## HOA Environment in Inlet Beach
+
+Unlike the master-planned 30A communities, Inlet Beach has a more variable HOA environment:
+
+**Some subdivisions have moderate HOA standards** — typical suburban-style aesthetic compliance with curbside staging permitted during pickup windows.
+
+**Other Inlet Beach areas are essentially HOA-free** — curbside staging is permitted with standard Walton County rules.
+
+**Newer developments may have tighter rules** — modern Inlet Beach subdivisions built for the vacation rental market sometimes have stricter standards than older parts of the community.
+
+**Confirm with your specific subdivision HOA** before assuming a curbside disposal pattern.
+
+Inlet Beach pricing reflects this — without master-HOA coordination overhead, standard work runs at lower pricing than [Rosemary Beach](/blog/rosemary-beach-junk-removal-complete-guide) or [Alys Beach](/blog/alys-beach-junk-removal-complete-guide).
+
+## What Comes Out of Inlet Beach Properties
+
+Disposal patterns reflect the mixed property age and type:
+
+**Vintage cottage inventory** from estate clearances and ownership transitions — sometimes including pieces with collector value.
+
+**Standard vacation rental furniture turnover** from newer construction vacation rental inventory.
+
+**Renovation debris** as established cottages get modernized or new construction continues across the area.
+
+**Beach equipment storage clearance** — kayaks, paddleboards, beach chairs, umbrellas that accumulate at beach-oriented properties.
+
+**Hurricane debris** during storm seasons — Inlet Beach's coastal exposure means periodic [hurricane debris removal](/services/hurricane-debris) demand.
+
+**Standard residential disposal** for inland and suburban Inlet Beach inventory.
+
+## Pricing in Inlet Beach
+
+Inlet Beach pricing typically runs at standard Walton County coastal rates without the HOA-coordination premiums charged in strict-aesthetic communities:
+
+- **Single-item haul:** $150-$300
+- **Bedroom set or moderate cleanout:** $325-$525
+- **Multi-room cleanout:** $525-$750
+- **Full-property clearance:** $750-$1,500+
+- **Hot tub removal:** $450-$900
+
+For specifics, see [junk removal cost guide](/blog/junk-removal-cost-30a-2026-pricing-guide).
+
+## When Inlet Beach Residents Should Call
+
+For routine residential disposal — single furniture pieces, small bagged debris, items meeting curbside size limits — Walton County bulk pickup typically handles things in Inlet Beach's relaxed-HOA neighborhoods.
+
+Call [professional removal](/services) when:
+
+- **Vacation rental Saturday turnover timing** — same-day service needed
+- **Construction debris** — never eligible for curbside
+- **Multi-piece cleanouts** — anything exceeding standard curbside item-count limits
+- **Refrigerators, hot tubs, electronics in volume** — curbside-exempt categories
+- **Estate clearance** — multi-decade accumulation from older Inlet Beach cottages
+
+[30A Junk Removal](/) serves Inlet Beach as part of our standard 30A coverage. Text photos to (850) 368-3495 for quotes.
+
+## Frequently Asked Questions
+`,
+    faqs: [
+      {
+        question: 'What are the HOA rules for junk removal in Inlet Beach?',
+        answer: "Inlet Beach doesn't have a single master HOA enforcing community-wide standards. Individual subdivisions have their own rules — some have moderate HOA standards permitting curbside staging during pickup windows, others are essentially HOA-free with standard Walton County rules applying, and newer developments built for vacation rental markets sometimes have tighter standards. Confirm with your specific subdivision HOA before assuming a curbside disposal pattern."
+      },
+      {
+        question: 'How much does junk removal cost in Inlet Beach?',
+        answer: 'Inlet Beach pricing typically runs at standard Walton County coastal rates without HOA-coordination premiums. Typical 2026 rates: single-item haul $150-$300, bedroom set/moderate cleanout $325-$525, multi-room cleanout $525-$750, full-property clearance $750-$1,500+. Hot tub removal $450-$900 depending on access. Pricing runs noticeably lower than Rosemary Beach, Alys Beach, or Seaside premium rates.'
+      },
+      {
+        question: 'Can I get same-day junk removal in Inlet Beach?',
+        answer: 'Yes — most professional junk removal services serving the 30A corridor cover Inlet Beach and offer same-day response if called by 11 AM. Saturday turnover during peak season has tighter capacity; book by 9-10 AM to guarantee same-day. Property management companies on preferred-vendor agreements typically get prioritized response within 4-hour SLAs.'
+      },
+      {
+        question: 'How does Inlet Beach junk removal differ from the rest of 30A?',
+        answer: "Inlet Beach's relaxed HOA environment is the main operational difference from master-planned 30A villages. Pricing runs lower without the HOA-coordination premiums charged in Rosemary Beach (10-20%), Seaside (10-15%), or Alys Beach (15-25%). Curbside staging is workable in most Inlet Beach neighborhoods. The mixed property age — established cottages alongside newer construction — means cottage-by-cottage disposal patterns vary, requiring professional crews who can adapt to both vintage and modern property workflows."
+      },
+      {
+        question: 'Where do items from Inlet Beach properties go for disposal?',
+        answer: 'Inlet Beach is in Walton County, so disposal follows the Walton County system: donatable items to Habitat for Humanity ReStore or Salvation Army, working appliances and electronics to certified recyclers, standard household disposal to Walton County\'s Mossy Head Landfill, construction debris sorted at the property when possible. Some Inlet Beach residents close to the Bay County line occasionally use Bay County\'s Steelfield Landfill, but Walton County resident pricing requires Walton County ID.'
+      },
+      {
+        question: 'Can vacation rental managers in Inlet Beach negotiate preferred-vendor pricing?',
+        answer: 'Yes — vacation rental property managers with 10+ Inlet Beach units typically negotiate preferred-vendor agreements with 8-15% volume discounts, same-day SLA during peak season, photo documentation per job, weekly invoicing, and net-15 payment terms. The relaxed HOA environment means operational logistics are simpler than in strict-aesthetic 30A communities, which often translates to faster turnaround times and lower per-job costs.'
+      },
+      {
+        question: 'Are there vintage or antique items in Inlet Beach cottages worth special handling?',
+        answer: 'Yes. Established Inlet Beach cottages from earlier decades sometimes contain vintage furniture, period appliances, mid-century pieces, or other items with potential collector value. Professional junk removal services with experience in 30A estate clearances can help identify items that warrant specialty resale routing vs. standard donation through Habitat ReStore or Salvation Army. Mid-century furniture, period lighting, original Florida vernacular pieces, and antique household items all may have specialty value.'
+      }
+    ]
+  },
+  {
+    slug: 'refrigerator-appliance-disposal-30a-pcb-complete-guide',
+    title: 'Refrigerator and Appliance Disposal in 30A and Panama City Beach: The Complete 2026 Guide',
+    excerpt: "Refrigerators, freezers, and major appliances have specific disposal rules that differ from regular junk removal — EPA refrigerant compliance, retailer take-back programs, scrap metal value, and the operational decisions that matter. Here's the complete guide.",
+    author: '30A Junk Removal LLC',
+    date: '2026-05-24',
+    lastUpdated: '2026-05-24',
+    readTime: '11 min read',
+    image: 'https://images.unsplash.com/photo-1610818989901-7325edbc8e8c?w=1200&h=630&fit=crop',
+    imageAlt: 'Refrigerator and appliance disposal on 30A and Panama City Beach Florida',
+    tags: ['Appliance Disposal', 'Refrigerator Removal', '30A', 'PCB', 'Disposal Guide'],
+    metaDescription: 'Complete 2026 guide to refrigerator and appliance disposal in 30A and PCB. EPA refrigerant rules, retailer take-back programs, scrap metal options, and professional removal pricing.',
+    keywords: [
+      'refrigerator disposal 30A',
+      'refrigerator removal cost 30A',
+      'appliance disposal Panama City Beach',
+      'how to dispose of a refrigerator Florida',
+      'refrigerator recycling 30A',
+      'appliance removal cost',
+      'EPA refrigerant disposal',
+      'washer dryer disposal 30A',
+    ],
+    content: `
+# Refrigerator and Appliance Disposal in 30A and PCB: The Complete Guide
+
+Refrigerators, freezers, and major appliances are some of the most regulated items in residential disposal. EPA Section 608 governs refrigerant handling, Florida state law restricts curbside acceptance, and the operational details — refrigerant removal certification, scrap metal routing, retailer take-back programs — all matter to getting it done legally and cost-effectively.
+
+This guide covers appliance disposal across 30A and Panama City Beach — the federal refrigerant rules, the local disposal infrastructure, the retailer take-back programs that make this easier, the DIY vs. professional decisions, and the specific patterns we see across the corridor's vacation rental market.
+
+## Why Appliance Disposal Is Different
+
+Three factors make appliance disposal more complex than standard furniture removal:
+
+**1. EPA Section 608 refrigerant compliance.** Refrigerators, freezers, AC units, dehumidifiers, and similar appliances contain refrigerant — primarily R-134a in newer units, R-22 in pre-2010 systems, R-12 in pre-1995 systems. All refrigerants are regulated by EPA Section 608. Releasing refrigerant into the atmosphere is illegal. Disposal requires either certified refrigerant recovery or transfer to a facility that performs certified recovery.
+
+**2. Size, weight, and access challenges.** A typical residential refrigerator weighs 200-400 pounds. Standard kitchen access doesn't fit a fridge through a typical door without removing the doors. Stairs are particularly challenging — two-person lifting is the minimum for safety. Damaged floors, scuffed walls, and personal injury risks are real if not handled properly.
+
+**3. Scrap metal recovery value.** A typical refrigerator contains 50-100 pounds of recoverable steel, plus smaller amounts of copper (in the compressor coils) and aluminum. Properly routed, scrap value offsets meaningful portions of disposal cost. Routed incorrectly, that value is lost.
+
+## EPA Section 608 and What It Means in Practice
+
+EPA Section 608 of the Clean Air Act requires that refrigerant be recovered by an EPA-certified technician before any appliance containing it is disposed of, recycled, or destroyed. The penalties for non-compliance are real — both civil ($45,000+ per violation) and criminal for willful violations.
+
+In practice, this means:
+
+**Disposal facilities won't accept refrigerated appliances without proof of refrigerant recovery.** Walton County's Mossy Head Landfill, Bay County's Steelfield Landfill, scrap yards along the Panhandle, and any reputable recycling facility all require either a certificate of refrigerant recovery or perform the recovery themselves at the facility (with a separate fee, typically $25-$50 per unit).
+
+**Curbside bulk pickup refuses refrigerated appliances** in both Walton and Bay counties. Items left at the curb without certification simply don't get picked up.
+
+**Professional removal services handle the certification.** Our [appliance removal service](/services/appliance-removal) includes refrigerant recovery certification as part of standard pricing for any refrigerated unit.
+
+**Retailer take-back programs handle this automatically** when delivering a new appliance.
+
+## The Retailer Take-Back Approach (Easiest Path)
+
+For most homeowners replacing a refrigerator, washer, dryer, or similar major appliance, the retailer take-back is the easiest disposal path:
+
+**Best Buy, Lowe's, Home Depot, Costco appliance delivery:** All major appliance retailers offer hauling-away of the old appliance when delivering the new one. Typical fees:
+- Refrigerator: $25-$75 (handles refrigerant compliance)
+- Washing machine: $20-$40
+- Dryer: $20-$40
+- Dishwasher: $20-$40
+- Range/Oven: $20-$50
+
+The retailer handles refrigerant recovery (if applicable) and disposal. You sign delivery paperwork acknowledging the haul-away and you're done. This is the cheapest path for one-for-one replacements.
+
+**Mattress Firm, Ashley Furniture, etc.:** Furniture retailers don't typically haul appliances. Only appliance retailers offer this service.
+
+**Online retailer purchases (Amazon, manufacturer direct):** Some delivery teams include haul-away; many don't. Confirm at point of purchase.
+
+## County Drop-Off Options
+
+For appliances not being replaced through retailer purchase:
+
+**Walton County Mossy Head Landfill:** Accepts appliances for disposal. Refrigerated units require certified refrigerant recovery before drop-off, or the facility performs recovery for an additional fee. Standard tipping rates apply by weight.
+
+**Bay County Steelfield Landfill:** Same rules — refrigerant recovery required for refrigerated units. Standard tipping rates apply.
+
+**County HHW events** (quarterly in most areas): Accept some appliance categories, particularly smaller items. Confirm acceptance for your specific item before transporting.
+
+**Scrap metal facilities:** Many appliance components are valuable scrap. Some scrap yards accept whole appliances and handle refrigerant recovery internally; others require pre-recovery before acceptance. Calls ahead saves wasted trips.
+
+## Professional Appliance Removal Pricing
+
+For multi-appliance jobs, time-pressured removals, or any situation where DIY isn't practical, professional [appliance removal](/services/appliance-removal) handles the operation:
+
+**Single appliance pickup:**
+- Refrigerator (full-size): $150-$250 (includes refrigerant recovery)
+- Refrigerator (compact/dorm): $100-$175
+- Freezer (standalone): $150-$225 (includes refrigerant recovery)
+- Washer: $100-$150
+- Dryer: $100-$150
+- Dishwasher: $100-$150
+- Range/Oven: $125-$175
+- Microwave: $50-$100
+- Air conditioner (window unit): $75-$125 (includes refrigerant recovery)
+- HVAC system component: $150-$300 (requires HVAC technician for refrigerant recovery)
+
+**Multi-appliance jobs** (kitchen replacement, full-property cleanout):
+- 3-4 appliances: $300-$500
+- 5+ appliances: $400-$700
+
+**Add-on services:**
+- Disconnect of water/gas lines: $25-$50 per appliance
+- Removal from upper floors: +$25-$75 per floor depending on access
+
+These prices typically include refrigerant recovery certification, transport, and disposal fees at the receiving facility. Scrap value recovery may be applied as a credit against disposal cost for working appliances or those with substantial recoverable metal.
+
+## The Vacation Rental Appliance Pattern
+
+Vacation rentals along 30A and PCB drive consistent appliance disposal volume. Patterns:
+
+**5-10 year residential refrigerator life cycle** under typical use; closer to 5-7 years in vacation rental settings due to constant guest cycling.
+
+**Washer and dryer cycles** — 5-8 years for high-end machines under vacation rental use, with damage-driven replacements happening between scheduled refresh cycles.
+
+**Kitchen refresh during ownership transitions** — full appliance replacement (refrigerator, range, dishwasher, microwave) common when new owners take over vacation rental properties.
+
+**Mini-fridges and beverage centers** in private home bars or wet bar setups — periodically replaced as fashion and technology evolve.
+
+**Pool and spa equipment disposal** — pool pumps, heaters, filtration equipment — distinct category requiring specialty handling for refrigerant-containing components.
+
+Vacation rental property managers often schedule appliance disposal as part of broader furniture refresh projects. Bulk pricing applies for multi-unit appliance replacement projects.
+
+## DIY Refrigerator Disposal: The Step-by-Step
+
+For single-unit refrigerator disposal where DIY makes sense:
+
+**Step 1: Empty and defrost.** Unplug at least 24 hours before disposal. Remove all food. Drain water lines if applicable. Tape doors shut for transport.
+
+**Step 2: Choose disposal channel:**
+- New refrigerator purchase: take-back at delivery (easiest)
+- Local scrap yard with refrigerant recovery: $0-$25 (sometimes scrap value covers disposal)
+- Walton/Bay County landfill with on-site recovery: $25-$50 plus tipping fee
+- Donation if appliance is functional and under 10 years old (Habitat ReStore, depending on condition)
+
+**Step 3: Transport.** A refrigerator requires a truck or large vehicle with adequate clearance. Two-person lifting minimum for safety. Securing in transport with straps prevents shifting.
+
+**Step 4: Documentation.** If certified recovery happens at the disposal facility, request documentation. This is important for tax-deduction donations and for verification that disposal happened legally.
+
+**When DIY doesn't work:**
+- Upper-floor installations (apartments, condos)
+- Properties without truck access
+- Multiple appliances or larger replacement jobs
+- Time-pressured disposal (turnovers, closing dates)
+- Damaged appliances unsafe to move
+- Refrigerated units where you can't verify refrigerant recovery happened
+
+## Other Appliance Categories
+
+Beyond refrigerators, the disposal patterns:
+
+**Washing machines and dryers:** Less complex than refrigerators (no refrigerant). Standard scrap metal value, easy retailer take-back, straightforward county landfill acceptance. Pricing typically $100-$150 for professional removal.
+
+**Dishwashers:** Similar simplicity to washers. $100-$150 professional removal pricing.
+
+**Ranges, ovens, microwaves:** Standard scrap metal disposal. $50-$175 depending on size and complexity. Built-in installations require disconnect work.
+
+**Window air conditioners and dehumidifiers:** Contain refrigerant — same Section 608 rules as refrigerators. $75-$125 professional removal.
+
+**HVAC system components:** Require certified HVAC technician for refrigerant recovery. Professional removal pricing $150-$300 for major components; whole-system replacement is a different category (typically handled by HVAC contractor as part of installation).
+
+## Frequently Asked Questions
+`,
+    faqs: [
+      {
+        question: 'How much does it cost to remove a refrigerator in 30A or Panama City Beach?',
+        answer: 'Professional refrigerator removal in 30A and PCB typically runs $150-$250 for a full-size refrigerator (includes EPA-required refrigerant recovery), $100-$175 for compact/dorm refrigerators. The easiest path for one-for-one replacement is retailer take-back at delivery — most major appliance retailers (Best Buy, Lowe\'s, Home Depot, Costco) offer this for $25-$75 per unit. Self-haul to Walton County\'s Mossy Head Landfill or Bay County\'s Steelfield Landfill is possible but requires either pre-certified refrigerant recovery or on-site recovery for an additional fee.'
+      },
+      {
+        question: 'Why can\'t I put a refrigerator at the curb in Florida?',
+        answer: 'EPA Section 608 of the Clean Air Act regulates refrigerants in refrigerators, freezers, AC units, and dehumidifiers. Refrigerant must be recovered by an EPA-certified technician before disposal. Releasing refrigerant into the atmosphere is illegal. Florida curbside bulk pickup providers refuse refrigerated appliances because they can\'t guarantee certified refrigerant recovery happened — items left at the curb without certification simply don\'t get collected. Penalties for non-compliance can reach $45,000+ per violation.'
+      },
+      {
+        question: 'How do I dispose of a washing machine or dryer in 30A?',
+        answer: 'Washing machines and dryers are simpler than refrigerators (no refrigerant). Options: (1) Retailer take-back at delivery of new appliance ($20-$40 per unit); (2) Self-haul to Walton or Bay County landfill at standard tipping rates; (3) Scrap metal facilities accept whole washers and dryers (sometimes paying small scrap value depending on metal content); (4) Professional removal services run $100-$150 per unit. Disconnect of water and gas lines may add $25-$50 if required.'
+      },
+      {
+        question: 'Does Best Buy haul away my old refrigerator?',
+        answer: 'Yes — Best Buy, Lowe\'s, Home Depot, and Costco all offer haul-away of old appliances when delivering new ones. Typical fees: refrigerator $25-$75 (handles EPA-required refrigerant recovery), washer/dryer $20-$40 each, dishwasher $20-$40, range/oven $20-$50. This is usually the cheapest disposal path for one-for-one replacements. Sign delivery paperwork acknowledging the haul-away and you\'re done. Confirm haul-away pricing at point of purchase.'
+      },
+      {
+        question: 'Can I scrap a refrigerator for money?',
+        answer: 'Sometimes — a typical refrigerator contains 50-100 pounds of recoverable steel, plus smaller amounts of copper and aluminum. Scrap value typically runs $15-$40 per refrigerator at current metal prices. However, scrap yards require certified refrigerant recovery before acceptance, which often costs $25-$50 — sometimes wiping out the scrap value. Net economics: scrapping a refrigerator yourself often breaks even or generates $0-$20 in net value. Professional removal includes the recovery and may apply scrap value as a credit.'
+      },
+      {
+        question: 'How do I dispose of an old refrigerator without buying a new one?',
+        answer: 'Three options: (1) Professional removal service ($150-$250 includes refrigerant recovery and disposal); (2) Self-haul to Walton or Bay County landfill with on-site refrigerant recovery for an additional fee; (3) Local scrap yard that handles refrigerant recovery internally (call ahead to confirm acceptance). Without certified refrigerant recovery, no legitimate disposal facility will accept a refrigerator. Donation to Habitat ReStore is possible only for working units under 10 years old in good condition.'
+      },
+      {
+        question: 'Do property managers get bulk pricing on appliance disposal?',
+        answer: 'Yes — vacation rental property managers handling 10+ units typically negotiate volume pricing for appliance replacement projects. Bulk appliance disposal for kitchen-refresh projects (replacing refrigerator + range + dishwasher + microwave across multiple units) typically runs $200-$350 per kitchen including all four appliances, refrigerant recovery, and disposal fees. Scheduled service relationships also enable coordinated timing with new appliance delivery to minimize property disruption.'
       }
     ]
   }
