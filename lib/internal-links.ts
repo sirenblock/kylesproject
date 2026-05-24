@@ -42,12 +42,12 @@ export const serviceInternalLinks: Record<string, ServiceLinks> = {
   'construction-debris': {
     relatedServices: ['yard-debris', 'garage-cleanouts', 'one-time-hauls'],
     relatedLocations: ['rosemary-beach', 'alys-beach', 'seaside'],
-    relatedBlogPosts: ['30a-homeowner-renovation-debris-removal-guide', 'construction-debris-removal-what-to-know', 'ultimate-guide-junk-removal-30a-florida']
+    relatedBlogPosts: ['30a-homeowner-renovation-debris-removal-guide', 'construction-debris-removal-what-to-know', 'ultimate-guide-junk-removal-30a-florida', 'junk-removal-vs-dumpster-rental-30a-comparison']
   },
   'vacation-rentals': {
     relatedServices: ['furniture-removal', 'appliance-removal', 'property-management'],
     relatedLocations: ['seaside', 'watercolor', 'rosemary-beach', 'inlet-beach'],
-    relatedBlogPosts: ['complete-property-manager-guide-junk-removal-30a', 'vacation-rental-cleanout-tips-property-managers', 'year-round-junk-removal-guide-30a-beach-properties']
+    relatedBlogPosts: ['property-manager-junk-removal-playbook-30a', 'complete-property-manager-guide-junk-removal-30a', 'vacation-rental-cleanout-tips-property-managers']
   },
   'estate-cleanouts': {
     relatedServices: ['donation-pickup', 'furniture-removal', 'garage-cleanouts'],
@@ -57,7 +57,7 @@ export const serviceInternalLinks: Record<string, ServiceLinks> = {
   'appliance-removal': {
     relatedServices: ['furniture-removal', 'one-time-hauls', 'vacation-rentals'],
     relatedLocations: ['watercolor', 'rosemary-beach'],
-    relatedBlogPosts: ['vacation-rental-cleanout-tips-property-managers', 'ultimate-guide-junk-removal-30a-florida']
+    relatedBlogPosts: ['refrigerator-appliance-disposal-30a-pcb-complete-guide', 'vacation-rental-cleanout-tips-property-managers', 'ultimate-guide-junk-removal-30a-florida']
   },
   'furniture-removal': {
     relatedServices: ['vacation-rentals', 'estate-cleanouts', 'donation-pickup'],
@@ -67,17 +67,17 @@ export const serviceInternalLinks: Record<string, ServiceLinks> = {
   'hot-tub-removal': {
     relatedServices: ['construction-debris', 'yard-debris', 'property-management'],
     relatedLocations: ['rosemary-beach', 'watercolor', 'alys-beach'],
-    relatedBlogPosts: ['30a-homeowner-renovation-debris-removal-guide', 'hot-tub-removal-30a-complete-guide', 'construction-debris-removal-what-to-know']
+    relatedBlogPosts: ['hot-tub-removal-30a-complete-guide', 'hot-tub-removal-cost-30a-pricing-breakdown', '30a-homeowner-renovation-debris-removal-guide']
   },
   'property-management': {
     relatedServices: ['vacation-rentals', 'furniture-removal', 'appliance-removal'],
     relatedLocations: ['watercolor', 'seaside', 'rosemary-beach'],
-    relatedBlogPosts: ['complete-property-manager-guide-junk-removal-30a', 'year-round-junk-removal-guide-30a-beach-properties', 'vacation-rental-cleanout-tips-property-managers']
+    relatedBlogPosts: ['property-manager-junk-removal-playbook-30a', 'complete-property-manager-guide-junk-removal-30a', 'year-round-junk-removal-guide-30a-beach-properties', 'vacation-rental-cleanout-tips-property-managers']
   },
   'donation-pickup': {
     relatedServices: ['estate-cleanouts', 'furniture-removal', 'garage-cleanouts'],
     relatedLocations: ['santa-rosa-beach', 'grayton-beach', 'blue-mountain-beach'],
-    relatedBlogPosts: ['eco-friendly-junk-disposal-30a', 'spring-cleaning-30a-beach-properties']
+    relatedBlogPosts: ['where-to-donate-furniture-household-items-30a-florida', 'eco-friendly-junk-disposal-30a', 'spring-cleaning-30a-beach-properties']
   },
   'yard-debris': {
     relatedServices: ['construction-debris', 'property-management', 'one-time-hauls'],
@@ -97,7 +97,7 @@ export const serviceInternalLinks: Record<string, ServiceLinks> = {
   'mattress-removal': {
     relatedServices: ['furniture-removal', 'vacation-rentals', 'one-time-hauls'],
     relatedLocations: ['seaside', 'rosemary-beach', 'panama-city-beach'],
-    relatedBlogPosts: ['vacation-rental-cleanout-tips-property-managers', 'ultimate-guide-junk-removal-30a-florida']
+    relatedBlogPosts: ['mattress-disposal-30a-pcb-complete-guide', 'vacation-rental-cleanout-tips-property-managers', 'ultimate-guide-junk-removal-30a-florida']
   },
   'tv-electronics-recycling': {
     relatedServices: ['appliance-removal', 'office-furniture', 'one-time-hauls'],
