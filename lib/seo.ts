@@ -62,7 +62,6 @@ export const locationLinks: InternalLink[] = [
   { href: '/service-areas/seacrest', text: 'Seacrest' },
   { href: '/service-areas/seagrove-beach', text: 'Seagrove Beach' },
   { href: '/service-areas/blue-mountain-beach', text: 'Blue Mountain Beach' },
-  { href: '/service-areas/destin', text: 'Destin' },
   { href: '/service-areas/panama-city-beach', text: 'Panama City Beach' },
   { href: '/service-areas/miramar-beach', text: 'Miramar Beach' },
   { href: '/service-areas/sandestin', text: 'Sandestin' },
@@ -79,13 +78,7 @@ export const locationLinks: InternalLink[] = [
   { href: '/service-areas/springfield', text: 'Springfield' },
   { href: '/service-areas/parker', text: 'Parker' },
   { href: '/service-areas/laguna-beach', text: 'Laguna Beach' },
-  { href: '/service-areas/mexico-beach', text: 'Mexico Beach' },
-  { href: '/service-areas/fort-walton-beach', text: 'Fort Walton Beach' },
-  { href: '/service-areas/niceville', text: 'Niceville' },
-  { href: '/service-areas/crestview', text: 'Crestview' },
-  { href: '/service-areas/mary-esther', text: 'Mary Esther' },
-  { href: '/service-areas/shalimar', text: 'Shalimar' },
-  { href: '/service-areas/valparaiso', text: 'Valparaiso' }]
+  { href: '/service-areas/mexico-beach', text: 'Mexico Beach' }]
 
 // Core pages internal links
 export const corePageLinks: InternalLink[] = [

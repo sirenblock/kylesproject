@@ -176,7 +176,7 @@ export default function ServiceAreasPage() {
               We Serve the Entire 30A Corridor
             </h1>
             <p className="text-xl text-ocean-100 mb-8">
-              From <Link href="/service-areas/destin" className="text-white hover:text-seafoam-200 underline font-medium">Destin</Link> to <Link href="/service-areas/panama-city-beach" className="text-white hover:text-seafoam-200 underline font-medium">Panama City Beach</Link>, we provide professional <Link href="/services" className="text-white hover:text-seafoam-200 underline font-medium">junk removal services</Link> to all coastal communities.
+              From <Link href="/service-areas/inlet-beach" className="text-white hover:text-seafoam-200 underline font-medium">Inlet Beach</Link> to <Link href="/service-areas/panama-city-beach" className="text-white hover:text-seafoam-200 underline font-medium">Panama City Beach</Link>, we provide professional <Link href="/services" className="text-white hover:text-seafoam-200 underline font-medium">junk removal services</Link> to all coastal communities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
