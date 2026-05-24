@@ -14,7 +14,6 @@ const LOCATIONS = [
   { value: 'seacrest', label: 'Seacrest' },
   { value: 'seagrove-beach', label: 'Seagrove Beach' },
   { value: 'blue-mountain-beach', label: 'Blue Mountain Beach' },
-  { value: 'destin', label: 'Destin' },
   { value: 'panama-city-beach', label: 'Panama City Beach' },
 ]
 

@@ -25,10 +25,35 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
 
   async redirects() {
+    const removedLocations = [
+      'destin',
+      'fort-walton-beach',
+      'niceville',
+      'crestview',
+      'mary-esther',
+      'shalimar',
+      'valparaiso',
+    ]
     return [
       {
         source: '/service-areas/:location/:service',
         destination: '/service-areas/:location',
+        permanent: true,
+      },
+      // Okaloosa County locations removed from service area (2026-05-24)
+      ...removedLocations.map((slug) => ({
+        source: `/service-areas/${slug}`,
+        destination: '/service-areas',
+        permanent: true,
+      })),
+      {
+        source: '/service-areas/county/okaloosa-county',
+        destination: '/service-areas',
+        permanent: true,
+      },
+      {
+        source: '/blog/junk-removal-okaloosa-county-florida-complete-guide',
+        destination: '/blog/junk-removal-walton-county-florida-complete-guide',
         permanent: true,
       },
     ]

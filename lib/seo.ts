@@ -48,8 +48,7 @@ export const serviceLinks: InternalLink[] = [
   { href: '/services/piano-removal', text: 'piano removal' },
   { href: '/services/exercise-equipment', text: 'exercise equipment removal' },
   { href: '/services/attic-cleanout', text: 'attic cleanout' },
-  { href: '/services/concrete-removal', text: 'concrete removal' },
-]
+  { href: '/services/concrete-removal', text: 'concrete removal' }]
 
 // Location pages internal links
 export const locationLinks: InternalLink[] = [
@@ -86,8 +85,7 @@ export const locationLinks: InternalLink[] = [
   { href: '/service-areas/crestview', text: 'Crestview' },
   { href: '/service-areas/mary-esther', text: 'Mary Esther' },
   { href: '/service-areas/shalimar', text: 'Shalimar' },
-  { href: '/service-areas/valparaiso', text: 'Valparaiso' },
-]
+  { href: '/service-areas/valparaiso', text: 'Valparaiso' }]
 
 // Core pages internal links
 export const corePageLinks: InternalLink[] = [
@@ -98,8 +96,7 @@ export const corePageLinks: InternalLink[] = [
   { href: '/pricing', text: 'pricing' },
   { href: '/contact', text: 'contact us' },
   { href: '/faq', text: 'FAQ' },
-  { href: '/blog', text: 'blog' },
-]
+  { href: '/blog', text: 'blog' }]
 
 // Blog posts internal links
 export const blogLinks: InternalLink[] = [
@@ -111,8 +108,7 @@ export const blogLinks: InternalLink[] = [
   { href: '/blog/eco-friendly-junk-removal-30a', text: 'eco-friendly junk removal' },
   { href: '/blog/furniture-removal-tips-large-items', text: 'furniture removal tips' },
   { href: '/blog/property-management-junk-removal-guide', text: 'property management junk removal' },
-  { href: '/blog/seasonal-cleanout-guide-30a-properties', text: 'seasonal cleanout guide' },
-]
+  { href: '/blog/seasonal-cleanout-guide-30a-properties', text: 'seasonal cleanout guide' }]
 
 // Get random internal links for a page (excluding current page)
 export function getRandomInternalLinks(
@@ -148,22 +144,19 @@ export function getContextualLinks(pageType: 'service' | 'location' | 'blog' | '
         ...serviceLinks.filter(s => s.href !== currentPath).slice(0, 3),
         { href: '/pricing', text: 'pricing' },
         { href: '/contact', text: 'contact us' },
-        { href: '/faq', text: 'FAQ' },
-      ]
+        { href: '/faq', text: 'FAQ' }]
     case 'location':
       // For location pages: link to services, nearby locations, blog posts
       return [
         ...serviceLinks.slice(0, 5),
         ...locationLinks.filter(l => l.href !== currentPath).slice(0, 3),
-        ...blogLinks.slice(0, 2),
-      ]
+        ...blogLinks.slice(0, 2)]
     case 'blog':
       // For blog pages: link to related services, locations, other blog posts
       return [
         ...serviceLinks.slice(0, 4),
         ...locationLinks.slice(0, 3),
-        ...blogLinks.filter(b => b.href !== currentPath).slice(0, 3),
-      ]
+        ...blogLinks.filter(b => b.href !== currentPath).slice(0, 3)]
     case 'core':
       // For core pages: diverse mix
       return getRandomInternalLinks(currentPath, 10)
@@ -254,8 +247,7 @@ export const externalLinks: ExternalLink[] = [
     href: 'https://www.thecurbsidechronicle.com/',
     text: 'The Curbside Chronicle - Waste Management News',
     rel: 'nofollow external'
-  },
-]
+  }]
 
 // Get random external links for a page
 export function getExternalLinks(count: number = 5): ExternalLink[] {

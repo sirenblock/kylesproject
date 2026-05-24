@@ -20,7 +20,7 @@ const service = getServiceDetail('vacation-rentals')!
 
 export const metadata: Metadata = {
   title: `${service.title} | Same-Day Service | (850) 368-3495`,
-  description: `${service.description.slice(0, 100)}. Serving 30A, Destin & PCB. 4.9★ rated. Same-day service. Call ${FORMATTED_PHONE}.`,
+  description: `${service.description.slice(0, 100)}. Serving 30A, Walton County & Bay County. 4.9★ rated. Same-day service. Call ${FORMATTED_PHONE}.`,
   alternates: {
     canonical: getCanonicalUrl('/services/vacation-rentals')
   },

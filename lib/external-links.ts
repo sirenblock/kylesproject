@@ -252,8 +252,7 @@ export const locationLinks: Record<string, ExternalLink[]> = {
     { url: 'https://www.habitat.org/restores', title: 'Habitat for Humanity ReStore', description: 'Donate usable furniture and building materials', type: 'nonprofit' },
     { url: 'https://www.30a.com/', title: '30A Community Guide', description: 'Local guide to the 30A corridor communities', type: 'local' },
     { url: 'https://www.visitflorida.com/', title: 'Visit Florida', description: 'Official Florida tourism and visitor guide', type: 'local' },
-    { url: 'https://www.southwalton.com/', title: 'South Walton Community', description: 'Local news, events, and community information', type: 'local' },
-  ],
+    { url: 'https://www.southwalton.com/', title: 'South Walton Community', description: 'Local news, events, and community information', type: 'local' }],
   'rosemary-beach': [
     { url: 'https://www.rosemarybeach.com/', title: 'Rosemary Beach Official Website', description: 'Official community website for Rosemary Beach', type: 'local' },
     { url: 'https://www.visitsouthwalton.com/', title: 'Visit South Walton', description: 'Official South Walton tourism information', type: 'local' },
@@ -264,8 +263,7 @@ export const locationLinks: Record<string, ExternalLink[]> = {
     { url: 'https://www.habitat.org/restores', title: 'Habitat for Humanity ReStore', description: 'Donate usable items locally', type: 'nonprofit' },
     { url: 'https://www.30a.com/', title: '30A Community Guide', description: '30A corridor guide and resources', type: 'local' },
     { url: 'https://www.visitflorida.com/', title: 'Visit Florida', description: 'Florida tourism resources', type: 'local' },
-    { url: 'https://www.southwalton.com/', title: 'South Walton Community', description: 'Local events and community news', type: 'local' },
-  ],
+    { url: 'https://www.southwalton.com/', title: 'South Walton Community', description: 'Local events and community news', type: 'local' }],
   'alys-beach': [
     { url: 'https://www.alysbeach.com/', title: 'Alys Beach Official Website', description: 'Official community website for Alys Beach', type: 'local' },
     { url: 'https://www.visitsouthwalton.com/', title: 'Visit South Walton', description: 'South Walton official tourism guide', type: 'local' },
@@ -276,8 +274,7 @@ export const locationLinks: Record<string, ExternalLink[]> = {
     { url: 'https://www.habitat.org/restores', title: 'Habitat for Humanity ReStore', description: 'Furniture and material donation', type: 'nonprofit' },
     { url: 'https://www.30a.com/', title: '30A Community Guide', description: 'Comprehensive 30A area guide', type: 'local' },
     { url: 'https://www.visitflorida.com/', title: 'Visit Florida', description: 'Official state tourism site', type: 'local' },
-    { url: 'https://www.southwalton.com/', title: 'South Walton Community', description: 'Local community information', type: 'local' },
-  ],
+    { url: 'https://www.southwalton.com/', title: 'South Walton Community', description: 'Local community information', type: 'local' }],
   'watercolor': [
     { url: 'https://www.watercolorresort.com/', title: 'WaterColor Resort & Community', description: 'Official WaterColor community website', type: 'local' },
     { url: 'https://www.visitsouthwalton.com/', title: 'Visit South Walton', description: 'South Walton tourism information', type: 'local' },
@@ -288,20 +285,7 @@ export const locationLinks: Record<string, ExternalLink[]> = {
     { url: 'https://www.habitat.org/restores', title: 'Habitat for Humanity ReStore', description: 'Donate usable household items', type: 'nonprofit' },
     { url: 'https://www.30a.com/', title: '30A Community Guide', description: '30A area community guide', type: 'local' },
     { url: 'https://www.visitflorida.com/', title: 'Visit Florida', description: 'Florida visitor information', type: 'local' },
-    { url: 'https://www.southwalton.com/', title: 'South Walton Community', description: 'South Walton local news', type: 'local' },
-  ],
-  'destin': [
-    { url: 'https://www.cityofdestin.com/', title: 'City of Destin', description: 'Official City of Destin government website', type: 'government' },
-    { url: 'https://www.destinchamber.com/', title: 'Destin Chamber of Commerce', description: 'Destin business community and visitor info', type: 'local' },
-    { url: 'https://myokaloosa.com/', title: 'Okaloosa County Government', description: 'Okaloosa County official website', type: 'government' },
-    { url: 'https://myokaloosa.com/pw/solid-waste', title: 'Okaloosa County Solid Waste', description: 'County waste disposal and recycling', type: 'government' },
-    { url: 'https://floridadep.gov/waste/waste-reduction/content/recycling-florida', title: 'Florida DEP Recycling', description: 'State environmental guidelines', type: 'government' },
-    { url: 'https://www.epa.gov/recycle', title: 'EPA Recycling Guidelines', description: 'Federal recycling resources', type: 'environmental' },
-    { url: 'https://www.habitat.org/restores', title: 'Habitat for Humanity ReStore', description: 'Donate furniture and materials', type: 'nonprofit' },
-    { url: 'https://www.emeraldcoastfl.com/', title: 'Emerald Coast Tourism', description: 'Emerald Coast visitor guide', type: 'local' },
-    { url: 'https://www.visitflorida.com/', title: 'Visit Florida', description: 'Official Florida tourism', type: 'local' },
-    { url: 'https://www.salvationarmyusa.org/usn/donate/', title: 'Salvation Army Donations', description: 'Charitable donation drop-off locations', type: 'nonprofit' },
-  ],
+    { url: 'https://www.southwalton.com/', title: 'South Walton Community', description: 'South Walton local news', type: 'local' }],
   'panama-city-beach': [
     { url: 'https://www.pcbgov.com/', title: 'City of Panama City Beach', description: 'Official PCB city government website', type: 'government' },
     { url: 'https://www.visitpanamacitybeach.com/', title: 'Visit Panama City Beach', description: 'Official PCB tourism and visitor guide', type: 'local' },
@@ -312,8 +296,7 @@ export const locationLinks: Record<string, ExternalLink[]> = {
     { url: 'https://www.habitat.org/restores', title: 'Habitat for Humanity ReStore', description: 'Donate reusable items', type: 'nonprofit' },
     { url: 'https://www.pcbeachchamber.com/', title: 'PCB Chamber of Commerce', description: 'Panama City Beach business community', type: 'local' },
     { url: 'https://www.visitflorida.com/', title: 'Visit Florida', description: 'Florida tourism guide', type: 'local' },
-    { url: 'https://www.salvationarmyusa.org/usn/donate/', title: 'Salvation Army Donations', description: 'Local charity donation options', type: 'nonprofit' },
-  ],
+    { url: 'https://www.salvationarmyusa.org/usn/donate/', title: 'Salvation Army Donations', description: 'Local charity donation options', type: 'nonprofit' }],
   'santa-rosa-beach': [
     { url: 'https://www.visitsouthwalton.com/', title: 'Visit South Walton', description: 'Official South Walton visitor information', type: 'local' },
     { url: 'https://www.co.walton.fl.us/', title: 'Walton County Government', description: 'County government and regulations', type: 'government' },
@@ -324,20 +307,7 @@ export const locationLinks: Record<string, ExternalLink[]> = {
     { url: 'https://www.30a.com/', title: '30A Community Guide', description: '30A corridor lifestyle guide', type: 'local' },
     { url: 'https://www.southwalton.com/', title: 'South Walton Community', description: 'Community news and events', type: 'local' },
     { url: 'https://www.visitflorida.com/', title: 'Visit Florida', description: 'Florida tourism information', type: 'local' },
-    { url: 'https://www.salvationarmyusa.org/usn/donate/', title: 'Salvation Army Donations', description: 'Charitable donation services', type: 'nonprofit' },
-  ],
-  'fort-walton-beach': [
-    { url: 'https://www.fwb.org/', title: 'City of Fort Walton Beach', description: 'Official FWB city government website', type: 'government' },
-    { url: 'https://myokaloosa.com/', title: 'Okaloosa County Government', description: 'County government services', type: 'government' },
-    { url: 'https://myokaloosa.com/pw/solid-waste', title: 'Okaloosa County Solid Waste', description: 'County waste management', type: 'government' },
-    { url: 'https://www.fwbchamber.org/', title: 'FWB Chamber of Commerce', description: 'Fort Walton Beach business community', type: 'local' },
-    { url: 'https://floridadep.gov/waste/waste-reduction/content/recycling-florida', title: 'Florida DEP Recycling', description: 'State recycling programs', type: 'government' },
-    { url: 'https://www.epa.gov/recycle', title: 'EPA Recycling Guidelines', description: 'Federal recycling guidelines', type: 'environmental' },
-    { url: 'https://www.habitat.org/restores', title: 'Habitat for Humanity ReStore', description: 'Donate usable items', type: 'nonprofit' },
-    { url: 'https://www.emeraldcoastfl.com/', title: 'Emerald Coast Tourism', description: 'Regional visitor information', type: 'local' },
-    { url: 'https://www.visitflorida.com/', title: 'Visit Florida', description: 'Florida tourism resources', type: 'local' },
-    { url: 'https://www.salvationarmyusa.org/usn/donate/', title: 'Salvation Army Donations', description: 'Charitable donations', type: 'nonprofit' },
-  ],
+    { url: 'https://www.salvationarmyusa.org/usn/donate/', title: 'Salvation Army Donations', description: 'Charitable donation services', type: 'nonprofit' }],
   'miramar-beach': [
     { url: 'https://www.visitsouthwalton.com/', title: 'Visit South Walton', description: 'South Walton visitor guide', type: 'local' },
     { url: 'https://www.co.walton.fl.us/', title: 'Walton County Government', description: 'County regulations and services', type: 'government' },
@@ -348,8 +318,7 @@ export const locationLinks: Record<string, ExternalLink[]> = {
     { url: 'https://www.emeraldcoastfl.com/', title: 'Emerald Coast Tourism', description: 'Emerald Coast area guide', type: 'local' },
     { url: 'https://www.30a.com/', title: '30A Community Guide', description: '30A lifestyle and community', type: 'local' },
     { url: 'https://www.visitflorida.com/', title: 'Visit Florida', description: 'Florida tourism guide', type: 'local' },
-    { url: 'https://www.salvationarmyusa.org/usn/donate/', title: 'Salvation Army Donations', description: 'Local donation services', type: 'nonprofit' },
-  ],
+    { url: 'https://www.salvationarmyusa.org/usn/donate/', title: 'Salvation Army Donations', description: 'Local donation services', type: 'nonprofit' }],
   'inlet-beach': [
     { url: 'https://www.visitsouthwalton.com/', title: 'Visit South Walton', description: 'South Walton tourism information', type: 'local' },
     { url: 'https://www.co.walton.fl.us/', title: 'Walton County Government', description: 'Walton County official website', type: 'government' },
@@ -360,14 +329,12 @@ export const locationLinks: Record<string, ExternalLink[]> = {
     { url: 'https://www.30a.com/', title: '30A Community Guide', description: '30A area guide and resources', type: 'local' },
     { url: 'https://www.southwalton.com/', title: 'South Walton Community', description: 'Local community information', type: 'local' },
     { url: 'https://www.visitflorida.com/', title: 'Visit Florida', description: 'Florida visitor guide', type: 'local' },
-    { url: 'https://www.salvationarmyusa.org/usn/donate/', title: 'Salvation Army Donations', description: 'Charitable donation options', type: 'nonprofit' },
-  ],
+    { url: 'https://www.salvationarmyusa.org/usn/donate/', title: 'Salvation Army Donations', description: 'Charitable donation options', type: 'nonprofit' }],
   'default': [
     ...localAreaLinks,
     ...governmentLinks['walton-county'],
     ...environmentalLinks.slice(0, 3),
-    { url: 'https://www.visitflorida.com/', title: 'Visit Florida', description: 'Official Florida tourism', type: 'local', rel: 'noopener noreferrer' },
-  ]
+    { url: 'https://www.visitflorida.com/', title: 'Visit Florida', description: 'Official Florida tourism', type: 'local', rel: 'noopener noreferrer' }]
 }
 
 /**

@@ -89,7 +89,7 @@ export function HomepageFAQSchema() {
     },
     {
       question: "What areas do you serve?",
-      answer: "We serve the entire 30A corridor from Inlet Beach to Dune Allen Beach, plus extended coverage to Destin and Panama City Beach. This includes Seaside, Rosemary Beach, Alys Beach, WaterColor, Grayton Beach, Santa Rosa Beach, Seacrest, Seagrove Beach, and Blue Mountain Beach.",
+      answer: "We serve the entire 30A corridor from Inlet Beach to Dune Allen Beach, plus extended coverage to Panama City Beach and Bay County communities. This includes Seaside, Rosemary Beach, Alys Beach, WaterColor, Grayton Beach, Santa Rosa Beach, Seacrest, Seagrove Beach, and Blue Mountain Beach.",
     },
     {
       question: "How does pricing work?",

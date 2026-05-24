@@ -241,7 +241,7 @@ Check:
 
 ## DIY vs. Professional Junk Removal
 
-If you're going the DIY route, our [complete disposal guide for 30A](/blog/how-to-dispose-of-common-items-30a-florida) walks through how to legally dispose of each item category — mattresses, refrigerators, electronics, paint, tires, yard waste, and more — across Walton, Bay, and Okaloosa counties. For donation-quality items, our [donation centers guide](/blog/where-to-donate-furniture-household-items-30a-florida) covers Habitat ReStore, Salvation Army, and Goodwill including pickup options and tax-deduction documentation.
+If you're going the DIY route, our [complete disposal guide for 30A](/blog/how-to-dispose-of-common-items-30a-florida) walks through how to legally dispose of each item category — mattresses, refrigerators, electronics, paint, tires, yard waste, and more — across Walton and Bay counties. For donation-quality items, our [donation centers guide](/blog/where-to-donate-furniture-household-items-30a-florida) covers Habitat ReStore, Salvation Army, and Goodwill including pickup options and tax-deduction documentation.
 
 ### When DIY Makes Sense
 
@@ -1582,7 +1582,7 @@ The pristine environment is why people invest in 30A properties worth $500K-$10M
 - **Paint and stains** → Walton County Hazardous Waste (accepted quarterly, $5-15 per item)
 - **Batteries** → Best Buy and Home Depot drop-off programs (free for most types)
 - **Propane tanks** → Exchange programs at Home Depot, Ace Hardware (refund or credit)
-- **Tires** → Tire Recyclers of Okaloosa (takes automotive and consumer tires)
+- **Tires** → Local tire recyclers (takes automotive and consumer tires)
 - **Electronics with hazmat** → E-waste facilities (free for certain items)
 - **CFC/HFC equipment** → Certified HVAC technicians (air conditioners, refrigerators)
 - **Fluorescent bulbs** → Home Depot hazmat collection (free)
@@ -6740,7 +6740,7 @@ The cheapest junk removal on 30A isn't always the best deal. You're paying for:
 
 Text photos to **(850) 368-3495** or [get your instant quote here](/#quote). We provide transparent pricing, same-day service, and white-glove service for 30A's luxury properties.
 
-**Serving all 30A communities:** [Seaside](/service-areas/seaside), [Rosemary Beach](/service-areas/rosemary-beach), [Alys Beach](/service-areas/alys-beach), [WaterColor](/service-areas/watercolor), [Grayton Beach](/service-areas/grayton-beach), [Santa Rosa Beach](/service-areas/santa-rosa-beach), [Inlet Beach](/service-areas/inlet-beach), [Seacrest](/service-areas/seacrest), [Seagrove Beach](/service-areas/seagrove-beach), [Blue Mountain Beach](/service-areas/blue-mountain-beach), plus [Destin](/service-areas/destin) and [Panama City Beach](/service-areas/panama-city-beach).
+**Serving all 30A communities:** [Seaside](/service-areas/seaside), [Rosemary Beach](/service-areas/rosemary-beach), [Alys Beach](/service-areas/alys-beach), [WaterColor](/service-areas/watercolor), [Grayton Beach](/service-areas/grayton-beach), [Santa Rosa Beach](/service-areas/santa-rosa-beach), [Inlet Beach](/service-areas/inlet-beach), [Seacrest](/service-areas/seacrest), [Seagrove Beach](/service-areas/seagrove-beach), [Blue Mountain Beach](/service-areas/blue-mountain-beach), plus and [Panama City Beach](/service-areas/panama-city-beach).
 
 Your clutter-free 30A life is one text away. Let's clear the clutter today.
     `,
@@ -7608,7 +7608,7 @@ We provide thorough systematic search, but occasionally items are discovered aft
 - [Seagrove Beach](/service-areas/seagrove-beach) - Established estates
 - [Blue Mountain Beach](/service-areas/blue-mountain-beach) - Family properties
 
-**Extended Coverage:** [Destin](/service-areas/destin) and [Panama City Beach](/service-areas/panama-city-beach) estates
+**Extended Coverage:** and [Panama City Beach](/service-areas/panama-city-beach) estates
 
 ## Get Started: Schedule Your Estate Cleanout Consultation
 
@@ -8332,7 +8332,7 @@ We'll provide:
 
 **Serving All 30A Communities:**
 
-[Seaside](/service-areas/seaside) | [Rosemary Beach](/service-areas/rosemary-beach) | [Alys Beach](/service-areas/alys-beach) | [WaterColor](/service-areas/watercolor) | [Grayton Beach](/service-areas/grayton-beach) | [Santa Rosa Beach](/service-areas/santa-rosa-beach) | [Inlet Beach](/service-areas/inlet-beach) | [Seacrest](/service-areas/seacrest) | [Seagrove Beach](/service-areas/seagrove-beach) | [Blue Mountain Beach](/service-areas/blue-mountain-beach) | [Destin](/service-areas/destin) | [Panama City Beach](/service-areas/panama-city-beach)
+[Seaside](/service-areas/seaside) | [Rosemary Beach](/service-areas/rosemary-beach) | [Alys Beach](/service-areas/alys-beach) | [WaterColor](/service-areas/watercolor) | [Grayton Beach](/service-areas/grayton-beach) | [Santa Rosa Beach](/service-areas/santa-rosa-beach) | [Inlet Beach](/service-areas/inlet-beach) | [Seacrest](/service-areas/seacrest) | [Seagrove Beach](/service-areas/seagrove-beach) | [Blue Mountain Beach](/service-areas/blue-mountain-beach) | | [Panama City Beach](/service-areas/panama-city-beach)
 
 **Same-Day Service Available** | **No HOA Approval Required** | **All Labor Included**
 
@@ -10749,7 +10749,7 @@ Call (850) 368-3495 to discuss:
   {
     slug: 'how-to-dispose-of-common-items-30a-florida',
     title: 'How to Dispose of Common Items in 30A Florida: Complete 2026 Disposal & Recycling Guide',
-    excerpt: 'Item-by-item guide to legally disposing of mattresses, refrigerators, electronics, paint, tires, and bulk furniture across the 30A corridor and Walton, Bay, and Okaloosa counties.',
+    excerpt: 'Item-by-item guide to legally disposing of mattresses, refrigerators, electronics, paint, tires, and bulk furniture across the 30A corridor and Walton and Bay counties.',
     author: '30A Junk Removal LLC',
     date: '2026-05-24',
     lastUpdated: '2026-05-24',
@@ -10771,7 +10771,7 @@ Call (850) 368-3495 to discuss:
     content: `
 # How to Dispose of Common Items in 30A Florida: Complete 2026 Disposal & Recycling Guide
 
-"How do I get rid of this?" is the most common question we field at [30A Junk Removal](/). Whether it's a stained mattress left by a vacation rental guest, an aging refrigerator from a [renovation project](/services/construction-debris), or a stack of paint cans from a beach house refresh, every item has its own disposal rules in Walton, Bay, and Okaloosa counties. Getting it wrong can mean fines, refused curbside pickup, or items that just sit in your garage for months.
+"How do I get rid of this?" is the most common question we field at [30A Junk Removal](/). Whether it's a stained mattress left by a vacation rental guest, an aging refrigerator from a [renovation project](/services/construction-debris), or a stack of paint cans from a beach house refresh, every item has its own disposal rules in Walton and Bay counties. Getting it wrong can mean fines, refused curbside pickup, or items that just sit in your garage for months.
 
 This guide walks through every major household item we see along the 30A corridor — from [Seaside](/service-areas/seaside) to [Panama City Beach](/service-areas/panama-city-beach) — and explains exactly how to dispose of each one. Some items have free curbside options. Some require special handling. And some are flat-out illegal to put in a regular trash can in Florida.
 
@@ -10779,7 +10779,7 @@ This guide walks through every major household item we see along the 30A corrido
 
 The 30A corridor sits between the Gulf of Mexico and a network of rare coastal dune lakes — ecosystems that don't exist anywhere else in the United States outside of Madagascar and a few sites in Oregon. Illegal dumping of paint thinner, refrigerant, or electronics doesn't just risk a fine; it leaches into groundwater that feeds those lakes within a few years. Florida's environmental enforcement here is stricter than in most of the state for exactly that reason.
 
-There's also a practical concern. Walton County Solid Waste, Bay County's Steelfield Landfill, and Okaloosa County's transfer station all refuse to accept certain items at the regular tipping rate. Show up with a refrigerator that still has refrigerant and you'll either be turned away or charged a substantial surcharge.
+There's also a practical concern. Walton County Solid Waste, Bay County's Steelfield Landfill all refuse to accept certain items at the regular tipping rate. Show up with a refrigerator that still has refrigerant and you'll either be turned away or charged a substantial surcharge.
 
 A short rule of thumb: if it has a motor, a battery, a refrigerant, a flammable component, or it's bigger than a sofa, it probably has a special process. Below is the actual breakdown by item.
 
@@ -10813,7 +10813,7 @@ Florida prohibits disposing of electronics — anything with a circuit board —
 
 - **Best Buy** accepts most consumer electronics for free recycling at any store. Limits apply (no more than three items per household per day; TVs over 32" require a fee in some states, though Florida is fee-free for in-store drop-off at the time of writing).
 - **Staples** accepts computers, monitors, printers, and small electronics free for recycling.
-- **County hazardous waste collection days** — Walton, Bay, and Okaloosa counties each host quarterly or semi-annual household hazardous waste events that accept electronics. Check your county's solid waste department site for current dates.
+- **County hazardous waste collection days** — Walton and Bay counties each host quarterly or semi-annual household hazardous waste events that accept electronics. Check your county's solid waste department site for current dates.
 
 **Items that always require special handling:**
 
@@ -10828,7 +10828,7 @@ This is the category where we see the most illegal dumping along 30A. Old paint 
 
 **Latex paint (water-based):** The trick most people don't know — latex paint becomes safe to throw away once it's *fully dried*. Pour a small amount of cat litter, sawdust, or commercial paint hardener into the can, leave the lid off, and let it harden over a day or two. Dried latex paint can go in regular trash. This handles 80% of garage paint cleanouts.
 
-**Oil-based paint, solvents, thinners, and stains:** Must go to a household hazardous waste (HHW) collection event or a permanent HHW facility. Bay County operates a year-round HHW drop-off; Walton and Okaloosa run quarterly events. Bring the original container if possible — unlabeled containers may be refused.
+**Oil-based paint, solvents, thinners, and stains:** Must go to a household hazardous waste (HHW) collection event or a permanent HHW facility. Bay County operates a year-round HHW drop-off; Walton runs quarterly events. Bring the original container if possible — unlabeled containers may be refused.
 
 **Other HHW items requiring the same path:** pool chemicals, pesticides, automotive fluids (motor oil, antifreeze, gasoline), propane tanks (small camping cylinders are HHW; large grill tanks are exchanged at retailers), lithium batteries, fluorescent bulbs, and mercury thermometers.
 
@@ -10896,7 +10896,7 @@ The line between DIY disposal and hiring help is usually one of these factors:
 - **Mixed waste streams:** Jobs that combine furniture, appliances, electronics, and construction debris — sorting and routing to multiple facilities is exactly what professional removal exists for.
 - **HOA scrutiny:** Communities like [Alys Beach](/service-areas/alys-beach), [WaterSound](/service-areas/watersound), and [Sandestin](/service-areas/sandestin) have strict rules about items left curbside, often with fines for violations.
 
-For everything else — single items, household routines, anything within curbside size limits — the disposal infrastructure across Walton, Bay, and Okaloosa counties is actually pretty good. Use it.
+For everything else — single items, household routines, anything within curbside size limits — the disposal infrastructure across Walton and Bay counties is actually pretty good. Use it.
 
 ## Frequently Asked Questions
 
@@ -10917,11 +10917,11 @@ If you've got a specific item you're not sure about, [call us](/contact) or text
       },
       {
         question: 'Where can I recycle electronics on 30A?',
-        answer: 'Florida prohibits electronics in landfill waste. Best Buy and Staples both accept most consumer electronics free for recycling. Walton, Bay, and Okaloosa counties each run quarterly or semi-annual household hazardous waste events that accept electronics. CRT televisions and monitors usually require a $25–$75 fee at a specialty recycler due to leaded glass content.'
+        answer: 'Florida prohibits electronics in landfill waste. Best Buy and Staples both accept most consumer electronics free for recycling. Walton and Bay counties each run quarterly or semi-annual household hazardous waste events that accept electronics. CRT televisions and monitors usually require a $25–$75 fee at a specialty recycler due to leaded glass content.'
       },
       {
         question: 'How do I dispose of old paint in Florida?',
-        answer: 'Latex (water-based) paint becomes legal regular trash once fully dried — mix in cat litter, sawdust, or paint hardener, leave the lid off, and let it harden. Oil-based paint, solvents, thinners, and stains must go to a household hazardous waste (HHW) collection event or permanent HHW facility. Bay County operates a year-round HHW drop-off; Walton and Okaloosa run quarterly events. Never pour paint or solvents down a storm drain — they discharge directly to the Gulf or coastal dune lakes.'
+        answer: 'Latex (water-based) paint becomes legal regular trash once fully dried — mix in cat litter, sawdust, or paint hardener, leave the lid off, and let it harden. Oil-based paint, solvents, thinners, and stains must go to a household hazardous waste (HHW) collection event or permanent HHW facility. Bay County operates a year-round HHW drop-off; Walton runs quarterly events. Never pour paint or solvents down a storm drain — they discharge directly to the Gulf or coastal dune lakes.'
       },
       {
         question: 'What\'s the cheapest way to dispose of tires in 30A?',
@@ -11056,7 +11056,7 @@ You should call a [junk removal service](/services) when:
 - **You're in an HOA-restricted community.** Visible curbside debris isn't always an option.
 - **Sorting and routing is the bottleneck.** Mixed waste streams (furniture + appliances + electronics + construction debris) require multiple disposal facilities. Professional removal consolidates that into a single call.
 
-[30A Junk Removal](/) serves the full 30A corridor and beyond — [Destin](/service-areas/destin), [Miramar Beach](/service-areas/miramar-beach), [Panama City Beach](/service-areas/panama-city-beach), [DeFuniak Springs](/service-areas/defuniak-springs), [Freeport](/service-areas/freeport), and the inland Walton communities. Our [pricing guide](/pricing) covers transparent rates from quarter-truck to full-truck loads.
+[30A Junk Removal](/) serves the full 30A corridor and beyond — [Miramar Beach](/service-areas/miramar-beach), [Panama City Beach](/service-areas/panama-city-beach), [DeFuniak Springs](/service-areas/defuniak-springs), [Freeport](/service-areas/freeport), and the inland Walton communities. Our [pricing guide](/pricing) covers transparent rates from quarter-truck to full-truck loads.
 
 ## Frequently Asked Questions
 
@@ -11096,7 +11096,7 @@ These are the most common Walton County junk-removal questions we field.
   {
     slug: 'where-to-donate-furniture-household-items-30a-florida',
     title: 'Where to Donate Furniture and Household Items on 30A Florida: Complete 2026 Donation Guide',
-    excerpt: 'Complete guide to donating usable furniture, appliances, clothing, and household items along the 30A corridor and Walton, Bay, and Okaloosa counties — with tax-deduction tips and what each organization accepts.',
+    excerpt: 'Complete guide to donating usable furniture, appliances, clothing, and household items along the 30A corridor and Walton and Bay counties — with tax-deduction tips and what each organization accepts.',
     author: '30A Junk Removal LLC',
     date: '2026-05-24',
     lastUpdated: '2026-05-24',
@@ -11138,7 +11138,7 @@ These four organizations cover roughly 90% of donatable items along the Florida 
 
 ### Habitat for Humanity ReStore
 
-[Habitat ReStore](https://www.habitat.org/restores) is the strongest single donation channel for furniture and home goods along 30A. ReStores are donation-funded retail outlets selling secondhand and surplus building materials, appliances, furniture, and home goods. The Northwest Florida region has multiple ReStore locations across Walton, Bay, Okaloosa, and Santa Rosa counties.
+[Habitat ReStore](https://www.habitat.org/restores) is the strongest single donation channel for furniture and home goods along 30A. ReStores are donation-funded retail outlets selling secondhand and surplus building materials, appliances, furniture, and home goods. The Northwest Florida region has multiple ReStore locations across Walton and Bay counties.
 
 **What ReStore takes:**
 - Furniture (sofas, dressers, tables, chairs, beds — in usable condition)
@@ -11189,7 +11189,7 @@ Goodwill operates retail thrift stores funded by donated goods, with proceeds su
 
 ### Salvation Army
 
-The Salvation Army operates Family Stores (retail thrift) and runs adult rehabilitation programs funded by donated goods. Coverage in the Florida Panhandle is good in Bay and Okaloosa counties, with some Walton coverage.
+The Salvation Army operates Family Stores (retail thrift) and runs adult rehabilitation programs funded by donated goods. Coverage in the Florida Panhandle is good in Bay County, with some Walton coverage.
 
 **What Salvation Army takes:**
 - Furniture (most categories, in usable condition)
@@ -11213,7 +11213,7 @@ The Salvation Army operates Family Stores (retail thrift) and runs adult rehabil
 
 Beyond the three major regional organizations, the 30A corridor has dozens of churches, community thrift stores, and specialty organizations that accept donations. These are particularly good outlets for:
 
-- **Women's and children's clothing** → women's shelters and family-services nonprofits in Walton, Bay, and Okaloosa counties
+- **Women's and children's clothing** → women's shelters and family-services nonprofits in Walton and Bay counties
 - **Blankets, towels, pet supplies** → local animal rescues and shelters
 - **Books** → public libraries (most accept book donations for their used-book sales)
 - **Office equipment, school supplies** → local schools and after-school programs
@@ -11398,7 +11398,7 @@ Travel time and disposal route affect price. We don't surcharge for being on 30A
 
 - **[Rosemary Beach](/service-areas/rosemary-beach), [Alys Beach](/service-areas/alys-beach), [WaterColor](/service-areas/watercolor):** Premium properties often have hot tubs integrated into hardscape decks. The community access (cobblestone, narrow streets, gated entry, limited truck parking) adds 30-45 minutes of staging per job. Expect quotes at the higher end of each tier.
 - **[Inlet Beach](/service-areas/inlet-beach), [Seacrest Beach](/service-areas/seacrest-beach), eastern 30A:** Standard pricing, no premium.
-- **[Destin](/service-areas/destin), [Miramar Beach](/service-areas/miramar-beach), [Sandestin](/service-areas/sandestin):** Larger condo/townhome inventory means more upper-floor hot tubs. Crane scenarios occasionally push pricing into the $1,000-$1,500 range.
+- **[Miramar Beach](/service-areas/miramar-beach), [Sandestin](/service-areas/sandestin):** Larger condo/townhome inventory means more upper-floor hot tubs. Crane scenarios occasionally push pricing into the $1,000-$1,500 range.
 - **[Panama City Beach](/service-areas/panama-city-beach), [Panama City](/service-areas/panama-city):** Mix of ground-level and condo installations. Standard pricing for ground-level; condo balcony installations sometimes require crane consult.
 
 ## DIY Cost Comparison
@@ -11516,7 +11516,7 @@ This guide is the playbook we share with new property managers. It covers vendor
 
 30A's short-term rental market is structurally different from typical vacation rental markets:
 
-- **Inventory:** Roughly 5,000-7,000 short-term rental units span Walton, Bay, and Okaloosa counties' 30A-adjacent zones.
+- **Inventory:** Roughly 5,000-7,000 short-term rental units span Walton and Bay counties' 30A-adjacent zones.
 - **Peak season concentration:** 65-75% of annual revenue lands in March-August. Turnover volume during peak is 3-4x off-season volume.
 - **Owner expectations:** Most owners are absentee (often out-of-state) and expect "white-glove" service with minimal owner involvement.
 - **HOA compliance:** Communities like [Alys Beach](/service-areas/alys-beach), [Rosemary Beach](/service-areas/rosemary-beach), [Seaside](/service-areas/seaside), [WaterColor](/service-areas/watercolor), and [WaterSound](/service-areas/watersound) enforce aesthetic standards with real fines for visible curbside debris.
@@ -11684,168 +11684,6 @@ For property managers reading this — if you'd like to discuss a [preferred ven
     ]
   },
   {
-    slug: 'junk-removal-okaloosa-county-florida-complete-guide',
-    title: 'Junk Removal in Okaloosa County, Florida: Complete 2026 Guide to Disposal, Bulk Pickup, and Local Resources',
-    excerpt: 'Everything Okaloosa County residents and Destin, Fort Walton Beach, Niceville, and Crestview property owners need to know about junk removal — disposal facilities, bulk pickup rules, hurricane debris, and military housing considerations.',
-    author: '30A Junk Removal LLC',
-    date: '2026-05-24',
-    lastUpdated: '2026-05-24',
-    readTime: '11 min read',
-    image: 'https://images.unsplash.com/photo-1564769662533-4f00a87b4056?w=1200&h=630&fit=crop',
-    imageAlt: 'Okaloosa County Florida Emerald Coast properties and Eglin Air Force Base region',
-    tags: ['Okaloosa County', 'Local Resources', 'Destin', 'Fort Walton Beach', 'Bulk Pickup'],
-    metaDescription: 'Complete 2026 guide to junk removal in Okaloosa County FL. Disposal facilities, bulk pickup, hurricane debris, military housing rules, and the differences between Destin, Fort Walton, Niceville, and Crestview.',
-    keywords: [
-      'junk removal Okaloosa County',
-      'Okaloosa County bulk pickup',
-      'junk removal Destin FL',
-      'Fort Walton Beach junk removal',
-      'Niceville junk removal',
-      'Crestview junk removal',
-      'Eglin AFB junk removal',
-      'Okaloosa County solid waste',
-    ],
-    content: `
-# Junk Removal in Okaloosa County, Florida: Complete 2026 Guide
-
-Okaloosa County stretches from the Gulf-front condos of [Destin](/service-areas/destin) and the family beaches of [Fort Walton Beach](/service-areas/fort-walton-beach) up through the military housing markets around Eglin AFB ([Niceville](/service-areas/niceville), [Valparaiso](/service-areas/valparaiso), [Shalimar](/service-areas/shalimar), [Mary Esther](/service-areas/mary-esther)) and into [Crestview](/service-areas/crestview) in the north. That mix — high-end coastal real estate, military PCS turnovers, and growing inland residential — makes Okaloosa one of the most diverse junk-removal markets on the Emerald Coast.
-
-This guide consolidates everything we've learned operating [30A Junk Removal](/) across Okaloosa County: where disposal facilities are, how bulk pickup actually works in each municipality, the military housing patterns that drive seasonal volume spikes, and when professional removal makes more sense than waiting for the next bulk pickup window.
-
-## The Okaloosa County Disposal System
-
-Okaloosa County's solid waste program is administered by the County's Public Services Department in coordination with the cities of Crestview, Destin, Fort Walton Beach, Niceville, and Valparaiso. The system runs differently than Walton County's — it's more municipality-driven and less centralized, which means the rules vary noticeably by city.
-
-**County-operated facilities:**
-- The Okaloosa County Landfill in Baker (north county) is the main tipping site for solid waste and construction debris.
-- Convenience centers are distributed across the county for residential drop-off of household waste and recyclables.
-- Household hazardous waste (HHW) collection events run quarterly at announced locations — bring oil-based paint, solvents, pesticides, automotive fluids, electronics, batteries, and fluorescent bulbs to those.
-
-**Municipal differences worth knowing:**
-- **Destin** has its own contracted curbside service with a tight schedule because of the high condo/vacation rental density. Bulk pickup is monthly with strict size limits.
-- **Fort Walton Beach** runs city sanitation with weekly trash and bi-weekly recycling, plus a city-only bulk pickup program available to residents.
-- **Niceville** and **Valparaiso** share waste service infrastructure with surrounding county areas — schedules are less aggressive than Destin/Fort Walton.
-- **Crestview** is the most rural of the major Okaloosa municipalities; bulk pickup is less frequent and many residents self-haul to convenience centers.
-
-Always check your specific municipality's current rules — they update periodically and the unincorporated county areas follow different schedules than the cities.
-
-## Bulk Pickup Rules in Okaloosa County
-
-Bulk pickup — the curbside removal of large items that don't fit standard trash carts — is the most-asked question we field across Okaloosa. The general rules:
-
-**Frequency:** Monthly bulk pickup in most municipalities, weekly in higher-density vacation rental zones (parts of Destin, Fort Walton Beach commercial corridors). Inland areas including parts of Crestview operate on quarterly or by-request schedules.
-
-**Size and weight limits:** Most contractors cap items at 6 feet long max, 40-50 pounds per piece, with a 3-5 item count limit per pickup cycle.
-
-**Required prep:**
-- **Mattresses** must be wrapped in plastic disposal bags (Florida public health rule) — $10-$15 at any hardware store
-- **Branches and yard waste** must be in paper bags or bundled to 4-foot lengths
-- **Electronics** are NOT bulk pickup items — see the next section
-
-**Items that always get refused at the curb:**
-- Construction debris (drywall, lumber, tile, roofing)
-- Refrigerators and freezers with refrigerant intact
-- Tires
-- Electronics with circuit boards (TVs, computers, monitors)
-- Hot tubs and spas
-- Paint and household hazardous waste
-
-For our broader item-by-item disposal guide, see our [complete disposal guide for 30A](/blog/how-to-dispose-of-common-items-30a-florida) — most of those rules apply identically across Okaloosa, Walton, and Bay counties.
-
-## The Military Housing Pattern: PCS Junk Removal
-
-Okaloosa County's defining junk-removal pattern is military PCS (Permanent Change of Station) cycles. Eglin Air Force Base, Hurlburt Field, and Duke Field collectively house thousands of military families whose move cycles concentrate around two windows: late spring (May-July) and early fall (September-October).
-
-A typical military PCS move generates more disposal volume than a civilian move because:
-
-- **Furniture decisions are forced.** Families decide whether items go on the moving truck or get disposed; many opt to dispose rather than ship.
-- **Time pressure is real.** PCS dates are fixed; clearing the rental property before final inspection has a hard deadline.
-- **Volume is large.** A 4-person military family typically clears 1-3 truckloads of disposable items per move.
-- **Property condition matters.** Most military families rent off-base; landlord deposits depend on clean property at move-out.
-
-For military families in [Niceville](/service-areas/niceville), [Valparaiso](/service-areas/valparaiso), [Shalimar](/service-areas/shalimar), [Fort Walton Beach](/service-areas/fort-walton-beach), or [Crestview](/service-areas/crestview), the move-out junk removal workflow is usually:
-
-1. **Donate sellable items first** — Goodwill, Salvation Army, and Habitat ReStore all serve Okaloosa County and offer pickup for furniture donations. See our [donation guide](/blog/where-to-donate-furniture-household-items-30a-florida) for the workflow.
-2. **Schedule professional removal for the rest** — 1-2 weeks before the move date, schedule a truck for the non-donatable items. Don't leave it for the last day.
-3. **Document with photos** — for security deposit disputes, time-stamped photos of the cleared property protect you.
-
-We handle a steady stream of military PCS cleanouts in Okaloosa year-round, with the highest volume in May-July.
-
-## Vacation Rental Volume in Destin and Fort Walton Beach
-
-Outside the military pattern, Destin and Fort Walton Beach generate the second-largest junk-removal volume in Okaloosa from short-term vacation rentals. The Destin Harbor area, the Crystal Beach district, and the high-rise condo corridor along Highway 98 each generate constant turnover-driven junk volume.
-
-The patterns differ from 30A in ways worth knowing:
-
-- **High-rise condo turnovers** mean upper-floor access via elevator scheduling — coordinate with building management for service elevator reservations.
-- **Furniture replacement cycles are faster** at Destin condos due to high guest density (typical: 50-80 guest weeks per year vs. 30A's 30-50).
-- **HOA rules are looser** than 30A's strict communities — Destin condos typically allow curbside debris on scheduled days, though some buildings have their own internal trash chutes that bypass the city system entirely.
-
-For property managers along the Destin-Fort Walton corridor, our [property manager junk removal playbook](/blog/property-manager-junk-removal-playbook-30a) covers the vendor agreement and turnover workflow patterns that apply equally in Okaloosa as in Walton.
-
-## Hurricane Debris in Okaloosa County
-
-Okaloosa County's coastal geography puts it in the direct path of named storms forming in the Gulf of Mexico. The county's emergency debris pickup programs, run through pre-positioned contractors after a major storm, typically clear curbside hurricane debris for 30-60 days post-event. Outside that window, hurricane cleanup reverts to homeowner responsibility — and the volumes typically exceed routine curbside limits by an order of magnitude.
-
-Our [hurricane debris removal service](/services/hurricane-debris) handles post-storm cleanups across all Okaloosa municipalities. The pattern we see most often:
-
-- **Days 1-7 post-storm:** Emergency debris pickup is most active; municipal services handle most curbside volumes.
-- **Days 8-30:** Volume backs up at convenience centers and landfills; professional removal helps owners who can't wait their turn.
-- **Days 30-90:** Insurance-driven cleanups proceed; debris volumes from torn-up landscaping, fence damage, and partial roof repairs dominate.
-- **Days 90+:** Long-tail cleanouts and re-construction debris from properties requiring repair work.
-
-The [Bay County guide](/blog/junk-removal-bay-county-florida-complete-guide) covers the broader regional storm-recovery pattern in more detail — most of it applies to Okaloosa as well.
-
-## When to Call Junk Removal in Okaloosa County
-
-For routine household disposal — a single piece of furniture, a few bags from a garage cleanout, a working appliance you can donate — municipal curbside or convenience-center routing usually handles it cheaply and well. Use it.
-
-Call a [professional junk removal service](/services) when:
-
-- **PCS move-out timing** — military families with hard deadlines can't rely on monthly bulk pickup cycles.
-- **Volume exceeds limits** — anything over a half-truckload (3+ cubic yards) is faster to outsource than to handle in multiple trips.
-- **Special handling required** — refrigerators with refrigerant, hot tubs, electronics in volume, hoarder cleanouts.
-- **Upper-floor pickups** — Destin/Fort Walton high-rises with elevator scheduling needs.
-- **Vacation rental turnover deadlines** — Saturday checkout-to-check-in windows along the coast.
-- **HOA scrutiny** — condo communities with internal disposal procedures that bypass municipal service.
-- **Hurricane response** — high-volume storm cleanup beyond curbside limits.
-
-[30A Junk Removal](/) serves the full Okaloosa County corridor — [Destin](/service-areas/destin), [Fort Walton Beach](/service-areas/fort-walton-beach), [Niceville](/service-areas/niceville), [Valparaiso](/service-areas/valparaiso), [Shalimar](/service-areas/shalimar), [Mary Esther](/service-areas/mary-esther), [Crestview](/service-areas/crestview), and surrounding unincorporated areas. Our [pricing guide](/pricing) covers transparent rates from quarter-truck to full-truck loads, and the [Okaloosa County hub](/service-areas/county/okaloosa-county) lists every municipality we serve.
-
-## Frequently Asked Questions
-`,
-    faqs: [
-      {
-        question: 'Does Okaloosa County offer free bulk pickup?',
-        answer: 'Bulk pickup is included in standard municipal waste service for residents of Destin, Fort Walton Beach, Niceville, Valparaiso, and Crestview — frequency varies by municipality (monthly in most, weekly in high-density zones). Items must meet size and weight limits (typically 6 feet max, 40-50 pounds per piece, 3-5 items per pickup cycle). Excluded categories: construction debris, electronics, tires, refrigerators with refrigerant, hot tubs, paint, and hazardous waste. Unincorporated county areas operate on less frequent schedules.'
-      },
-      {
-        question: 'Where is the Okaloosa County landfill?',
-        answer: 'The Okaloosa County Landfill is located in Baker in north Okaloosa County and is the primary tipping site for residents self-hauling waste or construction debris. Residents pay resident tipping rates with valid ID; non-residents pay a surcharge. Closed/tarped loads are required by Florida law. The county also operates convenience centers distributed across the county for residential household waste and recyclable drop-off, which are usually free for residents.'
-      },
-      {
-        question: 'Where can I dispose of paint and chemicals in Okaloosa County?',
-        answer: 'Paint, solvents, and other household hazardous waste (HHW) are NOT accepted at the landfill or in regular trash. Okaloosa County runs HHW collection events quarterly at announced locations — bring oil-based paint, solvents, pesticides, automotive fluids, batteries, and fluorescent bulbs to those events. Latex (water-based) paint can be dried with cat litter or paint hardener and disposed in regular trash once fully solid. Check the county Public Services Department for current HHW event dates.'
-      },
-      {
-        question: 'Do military families on PCS orders get special junk removal pricing?',
-        answer: 'Most local Okaloosa County junk removal services don\'t advertise dedicated military pricing, but the operational pattern — military PCS cleanouts during peak window (May-July, September-October) — drives meaningful volume for the local industry. Ask any provider if they offer scheduling flexibility for PCS timing constraints. The bigger value driver for military families is donation routing (Habitat ReStore, Salvation Army) which converts disposal into tax deductions on the moving cost reimbursement filing.'
-      },
-      {
-        question: 'How long does hurricane debris pickup take in Okaloosa County?',
-        answer: 'After a major storm, Okaloosa County typically runs emergency debris pickup programs through pre-positioned contractors for 30-60 days post-event. Most curbside hurricane debris gets cleared within the first 30 days for properties on contractor routes. Volumes that exceed curbside limits (large trees, structural debris, flooded property cleanouts) usually require professional removal — these typically run from $400 for small loads to $2,500+ for full-property hurricane cleanups.'
-      },
-      {
-        question: 'What\'s the difference between junk removal services in Destin vs. Crestview?',
-        answer: 'Destin\'s coastal vacation rental market drives same-day turnover demand that\'s nearly absent in Crestview. Pricing tends to be 10-15% higher in Destin/Fort Walton due to traffic, HOA coordination, and high-rise access challenges. Crestview pricing is generally lower but service frequency is also lower — local providers cover Crestview on a route-day basis rather than dedicated same-day capacity. Both areas have strong donation infrastructure (Habitat ReStore, Goodwill, Salvation Army) for usable items.'
-      },
-      {
-        question: 'Can I take construction debris to the Okaloosa County landfill myself?',
-        answer: 'Yes, the Okaloosa County Landfill accepts construction debris from residents at the scale-house, with rates higher than household waste. Bring valid Okaloosa County ID for resident pricing. Sort the load if possible — clean wood and metal can go to recycling at lower rates; mixed C&D goes to standard tipping. Closed/tarped loads are required by state law. For projects over half a truckload of mixed debris, professional construction debris removal is usually cheaper than self-hauling once you factor in scale-house tickets, time, and dump truck rental.'
-      }
-    ]
-  },
-  {
     slug: 'junk-removal-bay-county-florida-complete-guide',
     title: 'Junk Removal in Bay County, Florida: Complete 2026 Guide to Panama City Beach, Lynn Haven, and Surrounding Areas',
     excerpt: 'Everything Bay County residents need to know about junk removal — Steelfield Landfill, bulk pickup rules across Panama City, Panama City Beach, Lynn Haven, Springfield, Callaway, and Parker, plus hurricane recovery patterns and disposal resources.',
@@ -11960,7 +11798,7 @@ Call professional [junk removal](/services) when:
 - **Refrigerators, hot tubs, electronics in volume.** Curbside refuses these categories entirely.
 - **Move-out and closing deadlines.** Real estate transactions don't wait for monthly bulk schedules.
 
-[30A Junk Removal](/) serves the full Bay County corridor — [Panama City Beach](/service-areas/panama-city-beach), [Panama City](/service-areas/panama-city), [Lynn Haven](/service-areas/lynn-haven), [Springfield](/service-areas/springfield), [Callaway](/service-areas/callaway), [Parker](/service-areas/parker), and [Mexico Beach](/service-areas/mexico-beach). Our [pricing guide](/pricing) covers transparent rates, and the [Bay County hub](/service-areas/county/bay-county) lists every municipality we serve. Companion guides cover [Walton County](/blog/junk-removal-walton-county-florida-complete-guide) and [Okaloosa County](/blog/junk-removal-okaloosa-county-florida-complete-guide).
+[30A Junk Removal](/) serves the full Bay County corridor — [Panama City Beach](/service-areas/panama-city-beach), [Panama City](/service-areas/panama-city), [Lynn Haven](/service-areas/lynn-haven), [Springfield](/service-areas/springfield), [Callaway](/service-areas/callaway), [Parker](/service-areas/parker), and [Mexico Beach](/service-areas/mexico-beach). Our [pricing guide](/pricing) covers transparent rates, and the [Bay County hub](/service-areas/county/bay-county) lists every municipality we serve. Companion guide: [Walton County junk removal](/blog/junk-removal-walton-county-florida-complete-guide).
 
 ## Frequently Asked Questions
 `,

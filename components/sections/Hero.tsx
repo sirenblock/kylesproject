@@ -47,7 +47,7 @@ export function Hero() {
             <span className="font-medium">
               Serving{' '}
               <Link href="/service-areas" className="text-white underline decoration-white/50 hover:decoration-white">30A</Link> from{' '}
-              <Link href="/service-areas/destin" className="text-white underline decoration-white/50 hover:decoration-white">Destin</Link> to{' '}
+              <Link href="/service-areas/inlet-beach" className="text-white underline decoration-white/50 hover:decoration-white">Inlet Beach</Link> to{' '}
               <Link href="/service-areas/panama-city-beach" className="text-white underline decoration-white/50 hover:decoration-white">Panama City Beach</Link>
             </span>
           </div>

@@ -66,11 +66,6 @@ const communities = [
     description: 'Named for the distinctive blue lupine flowers that once covered the dunes.',
   },
   {
-    name: 'Destin',
-    slug: 'destin',
-    description: 'World-famous fishing village and popular vacation destination.',
-  },
-  {
     name: 'Panama City Beach',
     slug: 'panama-city-beach',
     description: 'Beautiful beaches and year-round destination at the eastern end of our service area.',
@@ -78,7 +73,7 @@ const communities = [
   {
     name: 'Miramar Beach',
     slug: 'miramar-beach',
-    description: 'Popular beach community between Destin and 30A with resort properties and vacation rentals.',
+    description: 'Popular beach community adjacent to 30A with resort properties and vacation rentals.',
   },
   {
     name: 'Sandestin',
@@ -154,36 +149,6 @@ const communities = [
     name: 'Mexico Beach',
     slug: 'mexico-beach',
     description: 'Small beach town actively rebuilding after Hurricane Michael with strong community spirit.',
-  },
-  {
-    name: 'Fort Walton Beach',
-    slug: 'fort-walton-beach',
-    description: 'Largest city in Okaloosa County with vibrant waterfront, military community, and diverse neighborhoods.',
-  },
-  {
-    name: 'Niceville',
-    slug: 'niceville',
-    description: 'Family-friendly city on Choctawhatchee Bay with excellent schools and quality of life.',
-  },
-  {
-    name: 'Crestview',
-    slug: 'crestview',
-    description: 'Okaloosa County seat experiencing rapid growth near Eglin Air Force Base.',
-  },
-  {
-    name: 'Mary Esther',
-    slug: 'mary-esther',
-    description: 'Small city near Hurlburt Field with tight-knit military community atmosphere.',
-  },
-  {
-    name: 'Shalimar',
-    slug: 'shalimar',
-    description: 'Residential community on Choctawhatchee Bay with waterfront living.',
-  },
-  {
-    name: 'Valparaiso',
-    slug: 'valparaiso',
-    description: 'Small city adjacent to Eglin AFB with close-knit community character.',
   },
 ]
 

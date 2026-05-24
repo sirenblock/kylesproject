@@ -23,7 +23,7 @@ export default function StaticServiceMap() {
           <MapPin className="w-5 h-5 text-ocean-600" />
           <div>
             <h3 className="font-bold text-slate-800">30A Service Area</h3>
-            <p className="text-xs text-slate-600">Destin to Panama City Beach</p>
+            <p className="text-xs text-slate-600">30A to Panama City Beach</p>
           </div>
         </div>
       </div>

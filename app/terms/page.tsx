@@ -94,7 +94,7 @@ export default function TermsPage() {
 
               <h3 className="text-xl font-semibold text-slate-900 mt-6 mb-3">Service Area</h3>
               <p className="text-slate-700">
-                We primarily serve communities along the 30A corridor from Destin to Panama City Beach, Florida.
+                We primarily serve communities along the 30A corridor and Panama City Beach, Florida.
                 Service availability may vary by location. Additional fees may apply for remote or difficult-to-access
                 properties.
               </p>

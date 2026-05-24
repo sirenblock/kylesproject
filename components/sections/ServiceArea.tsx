@@ -30,7 +30,6 @@ const communities = [
   { name: 'Seacrest', slug: 'seacrest' },
   { name: 'Seagrove Beach', slug: 'seagrove-beach' },
   { name: 'Blue Mountain Beach', slug: 'blue-mountain-beach' },
-  { name: 'Destin', slug: 'destin' },
   { name: 'Panama City Beach', slug: 'panama-city-beach' },
 ]
 
@@ -55,7 +54,7 @@ export function ServiceArea() {
               Proudly Serving 30A
             </h2>
             <p className="text-lg text-slate-600 mb-8">
-              From Destin to Panama City Beach, we provide premium junk removal services
+              From Inlet Beach to Panama City Beach, we provide premium junk removal services
               to all communities along the beautiful 30A corridor.
             </p>
 

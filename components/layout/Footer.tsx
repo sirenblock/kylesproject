@@ -21,15 +21,12 @@ const services = [
 const areas = [
   { name: 'Seaside', href: '/service-areas/seaside' },
   { name: 'Rosemary Beach', href: '/service-areas/rosemary-beach' },
-  { name: 'Destin', href: '/service-areas/destin' },
   { name: 'Panama City Beach', href: '/service-areas/panama-city-beach' },
   { name: 'Santa Rosa Beach', href: '/service-areas/santa-rosa-beach' },
-  { name: 'Fort Walton Beach', href: '/service-areas/fort-walton-beach' },
   { name: 'Miramar Beach', href: '/service-areas/miramar-beach' },
   { name: 'Inlet Beach', href: '/service-areas/inlet-beach' },
   { name: 'Walton County', href: '/service-areas/county/walton-county' },
   { name: 'Bay County', href: '/service-areas/county/bay-county' },
-  { name: 'Okaloosa County', href: '/service-areas/county/okaloosa-county' },
   { name: 'All Areas', href: '/service-areas' },
 ]
 

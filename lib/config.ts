@@ -29,8 +29,8 @@ const config = {
   },
 
   // Service Area
-  serviceArea: '30A Corridor',
-  serviceAreaDescription: 'Serving the entire 30A corridor from Inlet Beach to Dune Allen Beach, plus extended coverage to Destin and Panama City Beach',
+  serviceArea: '30A Corridor & Panama City Beach',
+  serviceAreaDescription: 'Serving the 30A corridor and Panama City Beach across Walton and Bay Counties — from Inlet Beach to Mexico Beach',
 
   // Social Links (for Organization schema & sameAs)
   socialLinks: {
@@ -56,7 +56,6 @@ const config = {
     'Seacrest',
     'Seagrove Beach',
     'Blue Mountain Beach',
-    'Destin',
     'Panama City Beach',
     'Miramar Beach',
     'Sandestin',
@@ -74,12 +73,6 @@ const config = {
     'Parker',
     'Laguna Beach',
     'Mexico Beach',
-    'Fort Walton Beach',
-    'Niceville',
-    'Crestview',
-    'Mary Esther',
-    'Shalimar',
-    'Valparaiso',
   ],
 
   // Services (for schema)
