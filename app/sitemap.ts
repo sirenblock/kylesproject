@@ -85,16 +85,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }))
 
-  // PRIORITY 0.5: Service-Location combination pages (programmatic SEO pages)
-  const serviceLocationPages: MetadataRoute.Sitemap = locationSlugs.flatMap(location =>
-    serviceSlugs.map(service => ({
-      url: `${config.siteUrl}/service-areas/${location}/${service}`,
-      lastModified: now,
-      changeFrequency: 'monthly' as const,
-      priority: 0.5,
-    }))
-  )
-
   // PRIORITY 0.6: Other pages (about, faq, our-work)
   const otherPages: MetadataRoute.Sitemap = [
     '/about',
@@ -126,7 +116,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...countyPages,
     ...blogPosts,
     ...locationPages,
-    ...serviceLocationPages,
     ...otherPages,
     ...legalPages,
   ]

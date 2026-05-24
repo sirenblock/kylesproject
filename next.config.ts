@@ -24,6 +24,16 @@ const nextConfig: NextConfig = {
   // Enable React strict mode for better development warnings
   reactStrictMode: true,
 
+  async redirects() {
+    return [
+      {
+        source: '/service-areas/:location/:service',
+        destination: '/service-areas/:location',
+        permanent: true,
+      },
+    ]
+  },
+
   // CRITICAL: Prevent non-production domains from being indexed
   // This blocks Vercel preview URLs from competing with your production site
   async headers() {
