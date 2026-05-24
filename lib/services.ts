@@ -76,6 +76,46 @@ We <a href="/services/donation-pickup" class="text-ocean-600 hover:underline fon
 - <a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">Yard debris and branches</a>
 
 Whether you're in <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, or <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, we provide fast, professional service. For more information about proper disposal, visit <a href="https://www.visitflorida.com/en-us/cities/south-walton.html" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">South Walton's official tourism page</a>.
+
+### Pricing Transparency Explained
+
+Our one-time junk removal pricing is volume-based — you pay for the space your items occupy in our truck, not per item. This is the industry-standard approach and the one that's most fair for both customers and crews. Our <a href="/pricing" class="text-ocean-600 hover:underline font-medium">pricing page</a> details every tier with photo examples of what fits in each truck volume.
+
+**Why volume-based pricing wins:**
+- **No nickel-and-diming.** A "per-item" pricing model encourages crews to count and bill aggressively. Volume-based means you can add a small extra item without a separate fee as long as you're under the volume threshold.
+- **Predictable for budget planning.** Text photos of your items and we'll quote a volume tier upfront. The quote is the price.
+- **Better for mixed loads.** Garage cleanouts typically include a mix of large pieces, boxes of small items, yard waste, and occasional electronics. Volume-based pricing accommodates the mix without separate categories.
+
+**Hidden costs to watch for at other services:**
+- **"Disposal fees" surcharged separately.** Some services quote a base rate then add disposal/dump fees on top. Our pricing is all-inclusive.
+- **"Stairs" or "long carry" surcharges.** Some services charge extra for items beyond a short curbside walk. Our pricing accounts for typical residential access without surcharges.
+- **Refrigerant recovery fees on appliances.** EPA Section 608 requires certified refrigerant recovery before disposing of refrigerators, freezers, and AC units. Some services pass this fee through separately ($25-$50 per appliance); we include it in <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">our appliance removal pricing</a>.
+
+For specific item-type cost breakdowns, see our <a href="/blog/junk-removal-cost-30a-2026-pricing-guide" class="text-ocean-600 hover:underline font-medium">2026 pricing deep dive</a>, the <a href="/blog/hot-tub-removal-cost-30a-pricing-breakdown" class="text-ocean-600 hover:underline font-medium">hot tub removal cost breakdown</a>, and the <a href="/blog/refrigerator-appliance-disposal-30a-pcb-complete-guide" class="text-ocean-600 hover:underline font-medium">appliance disposal cost guide</a>.
+
+### Same-Day Service Logistics
+
+Same-day junk removal is one of our most-requested services, particularly for closing-day cleanouts, vacation rental Saturday turnovers, and pre-listing house cleanouts. The logistics that make same-day reliable:
+
+**Call or text by 11 AM** for guaranteed same-day response. Earlier is better during peak season (March-August). After 11 AM we'll do our best but capacity fills.
+
+**Photo-quoted pricing** before crew arrives. Text 2-4 photos of your items + property address + access notes (gate codes, parking, stairs) and we'll quote within 30 minutes. The quote is the final price.
+
+**Service window confirmation** — once booked, we'll text a 2-hour arrival window. Our crews call 20-30 minutes before arrival.
+
+**Direct to truck** — for HOA-strict communities like <a href="/blog/alys-beach-junk-removal-complete-guide" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, <a href="/blog/rosemary-beach-junk-removal-complete-guide" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and <a href="/blog/sandestin-junk-removal-resort-community-guide" class="text-ocean-600 hover:underline font-medium">Sandestin</a>, items go from interior property directly to our truck without curbside staging.
+
+### What Makes Our One-Time Service Different
+
+We've handled thousands of one-time junk removal jobs across 30A and Panama City Beach. What we do that differentiates the service:
+
+**Donation routing built in.** Roughly 30-40% of what we remove from typical homeowner one-time jobs is donation-quality — furniture in good condition, working appliances under 10 years old, household goods in usable shape. We route those items to <a href="/blog/where-to-donate-furniture-household-items-30a-florida" class="text-ocean-600 hover:underline font-medium">Habitat for Humanity ReStore or Salvation Army</a> and provide donation receipts back to you for tax-deduction filing. For typical residential jobs, this recovers $200-$800 in fair-market-value tax deductions you would have lost in a dump-only workflow.
+
+**Photo documentation.** Every job we run gets photos: before the work begins, the truck loaded with your items, and the cleared area after. For owners managing properties remotely, this documentation is the verification that the work happened as scheduled.
+
+**Local accountability.** We're a locally-owned 30A operation — same crews on every job, same dispatcher, same standards. Out-of-area junk removal franchises rotate crews and quality varies. Our consistent team is one of the reasons we maintain a <a href="/reviews" class="text-ocean-600 hover:underline font-medium">4.9-star rating across 127+ customer reviews</a>.
+
+**Local-knowledge edge.** We know the Walton County and Bay County disposal infrastructure (Mossy Head Landfill, Steelfield Landfill, the HHW programs, scrap metal facilities, the donation pickup schedules). That means we route items efficiently — donation-quality goods to ReStore on the way to the landfill, scrap metal to the right facility for value recovery, hazardous materials to the right HHW event. The routing makes the job work for both us and you.
 `,
     features: [
       'Same-day availability',
@@ -2835,6 +2875,64 @@ We understand the regulatory requirements for commercial waste disposal in Walto
 - Event venues and wedding facilities
 
 <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to discuss your commercial junk removal needs and receive a custom quote.
+
+### Industries We Serve in 30A and Panama City Beach
+
+The commercial junk removal market in our service area is concentrated in five industry verticals, each with distinct disposal patterns:
+
+**Hospitality and food service** — restaurants, cafes, bars, and food retail along Highway 98, in Panama City Beach's tourist corridors, and across the 30A central commercial districts. Disposal patterns: routine kitchen equipment turnover, dining room furniture refreshes during seasonal updates, walk-in cooler and refrigeration replacement (with EPA Section 608 refrigerant recovery), bulk packaging disposal, and the periodic full-buildout cleanouts during ownership transitions or major remodels.
+
+**Retail and boutique storefronts** — fashion boutiques, gift shops, art galleries, and specialty retailers throughout Seaside, Rosemary Beach, WaterColor, and the broader 30A/PCB tourist corridors. Disposal patterns: seasonal merchandise rotation, display fixture replacement during brand refreshes, post-season inventory clearance, and the periodic full-store closeouts that come with leases ending or rebrands.
+
+**Vacation rental property management offices** — operational headquarters for the property management companies that handle hundreds of vacation rental units along 30A and PCB. Disposal patterns: office furniture turnover during company growth, IT equipment refreshes, archive purges, and the move-out cleanouts that come with relocating to larger spaces as portfolios grow.
+
+**Real estate and professional services** — agencies, law offices, accounting firms, financial services. Disposal patterns: predictable office furniture and equipment refresh cycles, plus periodic estate/foreclosure property cleanouts that real estate firms coordinate for clients.
+
+**Light construction and home services** — flooring contractors, paint and wallpaper specialists, HVAC and plumbing companies, landscape services. Disposal patterns: ongoing project debris from client job sites, periodic warehouse cleanouts of obsolete or damaged inventory, fleet vehicle decommissioning.
+
+### Working With Property Management and HOAs
+
+Commercial work in 30A's gated communities and HOA-managed properties (Sandestin, WaterSound, Rosemary Beach, Alys Beach, the resort condo towers along Front Beach Road in PCB) requires the same vendor authorization protocols as residential work. Our standard process:
+
+**Vendor pre-registration** with the master HOA or property management company. We're already registered with most major 30A and PCB property management organizations and can get fast-track authorization for new accounts.
+
+**Service hour compliance.** Commercial work typically happens during business hours, but vacation rental management offices and retail properties in tourist corridors sometimes have restricted vendor hours during peak occupancy periods.
+
+**Photo documentation per job** — standard for commercial billing, with itemized line items by property address, items removed, and service category.
+
+**Net-15 or net-30 invoicing** available for established commercial accounts on preferred-vendor agreements. Our <a href="/blog/property-manager-junk-removal-playbook-30a" class="text-ocean-600 hover:underline font-medium">property manager junk removal playbook</a> covers vendor agreement patterns for the higher-volume property management relationships.
+
+### Compliance, Insurance, and Disposal Documentation
+
+Commercial junk removal in Florida includes regulatory requirements that residential work doesn't always trigger:
+
+**EPA Section 608 refrigerant compliance** — for commercial refrigeration disposal (walk-in coolers, restaurant freezers, large AC units, vending machine refrigerated cabinets). We hold the certifications and partner with EPA-approved recovery facilities to handle these legally.
+
+**OSHA workplace safety standards** — our crews follow OSHA-compliant lifting practices, PPE protocols, and job-site safety standards for commercial work environments.
+
+**Liability insurance** — we carry $1M+ general liability coverage that's typically required by commercial property managers and HOAs as a prerequisite for vendor approval. Insurance certificates are available on request.
+
+**Disposal manifests for hazardous-adjacent waste** — for commercial cleanouts that include items requiring special handling (electronics with mercury components, fluorescent ballasts, paint and solvents, automotive fluids), we provide disposal manifests documenting the receiving facility and recovery method. This documentation is sometimes required for commercial tenant move-out documentation or environmental compliance audits.
+
+**Local permit awareness** — Walton and Bay County both have specific permit requirements for certain large-volume commercial debris disposal. We coordinate permitting where required.
+
+### Commercial Pricing Structure
+
+Commercial junk removal pricing typically differs from residential in three ways:
+
+**Volume discounts at scale.** Single-load commercial jobs price at standard tier rates. Multi-load projects (multiple trucks, multiple visits, or scheduled recurring service) typically negotiate 10-25% off list pricing depending on annual volume commitment.
+
+**Scheduled service options.** Restaurants and retail with predictable monthly disposal needs often arrange weekly or biweekly scheduled service at flat monthly rates — typically $300-$1,500/month depending on volume and frequency. This is more economical than per-call billing for businesses generating consistent disposal.
+
+**Specialty surcharges** — apply to refrigerated commercial equipment, hazardous-adjacent waste requiring manifest documentation, and after-hours service for businesses that can't disrupt operations during business hours.
+
+**Standard 2026 commercial pricing tiers** (single-call basis):
+- Small commercial cleanout (restaurant kitchen refresh, retail fixture replacement, single office room): $400-$800
+- Medium commercial cleanout (full restaurant remodel, multi-room office, retail buildout): $800-$2,000
+- Large commercial cleanout (full restaurant closeout, multi-floor office, large retail buildout): $2,000-$6,000+
+- Recurring scheduled service (weekly/biweekly): $300-$1,500/month depending on volume
+
+See our <a href="/blog/junk-removal-cost-30a-2026-pricing-guide" class="text-ocean-600 hover:underline font-medium">2026 pricing deep dive</a> for the broader cost structure, and our <a href="/services/foreclosure-cleanout" class="text-ocean-600 hover:underline font-medium">foreclosure cleanout</a> and <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property management</a> services for adjacent commercial work.
     `,
     features: [
       'After-hours and weekend service',
