@@ -10930,6 +10930,354 @@ If you've got a specific item you're not sure about, [call us](/contact) or text
         answer: 'Electronics with circuit boards (TVs, computers, monitors, phones), refrigerators and freezers with refrigerant intact, oil-based paint and solvents, motor oil and automotive fluids, propane tanks, lithium batteries, fluorescent bulbs, tires, and mercury thermometers are all banned from regular trash in Florida. Most require either a retailer take-back program, a county household hazardous waste event, or a specialty recycler.'
       }
     ]
+  },
+  {
+    slug: 'junk-removal-walton-county-florida-complete-guide',
+    title: 'Junk Removal in Walton County, Florida: Complete 2026 Guide to Bulk Pickup, Disposal, and HOA Rules',
+    excerpt: 'Everything Walton County residents and 30A property owners need to know about bulk pickup schedules, the Mossy Head landfill, HOA rules in gated communities, and when to call a junk removal service.',
+    author: '30A Junk Removal LLC',
+    date: '2026-05-24',
+    lastUpdated: '2026-05-24',
+    readTime: '11 min read',
+    image: 'https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=1200&h=630&fit=crop',
+    imageAlt: 'Walton County Florida 30A corridor aerial view of beach community',
+    tags: ['Walton County', 'Local Resources', '30A', 'Bulk Pickup'],
+    metaDescription: 'Complete 2026 guide to junk removal in Walton County, FL. Bulk pickup rules, Mossy Head landfill, 30A HOA restrictions, and disposal options for residents and property managers.',
+    keywords: [
+      'junk removal Walton County',
+      'Walton County bulk pickup',
+      'Walton County solid waste',
+      'Mossy Head landfill',
+      'junk removal 30A Florida',
+      'Santa Rosa Beach junk removal',
+      'DeFuniak Springs disposal',
+      'Walton County FL waste',
+    ],
+    content: `
+# Junk Removal in Walton County, Florida: Complete 2026 Guide
+
+Walton County stretches from the white-sand beaches of [30A](/service-areas) up through the longleaf-pine country of north Florida — encompassing some of the wealthiest vacation real estate in the state and some of its most rural inland communities. That geographic spread creates a junk removal situation unlike anywhere else in the Florida Panhandle. A homeowner in [Rosemary Beach](/service-areas/rosemary-beach) and a homeowner in [DeFuniak Springs](/service-areas/defuniak-springs) face completely different rules, costs, and bottlenecks when it comes to getting rid of their junk.
+
+This guide is the resource we wish existed when we started [30A Junk Removal](/) — a single reference for Walton County's bulk pickup schedules, landfill access, HOA constraints, and the workflows that actually make junk removal efficient in this corner of Florida.
+
+## The Walton County Disposal Infrastructure
+
+Walton County's solid waste system is run through the Walton County Department of Public Works. The county operates the Mossy Head Landfill (the primary disposal site for county solid waste), several convenience centers scattered across the county, and a household hazardous waste program that runs intermittently throughout the year.
+
+**Mossy Head Landfill** is the county's primary tipping facility. Self-haul disposal is available at the scale-house — you'll pay by weight, with rates higher for construction debris than for household waste. Trucks under a certain weight typically pay a flat fee; loaded trucks weigh in and out. Bring a driver's license — Walton County residents pay resident rates; non-residents pay a surcharge.
+
+**Convenience centers** are smaller sites distributed across the county that accept household waste and recyclables at no charge for residents. These are particularly useful for north Walton residents who don't want to drive an hour to the landfill for a single load. Each convenience center has different hours, so check before driving over.
+
+**Recycling** in Walton County follows a curbside single-stream program for most residential addresses, with bin pickup typically every other week. The county accepts paper, cardboard, plastics #1 and #2, aluminum, and steel — but not glass (a common point of confusion; check the county's current accepted-materials list before assuming).
+
+**Household hazardous waste (HHW)** collection in Walton runs as quarterly events at specific locations announced ~30 days in advance through the county's public works channels. The accepted items list is exhaustive: oil-based paint, solvents, pesticides, automotive fluids, batteries, fluorescent bulbs, propane cylinders, and pool chemicals. Don't put any of these in regular trash — the county will refuse pickup, and you'll be on the hook for transport to the next quarterly event.
+
+## Bulk Pickup Rules: The Curbside Reality
+
+Bulk pickup — the curbside removal of large items that don't fit in standard trash bins — is one of the most-asked-about services we field. Here's how it actually works in Walton County's 30A zone:
+
+**Frequency:** Most municipalities along 30A and within unincorporated Walton offer bulk pickup either weekly or monthly, depending on the contractor handling the route. South Walton (the 30A corridor area) is generally on a more frequent schedule than inland Walton due to vacation rental turnover volumes.
+
+**What counts as "bulk":** Furniture (sofas, mattresses, dressers, tables), small appliances, large household goods that won't fit in a standard cart. Generally items 4-6 feet long max.
+
+**What does NOT count as bulk** (and will be left at the curb):
+- Construction debris (drywall, lumber, tile, roofing)
+- Refrigerators and large appliances with refrigerant (need certified removal first)
+- Tires
+- Electronics with circuit boards
+- Hot tubs and spas (way over the size limit)
+- Yard waste in plastic bags (must be paper bags or bundled)
+- Anything not at the curb by the pickup window
+
+**The mattress rule:** Mattresses must be wrapped in plastic disposal bags (a Florida public-health requirement to contain bed bugs). Plastic bags are $10–$15 at any hardware store. Unwrapped mattresses get left at the curb.
+
+**Item count limits:** Most contractors cap bulk pickup at 3-5 items per scheduled pickup. Larger volumes require either multiple pickup cycles or a dedicated [junk removal service](/services).
+
+For our broader item-by-item guide, see our [complete disposal guide for 30A](/blog/how-to-dispose-of-common-items-30a-florida) which covers exactly what curbside will and won't take.
+
+## The Vacation Rental Volume Problem
+
+The 30A corridor — [Seaside](/service-areas/seaside), [Alys Beach](/service-areas/alys-beach), [WaterColor](/service-areas/watercolor), [Rosemary Beach](/service-areas/rosemary-beach), [Grayton Beach](/service-areas/grayton-beach), and the rest — generates a junk-removal volume that no curbside system can absorb during peak season. A single peak weekend turnover for a 6-bedroom rental can generate 200-400 pounds of items: replaced mattresses, broken patio furniture, expired toiletries, guest left-behinds, broken kitchen appliances, sun-faded outdoor cushions.
+
+Curbside bulk pickup operates on a once-a-week (sometimes once-a-month) schedule. Vacation rentals turn over every Saturday in peak season. The math doesn't work. That's why nearly every serious property management company along 30A maintains a relationship with a [vacation rental junk removal service](/services/vacation-rentals) — the gap between checkout (10am) and check-in (4pm) on a Saturday is a six-hour window that has to absorb cleaning, turnover staging, and removal of any items the previous guest broke or the manager identified for replacement.
+
+Some communities — [Alys Beach](/service-areas/alys-beach), [WaterSound](/service-areas/watersound), and the gated zones of [Sandestin](/service-areas/sandestin) most notably — actually prohibit visible curbside junk during peak hours, with HOA fines for items left out. In those neighborhoods, professional same-day removal isn't a convenience; it's a compliance requirement.
+
+## HOA Rules in 30A Communities
+
+Each major 30A community has its own HOA covenants governing what can be left curbside and when. These are the patterns we see most often:
+
+**[Rosemary Beach](/service-areas/rosemary-beach):** Strict curbside aesthetic standards. Bulk items left visible during business hours violate community standards. Most owners coordinate removal to happen mid-week when guest traffic is lighter.
+
+**[Alys Beach](/service-areas/alys-beach):** Ultra-premium community with the tightest restrictions. The community has its own service standards expecting items to be staged inside garages or service zones, then removed via the community's preferred-vendor channels or via scheduled professional pickup. Visible curbside debris is essentially never permitted.
+
+**[Seaside](/service-areas/seaside):** Items must be in designated containment areas during pickup windows only. The community's architectural review enforces broad aesthetic standards that include trash and bulk staging.
+
+**[WaterColor](/service-areas/watercolor) and [WaterSound](/service-areas/watersound):** Each has its own neighborhood-level rules; the resort areas tend to be stricter than the residential subdivisions. Property managers in these areas typically have written disposal procedures that owners are required to follow.
+
+**[Sandestin](/service-areas/sandestin):** The 2,400-acre resort community runs its own internal service infrastructure for the rental properties; private residences follow general Walton County rules but with HOA aesthetic enforcement.
+
+**Inland Walton (DeFuniak Springs, Freeport):** Generally follows county-wide rules without the extra HOA layer, though specific subdivisions may have their own rules.
+
+If you're unsure about your community's rules, check with the HOA management company before staging anything at the curb. The fines for visible debris in the wrong window can range from $50 to $500+ per occurrence in the stricter communities.
+
+## Construction Debris and Renovation Disposal
+
+Walton County's coastal properties generate disproportionate renovation volume — homes turn over to new owners frequently, hurricane damage drives intermittent repair cycles, and the constant salt-air corrosion forces faster replacement schedules than inland properties.
+
+**Curbside is not an option for construction debris** in any Walton County municipality. Drywall, lumber, tile, roofing materials, broken concrete, and old cabinets must be hauled to a designated facility:
+
+- **Clean wood and lumber:** Most green-waste facilities accept it for free or at a low rate.
+- **Metal:** Scrap yards pay by weight, sometimes offsetting transport cost entirely on larger loads.
+- **Drywall:** Landfill only — doesn't recycle.
+- **Concrete, brick, stone:** Concrete recyclers accept clean loads; mixed debris goes to landfill.
+- **Roofing shingles:** Special-acceptance category at most landfills, usually at a premium per-ton rate.
+
+For projects over a half-truck (3+ cubic yards) of mixed debris, a [professional construction debris removal service](/services/construction-debris) is usually faster and cheaper than self-hauling — you don't pay for tickets, time at the scale-house, or the dump-truck rental.
+
+For ongoing renovation projects spanning a week or more, a roll-off dumpster (placed by a hauler for $400-$900 per week depending on size) tends to be more economical than multiple junk removal calls. Our [dumpster vs. junk removal comparison](/blog/junk-removal-vs-dumpster-rental-30a-comparison) walks through the actual math.
+
+## When Walton County Residents Should Call a Junk Removal Service
+
+The honest answer: not always. For routine household disposal — a single piece of furniture, a few bags of garage cleanout debris, a working appliance you can donate — curbside or convenience-center routing handles it cheaply and well.
+
+You should call a [junk removal service](/services) when:
+
+- **Volume exceeds curbside limits.** A single dresser fits in bulk pickup. An estate cleanout with 40+ items doesn't.
+- **Time pressure is real.** Vacation rental turnovers between checkouts and check-ins. Closing-date cleanouts. HOA fine deadlines.
+- **Items require special handling.** Refrigerators with refrigerant. Hot tubs (the single hardest DIY job we see). Electronics in volume. Hoarder cleanouts.
+- **Access is hard.** Upper-floor pickups in beach houses with no working elevator. Narrow garage access. Properties on Rosemary Beach's cobblestone streets where larger trucks struggle.
+- **You're in an HOA-restricted community.** Visible curbside debris isn't always an option.
+- **Sorting and routing is the bottleneck.** Mixed waste streams (furniture + appliances + electronics + construction debris) require multiple disposal facilities. Professional removal consolidates that into a single call.
+
+[30A Junk Removal](/) serves the full 30A corridor and beyond — [Destin](/service-areas/destin), [Miramar Beach](/service-areas/miramar-beach), [Panama City Beach](/service-areas/panama-city-beach), [DeFuniak Springs](/service-areas/defuniak-springs), [Freeport](/service-areas/freeport), and the inland Walton communities. Our [pricing guide](/pricing) covers transparent rates from quarter-truck to full-truck loads.
+
+## Frequently Asked Questions
+
+These are the most common Walton County junk-removal questions we field.
+`,
+    faqs: [
+      {
+        question: 'Does Walton County offer free bulk trash pickup?',
+        answer: 'Walton County residents receive bulk pickup as part of standard waste service — frequency varies by route (typically weekly along 30A, less frequent in inland Walton). Items must meet size limits (typically under 6 feet, under 40-50 pounds per piece), be at the curb the night before pickup, and not include excluded categories like construction debris, electronics, tires, or refrigerated appliances. There\'s usually a 3-5 item limit per pickup cycle.'
+      },
+      {
+        question: 'Where is the Walton County landfill?',
+        answer: 'The Mossy Head Landfill is Walton County\'s primary disposal facility, located in north Walton off Highway 90. Residents pay resident tipping rates with a Walton County ID; non-residents pay a surcharge. The facility accepts household waste, construction debris (with separate rates), yard waste, and limited recyclables. Closed loads (covered/tarped) are required by state law for self-haul trips.'
+      },
+      {
+        question: 'Can I dispose of paint at the Walton County landfill?',
+        answer: 'No — paint and other household hazardous waste (HHW) items are not accepted at the Mossy Head Landfill. Walton County runs HHW collection events quarterly at announced locations. Bring oil-based paint, solvents, pesticides, automotive fluids, and similar items to those events. Latex (water-based) paint can be dried with cat litter or paint hardener and disposed in regular trash once fully solid.'
+      },
+      {
+        question: 'Are there HOA rules about junk at the curb in 30A communities?',
+        answer: 'Yes. Communities like Alys Beach, Rosemary Beach, WaterSound, WaterColor, Seaside, and Sandestin all have HOA covenants restricting visible curbside debris during business hours or peak vacation rental traffic. Violations can result in fines from $50 to $500+ per occurrence. Most owners in these communities use professional junk removal services rather than risk fines from leaving items visible. Check with your specific HOA management for exact rules.'
+      },
+      {
+        question: 'Does Walton County recycle glass?',
+        answer: 'Glass recycling in Walton County has changed multiple times in recent years. As of 2026, the county\'s curbside single-stream recycling program does NOT accept glass — it must go in regular trash, or to a private glass-recycling drop-off. The county accepts paper, cardboard, plastics #1 and #2, aluminum, and steel cans in curbside recycling. Check the county\'s current accepted-materials list before assuming an item recycles.'
+      },
+      {
+        question: 'How much does junk removal cost in Walton County?',
+        answer: 'Professional junk removal in Walton County typically runs $150–$300 for a quarter-truck (single item or small load), $300–$500 for a half-truck (bedroom set or moderate cleanout), $500–$700 for a three-quarter truck (multi-room cleanout), and $700–$900+ for a full truck (large estate, full garage, or hurricane debris). Pricing varies based on item type — refrigerators, hot tubs, and hazardous materials carry surcharges. See our pricing guide for current rates.'
+      },
+      {
+        question: 'What\'s the fastest way to dispose of a vacation rental cleanout in 30A?',
+        answer: 'For same-day vacation rental turnovers along 30A — between guest checkout (10 AM) and check-in (4 PM) — professional junk removal is the only realistic option. Curbside pickup runs on weekly or monthly schedules that don\'t align with vacation rental turnovers. Most property managers in Rosemary Beach, Seaside, Alys Beach, WaterColor, and similar communities maintain dedicated service relationships with junk removal companies for emergency same-day turnovers. Call by 11 AM for same-day service in most cases.'
+      }
+    ]
+  },
+  {
+    slug: 'where-to-donate-furniture-household-items-30a-florida',
+    title: 'Where to Donate Furniture and Household Items on 30A Florida: Complete 2026 Donation Guide',
+    excerpt: 'Complete guide to donating usable furniture, appliances, clothing, and household items along the 30A corridor and Walton, Bay, and Okaloosa counties — with tax-deduction tips and what each organization accepts.',
+    author: '30A Junk Removal LLC',
+    date: '2026-05-24',
+    lastUpdated: '2026-05-24',
+    readTime: '10 min read',
+    image: 'https://images.unsplash.com/photo-1601985705806-5b9a71f6004f?w=1200&h=630&fit=crop',
+    imageAlt: 'Donation boxes of furniture and household items ready for charity pickup 30A Florida',
+    tags: ['Donation', 'Local Resources', '30A', 'Tax Deduction'],
+    metaDescription: 'Complete 2026 guide to donating furniture, appliances, and household items along the 30A corridor. Habitat ReStore, Goodwill, Salvation Army locations, tax tips, and what each org accepts.',
+    keywords: [
+      'donate furniture 30A',
+      'Habitat ReStore 30A',
+      'Goodwill Santa Rosa Beach',
+      'donate furniture pickup Florida',
+      'Salvation Army donation 30A',
+      'where to donate near Destin',
+      'donation tax deduction Florida',
+      'free furniture pickup 30A',
+    ],
+    content: `
+# Where to Donate Furniture and Household Items on 30A Florida
+
+A meaningful fraction of what passes through our trucks at [30A Junk Removal](/) isn't junk at all — it's perfectly usable furniture, working appliances, gently-used household goods, and intact bedding that vacation rental owners and homeowners along 30A are replacing as part of routine upgrades. Throwing those items in a dumpster is wasteful, expensive (you pay tipping fees), and skips a legitimate tax deduction worth $200–$2,000+ per cleanout.
+
+This guide is the donation routing playbook we wish more 30A property owners knew about. It covers the major regional donation organizations, what each accepts and refuses, how to schedule pickup (most offer free pickup for larger items if you ask), and how to document the donation properly for your tax return.
+
+## Why Donation Beats Disposal on 30A
+
+Three reasons:
+
+**1. The tax math is meaningful.** Donating a $400 used sofa in good condition generates a $400 fair-market-value tax deduction. For an estate cleanout or major property refresh, donation receipts can total $2,000–$8,000+ — far exceeding the cost of professional [junk removal](/services) to remove the rest. This is documented in IRS Publication 561 (Determining the Value of Donated Property).
+
+**2. Local economic impact.** Habitat ReStore proceeds fund local Habitat for Humanity affordable housing builds in northwest Florida. Salvation Army proceeds fund local addiction recovery programs and emergency shelter. Goodwill proceeds fund job training. Your discarded furniture turns into local housing, jobs, and services.
+
+**3. The 30A vacation rental refresh cycle.** Vacation rentals along [Seaside](/service-areas/seaside), [Rosemary Beach](/service-areas/rosemary-beach), and [WaterColor](/service-areas/watercolor) replace mid-range furniture roughly every 5–7 years and high-end pieces every 3–5 years. Most of that furniture is still in excellent condition — it's being replaced for stylistic refresh, not because it's worn out. That's premium donation inventory.
+
+## The Major Donation Organizations
+
+These four organizations cover roughly 90% of donatable items along the Florida Panhandle. Each has different acceptance criteria, pickup capabilities, and geographic coverage.
+
+### Habitat for Humanity ReStore
+
+[Habitat ReStore](https://www.habitat.org/restores) is the strongest single donation channel for furniture and home goods along 30A. ReStores are donation-funded retail outlets selling secondhand and surplus building materials, appliances, furniture, and home goods. The Northwest Florida region has multiple ReStore locations across Walton, Bay, Okaloosa, and Santa Rosa counties.
+
+**What ReStore takes:**
+- Furniture (sofas, dressers, tables, chairs, beds — in usable condition)
+- Working appliances (refrigerators, washers, dryers, microwaves)
+- Building materials (cabinets, doors, windows, hardware, lumber)
+- Light fixtures, ceiling fans, plumbing fixtures
+- Home decor, lamps, mirrors
+- Tools and yard equipment
+
+**What ReStore does NOT take:**
+- Mattresses (almost no ReStore accepts mattresses due to bed-bug concerns)
+- Items with active mold, water damage, or significant wear
+- Most clothing (clothing is a Goodwill/Salvation Army category)
+- Items with missing parts (e.g., a couch missing its cushions)
+- Appliances older than 10 years
+- Items with refrigerant unless the refrigerant has been certified-removed
+
+**Pickup:** Most ReStore locations offer free furniture pickup for larger items (typically a 3-piece minimum or single items over a certain size). Pickup is scheduled in advance — usually 1-2 weeks out. Smaller donations are drop-off only at the store.
+
+**Tax receipt:** ReStore provides itemized receipts at drop-off or pickup. You're responsible for assigning fair-market value (the IRS uses "thrift-store value" — what a buyer would reasonably pay for the item used).
+
+For [estate cleanouts](/services/estate-cleanouts) along 30A, ReStore is almost always the first stop for usable furniture before the rest goes to disposal.
+
+### Goodwill Industries
+
+Goodwill operates retail thrift stores funded by donated goods, with proceeds supporting workforce development and job training programs. The Big Bend Goodwill region covers the Florida Panhandle.
+
+**What Goodwill takes:**
+- Clothing (the primary category — shoes, accessories, all sizes)
+- Books, DVDs, CDs, video games
+- Small appliances (microwaves, blenders, coffee makers, toasters)
+- Home decor, kitchenware, glassware
+- Toys and games in good condition
+- Some furniture (varies by store — smaller pieces only)
+- Electronics (TVs under a certain age, computers, peripherals)
+
+**What Goodwill does NOT take:**
+- Large furniture (most stores can't move it; check before bringing)
+- Mattresses
+- Hazardous materials, paint, chemicals
+- Damaged or non-working electronics
+- Cribs and car seats (federal recall liability)
+- Tube televisions (CRTs)
+
+**Pickup:** Some Goodwill locations offer pickup for larger donations; most are drop-off only. Drop-off is fast — typically a covered loading area with attendants who help unload.
+
+**Tax receipt:** Provided at drop-off or via online donation tracking if you use Goodwill's tracking system.
+
+### Salvation Army
+
+The Salvation Army operates Family Stores (retail thrift) and runs adult rehabilitation programs funded by donated goods. Coverage in the Florida Panhandle is good in Bay and Okaloosa counties, with some Walton coverage.
+
+**What Salvation Army takes:**
+- Furniture (most categories, in usable condition)
+- Clothing and accessories
+- Household goods, kitchenware, decor
+- Working appliances
+- Books, toys, sporting goods
+- Some electronics
+
+**What they do NOT take:**
+- Mattresses (varies; some locations accept with conditions)
+- Items needing significant repair
+- Hazardous materials
+- Items with strong odors, pet damage, or mold
+
+**Pickup:** Salvation Army is one of the most reliable pickup-offering organizations — most local stores will schedule pickup for furniture donations, often within 1-2 weeks. This is particularly useful for [estate cleanouts](/services/estate-cleanouts) and large vacation rental refresh projects where moving items to a store isn't practical.
+
+**Tax receipt:** Provided at pickup or drop-off.
+
+### Local Churches and Community Organizations
+
+Beyond the three major regional organizations, the 30A corridor has dozens of churches, community thrift stores, and specialty organizations that accept donations. These are particularly good outlets for:
+
+- **Women's and children's clothing** → women's shelters and family-services nonprofits in Walton, Bay, and Okaloosa counties
+- **Blankets, towels, pet supplies** → local animal rescues and shelters
+- **Books** → public libraries (most accept book donations for their used-book sales)
+- **Office equipment, school supplies** → local schools and after-school programs
+- **Musical instruments** → school music programs and music ministries
+
+For specific local organizations, ask your church, your kids' school, or the Walton County Public Library — they typically know who in the immediate area is accepting what.
+
+## What's Worth Donating vs. What's Not
+
+A practical rule: if you'd be comfortable giving the item to a friend, it's donation-quality. If you'd hesitate, it's probably junk-removal territory.
+
+**Donate:** Solid wood furniture with minor scratches. Working appliances under 10 years old. Clean upholstered furniture without stains or pet damage. Clothing in good condition without holes or heavy wear. Working electronics with all cables. Intact kitchenware, dishes, glassware. Books in readable condition.
+
+**Don't donate (call [junk removal](/services) instead):** Stained or torn upholstery. Mattresses (almost no donation org accepts them). Broken appliances. Furniture with structural damage. Items with mold, mildew, or strong odors. Pet-damaged items. Outdoor furniture severely weathered by salt air. Anything you wouldn't want to receive as a hand-me-down.
+
+**Gray area (call ahead):** Older but working refrigerators and appliances — some ReStores take them, some don't. Vintage furniture in original condition — high donation value if a specialty resale shop will take it; otherwise standard thrift pricing. Outdoor patio furniture — depends on condition; coastal salt damage usually disqualifies.
+
+## How Junk Removal and Donation Work Together
+
+Most large cleanouts — [estate cleanouts](/services/estate-cleanouts), [foreclosure cleanouts](/services/foreclosure-cleanout), [vacation rental refreshes](/services/vacation-rentals), or [property management projects](/services/property-management) — involve a mix of donatable and non-donatable items. The most efficient workflow:
+
+1. **Sort first.** Separate donatable items from junk before the [junk removal](/services) truck arrives. Mark or stage them in a different room or area.
+2. **Schedule donation pickup OR run a drop-off load first.** Habitat ReStore and Salvation Army both schedule pickups for the donatable items. For smaller volumes, a single trip to the local ReStore drop-off is faster.
+3. **Junk removal handles the rest.** The remaining items — mattresses, broken pieces, hazardous waste, and items donations refused — go in the junk removal truck.
+4. **Document everything for taxes.** Get itemized receipts from every donation source. For donations totaling over $500, IRS Form 8283 is required at tax time.
+
+Some junk removal companies will pre-sort items for donation routing as part of the service — we offer this for [estate cleanouts](/services/estate-cleanouts) where the family is overwhelmed and just needs the property cleared. Items in donation condition get routed to ReStore or Salvation Army on our way back from the disposal site; the remainder gets disposed. The tax-receipt documentation gets handed back to the family.
+
+## Maximizing the Tax Deduction
+
+For donations over $250, you must have a written acknowledgment from the donation organization. For donations over $500 in total, IRS Form 8283 is required. For single items valued over $5,000, a qualified appraisal is required (rare for household goods, but relevant for antiques, fine art, or valuable estate items).
+
+**Fair-market-value reference:** The Salvation Army and Goodwill both publish valuation guides estimating thrift-store value for common donated items. These are the IRS-accepted baseline — a "$50 sofa" is the floor, not the ceiling. If your sofa is high-end and would sell for $300 on Facebook Marketplace, that's the fair-market value to claim.
+
+**Practical numbers** for a typical 30A property refresh donation lot:
+- Bedroom set (queen bed, two nightstands, dresser): $200–$600 fair-market value
+- Living room set (sofa, loveseat, coffee table): $300–$800 fair-market value
+- Working appliances (10 years or under): $100–$400 each
+- Kitchen ware, dishes, decor (boxed): $50–$200 per box
+
+For a full vacation rental refresh, total donation value of $1,500–$4,000 is typical. At a 24% marginal tax rate, that's a $360–$960 reduction in federal tax — usually more than the cost difference between donating and dumping.
+
+## Frequently Asked Questions
+`,
+    faqs: [
+      {
+        question: 'Does Habitat for Humanity ReStore pick up furniture on 30A?',
+        answer: 'Yes, most ReStore locations in northwest Florida offer free furniture pickup for larger donations, typically requiring a 3-piece minimum or single items over a certain size threshold. Pickup is scheduled in advance — usually 1-2 weeks out. Smaller donations are drop-off only at the nearest store. Call the specific ReStore location nearest your 30A property to confirm pickup eligibility and schedule.'
+      },
+      {
+        question: 'Where can I donate a used mattress on 30A?',
+        answer: 'Mattresses are one of the hardest items to donate — Habitat ReStore, Goodwill, and Salvation Army all typically refuse mattresses due to bed-bug concerns. Some local women\'s shelters and emergency-services organizations will accept clean, lightly-used mattresses, but call ahead to confirm. For mattresses in poor condition, disposal is the only path — wrap in a plastic mattress bag (required for curbside) or call a professional mattress removal service.'
+      },
+      {
+        question: 'Does Goodwill take large furniture on 30A?',
+        answer: 'Goodwill\'s acceptance of large furniture varies significantly by store — some locations only accept smaller furniture pieces that fit easily through doors and onto the sales floor. Call your nearest Goodwill before bringing large items. For multi-piece furniture donations, Habitat ReStore and Salvation Army are usually better options because they offer scheduled pickup and have larger floor space for furniture displays.'
+      },
+      {
+        question: 'How do I get a tax receipt for donated furniture?',
+        answer: 'Every reputable donation organization provides itemized receipts at drop-off or pickup. You\'re responsible for assigning fair-market value (the IRS uses "thrift-store value" — what a buyer would reasonably pay for the item used). The Salvation Army and Goodwill publish valuation guides as IRS-accepted baselines. For donations over $250, you must have written acknowledgment from the organization. For total donations over $500 in a tax year, IRS Form 8283 is required at filing.'
+      },
+      {
+        question: 'What\'s the value of donated furniture for tax purposes?',
+        answer: 'IRS fair-market value is "thrift-store value" — what an informed buyer would pay for the item in its current used condition. Typical ranges: bedroom set (queen bed, nightstands, dresser) $200–$600; living room set (sofa, loveseat, coffee table) $300–$800; working appliances under 10 years old $100–$400 each; boxed kitchenware/decor $50–$200 per box. For high-end pieces, comparable Facebook Marketplace or Craigslist prices are valid fair-market references.'
+      },
+      {
+        question: 'Can a junk removal service handle donation routing?',
+        answer: 'Yes — for larger cleanouts (estate cleanouts, vacation rental refreshes, foreclosure cleanouts), professional junk removal services typically pre-sort items and route donatable pieces to Habitat ReStore, Salvation Army, or other donation outlets on the way to the disposal site. This adds minimal cost and recovers significant tax-deduction value. Ask the service if they handle donation routing before booking — not all do.'
+      }
+    ]
   }
 ]
 

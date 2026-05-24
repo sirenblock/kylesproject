@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { CheckCircle, Phone, ArrowRight, Camera } from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER, getSMSLink } from '@/lib/utils'
 import { getServiceDetail } from '@/lib/services'
-import { FAQSchema, BreadcrumbSchema } from '@/components/seo/StructuredData'
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from '@/components/seo/StructuredData'
 import { CTASection } from '@/components/sections/CTASection'
 import { RelatedContentGrid } from '@/components/sections/RelatedContent'
 import { HelpfulResources } from '@/components/sections/HelpfulResources'
@@ -46,6 +46,11 @@ export default function ServicePage() {
           { name: 'Services', url: '/services' },
           { name: service.shortTitle, url: `/services/${service.slug}` }
         ]}
+      />
+      <ServiceSchema
+        name={service.title}
+        description={service.description}
+        url="/services/piano-removal"
       />
       <FAQSchema questions={service.faqs} />
 
