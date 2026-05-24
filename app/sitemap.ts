@@ -3,6 +3,7 @@ import { getAllBlogSlugs, getBlogPost } from '@/lib/blog'
 import { getAllServiceSlugs } from '@/lib/services'
 import { getAllLocationSlugs } from '@/lib/locations'
 import { getAllCountySlugs } from '@/lib/counties'
+import { getAllCategorySlugs } from '@/lib/blog-categories'
 import config from '@/lib/config'
 
 // Hardcoded "site content last meaningfully updated" date. Bump when shipping
@@ -93,11 +94,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }))
 
-  // PRIORITY 0.6: Other pages (about, faq, our-work)
+  // PRIORITY 0.7: Blog category archive pages (topical authority hubs)
+  const categorySlugs = getAllCategorySlugs()
+  const categoryPages: MetadataRoute.Sitemap = categorySlugs.map(slug => ({
+    url: `${config.siteUrl}/blog/category/${slug}`,
+    lastModified: SITE_CONTENT_UPDATED,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
+
+  // PRIORITY 0.6: Other pages (about, faq, our-work, reviews)
   const otherPages: MetadataRoute.Sitemap = [
     '/about',
     '/faq',
     '/our-work',
+    '/reviews',
   ].map(route => ({
     url: `${config.siteUrl}${route}`,
     lastModified: SITE_CONTENT_UPDATED,
@@ -122,6 +133,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...discoveryPages,
     ...servicePages,
     ...countyPages,
+    ...categoryPages,
     ...blogPostEntries,
     ...locationPages,
     ...otherPages,

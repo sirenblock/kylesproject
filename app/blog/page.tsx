@@ -2,7 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { blogPosts } from '@/lib/blog'
-import { Calendar, Clock, ArrowRight, BookOpen } from 'lucide-react'
+import { blogCategories } from '@/lib/blog-categories'
+import { Calendar, Clock, ArrowRight, BookOpen, Folder } from 'lucide-react'
 import { LinksSection } from '@/components/seo/LinksSection'
 import { BlogHubSchema } from '@/components/seo/PagedSchemas'
 import { BreadcrumbSchema } from '@/components/seo/StructuredData'
@@ -128,6 +129,43 @@ export default function BlogPage() {
           <p className="text-xl text-ocean-100 max-w-2xl mx-auto">
             Expert tips, guides, and insights to help you keep your 30A property clean and clutter-free.
           </p>
+        </div>
+      </section>
+
+      {/* Category navigation */}
+      <section className="py-12 bg-white border-b border-sand-200">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2">
+              Browse by Category
+            </h2>
+            <p className="text-slate-600">
+              Navigate {blogPosts.length} guides by topic
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
+            {blogCategories.map((cat) => (
+              <Link
+                key={cat.slug}
+                href={`/blog/category/${cat.slug}`}
+                className="group block bg-sand-50 hover:bg-ocean-50 border border-sand-200 hover:border-ocean-300 rounded-xl p-5 transition-all"
+              >
+                <div className="flex items-start gap-3">
+                  <div className="shrink-0 w-10 h-10 rounded-lg bg-ocean-100 text-ocean-600 flex items-center justify-center group-hover:bg-ocean-600 group-hover:text-white transition-colors">
+                    <Folder className="w-5 h-5" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-semibold text-slate-900 group-hover:text-ocean-700 mb-1">
+                      {cat.name}
+                    </h3>
+                    <p className="text-xs text-slate-600">
+                      {cat.postSlugs.length} {cat.postSlugs.length === 1 ? 'guide' : 'guides'}
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
