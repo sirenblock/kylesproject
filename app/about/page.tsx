@@ -5,12 +5,14 @@ import { Shield, Leaf, Heart, Clock, Phone, CheckCircle, BadgeCheck, MapPin, Use
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 import config from '@/lib/config'
 import { LinksSection } from '@/components/seo/LinksSection'
+import { AboutPageSchema } from '@/components/seo/PagedSchemas'
+import { BreadcrumbSchema } from '@/components/seo/StructuredData'
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo'
 import { TrustBadges } from '@/components/ui/TrustBadges'
 
 export const metadata: Metadata = {
   title: 'About Us | 30A Junk Removal',
-  description: 'Learn about 30A Junk Removal - your trusted partner for premium junk removal services along the beautiful 30A corridor in Florida.',
+  description: 'Learn about 30A Junk Removal - locally owned junk removal service for the 30A corridor and Panama City Beach. Licensed, insured, serving Walton and Bay Counties.',
   alternates: {
     canonical: getCanonicalUrl('/about'),
   },
@@ -52,6 +54,13 @@ export default function AboutPage() {
 
   return (
     <main className="min-h-screen">
+      <AboutPageSchema />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'About', url: '/about' },
+        ]}
+      />
       {/* Hero */}
       <section className="-mt-24 pt-32 pb-20 md:pt-36 md:pb-28 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white overflow-hidden relative">
         {/* Decorative blobs */}

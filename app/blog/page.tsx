@@ -4,6 +4,8 @@ import Image from 'next/image'
 import { blogPosts } from '@/lib/blog'
 import { Calendar, Clock, ArrowRight, BookOpen } from 'lucide-react'
 import { LinksSection } from '@/components/seo/LinksSection'
+import { BlogHubSchema } from '@/components/seo/PagedSchemas'
+import { BreadcrumbSchema } from '@/components/seo/StructuredData'
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo'
 
 export const metadata: Metadata = {
@@ -97,6 +99,13 @@ export default function BlogPage() {
 
   return (
     <main className="min-h-screen">
+      <BlogHubSchema postCount={blogPosts.length} />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Blog', url: '/blog' },
+        ]}
+      />
       {/* Hero Section */}
       <section className="relative -mt-24 pt-32 pb-20 md:pt-36 md:pb-28 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 overflow-hidden">
         {/* Background decoration */}
