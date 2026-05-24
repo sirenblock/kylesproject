@@ -11832,6 +11832,324 @@ Call professional [junk removal](/services) when:
         answer: 'Yes — most professional junk removal services along the PCB corridor offer same-day service if called by 11 AM, with priority response for property management companies on preferred-vendor agreements. The PCB Saturday turnover window (10 AM checkout to 4 PM check-in) is the highest-demand window in Bay County for same-day service; book ahead during peak season (spring break March-April, summer June-August) to guarantee response.'
       }
     ]
+  },
+  {
+    slug: 'panama-city-beach-junk-removal-complete-guide',
+    title: 'Panama City Beach Junk Removal: The Complete 2026 Guide for Condos, Vacation Rentals, and Year-Round Residents',
+    excerpt: 'Everything PCB residents and property owners need to know about junk removal — high-rise condo logistics, spring break and peak season turnovers, hurricane debris, the Steelfield Landfill, and when to call professional service vs. use city pickup.',
+    author: '30A Junk Removal LLC',
+    date: '2026-05-24',
+    lastUpdated: '2026-05-24',
+    readTime: '12 min read',
+    image: 'https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?w=1200&h=630&fit=crop',
+    imageAlt: 'Panama City Beach Florida high-rise condos and Gulf coast beachfront properties',
+    tags: ['Panama City Beach', 'PCB', 'Bay County', 'Vacation Rentals', 'Local Resources'],
+    metaDescription: 'Complete 2026 guide to junk removal in Panama City Beach FL. High-rise condo logistics, spring break/peak season turnovers, hurricane debris, Steelfield Landfill, and when to call professional service.',
+    keywords: [
+      'Panama City Beach junk removal',
+      'PCB junk removal',
+      'junk removal Panama City Beach FL',
+      'PCB condo cleanout',
+      'Panama City Beach vacation rental cleanout',
+      'PCB hurricane debris',
+      'junk hauling Panama City Beach',
+      'condo junk removal PCB',
+    ],
+    content: `
+# Panama City Beach Junk Removal: The Complete 2026 Guide
+
+Panama City Beach is 27 miles of Gulf coastline with one of the densest concentrations of vacation rental inventory in Florida — roughly 24,000 units between condos, beach houses, and resort properties spanning from the Walton County line to St. Andrew State Park. That density, combined with the Hurricane Michael rebuild that fundamentally reshaped the local construction industry, makes PCB one of the most active junk-removal markets in the Florida Panhandle.
+
+This guide consolidates what we've learned at [30A Junk Removal](/) running thousands of jobs across PCB — the high-rise condo logistics, the spring break turnover dynamics, the lingering Michael rebuild patterns, and the practical decisions about when to call us vs. use the city's bulk pickup. The companion [Bay County guide](/blog/junk-removal-bay-county-florida-complete-guide) covers the broader county; this one is PCB-specific.
+
+## The Panama City Beach Real Estate Pattern
+
+Three property types dominate PCB:
+
+**High-rise condos along Front Beach Road** — buildings like Calypso, Aqua, Splash, Tidewater, Long Beach Resort, Edgewater Beach, and dozens of smaller towers form the iconic PCB skyline. Most are 14-22 stories with 200-500 units each. Service-elevator access is the operational reality, not the front doors.
+
+**Mid-rise condos and townhomes** — buildings in the 4-8 story range scattered between Highway 98 and Front Beach Road, plus the resort communities at the east end (Bay Point, Wild Heron). Typically simpler access but still HOA-coordinated.
+
+**Single-family beach houses and inland homes** — older beach-cottage stock along Beachside Drive and Thomas Drive, plus newer construction in inland Holiday Beach and Bid-A-Wee neighborhoods. Curbside service works well here for most routine disposal.
+
+The mix matters because junk removal logistics differ dramatically across these property types. A standard hot tub removal at a beach house is a 90-minute ground-level job; the same hot tub on a 12th-floor balcony at a Front Beach Road condo can be a 4-hour, crane-coordinated event.
+
+## The Spring Break Reality
+
+PCB's spring break season — roughly mid-March through April 20 — drives the year's biggest junk-removal volume spike. The pattern:
+
+**Pre-season (late February through mid-March):** Property managers and condo HOAs run inventory audits, replacing items that didn't survive the off-season. Roughly 30-40% of condo unit turnover items get refreshed before spring break opens.
+
+**Mid-spring break (mid-March through April):** Damage-driven turnovers spike. Broken patio furniture, stained mattresses, malfunctioning small appliances, lost-and-found pileups — these are the post-checkout cleanup volumes that don't fit a standard weekly schedule.
+
+**Spring break shutdown (April 20-30):** The largest single sweep of the year. Properties that operated at 100% occupancy for 6+ weeks finally pause for deep cleaning and replacement. Many PCB property managers do their largest furniture orders during this window.
+
+For property owners or managers — book your spring break cleanup before March 1 to guarantee service capacity. After March 15, same-day response becomes harder during peak season. The [property manager playbook](/blog/property-manager-junk-removal-playbook-30a) covers the broader operational pattern.
+
+## High-Rise Condo Junk Removal: What Makes It Different
+
+The 8-22 story buildings along Front Beach Road operate on logistics that differ from any other property type in our service area.
+
+**Service elevator scheduling** is the bottleneck. Every major building has a designated service elevator. Reservations typically need 24-48 hours notice through building management. Without a reservation, junk removal crews share the elevator with guests — slow service, awkward encounters, and sometimes refusal by management.
+
+**Loading dock access** matters as much as elevator access. Most PCB high-rises have a service entrance separate from the guest entrance with limited loading dock space. Coordinating arrival time so you're not waiting behind another delivery is a real operational challenge during peak season.
+
+**HOA approval for unusual items** can stop a project cold. Most condo HOAs have specific rules for large items — particularly anything requiring freight elevator use beyond the standard service elevator.
+
+**Renovation debris from unit remodels** is the single largest condo junk-removal category. PCB condos turn over ownership frequently, and new owners often renovate within their first year. A typical 2-bedroom condo remodel generates 3,000-6,000 pounds of mixed debris. None of it can go in regular building trash chutes.
+
+Our [construction debris service](/services/construction-debris) handles this specifically — coordinating service elevator scheduling, staging in the unit, and timing the haul to match the building's loading dock availability.
+
+## The PCB Year-Round Operational Rhythm
+
+Beyond the spring break spike, PCB has a distinct year-round operational pattern:
+
+- **January-February (off-season):** Lowest volumes. Best window for major owner renovations.
+- **March-April (spring break peak):** Highest volume of the year.
+- **May:** Brief lull while properties refresh for summer.
+- **June-August (family vacation peak):** Second-highest volume.
+- **September (post-summer cleanup):** Major turnovers from properties going dormant.
+- **October-November (snowbird arrival):** Snowbirds open homes that have been closed for 6 months.
+- **December (holiday season):** Steady residential volume, year-end estate cleanouts.
+
+## Bulk Pickup vs. Professional Removal in PCB
+
+PCB offers city bulk pickup through its sanitation department:
+
+**Pickup schedule:** Weekly in high-density coastal corridors, bi-weekly to monthly in inland neighborhoods. Items at the curb the night before scheduled pickup.
+
+**Size limits:** Generally 6 feet max per item, 3-5 items per pickup cycle.
+
+**Refused at the curb:** Construction debris, refrigerators with refrigerant, tires, electronics, hot tubs, paint and HHW.
+
+**When city pickup works:** Single furniture pieces. Routine household disposal. Donatable items (route through [Habitat ReStore](/blog/where-to-donate-furniture-household-items-30a-florida) instead).
+
+**When you need [professional removal](/services):** Multi-piece cleanouts. Items exceeding size limits. Upper-floor condos. Construction debris. Refrigerators or hot tubs. Time-pressured turnovers. Hurricane debris exceeding curbside capacity.
+
+## Hurricane Michael's Lasting Impact
+
+Hurricane Michael (October 2018) hit Bay County as a Category 5. The damage in PCB was substantial but less catastrophic than Mexico Beach to the east. Six years later, the local junk-removal industry is still shaped by Michael:
+
+- Construction-debris volume remains elevated due to ongoing rebuild work.
+- Steelfield Landfill expanded capacity in response to Michael volumes.
+- Insurance-driven cleanouts continue as properties complete repairs.
+
+For new storm events, Bay County operates emergency debris pickup through pre-positioned contractors for 30-60 days post-storm. Our [hurricane debris service](/services/hurricane-debris) handles both emergency response and long-tail rebuild work.
+
+## Cost Patterns Specific to PCB
+
+PCB pricing typically runs 10-15% higher than inland Bay County for equivalent work due to:
+
+1. High-rise access surcharges (service elevator scheduling, longer haul distances)
+2. HOA coordination overhead (20-30 minutes per job)
+3. Traffic and parking on Front Beach Road during peak season
+
+Typical PCB 2026 pricing:
+- **Quarter truck:** $175-$325
+- **Half truck:** $350-$550
+- **Three-quarter truck:** $550-$800
+- **Full truck:** $800-$1,100+
+
+For specific item pricing, see our [hot tub removal cost breakdown](/blog/hot-tub-removal-cost-30a-pricing-breakdown) and [junk removal cost guide](/blog/junk-removal-cost-30a-2026-pricing-guide).
+
+## Working With PCB Property Managers
+
+Most major PCB property management companies operate preferred-vendor relationships. Typical structure: 8-15% volume discount, guaranteed Saturday same-day response if called by 11 AM, photo documentation per job, weekly invoicing with property-level line items, net-15 payment terms.
+
+For PMs managing 15+ PCB units, formalizing a preferred-vendor relationship is almost always cheaper than per-call billing during peak season. The [property manager playbook](/blog/property-manager-junk-removal-playbook-30a) covers the full vendor agreement pattern.
+
+## Frequently Asked Questions
+`,
+    faqs: [
+      {
+        question: 'How much does junk removal cost in Panama City Beach?',
+        answer: 'PCB pricing typically runs 10-15% higher than inland Bay County due to high-rise access, HOA coordination, and traffic. Typical 2026 rates: quarter truck $175-$325, half truck $350-$550, three-quarter truck $550-$800, full truck $800-$1,100+. Specialty items (refrigerators, hot tubs, hazardous materials) carry surcharges. High-rise condo jobs requiring service-elevator coordination price at the upper end of each tier.'
+      },
+      {
+        question: 'Can I get same-day junk removal in Panama City Beach?',
+        answer: 'Yes — most professional junk removal services in PCB offer same-day response if called by 11 AM. During peak season (spring break March-April, summer June-August), capacity fills faster — book by 9-10 AM to guarantee same-day. Property management companies on preferred-vendor agreements typically get prioritized Saturday turnover response within 4-hour SLAs.'
+      },
+      {
+        question: 'Does Panama City Beach offer free bulk pickup?',
+        answer: 'Yes — PCB residents get bulk pickup as part of city sanitation service. Schedule varies by neighborhood: weekly in high-density coastal corridors, bi-weekly to monthly in inland areas. Items must meet size limits (6 feet max, 3-5 items per pickup). Construction debris, refrigerators with refrigerant, tires, electronics, hot tubs, and household hazardous waste are excluded categories.'
+      },
+      {
+        question: 'How do you remove furniture from a high-rise condo in Panama City Beach?',
+        answer: 'High-rise condo removal requires service-elevator scheduling, loading dock coordination, and sometimes HOA approval for unusual items. Most major PCB buildings designate a service elevator separate from guest elevators; reservations typically need 24-48 hours notice through building management. Professional crews coordinate elevator timing, loading dock arrival, and unit access with property staff.'
+      },
+      {
+        question: 'Where do I dispose of construction debris from a PCB condo renovation?',
+        answer: 'Construction debris from PCB condo renovations is not eligible for building trash chutes or city curbside pickup. Options: (1) Self-haul to Steelfield Landfill at Bay County tipping rates (resident ID required for in-county pricing); (2) Rent a roll-off dumpster placed near the building (requires HOA approval); (3) Hire professional construction debris removal — usually fastest for unit-scale renovations under 8 cubic yards of debris.'
+      },
+      {
+        question: 'What is the busiest junk removal season in Panama City Beach?',
+        answer: 'Spring break (mid-March through April 20) is the busiest window of the year — peak occupancy combined with damage-driven turnover replacement. Summer (June-August) is the second-busiest with steady family-vacation wear-and-tear cycles. The post-spring-break sweep (April 20-30) and post-summer recovery (September) drive the largest single-property cleanup volumes. January-February are the slowest months and best for owner renovation work.'
+      },
+      {
+        question: 'Can I donate furniture from my PCB condo instead of throwing it out?',
+        answer: 'Yes — donation is usually preferable for items in working condition. Habitat for Humanity ReStore (multiple Bay County locations), Salvation Army Family Stores, and Goodwill all serve PCB and offer scheduled pickup for furniture donations. Tax deductions apply at fair-market value (typically $50-$300 per piece for donatable used furniture). For multi-piece cleanouts, professional junk removal services typically pre-sort items and route donatable pieces to ReStore. See our donation guide for the workflow.'
+      }
+    ]
+  },
+  {
+    slug: 'sandestin-junk-removal-resort-community-guide',
+    title: 'Sandestin Junk Removal: The Resort Community Guide for Vacation Rental Owners and Year-Round Residents',
+    excerpt: "Sandestin's 2,400-acre resort community has unique junk removal logistics — gated access, internal service infrastructure, HOA aesthetic standards, and preferred-vendor expectations. Here's the operational guide for property owners and managers.",
+    author: '30A Junk Removal LLC',
+    date: '2026-05-24',
+    lastUpdated: '2026-05-24',
+    readTime: '10 min read',
+    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&h=630&fit=crop',
+    imageAlt: 'Sandestin Resort Florida luxury community with golf course and Gulf coast vacation properties',
+    tags: ['Sandestin', 'Resort Communities', 'Walton County', 'Vacation Rentals'],
+    metaDescription: 'Complete junk removal guide for Sandestin Resort. Gate access, HOA rules, vacation rental turnover logistics, golf-course-adjacent considerations, and preferred-vendor expectations.',
+    keywords: [
+      'Sandestin junk removal',
+      'junk removal Sandestin Resort',
+      'Sandestin vacation rental cleanout',
+      'Sandestin condo cleanout',
+      'Sandestin furniture removal',
+      'resort community junk removal Florida',
+      'Sandestin HOA junk removal',
+      'Bay Point junk removal',
+    ],
+    content: `
+# Sandestin Junk Removal: The Resort Community Guide
+
+[Sandestin](/service-areas/sandestin) is one of the largest planned resort communities on the Emerald Coast — 2,400 acres of condominiums, villas, townhomes, and single-family residences spanning the bay-to-Gulf corridor at the western edge of Walton County. For property owners and vacation rental managers operating inside Sandestin, junk removal works differently than anywhere else in the county.
+
+This guide is the operational playbook we share with new Sandestin clients. It covers the gate access process, the resort's internal service infrastructure, the HOA-driven aesthetic standards, the golf-course-adjacent property considerations, and the specific patterns that come up with high-volume vacation rental turnovers.
+
+## The Sandestin Community Structure
+
+Sandestin isn't one community — it's a collection of distinct neighborhoods inside a single gated master plan:
+
+**Beachside neighborhoods:** Gulf-front and Gulf-view condominium and townhome neighborhoods at the south end. Highest vacation rental density. Service-elevator buildings throughout.
+
+**Bayside neighborhoods:** Bay-front properties at the north end. Mix of condos, townhomes, and single-family. Marina access drives some unique disposal needs.
+
+**Golf-course neighborhoods (Burnt Pine, Heritage Oaks, Heron Bay, The Glades):** Residential single-family and townhome neighborhoods around the resort's golf courses. Higher-end inventory, often owner-occupied with seasonal rental.
+
+**Marina Village:** Mixed-use condominium and retail district along the Sandestin marina.
+
+The Sandestin master HOA sets community-wide standards; each neighborhood-level HOA layers on specific rules.
+
+## Gate Access and the Vendor Registration Process
+
+Sandestin operates a controlled-access community. For junk removal crews:
+
+**Pre-registration is required.** Every vendor truck entering Sandestin needs to be pre-registered through the resort's vendor management system. Walk-up access is not granted to commercial vehicles.
+
+**Property authorization.** For each job, the property owner or property manager must authorize the vendor visit through the resort's system — typically 24+ hours before the scheduled visit.
+
+**Time windows.** Vendor access is generally permitted during business hours (typically 7 AM - 6 PM).
+
+**Identification required at gate.** Driver's license and vendor-registration confirmation at the gatehouse.
+
+If you're scheduling junk removal at your Sandestin property, plan to handle the vendor authorization at least 24 hours before the appointment.
+
+## HOA Aesthetic Standards: Why Curbside Doesn't Work
+
+Sandestin's master HOA enforces strict aesthetic standards. Visible curbside debris is essentially never permitted — items left at the curb during business hours are subject to HOA fines starting at $100 per occurrence, with escalating penalties for repeat violations.
+
+Standard municipal bulk pickup (which works fine in unincorporated Walton County or in less-strict communities like [Inlet Beach](/service-areas/inlet-beach) or [Santa Rosa Beach](/service-areas/santa-rosa-beach)) is not workable for Sandestin owners. Items have to be:
+
+1. Staged inside the property until vendor pickup
+2. Removed directly by vendor without intermediate curbside staging
+3. Coordinated to match vendor arrival times
+
+Most Sandestin property managers use [professional junk removal services](/services) because it's the only operational pattern that complies with HOA standards.
+
+## The Sandestin Vacation Rental Turnover
+
+Sandestin properties operate inside one of the most active vacation rental markets on the Emerald Coast. Peak season Saturday turnovers are intense — multiple thousand units cycling through cleaners, restocking, and damage-replacement runs in the same 10am-to-4pm window.
+
+The patterns:
+
+- **Bedroom-set replacement** drives the largest single-item category. Sandestin condos refresh master bedroom furniture every 3-5 seasons; about 3 years faster than ground-level beach houses due to higher guest density.
+- **Patio furniture rotation** is constant. Salt-air corrosion makes outdoor furniture a 2-3 year replacement cycle for Beachside properties.
+- **Hot tubs in private villas** generate the highest-value individual removal jobs. The typical 5-7 year hot tub life cycle generates regular [hot tub removal](/services/hot-tub-removal) work.
+- **Marina-related disposal** — boat covers, fishing equipment, dock supplies. Smaller volume but specific to Sandestin's marina-adjacent inventory.
+
+## Working With Sandestin Property Management
+
+Most property management companies operating inside Sandestin maintain preferred-vendor relationships with junk removal providers. The [property manager playbook](/blog/property-manager-junk-removal-playbook-30a) covers the full vendor agreement pattern.
+
+For property owners managing your own Sandestin rental:
+
+1. Confirm vendor authorization protocols with your specific neighborhood HOA.
+2. Stage items inside before the vendor arrives. Don't risk a curbside fine.
+3. Schedule during business hours (typically 7 AM - 6 PM).
+4. Photo-document the disposal for owner records and any donation tax filings.
+5. Coordinate with cleaning service timing — guest-arrival timing is fixed.
+
+[30A Junk Removal](/) is registered with Sandestin's vendor system. Text photos to (850) 368-3495 for a precise quote.
+
+## Cost Patterns Specific to Sandestin
+
+Sandestin pricing typically runs 5-10% higher than equivalent work in unincorporated Walton County:
+
+1. Gate access and vendor registration overhead (15-30 minutes per job)
+2. Internal property staging vs. curbside loading
+3. HOA-coordinated removal requiring careful staging and timing
+4. Higher-end inventory (premium furniture often requires more careful handling)
+
+Typical Sandestin 2026 pricing:
+- **Single-item haul:** $200-$350
+- **Bedroom set or moderate cleanout:** $400-$600
+- **Multi-room condo/villa cleanout:** $650-$900
+- **Full-property cleanout:** $900-$1,400+
+- **Hot tub removal (private villa):** $500-$900 depending on access
+
+For specific item-type pricing, see our [hot tub removal cost breakdown](/blog/hot-tub-removal-cost-30a-pricing-breakdown) and [junk removal cost guide](/blog/junk-removal-cost-30a-2026-pricing-guide).
+
+## Where Items Go After Sandestin Removal
+
+1. **Donation-quality items** route to Habitat for Humanity ReStore or Salvation Army for donation drop-off. We provide donation receipts back to the property owner for tax-deduction documentation.
+2. **Working appliances and electronics** route to certified recyclers.
+3. **Standard household disposal** goes to Walton County's Mossy Head Landfill.
+4. **Construction and demolition debris** sorted at the property when possible.
+
+See our [donation guide](/blog/where-to-donate-furniture-household-items-30a-florida) for the full donation workflow.
+
+## When Sandestin Owners Should Self-Haul vs. Hire
+
+For small disposal (single donatable furniture piece, small bag of garage cleanout debris), self-haul can make sense. Sandestin's gate doesn't restrict resident-driven trips to drop-off facilities.
+
+For everything else — vacation rental turnovers, multi-piece replacement, anything exceeding standard size or weight limits, anything that needs to leave the property without visible curbside staging — [professional removal](/services) is almost always faster, cheaper after accounting for time, and HOA-compliant.
+
+## Frequently Asked Questions
+`,
+    faqs: [
+      {
+        question: 'Do I need to register a junk removal vendor at the Sandestin gate?',
+        answer: "Yes. Sandestin operates controlled gate access with full vendor pre-registration. Walk-up access is not granted to commercial vehicles. The property owner or property manager must authorize the vendor visit through the resort's management system at least 24 hours before the scheduled appointment. Vendor crews bring driver's license and registration confirmation to the gatehouse for entry."
+      },
+      {
+        question: 'Can I put junk at the curb at my Sandestin property?',
+        answer: "No. Sandestin's master HOA enforces strict aesthetic standards that prohibit visible curbside debris during business hours. Fines start at $100 per occurrence and escalate for repeat violations. Items must be staged inside the property (garage or service area) until vendor pickup, then removed directly without intermediate curbside staging."
+      },
+      {
+        question: 'What hours does Sandestin allow vendor access?',
+        answer: 'Sandestin generally permits vendor access during business hours (typically 7 AM - 6 PM). After-hours access is restricted and may not be permitted at all. During peak season, some neighborhoods may further restrict vendor hours for noise/aesthetic reasons. Confirm specific neighborhood rules with your HOA or property manager before scheduling.'
+      },
+      {
+        question: 'How much does junk removal cost in Sandestin?',
+        answer: 'Sandestin pricing runs 5-10% higher than unincorporated Walton County due to gate access, vendor registration overhead, internal staging requirements, and HOA-coordinated removal. Typical 2026 rates: single-item haul $200-$350, bedroom set/moderate cleanout $400-$600, multi-room condo or villa cleanout $650-$900, full property cleanout $900-$1,400+. Hot tub removal at private villas runs $500-$900 depending on access.'
+      },
+      {
+        question: 'Can vacation rental managers in Sandestin get same-day junk removal?',
+        answer: 'Yes, but with caveats. Vendor pre-registration requirements mean true on-demand same-day service is rare in Sandestin — most vendors require 24+ hours notice to coordinate the gate-access authorization. Property management companies on preferred-vendor agreements typically have streamlined authorization protocols that allow faster response (often 4-6 hour SLAs during peak season). Plan ahead for Saturday turnovers.'
+      },
+      {
+        question: 'What do I do with old patio furniture from my Sandestin condo?',
+        answer: "Patio furniture rotation is one of the most common removal categories in Sandestin (2-3 year salt-air replacement cycle for Beachside properties). Options: (1) Donate to Habitat for Humanity ReStore if usable — they offer pickup and provide tax-deduction receipts; (2) Schedule professional removal for the full set, with damaged pieces going to disposal and salvageable pieces routed to donation; (3) Self-haul to Walton County's Mossy Head Landfill for resident-rate tipping. Curbside is not an option in Sandestin due to HOA aesthetic standards."
+      },
+      {
+        question: 'Are there special rules for removing items from golf-course-adjacent Sandestin homes?',
+        answer: "Golf-course-adjacent homes in Burnt Pine, Heritage Oaks, Heron Bay, and The Glades follow Sandestin's standard HOA aesthetic standards plus any neighborhood-specific rules. The golf-course factor itself doesn't add restrictions, but some neighborhoods have additional rules about service-vehicle access along cart paths or near tee boxes. Standard practice: vendor access through resident-driveway approach, never via cart paths."
+      }
+    ]
   }
 ]
 
