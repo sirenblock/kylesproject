@@ -2221,6 +2221,47 @@ Large workshop buildings, multi-room sheds, and custom-built outbuildings. These
 ### Coastal Considerations
 
 The 30A environment is hard on outdoor structures. Salt spray accelerates corrosion on metal components. Humidity promotes mold, mildew, and wood rot. Termites thrive in our warm climate. Hurricane-force winds can damage or destroy sheds, creating <a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">yard debris</a> and safety hazards. We understand these local challenges and provide efficient demolition services that restore your property. For <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris</a> from larger projects, we offer volume pricing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a free shed demolition estimate.
+
+### Florida Permits and Building Code for Shed Removal
+
+Most residential shed demolition in Walton and Bay Counties does NOT require a permit — structures under 200 square feet, not on permanent foundations, and not connected to utilities are typically exempt from demolition permitting. However, several scenarios DO trigger permit requirements:
+
+**Permit-required shed demolition scenarios:**
+- Sheds over 200 square feet (most "shed" structures over 12x16)
+- Sheds on permanent concrete foundations or slabs
+- Sheds with electrical, plumbing, or gas connections
+- Sheds within designated coastal construction control lines (much of Gulf-front 30A)
+- Sheds in HOA-managed communities requiring architectural review board approval before demolition
+
+For permitted demolition, we work with local Walton County Public Works and Bay County permitting offices to handle documentation. Most permits process in 5-10 business days. We can coordinate directly with your contractor, architectural reviewer, or HOA management to streamline the approval process.
+
+### Shed Material Disposal Routing
+
+A typical shed demolition generates 800-3,000 pounds of mixed material requiring specific disposal routing:
+
+**Wood (clean lumber, framing, sheathing)** routes to Walton County or Bay County green-waste facilities at lower-cost recycling rates rather than standard tipping. Clean wood typically recovers 30-50% of the disposal cost compared to mixed-load tipping.
+
+**Metal (roofing, hardware, fasteners, lawn equipment that was stored inside)** routes to scrap metal facilities along the Florida Panhandle. Scrap value typically offsets $15-$50 of the disposal cost for an average-sized metal shed.
+
+**Vinyl and plastic siding** is unfortunately landfill-only in our area — no established vinyl recycling infrastructure exists for residential demolition volumes.
+
+**Asphalt shingle roofing** requires special-acceptance disposal at landfill, typically at a premium per-ton rate. We separate roofing material from other debris for accurate disposal categorization.
+
+**Site debris (insulation, drywall if present, contents that were stored inside)** sorted at the property when possible — items with donation or recycling value (lawn equipment, tools, leftover building materials) get routed appropriately.
+
+### Site Restoration After Shed Demolition
+
+Beyond the demolition itself, we handle the site cleanup and basic restoration:
+
+**Foundation removal** (for concrete-pad sheds) is a separate scope of work — we coordinate with concrete-cutting and removal services when needed.
+
+**Soil leveling** restores the footprint to grade for future landscaping or alternative use.
+
+**Final site sweep** removes nails, hardware, and small debris that could pose a hazard or be a magnet for pests in the open soil after demolition.
+
+**Photo documentation** before and after the demolition is part of standard service — useful for property records, HOA documentation, or insurance documentation if the shed was damaged by storm.
+
+For larger structural demolition (full deck removal, garage demolition, structural additions), see our <a href="/services/deck-removal" class="text-ocean-600 hover:underline font-medium">deck removal</a> and <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris removal</a> services.
     `,
     features: [
       'Complete shed demolition and teardown',
@@ -2588,6 +2629,46 @@ We sweep the unit clean so you can turn in your keys without cleaning fees. The 
 ### Storage Unit Sizes We Clear
 
 We handle all common storage unit sizes from 5x5 closet units to 10x30 warehouse-sized units. Climate-controlled and standard units are both serviced. We also clear outdoor storage areas, RV storage spots, and parking space storage. For properties needing both storage and home cleanout, we offer combined <a href="/services/garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garage cleanout</a> packages. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your storage unit cleanout and start saving on monthly rent.
+
+### Auction-Purchase Storage Cleanouts
+
+Storage unit auction purchases — buying defaulted units sight-unseen at the storage facility's auction — generate one of the most common storage cleanout patterns we handle. The operational pattern:
+
+**Time-pressure cleanout requirement.** Most storage facilities require auction winners to clear the unit within 24-72 hours of the auction. Failure to clear means the facility takes ownership again and the buyer loses the purchase. Same-day or next-day professional cleanout is often required.
+
+**Sort-as-you-go workflow.** Auction buyers typically want to retrieve any items with resale value before disposal. Our standard workflow for auction cleanouts: walk through the unit with the buyer, separate items they want to keep, then haul the rest.
+
+**Donation routing for usable items the buyer doesn't want.** Furniture, working appliances, household goods often have donation value the buyer isn't interested in pursuing. We route those to Habitat ReStore or Salvation Army with receipts back to the auction buyer for tax-deduction filing.
+
+**Disposal documentation** for items showing potential abandoned-property characteristics — some auction buyers want documentation showing items were disposed of legally for their records.
+
+Typical auction cleanout pricing: $400-$1,200 depending on unit size and content density (a packed 10x20 unit runs at the higher end; a partially-cleared 10x10 at the lower end).
+
+### Lien-Sale and Property-Disposition Cleanouts
+
+Distinct from auction purchases, lien-sale cleanouts happen when the property OWNER (typically the storage facility, or in some cases a lien-holder) needs to clear units before resale or repurposing. These are typically larger volume jobs:
+
+**Multi-unit clearance** at storage facilities replatting their inventory or going through ownership transitions. We've handled jobs ranging from 5 units to 50+ units in a single coordinated project.
+
+**Pre-sale property cleanouts** at storage facility properties going on the real estate market — clearing remaining inventory before the property changes hands.
+
+**Estate-administered storage cleanouts** where an estate is liquidating the deceased's storage unit contents through the storage facility's contracted vendors.
+
+Volume pricing applies — typically 15-25% below per-call rates for multi-unit coordinated projects.
+
+### Routing Items by Condition
+
+The storage cleanout disposal workflow varies significantly by item condition:
+
+**Like-new and gently used:** Habitat for Humanity ReStore, Salvation Army Family Stores, and occasionally specialty consignment shops for higher-value vintage pieces. See our <a href="/blog/where-to-donate-furniture-household-items-30a-florida" class="text-ocean-600 hover:underline font-medium">donation guide</a> for the full workflow.
+
+**Working but dated:** Some items have function but limited resale value. These often route to organizations that distribute to clients in need (community closets, transitional housing programs, refugee resettlement groups).
+
+**Items requiring special handling:** Electronics, appliances with refrigerant, hazardous materials all route to appropriate specialty facilities. See our <a href="/blog/refrigerator-appliance-disposal-30a-pcb-complete-guide" class="text-ocean-600 hover:underline font-medium">appliance disposal guide</a> and <a href="/blog/how-to-dispose-of-common-items-30a-florida" class="text-ocean-600 hover:underline font-medium">complete disposal guide</a> for item-specific routing.
+
+**Standard waste:** Items beyond donation or recycling value route to Walton County's Mossy Head Landfill or Bay County's Steelfield Landfill at standard tipping rates.
+
+The sort-and-route approach typically recovers $200-$800 in donation tax-deduction value from a typical storage unit cleanout — meaningful offset against the cleanout cost.
     `,
     features: [
       'All storage unit sizes cleared',
@@ -3302,6 +3383,52 @@ For <a href="/services/property-management" class="text-ocean-600 hover:underlin
 ### 30A Bulk Pickup Challenges
 
 Many 30A communities have strict rules about items left at the curb. HOAs in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, and <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> may fine homeowners for leaving bulk items visible. Our prompt pickup service helps you avoid HOA violations and maintain your property's appearance. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your bulk trash pickup today.
+
+### Why Professional Bulk Pickup Beats Waiting for Curbside
+
+Walton and Bay Counties both offer free monthly bulk pickup as part of standard municipal waste service. For routine disposal, that's the cheapest option. But for many 30A and Panama City Beach situations, professional bulk pickup is operationally faster and often the only workable option:
+
+**Time pressure scenarios:** Real estate closings, vacation rental Saturday turnovers, HOA fine deadlines, snowbird arrivals — all require disposal on a schedule the monthly curbside cycle can't accommodate.
+
+**Size and weight limits.** Municipal bulk pickup typically caps at 6 feet per item and 40-50 pounds per piece. Larger items (hot tubs, oversized furniture, construction debris piles) exceed these limits and require either self-haul or professional removal.
+
+**Item-count limits.** Most curbside contractors cap at 3-5 items per pickup cycle. Multi-item cleanouts (estate clearance, garage cleanouts, full-property refreshes) exceed this in a single bulk pickup window.
+
+**Excluded categories.** Curbside refuses construction debris, refrigerators with refrigerant, tires, electronics with circuit boards, hot tubs, paint, and household hazardous waste. For these categories, professional removal is the only practical option.
+
+**HOA-strict communities.** Communities like <a href="/blog/alys-beach-junk-removal-complete-guide" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, <a href="/blog/rosemary-beach-junk-removal-complete-guide" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/blog/sandestin-junk-removal-resort-community-guide" class="text-ocean-600 hover:underline font-medium">Sandestin</a>, and <a href="/blog/watersound-junk-removal-complete-guide" class="text-ocean-600 hover:underline font-medium">WaterSound</a> prohibit visible curbside debris during business hours regardless of pickup schedule. Direct vendor removal without curbside staging is essentially the only HOA-compliant option in these communities.
+
+### Items Always Excluded From Curbside
+
+These categories require alternative disposal channels regardless of municipality:
+
+**Refrigerators, freezers, AC units, dehumidifiers** — EPA Section 608 requires certified refrigerant recovery before disposal. See our <a href="/blog/refrigerator-appliance-disposal-30a-pcb-complete-guide" class="text-ocean-600 hover:underline font-medium">refrigerator/appliance disposal guide</a> for the complete workflow.
+
+**Hot tubs and swim spas** — too large for any curbside service. See our <a href="/services/hot-tub-removal" class="text-ocean-600 hover:underline font-medium">hot tub removal service</a> and <a href="/blog/hot-tub-removal-cost-30a-pricing-breakdown" class="text-ocean-600 hover:underline font-medium">cost breakdown</a>.
+
+**Tires** — disposed of through retailer take-back when buying new tires, or paid drop-off at county facilities. Tire dumping is a Florida misdemeanor with fines starting at $500.
+
+**Construction and demolition debris** — drywall, lumber, tile, roofing, concrete. Routes to county landfills directly or via professional removal. Curbside refuses C&D in all 30A and PCB municipalities.
+
+**Electronics with circuit boards** — TVs, computers, monitors, phones. Florida prohibits electronics in landfill waste. Best Buy and Staples accept most consumer electronics free for recycling.
+
+**Paint and household hazardous waste** — oil-based paint, solvents, pesticides, automotive fluids, propane tanks, lithium batteries, fluorescent bulbs. Route to county HHW collection events or year-round HHW facilities (Bay County operates a year-round HHW drop-off; Walton runs quarterly events).
+
+### Volume Considerations for Bulk Pickup
+
+Our bulk trash pickup pricing scales by volume:
+
+**Quarter-truck (single large item or 2-3 standard items):** $150-$275 — handles single hot tub-adjacent items, multi-piece furniture removal, garage cleanouts under one truck.
+
+**Half-truck (bedroom set or moderate cleanout):** $300-$525 — most common single-call volume tier.
+
+**Three-quarter truck (multi-room cleanout):** $500-$725 — full bedroom + living room replacement, garage cleanouts, multi-piece estate work.
+
+**Full truck (large estate or full property clearance):** $700-$1,100+ — typical full-property cleanout volume.
+
+**Multi-truck projects** — for larger volumes (full estate clearance, multi-property property management projects, post-renovation full cleanouts) we coordinate scheduled multi-truck visits with volume pricing 10-25% below per-call rates.
+
+For specifics by service type, see our <a href="/blog/junk-removal-cost-30a-2026-pricing-guide" class="text-ocean-600 hover:underline font-medium">2026 pricing deep dive</a>.
     `,
     features: [
       'Curbside and on-property pickup',
