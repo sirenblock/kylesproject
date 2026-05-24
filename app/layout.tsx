@@ -8,6 +8,7 @@ import { GlobalLocalBusinessSchema } from "@/components/seo/LocationBusinessSche
 import { CorporationSchema } from "@/components/seo/CorporationSchema"
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics"
 import { GoogleAds } from "@/components/analytics/GoogleAds"
+import { PerfectClick } from "@/components/analytics/PerfectClick"
 import { FacebookPixel } from "@/components/analytics/FacebookPixel"
 import { GCLIDCapture } from "@/components/analytics/GCLIDCapture"
 import { ClientModals } from "@/components/ui/ClientModals"
@@ -91,6 +92,7 @@ export default function RootLayout({
         />
         <GoogleAnalytics />
         <GoogleAds />
+        <PerfectClick />
         <FacebookPixel />
         <Suspense fallback={null}>
           <GCLIDCapture />
