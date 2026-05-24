@@ -1,9 +1,14 @@
 import { MetadataRoute } from 'next'
-import { getAllBlogSlugs } from '@/lib/blog'
+import { getAllBlogSlugs, getBlogPost } from '@/lib/blog'
 import { getAllServiceSlugs } from '@/lib/services'
 import { getAllLocationSlugs } from '@/lib/locations'
 import { getAllCountySlugs } from '@/lib/counties'
 import config from '@/lib/config'
+
+// Hardcoded "site content last meaningfully updated" date. Bump when shipping
+// substantive content changes. Sitemap lastmod should reflect real edits, not
+// the timestamp of the latest crawl -- Google deprioritizes always-fresh dates.
+const SITE_CONTENT_UPDATED = new Date('2026-05-24')
 
 // Relester SEO Method: Priority Tier System
 // 1.0 = Homepage (most authoritative)
@@ -14,13 +19,11 @@ import config from '@/lib/config'
 // 0.5 = Location pages (programmatic SEO pages)
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date()
-
   // PRIORITY 1.0: Homepage
   const homepage: MetadataRoute.Sitemap = [
     {
       url: config.siteUrl,
-      lastModified: now,
+      lastModified: SITE_CONTENT_UPDATED,
       changeFrequency: 'weekly',
       priority: 1.0,
     },
@@ -30,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const conversionPages: MetadataRoute.Sitemap = [
     {
       url: `${config.siteUrl}/contact`,
-      lastModified: now,
+      lastModified: SITE_CONTENT_UPDATED,
       changeFrequency: 'monthly',
       priority: 0.9,
     },
@@ -44,7 +47,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/service-areas',
   ].map(route => ({
     url: `${config.siteUrl}${route}`,
-    lastModified: now,
+    lastModified: SITE_CONTENT_UPDATED,
     changeFrequency: 'daily' as const,
     priority: 0.8,
   }))
@@ -53,25 +56,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const serviceSlugs = getAllServiceSlugs()
   const servicePages: MetadataRoute.Sitemap = serviceSlugs.map(slug => ({
     url: `${config.siteUrl}/services/${slug}`,
-    lastModified: now,
+    lastModified: SITE_CONTENT_UPDATED,
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }))
 
-  // PRIORITY 0.6: Blog posts (content pages)
+  // PRIORITY 0.6: Blog posts -- use the post's actual lastUpdated/date
   const blogSlugs = getAllBlogSlugs()
-  const blogPosts: MetadataRoute.Sitemap = blogSlugs.map(slug => ({
-    url: `${config.siteUrl}/blog/${slug}`,
-    lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.6,
-  }))
+  const blogPostEntries: MetadataRoute.Sitemap = blogSlugs.map(slug => {
+    const post = getBlogPost(slug)
+    const dateStr = post?.lastUpdated || post?.date
+    const lastModified = dateStr ? new Date(dateStr) : SITE_CONTENT_UPDATED
+    return {
+      url: `${config.siteUrl}/blog/${slug}`,
+      lastModified,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }
+  })
 
   // PRIORITY 0.7: County hub pages (pillar content)
   const countySlugs = getAllCountySlugs()
   const countyPages: MetadataRoute.Sitemap = countySlugs.map(slug => ({
     url: `${config.siteUrl}/service-areas/county/${slug}`,
-    lastModified: now,
+    lastModified: SITE_CONTENT_UPDATED,
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }))
@@ -80,7 +88,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const locationSlugs = getAllLocationSlugs()
   const locationPages: MetadataRoute.Sitemap = locationSlugs.map(slug => ({
     url: `${config.siteUrl}/service-areas/${slug}`,
-    lastModified: now,
+    lastModified: SITE_CONTENT_UPDATED,
     changeFrequency: 'monthly' as const,
     priority: 0.5,
   }))
@@ -92,7 +100,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/our-work',
   ].map(route => ({
     url: `${config.siteUrl}${route}`,
-    lastModified: now,
+    lastModified: SITE_CONTENT_UPDATED,
     changeFrequency: 'monthly' as const,
     priority: 0.6,
   }))
@@ -103,7 +111,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/terms',
   ].map(route => ({
     url: `${config.siteUrl}${route}`,
-    lastModified: now,
+    lastModified: SITE_CONTENT_UPDATED,
     changeFrequency: 'monthly' as const,
     priority: 0.3,
   }))
@@ -114,7 +122,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...discoveryPages,
     ...servicePages,
     ...countyPages,
-    ...blogPosts,
+    ...blogPostEntries,
     ...locationPages,
     ...otherPages,
     ...legalPages,

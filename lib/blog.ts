@@ -10739,6 +10739,197 @@ Call (850) 368-3495 to discuss:
         answer: 'Yes, coordinated approach recovers maximum value: Estate sale company specializes in selling mid-range items ($50-$5,000) and generates $7,000-$16,000 revenue. Junk removal specializes in efficient clearing of unsellable items pre-sale (makes sale look better) and post-sale (final clearing). Combined cost: Estate sale commission $4,000-$6,000 + junk removal $2,000-$4,000 = $6,000-$10,000 total. Value recovered: $15,000-$25,000 (sale proceeds + tax deductions + avoided disposal costs). Net benefit: $5,000-$15,000 vs. immediate full junk removal. Coordination prevents duplicate work, maximizes each company\'s strengths, and optimizes timeline.'
       }
     ]
+  },
+  {
+    slug: 'how-to-dispose-of-common-items-30a-florida',
+    title: 'How to Dispose of Common Items in 30A Florida: Complete 2026 Disposal & Recycling Guide',
+    excerpt: 'Item-by-item guide to legally disposing of mattresses, refrigerators, electronics, paint, tires, and bulk furniture across the 30A corridor and Walton, Bay, and Okaloosa counties.',
+    author: '30A Junk Removal LLC',
+    date: '2026-05-24',
+    lastUpdated: '2026-05-24',
+    readTime: '12 min read',
+    image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=1200&h=630&fit=crop',
+    imageAlt: 'Household items sorted for proper disposal and recycling in 30A Florida',
+    tags: ['Disposal Guide', 'Recycling', 'Local Resources', '30A'],
+    metaDescription: 'Complete 2026 guide to disposing of mattresses, appliances, electronics, paint, tires, and bulk items across the 30A corridor. Local rules, recycling options, and when to hire help.',
+    keywords: [
+      'how to dispose of mattress 30A',
+      'refrigerator disposal Florida',
+      'electronics recycling 30A',
+      'paint disposal Walton County',
+      'tire disposal Florida',
+      'bulk trash pickup 30A',
+      'hazardous waste 30A',
+      'junk removal disposal guide Florida',
+    ],
+    content: `
+# How to Dispose of Common Items in 30A Florida: Complete 2026 Disposal & Recycling Guide
+
+"How do I get rid of this?" is the most common question we field at [30A Junk Removal](/). Whether it's a stained mattress left by a vacation rental guest, an aging refrigerator from a [renovation project](/services/construction-debris), or a stack of paint cans from a beach house refresh, every item has its own disposal rules in Walton, Bay, and Okaloosa counties. Getting it wrong can mean fines, refused curbside pickup, or items that just sit in your garage for months.
+
+This guide walks through every major household item we see along the 30A corridor — from [Seaside](/service-areas/seaside) to [Panama City Beach](/service-areas/panama-city-beach) — and explains exactly how to dispose of each one. Some items have free curbside options. Some require special handling. And some are flat-out illegal to put in a regular trash can in Florida.
+
+## Why Proper Disposal Matters on 30A
+
+The 30A corridor sits between the Gulf of Mexico and a network of rare coastal dune lakes — ecosystems that don't exist anywhere else in the United States outside of Madagascar and a few sites in Oregon. Illegal dumping of paint thinner, refrigerant, or electronics doesn't just risk a fine; it leaches into groundwater that feeds those lakes within a few years. Florida's environmental enforcement here is stricter than in most of the state for exactly that reason.
+
+There's also a practical concern. Walton County Solid Waste, Bay County's Steelfield Landfill, and Okaloosa County's transfer station all refuse to accept certain items at the regular tipping rate. Show up with a refrigerator that still has refrigerant and you'll either be turned away or charged a substantial surcharge.
+
+A short rule of thumb: if it has a motor, a battery, a refrigerant, a flammable component, or it's bigger than a sofa, it probably has a special process. Below is the actual breakdown by item.
+
+## Mattresses & Box Springs
+
+Mattresses are the single most-disposed item on 30A, driven by the vacation rental industry's roughly three-year mattress replacement cycle. They're also one of the most annoying to handle yourself.
+
+**The curbside option (limited):** Most municipal curbside pickup providers along 30A will accept mattresses *only* on scheduled bulk pickup days, and only if the mattress is wrapped in plastic (a public health requirement to contain bed bugs). Bay County and Walton County both follow this rule. Plastic mattress disposal bags run $10–$15 at hardware stores.
+
+**The recycling option:** Roughly 80% of a typical mattress — the springs, foam, fabric, and wood frame — is recyclable. Mattress recycling facilities along the Florida Panhandle accept drop-offs for a fee ($25–$45 per mattress, depending on size). The recovered steel alone offsets a meaningful portion of the cost.
+
+**When to use a junk removal service:** If you have more than one or two mattresses, if they're soiled, if you're [turning over a vacation rental on a tight window](/services/vacation-rentals), or if the mattress is upstairs in a beach house with no working elevator — call. Two-person hauling of a king mattress down three flights of stairs is exactly the scenario professional [mattress removal](/services/mattress-removal) was designed for.
+
+## Refrigerators, Freezers, and Major Appliances
+
+Refrigerators and freezers contain refrigerant (R-134a in newer units, R-12 in pre-1995 units) that's illegal to release into the atmosphere under EPA Section 608. Disposal is not a "drag it to the curb" situation.
+
+**Step 1 — Empty and defrost.** Unplug at least 24 hours before disposal. Drain water lines. Tape doors shut.
+
+**Step 2 — Find a licensed refrigerant recovery service.** Most appliance retailers (Lowe's, Home Depot, Best Buy) will haul away your old unit when they deliver the new one — usually for $25–$50. This is the easiest path. The unit goes to a facility that recovers the refrigerant before scrapping the metal.
+
+**Step 3 — If you're not buying a replacement.** You'll need a junk removal company that's set up for appliance refrigerant compliance, or a direct drop at a county scrap metal facility that handles certified refrigerant recovery. Curbside pickup will refuse refrigerators that haven't had their refrigerant certified-removed.
+
+Washers, dryers, dishwashers, water heaters, and ranges are simpler — no refrigerant — and any local scrap metal facility will take them, often paying $5–$20 in scrap value depending on weight. Our [appliance removal service](/services/appliance-removal) handles the full chain: pickup, refrigerant recovery (when applicable), scrap recycling, and certificate documentation.
+
+## Televisions, Computers, and Electronics
+
+Florida prohibits disposing of electronics — anything with a circuit board — in regular landfill waste. This is the most commonly violated rule along 30A, mainly because people don't know it exists.
+
+**Free drop-off options:**
+
+- **Best Buy** accepts most consumer electronics for free recycling at any store. Limits apply (no more than three items per household per day; TVs over 32" require a fee in some states, though Florida is fee-free for in-store drop-off at the time of writing).
+- **Staples** accepts computers, monitors, printers, and small electronics free for recycling.
+- **County hazardous waste collection days** — Walton, Bay, and Okaloosa counties each host quarterly or semi-annual household hazardous waste events that accept electronics. Check your county's solid waste department site for current dates.
+
+**Items that always require special handling:**
+
+- **CRT televisions and monitors** (the old tube-style ones) contain leaded glass and are increasingly hard to recycle. Many recyclers now charge $25–$75 per CRT. Don't put them at the curb.
+- **Anything with a battery** (laptops, tablets, cordless tools) — the lithium-ion battery should be removed and recycled separately if possible. If not possible, the entire device must go to an electronics recycler.
+
+If you've inherited a beach house or you're [clearing out an estate](/services/estate-cleanouts), you'll often find drawers full of old phones, cables, and small electronics. Bundle them all together for a single drop-off — most recyclers accept "miscellaneous electronics" by the box.
+
+## Paint, Solvents, and Household Hazardous Waste
+
+This is the category where we see the most illegal dumping along 30A. Old paint cans in a garage cleanout, half-empty stain from a deck refinish, drain cleaner under the kitchen sink — none of it can legally go in regular trash if it's still liquid.
+
+**Latex paint (water-based):** The trick most people don't know — latex paint becomes safe to throw away once it's *fully dried*. Pour a small amount of cat litter, sawdust, or commercial paint hardener into the can, leave the lid off, and let it harden over a day or two. Dried latex paint can go in regular trash. This handles 80% of garage paint cleanouts.
+
+**Oil-based paint, solvents, thinners, and stains:** Must go to a household hazardous waste (HHW) collection event or a permanent HHW facility. Bay County operates a year-round HHW drop-off; Walton and Okaloosa run quarterly events. Bring the original container if possible — unlabeled containers may be refused.
+
+**Other HHW items requiring the same path:** pool chemicals, pesticides, automotive fluids (motor oil, antifreeze, gasoline), propane tanks (small camping cylinders are HHW; large grill tanks are exchanged at retailers), lithium batteries, fluorescent bulbs, and mercury thermometers.
+
+**Never do:** Pour anything down a storm drain (they discharge directly to the Gulf or coastal dune lakes), bury paint or solvents in the yard, or mix HHW items together for "easier disposal."
+
+## Tires
+
+Florida charges a per-tire disposal fee of about $2–$3 at point of sale (the "advance disposal fee" baked into the price of a new tire). That fee subsidizes the disposal infrastructure — but only if you use it properly.
+
+**Free tire drop-off:** When buying new tires at any tire shop (Discount Tire, Walmart Auto, NTB, local independents), they're required to accept your old tires for free disposal as part of the purchase. This is the easiest path for routine replacements.
+
+**Drop-off without purchase:** Walton and Bay county solid waste facilities accept tires for $2–$5 per tire (passenger car size) at the scale-house. Truck tires, tractor tires, and tires with rims cost more. There's typically a household limit of 8 tires per visit.
+
+**Never:** Leave tires in standing water (they breed mosquitoes — a regulated nuisance in Florida) or dump them in vacant lots. Tire dumping is a misdemeanor with fines starting at $500.
+
+## Yard Waste, Branches, and Storm Debris
+
+Coastal Florida properties generate massive amounts of yard waste — palm fronds, magnolia leaves, hurricane-related debris, oak limbs from storm pruning. Most curbside services handle routine yard waste on a weekly schedule, with size and weight limits.
+
+**Curbside yard waste rules across 30A:**
+- Branches typically must be cut to 4-foot lengths and bundled.
+- Bagged leaves must be in paper bags (plastic bags are refused in most municipalities — they don't compost and contaminate the yard waste stream).
+- Bundles typically max out around 40–50 pounds.
+
+**Hurricane debris is a separate category.** After a named storm, both Walton and Bay counties run emergency debris pickup programs — usually with pre-disaster-staged contractors clearing curbside debris for 30–60 days. Outside that window, [hurricane debris cleanup](/services/hurricane-debris) is back to homeowner responsibility, and the volume usually exceeds curbside limits by a wide margin. Our [hurricane season prep guide](/blog/hurricane-season-prep-junk-removal-30a-guide) covers pre-storm staging in more detail.
+
+**Tree stumps and large root balls** are not yard waste. They're construction-grade debris and require either a chipper service or hauling to a green-waste facility.
+
+## Furniture (Sofas, Dressers, Patio Sets)
+
+Florida's coastal humidity is brutal on outdoor and indoor furniture alike. Vacation rentals along [Rosemary Beach](/service-areas/rosemary-beach), [Alys Beach](/service-areas/alys-beach), and [WaterColor](/service-areas/watercolor) typically rotate patio furniture every 2–3 seasons; indoor furniture often lasts 5–7 years before salt air and humidity catch up to it.
+
+**Donation first (if it's usable):** Habitat for Humanity ReStore, Salvation Army, and Goodwill all accept furniture donations. Most will arrange free pickup for larger pieces if you call ahead. Get a donation receipt — used furniture in good condition is a real tax deduction at fair-market value, usually $50–$300 per piece.
+
+**Curbside bulk pickup:** Most 30A municipalities offer bulk pickup once or twice a month. Items must be at the curb the night before, typically with size limits (no items larger than 6 feet long).
+
+**[Furniture removal](/services/furniture-removal) service:** For multi-piece cleanouts, upper-floor pickups, or vacation rental turnovers where timing is critical, professional removal is the realistic answer. Our team handles donation routing for usable pieces and recycling/disposal for the rest, so you don't end up with a sofa sitting at the curb for two weeks waiting for the next bulk pickup day.
+
+## Hot Tubs and Spas
+
+Hot tubs are the most underestimated junk removal job we see. Homeowners often assume "it's just an oversized bathtub" and find out the hard way that a typical hot tub weighs 400–800 pounds dry, requires electrical disconnection, water draining (200–500 gallons), structural dismantling (it usually won't fit through the gate it came through), and disposal in pieces.
+
+There's no curbside option for hot tubs. There's no easy DIY path unless you own a sawzall, have a buddy with a truck, and have time to spend a full Saturday cutting it into chunks. We cover the full process in our [hot tub removal complete guide](/blog/hot-tub-removal-30a-complete-guide) — including pricing, timing, and the things that make a hot tub job 2x as expensive as homeowners expect.
+
+## Construction Debris
+
+Renovation generates the highest-volume disposal jobs along 30A. A typical kitchen remodel generates 3,000–6,000 pounds of debris (cabinets, countertops, drywall, flooring, packaging). A bathroom remodel: 1,500–3,000 pounds. A full deck rebuild: 2,000–4,000 pounds.
+
+**Sort first.** Construction debris has multiple disposal streams:
+- **Clean wood, plywood, lumber** — accepted at green waste / mulch facilities (often free or low-cost).
+- **Metal (rebar, ductwork, copper, aluminum)** — scrap yards pay by the pound.
+- **Drywall** — landfill only (it doesn't recycle).
+- **Concrete, brick, stone** — concrete recyclers accept clean loads; mixed debris goes to landfill.
+- **Asphalt shingles** — special acceptance at landfills, often at a premium rate.
+
+**Dumpster vs. junk removal for construction debris:** If your project will generate over 8 cubic yards and span more than 3 days, a dumpster is usually cheaper. For one-day demos, single-load removals, or projects where you don't want a 14-foot container sitting in your driveway, [construction debris removal](/services/construction-debris) is typically faster and cheaper. Our [dumpster vs. junk removal comparison](/blog/junk-removal-vs-dumpster-rental-30a-comparison) breaks down the actual math.
+
+## When to Call a Junk Removal Service
+
+The line between DIY disposal and hiring help is usually one of these factors:
+
+- **Volume:** Anything over a half-truckload (~3 cubic yards) is faster to outsource than to handle in multiple trips.
+- **Access:** Upper-floor pickups, narrow stairwells, gated communities, properties on cobblestone streets (looking at you, [Rosemary Beach](/service-areas/rosemary-beach)).
+- **Time pressure:** Vacation rental turnovers between checkout and check-in, estate sale prep, move-out cleanups with deposit deadlines.
+- **Mixed waste streams:** Jobs that combine furniture, appliances, electronics, and construction debris — sorting and routing to multiple facilities is exactly what professional removal exists for.
+- **HOA scrutiny:** Communities like [Alys Beach](/service-areas/alys-beach), [WaterSound](/service-areas/watersound), and [Sandestin](/service-areas/sandestin) have strict rules about items left curbside, often with fines for violations.
+
+For everything else — single items, household routines, anything within curbside size limits — the disposal infrastructure across Walton, Bay, and Okaloosa counties is actually pretty good. Use it.
+
+## Frequently Asked Questions
+
+These are the questions we field most often about disposal in 30A.
+
+---
+
+If you've got a specific item you're not sure about, [call us](/contact) or text photos to (850) 368-3495 — we'll tell you whether it's a curbside job, a county drop-off, a recycler, or a job for us. Honest answers, no upsell.
+`,
+    faqs: [
+      {
+        question: 'Can I put a mattress at the curb on 30A?',
+        answer: 'Only on scheduled bulk pickup days, and only if it\'s wrapped in plastic (a Florida public health rule to contain bed bugs). Plastic mattress disposal bags cost $10–$15 at hardware stores. If you have more than one mattress, soiled items, or upper-floor pickups, professional removal is faster and more reliable than waiting for the next bulk pickup window.'
+      },
+      {
+        question: 'How do I dispose of a refrigerator in 30A Florida?',
+        answer: 'Refrigerators contain refrigerant (R-134a or older R-12) that\'s illegal to release under EPA Section 608. The easiest path: have the retailer haul away your old unit when delivering the new one ($25–$50, usually included). If not replacing, use a junk removal service with refrigerant compliance certification, or take it to a county scrap metal facility that handles certified recovery. Curbside services will refuse refrigerators that haven\'t had refrigerant removed.'
+      },
+      {
+        question: 'Where can I recycle electronics on 30A?',
+        answer: 'Florida prohibits electronics in landfill waste. Best Buy and Staples both accept most consumer electronics free for recycling. Walton, Bay, and Okaloosa counties each run quarterly or semi-annual household hazardous waste events that accept electronics. CRT televisions and monitors usually require a $25–$75 fee at a specialty recycler due to leaded glass content.'
+      },
+      {
+        question: 'How do I dispose of old paint in Florida?',
+        answer: 'Latex (water-based) paint becomes legal regular trash once fully dried — mix in cat litter, sawdust, or paint hardener, leave the lid off, and let it harden. Oil-based paint, solvents, thinners, and stains must go to a household hazardous waste (HHW) collection event or permanent HHW facility. Bay County operates a year-round HHW drop-off; Walton and Okaloosa run quarterly events. Never pour paint or solvents down a storm drain — they discharge directly to the Gulf or coastal dune lakes.'
+      },
+      {
+        question: 'What\'s the cheapest way to dispose of tires in 30A?',
+        answer: 'When buying new tires, the shop is required by Florida law to take old tires for free as part of the purchase — this is the cheapest option. For drop-off without purchase, county solid waste facilities charge $2–$5 per passenger tire, with limits typically capped at 8 tires per visit. Never leave tires in vacant lots or standing water — tire dumping is a misdemeanor starting at $500 fines, and tires collecting water breed mosquitoes (a regulated public-health issue in Florida).'
+      },
+      {
+        question: 'Does curbside trash pickup take large furniture?',
+        answer: 'Most 30A municipalities offer monthly or bimonthly bulk pickup days for large furniture, with size limits typically capped at 6 feet long per item. Items must be at the curb the night before pickup. For donation-quality furniture, Habitat for Humanity ReStore, Salvation Army, and Goodwill all offer free pickup for larger pieces — and provide tax-deduction receipts. For multi-piece cleanouts, vacation rental turnovers, or upper-floor furniture, professional removal is usually faster than waiting for the next bulk pickup window.'
+      },
+      {
+        question: 'What items are illegal to put in regular trash in Florida?',
+        answer: 'Electronics with circuit boards (TVs, computers, monitors, phones), refrigerators and freezers with refrigerant intact, oil-based paint and solvents, motor oil and automotive fluids, propane tanks, lithium batteries, fluorescent bulbs, tires, and mercury thermometers are all banned from regular trash in Florida. Most require either a retailer take-back program, a county household hazardous waste event, or a specialty recycler.'
+      }
+    ]
   }
 ]
 
