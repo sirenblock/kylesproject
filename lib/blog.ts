@@ -14651,6 +14651,591 @@ Moves typically involve multiple service vendors on the same property in tight t
         answer: 'Yes — donating usable furniture during a move-out cleanout is one of the most efficient tax-deduction opportunities available. Habitat for Humanity ReStore, Salvation Army, and Goodwill all serve the 30A and PCB markets with scheduled pickup for furniture donations. Typical fair-market values: bedroom set (queen bed, nightstands, dresser) $200-$600, living room set (sofa, loveseat, coffee table) $300-$800, working appliances under 10 years $100-$400 each. Total donation value for a typical full-property move-out cleanout commonly runs $1,500-$4,000 in tax-deduction value. See our donation guide for the complete workflow and IRS Form 8283 requirements.'
       }
     ]
+  },
+  {
+    slug: 'furniture-removal-cost-30a-pricing-guide',
+    title: 'Furniture Removal Cost in 30A: 2026 Pricing Breakdown by Item',
+    excerpt: 'Real furniture removal pricing for 30A and PCB. Per-item costs for couches, mattresses, dining sets, and more — plus the multi-item discounts that change the math.',
+    content: `
+# Furniture Removal Cost in 30A: 2026 Pricing Breakdown by Item
+
+If you are searching "furniture removal cost 30A" the short answer is **$75-$250 per piece** for single items, with **multi-item discounts of 30-50%** when you bundle. This guide breaks down real 2026 pricing for every furniture category, the factors that change the math, and the multi-item math that makes bundling almost always the right call.
+
+## The headline numbers
+
+For [furniture removal in 30A and PCB](/services/furniture-removal), here is what real customers pay in 2026:
+
+| Item | Single-Item Cost | When Bundled (3+ Items) |
+|------|------------------|--------------------------|
+| Couch or sofa | $125-$175 | $75-$100 each |
+| Loveseat | $100-$150 | $60-$85 each |
+| Mattress (queen/king) | $150-$200 | $90-$120 each |
+| Mattress (twin/full) | $100-$150 | $60-$90 each |
+| Box spring | $75-$125 | $45-$70 each |
+| Dining table | $100-$175 | $60-$100 each |
+| Dining chairs (set of 4-6) | $75-$125 | $45-$75 |
+| Dresser | $75-$125 | $45-$75 each |
+| Armoire / wardrobe | $125-$225 | $80-$140 each |
+| Recliner | $100-$150 | $60-$90 each |
+| Sectional sofa | $200-$400 | $125-$250 |
+| Bed frame | $50-$100 | $30-$60 each |
+| Desk | $75-$150 | $45-$85 each |
+| Bookshelf | $50-$100 | $30-$60 each |
+
+**The $150 minimum applies.** If your single item falls below the minimum, you are paying $150 regardless. This is why bundling almost always wins — adding a second item rarely doubles the price.
+
+## What drives the per-item price
+
+Five factors actually move the needle on furniture removal cost in 30A and PCB:
+
+### 1. Weight and material
+
+A standard fabric sofa weighs ~85 lbs. A leather sofa with hardwood frame can weigh 180 lbs. Heavier = more handling time = higher cost. The dramatic version: a [hot tub at 850 lbs dry](/blog/hot-tub-removal-cost-30a-pricing-breakdown) is a different category entirely.
+
+### 2. Disassembly required
+
+Sectional sofas, armoires, and modular furniture often need disassembly to fit through doorways and into the truck. Add 30-45 minutes of crew time per piece requiring disassembly. This is why a 4-piece sectional ($200-$400) costs more than four loose chairs ($150-$250).
+
+### 3. Stair access
+
+Stairs add labor time. A second-floor walk-up adds ~15 minutes per piece for the trip down. Multiply by the number of pieces and that turns into a real billable hour. Most 30A beach properties have at least one flight of stairs — pricing usually has stair access baked in for typical 2-3 story beach homes.
+
+### 4. Gated community access
+
+[Alys Beach](/service-areas/alys-beach), [Rosemary Beach](/service-areas/rosemary-beach), [Watersound](/service-areas/watersound), and Sandestin all require gate-code coordination. Most companies pad pricing 5-10% for these HOA-strict communities to cover the coordination overhead. [Read the community guide](/blog/alys-beach-junk-removal-complete-guide) for the gate process specifics.
+
+### 5. Disposal vs donation
+
+Donatable furniture (clean, structurally sound, under 5 years old) costs less to dispose of — we route it to [Habitat ReStore, Salvation Army, or Goodwill](/blog/where-to-donate-furniture-household-items-30a-florida) at no charge to us. Stained, broken, or older furniture goes to the transfer station with tonnage fees. The cost difference can be $20-50 per item.
+
+## The bundle math (why you should always combine)
+
+The $150 service minimum is the math fact that changes everything. If you have one couch to remove, you pay $150. If you have a couch + a dresser + a dining set, you might pay $250 total — but that's $83 per piece instead of $150.
+
+Real example: a 3-bedroom [vacation rental turnover](/blog/vacation-rental-cleanout-tips-property-managers) on [Seaside](/service-areas/seaside) had a damaged couch, two stained mattresses, a broken dining set (table + 4 chairs), and a dresser with water damage. As 8 separate jobs, this would be $1,200+. Bundled into one same-day pickup: $475.
+
+**The rule of thumb:** Below 3 pieces, you are paying close to per-piece rates. From 3-6 pieces, you save 30-40%. From 7+ pieces, you save 40-50% and start qualifying for the [single-truck full-load pricing](/services/one-time-hauls) at $450-$650.
+
+## What about the curbside option?
+
+Some 30A and PCB properties qualify for **bulk curbside pickup** from the county sanitation service:
+
+- **Walton County:** $40 quarterly bulk fee, one bulk pickup per quarter for residents with active garbage service. Items must be curbside Sunday night for Monday morning pickup. [Schedule via Walton County Public Works.](https://www.co.walton.fl.us/)
+- **Bay County:** $30 quarterly bulk fee. Different scheduling window — call Bay County Solid Waste for details.
+
+**Why most owners still call a service:** Curbside has volume limits (typically ~6 items per quarter), requires items to sit on the curb for 24-48 hours (HOA violations in 30A communities), excludes mattresses (the plastic-bag rule applies), excludes refrigerators (EPA Section 608), and is on the county's schedule not yours. For [vacation rental turnovers](/blog/property-manager-junk-removal-playbook-30a) or any time-pressure cleanout, the curbside option does not work.
+
+## Pricing for specific 30A communities
+
+Community-specific factors that affect pricing:
+
+- **[Alys Beach](/service-areas/alys-beach):** Strict HOA architectural review for "anything out of place" — items cannot sit curbside, gate coordination required. Expect standard pricing.
+- **[Rosemary Beach](/service-areas/rosemary-beach):** Similar HOA rules to Alys. Crews are familiar.
+- **[Sandestin](/service-areas/sandestin):** Resort-wide gate access plus building-specific access at high-rise units. Multi-level high-rise pickups (4+ stories) add 10-15%.
+- **[Watersound](/service-areas/watersound):** Gated. Strict on noise hours (no service before 8 AM or after 6 PM in residential).
+- **[Inlet Beach](/service-areas/inlet-beach), [Seacrest](/service-areas/seacrest), [Grayton Beach](/service-areas/grayton-beach):** Standard pricing. Less HOA overhead.
+
+## When to expect higher than the listed range
+
+- **Same-day Saturday slots** during peak season (March-August) can carry a $25-50 premium
+- **After-hours** (before 8 AM or after 7 PM) carries a similar premium
+- **Hurricane debris** is its own category — see the [hurricane prep guide](/blog/hurricane-season-prep-junk-removal-30a-guide)
+- **Hoarder-level cleanouts** are billed differently (see our [hoarder cleanout service](/services/hoarder-cleanout) — typically a full-day project at $1,500-$4,500)
+
+## Getting an accurate quote
+
+The single highest-leverage thing you can do to get accurate pricing: **text us photos of what needs to go**. Photo quotes are accurate 95%+ of the time. Phone descriptions are accurate 60-70%.
+
+Text **(850) 368-3495** with:
+1. A wide shot showing the pile or room
+2. Close-ups of each major item
+3. Any access notes (stairs, gate, parking)
+
+You get a final, all-inclusive price back within 10 minutes during business hours.
+
+## The bottom line
+
+Furniture removal cost in 30A and PCB ranges from **$150 minimum** (single small item) to **$650 max** for a full-truck cleanout. The per-piece math always rewards bundling — combine items into one pickup and your effective per-item cost drops 30-50%. The community you are in matters less than you think; gate access adds ~5-10% at most.
+`,
+    author: '30A Junk Removal Team',
+    date: '2026-05-21',
+    lastUpdated: '2026-05-24',
+    readTime: '7 min read',
+    image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&h=400&fit=crop',
+    imageAlt: 'Modern furniture in a 30A beach property living room',
+    tags: ['Pricing', 'Furniture Removal', '30A', 'Cost'],
+    metaDescription: 'Furniture removal cost in 30A and PCB: real per-item pricing for couches, mattresses, dining sets, and more. Bundle discounts and 2026 rates.',
+    keywords: [
+      'furniture removal cost 30A',
+      'how much to remove furniture',
+      'sofa removal cost',
+      'mattress removal cost 30A',
+      'couch removal price',
+    ],
+    faqs: [
+      {
+        question: 'How much does it cost to remove a couch in 30A?',
+        answer: 'Single couch removal costs $125-$175 in 30A, with the $150 minimum applying. Bundled with 2+ other items, the effective per-item cost drops to $75-$100. Sectionals run $200-$400 due to disassembly time required to fit through doors.',
+      },
+      {
+        question: 'Is there a minimum charge for furniture removal?',
+        answer: 'Yes — most 30A and PCB junk removal services have a $150 minimum. This means a single small item (one nightstand, one ottoman) still costs $150. Bundle 2-3 items and the effective per-item cost drops significantly.',
+      },
+      {
+        question: 'Can the county pick up my furniture for free?',
+        answer: 'Both Walton and Bay Counties offer quarterly bulk curbside pickup ($30-40 quarterly fee) for residents with active garbage service. Limits: ~6 items per quarter, mattresses excluded (plastic-bag rule), refrigerators excluded (EPA Section 608), items must sit curbside 24-48 hours which violates most 30A HOAs. For vacation rental turnovers, time-pressured cleanouts, or HOA-restricted communities, professional pickup is faster and avoids HOA violations.',
+      },
+      {
+        question: 'How much does mattress removal cost?',
+        answer: 'Single mattress removal: $150-$200 (queen/king) or $100-$150 (twin/full), with the service minimum applying. Bundled with bed frame, box spring, and other items, the effective per-piece cost drops to $60-$120. Florida requires mattresses to be sealed in heavy-duty plastic bags before disposal (bedbug prevention) — we include the bag in our pricing.',
+      },
+      {
+        question: 'Does the cost change if I am in a gated 30A community?',
+        answer: 'Most gated 30A communities (Alys Beach, Rosemary Beach, Sandestin, Watersound) add 5-10% to pricing to cover gate coordination overhead. The pricing impact is small compared to the labor and disposal components.',
+      },
+    ],
+  },
+  {
+    slug: 'appliance-removal-cost-30a-pcb-pricing',
+    title: 'Appliance Removal Cost in 30A & PCB: 2026 Pricing for Refrigerators, Washers, & More',
+    excerpt: 'Real 2026 appliance removal pricing for 30A and PCB. Refrigerators, washing machines, dryers, dishwashers, and the EPA Section 608 rule that makes DIY illegal.',
+    content: `
+# Appliance Removal Cost in 30A & PCB: 2026 Pricing Guide
+
+[Appliance removal cost in 30A and PCB](/services/appliance-removal) runs **$150-$300 per appliance** for single-item pickups, dropping to **$80-$175 per piece** when bundled. Refrigerators carry a small surcharge due to EPA Section 608 refrigerant evacuation requirements. Here is the complete 2026 pricing breakdown.
+
+## Pricing by appliance type
+
+| Appliance | Single-Item Cost | Bundled (3+ Items) |
+|-----------|------------------|--------------------|
+| Refrigerator (standard) | $175-$250 | $100-$150 |
+| Refrigerator (side-by-side, French door) | $225-$300 | $130-$190 |
+| Chest freezer or upright freezer | $175-$275 | $110-$170 |
+| Wine cooler | $150-$200 | $90-$130 |
+| Washing machine | $150-$200 | $90-$125 |
+| Dryer (gas or electric) | $150-$200 | $90-$125 |
+| Dishwasher | $150-$200 | $90-$125 |
+| Range / oven | $175-$225 | $100-$150 |
+| Wall oven | $200-$275 | $125-$175 |
+| Microwave (over-range or built-in) | $150-$175 | $75-$110 |
+| Garbage disposal | Add to other appliance | — |
+| AC window unit | $150-$200 | $90-$125 |
+| Water heater | $200-$300 | $130-$190 |
+
+**The $150 minimum applies.** Single appliances under $150 still cost $150 — bundling is almost always more efficient.
+
+## The EPA Section 608 surcharge
+
+Anything containing refrigerant — refrigerators, freezers, wine coolers, AC window units, dehumidifiers — requires **EPA Section 608 evacuation** before legal disposal. This is federal law, and DIY disposal without certification is a federal violation.
+
+We are Section 608 certified. The evacuation process:
+1. Crew connects manifold gauges to the refrigerant port
+2. Refrigerant is recovered into approved cylinders
+3. Recovered refrigerant is recycled or reclaimed at certified facilities
+4. The appliance receives a tag documenting the evacuation
+5. Now it can legally go to the scrap metal stream or transfer station
+
+**Why this matters for pricing:** This is roughly 20-30 minutes of additional work per refrigerator/freezer/AC unit. It is baked into our pricing — no surprise add-on. But if you see a competitor quoting $75 to remove a fridge, they are either (a) not 608 certified and breaking federal law, or (b) about to surprise you with the actual cost on-site.
+
+## What about haul-away from new appliance delivery?
+
+Most appliance retailers (Lowe's, Home Depot, Best Buy, local appliance stores) offer free haul-away when delivering a new appliance. This is the right call if you are replacing 1-for-1.
+
+The catch: haul-away usually only includes the appliance being replaced. If you have a separate old fridge in the garage plus a new fridge being delivered to the kitchen, retailer haul-away covers only the kitchen unit. The garage fridge still needs separate pickup.
+
+## Multi-appliance bundling math
+
+This is where junk removal beats retailer haul-away when there is more than one appliance:
+
+**Scenario:** Beach house renovation — replacing the kitchen suite (fridge, range, dishwasher, microwave) plus removing an old chest freezer from the garage.
+
+- 4 kitchen appliances + freezer = 5 appliances total
+- Retailer haul-away: $0 for the kitchen (built into delivery) but the garage freezer is $175-$275 separately
+- Or: skip retailer haul-away, bundle all 5 with us: $450-$650 total
+- For high-end appliances where retailer haul-away is included anyway, retailer + separate freezer pickup is usually cheaper
+
+**Where bundle wins:** Mid-tier or budget appliance purchases where retailer haul-away costs extra ($30-50 per appliance), plus existing appliances throughout the property that retailer cannot touch.
+
+## What about [scrap metal value](/blog/eco-friendly-junk-disposal-30a)?
+
+A standard refrigerator contains 80-120 lbs of steel/aluminum/copper. At current scrap rates, that's $15-30 of recoverable value. We route appliances to local scrap recyclers as part of our [eco-friendly disposal workflow](/blog/eco-friendly-junk-disposal-30a) — that recovery offsets a portion of disposal costs, which is why our per-appliance pricing is competitive even after the 608 work.
+
+## Specific 30A community notes
+
+- **[Alys Beach](/service-areas/alys-beach), [Rosemary Beach](/service-areas/rosemary-beach):** Most appliances are in interior kitchens — no curbside disposal allowed. Service-elevator access in some condos.
+- **[Sandestin](/service-areas/sandestin):** High-rise condos add stair/elevator coordination. Pricing usually still in standard range due to handcart access.
+- **[Watersound](/service-areas/watersound):** Service-entrance routing required at most properties.
+- **[Inlet Beach](/service-areas/inlet-beach), [Grayton Beach](/service-areas/grayton-beach):** Standard pricing.
+
+## When to expect upcharges
+
+- **Stacked washer/dryer** with disassembly: +$25-50 over single washer
+- **Built-in / cabinet-set ovens** requiring removal from cabinetry: +$50-100
+- **Same-day Saturday slots** during March-August peak season: +$25-50
+- **After-hours pickups** (before 8 AM or after 7 PM): +$25-50
+
+## Getting your appliance removal quote
+
+Text photos to **(850) 368-3495** with:
+1. The appliance(s) in place
+2. Any access challenges (stairs, narrow doorways, tight kitchens)
+3. Whether the appliance is plumbed/wired (we can disconnect)
+
+You get a final, all-inclusive price within 10 minutes.
+
+## The bottom line
+
+Appliance removal in 30A and PCB is **$150-$300 per appliance** when handled professionally, with bundling discounts of 30-50% on multi-appliance pickups. Refrigerators, freezers, and AC units carry the EPA Section 608 work which is included in our pricing. Retailer haul-away is the right call when replacing 1-for-1; junk removal wins when there are 2+ items or any existing appliance the retailer cannot touch.
+`,
+    author: '30A Junk Removal Team',
+    date: '2026-05-21',
+    lastUpdated: '2026-05-24',
+    readTime: '8 min read',
+    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=400&fit=crop',
+    imageAlt: 'Modern kitchen appliances in a 30A property',
+    tags: ['Pricing', 'Appliance Removal', '30A', 'Cost'],
+    metaDescription: 'Appliance removal cost in 30A and PCB: real 2026 pricing for refrigerators, washers, dryers, ranges, and the EPA Section 608 rule.',
+    keywords: [
+      'appliance removal cost 30A',
+      'refrigerator removal cost',
+      'washer dryer removal cost',
+      'EPA Section 608 30A',
+      'kitchen appliance disposal',
+    ],
+    faqs: [
+      {
+        question: 'How much does refrigerator removal cost in 30A?',
+        answer: 'Standard refrigerator removal in 30A costs $175-$250 single-item, $100-$150 bundled with other items. Side-by-side and French-door fridges are $225-$300 due to size. Pricing includes EPA Section 608 refrigerant evacuation (federally required).',
+      },
+      {
+        question: 'Why is appliance removal more expensive than furniture?',
+        answer: 'Three reasons: (1) Refrigerators, freezers, and AC units require EPA Section 608 refrigerant evacuation by a certified technician — federal law. (2) Appliances are heavier (a fridge averages 200-300 lbs vs a couch at 80-100 lbs). (3) Built-in or plumbed appliances require disconnect work before haul.',
+      },
+      {
+        question: 'Can I put my old refrigerator on the curb?',
+        answer: 'No — Florida law requires EPA Section 608 refrigerant evacuation before disposal. The transfer station will refuse a fridge that has not been evacuated. Most 30A HOAs also prohibit curbside disposal. Walton County offers quarterly bulk pickup for residents with active garbage service but limited to ~6 items per quarter and not available during peak season.',
+      },
+      {
+        question: 'What if the appliance retailer offers free haul-away?',
+        answer: 'For 1-for-1 replacements (delivering a new fridge and removing the old one), retailer haul-away is usually the right call. For multi-appliance scenarios (whole-kitchen renovation, plus an existing appliance the retailer cannot touch), bundling with a junk removal service is more efficient.',
+      },
+      {
+        question: 'Do you remove built-in or wall ovens?',
+        answer: 'Yes — wall oven removal is $200-$275 single-item, factoring in the cabinetry disconnect time. We handle the electrical disconnect (we cap the wires inspection-ready). For full kitchen renovations with multiple built-ins, bundling drops the effective per-appliance cost to $125-$175.',
+      },
+    ],
+  },
+  {
+    slug: 'estate-cleanout-cost-30a-pricing',
+    title: 'Estate Cleanout Cost in 30A: Real Pricing for Walton & Bay County Properties',
+    excerpt: 'Estate cleanout pricing in 30A and PCB ranges from $1,500 to $8,000+. Here is what drives the cost, the donation routing math, and the discreet workflow.',
+    content: `
+# Estate Cleanout Cost in 30A: Real Pricing Guide
+
+[Estate cleanouts in 30A and PCB](/services/estate-cleanouts) range from **$1,500 for a small condo** to **$8,000+ for a full-property estate**. Pricing is driven primarily by volume (truckloads required) but also by the specifics of estate work — donation routing, photo documentation for executors, family communication, and the discretion these jobs require.
+
+## Pricing by property scope
+
+| Property Type | Typical Cost Range | Crew/Time |
+|---------------|--------------------|-----------|
+| Studio / 1-bedroom condo | $1,500 - $2,800 | 2 crew, 6-10 hours |
+| 2-bedroom condo or small home | $2,200 - $4,000 | 2-3 crew, 1 day |
+| 3-bedroom home | $3,500 - $5,500 | 3 crew, 1-2 days |
+| 4-bedroom home | $4,500 - $7,500 | 3-4 crew, 2 days |
+| 5+ bedroom or hoarder-level | $6,500 - $12,000+ | 4 crew, 2-4 days |
+| Outbuildings / garages added | +$500 - $2,000 | Add 4-8 hours |
+
+**The math beneath these numbers:** A typical estate generates 2-5 truck-loads of mixed material — furniture, clothing, kitchenware, garage tools, miscellaneous accumulated items. Estate cleanouts are typically billed at $400-$650 per truck-load with hourly labor for the separation and sort work.
+
+## What the price includes
+
+The standard estate cleanout pricing includes:
+
+1. **Pre-walk with family or executor** to identify sentimental items kept aside
+2. **On-site sort** into four streams: keep, donate, recycle, dispose
+3. **Donation routing** to Habitat ReStore, Salvation Army, Goodwill — with receipt for tax purposes
+4. **Scrap metal recovery** for metals, appliances (after EPA 608 evacuation)
+5. **Recycling routing** for electronics, paint, hazmat
+6. **Disposal** at appropriate Walton or Bay County transfer station with paperwork
+7. **Photo documentation** of "before" and "after" — important for [executor records](/blog/estate-cleanout-services-30a-valuable-item-recovery)
+8. **Final walk-through** with the family or executor before truck departure
+
+## What can add to the cost
+
+**Hazardous material handling:** Paint cans, motor oil, batteries, propane tanks, pesticides, chemicals. These require routing to Walton or Bay County HHW collection events, which run quarterly. Add $200-$500 for hazmat sort and transport.
+
+**Hoarder-condition properties:** Estate cleanouts where the property has been hoarded require additional PPE, safety walkthroughs, and often pest treatment coordination. See our [hoarder cleanout service](/services/hoarder-cleanout) page.
+
+**Off-property storage:** Some estates involve clearing offsite storage units. Add the storage unit's own clearance time + disposal volume.
+
+**Garage / shed / outbuilding accumulation:** A garage with 15 years of accumulated tools, lawn equipment, and miscellaneous can easily add a full truck-load.
+
+**Antique appraisal coordination:** For estates with potential antique value, we coordinate with appraisal services before disposal. This adds 1-2 days to the project timeline but can recover thousands in items the family did not realize had value.
+
+## The valuable-item recovery math
+
+This is where estate cleanouts differ from regular junk removal. Per our [valuable item recovery workflow](/blog/estate-cleanout-services-30a-valuable-item-recovery):
+
+**Items commonly worth checking before disposal:**
+- Coins (silver dollar coins, pre-1965 silver coinage worth $15-30/oz)
+- Jewelry (gold or silver pieces, costume vs real)
+- Vintage glassware, Pyrex, Fiesta ware ($40-300 per piece for collectibles)
+- Antique furniture (1800s-1940s) — separate appraisal recommended
+- Vintage electronics (Marantz/McIntosh stereo equipment, ham radio gear)
+- Tools (vintage Stanley, Disston, Starrett — collector demand)
+- Firearms (must be transferred legally — separate workflow)
+- Photographs and family documents (cannot be recreated)
+
+A standard estate cleanout typically surfaces $500-$3,000 in items that turn out to have real value once identified. We separate these for family review rather than dispose of them.
+
+## Donation math (and tax-deduction value)
+
+For a typical 3-bedroom estate, donatable furniture and household items typically include:
+
+- 1-2 bedroom sets ($300-$1,200 fair market value)
+- 1 living room set ($400-$1,000)
+- Dining furniture ($150-$500)
+- Working appliances ($300-$1,200 total)
+- Clothing in good condition ($200-$500)
+- Books, working electronics, kitchenware ($100-$400)
+
+**Total typical donation value:** $1,500-$5,000 in IRS Form 8283 deduction value. We provide itemized donation receipts.
+
+For estates with significant donation value, the tax savings often offsets a portion of the cleanout cost.
+
+## Timeline expectations
+
+- **1-day project:** Small condo, single-day estate clear
+- **2-day project:** Standard 3-4 bedroom home, separated by day (sort + load Day 1, finish + final disposal Day 2)
+- **3-5 day project:** Larger property, hoarder-condition, or estates with significant antique-appraisal coordination
+
+**Time-pressured estates:** If the property is being sold and closing is imminent, we accelerate the project with larger crews. This costs 10-20% more but compresses 2-3 day projects into a single day.
+
+## Discretion and family communication
+
+Estate cleanouts have a different emotional weight than other junk removal jobs. Our standard workflow includes:
+
+- **No vehicle branding** on request (unmarked truck available for sensitive properties)
+- **Family communication** — we coordinate with the executor as the primary point of contact, not the broader family
+- **Sentimental item flagging** — anything that looks personally meaningful (photos, letters, kids' artwork, religious items) is set aside for family review before any disposal decision
+- **Confidential disposal** — financial documents, medical records, anything sensitive goes through paper shredding routing
+- **End-of-day check-in** — daily updates to the executor on progress
+
+## How to get an accurate estate quote
+
+Estate cleanout quotes work differently than standard pickups. For estate work:
+
+1. **Schedule a property walk** — we visit the property with the executor, walk every room/storage area, and provide a written scope and quote
+2. **The walk is free** — no charge for the assessment regardless of whether you book us
+3. **Quote includes timeline** — you get a specific multi-day plan, not just a price
+4. **Most quotes valid 30 days** — estate executors often need time to coordinate family decisions
+
+To schedule the walk, [contact us](/contact) or call **(850) 368-3495**. We typically schedule estate walks within 48-72 hours.
+
+## The bottom line
+
+Estate cleanout cost in 30A and PCB ranges from **$1,500-$8,000+** depending on property size, condition, and complexity. Pricing is volume-driven (truck-loads required) but the workflow is fundamentally different than standard junk removal — donation routing, family communication, valuable item recovery, and discretion are all baked into the service. The on-property walk is free and gives you a written scope.
+`,
+    author: '30A Junk Removal Team',
+    date: '2026-05-22',
+    lastUpdated: '2026-05-24',
+    readTime: '10 min read',
+    image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=800&h=400&fit=crop',
+    imageAlt: 'Furnished home interior representing estate cleanout work',
+    tags: ['Pricing', 'Estate Cleanouts', '30A', 'Cost'],
+    metaDescription: 'Estate cleanout cost in 30A and PCB: $1,500-$8,000+ for typical Walton & Bay County estates. Pricing tiers, valuable item recovery, donation tax math.',
+    keywords: [
+      'estate cleanout cost 30A',
+      'estate cleanout pricing',
+      'how much does estate cleanout cost',
+      'estate cleanout 30A Florida',
+      'estate sale cleanup cost',
+    ],
+    faqs: [
+      {
+        question: 'How much does estate cleanout cost in 30A?',
+        answer: 'Estate cleanout cost in 30A ranges from $1,500 for a small condo to $8,000+ for a full 5-bedroom property. The driver is volume (truck-loads required) — most jobs run $400-$650 per truck-load plus hourly labor for sort and separation work. Most 3-bedroom estates run $3,500-$5,500 total.',
+      },
+      {
+        question: 'Do you provide donation receipts for estate cleanouts?',
+        answer: 'Yes — donatable items are routed to Habitat ReStore, Salvation Army, or Goodwill and we provide itemized donation receipts for IRS Form 8283 tax-deduction purposes. Typical estate donation values run $1,500-$5,000 which often offsets a portion of the cleanout cost via tax savings.',
+      },
+      {
+        question: 'How long does an estate cleanout take?',
+        answer: 'Most 3-bedroom estate cleanouts take 1-2 days with a 2-3 person crew. Larger properties (4+ bedrooms or with significant outbuildings) run 2-4 days. Time-pressured projects can be accelerated with larger crews at 10-20% premium.',
+      },
+      {
+        question: 'Do you handle hoarder-condition estates?',
+        answer: 'Yes — hoarder-condition estates require additional PPE, safety walkthrough, and often pest treatment coordination. Pricing for hoarder-level cleanouts typically runs $6,500-$12,000+ depending on property size and condition.',
+      },
+      {
+        question: 'What happens to valuable items found during cleanout?',
+        answer: 'Per our valuable item recovery workflow, anything that might have meaningful financial or sentimental value (coins, jewelry, vintage collectibles, antiques, photographs, family documents) is flagged and set aside for executor or family review before any disposal decision. We do not dispose of flagged items without explicit family approval.',
+      },
+    ],
+  },
+  {
+    slug: 'construction-debris-cost-30a-renovation-pricing',
+    title: 'Construction Debris Removal Cost in 30A: 2026 Renovation Pricing Guide',
+    excerpt: 'Construction debris cost for 30A renovations. Drywall, lumber, flooring, demolition rubble — real pricing by project type and the dumpster-vs-junk-removal math.',
+    content: `
+# Construction Debris Removal Cost in 30A: 2026 Renovation Pricing
+
+If you are running a renovation on 30A or PCB, [construction debris removal](/services/construction-debris) costs typically run **$350-$1,500 per service** depending on project scope. This guide breaks down 2026 pricing by project type, the dumpster-vs-junk-removal math, and why most 30A renovations need a hybrid approach.
+
+## Pricing by project type
+
+| Project Type | Typical Debris Cost | What's Included |
+|--------------|---------------------|-----------------|
+| Bathroom remodel (full demo) | $350 - $650 | Vanity, toilet, tile, drywall, fixtures |
+| Kitchen remodel (full demo) | $650 - $1,400 | Cabinets, countertops, flooring, appliances |
+| Single room flooring removal | $250 - $500 | Old flooring, padding, baseboards |
+| Whole-house carpet removal | $400 - $800 | Carpet, pad, tack strips |
+| Roof tear-off debris | $750 - $2,500 | Shingles, underlayment (per roof scope) |
+| Deck demolition (under 200 sq ft) | $450 - $850 | Decking, framing, fasteners |
+| Deck demolition (200-500 sq ft) | $750 - $1,500 | Decking, framing, posts |
+| Drywall demo (per room) | $200 - $400 | Drywall, insulation, framing scrap |
+| Shed demolition | $600 - $1,400 | Full shed, foundation if applicable |
+
+**For ongoing job sites:** Multi-day construction projects often need recurring pickup. We offer weekly or as-needed cadence at $250-$450 per service-load.
+
+## Junk removal vs dumpster rental for construction
+
+This is the most common pricing question on 30A and PCB construction projects. The decision depends on **project duration**:
+
+### Junk removal wins when:
+- Single-day or weekend demo
+- Tight scope (one room, one phase)
+- Active HOA where dumpsters are restricted (most 30A communities — see [our compare guide](/compare))
+- Single-load total volume (under 15 cubic yards)
+
+### Dumpster rental wins when:
+- 3+ day continuous demo
+- Multi-trade construction with various subs generating debris all week
+- Property has flat parking spot for the dumpster
+- HOA permits dumpsters (most of PCB but few 30A communities)
+
+### Hybrid approach (most 30A renovations):
+- Rent a 10-15 yard dumpster for active demo phase
+- Use junk removal for: (a) initial cleanup before demo, (b) final scope-clear at end of project, (c) anything the dumpster company will not take (refrigerants, paint, hazmat)
+
+## What 30A construction debris jobs need
+
+The 30A market has specific characteristics that affect pricing and approach:
+
+**HOA restrictions:** Most 30A communities ([Alys Beach](/service-areas/alys-beach), [Rosemary Beach](/service-areas/rosemary-beach), [Sandestin](/service-areas/sandestin), [Watersound](/service-areas/watersound)) prohibit street-placed dumpsters without architectural review approval. Approval process takes 5-14 days and costs $50-$200. For 1-2 week renovations, junk removal pickup is often faster than the dumpster approval cycle.
+
+**Hurricane and wind compliance:** Many 30A renovations involve hurricane retrofit work — installing impact-rated windows, reinforced framing, upgraded roof systems. The debris generated by these projects (old windows, old framing, old roofing) has specific disposal requirements due to age and material composition.
+
+**Mixed-material loads:** A typical 30A bathroom remodel generates: 200-400 lbs of tile, 100-150 lbs of drywall, 50-100 lbs of plumbing/fixtures, 50-100 lbs of cabinetry. Mixed loads require sorting at the transfer station which adds time.
+
+**Vacation rental coordination:** [Many 30A construction projects](/blog/30a-homeowner-renovation-debris-removal-guide) happen between rental bookings — meaning the project has a hard deadline. Junk removal can match the deadline; dumpster rental cycles may not.
+
+## What drives the per-project price
+
+### 1. Total volume (the dominant factor)
+
+We bill construction debris primarily by truck-load volume. A standard pickup truck holds ~10-12 cubic yards of construction debris (about 1,500-2,500 lbs). One truck-load is $400-$650; multiple truck-loads scale roughly linearly.
+
+### 2. Material composition
+
+- Light materials (drywall, lumber, carpet): Standard pricing
+- Heavy materials (tile, concrete, roofing): +20-30% due to tonnage at transfer station
+- Hazardous materials (lead paint, asbestos): Separate workflow — we coordinate routing to certified hazmat facilities
+
+### 3. Access
+
+- Ground-level open access: Standard pricing
+- Second-floor walk-up: +$50-$150 per truck-load for the carrying time
+- Tight access (narrow gates, restricted driveway): +$100-$200 per load
+
+### 4. Disposal facility selection
+
+Walton County and Bay County transfer stations have different tonnage rates. Bay County is generally cheaper for high-volume construction loads. For projects close to the county line, we route to the cheaper facility — this passes through to your pricing.
+
+### 5. Permit and documentation
+
+For licensed contractor projects, we provide disposal documentation (manifest with transfer station ticket numbers) suitable for permitting and inspection records. This is included at no extra charge.
+
+## Typical 30A construction project pricing scenarios
+
+### Scenario A: Bathroom renovation, [Inlet Beach](/service-areas/inlet-beach)
+- Demo phase: tear out vanity, toilet, tile floor, drywall
+- Single truck-load: $450
+- Coordinated with contractor for end-of-demo pickup
+- Total: $450, 1 pickup, takes 2 hours
+
+### Scenario B: Whole-house renovation, [Santa Rosa Beach](/service-areas/santa-rosa-beach)
+- 3-week renovation, multi-trade (demo, framing, drywall, finishing)
+- Approach: 15-yard dumpster rental ($550) + 2 junk removal pickups ($400 each)
+- Total: $1,350 spread over the project
+- Why hybrid: dumpster handles continuous demo debris; junk removal handles final cleanup including appliances dumpster cannot take
+
+### Scenario C: [Alys Beach](/service-areas/alys-beach) bathroom remodel
+- HOA does not permit street dumpsters without 14-day approval
+- Approach: 2 junk removal pickups (mid-demo + final), $450 each
+- Total: $900
+- Why no dumpster: approval cycle exceeds renovation timeline
+
+### Scenario D: Kitchen renovation, [Panama City Beach](/service-areas/panama-city-beach)
+- 5-day timeline, includes old appliance haul-away
+- Approach: 1 mid-project pickup ($550) + 1 final pickup ($650 including 4 appliances)
+- Total: $1,200
+- Could also be done with 15-yard dumpster ($600) + final junk removal pickup for appliances ($400) = $1,000 (slight savings)
+
+## For contractors and renovation pros
+
+If you are a contractor running multiple 30A or PCB projects, we offer:
+
+- **Net-30 invoicing** after the first job (no upfront payment per pickup)
+- **Recurring weekly cadence** for active job sites
+- **Manifest documentation** for permitting requirements
+- **After-hours pickup** for subs working late or weekend turnovers
+- **Volume pricing** for contractors with 5+ active projects
+
+[Contact us](/contact) to set up a contractor account.
+
+## The bottom line
+
+Construction debris removal in 30A and PCB runs **$350-$1,500 per service** for standard residential renovations. Junk removal beats dumpster rental for single-day demos and HOA-restricted properties; dumpster rental beats junk removal for multi-week continuous-debris projects. Most 30A renovations end up with a hybrid approach — dumpster for the active phase, junk removal for the cleanup and items dumpsters cannot take.
+`,
+    author: '30A Junk Removal Team',
+    date: '2026-05-23',
+    lastUpdated: '2026-05-24',
+    readTime: '9 min read',
+    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=400&fit=crop',
+    imageAlt: 'Renovation construction debris and demo materials at a 30A property',
+    tags: ['Pricing', 'Construction', '30A', 'Cost', 'Renovation'],
+    metaDescription: 'Construction debris removal cost in 30A: $350-$1,500 per service for renovations. Bathroom, kitchen, roofing, deck demolition pricing. 2026 rates.',
+    keywords: [
+      'construction debris cost 30A',
+      'renovation debris removal cost',
+      'demolition debris 30A',
+      'dumpster vs junk removal construction',
+      'bathroom demo cost',
+    ],
+    faqs: [
+      {
+        question: 'How much does construction debris removal cost in 30A?',
+        answer: 'Construction debris removal in 30A and PCB runs $350-$1,500 per service for standard residential renovations. Single-room demos (bathroom, single floor replacement) typically run $350-$650; whole-kitchen or whole-house projects run $1,000-$2,500. Per-truck-load pricing is $400-$650.',
+      },
+      {
+        question: 'Is junk removal cheaper than renting a dumpster for renovations?',
+        answer: 'It depends on project duration. For single-day or weekend demos: junk removal is cheaper. For 3+ day continuous renovations: dumpster rental is cheaper. Most 30A renovations end up with a hybrid approach — dumpster for active demo, junk removal for items dumpsters cannot take (refrigerators, mattresses, paint, electronics).',
+      },
+      {
+        question: 'Can I rent a dumpster in 30A?',
+        answer: 'Yes — Republic Services and Waste Pro both offer dumpster rentals on 30A. The complication: most 30A HOAs (Alys, Rosemary, Seaside, WaterColor, Watersound, Sandestin) prohibit street placement without architectural review approval. Approval takes 5-14 days and costs $50-200. For shorter renovations, the junk removal pickup model is faster than the dumpster approval cycle.',
+      },
+      {
+        question: 'Do you provide disposal documentation for permitted projects?',
+        answer: 'Yes — for licensed contractor work or permitted homeowner projects, we provide manifest documentation showing transfer station ticket numbers, weights, and disposal dates. This is included at no extra charge and is suitable for permitting and inspection records.',
+      },
+      {
+        question: 'What construction materials can you not take?',
+        answer: 'We coordinate routing for any material — but specific items require special handling: (1) Asbestos-containing materials must go through certified abatement contractors before we can haul; (2) Lead paint requires routing to certified hazmat facilities; (3) Pressure-treated lumber over a certain volume threshold requires separate disposal stream. We handle the coordination for these and pass through the certified handler costs.',
+      },
+    ],
   }
 ]
 

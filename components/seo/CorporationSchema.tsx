@@ -3,6 +3,31 @@ import { PHONE_NUMBER } from '@/lib/utils'
 
 const siteUrl = config.siteUrl
 
+// WebSite schema is one of the strongest entity signals -- it tells
+// Google "this domain is this entity" and is required to opt into the
+// SERP Sitelinks Search Box feature. We emit identification only
+// (no SearchAction) since we do not currently have on-site search.
+export function WebSiteSchema() {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${siteUrl}#website`,
+    url: siteUrl,
+    name: '30A Junk Removal',
+    description: config.siteDescription,
+    publisher: {
+      '@id': `${siteUrl}#organization`,
+    },
+    inLanguage: 'en-US',
+  }
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  )
+}
+
 export function CorporationSchema() {
   const schema = {
     '@context': 'https://schema.org',

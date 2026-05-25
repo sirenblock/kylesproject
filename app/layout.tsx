@@ -4,7 +4,7 @@ import "./globals.css"
 import { Header } from "@/components/layout/Header"
 import { Footer } from "@/components/layout/Footer"
 import { GlobalLocalBusinessSchema } from "@/components/seo/LocationBusinessSchema"
-import { CorporationSchema } from "@/components/seo/CorporationSchema"
+import { CorporationSchema, WebSiteSchema } from "@/components/seo/CorporationSchema"
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics"
 import { GoogleAds } from "@/components/analytics/GoogleAds"
 import { PerfectClick } from "@/components/analytics/PerfectClick"
@@ -97,6 +97,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://maps.googleapis.com" />
         <GlobalLocalBusinessSchema />
         <CorporationSchema />
+        <WebSiteSchema />
       </head>
       <body className="antialiased">
         <script

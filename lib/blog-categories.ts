@@ -72,6 +72,10 @@ export const blogCategories: BlogCategory[] = [
       'junk-removal-cost-30a-2026-pricing-guide',
       'hot-tub-removal-cost-30a-pricing-breakdown',
       'junk-removal-vs-dumpster-rental-30a-comparison',
+      'furniture-removal-cost-30a-pricing-guide',
+      'appliance-removal-cost-30a-pcb-pricing',
+      'estate-cleanout-cost-30a-pricing',
+      'construction-debris-cost-30a-renovation-pricing',
     ],
   },
   {
