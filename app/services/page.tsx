@@ -39,7 +39,7 @@ import { getAllServiceSlugs } from '@/lib/services'
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo'
 
 export const metadata: Metadata = {
-  title: 'Services | 30A Junk Removal',
+  title: 'Services',
   description: 'Comprehensive junk removal services for 30A. One-time hauls, construction debris, vacation rental turnovers, estate cleanouts, appliance removal, and more.',
   alternates: {
     canonical: getCanonicalUrl('/services'),

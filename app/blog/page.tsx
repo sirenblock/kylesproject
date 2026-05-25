@@ -10,7 +10,7 @@ import { BreadcrumbSchema } from '@/components/seo/StructuredData'
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo'
 
 export const metadata: Metadata = {
-  title: 'Blog | 30A Junk Removal Tips & Guides',
+  title: 'Blog',
   description: 'Expert tips, guides, and insights about junk removal, property management, and keeping your 30A Florida property clean and clutter-free.',
   keywords: ['junk removal blog', '30A tips', 'property management guides', 'Florida junk removal'],
   openGraph: {

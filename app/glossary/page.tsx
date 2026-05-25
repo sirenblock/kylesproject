@@ -10,7 +10,7 @@ import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.30ajunkremoval.com'
 
 export const metadata: Metadata = {
-  title: 'Junk Removal Glossary | 30A Junk Removal',
+  title: 'Junk Removal Glossary',
   description:
     'Definitions for junk removal industry terminology: EPA Section 608, refrigerant recovery, HHW, Florida plastic-bag rule, bulk pickup, fair-market value, and more. Essential reference for property owners.',
   alternates: {

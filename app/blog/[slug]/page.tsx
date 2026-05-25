@@ -37,10 +37,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
   }
 
-  const description = `${post.metaDescription} Call ${FORMATTED_PHONE} for same-day service.`
+  // Description cascade per metadata-canonical-og skill:
+  // metaDescription -> excerpt -> generated fallback. Truncate to 155
+  // chars to fit Google SERP description preview window.
+  const rawDescription =
+    post.metaDescription ||
+    post.excerpt ||
+    `${post.title} — read the complete 30A Junk Removal guide.`
+  const description =
+    rawDescription.length > 130
+      ? rawDescription.slice(0, 130).trim() + '...'
+      : `${rawDescription} Call ${FORMATTED_PHONE} for same-day service.`
 
   return {
-    title: `${post.title} | 30A Junk Removal Blog`,
+    // Title omits "| 30A Junk Removal Blog" because root layout's
+    // title.template adds "| 30A Junk Removal" -- letting template
+    // add the brand suffix once avoids the double-suffix SERP bug.
+    title: post.title,
     description,
     keywords: post.keywords,
     alternates: {

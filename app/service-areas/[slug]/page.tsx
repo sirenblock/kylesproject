@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${location.metaModifier} Junk Removal in ${location.name} FL | 30A Junk Removal`,
+    title: `${location.metaModifier} Junk Removal in ${location.name} FL`,
     description: `${location.metaModifier} junk removal in ${location.name}, FL ${location.zipCodes[0]}. 4.9★ rated (127 reviews). ${location.description.slice(0, 100)}. Same-day service. Call ${FORMATTED_PHONE}.`,
     keywords: [
       `junk removal ${location.name}`,

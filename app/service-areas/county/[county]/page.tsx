@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `Junk Removal in ${county.name}, ${county.state} | 30A Junk Removal`,
+    title: `Junk Removal in ${county.name}, ${county.state}`,
     description: `Professional junk removal serving all of ${county.name}, ${county.state}. Covering ${county.cities.length} communities including zip codes ${county.zipCodes.join(', ')}. Same-day service. Call ${FORMATTED_PHONE}.`,
     keywords: [
       `junk removal ${county.name}`,

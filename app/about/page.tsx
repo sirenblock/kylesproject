@@ -11,7 +11,7 @@ import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo
 import { TrustBadges } from '@/components/ui/TrustBadges'
 
 export const metadata: Metadata = {
-  title: 'About Us | 30A Junk Removal',
+  title: 'About Us',
   description: 'Learn about 30A Junk Removal - locally owned junk removal service for the 30A corridor and Panama City Beach. Licensed, insured, serving Walton and Bay Counties.',
   alternates: {
     canonical: getCanonicalUrl('/about'),

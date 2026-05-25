@@ -7,7 +7,7 @@ import { BreadcrumbSchema } from '@/components/seo/StructuredData'
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo'
 
 export const metadata: Metadata = {
-  title: 'FAQ | 30A Junk Removal',
+  title: 'FAQ',
   description: 'Frequently asked questions about junk removal on 30A. Pricing, scheduling, what we accept, construction debris, property management services, and more.',
   alternates: {
     canonical: getCanonicalUrl('/faq'),

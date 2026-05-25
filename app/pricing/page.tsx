@@ -53,7 +53,7 @@ const pricingFaqs = [
 ]
 
 export const metadata: Metadata = {
-  title: 'Pricing | 30A Junk Removal',
+  title: 'Pricing',
   description: 'Transparent junk removal pricing for 30A. From $150 for 1/4 truck to full estate cleanouts. Get an instant quote online or text us photos for construction debris.',
   alternates: {
     canonical: getCanonicalUrl('/pricing'),

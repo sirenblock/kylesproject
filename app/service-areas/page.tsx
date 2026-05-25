@@ -10,7 +10,7 @@ import { getAllLocationSlugs } from '@/lib/locations'
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo'
 
 export const metadata: Metadata = {
-  title: 'Service Areas | 30A Junk Removal',
+  title: 'Service Areas',
   description: 'Junk removal services for all 30A communities. Serving Seaside, Rosemary Beach, Alys Beach, WaterColor, Grayton Beach, Santa Rosa Beach, and more.',
   alternates: {
     canonical: getCanonicalUrl('/service-areas'),

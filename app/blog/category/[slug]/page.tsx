@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!category) return { title: 'Category Not Found' }
 
   return {
-    title: `${category.name} | 30A Junk Removal Blog`,
+    title: `${category.name}`,
     description: category.metaDescription,
     alternates: {
       canonical: getCanonicalUrl(`/blog/category/${slug}`),

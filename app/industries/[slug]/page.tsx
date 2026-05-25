@@ -34,7 +34,7 @@ export async function generateMetadata({
   const industry = getIndustry(slug)
   if (!industry) return {}
   return {
-    title: `${industry.name} Junk Removal | 30A Junk Removal`,
+    title: `${industry.name} Junk Removal`,
     description: industry.metaDescription,
     keywords: industry.keywords,
     alternates: {
