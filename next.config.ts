@@ -45,12 +45,14 @@ const nextConfig: NextConfig = {
       // Valparaiso -> Walton County hub (inland, near Niceville)
       { source: '/service-areas/valparaiso', destination: '/service-areas/county/walton-county' },
     ]
+    // Removed the catch-all `/service-areas/:location/:service` wildcard
+    // (2026-05-25 live-site audit) -- the path-to-regexp negative
+    // lookahead approach was unreliable and was 308-redirecting the
+    // real /service-areas/county/[county] route to a 404. The original
+    // intent (collapsing deleted doorway pages back to location parents)
+    // is now better handled by letting Google's crawler discover the
+    // 404 and drop the doorway URLs naturally over a few weeks.
     return [
-      {
-        source: '/service-areas/:location/:service',
-        destination: '/service-areas/:location',
-        permanent: true,
-      },
       // Okaloosa city pages -> nearest still-serviced neighbor (no soft-404)
       ...okaloosaRedirects.map((r) => ({ ...r, permanent: true })),
       // Okaloosa County hub -> Walton County hub (closest peer)
