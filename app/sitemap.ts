@@ -5,6 +5,8 @@ import { getAllLocationSlugs } from '@/lib/locations'
 import { getAllCountySlugs } from '@/lib/counties'
 import { getAllCategorySlugs } from '@/lib/blog-categories'
 import { getAllIndustrySlugs } from '@/lib/industries'
+import { blogPosts } from '@/lib/blog'
+import { totalBlogPages } from '@/components/blog/BlogHeroFeaturedGrid'
 import config from '@/lib/config'
 
 // Hardcoded "site content last meaningfully updated" date. Bump when shipping
@@ -107,6 +109,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
+  // PRIORITY 0.5: Blog pagination pages (page 2+)
+  const totalPages = totalBlogPages(blogPosts.length)
+  const blogPaginationPages: MetadataRoute.Sitemap = Array.from(
+    { length: Math.max(0, totalPages - 1) },
+    (_, i) => ({
+      url: `${config.siteUrl}/blog/page/${i + 2}`,
+      lastModified: SITE_CONTENT_UPDATED,
+      changeFrequency: 'weekly' as const,
+      priority: 0.5,
+    })
+  )
+
   // PRIORITY 0.7: Industry vertical landing pages (B2B intent)
   const industrySlugs = getAllIndustrySlugs()
   const industryPages: MetadataRoute.Sitemap = industrySlugs.map(slug => ({
@@ -161,6 +175,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...servicePages,
     ...countyPages,
     ...categoryPages,
+    ...blogPaginationPages,
     ...blogPostEntries,
     ...locationPages,
     ...industryPages,

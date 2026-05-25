@@ -16402,6 +16402,383 @@ Call **(850) 368-3495** or [send a request](/contact) for emergency / after-hour
         answer: 'Items hauled Sunday are staged at our property (or sealed/secured at your property if preferred) until Monday when transfer stations reopen. This is part of why Sunday emergency service runs at a premium — truck space is occupied until Monday afternoon, reducing Monday revenue capacity.',
       },
     ],
+  },
+  {
+    slug: 'how-much-does-a-couch-weigh',
+    title: 'How Much Does a Couch Weigh? (Florida Disposal Guide)',
+    excerpt: 'A standard 3-seat couch weighs 80-200 lbs. Sectionals weigh 200-450 lbs. Here is the complete weight breakdown by couch type plus what it means for moving and disposal.',
+    content: `
+# How Much Does a Couch Weigh?
+
+**A standard 3-seat couch weighs 80-200 lbs (36-91 kg).** Sleeper sofas weigh 250-350 lbs. Sectionals weigh 200-450 lbs depending on size. Leather couches with hardwood frames weigh up to 250 lbs. The exact weight depends on three factors: frame material (hardwood vs engineered), upholstery (fabric vs leather), and size.
+
+## Couch weight by type
+
+| Couch Type | Weight Range |
+|-----------|--------------|
+| Loveseat (fabric, standard) | 60-90 lbs |
+| Loveseat (leather) | 90-130 lbs |
+| 3-seat sofa (fabric, standard) | 80-150 lbs |
+| 3-seat sofa (leather) | 130-200 lbs |
+| 3-seat sleeper sofa | 250-350 lbs |
+| Sectional (4-piece, fabric) | 200-300 lbs |
+| Sectional (5-piece, leather) | 300-450 lbs |
+| Recliner (single) | 70-120 lbs |
+| Recliner (power, with motor) | 100-160 lbs |
+| Mid-century modern sofa | 80-130 lbs |
+| Antique sofa (1900-1940s) | 150-300 lbs |
+
+## What drives couch weight
+
+Three factors:
+
+1. **Frame material:** Hardwood frames (oak, kiln-dried maple) weigh significantly more than engineered wood or plywood frames. A leather sofa with a hardwood frame can weigh twice as much as a fabric sofa with engineered wood.
+
+2. **Upholstery:** Leather adds ~30-50% to the weight vs fabric of the same size.
+
+3. **Internal structure:** Sleeper sofas have steel mattress mechanisms that add 80-150 lbs. Power recliners have motors that add 30-50 lbs.
+
+## Weight implications for moving and disposal
+
+**One-person lift:** Generally not safe for any couch over 80 lbs. Most couches require 2-person handling.
+
+**Truck loading:** A standard pickup truck can carry up to ~1,500 lbs of cargo. A single sectional plus a sleeper sofa approaches that limit.
+
+**Stair handling:** Heavy couches on narrow stairs require disassembly. Many sectionals come apart into modules; sleeper sofas often need the mechanism removed before navigating stairs.
+
+**Florida disposal:** [Walton County](/blog/walton-county-transfer-station-guide) and [Bay County](/blog/bay-county-solid-waste-guide) transfer stations charge by tonnage. A 200 lb sectional adds roughly $8-9 to general waste tonnage fees. For a multi-couch disposal job, the fees add up — see our [furniture removal cost guide](/blog/furniture-removal-cost-30a-pricing-guide) for the math.
+
+## Should I do this myself?
+
+For a single light couch (80-120 lbs) with two helpers, ground-floor access, a pickup truck available, and a free morning: DIY makes sense.
+
+For anything beyond that — heavy couch, stairs, no truck, no help, or any time pressure — professional [furniture removal](/services/furniture-removal) is the more efficient option. Pricing typically starts at $125-175 for a single couch removal, dropping significantly when bundled with other items.
+
+## Common questions
+
+**Q: How heavy is the heaviest couch ever?**
+A: Custom-built sectionals with full hardwood frames and integrated entertainment built-ins can reach 700+ lbs. Most consumers will never encounter one of these.
+
+**Q: Why do antique couches weigh so much?**
+A: Pre-1950 couches were built with solid hardwood frames (often oak or walnut), steel coil springs, and natural cotton/horsehair stuffing. The combination is dramatically heavier than modern engineered-wood + foam construction.
+
+**Q: How much does a couch weigh in kg?**
+A: A standard 3-seat couch weighs 36-91 kg. Sectionals weigh 91-204 kg. Convert from lbs by dividing by 2.205.
+
+**Q: Can I get rid of an old couch in 30A?**
+A: Yes — [several disposal options](/blog/where-to-donate-furniture-household-items-30a-florida). For donation-quality couches under 5 years old, Habitat ReStore, Salvation Army, and Goodwill all accept furniture pickups. For end-of-life couches, professional [furniture removal](/services/furniture-removal) handles haul and disposal.
+`,
+    author: '30A Junk Removal Team',
+    date: '2026-05-24',
+    lastUpdated: '2026-05-24',
+    readTime: '5 min read',
+    image: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800&h=400&fit=crop',
+    imageAlt: 'Large 3-seat couch being lifted onto a moving truck',
+    tags: ['Couch', 'Weight', 'Furniture', 'Disposal', 'Guide'],
+    metaDescription: 'A standard couch weighs 80-200 lbs. Sectionals weigh 200-450 lbs. Complete weight breakdown by couch type plus Florida disposal context.',
+    keywords: [
+      'how much does a couch weigh',
+      'couch weight lbs',
+      'sectional weight',
+      'sleeper sofa weight',
+      'furniture weight disposal',
+    ],
+    faqs: [
+      {
+        question: 'How much does a 3-seat couch weigh?',
+        answer: 'A standard 3-seat couch weighs 80-200 lbs (36-91 kg). Fabric upholstered couches with engineered wood frames are on the lighter end (80-150 lbs); leather couches with hardwood frames reach the heavier end (130-200 lbs). Sleeper sofas add 80-150 lbs due to the integrated mattress mechanism.',
+      },
+      {
+        question: 'How heavy is a sectional sofa?',
+        answer: 'Sectional sofas weigh 200-450 lbs depending on size and material. A 4-piece fabric sectional typically weighs 200-300 lbs; a 5-piece leather sectional with full hardwood frames can reach 450 lbs. Most sectionals come apart into modules for easier handling.',
+      },
+      {
+        question: 'Can I lift a couch by myself?',
+        answer: 'Generally no — couches over 80 lbs require 2-person handling for safety. Single-person lifting of heavier couches risks back injury and damage to the couch or walls/doorframes during navigation. Even smaller couches can be awkward to lift alone due to their length.',
+      },
+      {
+        question: 'What is the heaviest part of a couch?',
+        answer: 'The frame is usually the heaviest component. Hardwood frames (oak, kiln-dried maple) can account for 50-70% of total weight. Sleeper sofas have steel mattress mechanisms that add 80-150 lbs concentrated in the lower frame. Power recliners have motors that add 30-50 lbs.',
+      },
+      {
+        question: 'How much does couch removal cost in 30A based on weight?',
+        answer: "Couch removal in 30A and PCB is priced by volume not weight — a single couch removal costs $125-$175 with a $150 service minimum. The weight matters for the crew's lift planning (2-person team standard) but does not affect price unless the weight requires special equipment (extremely rare for residential couches).",
+      },
+    ],
+  },
+  {
+    slug: 'can-you-throw-away-a-mattress-in-florida',
+    title: 'Can You Throw Away a Mattress in Florida? (2026 Rules)',
+    excerpt: 'Yes — but only if the mattress is sealed in a heavy-duty plastic bag per Florida bedbug prevention law. Here is what is legal, what gets your trash refused, and how the rule works.',
+    content: `
+# Can You Throw Away a Mattress in Florida?
+
+**Yes — but ONLY if the mattress is sealed in a heavy-duty plastic mattress disposal bag.** Florida's bedbug prevention rule (FAC Chapter 64E-9) requires all mattresses being disposed of to be fully encased in plastic before they leave the property. Mattresses that are not bagged will be refused at the curb by your trash hauler and at the transfer station.
+
+## Why the plastic bag rule exists
+
+Florida has the highest bedbug infestation rate in the Southeast U.S. due to the year-round warm climate and the heavy vacation rental market (high turnover = high transmission risk). The plastic-bag requirement prevents bedbugs (or their eggs) from migrating between mattresses during transport and disposal.
+
+The rule applies to:
+- All mattress types (innerspring, memory foam, hybrid, latex)
+- All sizes (twin through California king)
+- Box springs (require their own bag if disposed separately)
+- Mattress toppers and pillow tops
+
+## Where to get a mattress disposal bag
+
+Mattress disposal bags cost $10-15 each and are available at:
+
+- **U-Haul stores** (most common option in 30A and PCB)
+- **Home Depot and Lowe's** (with the moving supplies)
+- **The Walton County transfer station entrance** ($15)
+- **Amazon** (free with Prime — but you need it before the disposal date)
+
+Get the right size for your mattress — a queen bag will not seal around a king mattress.
+
+## How to bag the mattress
+
+1. Open the bag and lay it flat on the floor
+2. Place the mattress on top of the open bag
+3. Pull the bag up over the mattress and seal with the included tape
+4. The bag must fully encase the mattress with no gaps
+5. Mattress is now ready for disposal
+
+## What counts as legal disposal
+
+Once bagged, you have three options:
+
+### Option 1: Curbside bulk pickup
+Both [Walton County](/blog/walton-county-transfer-station-guide) and [Bay County](/blog/bay-county-solid-waste-guide) offer quarterly bulk curbside pickup. Limits:
+- ~6 items per quarter (mattress counts as 1 item)
+- Schedule via county Public Works
+- Must be at curb Sunday night for Monday morning pickup
+- ~$30-40 quarterly fee
+
+**Important:** Many 30A HOAs ([Alys Beach](/service-areas/alys-beach), [Rosemary Beach](/service-areas/rosemary-beach), Watersound) prohibit items sitting curbside 24-48 hours. Check your HOA rules before scheduling.
+
+### Option 2: Self-haul to transfer station
+- Walton County (DeFuniak Springs): $15-25 per mattress on top of standard tonnage fees
+- Bay County (Steelfield Road): $15-25 per mattress
+- Mattress must still be bagged
+
+### Option 3: Professional pickup
+[Mattress removal](/services/mattress-removal) in 30A and PCB typically runs $150-200 for a single mattress, $90-120 each when bundled with 3+ items. The bag is typically included in the price — we bring it to your home.
+
+## What does NOT count as legal disposal
+
+- **Putting an unbagged mattress at the curb** — trash hauler will leave it and you may receive an HOA citation
+- **Donating to a charity** — most thrift stores (Goodwill, Salvation Army) do not accept mattresses due to bedbug risk. ReStore occasionally accepts very-new mattresses
+- **Leaving it on the side of the road** — illegal dumping, $500+ fine
+- **Putting it in a dumpster** without prior arrangement — dumpster companies typically prohibit mattresses
+
+## What about mattresses still in good shape?
+
+For mattresses under 2 years old and in clean condition, donation is sometimes possible:
+
+- **Habitat for Humanity ReStore:** Limited acceptance, call ahead
+- **Local shelters:** Some women's shelters or transitional housing accept newer mattresses
+- **Buy Nothing groups:** Facebook Marketplace and Buy Nothing groups occasionally have takers
+- **Mattress recycling programs:** Some manufacturers (Tempur-Pedic, Sleep Number) offer haul-away with new mattress delivery
+
+## Common questions
+
+**Q: Can I cut up a mattress and put it in regular trash?**
+A: No — even cut up, the materials still trigger the bedbug rule. Trash haulers can identify mattress materials by sight.
+
+**Q: What if my mattress is on the curb and the truck refuses it?**
+A: You will need to bring it back inside (a violation has likely already occurred), bag it, and reschedule pickup. Some HOAs issue citations for items that sit at the curb beyond the pickup window.
+
+**Q: Are there any exceptions to the plastic bag rule?**
+A: No exceptions for residential disposal. Commercial mattress disposal (hotels, vacation rentals) has additional regulations — typically routed through licensed mattress disposal services.
+
+**Q: How much does mattress removal cost in 30A?**
+A: See our [mattress disposal guide](/blog/mattress-disposal-30a-pcb-complete-guide) for the complete cost breakdown by size and removal method.
+`,
+    author: '30A Junk Removal Team',
+    date: '2026-05-24',
+    lastUpdated: '2026-05-24',
+    readTime: '6 min read',
+    image: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&h=400&fit=crop',
+    imageAlt: 'Mattress being prepared for disposal in plastic bag',
+    tags: ['Mattress', 'Florida Law', 'Disposal', 'Bedbug Rule', 'Guide'],
+    metaDescription: 'Can you throw away a mattress in Florida? Yes — but only if sealed in a plastic disposal bag per the bedbug prevention rule. Complete 2026 guide.',
+    keywords: [
+      'can you throw away a mattress in florida',
+      'mattress disposal florida law',
+      'florida bedbug rule mattress',
+      'mattress plastic bag rule',
+      'how to dispose of mattress florida',
+    ],
+    faqs: [
+      {
+        question: 'Can I throw away a mattress in Florida?',
+        answer: 'Yes — but Florida law (FAC Chapter 64E-9) requires the mattress to be sealed in a heavy-duty plastic disposal bag before it leaves the property. Unbagged mattresses will be refused by trash haulers and transfer stations.',
+      },
+      {
+        question: 'Where do I get a mattress disposal bag?',
+        answer: 'Mattress disposal bags cost $10-15 each at U-Haul stores, Home Depot, Lowes, the Walton County transfer station entrance, and on Amazon. Make sure to get the right size — a queen bag will not seal around a king mattress.',
+      },
+      {
+        question: 'Why does Florida require mattresses to be bagged?',
+        answer: 'Florida has the highest bedbug infestation rate in the Southeast U.S. The plastic-bag requirement prevents bedbugs and their eggs from migrating between mattresses during transport and disposal. The rule applies to all mattress types and sizes.',
+      },
+      {
+        question: 'Can I put a bagged mattress on the curb in 30A?',
+        answer: 'Bagged mattresses can go to curbside bulk pickup through Walton or Bay County (quarterly, ~$30-40 fee, ~6 items per quarter). However, many 30A HOAs (Alys Beach, Rosemary Beach, Watersound) prohibit items sitting curbside 24-48 hours. Check your HOA rules before scheduling curbside pickup.',
+      },
+      {
+        question: 'Will Goodwill or Habitat ReStore take my mattress?',
+        answer: 'Most thrift stores (Goodwill, Salvation Army) do not accept mattresses due to bedbug risk. Habitat ReStore occasionally accepts mattresses under 2 years old in clean condition — call ahead. For end-of-life mattresses, professional disposal or curbside bulk pickup are the legal options.',
+      },
+    ],
+  },
+  {
+    slug: 'do-you-need-permit-shed-demolition-florida',
+    title: 'Do You Need a Permit for Shed Demolition in Florida?',
+    excerpt: 'It depends on the shed size. Sheds under 100 square feet typically do not need a demolition permit in most Florida counties. Larger sheds do. Here is the breakdown for Walton and Bay County.',
+    content: `
+# Do You Need a Permit for Shed Demolition in Florida?
+
+**It depends on the shed size and whether it has utilities connected.** Sheds under 100 square feet without utilities typically do NOT require a demolition permit in most Florida counties. Larger sheds, or any shed with electrical/plumbing connections, usually DO require a permit. Here is the specific breakdown for Walton County and Bay County (the 30A and PCB service area).
+
+## The general Florida rule
+
+Florida Building Code applies statewide, but **demolition permits are administered at the county level**. Each county has its own threshold for when a permit is required. The two factors that universally trigger permit requirements:
+
+1. **Size:** Sheds over 100-200 sq ft (varies by county)
+2. **Utilities:** Any shed with electrical or plumbing service connections
+
+## Walton County demolition permits
+
+For [Walton County](/service-areas/county/walton-county) sheds:
+
+| Shed Type | Permit Required? |
+|-----------|------------------|
+| Storage shed under 100 sq ft, no utilities | NO permit |
+| Storage shed 100-200 sq ft, no utilities | NO permit (but check zoning) |
+| Storage shed over 200 sq ft | YES — demolition permit required |
+| Any shed with electrical service | YES — electrical disconnect permit |
+| Any shed with plumbing | YES — plumbing disconnect permit |
+| Pole barn or carport | YES — over 100 sq ft |
+| Detached garage | YES |
+
+**Walton County Building Department contact:** 850-892-8160. Permits typically take 5-7 business days and cost $50-150 for residential demolition.
+
+## Bay County demolition permits
+
+For [Bay County](/service-areas/county/bay-county) sheds:
+
+| Shed Type | Permit Required? |
+|-----------|------------------|
+| Storage shed under 150 sq ft, no utilities | NO permit |
+| Storage shed 150-300 sq ft, no utilities | YES (under "small structure" classification) |
+| Storage shed over 300 sq ft | YES — demolition permit required |
+| Any shed with electrical service | YES — electrical disconnect permit |
+| Any shed with plumbing | YES — plumbing disconnect permit |
+| Pole barn over 150 sq ft | YES |
+| Detached garage | YES |
+
+**Bay County Building Department contact:** 850-248-8350. Permits typically take 3-5 business days and cost $40-125 for residential demolition.
+
+## HOA rules — separate from county permits
+
+For 30A and PCB sheds, HOA architectural review approval is often required IN ADDITION to county permits:
+
+- **[Alys Beach](/service-areas/alys-beach):** Strict ARC review required for any structural change. 7-14 day approval window.
+- **[Rosemary Beach](/service-areas/rosemary-beach):** Similar ARC review process.
+- **[Watersound](/service-areas/watersound):** ARC review required.
+- **[Sandestin](/service-areas/sandestin):** Property owner association review.
+- **[Watercolor](/service-areas/watercolor):** ARC review for structural changes.
+
+Most 30A HOA approvals add 5-14 days to the timeline. Plan accordingly.
+
+## What happens during permitted demolition
+
+If your shed requires a permit:
+
+1. **Submit application** — describe scope, structure dimensions, utility status
+2. **Inspector pre-demo walkthrough** (sometimes required) — confirms structure matches application
+3. **Licensed contractor (often required for permitted demos)** performs demolition
+4. **Utility disconnections documented** — electrical/plumbing capped to inspection-ready standard
+5. **Debris hauled** with disposal manifest documenting weight and destination
+6. **Post-demo inspection** — confirms full removal and proper disposal
+7. **Permit closed**
+
+**Cost:** Permitted shed demolition (over 200 sq ft with utilities) typically runs $1,200-$3,500 total, including the permit, licensed contractor, debris haul, and inspection fees.
+
+## Sheds under permit threshold
+
+For sheds under the permit threshold (most residential storage sheds in 30A):
+
+- **No permit required**
+- **No licensed contractor required**
+- **No inspection required**
+- **HOA approval still applies if you are in a covenant community**
+- **Disposal is still your responsibility** — you cannot just leave the demoed shed in your yard
+
+DIY demolition of a small unpermitted shed is legal. Professional [shed demolition service](/services/shed-demolition) is also an option — typical pricing $600-$1,400 for under-permit sheds.
+
+## What we handle
+
+For [30A and PCB shed demolition](/services/shed-demolition):
+
+- Sheds under permit threshold: standard demolition + haul, no permit work
+- Sheds over permit threshold: coordinate with licensed contractor + permit, handle debris haul
+- HOA-restricted communities: coordinate with property manager and HOA architectural review
+- Utility disconnects: route to licensed electrician/plumber for the disconnect, we handle the structure and haul
+
+## Common questions
+
+**Q: What if I demo my shed without a required permit?**
+A: Code enforcement can issue stop-work orders, fines ($250-1,000 typical), and require you to bring the permit current after the fact. Property sale can be complicated if unpermitted work is discovered during inspection.
+
+**Q: Are pre-fab sheds (like Tuff Shed) easier to demolish?**
+A: Yes — pre-fab sheds are designed for disassembly. They can often be unbolted and removed in sections. This makes the demolition cleaner and the debris easier to haul.
+
+**Q: What about hurricane-damaged sheds?**
+A: Damage assessment may waive permit requirements under emergency declarations. After Hurricane Michael (2018), Bay County issued blanket waivers for hurricane-damaged accessory structures. Check current emergency declarations.
+
+**Q: Can I just leave the shed and let it fall down?**
+A: No — code enforcement classifies derelict structures as nuisances. You will eventually be cited and required to demolish (sometimes with a contractor lien on your property if you do not comply).
+`,
+    author: '30A Junk Removal Team',
+    date: '2026-05-24',
+    lastUpdated: '2026-05-24',
+    readTime: '7 min read',
+    image: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&h=400&fit=crop',
+    imageAlt: 'Old wooden storage shed in a Florida backyard awaiting demolition',
+    tags: ['Permit', 'Shed Demolition', 'Florida', 'Walton County', 'Bay County'],
+    metaDescription: 'Do you need a permit for shed demolition in Florida? Depends on size and utilities. Complete breakdown for Walton and Bay County including HOA rules.',
+    keywords: [
+      'do you need a permit for shed demolition florida',
+      'shed demolition permit florida',
+      'walton county shed permit',
+      'bay county shed permit',
+      'florida demolition permit',
+    ],
+    faqs: [
+      {
+        question: 'Do you need a permit to demolish a shed in Florida?',
+        answer: 'It depends on size and utilities. Sheds under 100 sq ft in Walton County (150 sq ft in Bay County) without utilities typically do NOT need a permit. Larger sheds, or any shed with electrical or plumbing connections, DO require a permit. HOA architectural review approval may also be required separately.',
+      },
+      {
+        question: 'How much does a shed demolition permit cost in Florida?',
+        answer: 'Walton County permits run $50-150 for residential demolition. Bay County permits run $40-125. Permits typically take 3-7 business days for approval. Costs vary based on shed size and whether utility disconnect permits are also required.',
+      },
+      {
+        question: 'What is the largest shed I can build/demolish without a permit in Florida?',
+        answer: 'In Walton County: up to 100 sq ft without permit (no utilities). In Bay County: up to 150 sq ft without permit (no utilities). These thresholds apply to demolition as well. Always confirm with your specific county building department.',
+      },
+      {
+        question: 'Do I need HOA approval to demolish a shed?',
+        answer: 'In most 30A and PCB HOA communities (Alys Beach, Rosemary Beach, Watersound, Sandestin, Watercolor), yes — architectural review committee approval is required separately from any county permit. Approval typically adds 5-14 days to the timeline.',
+      },
+      {
+        question: 'What happens if I demo a shed without a required permit?',
+        answer: 'Code enforcement can issue stop-work orders, fines ranging from $250-$1,000, and require you to bring the permit current after the fact. Unpermitted work can complicate property sales when discovered during inspection. For any shed over the permit threshold, getting the permit is significantly cheaper than the potential fines.',
+      },
+    ],
   }
 ]
 

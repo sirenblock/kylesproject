@@ -64,6 +64,9 @@ export const blogCategories: BlogCategory[] = [
       'paint-hazmat-disposal-30a-pcb-guide',
       'electronics-tv-recycling-30a-pcb-guide',
       'sunday-holiday-junk-removal-30a',
+      'how-much-does-a-couch-weigh',
+      'can-you-throw-away-a-mattress-in-florida',
+      'do-you-need-permit-shed-demolition-florida',
     ],
   },
   {
