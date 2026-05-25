@@ -720,6 +720,26 @@ Salt air accelerates appliance deterioration on 30A. Refrigerators, dishwashers,
 **Rosemary Beach Kitchen Remodel:** Removed built-in refrigerator, double ovens, dishwasher, and wine cooler during <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> kitchen renovation. Extra care preserved custom cabinetry. Appliances <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donated</a> to <a href="https://www.habitat.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">local family in need</a>.
 
 **WaterColor Bulk Upgrade:** <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">Property manager</a> in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> updating 5 vacation rental refrigerators simultaneously. Coordinated multi-property removal over 2 days, appliance companies delivered new units on same schedule. Efficient, cost-effective process. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for multi-property pricing.
+
+### EPA Section 608 Compliance Explained
+
+Refrigerator, freezer, AC, and dehumidifier disposal is regulated by EPA Section 608 of the Clean Air Act. Refrigerant — R-134a in newer units, R-22 in pre-2010 systems, R-12 in pre-1995 units — must be recovered by an EPA-certified technician before disposal. Releasing refrigerant into the atmosphere is illegal with civil penalties starting at $45,000 per violation.
+
+In practice this means: curbside bulk pickup will not accept refrigerated appliances. The Walton County Mossy Head Landfill and Bay County Steelfield Landfill both refuse refrigerated units without certified recovery documentation, or perform recovery on-site for an additional fee ($25-$50 per unit). Our professional appliance removal pricing includes refrigerant recovery certification as standard.
+
+Customers replacing appliances through major retailers (Best Buy, Lowe's, Home Depot, Costco) can use the retailer's haul-away service, which includes refrigerant recovery as part of the delivery fee ($25-$75 per appliance). For non-replacement disposal — moving, downsizing, estate cleanouts — professional appliance removal is typically the most reliable path. See our <a href="/blog/refrigerator-appliance-disposal-30a-pcb-complete-guide" class="text-ocean-600 hover:underline font-medium">refrigerator and appliance disposal complete guide</a> for the full workflow.
+
+### Scrap Value Recovery on Appliance Disposal
+
+A typical residential refrigerator contains 50-100 pounds of recoverable steel, plus smaller amounts of copper (in the compressor coils) and aluminum. At current scrap metal prices, the recoverable value typically runs $15-$50 per major appliance. Washers, dryers, dishwashers, and ranges have similar scrap value composition (50-150 pounds of metal per unit).
+
+Our standard appliance removal workflow includes routing to scrap metal facilities for value recovery where economical. Some appliances — particularly newer units in working condition — may be more valuable through donation routing (Habitat ReStore accepts working appliances under 10 years old, generating donation receipts for tax-deduction filing). For typical kitchen renovation projects, the combination of scrap value + donation routing typically recovers $100-$400 in offsets against the disposal cost.
+
+### Same-Day and Time-Pressured Appliance Removal
+
+Appliance failures are one of the most time-pressured residential service categories we handle. A failed refrigerator at a vacation rental property between guests is an operational emergency — replacement appliance delivery typically requires 24-48 hours, meaning the old unit needs to be cleared immediately to make space.
+
+Our standard same-day appliance removal pattern: call or text by 11 AM, photo-confirmation of the appliance and access path, arrival window confirmed within 1 hour, removal completed before evening. For property management companies on preferred-vendor agreements, response windows can shorten to 2-4 hours during peak season. The <a href="/blog/property-manager-junk-removal-playbook-30a" class="text-ocean-600 hover:underline font-medium">property manager playbook</a> covers the broader same-day service operational pattern.
     `,
     features: [
       'All appliance types',
@@ -2857,6 +2877,30 @@ We have experience working with major banks, asset management companies, and pro
 ### Timeline and Availability
 
 Most foreclosure cleanouts are completed within 1-3 days depending on property size and contents. We understand the urgency of preservation deadlines and lender timelines. Rush service is available when needed. For ongoing REO work, we offer priority scheduling and volume pricing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to discuss your foreclosure cleanout requirements.
+
+### Pre-Sale Foreclosure Cleanouts vs. Post-Eviction
+
+Foreclosure cleanouts fall into two distinct operational categories, each with different workflows:
+
+**Pre-sale (REO listing prep)**: The lender or asset management firm has taken ownership of the property and is preparing for resale. The cleanout includes clearing personal property left by the previous owner, removing debris, basic yard cleanup, and getting the property to "broom-clean" condition for listing photos and showings. Timeline pressure comes from listing-date commitments and seasonal market windows. Typical scope for a 3-bedroom property: 1-2 truckloads of contents + yard cleanup, $800-$1,800 depending on accumulation depth.
+
+**Post-eviction**: The court-ordered eviction has been executed and the previous occupant has been removed. Personal property may need to be stored for the legally-mandated holding period (typically 10-15 days in Florida) before disposal. The cleanout workflow includes documentation of items being removed, photo evidence of property condition, and coordination with the property owner or property management on any items requiring legal disposition. Pricing typically runs 15-25% higher than pre-sale work due to documentation overhead.
+
+### Bank and Asset Management Workflows
+
+For 30A and Bay County properties going through foreclosure, the operational chain typically involves: the originating lender → an asset management firm (often national-scale operators like SitusAMC, Altisource, Mr. Cooper) → a local property preservation company → the on-site cleanout vendor. We work directly with property preservation companies and asset managers, providing:
+
+- **W-9 documentation** for tax-form requirements
+- **$1M general liability insurance certificates** required by most bank vendor agreements
+- **Photo documentation packages** before/during/after each job for property preservation reporting
+- **Standardized invoicing** with property addresses, work orders, and disposal manifests
+- **Net-30 or net-45 payment terms** for established accounts
+
+We've handled foreclosure cleanouts across both Walton and Bay County REO inventories. Our local-knowledge edge — knowing the disposal infrastructure, donation routing for usable items, and the HOA requirements at specific properties — typically completes jobs faster and with better documentation than out-of-area vendors working from national lists.
+
+### Common Foreclosure Cleanout Discovery Items
+
+Foreclosure properties commonly contain items that need specialized handling: refrigerators with refrigerant (requiring <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">EPA Section 608 recovery</a>), older mattresses (requiring <a href="/services/mattress-removal" class="text-ocean-600 hover:underline font-medium">Florida plastic-bag rule compliance</a>), hazardous materials (paint, chemicals, automotive fluids), occasional vintage furniture with collector value, and accumulated documents requiring secure disposal. Our standard workflow includes sorting these categories for appropriate routing.
     `,
     features: [
       'Full property clearing and cleanout',
@@ -3101,6 +3145,34 @@ For <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline f
 ### Pricing and Scope
 
 Bathroom demolition pricing starts at $600 for standard single-bathroom projects. Master bathroom demolitions with large showers, jetted tubs, and double vanities typically run $800-$1,500. Multi-bathroom projects receive volume pricing. The scope of demolition affects pricing: partial demo such as tile only versus full gut-to-studs varies significantly. Text photos and describe your renovation scope for accurate pricing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your bathroom demolition.
+
+### Material Routing for Bathroom Demolition Debris
+
+A typical bathroom demolition generates 1,500-3,000 pounds of mixed material requiring specific disposal routing:
+
+**Tile, stone, and ceramic** (the largest single category by weight) — heavy material that routes to concrete/masonry recycling facilities when clean, or to Walton/Bay County landfills at construction debris rates when mixed. Clean tile loads occasionally recover scrap value through specialty recyclers.
+
+**Cabinet wood and vanities** — solid wood vanities sometimes have donation value at Habitat for Humanity ReStore for owners willing to coordinate pickup before demo. More commonly routes to standard C&D disposal at landfill.
+
+**Plumbing fixtures (toilet, sink, tub, shower)** — porcelain and ceramic fixtures route to landfill. Cast iron tubs have meaningful scrap value at scrap metal facilities (often $40-$100 in scrap value per tub). Newer composite tubs are landfill-only.
+
+**Mirrors, glass shower enclosures** — landfill-only in our area (no residential glass recycling for tempered safety glass).
+
+**Drywall and backer board** — landfill-only (drywall does not recycle).
+
+**Older bathrooms (pre-1980 construction) may contain lead-painted surfaces or asbestos in tile mastic or pipe insulation.** Lead and asbestos abatement requires specialized contractors; we don't handle abatement directly but coordinate with abatement specialists when initial inspection identifies these materials. Our pre-demo inspection includes flagging properties likely to contain regulated materials based on construction year and visible indicators.
+
+### Bathroom Demolition Scope Options
+
+We offer three standard scopes for bathroom demolition projects:
+
+**Cosmetic demo** ($600-$900) — surface materials only: tile, vanity, fixtures, mirrors. Studs and drywall remain. Suitable for renovations replacing surfaces only.
+
+**Full demo to studs** ($900-$1,500) — everything removed down to wall framing. Drywall, insulation, vapor barriers all stripped. Suitable for renovations including layout changes or full plumbing rework.
+
+**Selective demo with preservation** ($800-$1,400) — specific elements removed while preserving others (e.g., remove tile and vanity but keep tub, or remove fixtures but keep tile). Requires careful coordination with contractor on what stays vs. goes. Photo documentation per area preserved.
+
+For multi-bathroom projects or renovations across multiple property areas, see our <a href="/services/kitchen-demolition" class="text-ocean-600 hover:underline font-medium">kitchen demolition</a> and <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris removal</a> services. Coordinated multi-area projects receive volume pricing.
     `,
     features: [
       'Complete tile removal',
@@ -3190,6 +3262,46 @@ The demolished kitchen is swept clean and ready for your contractor. We walk thr
 ### Working with Contractors
 
 We work seamlessly with renovation contractors across the 30A area. We take direction from your contractor on scope and specifications, communicate directly with their team, and schedule our work to match your project timeline. For contractors who need regular demolition support, we offer priority scheduling and project pricing. We also handle ongoing <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris removal</a> throughout the renovation process. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your kitchen demolition and get your renovation started.
+
+### Kitchen Cabinet Disposition Strategy
+
+Kitchen cabinets are the highest-value disposal category in a kitchen demolition by both volume and potential recovery value. Cabinet disposition strategy varies by cabinet condition and ownership context:
+
+**Solid wood cabinets in good condition** can route to Habitat for Humanity ReStore for donation, generating $400-$1,200 in donation receipt value for a typical kitchen set. ReStore accepts cabinets with their hardware intact and removable in standard sections. Pre-demo coordination with ReStore (typically 1-2 weeks lead time for scheduled pickup) maximizes recovery value.
+
+**Particle-board cabinets, water-damaged cabinets, or builder-grade older cabinets** typically don't qualify for donation acceptance and route to standard C&D disposal at landfill. These are the more common 30A vacation rental and inland residential demo categories.
+
+**Custom cabinetry in excellent condition** (often found in 30A premium properties) sometimes has resale value through specialty consignment or via the kitchen renovation industry — some kitchen-design contractors take custom cabinets for refurbishment and resale. Pre-demo evaluation is worth doing for premium properties.
+
+### Appliance Handling During Kitchen Demolition
+
+Kitchen demolitions typically include 4-6 major appliances requiring specific handling:
+
+**Refrigerators** require EPA Section 608 refrigerant recovery before disposal — see our <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliance removal service</a> for the full workflow.
+
+**Built-in ovens, ranges, cooktops** typically have $30-$80 in scrap metal value. Disconnection coordinated with licensed electrician for gas units; we handle electric disconnection.
+
+**Dishwashers and microwaves** route similarly to other major appliances. Working units under 10 years can donate to Habitat ReStore for ~$50-$150 in donation receipts each.
+
+**Built-in wine coolers and beverage centers** contain refrigerant — same EPA Section 608 requirements as refrigerators.
+
+For replacement-driven demolitions (homeowner is buying new appliances), retailer haul-away when delivering new units is often the cheapest disposal path for appliances. Coordinate with your renovation contractor and appliance retailer to minimize appliance disposal duplication.
+
+### Countertop Material Routing
+
+Kitchen countertops route through different disposal channels by material:
+
+**Granite, marble, quartzite** — heavy material (typical kitchen has 200-400 pounds of stone) requiring careful handling and routing to construction debris facilities. Some stone recycling facilities accept clean stone for repurposing.
+
+**Quartz (engineered stone)** — heavier than granite, similar disposal path. Some manufacturers (Caesarstone, Cambria) operate take-back programs for branded quartz.
+
+**Solid surface (Corian, etc.)** — landfill-only routing.
+
+**Laminate countertops** — landfill-only, particle-board substrate disqualifies recycling.
+
+**Butcher block / wood countertops** — clean wood routes to green-waste facilities at lower cost than mixed C&D.
+
+For full kitchen renovations including the full appliance suite, see our <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliance removal</a> service and <a href="/blog/30a-homeowner-renovation-debris-removal-guide" class="text-ocean-600 hover:underline font-medium">renovation debris removal guide</a>.
     `,
     features: [
       'Cabinet removal and disposal',

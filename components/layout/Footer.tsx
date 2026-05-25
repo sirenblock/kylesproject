@@ -37,6 +37,7 @@ const company = [
   { name: 'Reviews', href: '/reviews' },
   { name: 'FAQ', href: '/faq' },
   { name: 'Blog', href: '/blog' },
+  { name: 'Glossary', href: '/glossary' },
   { name: 'Contact', href: '/contact' },
 ]
 

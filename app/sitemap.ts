@@ -103,12 +103,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  // PRIORITY 0.6: Other pages (about, faq, our-work, reviews)
+  // PRIORITY 0.6: Other pages (about, faq, our-work, reviews, glossary)
   const otherPages: MetadataRoute.Sitemap = [
     '/about',
     '/faq',
     '/our-work',
     '/reviews',
+    '/glossary',
   ].map(route => ({
     url: `${config.siteUrl}${route}`,
     lastModified: SITE_CONTENT_UPDATED,
