@@ -248,6 +248,17 @@ export default function IndustriesPage() {
                       <p className="text-slate-700 leading-relaxed">
                         {industry.description}
                       </p>
+                      {/* Link to dedicated industry page if it exists */}
+                      {['vacation-rental-property-management', 'real-estate', 'hospitality', 'construction'].includes(industry.slug) && (
+                        <Link
+                          href={`/industries/${industry.slug}`}
+                          className="mt-4 inline-flex items-center gap-2 text-ocean-600 hover:text-ocean-700 font-semibold text-sm"
+                          data-cta={`industries-hub-deep-${industry.slug}`}
+                        >
+                          Full {industry.name} details
+                          <ArrowRight className="w-4 h-4" />
+                        </Link>
+                      )}
                     </div>
                   </div>
 

@@ -4,6 +4,7 @@ import { getAllServiceSlugs } from '@/lib/services'
 import { getAllLocationSlugs } from '@/lib/locations'
 import { getAllCountySlugs } from '@/lib/counties'
 import { getAllCategorySlugs } from '@/lib/blog-categories'
+import { getAllIndustrySlugs } from '@/lib/industries'
 import config from '@/lib/config'
 
 // Hardcoded "site content last meaningfully updated" date. Bump when shipping
@@ -105,6 +106,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
+  // PRIORITY 0.7: Industry vertical landing pages (B2B intent)
+  const industrySlugs = getAllIndustrySlugs()
+  const industryPages: MetadataRoute.Sitemap = industrySlugs.map(slug => ({
+    url: `${config.siteUrl}/industries/${slug}`,
+    lastModified: SITE_CONTENT_UPDATED,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
+
   // PRIORITY 0.7: Interactive tools (high conversion intent)
   const toolPages: MetadataRoute.Sitemap = [
     '/tools/hot-tub-cost-calculator',
@@ -151,6 +161,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...categoryPages,
     ...blogPostEntries,
     ...locationPages,
+    ...industryPages,
     ...toolPages,
     ...otherPages,
     ...legalPages,
