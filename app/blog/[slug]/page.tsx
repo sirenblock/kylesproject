@@ -11,6 +11,7 @@ import { marked } from 'marked'
 import { LinksSection } from '@/components/seo/LinksSection'
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo'
 import { TableOfContents } from '@/components/blog/TableOfContents'
+import { AuthorBio } from '@/components/blog/AuthorBio'
 import config from '@/lib/config'
 
 interface Props {
@@ -276,6 +277,13 @@ export default async function BlogPostPage({ params }: Props) {
               </div>
             </div>
 
+            {/* Author Bio -- E-E-A-T signal per senior SEO playbook */}
+            <AuthorBio
+              author={post.author}
+              date={post.date}
+              lastUpdated={post.lastUpdated}
+            />
+
             {/* FAQ Section */}
             {post.faqs && post.faqs.length > 0 && (
               <div className="mt-20 pt-16 border-t-2 border-slate-200">
@@ -485,6 +493,28 @@ renderer.image = ({ href, title, text }: { href: string; title: string | null; t
   }
   const titleAttr = title ? ` title="${title}"` : ''
   return `<img src="${optimizedHref}" alt="${text}" loading="lazy" width="800" height="450" decoding="async"${titleAttr} />`
+}
+
+// External link sanitization -- per senior SEO playbook link-equity skill:
+// All external links get target="_blank" rel="noopener noreferrer" applied
+// automatically at render time. Internal links (matching 30ajunkremoval.com
+// or starting with /, #, mailto:, tel:, or sms:) are excluded.
+renderer.link = (link) => {
+  const { href, title, tokens } = link
+  const parser = renderer.parser as { parseInline: (t: typeof tokens) => string }
+  const text = parser.parseInline(tokens)
+  const isInternal =
+    href.startsWith('/') ||
+    href.startsWith('#') ||
+    href.startsWith('mailto:') ||
+    href.startsWith('tel:') ||
+    href.startsWith('sms:') ||
+    href.includes('30ajunkremoval.com')
+  const titleAttr = title ? ` title="${title}"` : ''
+  if (isInternal) {
+    return `<a href="${href}"${titleAttr}>${text}</a>`
+  }
+  return `<a href="${href}" target="_blank" rel="noopener noreferrer nofollow"${titleAttr}>${text}</a>`
 }
 
 marked.setOptions({

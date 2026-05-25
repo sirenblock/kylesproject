@@ -78,6 +78,7 @@ export function Header() {
                 <a
                   href={`tel:${PHONE_NUMBER}`}
                   aria-label={`Call ${FORMATTED_PHONE}`}
+                  data-cta="header-phone"
                   className="group flex items-center gap-2 px-3 py-2 text-sm font-medium text-slate-700 hover:text-ocean-600 transition-all duration-200 rounded-lg hover:bg-ocean-50/50"
                 >
                   <Phone className="w-4 h-4 group-hover:scale-110 transition-transform" />
@@ -86,13 +87,15 @@ export function Header() {
                 <a
                   href={`sms:${PHONE_NUMBER}`}
                   aria-label="Text us for a quote"
+                  data-cta="header-sms"
                   className="group flex items-center gap-2 px-3 py-2 text-sm font-medium text-slate-700 hover:text-ocean-600 transition-all duration-200 rounded-lg hover:bg-ocean-50/50"
                 >
                   <MessageCircle className="w-4 h-4 group-hover:scale-110 transition-transform" />
                   <span className="hidden xl:inline">Text</span>
                 </a>
                 <Link
-                  href="/#quote"
+                  href="/contact"
+                  data-cta="header-quote"
                   className="group relative inline-flex items-center justify-center gap-2 px-5 py-2.5 text-sm font-semibold text-white rounded-full bg-gradient-to-r from-ocean-500 to-ocean-600 hover:from-ocean-600 hover:to-ocean-700 transition-all duration-300 hover:scale-105 hover:shadow-lg"
                 >
                   <Sparkles className="w-4 h-4 group-hover:rotate-12 transition-transform" />

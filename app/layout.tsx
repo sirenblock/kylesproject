@@ -3,7 +3,6 @@ import { Suspense } from "react"
 import "./globals.css"
 import { Header } from "@/components/layout/Header"
 import { Footer } from "@/components/layout/Footer"
-import { SimpleContactBar } from "@/components/ui/SimpleContactBar"
 import { GlobalLocalBusinessSchema } from "@/components/seo/LocationBusinessSchema"
 import { CorporationSchema } from "@/components/seo/CorporationSchema"
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics"
@@ -11,6 +10,8 @@ import { GoogleAds } from "@/components/analytics/GoogleAds"
 import { PerfectClick } from "@/components/analytics/PerfectClick"
 import { FacebookPixel } from "@/components/analytics/FacebookPixel"
 import { GCLIDCapture } from "@/components/analytics/GCLIDCapture"
+import { PhoneClickTracker } from "@/components/analytics/PhoneClickTracker"
+import { MobileStickyBar } from "@/components/ui/MobileStickyBar"
 import { ClientModals } from "@/components/ui/ClientModals"
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.30ajunkremoval.com'
@@ -99,10 +100,11 @@ export default function RootLayout({
         <Suspense fallback={null}>
           <GCLIDCapture />
         </Suspense>
+        <PhoneClickTracker />
         <Header />
         <main className="min-h-screen pt-24 pb-20 md:pb-0">{children}</main>
         <Footer />
-        <SimpleContactBar />
+        <MobileStickyBar />
         <ClientModals />
       </body>
     </html>
