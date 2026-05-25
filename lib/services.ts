@@ -2150,6 +2150,29 @@ Electronics are transported to certified e-waste recycling facilities. Materials
 ### Vacation Rental Electronics Updates
 
 <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental properties</a> regularly upgrade electronics to stay competitive. When you replace TVs, sound systems, or smart home devices in your <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> or <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> rental, we handle the old equipment removal. We can coordinate with your installer to remove old equipment the same day new equipment is installed. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your electronics recycling pickup.
+
+### Florida E-Waste Law and Why Curbside Refuses Electronics
+
+Florida prohibits electronics with circuit boards from regular landfill disposal under the Florida Electronic Equipment Collection and Recycling Act. The regulation covers televisions (including CRT, LCD, LED, and plasma), computers (desktops, laptops, tablets), monitors, printers, copiers, fax machines, phones, and most other consumer electronics. The reasoning: electronics contain lead, mercury, cadmium, brominated flame retardants, and other materials that leach into groundwater from standard landfills, contaminating Florida's aquifer system.
+
+In practice, this means residential curbside pickup will refuse electronics in trash carts. Bulk pickup categorically excludes electronics from collection. The legal disposal paths:
+
+- **Best Buy and Staples** offer free recycling for most consumer electronics. Limits apply (3 items per household per day at Best Buy; size restrictions on TVs over 50 inches at some locations).
+- **Walton and Bay County HHW collection events** (quarterly in Walton, year-round in Bay) accept electronics including older CRT televisions.
+- **Specialty recyclers** along the Florida Panhandle accept large volumes, particularly for commercial e-waste cleanouts.
+- **Professional removal** (our service) handles routing to R2-certified recyclers with optional data destruction for commercial clients.
+
+### CRT Television Disposal -- The Hidden Cost
+
+CRT televisions (the old tube-style ones) are increasingly hard and expensive to recycle due to leaded glass content. Many recyclers now charge $25-$75 per CRT for accepting them. Best Buy still accepts CRTs free in some markets but with size restrictions. Specialty recyclers along the Florida Panhandle handle CRT volume but at premium rates.
+
+For 30A and PCB residential properties, CRT disposal almost always means professional removal because the size and access challenges (older CRTs weighing 80-150 lbs each) combined with the disposal fee structure make DIY uneconomical compared to bundling with other items.
+
+### Data Destruction for Business and Vacation Rental Properties
+
+Commercial e-waste and vacation rental electronics often require certified data destruction beyond basic recycling. Hard drives, SSDs, smartphone storage, network storage devices, and even some printer memory chips contain recoverable data that creates business risk if disposed without secure wiping.
+
+Our certified data destruction service includes physical drive shredding (NIST 800-88 compliant) with destruction certificates documenting chain-of-custody and method. Standard for commercial cleanouts and recommended for any vacation rental property where personal guest data may have been entered into smart home devices, TVs, or other connected electronics.
     `,
     features: [
       'EPA-compliant e-waste disposal',
@@ -2372,6 +2395,32 @@ Pergolas, gazebos, built-in seating, planters, hot tub platforms, and screen enc
 ### Coastal Deck Challenges
 
 30A deck removal presents unique challenges. Homes in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> and <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> have limited access for equipment. Elevated coastal homes require working at height. Termite-damaged structures can be unstable and unpredictable. Our experienced team handles all these challenges safely and efficiently. We also handle <a href="/services/fence-removal" class="text-ocean-600 hover:underline font-medium">fence removal</a> and other exterior demolition projects. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a free deck demolition estimate.
+
+### Deck Material Routing After Demolition
+
+A typical residential deck demolition generates 1,500-5,000 pounds of mixed material requiring specific disposal routing:
+
+**Pressure-treated lumber** -- the most common deck material -- routes to construction debris facilities. Pressure-treated wood cannot be burned (releases toxic compounds), composted, or used as mulch. Disposal at landfill construction debris rates is the legal path. Volume from a typical 200-300 sq ft deck: 1,000-2,500 pounds of pressure-treated lumber.
+
+**Composite decking** (Trex, TimberTech, AZEK, Fiberon) -- routes to landfill only. Most composite materials don't recycle at residential scale due to mixed-material composition (wood fibers + plastic + binders). Some manufacturers operate take-back programs for branded composite recycling but these are typically warehouse-scale, not residential.
+
+**Cedar, redwood, ipe (hardwood)** -- clean cedar and redwood routes to green-waste facilities at lower-cost recycling rates. Ipe (Brazilian ironwood) and other tropical hardwoods occasionally have salvage value for woodworkers; specialty buyers exist in the Florida Panhandle for premium hardwood reclaim.
+
+**Galvanized steel and aluminum railings** route to scrap metal facilities, typically recovering $30-$80 in scrap value for a typical deck's railing system.
+
+**Concrete footings and pier blocks** require separate handling -- typically broken in place during demolition or routed to concrete recycling facilities if intact.
+
+### Permits and HOA Approval for Deck Removal
+
+Most residential deck removal in Walton and Bay counties does not require a permit if the deck is being removed and not replaced. Replacement decks DO require permits. Several scenarios still require pre-approval:
+
+**HOA architectural review** is required in most 30A communities (Alys Beach, Rosemary Beach, Seaside, Sandestin, WaterSound) before any structural removal -- even decks being permanently removed. Approval is typically straightforward but adds 1-2 weeks to the project timeline.
+
+**Coastal Construction Control Line (CCCL) compliance** applies to Gulf-front properties. Decks within the CCCL zone may require Florida DEP coordination depending on size and proximity to dune systems.
+
+**Setback compliance verification** -- some HOAs require post-removal verification that the cleared area complies with current community standards (planting requirements, landscape continuity, etc.).
+
+We coordinate permitting, HOA approval routing, and any required documentation as part of the standard deck removal workflow. For coastal Gulf-front properties, plan 2-3 weeks for full permit-and-approval coordination before demolition can begin.
     `,
     features: [
       'Complete deck demolition and teardown',
@@ -2558,6 +2607,33 @@ Removing old, stained carpet before listing your home can significantly increase
 ### Pricing Information
 
 Carpet removal is priced by square footage and complexity. Basic carpet and padding removal starts at $200. Tack strip removal is included in our standard service. Adhesive removal, subfloor repair, and furniture moving are available as add-on services. For whole-home projects, we provide volume pricing. Text photos and approximate square footage for accurate quotes. For <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris</a> from larger renovation projects, ask about combined pricing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your carpet removal.
+
+### Carpet Disposal Routing in Florida
+
+Removed carpet routes to landfills at construction debris tipping rates. Most carpet does not recycle at residential scale due to mixed-material composition (face fiber + backing + adhesive). Some carpet manufacturers operate take-back programs for branded carpet (Mohawk's "ReCover" program, Shaw's "Re[engineered]" program), but these are designed for installer-scale volumes (full pallets of removed product) and aren't economical for single-home residential removals.
+
+**Padding and underlayment** route similarly to landfill. Most carpet padding is mixed-material foam that doesn't recycle.
+
+**Tack strips and metal trim** route to scrap metal facilities with minimal value recovery (typically $2-$10 per residential removal worth of metal).
+
+### Water-Damaged Carpet and Mold Remediation Coordination
+
+30A and PCB coastal properties periodically have water intrusion issues -- hurricane flooding, plumbing failures, HVAC condensation problems, salt-air condensation behind exterior walls. Water-damaged carpet typically requires removal within 24-48 hours of the water event to prevent mold growth.
+
+For water-damaged carpet removal, we coordinate with mold remediation companies and water mitigation specialists. Our role is the physical removal and disposal; specialized contractors handle subfloor inspection, structural drying, and remediation. Standard pricing applies for the physical removal portion ($200-$600 for a typical home depending on square footage).
+
+For insurance-claim-driven carpet removal, photo documentation of the damaged carpet (before removal) and the cleared subfloor (after removal) is often required for the claim. We provide this documentation as standard practice on water-damaged removal jobs.
+
+### Vacation Rental Carpet Replacement Cycles
+
+Vacation rental properties along 30A and PCB typically replace carpet on a 3-5 year cycle, driven by:
+
+- High guest density (50+ guest weeks/year vs. 5-15 for owner-occupied)
+- Salt-air staining and discoloration
+- Pet damage in pet-friendly rentals
+- Periodic spill and stain events that exceed cleaning recovery
+
+Property managers handling 15+ units typically batch carpet replacement during shoulder seasons (September-October, March pre-spring-break) to coordinate multi-property work efficiently. We offer volume pricing for multi-property carpet removal coordinated with installer schedules.
     `,
     features: [
       'Complete carpet and padding removal',
@@ -3849,6 +3925,40 @@ Equipment in working condition can be <a href="/services/donation-pickup" class=
 ### Pricing
 
 Exercise equipment removal starts at $150 for single items like stationary bikes and standard weight benches. Treadmills and ellipticals typically run $150-$250 depending on weight and access. Full home gym systems with multiple machines and weight sets range from $300-$600+. Stairs and difficult access add to the price. For <a href="/services/bulk-trash-pickup" class="text-ocean-600 hover:underline font-medium">bulk pickup</a> combined with exercise equipment, ask about package pricing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a fast exercise equipment removal quote.
+
+### Why Exercise Equipment Disposal Is Operationally Complex
+
+Exercise equipment is one of the trickier residential disposal categories due to a combination of factors:
+
+**Weight and structural integrity.** A standard residential treadmill weighs 200-300 pounds; commercial-grade home gym systems can exceed 800 pounds. Most equipment doesn't disassemble cleanly without specialized tools and product-specific knowledge. Single-person lifting is dangerous; two-person professional handling is the standard.
+
+**Disassembly requirements.** Most exercise equipment doesn't fit through standard interior doors when fully assembled. Treadmill removal often requires folding (which not all models support), partial disassembly (removing the console, motor shroud, side rails), or full disassembly to make it through the property. Disassembly typically requires the original assembly instructions or product-specific knowledge.
+
+**Electronic components and batteries.** Modern equipment includes consoles with circuit boards (e-waste regulated under Florida law), lithium-ion batteries (Peloton, NordicTrack), motor controllers, and other components requiring specialized disposal routing rather than standard landfill.
+
+### Donation Routing for Working Equipment
+
+Equipment in working condition often has donation value that exceeds disposal cost. The major donation paths:
+
+**Habitat for Humanity ReStore** accepts working exercise equipment in good condition. Donation value typically runs $50-$300 per piece depending on age and condition. Pickup available for larger equipment with 1-2 weeks lead time.
+
+**Local YMCA and community fitness centers** occasionally accept donations of commercial-quality equipment in working condition. Best fit: older commercial-grade equipment from estate sales or property cleanouts.
+
+**Schools and youth programs** sometimes accept basic equipment (treadmills, ellipticals, weight benches) for student wellness programs. Coordination through local school PTAs.
+
+For typical residential exercise equipment cleanouts (single-family-home gyms being cleared), donation routing recovers $100-$500 in tax-deduction value vs. dump-only disposal. Our standard workflow includes donation evaluation for working equipment.
+
+### Vacation Rental Gym Updates
+
+Vacation rental properties at premium 30A communities (Sandestin, WaterColor, WaterSound, Alys Beach) often include in-property gym amenities that turn over on a 3-5 year cycle as guest expectations evolve. Common patterns:
+
+**Equipment upgrade cycles** -- replacing older treadmills/ellipticals with current models with smart features (touchscreen consoles, app integration, virtual training subscriptions).
+
+**Add/remove cycles** -- expanding or contracting the gym footprint based on guest feedback and competitive positioning of the property.
+
+**Brand consistency cycles** -- some property management companies standardize equipment brands across their portfolio for maintenance consistency, triggering coordinated multi-property replacements.
+
+For property managers handling multi-unit gym updates, we coordinate with installer schedules to minimize property downtime -- old equipment removed the same day new equipment is delivered.
     `,
     features: [
       'Treadmill and elliptical removal',
