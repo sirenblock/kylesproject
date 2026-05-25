@@ -136,6 +136,8 @@ export function getContextualLinks(pageType: 'service' | 'location' | 'blog' | '
         ...locationLinks.slice(0, 4),
         ...serviceLinks.filter(s => s.href !== currentPath).slice(0, 3),
         { href: '/pricing', text: 'pricing' },
+        { href: '/how-it-works', text: 'how it works' },
+        { href: '/compare', text: 'compare options' },
         { href: '/contact', text: 'contact us' },
         { href: '/faq', text: 'FAQ' }]
     case 'location':
@@ -143,16 +145,23 @@ export function getContextualLinks(pageType: 'service' | 'location' | 'blog' | '
       return [
         ...serviceLinks.slice(0, 5),
         ...locationLinks.filter(l => l.href !== currentPath).slice(0, 3),
-        ...blogLinks.slice(0, 2)]
+        ...blogLinks.slice(0, 2),
+        { href: '/how-it-works', text: 'how it works' },
+        { href: '/compare', text: 'compare options' }]
     case 'blog':
       // For blog pages: link to related services, locations, other blog posts
       return [
         ...serviceLinks.slice(0, 4),
         ...locationLinks.slice(0, 3),
-        ...blogLinks.filter(b => b.href !== currentPath).slice(0, 3)]
+        ...blogLinks.filter(b => b.href !== currentPath).slice(0, 3),
+        { href: '/how-it-works', text: 'how it works' },
+        { href: '/compare', text: 'compare options' }]
     case 'core':
-      // For core pages: diverse mix
-      return getRandomInternalLinks(currentPath, 10)
+      // For core pages: diverse mix + always include the high-value hub pages
+      return [
+        ...getRandomInternalLinks(currentPath, 8),
+        { href: '/how-it-works', text: 'how it works' },
+        { href: '/compare', text: 'compare options' }]
     default:
       return getRandomInternalLinks(currentPath, 10)
   }

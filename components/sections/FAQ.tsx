@@ -385,7 +385,8 @@ export function FAQ() {
                             <div
                               className="overflow-hidden"
                             >
-                              <div className="px-6 pb-4 text-slate-600">
+                              {/* data-speakable + faq-answer class -- voice assistant signal per Speakable schema */}
+                              <div className="faq-answer px-6 pb-4 text-slate-600" data-speakable>
                                 {item.a}
                               </div>
                             </div>

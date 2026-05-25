@@ -63,7 +63,7 @@ export function FAQAccordion({ faqs, title = 'Frequently Asked Questions', class
               )}
             >
               <div className="border-t-2 border-slate-100 px-4 md:px-5 py-4 md:py-5 bg-slate-50">
-                <p className="text-sm md:text-base text-slate-700 leading-relaxed">
+                <p className="faq-answer text-sm md:text-base text-slate-700 leading-relaxed" data-speakable>
                   {faq.answer}
                 </p>
               </div>

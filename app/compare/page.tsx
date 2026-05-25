@@ -521,7 +521,7 @@ export default function ComparePage() {
                     +
                   </span>
                 </summary>
-                <div className="px-6 pb-5 text-slate-700 leading-relaxed">
+                <div className="faq-answer px-6 pb-5 text-slate-700 leading-relaxed" data-speakable>
                   {faq.answer}
                 </div>
               </details>

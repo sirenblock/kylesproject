@@ -321,7 +321,7 @@ export default async function BlogPostPage({ params }: Props) {
                         </span>
                         <span className="flex-1">{faq.question}</span>
                       </h3>
-                      <p className="text-lg text-slate-700 leading-relaxed ml-11">
+                      <p className="faq-answer text-lg text-slate-700 leading-relaxed ml-11" data-speakable>
                         {faq.answer}
                       </p>
                     </div>

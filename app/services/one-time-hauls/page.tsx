@@ -234,7 +234,7 @@ export default function ServicePage() {
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">
                   {faq.question}
                 </h3>
-                <p className="text-slate-700 leading-relaxed">
+                <p className="faq-answer text-slate-700 leading-relaxed" data-speakable>
                   {faq.answer}
                 </p>
               </div>

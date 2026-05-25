@@ -305,7 +305,7 @@ export default function PricingPage() {
                     +
                   </span>
                 </summary>
-                <p className="mt-4 text-slate-700 leading-relaxed">{faq.answer}</p>
+                <p className="faq-answer mt-4 text-slate-700 leading-relaxed" data-speakable>{faq.answer}</p>
               </details>
             ))}
           </div>

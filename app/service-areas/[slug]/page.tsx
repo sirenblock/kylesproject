@@ -440,7 +440,7 @@ export default async function LocationPage({ params }: Props) {
                   <h3 className="text-lg font-semibold text-slate-800 mb-3">
                     {faq.question}
                   </h3>
-                  <p className="text-slate-600 leading-relaxed">
+                  <p className="faq-answer text-slate-600 leading-relaxed" data-speakable>
                     {faq.answer}
                   </p>
                 </div>
