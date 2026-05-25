@@ -70,6 +70,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   // PRIORITY 0.6: Blog posts -- use the post's actual lastUpdated/date
+  // and include the featured image so Google Images can index it.
+  // Image inclusion in the sitemap is a Google Images discovery signal
+  // and can drive 5-15% incremental traffic via image search.
   const blogSlugs = getAllBlogSlugs()
   const blogPostEntries: MetadataRoute.Sitemap = blogSlugs.map(slug => {
     const post = getBlogPost(slug)
@@ -80,6 +83,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: 'monthly' as const,
       priority: 0.6,
+      ...(post?.image ? { images: [post.image] } : {}),
     }
   })
 
