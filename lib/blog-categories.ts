@@ -67,6 +67,8 @@ export const blogCategories: BlogCategory[] = [
       'how-much-does-a-couch-weigh',
       'can-you-throw-away-a-mattress-in-florida',
       'do-you-need-permit-shed-demolition-florida',
+      'how-much-does-a-hot-tub-weigh',
+      'bagster-vs-dumpster-vs-junk-removal-30a',
     ],
   },
   {

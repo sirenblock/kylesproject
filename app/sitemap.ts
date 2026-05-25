@@ -52,6 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/how-it-works',
     '/compare',
     '/seasonal/hurricane-prep',
+    '/seasonal/snowbird-season',
   ].map(route => ({
     url: `${config.siteUrl}${route}`,
     lastModified: SITE_CONTENT_UPDATED,
