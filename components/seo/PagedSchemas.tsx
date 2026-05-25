@@ -19,7 +19,7 @@ export function AboutPageSchema() {
       '@id': `${siteUrl}#localbusiness`,
       name: '30A Junk Removal',
       url: siteUrl,
-      telephone: '(850) 368-3495',
+      telephone: '+1 (850) 368-3495',
       email: 'contact@30ajunkremoval.com',
       address: {
         '@type': 'PostalAddress',

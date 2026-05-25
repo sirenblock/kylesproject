@@ -11,7 +11,7 @@ const config = {
   revalidate: 60, // Revalidate ISR cache every 60 seconds
 
   // Contact Information
-  phone: '(850) 368-3495',
+  phone: '+1 (850) 368-3495',
   phoneLink: 'tel:+18503683495',
   email: 'contact@30ajunkremoval.com',
 

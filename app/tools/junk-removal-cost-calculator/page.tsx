@@ -229,7 +229,7 @@ export default function JunkRemovalCostCalculatorPage() {
               <div>
                 This is an estimate based on typical jobs. For precise pricing, text photos to{' '}
                 <a href="tel:+18503683495" className="text-ocean-600 underline font-medium">
-                  (850) 368-3495
+                  +1 (850) 368-3495
                 </a>
                 . Photo-quoted prices are confirmed and locked before service begins.
               </div>
@@ -241,7 +241,7 @@ export default function JunkRemovalCostCalculatorPage() {
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-gold-500 text-slate-900 rounded-xl font-bold hover:bg-gold-400 transition-colors shadow-md"
               >
                 <Phone className="w-5 h-5" />
-                Call (850) 368-3495
+                Call +1 (850) 368-3495
               </a>
               <a
                 href="sms:+18503683495"

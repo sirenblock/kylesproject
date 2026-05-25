@@ -107,7 +107,7 @@ export function injectInlineCTA(
       <p class="text-sm text-slate-600">${escapeHtml(c.inlineDescription)}</p>
     </div>
     <div class="flex flex-row gap-2 shrink-0">
-      <a href="tel:+18503683495" data-cta="inline-cta-phone" class="inline-flex items-center justify-center gap-2 px-4 py-3 bg-ocean-600 text-white rounded-lg font-semibold hover:bg-ocean-700 transition-colors text-sm whitespace-nowrap">Call (850) 368-3495</a>
+      <a href="tel:+18503683495" data-cta="inline-cta-phone" class="inline-flex items-center justify-center gap-2 px-4 py-3 bg-ocean-600 text-white rounded-lg font-semibold hover:bg-ocean-700 transition-colors text-sm whitespace-nowrap">Call +1 (850) 368-3495</a>
       <a href="/contact" data-cta="inline-cta-quote" class="inline-flex items-center justify-center gap-2 px-4 py-3 bg-gold-500 text-slate-900 rounded-lg font-bold hover:bg-gold-400 transition-colors text-sm whitespace-nowrap">${escapeHtml(c.inlineButton)} &rarr;</a>
     </div>
   </div>

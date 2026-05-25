@@ -15,7 +15,7 @@ import { Phone, ArrowRight } from 'lucide-react'
 // passive scroll listener to avoid blocking main-thread scrolling.
 
 const PHONE_NUMBER = '8503683495'
-const FORMATTED_PHONE = '(850) 368-3495'
+const FORMATTED_PHONE = '+1 (850) 368-3495'
 
 export function MobileStickyBar() {
   const pathname = usePathname()

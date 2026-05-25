@@ -95,7 +95,7 @@ export default function GlobalError({
                 padding: '0.5rem',
               }}
             >
-              Call (850) 368-3495
+              Call +1 (850) 368-3495
             </a>
           </div>
           {error.digest && (

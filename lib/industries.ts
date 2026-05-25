@@ -91,7 +91,7 @@ See our [Saturday turnover cost math article](/blog/saturday-turnover-cost-math-
 
 ## How to set up a preferred-vendor agreement
 
-Call **(850) 368-3495** or [contact us](/contact). Standard onboarding:
+Call **+1 (850) 368-3495** or [contact us](/contact). Standard onboarding:
 
 1. **Portfolio walk** — we visit your property list, understand unit mix, identify the typical Saturday turnover profile
 2. **Volume estimation** — based on portfolio size and historical turnover patterns
@@ -212,7 +212,7 @@ We have been the preferred junk removal vendor for multiple 30A real estate offi
 
 ## How to set up an agent vendor relationship
 
-Call **(850) 368-3495** or [contact us](/contact). Most agents request:
+Call **+1 (850) 368-3495** or [contact us](/contact). Most agents request:
 
 - Phone number on speed dial for closing-day calls
 - Our typical pricing range memorized
@@ -336,7 +336,7 @@ We have served [Panama City Beach](/service-areas/panama-city-beach) and 30A res
 
 ## How to set up a hospitality vendor relationship
 
-Call **(850) 368-3495** or [contact us](/contact). For ongoing relationships, we recommend:
+Call **+1 (850) 368-3495** or [contact us](/contact). For ongoing relationships, we recommend:
 
 - Identifying your typical service windows (when removals can happen without disrupting operations)
 - Establishing approved contractor list for coordinated work (if you have a preferred GC, we coordinate with them)
@@ -484,7 +484,7 @@ A typical 30A whole-house renovation uses dumpster rental for the active demo ph
 
 ## How to set up a contractor account
 
-Call **(850) 368-3495** or [contact us](/contact). Standard onboarding:
+Call **+1 (850) 368-3495** or [contact us](/contact). Standard onboarding:
 
 1. Confirm your typical project types (kitchen/bath/whole-house/exterior)
 2. Pricing terms (per-load standard, volume discount available)

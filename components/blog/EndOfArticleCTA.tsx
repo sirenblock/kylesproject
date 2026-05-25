@@ -55,7 +55,7 @@ export function EndOfArticleCTA({ post }: Props = {}) {
               data-cta="end-of-article-phone"
             >
               <Phone className="w-5 h-5" />
-              Call (850) 368-3495
+              Call +1 (850) 368-3495
             </a>
             <Link
               href="/contact"

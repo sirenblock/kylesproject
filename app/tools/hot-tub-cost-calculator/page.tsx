@@ -236,7 +236,7 @@ export default function HotTubCostCalculatorPage() {
             <div className="mt-6 p-4 bg-sand-100 rounded-lg flex gap-3 items-start text-sm text-slate-700">
               <Info className="w-5 h-5 text-ocean-600 shrink-0 mt-0.5" />
               <div>
-                This is an estimate based on typical jobs in 30A and PCB. Final pricing is confirmed via photo quote before the crew arrives. Text photos to <a href="tel:+18503683495" className="text-ocean-600 underline font-medium">(850) 368-3495</a> for a 30-minute confirmed quote.
+                This is an estimate based on typical jobs in 30A and PCB. Final pricing is confirmed via photo quote before the crew arrives. Text photos to <a href="tel:+18503683495" className="text-ocean-600 underline font-medium">+1 (850) 368-3495</a> for a 30-minute confirmed quote.
               </div>
             </div>
 
@@ -247,7 +247,7 @@ export default function HotTubCostCalculatorPage() {
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-gold-500 text-slate-900 rounded-xl font-bold hover:bg-gold-400 transition-colors shadow-md"
               >
                 <Phone className="w-5 h-5" />
-                Call (850) 368-3495
+                Call +1 (850) 368-3495
               </a>
               <a
                 href="sms:+18503683495"

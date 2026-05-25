@@ -145,7 +145,7 @@
 ### NAP Consistency
 - [✅] Name: "30A Junk Removal"
 - [✅] Address: Service area (30A corridor)
-- [✅] Phone: (850) 368-3495
+- [✅] Phone: +1 (850) 368-3495
 - [✅] Consistent across site
 - [⚠️] Needs verification across web
 

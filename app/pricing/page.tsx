@@ -33,7 +33,7 @@ const pricingFaqs = [
   {
     question: 'Can I get a price quote without an in-person visit?',
     answer:
-      'Yes. Text photos of your items to (850) 368-3495 along with the property address and we will respond with a quote within 30 minutes during business hours (7 days a week, 7am-6pm). For non-routine items (hot tubs, swim spas, construction debris, hurricane debris), photo-quoted pricing is the standard — and the quote we provide is the price you pay on service day.',
+      'Yes. Text photos of your items to +1 (850) 368-3495 along with the property address and we will respond with a quote within 30 minutes during business hours (7 days a week, 7am-6pm). For non-routine items (hot tubs, swim spas, construction debris, hurricane debris), photo-quoted pricing is the standard — and the quote we provide is the price you pay on service day.',
   },
   {
     question: 'Do you accept credit cards or other payment methods?',

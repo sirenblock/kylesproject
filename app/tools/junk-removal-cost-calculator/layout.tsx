@@ -41,7 +41,7 @@ const calculatorFAQs = [
   {
     question: 'How does the calculator estimate match the final quote?',
     answer:
-      'The calculator estimates are typically accurate within 10-15% of the final quote. For pinpoint accuracy, text photos to (850) 368-3495 — photo quotes are accurate 95%+ of the time. The calculator is great for budget planning; photos give you the confirmed price.',
+      'The calculator estimates are typically accurate within 10-15% of the final quote. For pinpoint accuracy, text photos to +1 (850) 368-3495 — photo quotes are accurate 95%+ of the time. The calculator is great for budget planning; photos give you the confirmed price.',
   },
 ]
 

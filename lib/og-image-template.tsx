@@ -192,7 +192,7 @@ export function ogTemplate({
             color: '#fbbf24',
           }}
         >
-          (850) 368-3495
+          +1 (850) 368-3495
         </div>
       </div>
     </div>

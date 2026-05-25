@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation'
 // Keep it simple: One action, always visible, no clutter
 
 const PHONE_NUMBER = '8503683495'
-const FORMATTED_PHONE = '(850) 368-3495'
+const FORMATTED_PHONE = '+1 (850) 368-3495'
 
 export function SimpleContactBar() {
   const pathname = usePathname()

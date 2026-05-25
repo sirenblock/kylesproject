@@ -67,7 +67,7 @@ export function AuthorBio({ author = '30A Junk Removal LLC', date, lastUpdated }
               data-cta="author-bio-phone"
             >
               <Phone className="w-4 h-4" />
-              (850) 368-3495
+              +1 (850) 368-3495
             </a>
             <Link
               href="/contact"

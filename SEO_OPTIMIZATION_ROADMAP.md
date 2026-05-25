@@ -131,7 +131,7 @@ Your review helps other 30A residents find reliable junk removal service.
 **NAP Format (Keep Consistent Everywhere):**
 ```
 Name: 30A Junk Removal
-Phone: (850) 368-3495
+Phone: +1 (850) 368-3495
 Address: Serving Santa Rosa Beach, FL and 30A corridor
 Website: https://www.30ajunkremoval.com
 ```

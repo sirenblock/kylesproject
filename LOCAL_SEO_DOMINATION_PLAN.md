@@ -54,14 +54,14 @@
   - Destin, FL 32541
   - Panama City Beach, FL 32413
 - [ ] Business hours: Mon-Sun 7:00 AM - 6:00 PM
-- [ ] Phone: (850) 368-3495
+- [ ] Phone: +1 (850) 368-3495
 - [ ] Website: https://www.30ajunkremoval.com
 - [ ] Verify via phone or postcard
 
 ### Day 3-4: GBP Content Optimization
 - [ ] **Business Description (750 characters max):**
   ```
-  30A Junk Removal provides premium junk removal services for luxury beach homes, vacation rentals, and property managers along Florida's scenic 30A corridor. From quick single-item hauls to full estate cleanouts, we handle furniture removal, construction debris, appliance disposal, hot tub removal, and vacation rental turnovers. Serving Seaside, Rosemary Beach, Alys Beach, WaterColor, and all 30A communities. Same-day service available. Fully insured and locally operated. Call (850) 368-3495 for a free quote.
+  30A Junk Removal provides premium junk removal services for luxury beach homes, vacation rentals, and property managers along Florida's scenic 30A corridor. From quick single-item hauls to full estate cleanouts, we handle furniture removal, construction debris, appliance disposal, hot tub removal, and vacation rental turnovers. Serving Seaside, Rosemary Beach, Alys Beach, WaterColor, and all 30A communities. Same-day service available. Fully insured and locally operated. Call +1 (850) 368-3495 for a free quote.
   ```
 
 - [ ] **Services Section (Add all 12):**
@@ -129,7 +129,7 @@
 ### Week 2: GBP Activation & Posts
 - [ ] **First Post (Welcome):**
   ```
-  🎉 We're now on Google! 30A Junk Removal is here to serve Seaside, Rosemary Beach, Alys Beach, and all 30A communities. Same-day service available for furniture removal, estate cleanouts, construction debris, and vacation rental turnovers. Call (850) 368-3495 or visit 30ajunkremoval.com for a free quote.
+  🎉 We're now on Google! 30A Junk Removal is here to serve Seaside, Rosemary Beach, Alys Beach, and all 30A communities. Same-day service available for furniture removal, estate cleanouts, construction debris, and vacation rental turnovers. Call +1 (850) 368-3495 or visit 30ajunkremoval.com for a free quote.
   ```
 
 - [ ] **Enable Messaging:** Respond within 15 minutes during business hours
@@ -177,7 +177,7 @@ It takes just 60 seconds and means the world to our small local business.
 Thank you,
 [Your Name]
 30A Junk Removal
-(850) 368-3495
++1 (850) 368-3495
 ```
 
 **SMS Template:**
@@ -206,7 +206,7 @@ Thank you so much, [Name]! We're thrilled we could help with your [service] in [
 
 *Negative Review Response:*
 ```
-Thank you for your feedback, [Name]. We sincerely apologize that we didn't meet your expectations with [specific issue]. This isn't the level of service we strive for. I'd like to make this right - please call me directly at (850) 368-3495 so we can resolve this. - [Your Name], Owner, 30A Junk Removal
+Thank you for your feedback, [Name]. We sincerely apologize that we didn't meet your expectations with [specific issue]. This isn't the level of service we strive for. I'd like to make this right - please call me directly at +1 (850) 368-3495 so we can resolve this. - [Your Name], Owner, 30A Junk Removal
 ```
 
 **Expected Impact:**
@@ -223,7 +223,7 @@ Thank you for your feedback, [Name]. We sincerely apologize that we didn't meet 
 ### NAP Format (Use EXACTLY This Everywhere):
 ```
 Name: 30A Junk Removal
-Phone: (850) 368-3495
+Phone: +1 (850) 368-3495
 Address: Serving Santa Rosa Beach, FL and the 30A corridor
 Website: https://www.30ajunkremoval.com
 ```
@@ -610,7 +610,7 @@ Let me know if this sounds interesting!
 
 Best,
 [Your Name]
-(850) 368-3495
++1 (850) 368-3495
 ```
 
 **Link Tracking Spreadsheet:**

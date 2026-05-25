@@ -81,7 +81,7 @@ export function FAQAccordion({ faqs, title = 'Frequently Asked Questions', class
           href="tel:8503683495"
           className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white rounded-lg font-semibold hover:shadow-lg transition-all hover:scale-105"
         >
-          Call Now: (850) 368-3495
+          Call Now: +1 (850) 368-3495
         </a>
       </div>
     </div>

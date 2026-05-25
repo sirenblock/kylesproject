@@ -36,10 +36,10 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.30ajunkremoval.
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "30A Junk Removal — Same-Day Service | 4.9★ (127 Reviews) | (850) 368-3495",
+    default: "30A Junk Removal — Same-Day Service | 4.9★ (127 Reviews) | +1 (850) 368-3495",
     template: "%s | 30A Junk Removal",
   },
-  description: "Same-day junk removal on 30A, Panama City Beach, and Walton & Bay County. Furniture, appliances, hot tubs, estate cleanouts, construction debris. Transparent pricing from $150. Call (850) 368-3495 or text photos for an instant quote.",
+  description: "Same-day junk removal on 30A, Panama City Beach, and Walton & Bay County. Furniture, appliances, hot tubs, estate cleanouts, construction debris. Transparent pricing from $150. Call +1 (850) 368-3495 or text photos for an instant quote.",
   keywords: [
     "30A junk removal",
     "junk removal 30A",
@@ -96,7 +96,7 @@ export const metadata: Metadata = {
     site: "@30ajunkremoval",
     creator: "@30ajunkremoval",
     title: "30A Junk Removal — Same-Day Service Across 30A & PCB",
-    description: "Same-day junk removal on 30A and Panama City Beach. Transparent pricing from $150. Call (850) 368-3495.",
+    description: "Same-day junk removal on 30A and Panama City Beach. Transparent pricing from $150. Call +1 (850) 368-3495.",
   },
 }
 

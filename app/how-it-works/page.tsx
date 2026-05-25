@@ -57,7 +57,7 @@ const steps = [
     title: 'Text Us Photos',
     icon: Camera,
     description:
-      'Snap photos of what needs to go and text them to (850) 368-3495. Capture pile size, item types, and any access notes (gate codes, parking, stairs). The more we see, the more accurate the quote.',
+      'Snap photos of what needs to go and text them to +1 (850) 368-3495. Capture pile size, item types, and any access notes (gate codes, parking, stairs). The more we see, the more accurate the quote.',
     detail: 'Most quotes happen within 10 minutes during business hours.',
     color: 'from-ocean-500 to-ocean-600',
   },

@@ -24,7 +24,7 @@ const calculatorFAQs = [
   {
     question: 'How much does hot tub removal cost in 30A?',
     answer:
-      'Hot tub removal in 30A and PCB typically costs $300-$850 depending on size, access, and community type. Standard 6-person hot tubs on accessible patios run $300-$450; deck-mounted or sunken in-ground tubs run $550-$850 due to additional cut and disconnect work. The calculator above provides an instant estimate; text photos to (850) 368-3495 for a confirmed quote.',
+      'Hot tub removal in 30A and PCB typically costs $300-$850 depending on size, access, and community type. Standard 6-person hot tubs on accessible patios run $300-$450; deck-mounted or sunken in-ground tubs run $550-$850 due to additional cut and disconnect work. The calculator above provides an instant estimate; text photos to +1 (850) 368-3495 for a confirmed quote.',
   },
   {
     question: 'Do I need to drain my hot tub before removal?',

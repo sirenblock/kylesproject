@@ -107,7 +107,7 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json(
       {
-        error: 'There was an issue sending your message. Please try again or call us directly at (850) 368-3495.',
+        error: 'There was an issue sending your message. Please try again or call us directly at +1 (850) 368-3495.',
         fallback: true,
       },
       { status: 500 }
