@@ -16779,6 +16779,237 @@ A: No — code enforcement classifies derelict structures as nuisances. You will
         answer: 'Code enforcement can issue stop-work orders, fines ranging from $250-$1,000, and require you to bring the permit current after the fact. Unpermitted work can complicate property sales when discovered during inspection. For any shed over the permit threshold, getting the permit is significantly cheaper than the potential fines.',
       },
     ],
+  },
+  {
+    slug: 'how-much-does-a-hot-tub-weigh',
+    title: 'How Much Does a Hot Tub Weigh? (30A Removal Logistics Guide)',
+    excerpt: 'A standard hot tub weighs 500-900 lbs dry and 3,000-6,000 lbs full of water. Weight breakdown by tub type plus 30A removal logistics.',
+    content: `
+# How Much Does a Hot Tub Weigh?
+
+**A standard 4-6 person hot tub weighs 500-900 lbs empty (dry) and 3,000-6,000 lbs full of water.** Larger 7-9 person tubs reach 1,000-1,500 lbs dry and 8,000+ lbs full. Swim spas weigh 1,500-3,500 lbs dry and 12,000+ lbs full. The dramatic dry-vs-wet difference is why hot tubs must always be drained before removal.
+
+## Hot tub weight by type
+
+| Hot Tub Type | Dry Weight | Full Weight |
+|--------------|------------|-------------|
+| Inflatable spa | 90-130 lbs | 1,800-2,500 lbs |
+| Plug-and-play 2-person | 350-500 lbs | 2,500-3,500 lbs |
+| Standard 4-person | 500-700 lbs | 3,000-4,500 lbs |
+| Standard 5-6 person | 600-900 lbs | 4,000-6,000 lbs |
+| Premium 6-7 person | 800-1,200 lbs | 5,500-7,500 lbs |
+| Large 7-9 person | 1,000-1,500 lbs | 7,000-9,000 lbs |
+| Swim spa (12-19 ft) | 1,500-3,500 lbs | 12,000-20,000 lbs |
+
+**Water weight math:** Water weighs 8.34 lbs per gallon. A 5-person hot tub holds ~400 gallons = ~3,340 lbs of water alone.
+
+## What drives hot tub weight
+
+Four factors: shell material (acrylic lighter than rotomolded plastic, fiberglass heaviest); frame structure (galvanized steel adds 100 lbs over basic wood); equipment compartment (4+ pumps + 5kW heater adds significant weight); cabinet material (synthetic resin lighter than real wood).
+
+## Why weight matters for removal
+
+### Lifting and transport
+A 700-lb dry hot tub requires **4-person handling** at minimum. Most professional [hot tub removal services](/services/hot-tub-removal) bring 4-6 person crews + lift equipment for tubs over 500 lbs.
+
+### Floor + deck load limits
+A 5-person hot tub with water + occupants approaches 6,000 lbs in a 7x7 ft footprint. Standard residential decks (40 lbs per sq ft) handle 1,960 lbs over that area — about 1/3 of full hot tub load. Reinforced framing required.
+
+### Stairs and access
+A 700-lb hot tub on 12+ stairs requires stair-rated dollies, a crew of 4-6 with rope assistance, and 15-25 minutes per flight. Some tubs must be cut into sections.
+
+### Trailer and truck capacity
+Standard pickup payload is ~1,500 lbs (half-ton) to 3,000 lbs (three-quarter or one-ton). Swim spas require heavy-duty truck + trailer.
+
+## DIY vs hiring
+
+For any tub over 500 lbs dry, professional [hot tub removal](/services/hot-tub-removal) is the only realistic option. See our [hot tub removal cost guide](/blog/hot-tub-removal-cost-30a-pricing-breakdown).
+
+| Removal Type | Cost | Time |
+|--------------|------|------|
+| DIY (with friends, you handle disposal) | $200-$500 + 8-12 hours | 1-2 days |
+| Professional removal | $300-$850 | 2-5 hours |
+
+## Common questions
+
+**Q: Can I move a hot tub by myself?** No — even a small spa weighs 350+ lbs dry. Solo moves are unsafe.
+
+**Q: How long does it take to drain a hot tub?** 1-3 hours typically. For 30A coastal properties, do NOT drain to a storm drain — chlorinated water cannot legally enter Gulf-bound storm drains. Drain to a soaker hose on grass.
+
+**Q: How do you remove a hot tub from a deck?** Hand-roll on dollies if access permits. Otherwise cut into 4-6 sections with a reciprocating saw. See our [hot tub removal complete guide](/blog/hot-tub-removal-30a-complete-guide).
+`,
+    author: '30A Junk Removal Team',
+    date: '2026-05-25',
+    lastUpdated: '2026-05-25',
+    readTime: '6 min read',
+    image: 'https://images.unsplash.com/photo-1554290712-e640351074bd?w=800&h=400&fit=crop',
+    imageAlt: 'Standard residential hot tub on a 30A deck',
+    tags: ['Hot Tub', 'Weight', 'Removal', '30A', 'Guide'],
+    metaDescription: 'A standard hot tub weighs 500-900 lbs dry and 3,000-6,000 lbs full. Weight breakdown by tub type plus 30A removal logistics.',
+    keywords: [
+      'how much does a hot tub weigh',
+      'hot tub weight lbs',
+      'hot tub weight full of water',
+      'can you move a hot tub yourself',
+      'hot tub removal weight',
+    ],
+    faqs: [
+      {
+        question: 'How much does a standard hot tub weigh?',
+        answer: 'A standard 4-6 person hot tub weighs 500-900 lbs empty and 3,000-6,000 lbs full of water. Water weighs 8.34 lbs per gallon and a typical hot tub holds 300-500 gallons, so the water alone adds 2,500-4,200 lbs to the dry weight.',
+      },
+      {
+        question: 'Can you move a hot tub by yourself?',
+        answer: 'No — even the smallest plug-and-play hot tubs weigh 350+ lbs dry. Solo hot tub moves are unsafe and almost always damage the tub or property. Standard hot tubs require 4-person crews with lift equipment; premium and swim spas require 6-person crews.',
+      },
+      {
+        question: 'How heavy is a swim spa?',
+        answer: 'Swim spas weigh 1,500-3,500 lbs dry and 12,000-20,000 lbs full of water. They are significantly heavier than standard hot tubs due to their longer length (typically 12-19 feet) and larger water capacity (1,500-2,500 gallons). Removal requires a heavy-duty truck + trailer plus a 6-person crew.',
+      },
+      {
+        question: 'How long does it take to drain a hot tub?',
+        answer: 'Most hot tubs drain in 1-3 hours via the built-in spigot to a garden hose. For 30A properties, drain to a soaker hose on grass or to a sanitary sewer cleanout — chlorinated water cannot legally enter Gulf-bound storm drains.',
+      },
+      {
+        question: 'Can a deck support a full hot tub?',
+        answer: 'Standard residential decks (designed for 40 lbs per square foot) cannot support a fully-occupied hot tub. A 5-person hot tub with water + occupants approaches 6,000 lbs concentrated in a 7x7 ft footprint, exceeding standard deck load by 3x. Decks supporting hot tubs require reinforced framing or independent concrete pad foundations.',
+      },
+    ],
+  },
+  {
+    slug: 'bagster-vs-dumpster-vs-junk-removal-30a',
+    title: 'Bagster vs Dumpster Rental vs Junk Removal: 30A Comparison',
+    excerpt: 'A 3-way comparison of disposal options for 30A property owners. Bagster bag, roll-off dumpster, and full-service junk removal — cost, capacity, HOA-compatibility.',
+    content: `
+# Bagster vs Dumpster Rental vs Junk Removal: 30A Decision Guide
+
+If you have stuff to get rid of in 30A or PCB, you have **three real options**: a Bagster bag, a roll-off dumpster rental, or full-service junk removal. Each works best for specific scenarios.
+
+## Quick reference
+
+| Factor | Bagster | Roll-Off Dumpster | Junk Removal |
+|--------|---------|-------------------|--------------|
+| Cost | $175-$240 | $350-$750 | $150-$1,500 |
+| Capacity | 606 gallons (~3 cu yd) | 10-30 cu yd | Truckload (~10-15 cu yd) |
+| Time on property | Up to 6 months | 3-14 days | 1-4 hours |
+| HOA compatibility | Mixed | Often prohibited on 30A | Always allowed |
+| Loading | You load | You load | We load |
+| Items refused | Refrigerants, hazmat, mattresses | Same | Coordinate all routing |
+| Donation routing | None | None | Included |
+
+## What is a Bagster?
+
+A heavy-duty 4x8x2.5 ft bag from Waste Management (~$30 at Home Depot/Lowes/Amazon). After filling, pickup costs $145-$210. **Total: $175-$240.**
+
+**Best for:** single-room cleanouts, slow-pace projects (6 month limit), properties where dumpsters are HOA-prohibited.
+
+**Limits:** 3,300 lb weight cap, no refrigerants, no mattresses (Florida bedbug rule), no hazmat.
+
+## What is a Roll-Off Dumpster?
+
+10-30 cubic yard metal container from Republic Services, Waste Pro, or local 30A providers. **$350-$750 for 7-14 days.**
+
+**Best for:** multi-week renovations, active job sites, properties WITH HOA permission.
+
+**Limits:** Most 30A HOAs prohibit street placement without architectural review approval (7-14 day permit cycles).
+
+## What is Junk Removal?
+
+Full-service crew arrives, loads everything, hauls away. See [full comparison](/compare).
+
+**Best for:** single-day cleanouts, HOA-restricted communities, multi-category disposal, items Bagster + dumpsters refuse.
+
+## Cost math by scenario
+
+### Single mattress
+- Bagster: $175-$240 (mattress must be bagged separately per FL bedbug rule)
+- Dumpster: $350+ (most refuse mattresses)
+- Junk Removal: $150 minimum, mattress bag included
+**Winner: Junk Removal**
+
+### Garage cleanout (10 years accumulated)
+- Bagster: $175-$240 + you handle hazmat separately
+- Dumpster: $450-$575 + you handle hazmat separately
+- Junk Removal: $400-$650 all-in (hazmat routing handled)
+**Winner: Junk Removal**
+
+### Kitchen renovation (2-week project)
+- Bagster: 2-3 bags = $350-$720 + appliance disposal separately
+- Dumpster: $450-$575 + permit fee + appliance disposal separately
+- Junk Removal: $1,000-$1,800 across 2-3 pickups + appliances included
+**Winner: Dumpster + final junk removal pickup hybrid**
+
+### Whole-house renovation (4 weeks)
+- Bagster: Not viable (insufficient capacity)
+- Dumpster: $1,500-$3,500 across rentals
+- Junk Removal: $3,000-$8,000+
+**Winner: Dumpster + post-project junk removal**
+
+### Saturday vacation rental turnover
+- Bagster + Dumpster: Not viable (still on property during next guest)
+- Junk Removal: $200-$450 same-day
+**Winner: Junk Removal (only option)**
+
+## When to choose which
+
+| Scenario | Best Choice |
+|----------|------------|
+| Single mattress / appliance / hot tub | Junk Removal |
+| Vacation rental turnover | Junk Removal |
+| Estate cleanout | Junk Removal |
+| Single-room cleanout, you have time | Bagster |
+| Slow renovation, 4+ week timeline | Bagster |
+| Multi-week construction | Dumpster |
+| Whole-house renovation | Dumpster + final cleanup |
+| Alys/Rosemary/Watersound | Junk Removal (HOA prohibits dumpsters) |
+
+## The 30A-specific consideration
+
+In strict-HOA 30A communities ([Alys Beach](/service-areas/alys-beach), [Rosemary Beach](/service-areas/rosemary-beach), [Watersound](/service-areas/watersound), [Sandestin](/service-areas/sandestin), [Watercolor](/service-areas/watercolor)), dumpsters and even Bagster bags face increasing restrictions. Junk removal sidesteps the entire HOA question because the truck arrives, loads, and departs in 2-4 hours.
+
+## Bottom line
+
+- **Bagster wins for:** slow-pace single-room cleanouts where the bag can sit for weeks.
+- **Dumpster rental wins for:** multi-week renovations on properties without HOA restrictions.
+- **Junk removal wins for:** everything time-pressured, HOA-restricted, or requiring multi-category disposal — which covers 80%+ of 30A residential scenarios.
+`,
+    author: '30A Junk Removal Team',
+    date: '2026-05-25',
+    lastUpdated: '2026-05-25',
+    readTime: '7 min read',
+    image: 'https://images.unsplash.com/photo-1581578017093-cd30fce4eeb7?w=800&h=400&fit=crop',
+    imageAlt: 'Dumpster bag and roll-off dumpster comparison',
+    tags: ['Comparison', 'Bagster', 'Dumpster', '30A', 'Guide'],
+    metaDescription: 'Bagster vs dumpster rental vs junk removal in 30A. 3-way comparison with cost, capacity, and HOA-compatibility for every scenario.',
+    keywords: [
+      'bagster vs dumpster rental',
+      'junk removal vs bagster 30a',
+      'best way to dispose of junk florida',
+      'bagster 30a',
+      'dumpster bag vs dumpster',
+    ],
+    faqs: [
+      {
+        question: 'What is the difference between a Bagster and a dumpster?',
+        answer: 'A Bagster is a heavy-duty polyethylene bag from Waste Management (4x8x2.5 ft, ~3 cubic yards, 3,300 lb limit) that you buy for $30 then schedule pickup for $145-$210. A roll-off dumpster is a 10-30 cubic yard metal container that gets delivered by truck for $350-$750. Bagster is cheaper for small loads; dumpsters have much larger capacity for renovations.',
+      },
+      {
+        question: 'Can I put a Bagster bag in 30A?',
+        answer: 'Bagster bags are more HOA-tolerant than roll-off dumpsters because they are lower-visibility (a 4x8 ft bag vs a 20+ ft metal container). However, some strict 30A HOAs (Alys Beach, Rosemary Beach, Watersound) may still object to anything sitting on the property. Confirm with your HOA architectural review committee before purchasing.',
+      },
+      {
+        question: 'Which is cheaper for a single mattress: Bagster, dumpster, or junk removal?',
+        answer: 'Junk removal wins. A single mattress at the $150 service minimum is cheaper than the $175-$240 Bagster total (and the mattress would need to be Florida-bedbug-bag-wrapped separately). A dumpster at $350+ is significantly more expensive AND most dumpster companies refuse mattresses entirely.',
+      },
+      {
+        question: 'How long can I keep a Bagster on my property?',
+        answer: 'Up to 6 months from purchase to scheduled pickup. Most customers fill and schedule within 2-4 weeks. After scheduling, Waste Management pickup typically happens within 3-7 business days.',
+      },
+      {
+        question: 'Do Bagster bags include refrigerator or mattress disposal?',
+        answer: 'No — Bagster has the same restrictions as standard dumpsters: no refrigerators containing refrigerant (EPA Section 608 violation), no mattresses (Florida bedbug rule requires plastic bagging), no paint or hazmat (HHW routing required), no electronics (e-waste regulations). For these items, full-service junk removal handles all the routing.',
+      },
+    ],
   }
 ]
 
