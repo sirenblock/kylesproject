@@ -1,4 +1,4 @@
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { Suspense } from "react"
 import "./globals.css"
 import { Header } from "@/components/layout/Header"
@@ -71,6 +71,17 @@ export const metadata: Metadata = {
   verification: {
     google: 'nuk8CY9D-ruGLgRIyPGaE9UTXx0Ww7dKbLJb5XuNbfE',
   },
+}
+
+// viewport-fit=cover is required for env(safe-area-inset-*) to work
+// on iPhone X+ (home indicator area). Per blog-post-anatomy skill
+// gotcha #9: without this, the MobileStickyBar's safe-area padding
+// doesn't get applied and the home indicator can overlay buttons.
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
+  themeColor: '#0369a1',
 }
 
 export default function RootLayout({

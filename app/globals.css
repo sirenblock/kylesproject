@@ -309,3 +309,14 @@ img {
     align-items: flex-end;
   }
 }
+
+/* Blog post heading scroll offset for TOC anchors.
+   Per seo-blog-post-anatomy skill step 4: clicking a TOC anchor link
+   would otherwise jump the heading under the sticky header at the top
+   of the viewport. scroll-margin-top creates the offset so headings
+   land below the header on anchor navigation. */
+.prose h2,
+.prose h3,
+.prose h4 {
+  scroll-margin-top: 100px;
+}

@@ -13,6 +13,7 @@ import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo
 import { TableOfContents } from '@/components/blog/TableOfContents'
 import { AuthorBio } from '@/components/blog/AuthorBio'
 import { EndOfArticleCTA } from '@/components/blog/EndOfArticleCTA'
+import { ShareButtons } from '@/components/blog/ShareButtons'
 import { injectInlineCTA } from '@/components/blog/InlineCTA'
 import config from '@/lib/config'
 
@@ -289,6 +290,9 @@ export default async function BlogPostPage({ params }: Props) {
 
             {/* End-of-Article CTA -- conversion surface per link-equity skill */}
             <EndOfArticleCTA />
+
+            {/* Share Buttons -- per blog-post-anatomy skill step 9 */}
+            <ShareButtons url={`/blog/${slug}`} title={post.title} />
 
             {/* Author Bio -- E-E-A-T signal per senior SEO playbook */}
             <AuthorBio
