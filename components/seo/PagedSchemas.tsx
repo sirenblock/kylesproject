@@ -53,9 +53,17 @@ export function AboutPageSchema() {
 }
 
 // Blog/CollectionPage schema for /blog hub -- declares this page as the
-// authoritative blog index per Schema.org Blog type
-export function BlogHubSchema({ postCount }: { postCount: number }) {
-  const schema = {
+// authoritative blog index per Schema.org Blog type. Includes ItemList of
+// posts so Google can enumerate the hub's contents and route equity to
+// individual posts.
+export function BlogHubSchema({
+  postCount,
+  posts,
+}: {
+  postCount: number
+  posts?: Array<{ slug: string; title: string; date: string; image?: string }>
+}) {
+  const blogSchema = {
     '@context': 'https://schema.org',
     '@type': 'Blog',
     '@id': `${siteUrl}/blog#blog`,
@@ -68,13 +76,43 @@ export function BlogHubSchema({ postCount }: { postCount: number }) {
       name: '30A Junk Removal',
     },
     inLanguage: 'en-US',
+    blogPost: posts?.slice(0, 20).map((p) => ({
+      '@type': 'BlogPosting',
+      headline: p.title,
+      url: `${siteUrl}/blog/${p.slug}`,
+      datePublished: p.date,
+      image: p.image,
+    })),
   }
 
+  // ItemList of post URLs -- helps Google understand the hub structure
+  const itemListSchema = posts
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        itemListElement: posts.map((p, idx) => ({
+          '@type': 'ListItem',
+          position: idx + 1,
+          url: `${siteUrl}/blog/${p.slug}`,
+          name: p.title,
+        })),
+        numberOfItems: posts.length,
+      }
+    : null
+
   return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+      />
+      {itemListSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+        />
+      )}
+    </>
   )
 }
 

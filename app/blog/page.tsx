@@ -100,7 +100,10 @@ export default function BlogPage() {
 
   return (
     <main className="min-h-screen">
-      <BlogHubSchema postCount={blogPosts.length} />
+      <BlogHubSchema
+        postCount={blogPosts.length}
+        posts={blogPosts.map(p => ({ slug: p.slug, title: p.title, date: p.date, image: p.image }))}
+      />
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },
