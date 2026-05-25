@@ -49,6 +49,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/service-areas',
     '/how-it-works',
     '/compare',
+    '/seasonal/hurricane-prep',
   ].map(route => ({
     url: `${config.siteUrl}${route}`,
     lastModified: SITE_CONTENT_UPDATED,

@@ -16133,6 +16133,275 @@ The Saturday turnover window does not have margin for vendor unreliability. The 
         answer: 'Generic "Junk Removal Services" invoices create billing friction with owners because they cannot see what was removed or where. Property-level line items like "Mattress removal at Unit 247B Seaside, $185" with photo evidence integrate cleanly into owner statement workflows, reduce friction, and strengthen the PM relationship by demonstrating accountability.',
       },
     ],
+  },
+  {
+    slug: 'bay-county-solid-waste-guide',
+    title: 'Bay County Solid Waste & Transfer Station Guide (2026)',
+    excerpt: 'Complete 2026 guide to Bay County solid waste — Steelfield Road landfill hours, fees, HHW collection events, accepted materials, and PCB-specific disposal rules.',
+    content: `
+# Bay County Solid Waste & Transfer Station Guide (2026)
+
+If you live or own property in [Bay County, Florida](/service-areas/county/bay-county) — including [Panama City Beach](/service-areas/panama-city-beach), [Lynn Haven](/service-areas/lynn-haven), and [Mexico Beach](/service-areas/mexico-beach) — Bay County Solid Waste is your primary disposal route for non-curbside waste. This 2026 guide covers hours, fees, accepted materials, banned items, and the Household Hazardous Waste (HHW) schedule.
+
+## Where Bay County disposal happens
+
+The primary Bay County solid waste facility is the **Steelfield Road Landfill at 7012 Steelfield Road, Panama City, FL 32404**. This is the legal terminal destination for most general waste, construction debris, and yard waste generated in Bay County.
+
+## Hours of operation (2026)
+
+**Steelfield Road Landfill:**
+- Monday–Saturday: 7:00 AM – 5:00 PM
+- Sunday: CLOSED
+- Closed major holidays (New Year's, Memorial Day, July 4th, Labor Day, Thanksgiving, Christmas)
+
+## Tonnage fees (2026)
+
+Bay County charges by weight, with rates that have historically been slightly cheaper than [Walton County](/blog/walton-county-transfer-station-guide) for high-volume construction loads:
+
+| Material | 2026 Rate (per ton) |
+|----------|---------------------|
+| General municipal solid waste | ~$70 |
+| Construction & demolition (C&D) | ~$55 |
+| Yard waste (clean) | ~$35 |
+| Tires (each) | $2-6 per tire |
+| White goods (appliances with 608 cert) | $20 surcharge |
+| Mattresses (must be bagged) | $15-25 per mattress |
+
+**Minimum fee:** $15-20 for any load under a half-ton.
+
+## What Bay County accepts
+
+- General household waste
+- Furniture, mattresses (plastic-bagged), C&D debris, yard waste
+- Tires (up to 4 per residential visit at standard rates)
+- Refrigerators with EPA Section 608 certificate
+- White goods, electronics (routed to e-waste recyclers)
+- Scrap metal (no fee, separate lane)
+
+## What Bay County does NOT accept
+
+The same federal and Florida regulations that apply at [Walton County](/blog/walton-county-transfer-station-guide) apply here. Paint, motor oil, batteries, pesticides, asbestos, and medical waste all require alternative routing. See our [paint and hazmat disposal guide](/blog/paint-hazmat-disposal-30a-pcb-guide) for the complete alternative routing breakdown.
+
+## Bay County HHW collection events (2026)
+
+Bay County Resource Management offers fewer HHW events per year than Walton County — typically **2 per year**:
+
+- **Spring event:** Usually April or May (around Earth Day)
+- **Fall event:** Usually October
+
+**Hours:** Saturday 8 AM – 12 PM typically.
+
+**Contact:** Bay County Resource Management at **850-872-7720**.
+
+**Residency proof required:** Bay County driver's license or property tax bill.
+
+## How Bay County compares to Walton County
+
+For [30A property owners with addresses near the county line](/service-areas), here is the comparison:
+
+| Factor | Walton County | Bay County |
+|--------|---------------|------------|
+| Distance from 30A | 35-50 min inland (DeFuniak Springs) | 25-40 min from PCB |
+| General waste rate | ~$85/ton | ~$70/ton |
+| C&D rate | ~$60/ton | ~$55/ton |
+| Saturday hours | Until 3 PM | Until 5 PM |
+| Sunday | Closed | Closed |
+| HHW events/year | 4 (quarterly) | 2 (spring + fall) |
+
+**Bay County advantage:** Cheaper per-ton rates and longer Saturday hours. Generally the better DIY destination for large construction loads.
+
+**Walton County advantage:** More frequent HHW events. If you have paint or chemicals to dispose of, Walton County wait time is shorter.
+
+## When DIY makes sense vs hiring junk removal
+
+DIY transfer station run in Bay County makes sense if **all** apply:
+
+1. You own a pickup truck
+2. Load is light enough (under 1 ton)
+3. You have help loading
+4. The load is "clean" (no refrigerants, hazmat, mattresses needing bags)
+5. You can reach the facility during operating hours
+
+For most [PCB and 30A scenarios](/blog/junk-removal-cost-30a-2026-pricing-guide) — [refrigerator removal](/blog/refrigerator-appliance-disposal-30a-pcb-complete-guide), [hot tub disposal](/blog/hot-tub-removal-30a-complete-guide), or any project beyond a single truck-load — [professional junk removal](/contact) beats DIY on time + dollars math.
+
+## What we handle (so you do not have to)
+
+For Bay County customers, we handle EPA Section 608 evacuation for refrigerators, plastic-bag wrapping for mattresses, routing hazmat to the appropriate Bay County HHW collection event, sorting mixed loads to claim cheaper C&D rates, and disposal documentation for permitting purposes.
+
+**The bottom line:** Steelfield Road is the right destination for clean general waste loads if you have a truck and time. For everything else — and especially with the limited HHW event schedule — professional pickup avoids the timing constraints and federal compliance work.
+`,
+    author: '30A Junk Removal Team',
+    date: '2026-05-24',
+    lastUpdated: '2026-05-24',
+    readTime: '7 min read',
+    image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=400&fit=crop',
+    imageAlt: 'Bay County Florida waste management facility',
+    tags: ['Bay County', 'Transfer Station', 'Disposal', 'PCB', 'Guide'],
+    metaDescription: 'Bay County solid waste 2026 guide: Steelfield Road landfill hours, fees, HHW collection events. Companion to the Walton County guide.',
+    keywords: [
+      'bay county solid waste',
+      'steelfield road landfill',
+      'bay county transfer station',
+      'PCB landfill hours',
+      'bay county HHW collection',
+    ],
+    faqs: [
+      {
+        question: 'What are the Bay County Steelfield Road landfill hours?',
+        answer: 'Monday through Saturday 7:00 AM to 5:00 PM, closed Sundays and major holidays. Located at 7012 Steelfield Road, Panama City, FL 32404 — roughly 25-40 minutes from Panama City Beach.',
+      },
+      {
+        question: 'How much does Bay County charge to dump trash?',
+        answer: 'General waste is approximately $70 per ton, C&D (construction debris) is approximately $55 per ton, and yard waste runs about $35 per ton. Bay County rates are generally slightly cheaper than Walton County. Minimum fee is $15-20 per load under a half-ton.',
+      },
+      {
+        question: 'When is the next HHW collection event in Bay County?',
+        answer: 'Bay County hosts 2 HHW events per year: typically April/May (spring, around Earth Day) and October (fall). Call Bay County Resource Management at 850-872-7720 for exact upcoming dates and confirm residency requirements.',
+      },
+      {
+        question: 'Can I dispose of paint at Bay County landfill?',
+        answer: 'No — paint is household hazardous waste and must go through the 2 annual HHW collection events. Latex paint can be solidified using the cat litter or sawdust dry-out method for landfill disposal in regular trash, but oil-based paint requires an HHW event regardless of quantity.',
+      },
+      {
+        question: 'Bay County vs Walton County — which is better for DIY junk removal?',
+        answer: 'Bay County offers cheaper per-ton rates, longer Saturday hours (until 5 PM vs 3 PM), and convenience centers closer to coastal communities. Walton County offers more frequent HHW collection events (4 per year vs 2). For routine waste loads, Bay County wins. For paint and hazmat disposal, Walton County wait time is shorter.',
+      },
+    ],
+  },
+  {
+    slug: 'sunday-holiday-junk-removal-30a',
+    title: 'Sunday & Holiday Junk Removal in 30A: Emergency Service Guide',
+    excerpt: 'Need junk removal on a Sunday, holiday, or after hours? Here is what 30A and PCB property owners need to know about emergency and weekend service.',
+    content: `
+# Sunday & Holiday Junk Removal in 30A: Emergency Service Guide
+
+Most 30A and PCB junk removal services operate Monday–Saturday. But emergencies do not respect business hours — Saturday night guest damage at a vacation rental, Sunday closing-day cleanouts, holiday weekend storm debris. This guide covers what after-hours junk removal looks like in 30A, when it is available, and what you can expect to pay.
+
+## When emergency / after-hours service makes sense
+
+Real emergency scenarios we have handled:
+
+1. **Saturday night guest damage** — vacation rental guest checks out Saturday night leaving damage. Sunday check-in requires cleanout before 4 PM.
+2. **Sunday closing-day cleanout** — closing window falls on a Sunday afternoon. Seller items left in storage areas need to clear before final walk-through.
+3. **Holiday weekend hot tub failure** — water heater fails on a holiday Friday night, hot tub starts leaking into the deck. Removal needed before structural damage.
+4. **Storm aftermath cleanup** — hurricane or major storm passes Friday/Saturday, with debris blocking access by Sunday.
+5. **Estate emergency** — out-of-state family arrives Friday for funeral, needs cleanout completed by Monday departure.
+6. **Time-pressured renovation** — contractor's subs scheduled for Monday 7 AM, but debris from Sunday demo is blocking the work area.
+
+## Sunday service availability
+
+Most 30A and PCB junk removal services operate **Monday–Saturday** with **Sunday by appointment for emergencies**. We follow this same model:
+
+- **Standard Sunday hours:** Closed
+- **Sunday emergency service:** Available with $50-100 surcharge depending on scope
+- **Notice required:** 12-24 hours typical; same-day Sunday calls accepted when crew capacity allows
+
+**Why Sunday is different:**
+- [Walton County transfer station](/blog/walton-county-transfer-station-guide) is closed Sunday
+- [Bay County Steelfield Road](/blog/bay-county-solid-waste-guide) is closed Sunday
+- Items hauled Sunday must be stored on our property until Monday
+
+## Holiday service
+
+For the major holidays (New Year's Day, Memorial Day, July 4th, Labor Day, Thanksgiving, Christmas), service falls into three tiers:
+
+- **Closed entirely:** Christmas Day, Thanksgiving Day, New Year's Day
+- **Reduced service:** Memorial Day, July 4th, Labor Day — emergency-only with surcharge
+- **Standard operations:** All other federal holidays
+
+**Holiday emergency surcharge:** $75-150 depending on holiday and scope.
+
+## After-hours weekday service
+
+Standard hours are **7 AM – 7 PM**, 7 days/week (with Sunday by appointment). Outside those hours:
+
+- **Before 7 AM:** Available with $25-50 surcharge. Most common for property managers needing 5 AM start before guest arrivals.
+- **After 7 PM:** Available with $25-50 surcharge. Most common for restaurant equipment removals after service closes.
+- **Overnight:** Rare but possible for hospitality clients with specific operational windows. Quote case-by-case.
+
+## What you pay extra for
+
+Emergency / after-hours / weekend pricing has predictable surcharges:
+
+| Service Window | Surcharge |
+|----------------|-----------|
+| Saturday peak season (Mar-Aug) | $25-50 |
+| Sunday emergency | $50-100 |
+| Memorial Day, July 4th, Labor Day | $75-150 |
+| Christmas Eve, New Year's Eve | $75-150 |
+| Before 7 AM weekday | $25-50 |
+| After 7 PM weekday | $25-50 |
+
+**Note:** These are surcharges on top of the standard service rate. A $400 hot tub removal on a Sunday during peak season might run $450-500 total.
+
+## When to call ahead for after-hours
+
+The best time to set up after-hours service is **before you need it**. For property managers and contractors with predictable after-hours needs:
+
+1. **Property managers:** Establish a preferred-vendor agreement with us so emergency Sunday calls have reserved capacity. See our [vacation rental industry page](/industries/vacation-rental-property-management).
+
+2. **Contractors:** Open a contractor account so weekend job-site cleanups can be scheduled without per-job approval cycles. See our [construction industry page](/industries/construction).
+
+3. **Real estate agents:** Add us to your closing-day vendor list so Sunday closings have a known-quantity cleanout option. See our [real estate industry page](/industries/real-estate).
+
+4. **Hospitality:** After-hours equipment removal coordinated with renovation schedules. See our [hospitality industry page](/industries/hospitality).
+
+For one-off emergencies without an existing relationship, call **(850) 368-3495** as early as possible. Sunday capacity fills fastest.
+
+## What we cannot do on Sundays
+
+Even with after-hours service, some things are not possible Sunday:
+
+- **EPA Section 608 evacuation** requires our certified technician availability (usually weekdays only)
+- **HHW routing** requires Walton or Bay County events (specific dates only — see our [paint & hazmat guide](/blog/paint-hazmat-disposal-30a-pcb-guide))
+- **Bulky equipment disposal** that requires the landfill transfer (closed Sunday)
+- **Permitted disposal documentation** that requires transfer station tickets (closed Sunday)
+
+For Sunday emergencies involving any of these, we stage the items for Monday completion — typically at the customer site (sealed/secured) or off-site on our property.
+
+## The bottom line
+
+Sunday and holiday junk removal in 30A is **available with surcharge for true emergencies**. For property managers, contractors, real estate agents, and hospitality businesses with predictable after-hours needs, establishing a vendor relationship eliminates the per-call approval overhead. For one-off emergencies, call early — Sunday capacity is the most-constrained service slot in our schedule.
+
+Call **(850) 368-3495** or [send a request](/contact) for emergency / after-hours quotes.
+`,
+    author: '30A Junk Removal Team',
+    date: '2026-05-24',
+    lastUpdated: '2026-05-24',
+    readTime: '6 min read',
+    image: 'https://images.unsplash.com/photo-1606937295547-bc0f668292c4?w=800&h=400&fit=crop',
+    imageAlt: 'After-hours junk removal service truck at a 30A beach property',
+    tags: ['Emergency', 'Sunday', 'Holiday', 'After-Hours', '30A'],
+    metaDescription: 'Sunday, holiday, and after-hours junk removal in 30A and PCB. Emergency service availability, surcharge pricing, and when to call ahead.',
+    keywords: [
+      'sunday junk removal 30A',
+      'emergency junk removal 30A',
+      'holiday junk removal',
+      'after hours junk removal PCB',
+      'weekend junk removal',
+    ],
+    faqs: [
+      {
+        question: 'Is Sunday junk removal available in 30A?',
+        answer: 'Yes — Sunday emergency service is available by appointment with a $50-100 surcharge. Most 30A and PCB junk removal services (including ours) operate Monday–Saturday standard with Sunday reserved for true emergencies. The surcharge reflects that Walton and Bay County transfer stations are closed Sundays, so disposal must wait until Monday.',
+      },
+      {
+        question: 'Do you do junk removal on holidays?',
+        answer: 'For major holidays (Christmas, Thanksgiving, New Years Day): closed entirely. For mid-tier holidays (Memorial Day, July 4th, Labor Day): emergency-only with $75-150 surcharge. For most other federal holidays: standard operations.',
+      },
+      {
+        question: 'How much extra does Sunday or after-hours junk removal cost?',
+        answer: 'Sunday emergency: $50-100 surcharge. Before 7 AM or after 7 PM weekday: $25-50 surcharge. Memorial Day, July 4th, Labor Day: $75-150. These are on top of standard service rates. A $400 service on a Sunday during peak season might run $450-500 total.',
+      },
+      {
+        question: 'Can I get same-day Sunday service?',
+        answer: 'Same-day Sunday service is sometimes possible when crew capacity allows but should not be assumed. 12-24 hour advance notice is typical. For Sunday emergency capacity, call as early as possible — Sunday slots fill faster than any other day.',
+      },
+      {
+        question: 'What happens to items hauled on Sunday if the landfill is closed?',
+        answer: 'Items hauled Sunday are staged at our property (or sealed/secured at your property if preferred) until Monday when transfer stations reopen. This is part of why Sunday emergency service runs at a premium — truck space is occupied until Monday afternoon, reducing Monday revenue capacity.',
+      },
+    ],
   }
 ]
 

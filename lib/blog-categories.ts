@@ -60,8 +60,10 @@ export const blogCategories: BlogCategory[] = [
       'estate-cleanout-services-30a-valuable-item-recovery',
       'estate-sale-planning-junk-removal-coordination-30a',
       'walton-county-transfer-station-guide',
+      'bay-county-solid-waste-guide',
       'paint-hazmat-disposal-30a-pcb-guide',
       'electronics-tv-recycling-30a-pcb-guide',
+      'sunday-holiday-junk-removal-30a',
     ],
   },
   {
