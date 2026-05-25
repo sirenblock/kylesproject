@@ -12,7 +12,7 @@ export function AboutPageSchema() {
     url: `${siteUrl}/about`,
     primaryImageOfPage: {
       '@type': 'ImageObject',
-      url: `${siteUrl}/images/og-image.jpg`,
+      url: `${siteUrl}/opengraph-image`,
     },
     mainEntity: {
       '@type': 'LocalBusiness',

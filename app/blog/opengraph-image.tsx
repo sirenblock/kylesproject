@@ -1,6 +1,6 @@
 import { ImageResponse } from 'next/og'
 import { blogPosts } from '@/lib/blog'
-import { ogTemplate, ogImageMeta } from '@/lib/og-image-template'
+import { ogTemplate, ogImageMeta, ogImageResponseInit } from '@/lib/og-image-template'
 
 export const runtime = 'edge'
 export const alt = '30A Junk Removal Blog'
@@ -15,6 +15,6 @@ export default function OGImage() {
       tags: ['Community Guides', 'Disposal Tips', 'Cost Guides'],
       accentColor: 'seafoam',
     }),
-    size
+    { ...size, ...ogImageResponseInit }
   )
 }

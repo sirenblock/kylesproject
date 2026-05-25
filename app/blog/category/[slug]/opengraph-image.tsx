@@ -1,6 +1,6 @@
 import { ImageResponse } from 'next/og'
 import { getBlogCategory } from '@/lib/blog-categories'
-import { ogTemplate, ogImageMeta } from '@/lib/og-image-template'
+import { ogTemplate, ogImageMeta, ogImageResponseInit } from '@/lib/og-image-template'
 
 export const runtime = 'edge'
 export const alt = '30A Junk Removal — blog category'
@@ -27,6 +27,6 @@ export default async function OGImage({ params }: Props) {
       badge: 'category',
       accentColor: 'gold',
     }),
-    size
+    { ...size, ...ogImageResponseInit }
   )
 }

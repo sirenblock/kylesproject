@@ -1,5 +1,5 @@
 import { ImageResponse } from 'next/og'
-import { ogTemplate, ogImageMeta } from '@/lib/og-image-template'
+import { ogTemplate, ogImageMeta, ogImageResponseInit } from '@/lib/og-image-template'
 import { getIndustry } from '@/lib/industries'
 
 // Edge runtime gives us ImageResponse without bundling sharp.
@@ -34,6 +34,6 @@ export default async function OGImage({
       tags: ['B2B Partner', 'SLA', 'Net Terms'],
       accentColor: 'gold',
     }),
-    size
+    { ...size, ...ogImageResponseInit }
   )
 }

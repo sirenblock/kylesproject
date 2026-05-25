@@ -1,5 +1,5 @@
 import { ImageResponse } from 'next/og'
-import { ogTemplate, ogImageMeta } from '@/lib/og-image-template'
+import { ogTemplate, ogImageMeta, ogImageResponseInit } from '@/lib/og-image-template'
 
 export const runtime = 'edge'
 export const alt = '30A Junk Removal — Hot Tub Removal Cost Calculator'
@@ -14,6 +14,6 @@ export default function OGImage() {
       tags: ['Hot Tub Removal', 'Cost Estimate', '30A & PCB'],
       accentColor: 'seafoam',
     }),
-    size
+    { ...size, ...ogImageResponseInit }
   )
 }

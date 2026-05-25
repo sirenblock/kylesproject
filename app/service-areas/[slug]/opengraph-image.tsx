@@ -1,6 +1,6 @@
 import { ImageResponse } from 'next/og'
 import { getLocation } from '@/lib/locations'
-import { ogTemplate, ogImageMeta } from '@/lib/og-image-template'
+import { ogTemplate, ogImageMeta, ogImageResponseInit } from '@/lib/og-image-template'
 
 export const runtime = 'edge'
 export const alt = '30A Junk Removal — location service guide'
@@ -28,6 +28,6 @@ export default async function OGImage({ params }: Props) {
       tags: location?.zipCodes?.slice(0, 3),
       accentColor: 'ocean',
     }),
-    size
+    { ...size, ...ogImageResponseInit }
   )
 }

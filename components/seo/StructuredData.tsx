@@ -6,17 +6,26 @@ const siteUrl = config.siteUrl
 export function ServiceSchema({
   name,
   description,
-  url
+  url,
+  serviceType = 'Junk Removal',
+  priceRange = '$$',
 }: {
   name: string
   description: string
   url: string
+  serviceType?: string
+  priceRange?: string
 }) {
+  // serviceType + offers added per structured-data-schemas audit:
+  // without serviceType the Service schema does not differentiate
+  // between offerings, and offers/priceRange is recommended for
+  // Service rich result eligibility.
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
     name,
     description,
+    serviceType,
     url: `${siteUrl}${url}`,
     provider: {
       '@type': 'LocalBusiness',
@@ -31,6 +40,13 @@ export function ServiceSchema({
         name: 'Florida',
       },
     })),
+    offers: {
+      '@type': 'Offer',
+      priceRange,
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+      areaServed: 'Walton County, FL; Bay County, FL',
+    },
   }
 
   return (
@@ -144,7 +160,7 @@ export function ArticleSchema({
       name: '30A Junk Removal',
       logo: {
         '@type': 'ImageObject',
-        url: `${siteUrl}/images/logo.png`,
+        url: `${siteUrl}/apple-icon`,
       },
     },
     datePublished: publishDate,

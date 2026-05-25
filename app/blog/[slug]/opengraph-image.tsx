@@ -1,6 +1,6 @@
 import { ImageResponse } from 'next/og'
 import { getBlogPost } from '@/lib/blog'
-import { ogTemplate, ogImageMeta } from '@/lib/og-image-template'
+import { ogTemplate, ogImageMeta, ogImageResponseInit } from '@/lib/og-image-template'
 
 // Per-blog-post OG image. Refactored to use shared ogTemplate from
 // lib/og-image-template.tsx so brand colors, tag styling, and layout
@@ -30,6 +30,6 @@ export default async function OGImage({ params }: Props) {
       tags: post?.tags?.slice(0, 3) ?? ['Same-Day', '30A', 'Guide'],
       accentColor: 'seafoam',
     }),
-    size
+    { ...size, ...ogImageResponseInit }
   )
 }

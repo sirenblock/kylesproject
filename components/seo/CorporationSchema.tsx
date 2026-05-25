@@ -35,16 +35,30 @@ export function CorporationSchema() {
     '@id': `${siteUrl}#organization`,
     name: '30A Junk Removal',
     url: siteUrl,
-    logo: `${siteUrl}/images/logo.png`,
-    image: `${siteUrl}/images/og-image.jpg`,
+    // Logo + image point to Next.js dynamic icon/OG endpoints which
+    // ARE served (verified 200 in live audit). Previous hardcoded
+    // /images/logo.png and /images/og-image.jpg returned 404 and
+    // failed Rich Results Test for BlogPosting publisher.logo.
+    logo: {
+      '@type': 'ImageObject',
+      url: `${siteUrl}/apple-icon`,
+      width: 180,
+      height: 180,
+    },
+    image: `${siteUrl}/opengraph-image`,
     description: config.siteDescription,
     telephone: `+1${PHONE_NUMBER}`,
     email: config.email,
+    // Canonical NAP -- aligned with LocalBusiness schema. Previously
+    // Organization used Santa Rosa Beach FL 32459 while LocalBusiness
+    // used 307 Sand Oak Blvd Panama City Beach FL 32413. NAP
+    // inconsistency is an E-E-A-T trust signal flag for Google.
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'Santa Rosa Beach',
+      streetAddress: '307 Sand Oak Blvd',
+      addressLocality: 'Panama City Beach',
       addressRegion: 'FL',
-      postalCode: '32459',
+      postalCode: '32413',
       addressCountry: 'US',
     },
     sameAs: Object.values(config.socialLinks).filter(Boolean),

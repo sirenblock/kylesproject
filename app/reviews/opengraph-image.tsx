@@ -1,5 +1,5 @@
 import { ImageResponse } from 'next/og'
-import { ogTemplate, ogImageMeta } from '@/lib/og-image-template'
+import { ogTemplate, ogImageMeta, ogImageResponseInit } from '@/lib/og-image-template'
 
 export const runtime = 'edge'
 export const alt = '30A Junk Removal — Customer Reviews — 4.9 Stars'
@@ -13,6 +13,6 @@ export default function OGImage() {
       badge: 'customer reviews',
       accentColor: 'gold',
     }),
-    size
+    { ...size, ...ogImageResponseInit }
   )
 }

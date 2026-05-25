@@ -1,5 +1,5 @@
 import { ImageResponse } from 'next/og'
-import { ogTemplate, ogImageMeta } from '@/lib/og-image-template'
+import { ogTemplate, ogImageMeta, ogImageResponseInit } from '@/lib/og-image-template'
 
 export const runtime = 'edge'
 export const alt = '30A Junk Removal — Hurricane Prep'
@@ -15,6 +15,6 @@ export default function OGImage() {
       tags: ['Pre-Season', 'Emergency', 'Post-Storm'],
       accentColor: 'gold',
     }),
-    size
+    { ...size, ...ogImageResponseInit }
   )
 }

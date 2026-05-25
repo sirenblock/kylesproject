@@ -203,3 +203,16 @@ export const ogImageMeta = {
   size: { width: 1200, height: 630 },
   contentType: 'image/png',
 }
+
+// Headers applied to every ImageResponse via the second arg.
+// Per opengraph-image-generation skill: OG images should be cached
+// aggressively at the edge. Default Next.js cache is max-age=0 which
+// regenerates per request -- wasteful given OG content rarely
+// changes. immutable + 1-year max-age tells social-share crawlers
+// (Facebook, Twitter, iMessage, LinkedIn) to cache the image
+// indefinitely.
+export const ogImageResponseInit = {
+  headers: {
+    'Cache-Control': 'public, max-age=31536000, s-maxage=31536000, immutable',
+  },
+}

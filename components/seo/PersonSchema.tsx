@@ -13,7 +13,7 @@ export function PersonSchema() {
     '@type': 'Person',
     name: config.ownerName,
     url: config.siteUrl,
-    image: `${config.siteUrl}/logo.svg`,
+    image: `${config.siteUrl}/apple-icon`,
     jobTitle: config.ownerTitle,
     description: `${config.ownerTitle} at ${config.businessName}. Professional junk removal services along the 30A corridor in Florida.`,
     worksFor: {

@@ -1,5 +1,5 @@
 import { ImageResponse } from 'next/og'
-import { ogTemplate, ogImageMeta } from '@/lib/og-image-template'
+import { ogTemplate, ogImageMeta, ogImageResponseInit } from '@/lib/og-image-template'
 
 export const runtime = 'edge'
 export const alt = '30A Junk Removal — Our Work'
@@ -15,6 +15,6 @@ export default function OGImage() {
       tags: ['2,400+ Jobs', '4.9★ Rated', 'Case Studies'],
       accentColor: 'gold',
     }),
-    size
+    { ...size, ...ogImageResponseInit }
   )
 }

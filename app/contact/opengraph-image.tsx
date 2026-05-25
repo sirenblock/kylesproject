@@ -1,5 +1,5 @@
 import { ImageResponse } from 'next/og'
-import { ogTemplate, ogImageMeta } from '@/lib/og-image-template'
+import { ogTemplate, ogImageMeta, ogImageResponseInit } from '@/lib/og-image-template'
 
 export const runtime = 'edge'
 export const alt = '30A Junk Removal — Contact Us'
@@ -15,6 +15,6 @@ export default function OGImage() {
       tags: ['Instant Quote', 'Same-Day Service', '+1 (850) 368-3495'],
       accentColor: 'ocean',
     }),
-    size
+    { ...size, ...ogImageResponseInit }
   )
 }

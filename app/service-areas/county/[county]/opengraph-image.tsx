@@ -1,6 +1,6 @@
 import { ImageResponse } from 'next/og'
 import { getCounty } from '@/lib/counties'
-import { ogTemplate, ogImageMeta } from '@/lib/og-image-template'
+import { ogTemplate, ogImageMeta, ogImageResponseInit } from '@/lib/og-image-template'
 
 export const runtime = 'edge'
 export const alt = '30A Junk Removal — county guide'
@@ -23,6 +23,6 @@ export default async function OGImage({ params }: Props) {
       badge: 'county hub',
       accentColor: 'seafoam',
     }),
-    size
+    { ...size, ...ogImageResponseInit }
   )
 }
