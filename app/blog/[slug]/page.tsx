@@ -13,6 +13,7 @@ import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo
 import { TableOfContents } from '@/components/blog/TableOfContents'
 import { AuthorBio } from '@/components/blog/AuthorBio'
 import { EndOfArticleCTA } from '@/components/blog/EndOfArticleCTA'
+import { injectInlineCTA } from '@/components/blog/InlineCTA'
 import config from '@/lib/config'
 
 interface Props {
@@ -110,6 +111,9 @@ export default async function BlogPostPage({ params }: Props) {
         modifiedDate={post.lastUpdated}
         image={post.image}
         url={`/blog/${slug}`}
+        wordCount={post.content.replace(/<[^>]*>/g, '').split(/\s+/).filter(Boolean).length}
+        articleSection={post.tags?.[0]}
+        keywords={post.keywords}
       />
       {post.faqs && post.faqs.length > 0 && (
         <FAQSchema questions={post.faqs} />
@@ -537,5 +541,11 @@ function formatContent(content: string): string {
   let cleanContent = content.replace(/^#\s+.+$/m, '').trim()
 
   // Use marked to parse markdown to HTML
-  return marked.parse(cleanContent) as string
+  const html = marked.parse(cleanContent) as string
+
+  // Inject InlineCTA before the 4th h2 (or 3rd if no 4th exists).
+  // Per senior playbook link-equity skill: mid-article CTA captures
+  // engaged readers before they exit, gives blog posts two more
+  // inbound links to /contact (phone + quote).
+  return injectInlineCTA(html)
 }

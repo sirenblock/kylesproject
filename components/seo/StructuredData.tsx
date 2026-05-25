@@ -107,7 +107,10 @@ export function ArticleSchema({
   publishDate,
   modifiedDate,
   image,
-  url
+  url,
+  wordCount,
+  articleSection,
+  keywords,
 }: {
   title: string
   description: string
@@ -116,29 +119,52 @@ export function ArticleSchema({
   modifiedDate?: string
   image: string
   url: string
+  wordCount?: number
+  articleSection?: string
+  keywords?: string[]
 }) {
+  // BlogPosting schema enhanced with Google-recommended properties:
+  // wordCount (signals comprehensive content), articleSection (categorization),
+  // publisher (Organization reference for authority), inLanguage (locale targeting).
   const authorSchema = {
-    '@type': 'Person',
+    '@type': 'Organization',
     name: author,
+    url: siteUrl,
   }
 
-  const schema = {
+  const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     headline: title,
     description: description,
     author: authorSchema,
+    publisher: {
+      '@type': 'Organization',
+      '@id': `${siteUrl}#localbusiness`,
+      name: '30A Junk Removal',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteUrl}/images/logo.png`,
+      },
+    },
     datePublished: publishDate,
     dateModified: modifiedDate || publishDate,
     image: {
       '@type': 'ImageObject',
-      url: image.startsWith('http') ? image : `${siteUrl}${image}`
+      url: image.startsWith('http') ? image : `${siteUrl}${image}`,
+      width: 1200,
+      height: 630,
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `${siteUrl}${url}`
-    }
+    },
+    inLanguage: 'en-US',
   }
+
+  if (wordCount) schema.wordCount = wordCount
+  if (articleSection) schema.articleSection = articleSection
+  if (keywords && keywords.length > 0) schema.keywords = keywords.join(', ')
 
   return (
     <script
