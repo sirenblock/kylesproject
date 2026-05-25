@@ -137,8 +137,10 @@ export default function ContactPage() {
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
-            {/* Contact Info */}
-            <div>
+            {/* Contact Info -- sticky on desktop per senior playbook
+                secret-sauce pattern #16: keeps phone/email visible
+                during long form scrolling */}
+            <div className="lg:sticky lg:top-28 lg:self-start">
               <h2 className="text-2xl font-bold text-slate-800 mb-6">Get In Touch</h2>
               <p className="text-slate-600 mb-8">
                 The fastest way to get a quote is to call or text us. We typically respond within 30 minutes during business hours. Our team specializes in <Link href="/services/appliance-removal" className="text-ocean-600 hover:underline font-medium">appliance removal</Link>, <Link href="/services/yard-debris" className="text-ocean-600 hover:underline font-medium">yard waste</Link>, and comprehensive <Link href="/services" className="text-ocean-600 hover:underline font-medium">junk removal services</Link> throughout the <a href="https://www.visitflorida.com/en-us/cities/south-walton.html" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">South Walton area</a>. Check out our <Link href="/pricing" className="text-ocean-600 hover:underline font-medium">transparent pricing</Link> or learn more in our <Link href="/faq" className="text-ocean-600 hover:underline font-medium">FAQ section</Link>.

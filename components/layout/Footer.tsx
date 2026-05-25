@@ -47,6 +47,50 @@ export function Footer() {
 
   return (
     <footer className="bg-slate-900 text-white">
+      {/* Footer CTA -- conversion surface per senior SEO playbook
+          link-equity skill: every page gets a footer CTA pointing to
+          the conversion path (/contact). Adds another inbound link to
+          the conversion page from every blog post, service, location,
+          and hub page. */}
+      <div className="bg-gradient-to-r from-ocean-700 via-ocean-800 to-slate-900 border-b border-slate-800">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 md:py-14">
+          <div className="grid md:grid-cols-2 gap-6 md:gap-10 items-center">
+            <div>
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-400/15 border border-emerald-400/25 text-emerald-300 text-xs font-semibold mb-3">
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400" />
+                </span>
+                Accepting new projects · Same-day available
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold leading-tight mb-2">
+                Ready to clear the clutter?
+              </h2>
+              <p className="text-slate-300 text-base md:text-lg">
+                Same-day junk removal across 30A &amp; Panama City Beach. Transparent pricing from $150.
+              </p>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-3 sm:justify-end">
+              <a
+                href={`tel:${config.phone.replace(/\D/g, '')}`}
+                data-cta="footer-phone"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-gold-500 text-slate-900 rounded-xl font-bold hover:bg-gold-400 transition-colors shadow-md whitespace-nowrap"
+              >
+                <Phone className="w-5 h-5" />
+                {config.phone}
+              </a>
+              <Link
+                href="/contact"
+                data-cta="footer-quote"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-white text-ocean-700 rounded-xl font-bold hover:bg-sand-50 transition-colors shadow-md whitespace-nowrap"
+              >
+                Get Free Quote
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Trust Badges */}
       <div className="border-b border-slate-800">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">

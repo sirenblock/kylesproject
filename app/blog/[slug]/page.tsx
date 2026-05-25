@@ -12,6 +12,7 @@ import { LinksSection } from '@/components/seo/LinksSection'
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo'
 import { TableOfContents } from '@/components/blog/TableOfContents'
 import { AuthorBio } from '@/components/blog/AuthorBio'
+import { EndOfArticleCTA } from '@/components/blog/EndOfArticleCTA'
 import config from '@/lib/config'
 
 interface Props {
@@ -82,9 +83,14 @@ export default async function BlogPostPage({ params }: Props) {
     notFound()
   }
 
+  // Over-fetch N+1 then slice to N -- per senior playbook secret-sauce
+  // pattern #6: querying exactly N can return the current post if tags match,
+  // leaving us with N-1 after filtering. N+1 then filter then slice ensures
+  // we always get exactly N related posts.
   const relatedPosts = blogPosts
     .filter(p => p.slug !== slug)
     .filter(p => p.tags.some(tag => post.tags.includes(tag)))
+    .slice(0, 4)
     .slice(0, 3)
 
   const internalLinks = getContextualLinks('blog', `/blog/${slug}`)
@@ -276,6 +282,9 @@ export default async function BlogPostPage({ params }: Props) {
                 </Link>
               </div>
             </div>
+
+            {/* End-of-Article CTA -- conversion surface per link-equity skill */}
+            <EndOfArticleCTA />
 
             {/* Author Bio -- E-E-A-T signal per senior SEO playbook */}
             <AuthorBio
