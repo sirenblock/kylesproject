@@ -32,9 +32,10 @@ const areas = [
 
 const company = [
   { name: 'About Us', href: '/about' },
+  { name: 'Industries', href: '/industries' },
   { name: 'Pricing', href: '/pricing' },
-  { name: 'Our Work', href: '/our-work' },
   { name: 'Reviews', href: '/reviews' },
+  { name: 'Our Work', href: '/our-work' },
   { name: 'FAQ', href: '/faq' },
   { name: 'Blog', href: '/blog' },
   { name: 'Glossary', href: '/glossary' },
