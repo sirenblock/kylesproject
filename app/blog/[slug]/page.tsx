@@ -114,7 +114,7 @@ export default async function BlogPostPage({ params }: Props) {
         modifiedDate={post.lastUpdated}
         image={post.image}
         url={`/blog/${slug}`}
-        wordCount={post.content.replace(/<[^>]*>/g, '').split(/\s+/).filter(Boolean).length}
+        wordCount={countWords(post.content)}
         articleSection={post.tags?.[0]}
         keywords={post.keywords}
       />
@@ -544,6 +544,26 @@ marked.setOptions({
   gfm: true,
   renderer,
 })
+
+// Count words in markdown source, stripping markdown syntax tokens
+// (headings, links, emphasis, lists, code fences) rather than HTML
+// tags. The previous algorithm called .replace(/<[^>]*>/g, ...) on
+// markdown source which left `**bold**`, `[link](url)`, and `#`
+// markers as "words" -- inflating wordCount by 10-25%.
+function countWords(content: string): number {
+  const stripped = content
+    .replace(/```[\s\S]*?```/g, '') // code fences
+    .replace(/`[^`]*`/g, '') // inline code
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, '') // images
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // links -> link text only
+    .replace(/^#{1,6}\s+/gm, '') // heading markers
+    .replace(/[*_~]{1,3}([^*_~]+)[*_~]{1,3}/g, '$1') // emphasis
+    .replace(/^[-*+]\s+/gm, '') // list bullets
+    .replace(/^\d+\.\s+/gm, '') // ordered list markers
+    .replace(/^>\s+/gm, '') // blockquotes
+    .replace(/<[^>]*>/g, '') // any remaining HTML
+  return stripped.split(/\s+/).filter(Boolean).length
+}
 
 function formatContent(content: string, post?: { slug: string; title: string; tags: string[] }): string {
   // Remove the first H1 from content since we display title in header

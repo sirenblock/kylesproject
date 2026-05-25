@@ -59,16 +59,73 @@ const nextConfig: NextConfig = {
     ]
   },
 
-  // CRITICAL: Prevent non-production domains from being indexed
-  // This blocks Vercel preview URLs from competing with your production site
+  // Two header() blocks:
+  // 1. Security headers on ALL routes (HSTS, CSP, anti-clickjack, etc.)
+  // 2. X-Robots-Tag: noindex on non-production hosts to keep Vercel
+  //    preview URLs and apex (non-www) domains out of the SERP.
   async headers() {
+    // Content Security Policy -- allowlist the third-party domains the
+    // site actually loads (GTM, GA, Facebook, Stripe, Unsplash, Google
+    // Maps) plus 'self'. 'unsafe-inline' and 'unsafe-eval' are required
+    // for Next.js inline scripts; the alternative (per-request nonces)
+    // would require server middleware and disable static export of
+    // protected pages.
+    const csp = [
+      "default-src 'self'",
+      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://googleads.g.doubleclick.net https://connect.facebook.net https://js.stripe.com https://maps.googleapis.com https://www.googleadservices.com",
+      "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+      "img-src 'self' data: blob: https://images.unsplash.com https://www.googletagmanager.com https://www.google-analytics.com https://maps.googleapis.com https://maps.gstatic.com https://www.facebook.com https://*.fbcdn.net https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net",
+      "font-src 'self' data: https://fonts.gstatic.com",
+      "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://*.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.facebook.com https://stats.g.doubleclick.net https://maps.googleapis.com",
+      "frame-src 'self' https://www.googletagmanager.com https://td.doubleclick.net https://www.facebook.com",
+      "object-src 'none'",
+      "base-uri 'self'",
+      "form-action 'self'",
+      "frame-ancestors 'none'",
+      'upgrade-insecure-requests',
+    ].join('; ')
+
     return [
+      // Security headers on every route
+      {
+        source: '/:path*',
+        headers: [
+          {
+            key: 'Strict-Transport-Security',
+            value: 'max-age=63072000; includeSubDomains; preload',
+          },
+          {
+            key: 'X-Content-Type-Options',
+            value: 'nosniff',
+          },
+          {
+            key: 'X-Frame-Options',
+            value: 'DENY',
+          },
+          {
+            key: 'Referrer-Policy',
+            value: 'strict-origin-when-cross-origin',
+          },
+          {
+            key: 'Permissions-Policy',
+            value: 'camera=(), microphone=(), geolocation=(self), interest-cohort=()',
+          },
+          {
+            key: 'Cross-Origin-Opener-Policy',
+            value: 'same-origin-allow-popups',
+          },
+          {
+            key: 'Content-Security-Policy',
+            value: csp,
+          },
+        ],
+      },
+      // Block indexing on non-canonical hosts (Vercel previews + apex)
       {
         source: '/:path*',
         has: [
           {
             type: 'host',
-            // Match any host EXCEPT www.30ajunkremoval.com
             value: '(?!www\\.30ajunkremoval\\.com).*',
           },
         ],

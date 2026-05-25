@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { Hero } from "@/components/sections/Hero"
 import { ServiceCards } from "@/components/sections/ServiceCards"
 import { HowItWorks } from "@/components/sections/HowItWorks"
+import { AudienceCTAs } from "@/components/sections/AudienceCTAs"
 import { LinksSection } from "@/components/seo/LinksSection"
 import { OfferCatalogSchema, HomepageFAQSchema, ImageGallerySchema } from "@/components/seo/HomepageSchemas"
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from "@/lib/seo"
@@ -171,6 +172,10 @@ export default function HomePage() {
       <HowItWorks />
       <PricingTable />
       <ServicesGrid />
+
+      {/* Audience-segmented CTAs -- per Play 6 audience-aware-ctas skill */}
+      <AudienceCTAs />
+
       <Testimonials />
 
       {/* Latest from the Blog -- distributes homepage link equity to cluster posts */}

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     canonical: getCanonicalUrl('/services/mattress-removal')
   },
   openGraph: {
-    title: `${service.title} | 30A Junk Removal`,
+    title: `${service.title}`,
     description: service.description,
     type: 'website'
   }

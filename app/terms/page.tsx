@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { FileText, Mail, Phone, Calendar, MapPin } from 'lucide-react'
+import { BreadcrumbSchema } from '@/components/seo/StructuredData'
 
 export const metadata: Metadata = {
   title: 'Terms of Service | 30A Junk Removal',
@@ -16,9 +17,20 @@ export default function TermsPage() {
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-white to-slate-50">
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: 'https://www.30ajunkremoval.com' },
+          { name: 'Terms of Service', url: 'https://www.30ajunkremoval.com/terms' },
+        ]}
+      />
       {/* Header */}
       <section className="-mt-24 pt-32 pb-16 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <nav className="text-sm text-ocean-200 mb-4">
+            <Link href="/" className="hover:text-white">Home</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white">Terms of Service</span>
+          </nav>
           <div className="flex items-center gap-3 mb-4">
             <FileText className="w-8 h-8 text-seafoam-300" />
             <span className="text-seafoam-300 font-medium">Legal Information</span>

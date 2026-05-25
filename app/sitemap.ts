@@ -117,6 +117,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // PRIORITY 0.7: Interactive tools (high conversion intent)
   const toolPages: MetadataRoute.Sitemap = [
+    '/tools',
     '/tools/hot-tub-cost-calculator',
     '/tools/junk-removal-cost-calculator',
   ].map(route => ({

@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import Image from 'next/image'
@@ -14,6 +15,7 @@ import { getContextualLinks, getExternalLinks } from '@/lib/seo'
 import { getStoredGCLID, getStoredUTMData } from '@/components/analytics/GCLIDCapture'
 
 export default function ContactPage() {
+  const router = useRouter()
   const internalLinks = getContextualLinks('core', '/contact')
   const externalLinks = getExternalLinks(5)
   const [formSubmitted, setFormSubmitted] = useState(false)
@@ -82,9 +84,22 @@ export default function ContactPage() {
         return
       }
 
-      // Success
+      // Success -- push form_submit event for GTM/GA4/Ads attribution,
+      // then redirect to /thank-you for the conversion-page dataLayer event.
+      // Per conversion-tracking-attribution skill: two events provide
+      // robust attribution -- form_submit triggers immediately for fast
+      // GTM rules, /thank-you fires conversion after page load.
+      if (typeof window !== 'undefined') {
+        window.dataLayer = window.dataLayer || []
+        window.dataLayer.push({
+          event: 'form_submit',
+          formType: 'contact',
+          formLocation: '/contact',
+        })
+      }
       setFormSubmitted(true)
       reset()
+      router.push('/thank-you')
     } catch (error) {
       console.error('Form submission error:', error)
       setSubmitError('Network error. Please check your connection and try again.')

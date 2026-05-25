@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/private/'],
+        disallow: ['/api/', '/private/', '/thank-you', '/success'],
       },
       // Explicit allow for AI search crawlers (per llms.txt strategy)
       // These are the major LLM-powered search agents -- AI Overviews,
