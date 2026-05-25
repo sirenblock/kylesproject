@@ -103,6 +103,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
+  // PRIORITY 0.7: Interactive tools (high conversion intent)
+  const toolPages: MetadataRoute.Sitemap = [
+    '/tools/hot-tub-cost-calculator',
+  ].map(route => ({
+    url: `${config.siteUrl}${route}`,
+    lastModified: SITE_CONTENT_UPDATED,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
+
   // PRIORITY 0.6: Other pages (about, faq, our-work, reviews, glossary)
   const otherPages: MetadataRoute.Sitemap = [
     '/about',
@@ -137,6 +147,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...categoryPages,
     ...blogPostEntries,
     ...locationPages,
+    ...toolPages,
     ...otherPages,
     ...legalPages,
   ]

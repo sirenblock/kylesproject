@@ -120,6 +120,7 @@ export function GlobalLocalBusinessSchema() {
     '@type': 'LocalBusiness',
     '@id': `${siteUrl}#localbusiness`,
     name: '30A Junk Removal',
+    alternateName: ['30A Junk Removal LLC', 'Thirty-A Junk Removal'],
     description: config.siteDescription,
     url: siteUrl,
     telephone: `+1${PHONE_NUMBER}`,
@@ -127,17 +128,32 @@ export function GlobalLocalBusinessSchema() {
     image: `${siteUrl}/images/og-image.jpg`,
     logo: `${siteUrl}/images/logo.png`,
     priceRange: '$$',
+    paymentAccepted: ['Cash', 'Check', 'Credit Card', 'Debit Card'],
+    currenciesAccepted: 'USD',
+    knowsLanguage: ['en-US', 'English'],
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'Santa Rosa Beach',
+      streetAddress: '307 Sand Oak Blvd',
+      addressLocality: 'Panama City Beach',
       addressRegion: 'FL',
-      postalCode: '32459',
+      postalCode: '32413',
       addressCountry: 'US',
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 30.3831,
-      longitude: -86.2277,
+      latitude: 30.2105,
+      longitude: -85.8814,
+    },
+    // GeoCircle covers the actual operational service radius -- 30A corridor + PCB
+    // ~25-mile radius from Panama City Beach base of operations
+    serviceArea: {
+      '@type': 'GeoCircle',
+      geoMidpoint: {
+        '@type': 'GeoCoordinates',
+        latitude: 30.3000,
+        longitude: -86.1000,
+      },
+      geoRadius: '40000', // meters (~25 miles)
     },
     areaServed: config.locations.map((loc) => ({
       '@type': 'City',
@@ -162,6 +178,22 @@ export function GlobalLocalBusinessSchema() {
       bestRating: '5',
       worstRating: '1',
     },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Junk Removal Services',
+      itemListElement: [
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Vacation Rental Junk Removal' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Estate Cleanouts' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Construction Debris Removal' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Furniture Removal' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Appliance Removal' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Hot Tub Removal' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Hurricane Debris Removal' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Same-Day Junk Removal' } },
+      ],
+    },
+    slogan: 'Same-Day Junk Removal for 30A & Panama City Beach',
+    foundingDate: '2024',
     sameAs: Object.values(config.socialLinks).filter(Boolean),
   }
 

@@ -49,6 +49,15 @@ export function FAQSchema({
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    // Speakable schema -- helps voice assistants (Google Assistant, Alexa,
+    // Siri) identify the answer content that's appropriate for voice
+    // playback. Per senior SEO playbook: emerging signal for voice search
+    // results that Google explicitly references in their structured data
+    // documentation.
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['[data-speakable]', '.faq-answer'],
+    },
     mainEntity: questions.map((q) => ({
       '@type': 'Question',
       name: q.question,
