@@ -4,10 +4,18 @@ import { z } from 'zod'
 // Attribution fields are optional -- per secret-sauce pattern #10 we capture
 // utm_source/medium/campaign/content/term + gclid + pageUrl + referrer
 // so leads can be attributed back to the originating campaign/ad/keyword.
+//
+// Phone field accepts any formatted input ("(850) 555-1234", "850-555-1234",
+// "850.555.1234", etc.) and strips non-digits before validating. Without
+// this preprocess, the form placeholder "(850) 555-1234" would fail
+// validation because the regex expects exactly 10 raw digits.
 export const contactFormSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
   email: z.string().email("Invalid email address"),
-  phone: z.string().regex(/^[0-9]{10}$/, "Phone must be 10 digits"),
+  phone: z
+    .string()
+    .transform((val) => val.replace(/\D/g, ''))
+    .pipe(z.string().regex(/^[0-9]{10}$/, "Phone must be 10 digits")),
   serviceType: z.enum([
     'one-time',
     'construction',
