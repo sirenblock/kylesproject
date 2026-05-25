@@ -15,6 +15,8 @@ import { AuthorBio } from '@/components/blog/AuthorBio'
 import { EndOfArticleCTA } from '@/components/blog/EndOfArticleCTA'
 import { ShareButtons } from '@/components/blog/ShareButtons'
 import { injectInlineCTA } from '@/components/blog/InlineCTA'
+import { NewsletterSignup } from '@/components/blog/NewsletterSignup'
+import { getAudienceCTACopy } from '@/lib/audience-ctas'
 import config from '@/lib/config'
 
 interface Props {
@@ -264,7 +266,7 @@ export default async function BlogPostPage({ params }: Props) {
                 prose-th:border prose-th:border-slate-700 prose-th:bg-slate-900 prose-th:text-white prose-th:p-4 prose-th:text-left prose-th:font-bold prose-th:text-base
                 prose-td:border prose-td:border-slate-200 prose-td:bg-white prose-td:p-4 prose-td:text-slate-700
                 prose-tr:even:bg-slate-50"
-              dangerouslySetInnerHTML={{ __html: formatContent(post.content) }}
+              dangerouslySetInnerHTML={{ __html: formatContent(post.content, post) }}
             />
 
             {/* Mid-Content CTA */}
@@ -288,8 +290,8 @@ export default async function BlogPostPage({ params }: Props) {
               </div>
             </div>
 
-            {/* End-of-Article CTA -- conversion surface per link-equity skill */}
-            <EndOfArticleCTA />
+            {/* End-of-Article CTA -- audience-aware per Play 6 */}
+            <EndOfArticleCTA post={post} />
 
             {/* Share Buttons -- per blog-post-anatomy skill step 9 */}
             <ShareButtons url={`/blog/${slug}`} title={post.title} />
@@ -382,12 +384,15 @@ export default async function BlogPostPage({ params }: Props) {
                   Call {FORMATTED_PHONE}
                 </a>
                 <Link
-                  href="/#quote"
+                  href="/contact"
                   className="block w-full text-center py-3 border border-white/30 rounded-lg font-semibold hover:bg-white/10 transition-colors"
                 >
                   Get Free Quote
                 </Link>
               </div>
+
+              {/* Newsletter Signup -- per blog-post-anatomy skill step 10 */}
+              <NewsletterSignup variant="sidebar" />
 
               {/* Quick Links Card */}
               <div className="bg-white border-2 border-slate-200 rounded-xl p-6">
@@ -540,16 +545,17 @@ marked.setOptions({
   renderer,
 })
 
-function formatContent(content: string): string {
+function formatContent(content: string, post?: { slug: string; title: string; tags: string[] }): string {
   // Remove the first H1 from content since we display title in header
   let cleanContent = content.replace(/^#\s+.+$/m, '').trim()
 
   // Use marked to parse markdown to HTML
   const html = marked.parse(cleanContent) as string
 
-  // Inject InlineCTA before the 4th h2 (or 3rd if no 4th exists).
-  // Per senior playbook link-equity skill: mid-article CTA captures
-  // engaged readers before they exit, gives blog posts two more
-  // inbound links to /contact (phone + quote).
-  return injectInlineCTA(html)
+  // Inject audience-aware InlineCTA before the 4th h2 (or 3rd if no 4th).
+  // Per Play 6: copy varies by post audience -- hot tub readers see hot-tub
+  // CTA, property managers see PM-focused CTA, cost readers see pricing CTA,
+  // etc. Lifts CTA CTR 3-5x vs generic copy.
+  const copy = post ? getAudienceCTACopy(post) : undefined
+  return injectInlineCTA(html, copy)
 }

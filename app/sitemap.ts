@@ -46,6 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services',
     '/pricing',
     '/service-areas',
+    '/how-it-works',
   ].map(route => ({
     url: `${config.siteUrl}${route}`,
     lastModified: SITE_CONTENT_UPDATED,

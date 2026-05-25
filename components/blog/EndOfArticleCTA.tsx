@@ -1,14 +1,25 @@
 import Link from 'next/link'
 import { Phone, ArrowRight, Truck, Star, Clock, MapPin } from 'lucide-react'
+import type { BlogPost } from '@/lib/blog'
+import { getAudienceCTACopy } from '@/lib/audience-ctas'
 
 // End-of-article CTA shown after the post content and before the FAQ section.
+// Per traffic-acquisition Play 6: CTA copy varies based on the post's audience
+// (hot tub, property manager, estate, cost, construction, donation, community,
+// or generic). A reader's CTA matches their reading context.
+//
 // Per senior SEO playbook link-equity skill: this surface gives blog posts
 // two of their six inbound links to the conversion page (phone + quote).
-// Trust signals embedded match the consistency pattern from secret-sauce
-// pattern #9 -- same 4.9★ · 127+ Reviews / Same-Day / Walton + Bay values
-// repeated across surfaces.
 
-export function EndOfArticleCTA() {
+interface Props {
+  post?: Pick<BlogPost, 'slug' | 'title' | 'tags'>
+}
+
+export function EndOfArticleCTA({ post }: Props = {}) {
+  const copy = post
+    ? getAudienceCTACopy(post)
+    : getAudienceCTACopy({ slug: '', title: '', tags: [] })
+
   return (
     <aside className="my-12 not-prose">
       <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-800 text-white p-8 md:p-10 shadow-xl">
@@ -27,14 +38,14 @@ export function EndOfArticleCTA() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400" />
             </span>
-            Accepting new projects · Same-day available
+            {copy.label}
           </div>
 
           <h2 className="text-2xl md:text-3xl font-bold mb-3 leading-tight">
-            Ready to clear the clutter?
+            {copy.headline}
           </h2>
           <p className="text-ocean-100 text-base md:text-lg mb-6 max-w-2xl">
-            Same-day junk removal across 30A and Panama City Beach. Transparent pricing from $150. Text photos for an instant quote — or call and talk to a real person.
+            {copy.description}
           </p>
 
           <div className="flex flex-wrap gap-3 mb-6">
@@ -51,7 +62,7 @@ export function EndOfArticleCTA() {
               className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-white text-ocean-700 rounded-xl font-bold hover:bg-sand-50 transition-colors shadow-md"
               data-cta="end-of-article-quote"
             >
-              Get Free Quote
+              {copy.buttonText}
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>

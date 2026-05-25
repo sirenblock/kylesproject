@@ -32,6 +32,7 @@ const areas = [
 
 const company = [
   { name: 'About Us', href: '/about' },
+  { name: 'How It Works', href: '/how-it-works' },
   { name: 'Industries', href: '/industries' },
   { name: 'Pricing', href: '/pricing' },
   { name: 'Reviews', href: '/reviews' },

@@ -11,6 +11,7 @@ import { contactFormSchema, type ContactFormData } from '@/lib/validation'
 import { LinksSection } from '@/components/seo/LinksSection'
 import { BreadcrumbSchema } from '@/components/seo/StructuredData'
 import { getContextualLinks, getExternalLinks } from '@/lib/seo'
+import { getStoredGCLID, getStoredUTMData } from '@/components/analytics/GCLIDCapture'
 
 export default function ContactPage() {
   const internalLinks = getContextualLinks('core', '/contact')
@@ -39,13 +40,32 @@ export default function ContactPage() {
     setIsSubmitting(true)
     setSubmitError(null)
 
+    // Append attribution data per secret-sauce pattern #10:
+    // capture all UTM params (source, medium, campaign, content, term)
+    // plus GCLID so the backend / Google Ads can attribute the lead.
+    const gclid = getStoredGCLID()
+    const utmData = getStoredUTMData()
+    const payload = {
+      ...data,
+      ...(gclid && { gclid }),
+      ...(utmData && {
+        utm_source: utmData.utm_source,
+        utm_medium: utmData.utm_medium,
+        utm_campaign: utmData.utm_campaign,
+        utm_content: utmData.utm_content,
+        utm_term: utmData.utm_term,
+      }),
+      pageUrl: typeof window !== 'undefined' ? window.location.href : '',
+      referrer: typeof document !== 'undefined' ? document.referrer : '',
+    }
+
     try {
       const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(data),
+        body: JSON.stringify(payload),
       })
 
       const result = await response.json()
