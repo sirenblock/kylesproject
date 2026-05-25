@@ -1,6 +1,23 @@
 import type { Metadata, Viewport } from "next"
 import { Suspense } from "react"
+import { Inter, Playfair_Display } from "next/font/google"
 import "./globals.css"
+
+// Per brand-design-system + core-web-vitals skills: load fonts via
+// next/font/google for self-hosted serving, automatic display: swap,
+// and CSS variables referenced by globals.css (--font-inter / --font-playfair).
+// Without these, body falls back to system-ui (broken design system).
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+})
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+  display: "swap",
+})
 import { Header } from "@/components/layout/Header"
 import { Footer } from "@/components/layout/Footer"
 import { GlobalLocalBusinessSchema } from "@/components/seo/LocationBusinessSchema"
@@ -52,11 +69,6 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "30A Junk Removal — Same-Day Service Across 30A & PCB",
-    description: "Same-day junk removal on 30A and Panama City Beach. Transparent pricing from $150. Call (850) 368-3495.",
-  },
   robots: {
     index: true,
     follow: true,
@@ -70,6 +82,21 @@ export const metadata: Metadata = {
   },
   verification: {
     google: 'nuk8CY9D-ruGLgRIyPGaE9UTXx0Ww7dKbLJb5XuNbfE',
+  },
+  // RSS autodiscovery -- feed readers + Google News rely on this
+  // <link rel="alternate"> declaration to find the feed.
+  alternates: {
+    canonical: siteUrl,
+    types: {
+      'application/rss+xml': [{ url: '/feed.xml', title: '30A Junk Removal Blog' }],
+    },
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@30ajunkremoval",
+    creator: "@30ajunkremoval",
+    title: "30A Junk Removal — Same-Day Service Across 30A & PCB",
+    description: "Same-day junk removal on 30A and Panama City Beach. Transparent pricing from $150. Call (850) 368-3495.",
   },
 }
 
@@ -90,7 +117,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className={`scroll-smooth ${inter.variable} ${playfair.variable}`}>
       <head>
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://connect.facebook.net" />

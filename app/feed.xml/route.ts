@@ -24,12 +24,22 @@ export async function GET() {
   const siteUrl = config.siteUrl
   const buildDate = new Date().toUTCString()
 
-  // Sort posts by lastUpdated || date, newest first
-  const sorted = [...blogPosts].sort((a, b) => {
-    const dateA = new Date(a.lastUpdated || a.date).getTime()
-    const dateB = new Date(b.lastUpdated || b.date).getTime()
-    return dateB - dateA
-  })
+  // Sort posts by lastUpdated || date, newest first, cap at 50
+  // (most RSS readers truncate beyond ~50 items, and capping avoids
+  // unbounded feed growth as we publish more posts).
+  const sorted = [...blogPosts]
+    .sort((a, b) => {
+      const dateA = new Date(a.lastUpdated || a.date).getTime()
+      const dateB = new Date(b.lastUpdated || b.date).getTime()
+      return dateB - dateA
+    })
+    .slice(0, 50)
+
+  // Channel pubDate uses the newest post date so feed readers
+  // know when the channel was last meaningfully updated.
+  const channelPubDate = sorted.length
+    ? new Date(sorted[0].lastUpdated || sorted[0].date).toUTCString()
+    : buildDate
 
   const items = sorted
     .map((post) => {
@@ -56,7 +66,18 @@ export async function GET() {
     <description>In-depth guides on junk removal, disposal, vacation rental operations, and property service across the 30A corridor and Panama City Beach.</description>
     <language>en-us</language>
     <copyright>30A Junk Removal LLC. All rights reserved.</copyright>
+    <pubDate>${channelPubDate}</pubDate>
     <lastBuildDate>${buildDate}</lastBuildDate>
+    <ttl>60</ttl>
+    <managingEditor>noreply@30ajunkremoval.com (30A Junk Removal)</managingEditor>
+    <webMaster>noreply@30ajunkremoval.com (30A Junk Removal)</webMaster>
+    <image>
+      <url>${siteUrl}/images/logo.png</url>
+      <title>30A Junk Removal Blog</title>
+      <link>${siteUrl}/blog</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
     <atom:link href="${siteUrl}/feed.xml" rel="self" type="application/rss+xml" />
 ${items}
   </channel>
