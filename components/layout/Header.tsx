@@ -8,9 +8,9 @@ import { cn, FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 
 const navigation = [
   { name: 'Services', href: '/services' },
+  { name: 'How It Works', href: '/how-it-works' },
   { name: 'Pricing', href: '/pricing' },
   { name: 'Areas', href: '/service-areas' },
-  { name: 'Our Work', href: '/our-work' },
   { name: 'Contact', href: '/contact' },
 ]
 
