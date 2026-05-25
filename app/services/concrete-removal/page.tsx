@@ -8,6 +8,7 @@ import { CTASection } from '@/components/sections/CTASection'
 import { RelatedContentGrid } from '@/components/sections/RelatedContent'
 import { HelpfulResources } from '@/components/sections/HelpfulResources'
 import { AllServicesGrid } from '@/components/sections/AllServicesGrid'
+import { HowItWorks } from '@/components/sections/HowItWorks'
 import { getRelatedServices, getRelatedLocationsForService, getRelatedBlogPostsForService } from '@/lib/internal-links'
 import { getExternalLinksForService } from '@/lib/external-links'
 import { LinksSection } from '@/components/seo/LinksSection'
@@ -226,6 +227,9 @@ export default function ServicePage() {
           )}
         </div>
       </section>
+
+            {/* How It Works -- per service-pages-pattern skill */}
+      <HowItWorks />
 
       {/* FAQ */}
       <section className="py-20 bg-slate-50">

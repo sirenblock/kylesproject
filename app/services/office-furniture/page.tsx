@@ -8,6 +8,8 @@ import { CTASection } from '@/components/sections/CTASection'
 import { RelatedContentGrid } from '@/components/sections/RelatedContent'
 import { HelpfulResources } from '@/components/sections/HelpfulResources'
 import { AllServicesGrid } from '@/components/sections/AllServicesGrid'
+import { QuickQuoteForm } from '@/components/ui/QuickQuoteForm'
+import { HowItWorks } from '@/components/sections/HowItWorks'
 import { getRelatedServices, getRelatedLocationsForService, getRelatedBlogPostsForService } from '@/lib/internal-links'
 import { getExternalLinksForService } from '@/lib/external-links'
 import { LinksSection } from '@/components/seo/LinksSection'
@@ -202,6 +204,22 @@ export default function ServicePage() {
               )}
             </div>
           )}
+        </div>
+      </section>
+
+            {/* How It Works -- per service-pages-pattern skill */}
+      <HowItWorks />
+
+      {/* QuickQuoteForm -- conversion surface per service-pages-pattern skill */}
+      <section className="py-16 bg-white border-y border-slate-100">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2">
+              Get an Instant Office Cleanout Quote
+            </h2>
+            <p className="text-slate-600">Text photos for a confirmed price within 10 minutes.</p>
+          </div>
+          <QuickQuoteForm />
         </div>
       </section>
 

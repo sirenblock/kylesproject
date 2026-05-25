@@ -25,14 +25,25 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
 
   async redirects() {
-    const removedLocations = [
-      'destin',
-      'fort-walton-beach',
-      'niceville',
-      'crestview',
-      'mary-esther',
-      'shalimar',
-      'valparaiso',
+    // Okaloosa County removal (2026-05-24). Per url-redirects-recovery
+    // skill: avoid the soft-404 anti-pattern of redirecting many removed
+    // pages to a single hub. Route each removed city to its nearest
+    // still-serviced neighbor so equity flows to relevant local content.
+    const okaloosaRedirects: Array<{ source: string; destination: string }> = [
+      // Destin -> Miramar Beach (nearest Walton County coastal location)
+      { source: '/service-areas/destin', destination: '/service-areas/miramar-beach' },
+      // Fort Walton Beach -> Miramar Beach (closest geographic match)
+      { source: '/service-areas/fort-walton-beach', destination: '/service-areas/miramar-beach' },
+      // Niceville -> Walton County hub (inland, near Choctawhatchee Bay)
+      { source: '/service-areas/niceville', destination: '/service-areas/county/walton-county' },
+      // Crestview -> Walton County hub (inland, north Walton area)
+      { source: '/service-areas/crestview', destination: '/service-areas/county/walton-county' },
+      // Mary Esther -> Miramar Beach (closest geographic neighbor)
+      { source: '/service-areas/mary-esther', destination: '/service-areas/miramar-beach' },
+      // Shalimar -> Miramar Beach (closest geographic neighbor)
+      { source: '/service-areas/shalimar', destination: '/service-areas/miramar-beach' },
+      // Valparaiso -> Walton County hub (inland, near Niceville)
+      { source: '/service-areas/valparaiso', destination: '/service-areas/county/walton-county' },
     ]
     return [
       {
@@ -40,15 +51,12 @@ const nextConfig: NextConfig = {
         destination: '/service-areas/:location',
         permanent: true,
       },
-      // Okaloosa County locations removed from service area (2026-05-24)
-      ...removedLocations.map((slug) => ({
-        source: `/service-areas/${slug}`,
-        destination: '/service-areas',
-        permanent: true,
-      })),
+      // Okaloosa city pages -> nearest still-serviced neighbor (no soft-404)
+      ...okaloosaRedirects.map((r) => ({ ...r, permanent: true })),
+      // Okaloosa County hub -> Walton County hub (closest peer)
       {
         source: '/service-areas/county/okaloosa-county',
-        destination: '/service-areas',
+        destination: '/service-areas/county/walton-county',
         permanent: true,
       },
       {
