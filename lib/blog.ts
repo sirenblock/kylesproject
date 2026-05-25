@@ -15236,6 +15236,903 @@ Construction debris removal in 30A and PCB runs **$350-$1,500 per service** for 
         answer: 'We coordinate routing for any material — but specific items require special handling: (1) Asbestos-containing materials must go through certified abatement contractors before we can haul; (2) Lead paint requires routing to certified hazmat facilities; (3) Pressure-treated lumber over a certain volume threshold requires separate disposal stream. We handle the coordination for these and pass through the certified handler costs.',
       },
     ],
+  },
+  {
+    slug: 'walton-county-transfer-station-guide',
+    title: 'Walton County Transfer Station: Hours, Fees, & What They Accept (2026 Guide)',
+    excerpt: 'Complete 2026 guide to the Walton County transfer station — hours, tonnage fees, accepted materials, banned items, and HHW collection event schedule.',
+    content: `
+# Walton County Transfer Station: Complete 2026 Guide
+
+If you live or own property in [Walton County, Florida](/service-areas/county/walton-county), the Walton County transfer station is where most non-curbside waste ends up. This 2026 guide covers hours, tonnage fees, accepted materials, banned items, and the Household Hazardous Waste (HHW) collection schedule.
+
+## Where the transfer station is
+
+The Walton County Solid Waste / Transfer Station is located at **555 N 9th Street, DeFuniak Springs, FL 32433**. This is roughly 35-50 minutes inland from the 30A coastal corridor — meaning DIY transfer-station runs from 30A involve a 70-100 minute round trip plus loading and unloading time.
+
+## Hours of operation
+
+**Standard hours:**
+- Monday–Friday: 7:00 AM – 4:00 PM
+- Saturday: 7:00 AM – 3:00 PM
+- Sunday: CLOSED
+
+**Holidays:** Closed New Year's Day, Memorial Day, Independence Day, Labor Day, Thanksgiving, Christmas Day. Call ahead during holiday weeks for adjusted hours.
+
+**Why this matters for DIY:** A Saturday afternoon DIY haul that runs late means your loaded truck sits in your driveway over the weekend. The transfer station is **closed Sundays** entirely.
+
+## Tonnage fees (2026)
+
+The transfer station charges by weight, with separate rates by material type:
+
+| Material | 2026 Rate |
+|----------|-----------|
+| General waste (mixed loads) | ~$85 per ton |
+| Construction & demolition debris | ~$60 per ton |
+| Yard waste (clean) | ~$40 per ton |
+| Tires (per tire) | $2 - $6 depending on size |
+| Refrigerators / freezers (must show 608 cert) | $20 surcharge |
+| White goods (other appliances) | Per ton at C&D rate |
+| Mattresses (must be plastic-bagged) | $15-25 per mattress |
+
+**Minimum fee:** $15-25 for any load under a half-ton (most personal vehicle loads are well under this threshold).
+
+**Payment:** Cash, check, or card accepted at the scale house. No invoicing for residential walk-ins.
+
+## What they accept
+
+- General household waste (in bags or loose)
+- Furniture (must be in pieces small enough to handle — a single non-disassembled sectional may be refused)
+- Mattresses (must be sealed in heavy-duty plastic — bedbug prevention rule)
+- Construction & demolition debris (drywall, lumber, flooring, fixtures)
+- Yard waste (separate scale lane for cleaner pricing)
+- Tires (with surcharge — limit 4 per resident visit)
+- Appliances WITH refrigerants only if accompanied by EPA Section 608 evacuation certificate
+- Electronics (TVs, computers, monitors — routed to certified e-waste recycling)
+- Scrap metal (no fee — actually a small revenue stream at the scrap recycling lane)
+
+## What they DO NOT accept (and where to go instead)
+
+| Item | Why Refused | Alternative |
+|------|-------------|-------------|
+| Paint (latex or oil-based) | Hazardous classification | HHW Collection Event |
+| Motor oil, gasoline, propane | Flammable / hazardous | HHW Collection Event |
+| Pesticides, herbicides | Toxic classification | HHW Collection Event |
+| Batteries (lead-acid, lithium) | Hazardous | HHW Collection Event |
+| Asbestos-containing materials | Federal regulation | Licensed abatement contractor |
+| Medical waste / sharps | Biohazard | Pharmacy or medical waste service |
+| Refrigerator with refrigerant still in it | EPA Section 608 violation | Certified service to evacuate first |
+| Treated lumber over threshold | Wood treatment chemicals | Separate routing — call ahead |
+| Tires in volume (over 4) | Volume limit | Tire recycler or commercial transfer |
+
+## Household Hazardous Waste (HHW) collection events
+
+Walton County hosts **quarterly HHW collection events** at the transfer station. These are the only legal disposal route for paint, oil, batteries, pesticides, and other household hazardous materials.
+
+**Typical schedule (verify with Walton County Public Works for exact dates):**
+- Winter: late February or early March
+- Spring: May or June
+- Summer: August or early September
+- Fall: November
+
+Events are typically held on a Saturday from 8 AM – 12 PM. Residency proof (driver's license with Walton County address) required.
+
+**What HHW accepts:**
+- Paint (latex and oil-based)
+- Motor oil, gasoline, antifreeze, brake fluid
+- Pesticides, herbicides, fertilizers
+- Household cleaners
+- Batteries (lead-acid, lithium-ion, button cells)
+- Fluorescent bulbs and CFLs
+- Propane cylinders (small only)
+- Pool chemicals
+- Mercury-containing items
+
+**Volume limits per resident:** Generally up to 10 gallons of liquid waste per event.
+
+## Bulk curbside pickup (the alternative to a transfer station run)
+
+Walton County residents with active garbage service can request **quarterly bulk curbside pickup** for an additional fee (~$40 quarterly). Limits:
+
+- ~6 large items per quarter
+- Items must be at the curb by Sunday night for Monday morning pickup
+- Mattresses excluded (plastic bag rule applies)
+- Refrigerators excluded (EPA 608)
+- Electronics excluded
+- Not available during peak season for some routes
+
+**Schedule via Walton County Public Works.** Call 850-892-8108 to arrange.
+
+**Why most 30A property owners skip this:** HOA rules at communities like [Alys Beach](/service-areas/alys-beach), [Rosemary Beach](/service-areas/rosemary-beach), and [Watersound](/service-areas/watersound) prohibit items sitting curbside 24-48 hours. For [vacation rental turnovers](/blog/property-manager-junk-removal-playbook-30a) and time-pressured cleanouts, the curbside schedule does not work.
+
+## When DIY makes sense vs hiring junk removal
+
+DIY transfer-station run makes sense if **all** of these apply:
+
+1. You have a pickup truck (not a sedan/SUV)
+2. The load is light enough (under 1 ton — most pickups can legally haul ~1,500 lbs)
+3. You have helper(s) — single-person loading risks injury for heavy items
+4. The load is "clean" (no refrigerants, no hazmat, no mattresses needing bags)
+5. You can reach the transfer station during operating hours
+6. Your HOA allows you to load on-property
+7. Your time is worth less than ~$30/hour given the 90-120 minute round trip
+
+For most beach property scenarios — especially [hot tub disposal](/blog/hot-tub-removal-30a-complete-guide), [refrigerator removal](/blog/refrigerator-appliance-disposal-30a-pcb-complete-guide), full [estate cleanouts](/services/estate-cleanouts), or [vacation rental turnovers](/services/vacation-rentals) — professional junk removal beats DIY on time + dollars math. See our [full comparison breakdown](/compare).
+
+## What we handle (so you do not have to)
+
+We make the transfer station round-trip multiple times per week. For 30A and PCB customers, we handle:
+
+- EPA Section 608 evacuation for refrigerators and AC units before transfer
+- Plastic-bag wrapping for mattresses (per Florida bedbug rule)
+- Routing hazmat to the appropriate HHW collection event (timing the project around the schedule)
+- Sorting mixed loads to claim the better C&D rate vs general waste rate
+- Documentation of disposal tickets for permitting / inspection purposes
+- Donation routing for items that should not go to landfill at all
+
+**The bottom line for Walton County:** the transfer station is the right destination for clean general waste loads if you have a truck and time. For everything else, professional pickup avoids the 90-minute round trip, the tonnage fees, the hazmat routing, the EPA paperwork, and the HOA conflicts.
+`,
+    author: '30A Junk Removal Team',
+    date: '2026-05-22',
+    lastUpdated: '2026-05-24',
+    readTime: '8 min read',
+    image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=800&h=400&fit=crop',
+    imageAlt: 'Waste transfer station and waste management facility',
+    tags: ['Walton County', 'Transfer Station', 'Disposal', '30A', 'Guide'],
+    metaDescription: 'Walton County transfer station 2026 guide: hours, tonnage fees, accepted materials, HHW collection events, and what to do with paint and hazmat.',
+    keywords: [
+      'walton county transfer station',
+      'walton county solid waste',
+      'walton county landfill hours',
+      'defuniak springs transfer station',
+      'walton county HHW collection',
+    ],
+    faqs: [
+      {
+        question: 'What are the Walton County transfer station hours?',
+        answer: 'Monday through Friday 7:00 AM to 4:00 PM, Saturday 7:00 AM to 3:00 PM, closed Sundays and major holidays. The facility is located at 555 N 9th Street, DeFuniak Springs, FL 32433 — roughly 35-50 minutes inland from the 30A coastal corridor.',
+      },
+      {
+        question: 'How much does Walton County charge to dump trash?',
+        answer: 'General waste is approximately $85 per ton, C&D (construction debris) is approximately $60 per ton, and yard waste runs about $40 per ton. There is a minimum fee of $15-25 per load under a half-ton. Cash, check, and card accepted at the scale house.',
+      },
+      {
+        question: 'Can I dump paint at Walton County transfer station?',
+        answer: 'No — paint is classified as household hazardous waste and must go through a quarterly HHW collection event held at the transfer station. Events are typically held Saturday mornings four times per year (winter, spring, summer, fall). Bring proof of Walton County residency. Volume limits apply (generally up to 10 gallons of liquid waste per event).',
+      },
+      {
+        question: 'Do I need an appointment for the Walton County transfer station?',
+        answer: 'No appointment needed for standard residential loads — just drive up during operating hours. The HHW collection events do not require appointments either but residency proof is required. For commercial accounts and high-volume loads, calling ahead is recommended.',
+      },
+      {
+        question: 'Will Walton County transfer station accept my old refrigerator?',
+        answer: 'Yes — but ONLY if the refrigerant has been evacuated by an EPA Section 608-certified technician and you have the certificate documenting the evacuation. A $20 white-goods surcharge applies. Without the certificate, the transfer station will refuse the appliance (federal law). Most 30A property owners have us handle the 608 work and the haul together rather than coordinating both separately.',
+      },
+    ],
+  },
+  {
+    slug: 'paint-hazmat-disposal-30a-pcb-guide',
+    title: 'Paint & Household Hazardous Waste Disposal in 30A & PCB',
+    excerpt: 'Where to legally dispose of paint, motor oil, batteries, and other hazmat in 30A and PCB. HHW collection schedule for Walton & Bay Counties.',
+    content: `
+# Paint & Household Hazardous Waste Disposal in 30A & PCB
+
+Paint, motor oil, batteries, pesticides, and other household hazardous waste cannot go in the regular trash, the recycling bin, or the [Walton County transfer station](/blog/walton-county-transfer-station-guide) outside of designated collection events. This guide covers the legal disposal options for 30A and PCB property owners.
+
+## Why HHW disposal matters
+
+Florida law treats hazardous household chemicals differently than general waste. Disposal in the regular trash means:
+
+- The waste leaches into landfill groundwater (which is right above the Floridan aquifer that supplies our drinking water)
+- You can face civil penalties under Florida Statutes 403.7
+- Your trash hauler can refuse the bin if hazmat is visible
+
+The good news: HHW disposal is **free for residents** of Walton County and Bay County. You just need to time the collection events.
+
+## The four HHW collection events per year (Walton County)
+
+Walton County hosts quarterly events at the **DeFuniak Springs Transfer Station** (555 N 9th Street). Typical schedule:
+
+| Season | Approximate Date | Notes |
+|--------|------------------|-------|
+| Winter | Late February or early March | First event of the calendar year |
+| Spring | May or June | Heaviest attendance (post-spring-cleaning) |
+| Summer | August or early September | Peak vacation rental season |
+| Fall | November | Last event before holiday closures |
+
+**Hours:** Typically Saturday 8 AM – 12 PM. Confirm exact dates with Walton County Public Works at 850-892-8108.
+
+**Required:** Proof of Walton County residency (driver's license with county address, or property tax bill).
+
+**Volume limits:** Generally up to 10 gallons of liquid waste per event.
+
+## Bay County HHW collection
+
+Bay County offers a more limited HHW program, with most disposal routed through commercial channels:
+
+- **Bay County Resource Management** — 850-872-7720 for current schedule and locations
+- Bay County events typically run twice annually (spring and fall)
+- Limited volumes per event
+
+For [Panama City Beach](/service-areas/panama-city-beach), [Mexico Beach](/service-areas/mexico-beach), [Lynn Haven](/service-areas/lynn-haven), and other Bay County properties, the timing windows are tighter than Walton County.
+
+## What HHW collection events accept
+
+### Paint and coatings
+- Latex paint (water-based)
+- Oil-based paint
+- Paint thinner and solvents
+- Wood stains and varnishes
+- Spray paint cans (full or partial)
+
+### Automotive
+- Motor oil and used oil filters
+- Antifreeze
+- Brake fluid and transmission fluid
+- Gasoline (in small quantities)
+
+### Lawn and garden
+- Pesticides (insecticides, herbicides, fungicides)
+- Fertilizers with hazard labels
+- Pool chemicals (chlorine, algaecide, pH balancers)
+
+### Household
+- Household cleaners marked "danger" or "poison"
+- Drain cleaners
+- Oven cleaners
+- Floor strippers
+
+### Batteries
+- Lead-acid batteries (car batteries)
+- Lithium-ion batteries (laptop, phone, power tool batteries)
+- Button cell batteries
+- NiCd rechargeable batteries
+
+### Other
+- Fluorescent bulbs and CFL bulbs (contain mercury)
+- Mercury thermometers
+- Small propane cylinders (up to 1-pound bottles)
+- Mercury-containing devices
+
+## What HHW collection events do NOT accept
+
+- Asbestos (requires licensed abatement contractor)
+- Radioactive waste (extremely rare in households)
+- Explosives, ammunition, fireworks
+- Compressed gas cylinders over 1 pound
+- Medical waste / sharps (return to pharmacy or use mail-back service)
+- Tires (small quantities accepted at transfer station for fee)
+- Electronics (route to e-waste — see our [electronics disposal guide](/blog/electronics-tv-recycling-30a-pcb-guide))
+
+## Latex paint specifically — the dry-out method
+
+For **latex paint only** (water-based), if you cannot wait for the next HHW event, Florida allows landfill disposal IF the paint is fully solidified. Method:
+
+1. Pour cat litter or sawdust into the can in equal volume
+2. Stir to mix and let sit uncovered for 24-48 hours
+3. Once fully solidified (passes the "pencil test" — a pencil pushed in does not draw out wet paint), the can can go in regular trash
+4. The lid must be off during disposal (so the trash hauler can confirm it has dried)
+
+**Oil-based paint cannot be dried out this way** — must go to HHW event.
+
+## Motor oil specifically — quick alternative
+
+Used motor oil has its own disposal infrastructure separate from HHW events:
+
+- **AutoZone, Advance Auto Parts, O'Reilly** — most locations accept up to 5 gallons of used motor oil for free
+- **Walmart Auto Care Centers** — accept used oil
+- Cap the container tightly, transport upright
+
+This is often faster than waiting for the next HHW event.
+
+## Car batteries specifically — return for credit
+
+Lead-acid car batteries have a $10-20 core charge built into the price of every new one. Most auto parts stores will:
+
+- Take your old battery (for the core refund — typically $10-20)
+- Recycle it through certified channels
+- Apply the credit toward a new battery purchase
+
+This is the easiest hazmat disposal route — no waiting for events, you get money back.
+
+## When to hire a service for hazmat coordination
+
+If you have **multiple hazmat categories** plus general junk to dispose of — for example, an [estate cleanout](/services/estate-cleanouts) with a garage full of accumulated paint, motor oil, old pesticides, and household chemicals — coordinating multiple disposal channels gets complicated:
+
+- Drop oil at AutoZone
+- Drop batteries at separate location
+- Time the paint disposal around the next HHW event
+- Drop the rest at the transfer station
+- Schedule electronics separately
+
+A professional junk removal service consolidates this: we identify hazmat during the cleanout, route each category to its proper destination, time the project around HHW collection events when needed, and you only deal with one vendor.
+
+For typical 30A estate cleanouts, the hazmat coordination value is $100-300 in time savings — see our [estate cleanout cost guide](/blog/estate-cleanout-cost-30a-pricing) for the full breakdown.
+
+## What to never do
+
+- **Pour anything down the storm drain.** 30A storm drains flow directly to the Gulf of Mexico with no treatment.
+- **Pour anything into the toilet or sink.** Septic systems and treatment plants cannot process hazardous chemicals.
+- **Burn paint, oil, or chemicals.** Florida fire codes prohibit; toxic smoke creates inhalation hazards.
+- **Mix hazardous wastes together.** Some combinations create dangerous reactions (bleach + ammonia, for example).
+- **Leave paint cans for the regular trash hauler** without the dry-out process — they will refuse the load.
+
+## Quick reference: where each common hazmat goes
+
+| Item | Best Route |
+|------|------------|
+| Latex paint (small amount) | Dry out, then trash |
+| Latex paint (large amount) | HHW event |
+| Oil-based paint | HHW event |
+| Motor oil | AutoZone / Advance / O'Reilly |
+| Car battery | Auto parts store (core refund) |
+| Household cleaners | HHW event |
+| Pesticides | HHW event |
+| Fluorescent bulbs | HHW event or Home Depot (some accept) |
+| Propane (1-lb) | HHW event |
+| Propane (20-lb tank) | Exchange at gas station |
+| Electronics | E-waste recycling (Best Buy, Staples, county center) |
+| Asbestos | Licensed abatement contractor |
+| Medical sharps | Pharmacy mail-back service |
+`,
+    author: '30A Junk Removal Team',
+    date: '2026-05-22',
+    lastUpdated: '2026-05-24',
+    readTime: '9 min read',
+    image: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&h=400&fit=crop',
+    imageAlt: 'Paint cans and hazardous household chemicals',
+    tags: ['Paint', 'HHW', 'Hazmat', 'Disposal', 'Walton County', 'Bay County'],
+    metaDescription: 'How to legally dispose of paint, motor oil, batteries, and hazmat in 30A and PCB. HHW collection schedule for Walton & Bay Counties.',
+    keywords: [
+      'paint disposal 30A',
+      'HHW collection Walton County',
+      'where to dispose paint',
+      'motor oil disposal 30A',
+      'household hazardous waste 30A',
+    ],
+    faqs: [
+      {
+        question: 'Where can I dispose of paint in 30A?',
+        answer: 'Walton County hosts quarterly Household Hazardous Waste (HHW) collection events at the DeFuniak Springs Transfer Station — typically Saturday mornings four times per year. Bay County offers similar events twice per year. For small amounts of latex paint, the dry-out method (cat litter or sawdust) allows landfill disposal in regular trash. Oil-based paint must go to an HHW event.',
+      },
+      {
+        question: 'Can I throw paint cans in the regular trash?',
+        answer: 'Only latex paint that has been fully solidified using the dry-out method (cat litter or sawdust, 24-48 hour drying time, lid off so trash hauler can verify). Oil-based paint must always go to an HHW event regardless of quantity. Wet liquid paint in either category will be refused by your trash hauler.',
+      },
+      {
+        question: 'Where do I dispose of motor oil in 30A?',
+        answer: "Most AutoZone, Advance Auto Parts, and O'Reilly locations accept up to 5 gallons of used motor oil for free recycling. Walmart Auto Care Centers also accept used oil. This is often faster than waiting for the next HHW collection event.",
+      },
+      {
+        question: 'When is the next HHW collection event in Walton County?',
+        answer: 'Walton County hosts quarterly HHW events at the DeFuniak Springs Transfer Station, typically held Saturday 8 AM-12 PM in late February/early March, May/June, August/early September, and November. Call Walton County Public Works at 850-892-8108 for exact upcoming dates and confirm residency requirements.',
+      },
+      {
+        question: 'What happens if I pour paint down the drain?',
+        answer: 'Florida storm drains in 30A flow directly to the Gulf of Mexico with no treatment, so paint dumped in a storm drain pollutes the Gulf within hours. Paint in sinks or toilets damages septic systems and overwhelms treatment plants. Both are violations of Florida Statutes 403.7 with civil penalties. The dry-out method (for latex) or HHW collection (for any paint type) are the only legal disposal routes.',
+      },
+    ],
+  },
+  {
+    slug: 'electronics-tv-recycling-30a-pcb-guide',
+    title: 'Electronics & TV Recycling in 30A & PCB: Where to Drop E-Waste',
+    excerpt: 'Free and paid electronics recycling options for 30A and PCB. Best Buy, Staples, county facilities — and what makes electronics legally different from regular trash.',
+    content: `
+# Electronics & TV Recycling in 30A & PCB
+
+Old TVs, monitors, computers, printers, and most consumer electronics cannot legally go in the regular trash in Florida. They contain materials that require specialized recovery — lead in CRT glass, mercury in LCD backlights, lithium in batteries, gold and palladium in circuit boards. This guide covers your legal disposal options for [e-waste in 30A and PCB](/services/tv-electronics-recycling).
+
+## Why e-waste is regulated differently
+
+Florida's e-waste laws are driven by the Resource Conservation and Recovery Act (RCRA) and the Florida Department of Environmental Protection's solid waste rules. Specifically:
+
+- **CRT (cathode ray tube) glass** contains 4-8 lbs of lead per old tube TV/monitor
+- **LCD backlights** historically contained mercury (newer LED backlights do not, but old LCDs do)
+- **Lithium-ion batteries** are fire risks in compaction equipment at landfills
+- **Circuit boards** contain recoverable precious metals that the EPA recommends recovering
+
+The transfer stations in Walton and Bay County will accept electronics but route them to certified e-waste recyclers — not to the landfill.
+
+## Free e-waste drop-off options
+
+### Best Buy (most popular option)
+- **Locations near 30A:** Panama City (closest to 30A), Pensacola
+- **What they accept:** Most consumer electronics, including TVs up to 50" (with some restrictions), computers, printers, monitors, peripherals, cables, phones, tablets, batteries
+- **Fees:** Free for most items; $25-50 fee for TVs and monitors larger than 32"
+- **Limits:** 3 items per household per day
+- **No appointment needed.** Walk into the customer service desk.
+
+### Staples
+- **Locations near 30A:** Panama City
+- **What they accept:** Computers, monitors (LCD only — no CRTs), printers, ink cartridges, phones, tablets
+- **Fees:** Free for most items
+- **No TVs accepted.**
+
+### Office Depot
+- **What they accept:** Smaller electronics, ink cartridges, batteries, phones
+- **No TVs or monitors.**
+
+### Carrier take-back programs
+- **Cell phones:** AT&T, Verizon, T-Mobile, Apple all accept old phones at retail stores (often with trade-in value)
+- **Cable/satellite boxes:** Return to your provider — they own these and want them back
+- **Printer cartridges:** Most office supply stores accept for recycling
+
+## Walton County e-waste
+
+Walton County accepts electronics at the [DeFuniak Springs Transfer Station](/blog/walton-county-transfer-station-guide). Items are routed to certified e-waste recyclers. No fee for residential drop-off.
+
+**Hours:** Monday-Friday 7 AM - 4 PM, Saturday 7 AM - 3 PM.
+
+**What they accept:**
+- TVs (CRT and flat-panel, all sizes)
+- Computers (desktops, laptops, towers)
+- Monitors (all types)
+- Printers and peripherals
+- Phones and tablets
+- DVD/Blu-ray players, gaming consoles
+- Audio equipment
+
+**Address:** 555 N 9th Street, DeFuniak Springs, FL 32433
+
+## Bay County e-waste
+
+Bay County Resource Management coordinates e-waste recycling — call **850-872-7720** for current drop-off locations. The schedule changes more frequently than Walton County, so verify before driving out.
+
+Bay County also hosts periodic special e-waste collection events advertised in the [Panama City Beach](/service-areas/panama-city-beach) and Lynn Haven local press.
+
+## What about commercial e-waste?
+
+If you are a business cleaning out an office, the volume calculus changes:
+
+- Best Buy / Staples have **3-item-per-day limits** that make office cleanouts impractical
+- Commercial e-waste services (Iron Mountain, ERI Direct, regional providers) accept higher volumes with certificates of destruction
+- For mixed [office cleanouts with e-waste](/services/office-furniture), we coordinate the e-waste routing as part of the full project
+
+Volume thresholds to consider:
+- Under 5 items: residential routes work
+- 5-50 items: a single service trip with consolidated routing
+- 50+ items: dedicated e-waste service with destruction certificates
+
+## What "data destruction" means and when you need it
+
+If the electronics being disposed of contained personal or business data — computers, phones, tablets, printers with internal storage — the data on those devices is still there unless physically destroyed or wiped.
+
+**Levels of data destruction:**
+
+1. **Factory reset / standard wipe** — Adequate for personal devices being donated (Goodwill, Habitat ReStore). NOT adequate for HIPAA, financial, or trade-secret data.
+2. **DBAN or military-grade wipe** — Better, software-based. Adequate for most business contexts.
+3. **Physical destruction (shredding)** — Required for HIPAA, government contracts, or anything truly sensitive.
+
+For commercial cleanouts where data is a concern, we partner with destruction services that provide:
+- On-site witnessed destruction
+- Certificate of Destruction documenting each serial number
+- Chain-of-custody records
+
+This is roughly $50-100 per device beyond standard e-waste pricing.
+
+## TVs specifically — the size threshold
+
+TVs are the most-asked question in [e-waste recycling on 30A](/services/tv-electronics-recycling). Quick reference:
+
+| TV Type | Best Disposal Route |
+|---------|---------------------|
+| Working TV under 5 years old | Donate (Habitat ReStore, Salvation Army, Goodwill) |
+| Working TV 5-10 years old | Goodwill or local thrift |
+| Working CRT (tube TV) | E-waste recycling (no donation takers) |
+| Broken flat-panel under 32" | Best Buy (free) or county transfer |
+| Broken flat-panel 32"-50" | Best Buy ($25 fee) or county transfer (free) |
+| Broken flat-panel over 50" | Bay/Walton transfer station — most retailers refuse |
+
+## When to bundle e-waste with a junk removal service
+
+A junk removal service makes sense for e-waste when:
+
+1. You have **multiple items** (TVs + computers + printers + monitors)
+2. The items are heavy or oversized (large TVs, large monitor arrays, server equipment)
+3. The pickup is part of a **larger cleanout** (estate, office, vacation rental refresh)
+4. You need **data destruction documentation**
+5. You cannot easily transport to drop-off locations
+
+For a single old laptop or single small TV, retail drop-off (Best Buy / Staples) is the fastest free option. For anything more complex, bundling with [a full junk removal service](/contact) is the time-efficient choice.
+
+## What we route where
+
+When we pick up electronics as part of a junk removal job, here is the routing:
+
+1. **Donatable working electronics under 5 years old:** Habitat ReStore, Salvation Army, Goodwill — with donation receipt
+2. **Older working electronics:** Goodwill (they accept older items for resale or recycling routing)
+3. **Non-working but recoverable** (working circuit boards, cables, peripherals): Local scrap and e-waste recyclers
+4. **CRTs and old monitors:** Certified e-waste facility (lead content)
+5. **Devices with potential sensitive data:** Data destruction service with certificate
+6. **Phones in any condition:** Carrier take-back programs (sometimes nets trade-in credit for the customer)
+
+The routing happens behind the scenes — you do not need to sort the e-waste before pickup. We handle the categorization during loading.
+
+## Bottom line
+
+Electronics in 30A and PCB have multiple legal disposal routes — most of them free. For one or two items, retail drop-off (Best Buy, Staples) is the fastest path. For five or more, an estate-style cleanout, or anything requiring data destruction documentation, bundling with a junk removal service is more time-efficient and gives you the certified-destruction paperwork when you need it.
+`,
+    author: '30A Junk Removal Team',
+    date: '2026-05-23',
+    lastUpdated: '2026-05-24',
+    readTime: '8 min read',
+    image: 'https://images.unsplash.com/photo-1606857521015-7f9fcf423740?w=800&h=400&fit=crop',
+    imageAlt: 'Old electronics and TVs awaiting e-waste recycling',
+    tags: ['Electronics', 'E-Waste', 'TV Recycling', '30A', 'Disposal'],
+    metaDescription: 'Free and paid electronics recycling for 30A and PCB. Best Buy, Staples, county facilities, and e-waste regulations for TVs, computers, monitors.',
+    keywords: [
+      'electronics recycling 30A',
+      'TV disposal 30A',
+      'e-waste 30A',
+      'where to recycle electronics PCB',
+      'computer disposal 30A',
+    ],
+    faqs: [
+      {
+        question: 'Where can I dispose of an old TV in 30A?',
+        answer: 'For TVs under 32 inches: Best Buy accepts for free. For TVs 32-50 inches: Best Buy charges $25-50, or the Walton County DeFuniak Springs Transfer Station accepts at no charge. For TVs over 50 inches: most retailers refuse — the county transfer station is the best route. CRT (tube) TVs require certified e-waste routing due to lead content.',
+      },
+      {
+        question: 'Is it free to recycle electronics in 30A?',
+        answer: 'Yes for most items at most locations. Best Buy and Staples accept free for most consumer electronics (Best Buy charges $25-50 for large TVs/monitors). Walton and Bay County transfer stations accept e-waste at no charge. Cell phones and printer cartridges have free take-back programs at most carrier and office-supply stores.',
+      },
+      {
+        question: 'Can I throw a TV in the regular trash in Florida?',
+        answer: 'No — Florida regulations route electronics to certified recycling due to lead, mercury, and lithium content. Your trash hauler will likely refuse the bin if a TV is visible. Use Best Buy (free for under-32-inch flat-panels), the county transfer station, or a junk removal service for proper routing.',
+      },
+      {
+        question: 'How do I dispose of computers with sensitive data?',
+        answer: 'For personal devices being donated: factory reset is generally adequate. For business or HIPAA-regulated devices: physical destruction (shredding) with a Certificate of Destruction is the standard. We partner with destruction services for commercial cleanouts requiring witnessed destruction with serial-number documentation.',
+      },
+      {
+        question: 'What is the limit at Best Buy for electronics drop-off?',
+        answer: 'Best Buy limits residential drop-off to 3 items per household per day. For office cleanouts or estates with significant electronics volume, residential drop-off becomes impractical — a junk removal service or commercial e-waste service handles the volume more efficiently.',
+      },
+    ],
+  },
+  {
+    slug: 'garage-cleanout-cost-30a-pricing',
+    title: 'Garage Cleanout Cost in 30A: 2026 Pricing for Walton & Bay County Homes',
+    excerpt: 'Real 2026 garage cleanout pricing for 30A and PCB. Cost by garage size, the hazmat-handling math, and why beach property garages run higher than inland.',
+    content: `
+# Garage Cleanout Cost in 30A: 2026 Pricing Guide
+
+[Garage cleanouts in 30A and PCB](/services/garage-cleanouts) typically run **$300-$1,200** depending on volume, contents, and access. Beach properties run higher than inland Walton or Bay County homes due to humidity-damaged contents, hazmat accumulation, and access constraints. Here is the complete 2026 pricing breakdown.
+
+## Pricing by garage scope
+
+| Garage Type | Typical Cost | Crew/Time |
+|-------------|--------------|-----------|
+| Light cleanout (single-car, organized) | $300 - $450 | 1 crew, 2-3 hours |
+| Standard cleanout (single-car, accumulated) | $400 - $650 | 2 crew, 3-4 hours |
+| Heavy cleanout (single-car, 10+ years accumulated) | $600 - $900 | 2 crew, 4-6 hours |
+| Two-car standard cleanout | $550 - $850 | 2 crew, 4-5 hours |
+| Two-car heavy cleanout | $750 - $1,100 | 3 crew, 5-7 hours |
+| Three-car or oversized garage | $900 - $1,400+ | 3 crew, 1 day |
+| Detached storage building (shed cleanout combined) | +$200 - $500 | Add 2-3 hours |
+
+**$150 minimum applies** — even a quick "single corner of the garage" cleanout still meets the service minimum.
+
+## What drives the price
+
+### 1. Volume (the primary factor)
+
+Garage cleanouts are billed by volume — typically one to three truck-loads worth of items. Most single-car garages with 5-10 years of accumulation fill one truck-load. Two-car garages with heavier accumulation typically fill 2 loads.
+
+### 2. Contents composition
+
+**Standard contents** (move quickly, predictable pricing):
+- Boxes (assumed 70% empty, 30% contents)
+- Furniture
+- Toys, sporting goods, beach gear
+- General miscellaneous
+
+**Items that slow the project down:**
+- **Paint cans:** Each can must be sorted for HHW routing. [See our hazmat guide](/blog/paint-hazmat-disposal-30a-pcb-guide).
+- **Motor oil and chemicals:** Same HHW routing
+- **Tires:** Limit of 4 per resident at transfer station; over 4 needs commercial routing
+- **Batteries:** Car batteries go to auto parts stores for core refund
+- **Old electronics:** Routed to e-waste — see our [electronics guide](/blog/electronics-tv-recycling-30a-pcb-guide)
+- **Propane tanks:** Small (1-lb) routed to HHW; large (20-lb) exchanged or returned
+
+A garage with 20 paint cans, 3 car batteries, and 8 tires can add $150-300 over the standard rate due to multi-channel routing time.
+
+### 3. Beach property specifics
+
+30A garages typically have higher per-cleanout costs than inland properties for these reasons:
+
+- **Humidity damage:** Cardboard boxes, fabric items, and electronics in beach property garages often have mold or moisture damage that makes them non-donatable. Higher percentage goes to landfill (which costs more per ton than donation routing).
+- **Beach equipment volume:** Old kayaks, boogie boards, beach chairs, umbrellas — beach gear accumulates faster than typical sports equipment.
+- **HOA constraints:** Some 30A HOAs ([Alys Beach](/service-areas/alys-beach), [Watersound](/service-areas/watersound)) restrict trucks to specific service-entrance lanes adding load time.
+- **Storage challenges:** Many beach garages are smaller than typical American garages (designed for one car plus storage in 12-15 foot bays), with tighter loading.
+
+## What is typically in a 30A garage
+
+Real garage cleanout inventory from our actual jobs:
+
+**Beach property single-car garage (typical):**
+- 25-50 cardboard boxes (mix of empty and contents)
+- 2-3 old beach chairs, often deteriorated
+- 1-2 old beach umbrellas
+- 1-2 kayaks or paddleboards (often older models)
+- 4-8 paint cans (interior touch-up paint that does not match current paint)
+- Lawn tools (some working, some not)
+- Old grill or grill accessories
+- Pool toys and noodles (if pool was previously on property)
+- Holiday decorations
+- 3-5 totes of mixed items
+
+**Total weight:** ~600-1,000 lbs typically.
+
+## When the price might exceed the range
+
+- **Hoarder-level conditions:** Bypass standard garage cleanout pricing — see our [hoarder cleanout service](/services/hoarder-cleanout) at $1,500-$4,500.
+- **Mold remediation needed:** If garage has structural mold/water damage, the cleanout coordinates with remediation contractors. We handle the items but the remediation is a separate scope.
+- **Asbestos-containing items:** Old ceiling tile, insulation, or pipe wrap may contain asbestos in pre-1980 properties. Requires licensed abatement before we can haul.
+- **Vehicle in garage:** If there is a non-running vehicle (golf cart, ATV, classic car) needing removal, vehicle routing is separate (tow service or scrap dealer).
+
+## DIY vs hire
+
+Garage cleanouts have one of the strongest "hire" cases of any [junk removal scenario](/compare):
+
+| Factor | DIY | Hire |
+|--------|-----|------|
+| Truck rental | $50-100 | Included |
+| Transfer station fees | $50-200 depending on tonnage | Included |
+| HHW routing for paint/chemicals | 4 quarterly events you have to time | Included |
+| Battery routing | Separate trip to auto parts store | Included |
+| E-waste routing | Separate trip to Best Buy | Included |
+| Your time | 8-12 hours typically | 0 hours |
+| Risk of injury (heavy items) | Significant | None to you |
+| Donation receipt | None | Itemized receipt provided |
+
+For a single-car garage cleanout, professional pricing of $400-650 vs DIY costs of $150-300 plus 8-12 hours of your time means professional wins when your time is worth ~$30/hour or more.
+
+## What we do not handle (and where it routes)
+
+- **Active vehicles (cars, motorcycles):** Need to be sold, traded, or scrapped through a vehicle dealer. We do not haul cars.
+- **Refrigerator with refrigerant:** Requires EPA Section 608 evacuation first. We can coordinate the 608 service before our haul, or you can call an HVAC service yourself.
+- **Asbestos:** Licensed abatement contractor only.
+- **Active firearms:** Must be sold, transferred, or surrendered through licensed channels. We do not haul firearms.
+- **Live animals:** No.
+
+## Process for a typical 30A garage cleanout
+
+1. **Quote** — Text photos to (850) 368-3495. Wide shot of the garage from the door, plus close-ups of any large items. We reply with all-in price within 10-30 minutes.
+2. **Schedule** — Same-day available; standard scheduling is 24-48 hours out.
+3. **On-site walk** — Crew arrives, you point out anything to keep aside (often: family memorabilia, documents, items you forgot about).
+4. **Sort + Load** — Items sorted into donate / e-waste / hazmat / disposal streams. Crew loads.
+5. **Routing** — We make multiple stops on the route (donation center, transfer station, sometimes HHW event timing).
+6. **Cleanup + sweep** — Garage swept clean. Floor is ready for your next use.
+7. **Final walk + payment** — You confirm satisfaction, pay (cash, card, Venmo, Zelle, check).
+
+Typical end-to-end timeline: 3-5 hours for a single-car garage; 5-7 hours for a two-car garage.
+
+## Bottom line
+
+Garage cleanout in 30A and PCB runs **$300-$1,200** for residential properties, driven by volume (truck-loads) and contents (hazmat routing time). Beach property garages run slightly higher due to humidity damage and beach gear accumulation. Professional service makes math sense over DIY for any project beyond a "single corner cleanout."
+`,
+    author: '30A Junk Removal Team',
+    date: '2026-05-23',
+    lastUpdated: '2026-05-24',
+    readTime: '8 min read',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=400&fit=crop',
+    imageAlt: 'Cluttered garage awaiting cleanout in a 30A beach property',
+    tags: ['Pricing', 'Garage Cleanout', '30A', 'Cost', 'Walton County'],
+    metaDescription: 'Garage cleanout cost in 30A and PCB: $300-$1,200 for single and two-car garages. Volume pricing, hazmat routing, and the DIY vs hire math.',
+    keywords: [
+      'garage cleanout cost 30A',
+      'garage cleanout pricing',
+      'how much does garage cleanout cost',
+      'garage cleanout 30A Florida',
+      'beach property garage cleanout',
+    ],
+    faqs: [
+      {
+        question: 'How much does it cost to clean out a garage in 30A?',
+        answer: 'Garage cleanout in 30A costs $300-$1,200 depending on size and contents. Single-car standard cleanouts run $400-$650; two-car standard run $550-$850. Hazmat content (paint, oil, batteries) and heavy accumulation can push pricing higher.',
+      },
+      {
+        question: 'Do you take paint and chemicals from the garage?',
+        answer: 'Yes — we handle hazmat routing as part of garage cleanouts. Paint, motor oil, batteries, pesticides, and other household hazardous materials are routed to the appropriate Walton or Bay County HHW collection event or alternative legal disposal channel. This is included in the cleanout pricing, not an add-on charge.',
+      },
+      {
+        question: 'How long does a garage cleanout take?',
+        answer: 'Single-car garage cleanouts typically take 3-5 hours; two-car cleanouts take 5-7 hours. Heavy or hoarder-condition garages may run a full day.',
+      },
+      {
+        question: 'Do I need to be present for the garage cleanout?',
+        answer: 'No — many of our garage cleanouts happen with the customer absent (vacation rental owners, snowbird residents, family handling parent estates). We coordinate gate codes, photo confirmation, and digital payment. For estates or anything where items might have value, presence at least for the initial walk is recommended.',
+      },
+      {
+        question: 'What about scrap metal value from old tools in the garage?',
+        answer: 'For garages with significant scrap metal content (old appliances, metal furniture, wire, copper), we route the scrap to local recyclers. The scrap value typically offsets a portion of disposal costs which is why our pricing remains competitive even after accounting for the multi-channel routing time.',
+      },
+    ],
+  },
+  {
+    slug: 'saturday-turnover-cost-math-30a-property-managers',
+    title: "Saturday Turnover Cost Math: A 30A Property Manager's Guide to Junk Removal ROI",
+    excerpt: 'The real numbers behind Saturday vacation rental turnovers on 30A. Cost math for outsourced junk removal vs in-house, owner-billable pricing, and the SLA economics.',
+    content: `
+# Saturday Turnover Cost Math: A 30A Property Manager's Guide
+
+Saturday turnover is the single most-demanding operational reality on 30A. Between the **10 AM checkout** and the **4 PM check-in**, your team has 6 hours to clean, inspect, restock, photograph, document, and stage 15-200+ vacation rental units. This guide breaks down the [junk removal cost math](/services/property-management) inside that 6-hour window — and why dedicated vendor relationships matter more than per-job price.
+
+## The 6-hour Saturday window
+
+Standard 30A vacation rental Saturday timeline:
+
+| Time | Activity |
+|------|----------|
+| 9:00 AM | Pre-checkout email reminders sent to current guest |
+| 10:00 AM | Guest checkout (often delayed 15-30 min) |
+| 10:30 AM | Housekeeping crew arrives |
+| 11:00 AM | Junk identification — guest left behinds, broken items, damaged furniture |
+| 11:30 AM | Junk removal call placed (if not pre-scheduled) |
+| 12:30 PM | Junk removal crew arrives |
+| 1:00 PM | Items hauled, photos documented |
+| 1:30 PM | Final cleaning completes |
+| 2:00 PM | Property inspector arrives for final walkthrough |
+| 3:00 PM | Photo refresh for listings, staging completed |
+| 4:00 PM | Check-in begins |
+
+**The compression point:** Items needing removal must be identified, hauled, and photo-documented within roughly a **90-minute window** (12:30 PM - 2:00 PM). Miss the window and the property is not ready for check-in.
+
+## Pre-scheduled vs reactive vendor relationships
+
+The economics of [Saturday turnover junk removal](/blog/vacation-rental-turnover-checklist-30a-property-managers) depend heavily on whether you have a **preferred-vendor relationship** with the removal company.
+
+### Reactive (call-when-needed)
+- Saturday emergency call: $250-$450 typical
+- Response window: Whenever vendor can fit you in (often 2-4 hours)
+- Risk: vendor unavailable during peak Saturday windows
+- Photo documentation: not standard
+- Owner-billable invoicing: usually generic
+- Payment terms: pay at time of service
+
+### Preferred-vendor agreement
+- Saturday SLA: 90-minute response when called by 11 AM
+- Per-unit pricing: $150-$300 (volume discount)
+- Reserved Saturday capacity (vendor blocks calendar for you)
+- Photo documentation per removal (4-8 photos per job)
+- Owner-billable invoicing with property-level line items
+- Payment terms: net-15 or net-30 invoicing
+
+For a property management company doing **10 Saturday turnovers per week** during peak season (March-August), the cost difference is significant:
+
+**Reactive:** 10 jobs × $350 average = $3,500/Saturday × 24 peak Saturdays = $84,000/year
+**Preferred-vendor:** 10 jobs × $225 average = $2,250/Saturday × 24 peak Saturdays = $54,000/year
+
+**Annual savings:** $30,000 — and that does not count the operational risk reduction.
+
+## What goes wrong during reactive turnovers
+
+The hidden costs of not having a preferred-vendor relationship:
+
+### 1. Late check-ins
+A junk removal vendor running late on Saturday means your check-in is late. 30A guests are paying $400-$1,500/night and expect flawless check-ins. A 30-minute late check-in:
+- Triggers a "compensation" review
+- Risks negative review (-0.1 to -0.3 stars in extreme cases)
+- Property value implications for repeat bookings
+
+A 0.1-star average rating drop on a $800/night property over 12 months can equal 5-10% booking reduction. Math out: $800 × 7 nights × 50% booking reduction × 10% impact = $1,400/month in lost revenue per affected property.
+
+### 2. Improper documentation for owners
+Many 30A vacation rental owners are not local — they live in Atlanta, Birmingham, Nashville, Memphis. When you charge an owner for a "$400 junk removal" without photo documentation, you create a billing friction that compounds.
+
+Per-removal photo documentation (4-8 photos showing what was removed) reduces owner-billing disputes by 60-80% based on our observed pattern with PM clients who have implemented it.
+
+### 3. Inconsistent invoicing
+Reactive vendors typically invoice as one line item: "Junk Removal Services." Owners want to see "Mattress removal at Unit 247B Seaside" with the photo evidence. Preferred-vendor agreements include line-item invoicing tied to specific property addresses, which integrates cleanly into the PM's owner-statement workflow.
+
+## Per-unit pricing models
+
+Three common pricing structures for vacation rental PM partnerships:
+
+### Model A: Pure per-removal
+- Each job billed separately at $150-300
+- Volume discount built into rates
+- Best for: PMs with predictable but lower frequency (3-5 Saturday turnovers)
+
+### Model B: Monthly retainer + per-job
+- Retainer: $1,000-$2,500/month (covers reserved Saturday capacity)
+- Per-job: $100-$200 (steep discount in exchange for retainer)
+- Best for: PMs with high frequency (10+ Saturday turnovers, regular weekday work)
+
+### Model C: Per-unit-managed
+- Monthly fee per managed unit: $15-$50/unit/month
+- Unlimited removals within fee
+- Best for: PMs with **very predictable** turnover patterns
+
+Most 30A PM partnerships start at Model A, migrate to Model B once volume justifies, and consider Model C only if turnover predictability is unusually high.
+
+## Common turnover removals
+
+Real Saturday turnover items, by frequency:
+
+| Item Type | Frequency | Typical Removal Cost |
+|-----------|-----------|----------------------|
+| Stained or guest-damaged mattresses | 15-25% of turnovers | $100-200 |
+| Broken beach gear (chairs, umbrellas, boogie boards) | 20-30% | $50-150 (bundled) |
+| Damaged dining chairs (kids on chairs is the #1 cause) | 10-15% | $100-200 (set) |
+| Guest left-behinds requiring 30-day hold then removal | 5-10% | $100-200 |
+| Stained or damaged rugs | 10-15% | $100-250 |
+| Broken cookware, glasses, dishes (donation route) | 30%+ | Bundled $100-150 |
+| Random oversized items (cribs, strollers, inflatable items left) | 5-10% | $100-200 |
+| Patio furniture (sand and salt damage) | 8-12% (seasonal) | $200-400 (set) |
+| Old electronics replaced mid-season | 3-5% | $100-250 |
+
+## The hidden value of photo documentation
+
+Beyond reducing billing disputes, the photo documentation creates downstream value:
+
+1. **Insurance claims:** When a guest damages a piece of furniture beyond repair, photo documentation of "before damage" via prior turnover records + "after damage" creates strong insurance claim support.
+2. **Security deposit disputes:** Documentation of removed-damaged items strengthens deposit hold cases.
+3. **Owner reporting:** Quarterly owner reports showing "junk removal activity" with photos build trust and justify management fees.
+4. **Replacement budgeting:** Year-over-year tracking of removal patterns informs furniture replacement scheduling.
+
+## When to switch from reactive to preferred-vendor
+
+The math threshold: **8+ Saturday turnovers per peak-season week** (March-August). Below that, the volume discount may not justify the retainer cost. Above that, the SLA + documentation + reserved capacity + per-job pricing all combine to material savings.
+
+The other consideration: **portfolio composition**. PMs managing high-end ($1,000+/night) properties typically benefit more from preferred-vendor relationships because the cost of a late check-in (and the associated reputation risk) is disproportionately high.
+
+## What we offer 30A property managers
+
+For [30A and PCB property managers](/services/property-management), we offer:
+
+- **Saturday 90-minute SLA** (when notified by 11 AM)
+- **Per-removal photo documentation** (4-8 photos minimum)
+- **Property-level line-item invoicing** with addresses
+- **Net-15 or net-30 payment terms**
+- **Reserved Saturday capacity** for preferred-vendor PMs
+- **After-hours emergency response** for time-pressured turnovers
+- **Quarterly owner-statement-ready reports**
+
+[Contact us](/contact) to discuss PM-specific terms. The math has worked for [the property managers we have served since 2018](/blog/property-manager-junk-removal-playbook-30a) — it usually works for new PMs too.
+
+## Bottom line
+
+The Saturday turnover window does not have margin for vendor unreliability. The economics of preferred-vendor relationships almost always work for PMs running 8+ weekly turnovers. The hidden value (documentation, SLA, billing clean-up) often exceeds the explicit savings. If you are running 30A or PCB vacation rentals, the question is not whether to formalize a junk removal vendor relationship — it is which vendor.
+`,
+    author: '30A Junk Removal Team',
+    date: '2026-05-23',
+    lastUpdated: '2026-05-24',
+    readTime: '11 min read',
+    image: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=400&fit=crop',
+    imageAlt: 'Modern vacation rental property exterior for 30A Saturday turnover',
+    tags: ['Property Management', 'Saturday Turnover', '30A', 'Vacation Rentals', 'B2B'],
+    metaDescription: 'Saturday turnover cost math for 30A vacation rental property managers. Junk removal ROI, preferred-vendor SLA economics, and per-unit pricing models.',
+    keywords: [
+      'saturday turnover 30A',
+      'vacation rental junk removal cost',
+      'property manager junk removal cost',
+      '30A turnover service',
+      'property manager vendor agreement',
+    ],
+    faqs: [
+      {
+        question: 'How much should a property manager pay for Saturday turnover junk removal?',
+        answer: 'Reactive (call-when-needed) Saturday junk removal runs $250-$450 per job for emergency response. Preferred-vendor agreements with volume discount typically run $150-$300 per turnover. The break-even threshold for preferred-vendor agreements is usually 8+ Saturday turnovers per peak-season week.',
+      },
+      {
+        question: 'What is a typical SLA for vacation rental turnover junk removal?',
+        answer: 'Industry-standard Saturday SLA is 4-hour response when called by 11 AM. Preferred-vendor agreements typically improve this to 90-minute response with reserved Saturday capacity. The SLA difference matters because the Saturday window (10 AM checkout to 4 PM check-in) has minimal margin for vendor unreliability.',
+      },
+      {
+        question: 'Why do property managers want photo documentation per removal?',
+        answer: 'Three reasons: (1) reduces owner billing disputes by 60-80% — owners see exactly what was removed and from which unit; (2) supports insurance claims when guest-damage exceeds the security deposit; (3) feeds into quarterly owner reports that justify management fees and document property activity.',
+      },
+      {
+        question: 'What are the most common items removed from 30A vacation rentals?',
+        answer: 'In order of frequency: broken cookware and dishes (30%+ of turnovers, bundled removal), broken beach gear (20-30%), stained mattresses (15-25%), broken dining chairs (10-15% — kids standing on chairs is the #1 cause), stained rugs (10-15%), random oversized guest left-behinds (5-10%), patio furniture damaged by salt and sand (8-12% seasonal).',
+      },
+      {
+        question: 'How does property-level line-item invoicing help?',
+        answer: 'Generic "Junk Removal Services" invoices create billing friction with owners because they cannot see what was removed or where. Property-level line items like "Mattress removal at Unit 247B Seaside, $185" with photo evidence integrate cleanly into owner statement workflows, reduce friction, and strengthen the PM relationship by demonstrating accountability.',
+      },
+    ],
   }
 ]
 

@@ -59,6 +59,9 @@ export const blogCategories: BlogCategory[] = [
       'construction-debris-removal-what-to-know',
       'estate-cleanout-services-30a-valuable-item-recovery',
       'estate-sale-planning-junk-removal-coordination-30a',
+      'walton-county-transfer-station-guide',
+      'paint-hazmat-disposal-30a-pcb-guide',
+      'electronics-tv-recycling-30a-pcb-guide',
     ],
   },
   {
@@ -76,6 +79,7 @@ export const blogCategories: BlogCategory[] = [
       'appliance-removal-cost-30a-pcb-pricing',
       'estate-cleanout-cost-30a-pricing',
       'construction-debris-cost-30a-renovation-pricing',
+      'garage-cleanout-cost-30a-pricing',
     ],
   },
   {
@@ -94,6 +98,7 @@ export const blogCategories: BlogCategory[] = [
       'spring-cleaning-30a-beach-properties',
       '30a-homeowner-renovation-debris-removal-guide',
       'hurricane-season-prep-junk-removal-30a-guide',
+      'saturday-turnover-cost-math-30a-property-managers',
     ],
   },
 ]
