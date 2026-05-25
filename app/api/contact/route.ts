@@ -69,51 +69,46 @@ export async function POST(request: NextRequest) {
       ip: ip !== 'unknown' ? ip : undefined
     }
 
-    // Send to webhook with timeout and retries
-    let lastError: Error | null = null
-    const maxRetries = 3
+    // Dual-channel notification per form-notification-pipeline skill:
+    // Fire webhook + email in parallel via Promise.allSettled so a
+    // single-channel outage does not drop the lead. If EITHER channel
+    // succeeds, the lead is captured. If BOTH fail, we return 500 but
+    // the payload is logged for manual recovery.
+    //
+    // Channel 1: webhook (Make.com / Zapier / n8n / etc) with retries
+    // Channel 2: Resend email to a fallback inbox (if RESEND_API_KEY set)
+    const webhookPromise = sendWebhookWithRetry(webhookUrl, webhookPayload)
+    const emailPromise = sendEmailFallback(webhookPayload)
 
-    for (let attempt = 1; attempt <= maxRetries; attempt++) {
-      try {
-        const webhookResponse = await fetch(webhookUrl, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(webhookPayload),
-          signal: AbortSignal.timeout(10000) // 10 second timeout
-        })
+    const [webhookResult, emailResult] = await Promise.allSettled([
+      webhookPromise,
+      emailPromise,
+    ])
 
-        if (!webhookResponse.ok) {
-          throw new Error(`Webhook responded with status ${webhookResponse.status}`)
-        }
+    const webhookOk = webhookResult.status === 'fulfilled' && webhookResult.value === true
+    const emailOk = emailResult.status === 'fulfilled' && emailResult.value === true
 
-        // Success - return immediately
-        return NextResponse.json({
-          success: true,
-          message: 'Your message has been sent successfully. We will contact you soon!'
-        })
-      } catch (error) {
-        lastError = error as Error
-        console.error(`Webhook attempt ${attempt} failed:`, error)
-
-        if (attempt < maxRetries) {
-          // Wait before retry (exponential backoff)
-          await new Promise(resolve => setTimeout(resolve, 1000 * attempt))
-        }
-      }
+    if (webhookOk || emailOk) {
+      return NextResponse.json({
+        success: true,
+        message: 'Your message has been sent successfully. We will contact you soon!',
+        channels: {
+          webhook: webhookOk,
+          email: emailOk,
+        },
+      })
     }
 
-    // All retries failed
-    console.error('All webhook attempts failed:', lastError)
-
-    // Log the submission for manual review
+    // Both channels failed -- log for manual recovery
+    console.error('ALL notification channels failed for contact form submission')
+    console.error('Webhook result:', webhookResult)
+    console.error('Email result:', emailResult)
     console.log('Failed submission data:', JSON.stringify(webhookPayload, null, 2))
 
     return NextResponse.json(
       {
-        error: 'There was an issue sending your message. Please try again or call us directly.',
-        fallback: true
+        error: 'There was an issue sending your message. Please try again or call us directly at (850) 368-3495.',
+        fallback: true,
       },
       { status: 500 }
     )
@@ -139,6 +134,85 @@ export async function POST(request: NextRequest) {
       { error: 'An unexpected error occurred. Please try again.' },
       { status: 500 }
     )
+  }
+}
+
+// Channel 1: webhook with 3 retries + exponential backoff.
+// Returns true on success, false on all-retries-failed.
+async function sendWebhookWithRetry(
+  webhookUrl: string,
+  payload: Record<string, unknown>
+): Promise<boolean> {
+  const maxRetries = 3
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      const response = await fetch(webhookUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+        signal: AbortSignal.timeout(10000),
+      })
+      if (!response.ok) {
+        throw new Error(`Webhook responded with status ${response.status}`)
+      }
+      return true
+    } catch (error) {
+      console.error(`Webhook attempt ${attempt} failed:`, error)
+      if (attempt < maxRetries) {
+        await new Promise((r) => setTimeout(r, 1000 * attempt))
+      }
+    }
+  }
+  return false
+}
+
+// Channel 2: Resend email fallback. Only fires if RESEND_API_KEY and
+// FALLBACK_EMAIL_TO env vars are configured. Per form-notification-
+// pipeline skill: providing an email fallback means lead capture
+// survives any single-vendor outage (Make.com down, Zapier rate
+// limit, etc).
+//
+// Returns true if email send succeeded; false on misconfig or error.
+async function sendEmailFallback(
+  payload: Record<string, unknown>
+): Promise<boolean> {
+  const apiKey = process.env.RESEND_API_KEY
+  const to = process.env.FALLBACK_EMAIL_TO
+  const from = process.env.RESEND_FROM_EMAIL || 'noreply@30ajunkremoval.com'
+
+  if (!apiKey || !to) {
+    // Not configured -- silently skip. Webhook is still the primary.
+    return false
+  }
+
+  try {
+    const text = Object.entries(payload)
+      .map(([k, v]) => `${k}: ${typeof v === 'string' ? v : JSON.stringify(v)}`)
+      .join('\n')
+
+    const response = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${apiKey}`,
+      },
+      body: JSON.stringify({
+        from,
+        to: [to],
+        subject: `[30A Junk Removal] New contact form submission`,
+        text,
+      }),
+      signal: AbortSignal.timeout(10000),
+    })
+    if (!response.ok) {
+      const body = await response.text().catch(() => '')
+      console.error('Resend email fallback failed:', response.status, body)
+      return false
+    }
+    return true
+  } catch (error) {
+    console.error('Email fallback error:', error)
+    return false
   }
 }
 
