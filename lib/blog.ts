@@ -2432,7 +2432,21 @@ Let us help you reclaim your outdoor space today.
         question: 'What if my hot tub still works - should I sell it instead?',
         answer: 'Working hot tubs in good condition may have resale value. However, moving costs can be $800-$1,500, so many sellers find it easier to include the hot tub with the property sale. We can advise on the best option.'
       }
-    ]
+    ],
+    howTo: {
+      name: 'How to Remove a Hot Tub in 30A',
+      description: 'Step-by-step process for removing a residential hot tub on 30A or Panama City Beach including drainage, electrical disconnect, cutting, and disposal routing.',
+      totalTime: 'PT4H',
+      steps: [
+        { name: 'Drain the Hot Tub', text: 'Drain the hot tub fully via the built-in spigot. For 30A coastal properties, drain to a soaker hose on grass or to a sanitary sewer cleanout. Allow 1-3 hours.' },
+        { name: 'Disconnect Electrical Service', text: 'Turn off the breaker. Have a certified electrician disconnect and cap the supply wires to inspection-ready standard.' },
+        { name: 'Disconnect Plumbing and Cover', text: 'Cap any hard-plumbed water lines. Remove the cover, lid, and any attached external equipment.' },
+        { name: 'Assess Access for Whole vs Cut Removal', text: 'If the hot tub can be hand-rolled out (4+ person crew, dollies, accessible path), proceed to lift. If access is blocked, plan for cut removal.' },
+        { name: 'Cut into Transportable Sections', text: 'For blocked access: use a reciprocating saw to cut the hot tub shell into 4-6 sections. Cut through acrylic shell, foam insulation, and outer cabinet.' },
+        { name: 'Load and Transport', text: 'Load sections (or whole tub) into a pickup truck or trailer. A standard 4-6 person tub weighs 500-900 lbs and requires 4-person handling.' },
+        { name: 'Route to Disposal', text: 'Deliver to Walton County or Bay County transfer station. Tubs go through the C&D waste stream.' }
+      ]
+    }
   },
   {
     slug: 'spring-cleaning-30a-beach-properties',
@@ -13195,7 +13209,20 @@ Mattress disposal volume varies dramatically by 30A community and across the bro
         question: 'What\'s the fastest way to dispose of a mattress in 30A?',
         answer: 'For time-pressured disposal (vacation rental Saturday turnover, HOA-fine deadline, closing-date cleanout): professional same-day mattress removal is the fastest option, with typical response times of 2-4 hours if booked by 11 AM. For non-urgent disposal: curbside bulk pickup is free but requires waiting for the next scheduled pickup window (typically up to a week). Self-haul to Walton County or Bay County landfill takes 1-2 hours total but requires a truck and plastic wrapping. Wrapping in plastic is required for all three options.'
       }
-    ]
+    ],
+    howTo: {
+      name: 'How to Legally Dispose of a Mattress in Florida',
+      description: 'Florida-compliant mattress disposal process for 30A and PCB residents.',
+      totalTime: 'PT2H',
+      steps: [
+        { name: 'Purchase a Mattress Disposal Bag', text: 'Buy a heavy-duty mattress disposal bag matching your mattress size ($10-15 at U-Haul, Home Depot, Lowes, Amazon). Required by Florida FAC Chapter 64E-9.' },
+        { name: 'Bag the Mattress', text: 'Lay the bag flat, place mattress on top, pull bag over and seal with included tape. The bag must fully encase the mattress.' },
+        { name: 'Choose Disposal Route', text: 'Option A: Curbside bulk pickup via Walton or Bay County. Option B: Self-haul to the county transfer station. Option C: Professional pickup.' },
+        { name: 'Confirm HOA Compliance', text: 'For Alys Beach, Rosemary Beach, Watersound, Sandestin, Watercolor: items cannot sit curbside. Use professional pickup or self-haul.' },
+        { name: 'Transport or Schedule', text: 'For self-haul: tie the bagged mattress in your truck bed. Transfer station hours apply. For professional: book by 11am for same-day.' },
+        { name: 'Complete Disposal and Document', text: 'Get the transfer station ticket for records. For donation: confirm with Habitat ReStore for under-2-year mattresses.' }
+      ]
+    }
   },
   {
     slug: 'watercolor-junk-removal-complete-guide',
@@ -13855,7 +13882,21 @@ Beyond refrigerators, the disposal patterns:
         question: 'Do property managers get bulk pricing on appliance disposal?',
         answer: 'Yes — vacation rental property managers handling 10+ units typically negotiate volume pricing for appliance replacement projects. Bulk appliance disposal for kitchen-refresh projects (replacing refrigerator + range + dishwasher + microwave across multiple units) typically runs $200-$350 per kitchen including all four appliances, refrigerant recovery, and disposal fees. Scheduled service relationships also enable coordinated timing with new appliance delivery to minimize property disruption.'
       }
-    ]
+    ],
+    howTo: {
+      name: 'How to Dispose of a Refrigerator in Florida (EPA Section 608 Compliant)',
+      description: 'Federally-compliant refrigerator disposal process for 30A and PCB.',
+      totalTime: 'PT1H30M',
+      steps: [
+        { name: 'Verify the Appliance Contains Refrigerant', text: 'Refrigerators, freezers, AC units, dehumidifiers, wine coolers all contain refrigerant. EPA Section 608 requires evacuation by a certified technician.' },
+        { name: 'Schedule EPA Section 608 Evacuation', text: 'Contact a Section 608-certified technician. Evacuation costs $30-75 separately; included free with junk removal pickup.' },
+        { name: 'Disconnect Power and Water', text: 'Unplug the appliance and disconnect any plumbed water lines (icemaker, water dispenser). Cap water lines.' },
+        { name: 'Get Evacuation Certificate', text: 'After evacuation, the technician provides a tag/certificate. Required for legal disposal at the transfer station.' },
+        { name: 'Choose Disposal Route', text: 'Walton or Bay County transfer station accepts evacuated refrigerators with $20 white-goods surcharge. Junk removal pickup runs $175-300 single-item.' },
+        { name: 'Transport or Pickup', text: 'Refrigerators average 200-300 lbs and require 2-person handling. Secure with straps for transport.' },
+        { name: 'Final Disposal', text: 'At the transfer station, present the 608 certificate. Working appliances may go to scrap recyclers; older units to white goods disposal stream.' }
+      ]
+    }
   },
   {
     slug: 'blue-mountain-beach-junk-removal-complete-guide',
@@ -15612,6 +15653,19 @@ For typical 30A estate cleanouts, the hazmat coordination value is $100-300 in t
         answer: 'Florida storm drains in 30A flow directly to the Gulf of Mexico with no treatment, so paint dumped in a storm drain pollutes the Gulf within hours. Paint in sinks or toilets damages septic systems and overwhelms treatment plants. Both are violations of Florida Statutes 403.7 with civil penalties. The dry-out method (for latex) or HHW collection (for any paint type) are the only legal disposal routes.',
       },
     ],
+    howTo: {
+      name: 'How to Legally Dispose of Paint in Florida',
+      description: 'Step-by-step paint disposal process for 30A and PCB residents. Includes the latex dry-out method, oil-based paint HHW routing, and Florida hazmat regulations.',
+      totalTime: 'PT72H',
+      steps: [
+        { name: 'Identify Paint Type', text: 'Check the can label. Latex (water-based) paint can be solidified for landfill disposal. Oil-based paint, paint thinners, stains, and varnishes ALWAYS require HHW collection event regardless of quantity.' },
+        { name: 'For Latex Paint: Add Absorbent', text: 'Pour cat litter, sawdust, or commercial paint hardener into the paint can in roughly equal volume. Stir to mix thoroughly. For small amounts of paint (less than 1/4 can), simply leave the can open in a ventilated area to dry.' },
+        { name: 'Wait for Full Solidification', text: 'Allow 24-48 hours for the paint to fully solidify. Apply the "pencil test" — push a pencil into the dried paint. If no wet paint draws out, it is fully solidified.' },
+        { name: 'For Latex (Dried): Dispose in Regular Trash', text: 'Place the solidified paint can in regular trash with the lid OFF (so the trash hauler can verify it has been dried). This is the only legal landfill route for paint in Florida.' },
+        { name: 'For Oil-Based + Hazardous: Schedule HHW Event', text: 'Bring oil-based paint, paint thinners, varnishes, stains, and other hazmat to the next quarterly Walton County HHW collection event (DeFuniak Springs Transfer Station, Saturday 8am-12pm, typically Feb/May/Aug/Nov). Bay County events run twice yearly. Residency proof required.' },
+        { name: 'Alternative: Schedule Junk Removal Pickup', text: 'For mixed cleanouts with paint plus other items, junk removal services route hazmat to the appropriate HHW event as part of the project. Eliminates the need to time your project around the quarterly schedule.' }
+      ]
+    },
   },
   {
     slug: 'electronics-tv-recycling-30a-pcb-guide',

@@ -142,11 +142,42 @@ export function ArticleSchema({
   // BlogPosting schema enhanced with Google-recommended properties:
   // wordCount (signals comprehensive content), articleSection (categorization),
   // publisher (Organization reference for authority), inLanguage (locale targeting).
-  const authorSchema = {
-    '@type': 'Organization',
-    name: author,
-    url: siteUrl,
-  }
+  //
+  // Author is emitted as Person when the value looks like a real human
+  // name (contains a space, not "Team" or "Editorial Staff"). Per
+  // senior-strategy E-E-A-T: named-author Person schema is a stronger
+  // E-E-A-T signal than generic Organization-as-author. Falls back to
+  // Organization for catch-all bylines like "30A Junk Removal Team".
+  const isNamedPerson =
+    /\s/.test(author) &&
+    !/team|staff|editorial|llc|inc\b/i.test(author)
+
+  const authorSchema = isNamedPerson
+    ? {
+        '@type': 'Person',
+        name: author,
+        url: `${siteUrl}/about`,
+        image: `${siteUrl}/apple-icon`,
+        jobTitle: 'Owner & Operator',
+        worksFor: {
+          '@type': 'LocalBusiness',
+          '@id': `${siteUrl}#localbusiness`,
+          name: '30A Junk Removal',
+        },
+        knowsAbout: [
+          'Junk Removal',
+          'Vacation Rental Property Management',
+          'Estate Cleanouts',
+          'Hot Tub Removal',
+          'Construction Debris Removal',
+          'Florida Hazardous Waste Disposal',
+        ],
+      }
+    : {
+        '@type': 'Organization',
+        name: author,
+        url: siteUrl,
+      }
 
   const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
