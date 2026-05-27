@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+// Cache bust 2026-05-27 - force re-deploy for XML sitemap fix
 import { getAllBlogSlugs, getBlogPost } from '@/lib/blog'
 import { getAllServiceSlugs } from '@/lib/services'
 import { getAllLocationSlugs } from '@/lib/locations'
