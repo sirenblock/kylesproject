@@ -73,6 +73,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // and include the featured image so Google Images can index it.
   // Image inclusion in the sitemap is a Google Images discovery signal
   // and can drive 5-15% incremental traffic via image search.
+  //
+  // CRITICAL: image URLs must be XML-safe. Next.js does NOT auto-escape
+  // entries in the `images` array, so Unsplash query strings like
+  // `?w=1200&h=630&fit=crop` produce unescaped `&` that break the XML
+  // (Google Search Console error: "Parsing error" line 312 etc).
+  // Strip the query string for sitemap output -- Google fetches the
+  // canonical image URL anyway and the query params are presentation-
+  // only resizing hints.
+  const stripQueryString = (url: string) => url.split('?')[0]
   const blogSlugs = getAllBlogSlugs()
   const blogPostEntries: MetadataRoute.Sitemap = blogSlugs.map(slug => {
     const post = getBlogPost(slug)
@@ -83,7 +92,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: 'monthly' as const,
       priority: 0.6,
-      ...(post?.image ? { images: [post.image] } : {}),
+      ...(post?.image ? { images: [stripQueryString(post.image)] } : {}),
     }
   })
 
