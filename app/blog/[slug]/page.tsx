@@ -475,7 +475,7 @@ export default async function BlogPostPage({ params }: Props) {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-4 text-center">Continue Reading</h2>
             <p className="text-center text-slate-600 mb-12">
-              Explore more helpful tips about <Link href="/services/construction-debris-removal" className="text-ocean-600 hover:underline font-medium">construction cleanup</Link>, <Link href="/services/estate-cleanouts" className="text-ocean-600 hover:underline font-medium">estate services</Link>, and maintaining properties across <a href="https://www.visitflorida.com/places-to-go/northwest/30a/" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">Florida&apos;s beautiful 30A corridor</a>.
+              Explore more helpful tips about <Link href="/services/construction-debris" className="text-ocean-600 hover:underline font-medium">construction cleanup</Link>, <Link href="/services/estate-cleanouts" className="text-ocean-600 hover:underline font-medium">estate services</Link>, and maintaining properties across <a href="https://www.visitflorida.com/places-to-go/northwest/30a/" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">Florida&apos;s beautiful 30A corridor</a>.
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {relatedPosts.map(relatedPost => (

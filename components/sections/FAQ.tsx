@@ -62,7 +62,7 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Not necessarily! As long as we can access the items (garage code, unlocked shed, etc.), we can handle the removal while you're away. We'll send before and after photos. This is especially convenient for{' '}
-            <Link href="/services/property-management-junk-removal" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
+            <Link href="/services/property-management" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               property managers
             </Link>
             {' '}and vacation rental turnovers.
@@ -113,7 +113,7 @@ const faqCategories: FAQCategory[] = [
               disposal facilities
             </a>
             {' '}with weight-based fees. We price{' '}
-            <Link href="/services/construction-debris-removal" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
+            <Link href="/services/construction-debris" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               construction debris
             </Link>
             {' '}jobs based on material type and volume to give you the most accurate quote.
@@ -176,7 +176,7 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Yes! We offer preferred pricing and priority scheduling for{' '}
-            <Link href="/services/property-management-junk-removal" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
+            <Link href="/services/property-management" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               property managers
             </Link>
             {' '}with recurring needs. Whether it's monthly cleanouts or on-call service in{' '}

@@ -52,9 +52,26 @@ const nextConfig: NextConfig = {
     // intent (collapsing deleted doorway pages back to location parents)
     // is now better handled by letting Google's crawler discover the
     // 404 and drop the doorway URLs naturally over a few weeks.
+    // Belt-and-suspenders 301s for previously-broken internal service slugs
+    // (found in 2026-05-27 live audit). These slugs were linked from county
+    // pages, the FAQ component, and every blog post but never existed as
+    // real routes -- 5 dead URLs that returned 404. Source links are now
+    // pointed to the canonical slugs, but external backlinks (old
+    // shared URLs in social posts, AI chat citations, prior crawls) may
+    // still hit these so we 301 them for equity recovery.
+    const brokenServiceRedirects: Array<{ source: string; destination: string }> = [
+      { source: '/services/residential', destination: '/services/one-time-hauls' },
+      { source: '/services/commercial', destination: '/services/commercial-junk-removal' },
+      { source: '/services/construction', destination: '/services/construction-debris' },
+      { source: '/services/construction-debris-removal', destination: '/services/construction-debris' },
+      { source: '/services/property-management-junk-removal', destination: '/services/property-management' },
+    ]
+
     return [
       // Okaloosa city pages -> nearest still-serviced neighbor (no soft-404)
       ...okaloosaRedirects.map((r) => ({ ...r, permanent: true })),
+      // Broken service slugs -> canonical service pages (audit 2026-05-27)
+      ...brokenServiceRedirects.map((r) => ({ ...r, permanent: true })),
       // Okaloosa County hub -> Walton County hub (closest peer)
       {
         source: '/service-areas/county/okaloosa-county',
