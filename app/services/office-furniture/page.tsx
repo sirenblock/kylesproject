@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { CheckCircle, Phone, ArrowRight, Camera } from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
-import { getServiceDetail } from '@/lib/services'
+import { getServiceDetail, getServicePriceRange } from '@/lib/services'
 import { ServiceSchema, FAQSchema, BreadcrumbSchema } from '@/components/seo/StructuredData'
 import { CTASection } from '@/components/sections/CTASection'
 import { RelatedContentGrid } from '@/components/sections/RelatedContent'
@@ -34,6 +34,7 @@ export const metadata: Metadata = {
 }
 
 export default function ServicePage() {
+  const priceRange = getServicePriceRange(service.pricing)
   const internalLinks = getContextualLinks('service', '/services/office-furniture')
   const externalLinks = getExternalLinks(5)
 
@@ -50,6 +51,7 @@ export default function ServicePage() {
         name={service.title}
         description={service.description}
         url="/services/office-furniture"
+        {...(priceRange && { lowPrice: priceRange.lowPrice, highPrice: priceRange.highPrice })}
       />
       <FAQSchema questions={service.faqs} />
 

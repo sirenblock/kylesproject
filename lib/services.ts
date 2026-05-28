@@ -4187,6 +4187,39 @@ Concrete removal is often part of larger demolition projects. We commonly combin
   }
 }
 
+// Parse min and max dollar amounts out of a service's pricing data.
+// Returns { lowPrice, highPrice } for use in Service schema AggregateOffer.
+// Returns null when pricing is too vague to express as a range.
+export function getServicePriceRange(
+  pricing: ServiceDetail['pricing']
+): { lowPrice: number; highPrice: number } | null {
+  const extractMinMax = (s: string | undefined): { min: number; max: number } | null => {
+    if (!s) return null
+    const nums = s.match(/\$?(\d+(?:,\d{3})*)/g)
+    if (!nums || nums.length === 0) return null
+    const values = nums.map((n) => parseInt(n.replace(/[$,]/g, ''), 10)).filter((n) => !isNaN(n))
+    if (values.length === 0) return null
+    return { min: Math.min(...values), max: Math.max(...values) }
+  }
+
+  // Truck-load pricing (quarter/half/three-quarter/full): use min of
+  // smallest tier and max of largest tier as the overall service range.
+  const qt = extractMinMax(pricing.quarterTruck)
+  const ft = extractMinMax(pricing.fullTruck)
+  if (qt && ft) {
+    return { lowPrice: qt.min, highPrice: ft.max }
+  }
+
+  // Starting-from pricing: use starting value as lowPrice; estimate
+  // highPrice as 3x the starting (typical range for custom-quoted services).
+  const start = extractMinMax(pricing.starting)
+  if (start) {
+    return { lowPrice: start.min, highPrice: start.max * 3 }
+  }
+
+  return null
+}
+
 export function getServiceDetail(slug: string): ServiceDetail | undefined {
   return serviceDetails[slug]
 }

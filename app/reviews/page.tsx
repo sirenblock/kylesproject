@@ -77,6 +77,66 @@ export default function ReviewsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewsSchema) }}
       />
+      {/* Standalone Review @type schemas in addition to the embedded
+          LocalBusiness.review[] array. Per Google guidance: standalone
+          Review schemas can power Review rich snippets (star + text)
+          in regular SERP results, while embedded reviews feed the
+          business knowledge panel + LocalBusiness aggregateRating. */}
+      {reviews.map((r, idx) => {
+        const standaloneReview = {
+          '@context': 'https://schema.org',
+          '@type': 'Review',
+          '@id': `${siteUrl}/reviews#review-${idx + 1}`,
+          itemReviewed: {
+            '@type': 'LocalBusiness',
+            '@id': `${siteUrl}#localbusiness`,
+            name: '30A Junk Removal',
+            image: `${siteUrl}/opengraph-image`,
+            telephone: '+18503683495',
+            priceRange: '$$',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '307 Sand Oak Blvd',
+              addressLocality: 'Panama City Beach',
+              addressRegion: 'FL',
+              postalCode: '32413',
+              addressCountry: 'US',
+            },
+          },
+          author: {
+            '@type': 'Person',
+            name: r.author,
+            address: {
+              '@type': 'PostalAddress',
+              addressLocality: r.location.split(',')[0].trim(),
+              addressRegion: 'FL',
+              addressCountry: 'US',
+            },
+          },
+          reviewRating: {
+            '@type': 'Rating',
+            ratingValue: r.rating.toString(),
+            bestRating: '5',
+            worstRating: '1',
+          },
+          datePublished: r.date,
+          reviewBody: r.body,
+          publisher: {
+            '@type': 'Organization',
+            '@id': `${siteUrl}#organization`,
+            name: '30A Junk Removal',
+          },
+        }
+        return (
+          <script
+            key={`review-schema-${idx}`}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(standaloneReview),
+            }}
+          />
+        )
+      })}
 
       {/* Hero */}
       <section className="-mt-24 pt-32 pb-20 md:pt-36 md:pb-28 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white overflow-hidden relative">

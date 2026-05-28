@@ -9,17 +9,45 @@ export function ServiceSchema({
   url,
   serviceType = 'Junk Removal',
   priceRange = '$$',
+  lowPrice,
+  highPrice,
 }: {
   name: string
   description: string
   url: string
   serviceType?: string
   priceRange?: string
+  lowPrice?: number
+  highPrice?: number
 }) {
-  // serviceType + offers added per structured-data-schemas audit:
-  // without serviceType the Service schema does not differentiate
-  // between offerings, and offers/priceRange is recommended for
-  // Service rich result eligibility.
+  // serviceType + offers added per structured-data-schemas audit.
+  //
+  // Offer vs AggregateOffer (per schema.org guidance):
+  // - If lowPrice/highPrice are provided, emit AggregateOffer for
+  //   richer rich-result eligibility (Google may display the price
+  //   range directly in SERP).
+  // - Otherwise fall back to a single Offer with priceRange ("$$").
+  const hasPriceRange =
+    typeof lowPrice === 'number' && typeof highPrice === 'number'
+
+  const offerSchema = hasPriceRange
+    ? {
+        '@type': 'AggregateOffer',
+        priceCurrency: 'USD',
+        lowPrice: lowPrice.toString(),
+        highPrice: highPrice.toString(),
+        offerCount: 1,
+        availability: 'https://schema.org/InStock',
+        areaServed: 'Walton County, FL; Bay County, FL',
+      }
+    : {
+        '@type': 'Offer',
+        priceRange,
+        priceCurrency: 'USD',
+        availability: 'https://schema.org/InStock',
+        areaServed: 'Walton County, FL; Bay County, FL',
+      }
+
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
@@ -40,13 +68,7 @@ export function ServiceSchema({
         name: 'Florida',
       },
     })),
-    offers: {
-      '@type': 'Offer',
-      priceRange,
-      priceCurrency: 'USD',
-      availability: 'https://schema.org/InStock',
-      areaServed: 'Walton County, FL; Bay County, FL',
-    },
+    offers: offerSchema,
   }
 
   return (
