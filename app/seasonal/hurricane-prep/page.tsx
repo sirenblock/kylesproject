@@ -369,7 +369,7 @@ export default function HurricanePrepPage() {
               <div className="text-sm text-amber-200">Full hurricane prep playbook</div>
             </Link>
             <Link
-              href="/services/yard-debris"
+              href="/services#yard-debris"
               className="block p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors"
             >
               <div className="font-bold mb-1">Yard Debris Service</div>

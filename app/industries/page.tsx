@@ -43,10 +43,10 @@ const industries = [
     description:
       "30A and Panama City Beach are one of the densest short-term rental markets in Florida. The Saturday 10 AM checkout to 4 PM check-in window is the single most-demanding operational reality in our service area, and the preferred-vendor relationships we maintain with the area's major property management companies center on guaranteeing Saturday turnover capacity during peak season (March-August).",
     services: [
-      { name: 'Vacation Rental Junk Removal', href: '/services/vacation-rentals' },
-      { name: 'Mattress Removal', href: '/services/mattress-removal' },
-      { name: 'Furniture Removal', href: '/services/furniture-removal' },
-      { name: 'Appliance Removal', href: '/services/appliance-removal' },
+      { name: 'Vacation Rental Junk Removal', href: '/services#vacation-rentals' },
+      { name: 'Mattress Removal', href: '/services#mattress-removal' },
+      { name: 'Furniture Removal', href: '/services#furniture-removal' },
+      { name: 'Appliance Removal', href: '/services#appliance-removal' },
     ],
     relatedGuides: [
       { name: 'Property Manager Playbook', href: '/blog/property-manager-junk-removal-playbook-30a' },
@@ -65,10 +65,10 @@ const industries = [
     description:
       'Real estate transactions across 30A and PCB generate three distinct junk removal needs: pre-listing cleanouts that maximize sale price and reduce time-on-market, closing-day cleanouts for items sellers leave behind or buyers identify during final walkthrough, and REO foreclosure cleanouts for bank-owned properties being prepared for resale.',
     services: [
-      { name: 'Estate Cleanouts', href: '/services/estate-cleanouts' },
-      { name: 'Foreclosure Cleanout', href: '/services/foreclosure-cleanout' },
-      { name: 'One-Time Junk Removal', href: '/services/one-time-hauls' },
-      { name: 'Garage Cleanouts', href: '/services/garage-cleanouts' },
+      { name: 'Estate Cleanouts', href: '/services#estate-cleanouts' },
+      { name: 'Foreclosure Cleanout', href: '/services#foreclosure-cleanout' },
+      { name: 'One-Time Junk Removal', href: '/services#one-time-hauls' },
+      { name: 'Garage Cleanouts', href: '/services#garage-cleanouts' },
     ],
     relatedGuides: [
       { name: 'Move-In Move-Out Junk Removal Guide', href: '/blog/move-in-move-out-junk-removal-30a-pcb-complete-guide' },
@@ -87,10 +87,10 @@ const industries = [
     description:
       'Restaurants, cafes, and bars throughout the 30A corridor and Panama City Beach generate consistent disposal needs from kitchen equipment turnover, dining room furniture refreshes during seasonal updates, walk-in cooler and refrigeration replacement, and the periodic full-buildout cleanouts during ownership transitions or major remodels.',
     services: [
-      { name: 'Commercial Junk Removal', href: '/services/commercial-junk-removal' },
-      { name: 'Appliance Removal', href: '/services/appliance-removal' },
-      { name: 'Kitchen Demolition', href: '/services/kitchen-demolition' },
-      { name: 'Office Furniture Removal', href: '/services/office-furniture' },
+      { name: 'Commercial Junk Removal', href: '/services#commercial-junk-removal' },
+      { name: 'Appliance Removal', href: '/services#appliance-removal' },
+      { name: 'Kitchen Demolition', href: '/services#kitchen-demolition' },
+      { name: 'Office Furniture Removal', href: '/services#office-furniture' },
     ],
     relatedGuides: [
       { name: 'Refrigerator and Appliance Disposal Guide', href: '/blog/refrigerator-appliance-disposal-30a-pcb-complete-guide' },
@@ -108,10 +108,10 @@ const industries = [
     description:
       "Retail along 30A's tourist corridors (Seaside Town Center, Rosemary Beach Town Center, WaterColor Town Center) and Panama City Beach's Pier Park district drives ongoing disposal needs from seasonal merchandise rotation, display fixture replacement during brand refreshes, post-season inventory clearance, and the periodic full-store closeouts that come with leases ending or rebrands.",
     services: [
-      { name: 'Commercial Junk Removal', href: '/services/commercial-junk-removal' },
-      { name: 'Office Furniture Removal', href: '/services/office-furniture' },
-      { name: 'Construction Debris Removal', href: '/services/construction-debris' },
-      { name: 'Bulk Trash Pickup', href: '/services/bulk-trash-pickup' },
+      { name: 'Commercial Junk Removal', href: '/services#commercial-junk-removal' },
+      { name: 'Office Furniture Removal', href: '/services#office-furniture' },
+      { name: 'Construction Debris Removal', href: '/services#construction-debris' },
+      { name: 'Bulk Trash Pickup', href: '/services#bulk-trash-pickup' },
     ],
     relatedGuides: [],
     standardTerms:
@@ -127,11 +127,11 @@ const industries = [
     description:
       "30A and Panama City Beach's continuous renovation activity — driven by ownership turnovers, second-home upgrades, vacation rental refreshes, and ongoing Hurricane Michael rebuild work — keeps construction debris removal at consistent volume. We work directly with general contractors on multi-week projects with scheduled debris pickup, material sorting for scrap value recovery, and coordination with subcontractor schedules.",
     services: [
-      { name: 'Construction Debris Removal', href: '/services/construction-debris' },
-      { name: 'Bathroom Demolition', href: '/services/bathroom-demolition' },
-      { name: 'Kitchen Demolition', href: '/services/kitchen-demolition' },
-      { name: 'Carpet Removal', href: '/services/carpet-removal' },
-      { name: 'Deck Removal', href: '/services/deck-removal' },
+      { name: 'Construction Debris Removal', href: '/services#construction-debris' },
+      { name: 'Bathroom Demolition', href: '/services#bathroom-demolition' },
+      { name: 'Kitchen Demolition', href: '/services#kitchen-demolition' },
+      { name: 'Carpet Removal', href: '/services#carpet-removal' },
+      { name: 'Deck Removal', href: '/services#deck-removal' },
     ],
     relatedGuides: [
       { name: 'Construction Debris Removal Guide', href: '/blog/construction-debris-removal-what-to-know' },
@@ -151,9 +151,9 @@ const industries = [
     description:
       "Professional services offices throughout the 30A and PCB region periodically refresh office furniture, replace IT equipment, archive paper records, and occasionally handle complete relocations. We offer standard junk removal plus secure-disposal options for files, drives, and other items requiring certified destruction.",
     services: [
-      { name: 'Office Furniture Removal', href: '/services/office-furniture' },
-      { name: 'TV & Electronics Recycling', href: '/services/tv-electronics-recycling' },
-      { name: 'Commercial Junk Removal', href: '/services/commercial-junk-removal' },
+      { name: 'Office Furniture Removal', href: '/services#office-furniture' },
+      { name: 'TV & Electronics Recycling', href: '/services#tv-electronics-recycling' },
+      { name: 'Commercial Junk Removal', href: '/services#commercial-junk-removal' },
     ],
     relatedGuides: [],
     standardTerms:
@@ -169,9 +169,9 @@ const industries = [
     description:
       "Estate cleanouts following property owner death, downsizing transitions, or probate property liquidation involve more than standard disposal — they require sorting for items with potential resale value (vintage furniture, antiques, collectibles), donation routing for usable household goods (with tax-deduction receipts back to the estate), and respectful handling of personal property. We work with estate attorneys and probate administrators across 30A and PCB.",
     services: [
-      { name: 'Estate Cleanouts', href: '/services/estate-cleanouts' },
-      { name: 'Donation Pickup', href: '/services/donation-pickup' },
-      { name: 'Hoarder Cleanout', href: '/services/hoarder-cleanout' },
+      { name: 'Estate Cleanouts', href: '/services#estate-cleanouts' },
+      { name: 'Donation Pickup', href: '/services#donation-pickup' },
+      { name: 'Hoarder Cleanout', href: '/services#hoarder-cleanout' },
     ],
     relatedGuides: [
       { name: 'Estate Cleanout Services Guide', href: '/blog/estate-cleanout-services-30a-valuable-item-recovery' },

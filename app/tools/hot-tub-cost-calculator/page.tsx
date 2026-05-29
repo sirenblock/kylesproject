@@ -280,7 +280,7 @@ export default function HotTubCostCalculatorPage() {
               complete hot tub removal guide
             </Link>
             . The dedicated{' '}
-            <Link href="/services/hot-tub-removal" className="text-ocean-600 hover:underline font-medium">
+            <Link href="/services#hot-tub-removal" className="text-ocean-600 hover:underline font-medium">
               hot tub removal service
             </Link>{' '}
             page covers what&apos;s included.
@@ -322,7 +322,7 @@ export default function HotTubCostCalculatorPage() {
 
           <div className="mt-12 text-center">
             <Link
-              href="/services/hot-tub-removal"
+              href="/services#hot-tub-removal"
               className="inline-flex items-center gap-2 px-6 py-3 bg-ocean-600 text-white rounded-xl font-semibold hover:bg-ocean-700 transition-colors"
             >
               See Hot Tub Removal Service

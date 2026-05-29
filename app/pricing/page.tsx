@@ -194,7 +194,7 @@ export default function PricingPage() {
                   <CheckCircle className="w-5 h-5 text-seafoam-500 mt-0.5 shrink-0" />
                   <div>
                     <span className="font-semibold text-slate-800">Eco-Friendly Disposal</span>
-                    <p className="text-sm text-slate-600"><Link href="/services/estate-cleanouts" className="text-ocean-600 hover:underline font-medium">Proper disposal</Link> and <a href="https://www.epa.gov/recycle" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">recycling</a></p>
+                    <p className="text-sm text-slate-600"><Link href="/services#estate-cleanouts" className="text-ocean-600 hover:underline font-medium">Proper disposal</Link> and <a href="https://www.epa.gov/recycle" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">recycling</a></p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
@@ -230,7 +230,7 @@ export default function PricingPage() {
                 <h2 className="text-2xl font-bold text-slate-800">Construction Debris</h2>
               </div>
               <p className="text-slate-700 mb-6 leading-relaxed">
-                <Link href="/services/construction-debris" className="text-ocean-600 hover:underline font-semibold">Construction materials</Link> require custom quotes due to weight-based disposal fees. Renovating in <Link href="/service-areas/rosemary-beach" className="text-ocean-600 hover:underline font-medium">Rosemary Beach</Link> or <Link href="/service-areas/seaside" className="text-ocean-600 hover:underline font-medium">Seaside</Link>? Get your quote fast:
+                <Link href="/services#construction-debris" className="text-ocean-600 hover:underline font-semibold">Construction materials</Link> require custom quotes due to weight-based disposal fees. Renovating in <Link href="/service-areas#rosemary-beach" className="text-ocean-600 hover:underline font-medium">Rosemary Beach</Link> or <Link href="/service-areas#seaside" className="text-ocean-600 hover:underline font-medium">Seaside</Link>? Get your quote fast:
               </p>
               <div className="space-y-3 mb-6">
                 <a
@@ -322,7 +322,7 @@ export default function PricingPage() {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-ocean-100 mb-8">
-            We serve from <Link href="/service-areas/inlet-beach" className="text-white hover:text-seafoam-200 underline font-medium">Inlet Beach</Link> to <Link href="/service-areas/grayton-beach" className="text-white hover:text-seafoam-200 underline font-medium">Grayton Beach</Link> and across <Link href="/service-areas/panama-city-beach" className="text-white hover:text-seafoam-200 underline font-medium">Panama City Beach</Link>.
+            We serve from <Link href="/service-areas#inlet-beach" className="text-white hover:text-seafoam-200 underline font-medium">Inlet Beach</Link> to <Link href="/service-areas#grayton-beach" className="text-white hover:text-seafoam-200 underline font-medium">Grayton Beach</Link> and across <Link href="/service-areas#panama-city-beach" className="text-white hover:text-seafoam-200 underline font-medium">Panama City Beach</Link>.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

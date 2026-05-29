@@ -42,15 +42,15 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Yes! We offer same-day service based on availability. The earlier you call, the better chance we can fit you in. We serve all areas including{' '}
-            <Link href="/service-areas/santa-rosa-beach" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
+            <Link href="/service-areas#santa-rosa-beach" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               Santa Rosa Beach
             </Link>
             ,{' '}
-            <Link href="/service-areas/watercolor" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
+            <Link href="/service-areas#watercolor" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               WaterColor
             </Link>
             , and{' '}
-            <Link href="/service-areas/alys-beach" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
+            <Link href="/service-areas#alys-beach" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               Alys Beach
             </Link>
             . Text or call and we'll do our best to accommodate.
@@ -62,7 +62,7 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Not necessarily! As long as we can access the items (garage code, unlocked shed, etc.), we can handle the removal while you're away. We'll send before and after photos. This is especially convenient for{' '}
-            <Link href="/services/property-management" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
+            <Link href="/services#property-management" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               property managers
             </Link>
             {' '}and vacation rental turnovers.
@@ -86,11 +86,11 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Often same-day or next-day. We understand junk removal is often time-sensitive, especially for property turnovers. Whether you need{' '}
-            <Link href="/services/furniture-removal" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
+            <Link href="/services#furniture-removal" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               furniture removal
             </Link>
             {' '}or{' '}
-            <Link href="/services/appliance-removal" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
+            <Link href="/services#appliance-removal" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               appliance hauling
             </Link>
             , give us a call and we'll work to accommodate your schedule.
@@ -113,7 +113,7 @@ const faqCategories: FAQCategory[] = [
               disposal facilities
             </a>
             {' '}with weight-based fees. We price{' '}
-            <Link href="/services/construction-debris" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
+            <Link href="/services#construction-debris" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               construction debris
             </Link>
             {' '}jobs based on material type and volume to give you the most accurate quote.
@@ -137,11 +137,11 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Everything! Drywall, tile, flooring, cabinets, fixtures, lumber, concrete, brick, stone, roofing materials, and more. If it came from a renovation in{' '}
-            <Link href="/service-areas/blue-mountain-beach" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
+            <Link href="/service-areas#blue-mountain-beach" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               Blue Mountain Beach
             </Link>
             {' '}or{' '}
-            <Link href="/service-areas/seagrove-beach" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
+            <Link href="/service-areas#seagrove-beach" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               Seagrove Beach
             </Link>
             , we can haul it.
@@ -176,7 +176,7 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Yes! We offer preferred pricing and priority scheduling for{' '}
-            <Link href="/services/property-management" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
+            <Link href="/services#property-management" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               property managers
             </Link>
             {' '}with recurring needs. Whether it's monthly cleanouts or on-call service in{' '}
@@ -216,7 +216,7 @@ const faqCategories: FAQCategory[] = [
         a: (
           <>
             Yes! We sort items and donate usable goods on your behalf to local charities. You'll receive tax-deductible donation receipts for everything we donate. Learn more about our{' '}
-            <Link href="/services/estate-cleanouts" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
+            <Link href="/services#estate-cleanouts" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600 font-medium">
               estate cleanout services
             </Link>
             {' '}and donation process.

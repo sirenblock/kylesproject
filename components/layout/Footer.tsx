@@ -4,29 +4,29 @@ import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 import config from '@/lib/config'
 
 const services = [
-  { name: 'One-Time Hauls', href: '/services/one-time-hauls' },
-  { name: 'Construction Debris', href: '/services/construction-debris' },
-  { name: 'Estate Cleanouts', href: '/services/estate-cleanouts' },
-  { name: 'Furniture Removal', href: '/services/furniture-removal' },
-  { name: 'Appliance Removal', href: '/services/appliance-removal' },
-  { name: 'Hot Tub Removal', href: '/services/hot-tub-removal' },
-  { name: 'Garage Cleanouts', href: '/services/garage-cleanouts' },
-  { name: 'Yard Debris', href: '/services/yard-debris' },
-  { name: 'Same-Day Removal', href: '/services/same-day-junk-removal' },
-  { name: 'Commercial Removal', href: '/services/commercial-junk-removal' },
-  { name: 'Hurricane Debris', href: '/services/hurricane-debris' },
+  { name: 'One-Time Hauls', href: '/services#one-time-hauls' },
+  { name: 'Construction Debris', href: '/services#construction-debris' },
+  { name: 'Estate Cleanouts', href: '/services#estate-cleanouts' },
+  { name: 'Furniture Removal', href: '/services#furniture-removal' },
+  { name: 'Appliance Removal', href: '/services#appliance-removal' },
+  { name: 'Hot Tub Removal', href: '/services#hot-tub-removal' },
+  { name: 'Garage Cleanouts', href: '/services#garage-cleanouts' },
+  { name: 'Yard Debris', href: '/services#yard-debris' },
+  { name: 'Same-Day Removal', href: '/services#same-day-junk-removal' },
+  { name: 'Commercial Removal', href: '/services#commercial-junk-removal' },
+  { name: 'Hurricane Debris', href: '/services#hurricane-debris' },
   { name: 'All Services', href: '/services' },
 ]
 
 const areas = [
-  { name: 'Seaside', href: '/service-areas/seaside' },
-  { name: 'Rosemary Beach', href: '/service-areas/rosemary-beach' },
-  { name: 'Panama City Beach', href: '/service-areas/panama-city-beach' },
-  { name: 'Santa Rosa Beach', href: '/service-areas/santa-rosa-beach' },
-  { name: 'Miramar Beach', href: '/service-areas/miramar-beach' },
-  { name: 'Inlet Beach', href: '/service-areas/inlet-beach' },
-  { name: 'Walton County', href: '/service-areas/county/walton-county' },
-  { name: 'Bay County', href: '/service-areas/county/bay-county' },
+  { name: 'Seaside', href: '/service-areas#seaside' },
+  { name: 'Rosemary Beach', href: '/service-areas#rosemary-beach' },
+  { name: 'Panama City Beach', href: '/service-areas#panama-city-beach' },
+  { name: 'Santa Rosa Beach', href: '/service-areas#santa-rosa-beach' },
+  { name: 'Miramar Beach', href: '/service-areas#miramar-beach' },
+  { name: 'Inlet Beach', href: '/service-areas#inlet-beach' },
+  { name: 'Walton County', href: '/service-areas#walton-county' },
+  { name: 'Bay County', href: '/service-areas#bay-county' },
   { name: 'All Areas', href: '/service-areas' },
 ]
 

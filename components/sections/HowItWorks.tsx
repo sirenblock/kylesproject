@@ -40,7 +40,7 @@ const propertyManagerSteps = [
     description: (
       <>
         Book recurring or one-time pickups for{' '}
-        <Link href="/services/vacation-rentals" className="text-gold-600 underline decoration-gold-300 hover:decoration-gold-600">vacation rental turnovers</Link> around tenant schedules
+        <Link href="/services#vacation-rentals" className="text-gold-600 underline decoration-gold-300 hover:decoration-gold-600">vacation rental turnovers</Link> around tenant schedules
       </>
     ),
     icon: Calendar,
@@ -85,8 +85,8 @@ export function HowItWorks() {
             className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto"
           >
             Serving{' '}
-            <Link href="/service-areas/seaside" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600">Seaside</Link>,{' '}
-            <Link href="/service-areas/rosemary-beach" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600">Rosemary Beach</Link>, and{' '}
+            <Link href="/service-areas#seaside" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600">Seaside</Link>,{' '}
+            <Link href="/service-areas#rosemary-beach" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600">Rosemary Beach</Link>, and{' '}
             <Link href="/service-areas" className="text-ocean-600 underline decoration-ocean-300 hover:decoration-ocean-600">all 30A communities</Link>
           </p>
         </div>

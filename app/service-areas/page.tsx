@@ -1,363 +1,279 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
-import { MapPin, Check, Phone, ArrowRight, Clock, Truck, MessageCircle, Sparkles } from 'lucide-react'
+import {
+  Phone,
+  ArrowRight,
+  MapPin,
+  Star,
+  Clock,
+  ShieldCheck,
+} from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
-import CoverageMap from '@/components/ui/CoverageMap'
 import { LinksSection } from '@/components/seo/LinksSection'
 import { CollectionPageSchema } from '@/components/seo/PagedSchemas'
 import { BreadcrumbSchema } from '@/components/seo/StructuredData'
-import { getAllLocationSlugs } from '@/lib/locations'
+import { locations, getAllLocationSlugs } from '@/lib/locations'
+import { counties, getAllCountySlugs } from '@/lib/counties'
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo'
+
+// CONSOLIDATED /service-areas HUB
+// Per 2026-05-28 AI compliance audit: this single page replaces the
+// previous 27 templated /service-areas/[slug] pages + 2 county pages.
+// Each town/county renders as an anchor-linked section. Old URLs
+// 301 to /service-areas#[slug].
+//
+// The LocalBusiness > areaServed schema on the homepage already
+// declares all 27 cities to Google. This page now fulfills the
+// user-facing role without the per-town sibling-template risk.
 
 export const metadata: Metadata = {
   title: 'Service Areas',
-  description: 'Junk removal services for all 30A communities. Serving Seaside, Rosemary Beach, Alys Beach, WaterColor, Grayton Beach, Santa Rosa Beach, and more.',
+  description:
+    'Junk removal across 27 communities in 30A, PCB, Walton & Bay Counties — Seaside, Rosemary Beach, Alys Beach, WaterColor, Sandestin, and more.',
   alternates: {
     canonical: getCanonicalUrl('/service-areas'),
   },
 }
 
-const communities = [
-  {
-    name: 'Seaside',
-    slug: 'seaside',
-    description: 'The iconic planned community and birthplace of New Urbanism on 30A. We provide fast junk removal for vacation rentals and residential properties.',
-  },
-  {
-    name: 'Rosemary Beach',
-    slug: 'rosemary-beach',
-    description: 'European-inspired architecture with cobblestone streets and lush gardens. Our team handles estate cleanouts and property management services.',
-  },
-  {
-    name: 'Alys Beach',
-    slug: 'alys-beach',
-    description: 'Stunning white architecture influenced by Bermuda and Antigua styles. Specialized in upscale property cleanouts and furniture removal.',
-  },
-  {
-    name: 'WaterColor',
-    slug: 'watercolor',
-    description: 'Beautiful coastal community known for its beach club and Western Lake. Expert in construction debris removal and yard waste hauling.',
-  },
-  {
-    name: 'Grayton Beach',
-    slug: 'grayton-beach',
-    description: 'One of Florida\'s oldest beach communities with a charming, artistic vibe. Eco-friendly disposal and donation services available.',
-  },
-  {
-    name: 'Santa Rosa Beach',
-    slug: 'santa-rosa-beach',
-    description: 'The largest community on 30A with diverse neighborhoods and amenities. Full-service junk removal for all property types.',
-  },
-  {
-    name: 'Inlet Beach',
-    slug: 'inlet-beach',
-    description: 'Growing coastal community at the eastern end of 30A.',
-  },
-  {
-    name: 'Seacrest',
-    slug: 'seacrest',
-    description: 'Quiet, family-friendly beach community with beautiful dune lakes.',
-  },
-  {
-    name: 'Seagrove Beach',
-    slug: 'seagrove-beach',
-    description: 'One of the original beach communities on 30A with a relaxed atmosphere.',
-  },
-  {
-    name: 'Blue Mountain Beach',
-    slug: 'blue-mountain-beach',
-    description: 'Named for the distinctive blue lupine flowers that once covered the dunes.',
-  },
-  {
-    name: 'Panama City Beach',
-    slug: 'panama-city-beach',
-    description: 'Beautiful beaches and year-round destination at the eastern end of our service area.',
-  },
-  {
-    name: 'Miramar Beach',
-    slug: 'miramar-beach',
-    description: 'Popular beach community adjacent to 30A with resort properties and vacation rentals.',
-  },
-  {
-    name: 'Sandestin',
-    slug: 'sandestin',
-    description: 'Premier resort community with over 2,400 acres of condos, villas, and residential properties.',
-  },
-  {
-    name: 'Dune Allen Beach',
-    slug: 'dune-allen-beach',
-    description: 'Quiet beach community along 30A with vacation homes and stunning Gulf views.',
-  },
-  {
-    name: 'Point Washington',
-    slug: 'point-washington',
-    description: 'Inland community near Point Washington State Forest with larger lots and natural surroundings.',
-  },
-  {
-    name: 'WaterSound',
-    slug: 'watersound',
-    description: 'Upscale planned community with luxury homes, nature trails, and multiple neighborhoods.',
-  },
-  {
-    name: 'Seacrest Beach',
-    slug: 'seacrest-beach',
-    description: 'Vibrant beach community near Rosemary Beach known for vacation rentals and the iconic sky pool.',
-  },
-  {
-    name: 'Freeport',
-    slug: 'freeport',
-    description: 'Growing inland community in Walton County along the Choctawhatchee Bay.',
-  },
-  {
-    name: 'DeFuniak Springs',
-    slug: 'defuniak-springs',
-    description: 'Historic Walton County seat known for its perfectly round spring-fed lake.',
-  },
-  {
-    name: 'WaterSound Beach',
-    slug: 'watersound-beach',
-    description: 'Beachfront community at the eastern end of 30A with luxury rentals and Gulf access.',
-  },
-  {
-    name: 'Panama City',
-    slug: 'panama-city',
-    description: 'Bay County seat with diverse neighborhoods, revitalized downtown, and growing commercial district.',
-  },
-  {
-    name: 'Lynn Haven',
-    slug: 'lynn-haven',
-    description: 'Family-friendly suburb north of Panama City with excellent schools and parks.',
-  },
-  {
-    name: 'Callaway',
-    slug: 'callaway',
-    description: 'Residential community east of Panama City with small-town atmosphere.',
-  },
-  {
-    name: 'Springfield',
-    slug: 'springfield',
-    description: 'Small Bay County city undergoing revitalization with new construction and community growth.',
-  },
-  {
-    name: 'Parker',
-    slug: 'parker',
-    description: 'Small waterfront city on St. Andrew Bay with quiet residential neighborhoods.',
-  },
-  {
-    name: 'Laguna Beach',
-    slug: 'laguna-beach',
-    description: 'Unincorporated beach community between Panama City Beach and the 30A corridor.',
-  },
-  {
-    name: 'Mexico Beach',
-    slug: 'mexico-beach',
-    description: 'Small beach town actively rebuilding after Hurricane Michael with strong community spirit.',
-  },
-]
+const slugs = getAllLocationSlugs()
+const locs = slugs.map((s) => locations[s]).filter(Boolean)
+const allCounties = getAllCountySlugs()
+  .map((slug) => counties[slug])
+  .filter(Boolean)
 
 export default function ServiceAreasPage() {
   const internalLinks = getContextualLinks('core', '/service-areas')
   const externalLinks = getExternalLinks(5)
-  const locationCount = getAllLocationSlugs().length
 
   return (
-    <main className="min-h-screen">
-      <CollectionPageSchema
-        name="Service Areas - 30A and Panama City Beach"
-        description="Junk removal service areas across 30A and Panama City Beach, covering 27 communities throughout Walton and Bay Counties in Northwest Florida -- from Inlet Beach on the east to the Walton County line on the west."
-        url="/service-areas"
-        numberOfItems={locationCount}
-      />
+    <main className="bg-white">
       <BreadcrumbSchema
         items={[
-          { name: 'Home', url: '/' },
-          { name: 'Service Areas', url: '/service-areas' },
+          { name: 'Home', url: 'https://www.30ajunkremoval.com' },
+          { name: 'Service Areas', url: 'https://www.30ajunkremoval.com/service-areas' },
         ]}
       />
+      <CollectionPageSchema
+        name="30A Junk Removal — Service Areas"
+        description="27 communities across 30A, Panama City Beach, Walton & Bay Counties."
+        url="/service-areas"
+        numberOfItems={locs.length + allCounties.length}
+      />
+
       {/* Hero */}
-      <section className="relative -mt-24 pt-32 pb-20 md:pt-36 md:pb-28 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white overflow-hidden">
-        {/* Background decoration */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-0 right-1/4 w-96 h-96 bg-seafoam-400/10 rounded-full blur-3xl" />
-          <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-ocean-400/10 rounded-full blur-3xl" />
-        </div>
-
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm text-white/90 text-sm font-medium mb-6 border border-white/10">
-              <MapPin className="w-4 h-4" />
-              Serving All 30A Communities
-            </div>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
-              We Serve the Entire 30A Corridor
-            </h1>
-            <p className="text-xl text-ocean-100 mb-8">
-              From <Link href="/service-areas/inlet-beach" className="text-white hover:text-seafoam-200 underline font-medium">Inlet Beach</Link> to <Link href="/service-areas/panama-city-beach" className="text-white hover:text-seafoam-200 underline font-medium">Panama City Beach</Link>, we provide professional <Link href="/services" className="text-white hover:text-seafoam-200 underline font-medium">junk removal services</Link> to all coastal communities.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href={`tel:${PHONE_NUMBER}`}
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-ocean-600 rounded-xl font-bold hover:bg-sand-50 transition-colors shadow-lg"
-              >
-                <Phone className="w-5 h-5" />
-                Call {FORMATTED_PHONE}
-              </a>
-              <a
-                href={`sms:${PHONE_NUMBER}`}
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white text-white rounded-xl font-bold hover:bg-white/10 transition-colors"
-              >
-                <MessageCircle className="w-5 h-5" />
-                Text for Quote
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Interactive Coverage Map */}
-      <section className="py-16 bg-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-ocean-100 text-ocean-700 text-sm font-medium mb-4">
-              <Sparkles className="w-4 h-4" />
-              Interactive Map
-            </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 mb-4">Our Coverage Area</h2>
-            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              We serve the entire 30A corridor and surrounding areas, including <Link href="/service-areas/seaside" className="text-ocean-600 hover:underline font-medium">Seaside</Link>, <Link href="/service-areas/watercolor" className="text-ocean-600 hover:underline font-medium">WaterColor</Link>, and <Link href="/service-areas/grayton-beach" className="text-ocean-600 hover:underline font-medium">Grayton Beach</Link>. Click on any marker to learn more.
-            </p>
-          </div>
-
-          <div className="relative">
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-ocean-400 via-seafoam-400 to-ocean-400 rounded-3xl opacity-20 blur-sm" />
-            <div className="relative bg-white rounded-2xl shadow-xl overflow-hidden border border-sand-100">
-              <CoverageMap />
-            </div>
-          </div>
-
-          <div className="mt-6 text-center">
-            <p className="text-sm text-slate-600 flex items-center justify-center gap-2">
-              <MapPin className="w-4 h-4" />
-              Click on location markers for details and directions
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Key Benefits */}
-      <section className="py-12 bg-white border-b border-sand-200">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-6">
-            <div className="text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-ocean-100 text-ocean-600 mb-3">
-                <MapPin className="w-6 h-6" />
-              </div>
-              <h3 className="font-semibold text-slate-800 mb-1">34 Communities</h3>
-              <p className="text-sm text-slate-600">Full coverage across 30A</p>
-            </div>
-            <div className="text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-seafoam-100 text-seafoam-600 mb-3">
-                <Clock className="w-6 h-6" />
-              </div>
-              <h3 className="font-semibold text-slate-800 mb-1">Same-Day Service</h3>
-              <p className="text-sm text-slate-600">Fast response across all areas</p>
-            </div>
-            <div className="text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-ocean-100 text-ocean-600 mb-3">
-                <Truck className="w-6 h-6" />
-              </div>
-              <h3 className="font-semibold text-slate-800 mb-1">Local Team</h3>
-              <p className="text-sm text-slate-600">Familiar with every neighborhood</p>
-            </div>
-            <div className="text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-seafoam-100 text-seafoam-600 mb-3">
-                <Check className="w-6 h-6" />
-              </div>
-              <h3 className="font-semibold text-slate-800 mb-1">Trusted Service</h3>
-              <p className="text-sm text-slate-600">Rated highly across 30A</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Communities Grid */}
-      <section className="py-20 bg-gradient-to-b from-white to-sand-50">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 mb-4">
-              Communities We Serve
-            </h2>
-            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Our professional team serves the entire <a href="https://www.emeraldcoastfl.com/" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">Emerald Coast</a> region with reliable <Link href="/services/estate-cleanouts" className="text-ocean-600 hover:underline font-medium">estate cleanout</Link>, <Link href="/services/yard-debris" className="text-ocean-600 hover:underline font-medium">yard waste removal</Link>, and <Link href="/services/hot-tub-removal" className="text-ocean-600 hover:underline font-medium">hot tub disposal</Link> services.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {communities.map((community, index) => (
-              <Link
-                key={community.slug}
-                href={`/service-areas/${community.slug}`}
-                className="group relative bg-white rounded-2xl p-6 border-2 border-sand-200 hover:border-ocean-400 shadow-sm hover:shadow-xl transition-all duration-300"
-              >
-                {/* Gradient accent on hover */}
-                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-ocean-50 to-seafoam-50 opacity-0 group-hover:opacity-100 transition-opacity -z-10" />
-
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-ocean-500 to-ocean-600 text-white flex items-center justify-center shrink-0 shadow-md group-hover:scale-110 transition-transform">
-                    <MapPin className="w-6 h-6" />
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-lg font-bold text-slate-800 group-hover:text-ocean-600 transition-colors mb-2">
-                      {community.name}
-                    </h3>
-                    <p className="text-sm text-slate-600 leading-relaxed">{community.description}</p>
-                    <div className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-ocean-600 opacity-0 group-hover:opacity-100 transition-opacity">
-                      View Details
-                      <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-
-          <div className="mt-12 text-center">
-            <p className="text-slate-600 mb-4">
-              We follow <a href="https://www.epa.gov/hw/household-hazardous-waste-hhw" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">EPA guidelines</a> for safe disposal and partner with local charities like <a href="https://www.goodwillnwfl.org/" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">Goodwill Northwest Florida</a> for donation items.
-            </p>
-            <Link
-              href="/pricing"
-              className="inline-flex items-center gap-2 text-ocean-600 hover:text-ocean-700 font-semibold"
-            >
-              Check our transparent pricing
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-ocean-600 to-ocean-700 text-white">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Not Sure If We Serve Your Area?
-          </h2>
-          <p className="text-xl text-ocean-100 mb-8">
-            Give us a call! We're happy to help and may be able to accommodate areas outside our typical service zone. Whether you're in <Link href="/service-areas/inlet-beach" className="text-white hover:text-seafoam-200 underline font-medium">Inlet Beach</Link>, <Link href="/service-areas/seagrove-beach" className="text-white hover:text-seafoam-200 underline font-medium">Seagrove Beach</Link>, or nearby communities, our team is ready to assist with all your <Link href="/services" className="text-white hover:text-seafoam-200 underline font-medium">junk removal</Link> needs.
+      <section className="-mt-24 pt-32 pb-16 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-900 text-white">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+          <nav className="text-sm text-ocean-200 mb-4">
+            <Link href="/" className="hover:text-white">Home</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white">Service Areas</span>
+          </nav>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
+            Where We Serve Across 30A &amp; PCB
+          </h1>
+          <p className="text-xl text-ocean-100 max-w-3xl mb-6 leading-relaxed">
+            {locs.length} communities across Walton &amp; Bay Counties. Same-day junk removal available throughout the entire 30A corridor and Emerald Coast.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-wrap gap-3 mb-6">
             <a
               href={`tel:${PHONE_NUMBER}`}
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-ocean-600 rounded-xl font-bold hover:bg-sand-50 transition-colors shadow-lg"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-gold-500 text-slate-900 rounded-xl font-bold hover:bg-gold-400 transition-colors shadow-md"
             >
               <Phone className="w-5 h-5" />
-              {FORMATTED_PHONE}
+              Call {FORMATTED_PHONE}
             </a>
             <Link
-              href="/#quote"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white text-white rounded-xl font-bold hover:bg-white/10 transition-colors"
+              href="/contact"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-white text-ocean-700 rounded-xl font-bold hover:bg-sand-50 transition-colors shadow-md"
             >
-              Get Instant Quote
+              Text for a Quote
+              <ArrowRight className="w-5 h-5" />
+            </Link>
+          </div>
+          <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm text-ocean-200">
+            <span className="inline-flex items-center gap-1.5">
+              <Star className="w-4 h-4 text-gold-400 fill-gold-400" />
+              4.9★ · 127+ Reviews
+            </span>
+            <span className="inline-flex items-center gap-1.5">
+              <Clock className="w-4 h-4 text-emerald-400" />
+              Same-Day Service
+            </span>
+            <span className="inline-flex items-center gap-1.5">
+              <ShieldCheck className="w-4 h-4 text-seafoam-300" />
+              Licensed &amp; Insured
+            </span>
+          </div>
+        </div>
+      </section>
+
+      {/* Jump-to navigation */}
+      <section className="py-10 bg-slate-50 border-b border-slate-200 sticky top-0 z-10">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-sm font-bold uppercase tracking-wide text-slate-600 mb-3">
+            Jump to a community ({locs.length})
+          </h2>
+          <div className="flex flex-wrap gap-2 mb-3">
+            {locs.map((loc) => (
+              <a
+                key={loc.slug}
+                href={`#${loc.slug}`}
+                className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-sm text-slate-700 hover:border-ocean-400 hover:text-ocean-700 transition-colors"
+              >
+                {loc.name}
+              </a>
+            ))}
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {allCounties.map((c) => (
+              <a
+                key={c.slug}
+                href={`#${c.slug}`}
+                className="px-3 py-1.5 rounded-full bg-ocean-50 border border-ocean-200 text-sm font-semibold text-ocean-700 hover:bg-ocean-100 transition-colors"
+              >
+                {c.name}
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Counties */}
+      <section className="py-12 md:py-16 bg-slate-50">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-3">
+            Counties We Cover
+          </h2>
+          <p className="text-lg text-slate-600 mb-8">
+            We operate across both Walton County and Bay County in northwest Florida&apos;s Panhandle.
+          </p>
+          <div className="grid md:grid-cols-2 gap-6">
+            {allCounties.map((c) => (
+              <article
+                key={c.slug}
+                id={c.slug}
+                className="scroll-mt-24 bg-white rounded-2xl border-2 border-ocean-200 p-7"
+              >
+                <div className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wide text-ocean-700 mb-2">
+                  <MapPin className="w-3.5 h-3.5" />
+                  County Hub
+                </div>
+                <h3 className="text-2xl font-bold text-slate-900 mb-3">
+                  {c.name}, {c.state}
+                </h3>
+                <p className="text-slate-700 leading-relaxed mb-3">
+                  {c.description}
+                </p>
+                <div className="text-sm text-slate-600 mb-3">
+                  <span className="font-semibold">Cities we serve:</span>{' '}
+                  {c.cities.slice(0, 6).join(', ')}
+                  {c.cities.length > 6 ? `, +${c.cities.length - 6} more` : ''}
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Each community as anchor section */}
+      <section className="py-12 md:py-16">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-3">
+            Communities ({locs.length})
+          </h2>
+          <p className="text-lg text-slate-600 mb-10">
+            Tap any community below to see what makes our service work in that specific town.
+          </p>
+          <div className="space-y-12">
+            {locs.map((loc, idx) => (
+              <article
+                key={loc.slug}
+                id={loc.slug}
+                className="scroll-mt-24 border-t-2 border-slate-200 pt-10 first:border-t-0 first:pt-0"
+              >
+                <div className="grid md:grid-cols-[1fr_280px] gap-6 mb-4">
+                  <div>
+                    <div className="text-xs font-bold uppercase tracking-wide text-ocean-600 mb-2">
+                      Community {idx + 1} of {locs.length}
+                    </div>
+                    <h3 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2">
+                      {loc.name}, FL
+                    </h3>
+                    <p className="text-base text-slate-700 leading-relaxed">
+                      {loc.description}
+                    </p>
+                  </div>
+                  <aside className="bg-gradient-to-br from-ocean-50 to-seafoam-50 border border-ocean-200 rounded-2xl p-5 text-sm">
+                    <div className="font-semibold text-ocean-700 uppercase tracking-wide text-xs mb-2">
+                      Quick Facts
+                    </div>
+                    <dl className="space-y-1.5 text-slate-700">
+                      <div>
+                        <dt className="inline text-slate-500">County: </dt>
+                        <dd className="inline font-medium">{loc.county}</dd>
+                      </div>
+                      <div>
+                        <dt className="inline text-slate-500">ZIP{loc.zipCodes.length > 1 ? 's' : ''}: </dt>
+                        <dd className="inline font-medium">{loc.zipCodes.join(', ')}</dd>
+                      </div>
+                      <div>
+                        <dt className="inline text-slate-500">Area code: </dt>
+                        <dd className="inline font-medium">{loc.areaCode}</dd>
+                      </div>
+                    </dl>
+                    <a
+                      href={`tel:${PHONE_NUMBER}`}
+                      className="block w-full text-center mt-4 px-4 py-2.5 bg-ocean-600 text-white rounded-lg font-semibold hover:bg-ocean-700 transition-colors"
+                    >
+                      Call for {loc.name}
+                    </a>
+                  </aside>
+                </div>
+
+                {/* Landmarks */}
+                {loc.landmarks && loc.landmarks.length > 0 && (
+                  <div className="text-sm text-slate-600 mb-3">
+                    <span className="font-semibold text-slate-700">Landmarks:</span>{' '}
+                    {loc.landmarks.slice(0, 5).join(' · ')}
+                  </div>
+                )}
+
+                {/* HOA considerations (only when notable) */}
+                {loc.hoaConsiderations && (
+                  <div className="text-sm text-slate-700 bg-amber-50 border border-amber-200 rounded-lg p-3">
+                    <span className="font-semibold">HOA notes:</span>{' '}
+                    {loc.hoaConsiderations.slice(0, 220)}
+                    {loc.hoaConsiderations.length > 220 ? '...' : ''}
+                  </div>
+                )}
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Bottom CTA */}
+      <section className="py-16 md:py-20 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-900 text-white">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Don&apos;t see your town?
+          </h2>
+          <p className="text-xl text-ocean-100 mb-8">
+            We serve all of Walton &amp; Bay County. Call or text and we&apos;ll confirm coverage.
+          </p>
+          <div className="flex flex-wrap gap-3 justify-center">
+            <a
+              href={`tel:${PHONE_NUMBER}`}
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-gold-500 text-slate-900 rounded-xl font-bold hover:bg-gold-400 transition-colors shadow-md"
+            >
+              <Phone className="w-5 h-5" />
+              Call {FORMATTED_PHONE}
+            </a>
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-white text-ocean-700 rounded-xl font-bold hover:bg-sand-50 transition-colors shadow-md"
+            >
+              Text for a Quote
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>

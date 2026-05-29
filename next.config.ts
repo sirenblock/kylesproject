@@ -60,22 +60,95 @@ const nextConfig: NextConfig = {
     // shared URLs in social posts, AI chat citations, prior crawls) may
     // still hit these so we 301 them for equity recovery.
     const brokenServiceRedirects: Array<{ source: string; destination: string }> = [
-      { source: '/services/residential', destination: '/services/one-time-hauls' },
-      { source: '/services/commercial', destination: '/services/commercial-junk-removal' },
-      { source: '/services/construction', destination: '/services/construction-debris' },
-      { source: '/services/construction-debris-removal', destination: '/services/construction-debris' },
-      { source: '/services/property-management-junk-removal', destination: '/services/property-management' },
+      // These slugs previously pointed to non-existent service routes.
+      // Now all /services/* slugs consolidate to /services anchor sections.
+      { source: '/services/residential', destination: '/services#one-time-hauls' },
+      { source: '/services/commercial', destination: '/services#commercial-junk-removal' },
+      { source: '/services/construction', destination: '/services#construction-debris' },
+      { source: '/services/construction-debris-removal', destination: '/services#construction-debris' },
+      { source: '/services/property-management-junk-removal', destination: '/services#property-management' },
+    ]
+
+    // CONSOLIDATION REDIRECTS (2026-05-28 AI compliance audit Phase 1):
+    // 31 templated /services/[name] pages consolidated to /services
+    // hub with anchor sections. Each old URL 308s to /services#[slug].
+    const serviceSlugs = [
+      'appliance-removal', 'attic-cleanout', 'bathroom-demolition',
+      'bulk-trash-pickup', 'carpet-removal', 'commercial-junk-removal',
+      'concrete-removal', 'construction-debris', 'deck-removal',
+      'donation-pickup', 'estate-cleanouts', 'exercise-equipment',
+      'fence-removal', 'foreclosure-cleanout', 'furniture-removal',
+      'garage-cleanouts', 'hoarder-cleanout', 'hot-tub-removal',
+      'hurricane-debris', 'kitchen-demolition', 'mattress-removal',
+      'office-furniture', 'one-time-hauls', 'piano-removal',
+      'property-management', 'same-day-junk-removal', 'shed-demolition',
+      'storage-unit-cleanout', 'tv-electronics-recycling',
+      'vacation-rentals', 'yard-debris',
+    ]
+    const serviceConsolidationRedirects = serviceSlugs.map((slug) => ({
+      source: `/services/${slug}`,
+      destination: `/services#${slug}`,
+      permanent: true,
+    }))
+
+    // 27 templated /service-areas/[town] pages consolidated to
+    // /service-areas hub with anchor sections per town.
+    const locationSlugs = [
+      'seaside', 'rosemary-beach', 'alys-beach', 'watercolor',
+      'grayton-beach', 'santa-rosa-beach', 'inlet-beach', 'seacrest',
+      'seagrove-beach', 'blue-mountain-beach', 'panama-city-beach',
+      'miramar-beach', 'sandestin', 'dune-allen-beach', 'point-washington',
+      'watersound', 'seacrest-beach', 'freeport', 'defuniak-springs',
+      'watersound-beach', 'panama-city', 'lynn-haven', 'callaway',
+      'springfield', 'parker', 'laguna-beach', 'mexico-beach',
+    ]
+    const locationConsolidationRedirects = locationSlugs.map((slug) => ({
+      source: `/service-areas/${slug}`,
+      destination: `/service-areas#${slug}`,
+      permanent: true,
+    }))
+
+    // 2 templated /service-areas/county/[county] pages consolidated.
+    const countyConsolidationRedirects = [
+      { source: '/service-areas/county/walton-county', destination: '/service-areas#walton-county' },
+      { source: '/service-areas/county/bay-county', destination: '/service-areas#bay-county' },
+    ]
+
+    // 14 templated /blog/[location]-junk-removal-complete-guide posts
+    // consolidated to /service-areas#[town] anchors. Plus the
+    // /blog/move-in-move-out post (templated location-table style).
+    const locationBlogRedirects: Array<{ source: string; destination: string }> = [
+      { source: '/blog/alys-beach-junk-removal-complete-guide', destination: '/service-areas#alys-beach' },
+      { source: '/blog/blue-mountain-beach-junk-removal-complete-guide', destination: '/service-areas#blue-mountain-beach' },
+      { source: '/blog/grayton-beach-junk-removal-complete-guide', destination: '/service-areas#grayton-beach' },
+      { source: '/blog/inlet-beach-junk-removal-complete-guide', destination: '/service-areas#inlet-beach' },
+      { source: '/blog/lynn-haven-junk-removal-complete-guide', destination: '/service-areas#lynn-haven' },
+      { source: '/blog/mexico-beach-junk-removal-complete-guide', destination: '/service-areas#mexico-beach' },
+      { source: '/blog/miramar-beach-junk-removal-complete-guide', destination: '/service-areas#miramar-beach' },
+      { source: '/blog/panama-city-beach-junk-removal-complete-guide', destination: '/service-areas#panama-city-beach' },
+      { source: '/blog/rosemary-beach-junk-removal-complete-guide', destination: '/service-areas#rosemary-beach' },
+      { source: '/blog/sandestin-junk-removal-resort-community-guide', destination: '/service-areas#sandestin' },
+      { source: '/blog/santa-rosa-beach-junk-removal-complete-guide', destination: '/service-areas#santa-rosa-beach' },
+      { source: '/blog/seaside-florida-junk-removal-complete-guide', destination: '/service-areas#seaside' },
+      { source: '/blog/watercolor-junk-removal-complete-guide', destination: '/service-areas#watercolor' },
+      { source: '/blog/watersound-junk-removal-complete-guide', destination: '/service-areas#watersound' },
+      { source: '/blog/move-in-move-out-junk-removal-30a-pcb-complete-guide', destination: '/blog' },
     ]
 
     return [
       // Okaloosa city pages -> nearest still-serviced neighbor (no soft-404)
       ...okaloosaRedirects.map((r) => ({ ...r, permanent: true })),
-      // Broken service slugs -> canonical service pages (audit 2026-05-27)
+      // Broken service slugs -> canonical /services anchors
       ...brokenServiceRedirects.map((r) => ({ ...r, permanent: true })),
-      // Okaloosa County hub -> Walton County hub (closest peer)
+      // Phase 1 consolidation per AI compliance audit (2026-05-28)
+      ...serviceConsolidationRedirects,
+      ...locationConsolidationRedirects,
+      ...countyConsolidationRedirects.map((r) => ({ ...r, permanent: true })),
+      ...locationBlogRedirects.map((r) => ({ ...r, permanent: true })),
+      // Legacy Okaloosa County -> Walton County hub anchor
       {
         source: '/service-areas/county/okaloosa-county',
-        destination: '/service-areas/county/walton-county',
+        destination: '/service-areas#walton-county',
         permanent: true,
       },
       {

@@ -25,18 +25,18 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     content: `
 ## Professional One-Time Junk Removal on 30A
 
-Whether you're tackling a spring cleaning project in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, clearing out a spare room in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, or need to <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">remove unwanted furniture</a>, our one-time junk removal service provides the flexibility and convenience you need without any long-term commitments. We serve all <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A communities</a> with same-day availability.
+Whether you're tackling a spring cleaning project in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, clearing out a spare room in <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, or need to <a href="/services#furniture-removal" class="text-ocean-600 hover:underline font-medium">remove unwanted furniture</a>, our one-time junk removal service provides the flexibility and convenience you need without any long-term commitments. We serve all <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A communities</a> with same-day availability.
 
 ### When You Need One-Time Removal
 
 **Common Scenarios:**
 - Decluttering before selling your home
-- <a href="/services/garage-cleanouts" class="text-ocean-600 hover:underline font-medium">Clearing out a garage</a> or storage unit
+- <a href="/services#garage-cleanouts" class="text-ocean-600 hover:underline font-medium">Clearing out a garage</a> or storage unit
 - Removing old furniture after purchasing new pieces
-- <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">Post-renovation cleanup</a>
-- <a href="/services/estate-cleanouts" class="text-ocean-600 hover:underline font-medium">Estate sales and downsizing</a>
+- <a href="/services#construction-debris" class="text-ocean-600 hover:underline font-medium">Post-renovation cleanup</a>
+- <a href="/services#estate-cleanouts" class="text-ocean-600 hover:underline font-medium">Estate sales and downsizing</a>
 - Moving and relocation prep
-- Seasonal property maintenance for <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rentals</a>
+- Seasonal property maintenance for <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rentals</a>
 
 ### How It Works
 
@@ -50,7 +50,7 @@ Our professional, uniformed team arrives in a clearly marked truck during your s
 Our team handles all lifting, loading, and cleanup. You don't lift a finger. We protect your property during removal and sweep up when we're done.
 
 **4. Eco-Friendly Disposal**
-We <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donate usable items</a> to <a href="https://www.goodwill.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">local charities like Goodwill</a>, recycle materials when possible following <a href="https://www.epa.gov/recycle" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA recycling guidelines</a>, and dispose of the rest responsibly at licensed facilities. Check our <a href="/pricing" class="text-ocean-600 hover:underline font-medium">transparent pricing</a> to see how we keep costs fair while prioritizing environmental responsibility.
+We <a href="/services#donation-pickup" class="text-ocean-600 hover:underline font-medium">donate usable items</a> to <a href="https://www.goodwill.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">local charities like Goodwill</a>, recycle materials when possible following <a href="https://www.epa.gov/recycle" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA recycling guidelines</a>, and dispose of the rest responsibly at licensed facilities. Check our <a href="/pricing" class="text-ocean-600 hover:underline font-medium">transparent pricing</a> to see how we keep costs fair while prioritizing environmental responsibility.
 
 ### What We Remove
 
@@ -62,7 +62,7 @@ We <a href="/services/donation-pickup" class="text-ocean-600 hover:underline fon
 - Desks and office furniture
 
 **Appliances:**
-- <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">Refrigerators and freezers</a>
+- <a href="/services#appliance-removal" class="text-ocean-600 hover:underline font-medium">Refrigerators and freezers</a>
 - Washers and dryers
 - Dishwashers and stoves
 - Water heaters
@@ -71,11 +71,11 @@ We <a href="/services/donation-pickup" class="text-ocean-600 hover:underline fon
 **Other Items:**
 - Electronics and e-waste
 - Exercise equipment
-- <a href="/services/hot-tub-removal" class="text-ocean-600 hover:underline font-medium">Hot tubs and spas</a>
+- <a href="/services#hot-tub-removal" class="text-ocean-600 hover:underline font-medium">Hot tubs and spas</a>
 - Pianos and organs
-- <a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">Yard debris and branches</a>
+- <a href="/services#yard-debris" class="text-ocean-600 hover:underline font-medium">Yard debris and branches</a>
 
-Whether you're in <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, or <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, we provide fast, professional service. For more information about proper disposal, visit <a href="https://www.visitflorida.com/en-us/cities/south-walton.html" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">South Walton's official tourism page</a>.
+Whether you're in <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, or <a href="/service-areas#santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, we provide fast, professional service. For more information about proper disposal, visit <a href="https://www.visitflorida.com/en-us/cities/south-walton.html" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">South Walton's official tourism page</a>.
 
 ### Pricing Transparency Explained
 
@@ -89,7 +89,7 @@ Our one-time junk removal pricing is volume-based — you pay for the space your
 **Hidden costs to watch for at other services:**
 - **"Disposal fees" surcharged separately.** Some services quote a base rate then add disposal/dump fees on top. Our pricing is all-inclusive.
 - **"Stairs" or "long carry" surcharges.** Some services charge extra for items beyond a short curbside walk. Our pricing accounts for typical residential access without surcharges.
-- **Refrigerant recovery fees on appliances.** EPA Section 608 requires certified refrigerant recovery before disposing of refrigerators, freezers, and AC units. Some services pass this fee through separately ($25-$50 per appliance); we include it in <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">our appliance removal pricing</a>.
+- **Refrigerant recovery fees on appliances.** EPA Section 608 requires certified refrigerant recovery before disposing of refrigerators, freezers, and AC units. Some services pass this fee through separately ($25-$50 per appliance); we include it in <a href="/services#appliance-removal" class="text-ocean-600 hover:underline font-medium">our appliance removal pricing</a>.
 
 For specific item-type cost breakdowns, see our <a href="/blog/junk-removal-cost-30a-2026-pricing-guide" class="text-ocean-600 hover:underline font-medium">2026 pricing deep dive</a>, the <a href="/blog/hot-tub-removal-cost-30a-pricing-breakdown" class="text-ocean-600 hover:underline font-medium">hot tub removal cost breakdown</a>, and the <a href="/blog/refrigerator-appliance-disposal-30a-pcb-complete-guide" class="text-ocean-600 hover:underline font-medium">appliance disposal cost guide</a>.
 
@@ -164,7 +164,7 @@ We've handled thousands of one-time junk removal jobs across 30A and Panama City
     content: `
 ## Professional Construction Debris Removal on 30A
 
-Renovating your 30A beach property is an investment in your home's value and your enjoyment. But construction projects generate significant debris that needs professional handling. From kitchen remodels in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> to full home renovations in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, we provide efficient, cost-effective construction debris removal that keeps your project on schedule. We also serve contractors and homeowners in <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> and throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a>.
+Renovating your 30A beach property is an investment in your home's value and your enjoyment. But construction projects generate significant debris that needs professional handling. From kitchen remodels in <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> to full home renovations in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, we provide efficient, cost-effective construction debris removal that keeps your project on schedule. We also serve contractors and homeowners in <a href="/service-areas#watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> and throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a>.
 
 ### When You Need Construction Debris Removal
 
@@ -193,13 +193,13 @@ Renovating your 30A beach property is an investment in your home's value and you
 
 **Unique Coastal Considerations:**
 
-**HOA Coordination** - Communities like <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> have strict guidelines for construction debris staging and removal. We understand these requirements and coordinate accordingly. For general construction waste guidelines, refer to <a href="https://www.epa.gov/smm/sustainable-management-construction-and-demolition-materials" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA's construction waste management resources</a>.
+**HOA Coordination** - Communities like <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> have strict guidelines for construction debris staging and removal. We understand these requirements and coordinate accordingly. For general construction waste guidelines, refer to <a href="https://www.epa.gov/smm/sustainable-management-construction-and-demolition-materials" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA's construction waste management resources</a>.
 
 **Property Value Protection** - With 30A properties valued at $500K to $10M+, protecting surrounding surfaces during debris removal is critical. We use protective measures and careful handling.
 
-**Access Challenges** - Narrow streets in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, cobblestone in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and elevated properties require experienced navigation and planning.
+**Access Challenges** - Narrow streets in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, cobblestone in <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and elevated properties require experienced navigation and planning.
 
-**Vacation Rental Timing** - Many renovations happen during off-season gaps. We work quickly to ensure <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental properties</a> are guest-ready when bookings resume. Learn more about the <a href="https://www.visitflorida.com/en-us/cities/south-walton.html" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">30A vacation rental market</a>.
+**Vacation Rental Timing** - Many renovations happen during off-season gaps. We work quickly to ensure <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental properties</a> are guest-ready when bookings resume. Learn more about the <a href="https://www.visitflorida.com/en-us/cities/south-walton.html" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">30A vacation rental market</a>.
 
 **Salt Air Environment** - Coastal humidity and salt air accelerate material deterioration, making renovation debris heavier and more challenging to handle than inland projects.
 
@@ -223,7 +223,7 @@ Construction materials are significantly heavier than household items. A truck f
 - **Material type** - Mixed debris vs. single material
 - **Sorting required** - Separating recyclables takes time
 
-**Our Pricing Promise:** Text photos for accurate quotes. We explain <a href="/pricing" class="text-ocean-600 hover:underline font-medium">pricing</a> clearly and never surprise you with hidden fees. Need other services? Check out our <a href="/services/garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garage cleanout</a> and <a href="/services/estate-cleanouts" class="text-ocean-600 hover:underline font-medium">estate cleanout</a> services. For questions, visit our <a href="/faq" class="text-ocean-600 hover:underline font-medium">FAQ page</a> or <a href="/contact" class="text-ocean-600 hover:underline font-medium">contact us</a> directly.
+**Our Pricing Promise:** Text photos for accurate quotes. We explain <a href="/pricing" class="text-ocean-600 hover:underline font-medium">pricing</a> clearly and never surprise you with hidden fees. Need other services? Check out our <a href="/services#garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garage cleanout</a> and <a href="/services#estate-cleanouts" class="text-ocean-600 hover:underline font-medium">estate cleanout</a> services. For questions, visit our <a href="/faq" class="text-ocean-600 hover:underline font-medium">FAQ page</a> or <a href="/contact" class="text-ocean-600 hover:underline font-medium">contact us</a> directly.
 
 ### What We Remove and Handle
 
@@ -310,7 +310,7 @@ Construction materials are significantly heavier than household items. A truck f
     content: `
 ## Professional Vacation Rental Junk Removal on 30A
 
-The <a href="https://www.visitflorida.com/en-us/cities/south-walton.html" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">30A vacation rental market</a> is one of the most competitive in Florida, with properties commanding $500-$2,000+ per night during peak season. When <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture breaks</a>, <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliances fail</a>, or you need to refresh a property, downtime costs serious money. We provide lightning-fast junk removal specifically designed for the unique demands of <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">vacation rental management</a> across <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a>.
+The <a href="https://www.visitflorida.com/en-us/cities/south-walton.html" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">30A vacation rental market</a> is one of the most competitive in Florida, with properties commanding $500-$2,000+ per night during peak season. When <a href="/services#furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture breaks</a>, <a href="/services#appliance-removal" class="text-ocean-600 hover:underline font-medium">appliances fail</a>, or you need to refresh a property, downtime costs serious money. We provide lightning-fast junk removal specifically designed for the unique demands of <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">vacation rental management</a> across <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a>.
 
 ### When You Need Vacation Rental Junk Removal
 
@@ -360,7 +360,7 @@ The <a href="https://www.visitflorida.com/en-us/cities/south-walton.html" target
 
 **Property Manager Challenges** - Managing 10-20 properties means juggling multiple turnovers simultaneously, coordinating vendors, and maintaining quality across portfolio.
 
-**Community Standards** - HOAs in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, and <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> require coordinated removal that maintains community aesthetics and follows guidelines. For more about Florida's vacation rental regulations, visit the <a href="https://www.visitflorida.com" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Visit Florida tourism site</a>.
+**Community Standards** - HOAs in <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, and <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> require coordinated removal that maintains community aesthetics and follows guidelines. For more about Florida's vacation rental regulations, visit the <a href="https://www.visitflorida.com" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Visit Florida tourism site</a>.
 
 ### Pricing Designed for Property Managers
 
@@ -413,13 +413,13 @@ The <a href="https://www.visitflorida.com/en-us/cities/south-walton.html" target
 
 ### Success Stories: Real Turnovers
 
-**Rosemary Beach Emergency:** Saturday 11 AM call - guest damaged sofa discovered at checkout, new guests arrive 4 PM. Removed sofa by 1 PM, coordinated with furniture company delivering replacement at 2 PM, property ready by 3:30 PM. Crisis averted, guests never knew. <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Learn more about our Rosemary Beach services</a>.
+**Rosemary Beach Emergency:** Saturday 11 AM call - guest damaged sofa discovered at checkout, new guests arrive 4 PM. Removed sofa by 1 PM, coordinated with furniture company delivering replacement at 2 PM, property ready by 3:30 PM. Crisis averted, guests never knew. <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Learn more about our Rosemary Beach services</a>.
 
-**Seaside Portfolio Refresh:** Property manager with 8 <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> properties scheduled coordinated spring refresh. Removed outdoor furniture from all 8 properties over 2 days, coordinated bulk furniture delivery, properties refreshed before Memorial Day peak season. Volume discount saved $600.
+**Seaside Portfolio Refresh:** Property manager with 8 <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> properties scheduled coordinated spring refresh. Removed outdoor furniture from all 8 properties over 2 days, coordinated bulk furniture delivery, properties refreshed before Memorial Day peak season. Volume discount saved $600.
 
-**WaterColor Same-Day Save:** Mattress stain discovered during mid-stay cleaning in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>. Removed old mattress same afternoon, coordinated with mattress company for next-day delivery. Guests extended their stay - potential negative review prevented.
+**WaterColor Same-Day Save:** Mattress stain discovered during mid-stay cleaning in <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>. Removed old mattress same afternoon, coordinated with mattress company for next-day delivery. Guests extended their stay - potential negative review prevented.
 
-**Grayton Beach Hurricane Cleanup:** Post-tropical storm debris removal from 5 vacation rentals. Removed damaged <a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">outdoor furniture and yard debris</a> within 48 hours. Properties back online before bookings cancelled. For hurricane preparedness, visit <a href="https://www.ready.gov/hurricanes" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Ready.gov's hurricane safety guide</a>.
+**Grayton Beach Hurricane Cleanup:** Post-tropical storm debris removal from 5 vacation rentals. Removed damaged <a href="/services#yard-debris" class="text-ocean-600 hover:underline font-medium">outdoor furniture and yard debris</a> within 48 hours. Properties back online before bookings cancelled. For hurricane preparedness, visit <a href="https://www.ready.gov/hurricanes" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Ready.gov's hurricane safety guide</a>.
     `,
     features: [
       'Same-day service for urgent turnovers',
@@ -468,7 +468,7 @@ The <a href="https://www.visitflorida.com/en-us/cities/south-walton.html" target
     content: `
 ## Compassionate Estate Cleanout Services on 30A
 
-Estate cleanouts are emotionally challenging life transitions. Whether handling a loved one's estate, downsizing to a smaller property, or preparing a home for sale, our team provides respectful, professional service that eases the burden during difficult times. We've helped dozens of <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A families</a> through estate transitions with sensitivity and efficiency. From <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> to <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, we're here to help.
+Estate cleanouts are emotionally challenging life transitions. Whether handling a loved one's estate, downsizing to a smaller property, or preparing a home for sale, our team provides respectful, professional service that eases the burden during difficult times. We've helped dozens of <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A families</a> through estate transitions with sensitivity and efficiency. From <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> to <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, we're here to help.
 
 ### When You Need Estate Cleanout Services
 
@@ -502,7 +502,7 @@ Estate cleanouts are emotionally challenging life transitions. Whether handling 
 
 3. **Coordinated Removal** - Our team handles all lifting, loading, and hauling. We treat every item with respect, understanding its potential sentimental value. Properties are left clean and ready for next steps.
 
-4. **Donation and Documentation** - We deliver <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donated items</a> to <a href="https://www.habitat.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Habitat for Humanity</a> and other <a href="https://www.goodwill.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">local charities</a> and obtain tax-deductible receipts. We provide detailed documentation for executors, attorneys, and family records.
+4. **Donation and Documentation** - We deliver <a href="/services#donation-pickup" class="text-ocean-600 hover:underline font-medium">donated items</a> to <a href="https://www.habitat.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Habitat for Humanity</a> and other <a href="https://www.goodwill.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">local charities</a> and obtain tax-deductible receipts. We provide detailed documentation for executors, attorneys, and family records.
 
 ### What Makes 30A Estate Cleanouts Different
 
@@ -516,7 +516,7 @@ Estate cleanouts are emotionally challenging life transitions. Whether handling 
 
 **Mixed Use Properties** - Some estates were primary residences, others vacation homes, many were vacation rentals. Each requires different clearing approaches based on property history and future use.
 
-**Community Connections** - In close-knit 30A communities like <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>, and surrounding areas, we handle estate cleanouts with discretion and respect for neighborhood relationships.
+**Community Connections** - In close-knit 30A communities like <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas#grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>, and surrounding areas, we handle estate cleanouts with discretion and respect for neighborhood relationships.
 
 **Environmental Responsibility** - 30A residents care deeply about environmental stewardship. We prioritize donation and recycling following <a href="https://www.epa.gov/recycle" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA recycling guidelines</a>, ensuring estates contribute to community rather than landfills.
 
@@ -554,7 +554,7 @@ Estate cleanouts are quoted per project based on:
 - Document shredding services
 - Storage unit relocation
 
-For questions about estate cleanouts, visit our <a href="/faq" class="text-ocean-600 hover:underline font-medium">FAQ page</a> or <a href="/contact" class="text-ocean-600 hover:underline font-medium">contact us</a> for a free consultation. We also offer <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture removal</a> and <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliance removal</a> services.
+For questions about estate cleanouts, visit our <a href="/faq" class="text-ocean-600 hover:underline font-medium">FAQ page</a> or <a href="/contact" class="text-ocean-600 hover:underline font-medium">contact us</a> for a free consultation. We also offer <a href="/services#furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture removal</a> and <a href="/services#appliance-removal" class="text-ocean-600 hover:underline font-medium">appliance removal</a> services.
 
 ### What We Handle in Estate Cleanouts
 
@@ -589,13 +589,13 @@ For questions about estate cleanouts, visit our <a href="/faq" class="text-ocean
 
 ### Success Stories: Helping Families Through Transitions
 
-**Seaside Family Estate:** Three siblings managing their parents' longtime <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> home from different states. We coordinated remote video walkthroughs, handled all sorting with family input, donated usable furniture to local families, and prepared the home for sale. Timeline: 3 days, property sold within 2 weeks for full asking price.
+**Seaside Family Estate:** Three siblings managing their parents' longtime <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> home from different states. We coordinated remote video walkthroughs, handled all sorting with family input, donated usable furniture to local families, and prepared the home for sale. Timeline: 3 days, property sold within 2 weeks for full asking price.
 
-**WaterColor Downsizing:** Couple moving from 4-bedroom beach home in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> to 2-bedroom condo. We helped sort 30 years of accumulated items, coordinated estate sale for valuable furniture, donated remainder to <a href="https://www.habitat.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Habitat for Humanity</a>, delivered selected items to new condo. Family focused on transition, not logistics.
+**WaterColor Downsizing:** Couple moving from 4-bedroom beach home in <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> to 2-bedroom condo. We helped sort 30 years of accumulated items, coordinated estate sale for valuable furniture, donated remainder to <a href="https://www.habitat.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Habitat for Humanity</a>, delivered selected items to new condo. Family focused on transition, not logistics.
 
-**Grayton Beach Inheritance:** Out-of-state executor managing vintage cottage estate in <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>. We provided extensive photo documentation, sorted items remotely based on family guidance, preserved family heirlooms for shipping, cleared property in 2 days. Executor never had to make additional trip.
+**Grayton Beach Inheritance:** Out-of-state executor managing vintage cottage estate in <a href="/service-areas#grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>. We provided extensive photo documentation, sorted items remotely based on family guidance, preserved family heirlooms for shipping, cleared property in 2 days. Executor never had to make additional trip.
 
-**Rosemary Beach Preparation:** Pre-listing estate cleanout to prepare premium property for sale in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>. Removed all furnishings, coordinated donation of high-end furniture, left property pristine for staging company. Home listed as "turnkey ready" and sold for $200K over comparable properties. For tips on preparing homes for sale, visit <a href="https://www.epa.gov/recycle/reducing-and-reusing-basics" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA's reduction and reuse guide</a>.
+**Rosemary Beach Preparation:** Pre-listing estate cleanout to prepare premium property for sale in <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>. Removed all furnishings, coordinated donation of high-end furniture, left property pristine for staging company. Home listed as "turnkey ready" and sold for $200K over comparable properties. For tips on preparing homes for sale, visit <a href="https://www.epa.gov/recycle/reducing-and-reusing-basics" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA's reduction and reuse guide</a>.
     `,
     features: [
       'Respectful, compassionate service',
@@ -642,7 +642,7 @@ For questions about estate cleanouts, visit our <a href="/faq" class="text-ocean
     content: `
 ## Professional Appliance Removal on 30A
 
-When appliances fail or you're upgrading your kitchen, the old units need proper removal and disposal. From removing a single refrigerator in <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> to clearing multiple appliances during a <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">renovation</a>, we handle all appliance types with safe removal practices and eco-friendly recycling throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">the 30A corridor</a>.
+When appliances fail or you're upgrading your kitchen, the old units need proper removal and disposal. From removing a single refrigerator in <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> to clearing multiple appliances during a <a href="/services#construction-debris" class="text-ocean-600 hover:underline font-medium">renovation</a>, we handle all appliance types with safe removal practices and eco-friendly recycling throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">the 30A corridor</a>.
 
 ### When You Need Appliance Removal
 
@@ -674,11 +674,11 @@ When appliances fail or you're upgrading your kitchen, the old units need proper
 
 Salt air accelerates appliance deterioration on 30A. Refrigerators, dishwashers, and outdoor appliances often fail earlier than mainland equivalents. Ice makers corrode, seals degrade faster, and outdoor appliances rust despite stainless construction.
 
-**Vacation Rental Demands** - Appliances in <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rentals</a> work harder than residential units. Constant use, varying guest care levels, and sand infiltration mean appliances need replacement every 5-7 years vs. 10-15 for homes.
+**Vacation Rental Demands** - Appliances in <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rentals</a> work harder than residential units. Constant use, varying guest care levels, and sand infiltration mean appliances need replacement every 5-7 years vs. 10-15 for homes.
 
 **High-End Property Standards** - Premium 30A properties often have built-in, luxury appliances requiring extra care during removal to protect surrounding cabinetry worth thousands.
 
-**Quick Turnaround Needs** - Failed refrigerators or dishwashers in <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rentals</a> cost revenue. We provide same-day service to minimize downtime and coordinate with appliance delivery services. Check our <a href="/pricing" class="text-ocean-600 hover:underline font-medium">pricing page</a> for details.
+**Quick Turnaround Needs** - Failed refrigerators or dishwashers in <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rentals</a> cost revenue. We provide same-day service to minimize downtime and coordinate with appliance delivery services. Check our <a href="/pricing" class="text-ocean-600 hover:underline font-medium">pricing page</a> for details.
 
 ### Pricing for Appliance Removal
 
@@ -715,11 +715,11 @@ Salt air accelerates appliance deterioration on 30A. Refrigerators, dishwashers,
 
 ### Success Stories
 
-**Seaside Vacation Rental Emergency:** Refrigerator failed Friday night in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> with guests arriving Saturday. Coordinated with appliance company - removed failed unit Saturday morning, new unit delivered by noon, minimal guest disruption. Crisis avoided.
+**Seaside Vacation Rental Emergency:** Refrigerator failed Friday night in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> with guests arriving Saturday. Coordinated with appliance company - removed failed unit Saturday morning, new unit delivered by noon, minimal guest disruption. Crisis avoided.
 
-**Rosemary Beach Kitchen Remodel:** Removed built-in refrigerator, double ovens, dishwasher, and wine cooler during <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> kitchen renovation. Extra care preserved custom cabinetry. Appliances <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donated</a> to <a href="https://www.habitat.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">local family in need</a>.
+**Rosemary Beach Kitchen Remodel:** Removed built-in refrigerator, double ovens, dishwasher, and wine cooler during <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> kitchen renovation. Extra care preserved custom cabinetry. Appliances <a href="/services#donation-pickup" class="text-ocean-600 hover:underline font-medium">donated</a> to <a href="https://www.habitat.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">local family in need</a>.
 
-**WaterColor Bulk Upgrade:** <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">Property manager</a> in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> updating 5 vacation rental refrigerators simultaneously. Coordinated multi-property removal over 2 days, appliance companies delivered new units on same schedule. Efficient, cost-effective process. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for multi-property pricing.
+**WaterColor Bulk Upgrade:** <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">Property manager</a> in <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> updating 5 vacation rental refrigerators simultaneously. Coordinated multi-property removal over 2 days, appliance companies delivered new units on same schedule. Efficient, cost-effective process. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for multi-property pricing.
 
 ### EPA Section 608 Compliance Explained
 
@@ -786,7 +786,7 @@ Our standard same-day appliance removal pattern: call or text by 11 AM, photo-co
     content: `
 ## Expert Furniture Removal on 30A
 
-Whether you're removing a single couch or clearing an entire home, furniture removal requires professional handling to protect your property and ensure proper disposal. We provide fast, careful furniture removal throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A</a>, from <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach's</a> narrow alleys to <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside's</a> multi-level cottages.
+Whether you're removing a single couch or clearing an entire home, furniture removal requires professional handling to protect your property and ensure proper disposal. We provide fast, careful furniture removal throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A</a>, from <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach's</a> narrow alleys to <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside's</a> multi-level cottages.
 
 ### When You Need Furniture Removal
 
@@ -808,7 +808,7 @@ Whether you're removing a single couch or clearing an entire home, furniture rem
 
 2. **Professional Removal** - We navigate stairs, protect walls and floors, carefully maneuver through doorways and tight spaces. Our team knows how to remove furniture without damage.
 
-3. **Responsible Disposal** - Usable furniture goes to <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">local charities</a> (<a href="https://www.habitat.org/restores" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Habitat ReStore</a>, churches, nonprofits). Damaged items are disposed of properly or recycled when possible following <a href="https://www.epa.gov/recycle" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA guidelines</a>.
+3. **Responsible Disposal** - Usable furniture goes to <a href="/services#donation-pickup" class="text-ocean-600 hover:underline font-medium">local charities</a> (<a href="https://www.habitat.org/restores" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Habitat ReStore</a>, churches, nonprofits). Damaged items are disposed of properly or recycled when possible following <a href="https://www.epa.gov/recycle" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA guidelines</a>.
 
 4. **Clean Finish** - We sweep up any debris and leave your space clean and ready for new furniture or next use.
 
@@ -816,15 +816,15 @@ Whether you're removing a single couch or clearing an entire home, furniture rem
 
 **Architectural Challenges:**
 
-30A homes present unique removal challenges. <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach's</a> narrow gates and carriage houses, <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside's</a> compact cottages, elevated homes, and luxury fixtures in <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> all require experienced handling.
+30A homes present unique removal challenges. <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach's</a> narrow gates and carriage houses, <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside's</a> compact cottages, elevated homes, and luxury fixtures in <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> all require experienced handling.
 
 **Salt and Sun Damage** - Coastal environment accelerates furniture deterioration. Outdoor furniture fades and rusts in 2-3 years. Indoor furniture near windows suffers sun fade. High humidity causes wood swelling and mechanism failure.
 
-**Vacation Rental Standards** - In competitive <a href="https://www.visitflorida.com/en-us/cities/south-walton.html" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">30A rental market</a>, furniture must look pristine. Slight staining or wear that's acceptable in private homes isn't acceptable when guests pay $1,500/night. <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">Learn more about our vacation rental services</a>.
+**Vacation Rental Standards** - In competitive <a href="https://www.visitflorida.com/en-us/cities/south-walton.html" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">30A rental market</a>, furniture must look pristine. Slight staining or wear that's acceptable in private homes isn't acceptable when guests pay $1,500/night. <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">Learn more about our vacation rental services</a>.
 
 **Property Value Protection** - With homes valued $500K-$10M, protecting surfaces during furniture removal is crucial. We use floor protection and careful techniques to prevent damage worth thousands.
 
-**Quick Turnovers** - <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental</a> furniture failures between guests require same-day service. We prioritize urgent needs to minimize revenue loss. Check our <a href="/pricing" class="text-ocean-600 hover:underline font-medium">pricing options</a> or <a href="/contact" class="text-ocean-600 hover:underline font-medium">contact us</a> for immediate assistance.
+**Quick Turnovers** - <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental</a> furniture failures between guests require same-day service. We prioritize urgent needs to minimize revenue loss. Check our <a href="/pricing" class="text-ocean-600 hover:underline font-medium">pricing options</a> or <a href="/contact" class="text-ocean-600 hover:underline font-medium">contact us</a> for immediate assistance.
 
 ### Pricing for Furniture Removal
 
@@ -873,11 +873,11 @@ Whether you're removing a single couch or clearing an entire home, furniture rem
 
 ### Success Stories
 
-**Seaside Sofa Emergency:** Guest spilled red wine on white sofa Saturday morning in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>. Removed damaged sofa by noon, <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property manager</a> had replacement delivered by 2 PM. Next guests never knew.
+**Seaside Sofa Emergency:** Guest spilled red wine on white sofa Saturday morning in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>. Removed damaged sofa by noon, <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">property manager</a> had replacement delivered by 2 PM. Next guests never knew.
 
-**WaterColor Outdoor Refresh:** Removed sun-faded outdoor furniture from all living areas and pool deck in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>. Coordinated with furniture company for same-day new delivery. Property photos updated, bookings increased 30%.
+**WaterColor Outdoor Refresh:** Removed sun-faded outdoor furniture from all living areas and pool deck in <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>. Coordinated with furniture company for same-day new delivery. Property photos updated, bookings increased 30%.
 
-**Alys Beach Estate Donation:** Removed high-end furniture from luxury property being completely refurnished in <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>. <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">Donated</a> quality pieces to <a href="https://www.goodwill.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">three local families in need</a>. Property owner appreciated charitable impact.
+**Alys Beach Estate Donation:** Removed high-end furniture from luxury property being completely refurnished in <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>. <a href="/services#donation-pickup" class="text-ocean-600 hover:underline font-medium">Donated</a> quality pieces to <a href="https://www.goodwill.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">three local families in need</a>. Property owner appreciated charitable impact.
     `,
     features: [
       'Single item or full rooms',
@@ -926,7 +926,7 @@ Whether you're removing a single couch or clearing an entire home, furniture rem
     content: `
 ## Professional Hot Tub Removal on 30A
 
-A hot tub made sense five years ago, but now it's a money pit. Whether your tub in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> is broken beyond repair, you're tired of maintenance costs, or you need the deck space for something else, removing a hot tub is more complex than <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">hauling away furniture</a>. We handle every aspect of professional hot tub removal throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A</a>, coordinating with electricians, managing water drainage, and disposing of materials responsibly.
+A hot tub made sense five years ago, but now it's a money pit. Whether your tub in <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> is broken beyond repair, you're tired of maintenance costs, or you need the deck space for something else, removing a hot tub is more complex than <a href="/services#furniture-removal" class="text-ocean-600 hover:underline font-medium">hauling away furniture</a>. We handle every aspect of professional hot tub removal throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A</a>, coordinating with electricians, managing water drainage, and disposing of materials responsibly.
 
 ### When You Need Hot Tub Removal
 
@@ -956,9 +956,9 @@ A hot tub made sense five years ago, but now it's a money pit. Whether your tub 
 
 **Coastal Property Challenges:**
 
-**Deck Integration Complexity** - Most 30A hot tubs aren't free-standing - they're integrated into elevated decks. Removing them often requires deck modifications. We assess whether deck boards need replacement, gap-filling, or structural adjustments. In communities like <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> and <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> with architectural standards, we ensure removal maintains property aesthetics.
+**Deck Integration Complexity** - Most 30A hot tubs aren't free-standing - they're integrated into elevated decks. Removing them often requires deck modifications. We assess whether deck boards need replacement, gap-filling, or structural adjustments. In communities like <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> and <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> with architectural standards, we ensure removal maintains property aesthetics.
 
-**Elevated Properties and Access** - <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> and other elevated communities mean hot tubs are often on multi-level decks. Narrow stairs, tight curves, and limited equipment access require careful planning and experienced crews.
+**Elevated Properties and Access** - <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> and other elevated communities mean hot tubs are often on multi-level decks. Narrow stairs, tight curves, and limited equipment access require careful planning and experienced crews.
 
 **Salt Air Deterioration** - Coastal salt air causes accelerated corrosion of hot tub shells, structural components, and electrical systems. This means <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A</a> hot tubs often fail faster than inland equivalents - a 7-year-old tub may be completely degraded from salt exposure. For more on coastal property maintenance, visit <a href="https://www.visitflorida.com/en-us/cities/south-walton.html" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Visit Florida's South Walton guide</a>.
 
@@ -1013,11 +1013,11 @@ Complex removal (limited access, multi-level deck): $700-$900
 
 ### Success Stories: Hot Tub Removals
 
-**Rosemary Beach Deck Transformation:** Couple in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> wanted to remove 4-year-old hot tub and transform elevated deck into entertainment space. Tub was deteriorating from salt air with failing pumps. We removed tub, filled deck gap with matching wood, coordinated with electrician for disconnect. New deck layout accommodates large dining area and lounge space. Project completed in one day.
+**Rosemary Beach Deck Transformation:** Couple in <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> wanted to remove 4-year-old hot tub and transform elevated deck into entertainment space. Tub was deteriorating from salt air with failing pumps. We removed tub, filled deck gap with matching wood, coordinated with electrician for disconnect. New deck layout accommodates large dining area and lounge space. Project completed in one day.
 
-**WaterColor Investment Property:** <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental</a> <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property manager</a> in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> removed non-functional hot tub to reduce maintenance liability and appeal to different guest segment. Hot tub removal coordinated with deck inspection, minor repairs, and fresh staining. Property marketed "hot tub costs eliminated" - actually increased booking rate for cost-conscious families.
+**WaterColor Investment Property:** <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental</a> <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">property manager</a> in <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> removed non-functional hot tub to reduce maintenance liability and appeal to different guest segment. Hot tub removal coordinated with deck inspection, minor repairs, and fresh staining. Property marketed "hot tub costs eliminated" - actually increased booking rate for cost-conscious families.
 
-**Seaside Estate Upgrade:** High-end property owner in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> replacing old hot tub with infinity pool. Required removal of integrated tub plus deck restructuring. We sectioned tub carefully, coordinated with pool contractor for seamless transition. HOA coordination ensured work met community standards. New pool added significant property value. For disposal guidelines, see <a href="https://www.epa.gov/hw" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA's hazardous waste information</a>.
+**Seaside Estate Upgrade:** High-end property owner in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> replacing old hot tub with infinity pool. Required removal of integrated tub plus deck restructuring. We sectioned tub carefully, coordinated with pool contractor for seamless transition. HOA coordination ensured work met community standards. New pool added significant property value. For disposal guidelines, see <a href="https://www.epa.gov/hw" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA's hazardous waste information</a>.
     `,
     features: [
       'All hot tub sizes',
@@ -1064,23 +1064,23 @@ Complex removal (limited access, multi-level deck): $700-$900
     content: `
 ## Professional Property Management Services on 30A
 
-Managing 10, 20, or 50 properties across <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A</a> means coordinating hundreds of tasks simultaneously. When junk removal is needed, you need a partner who understands the urgency, respects your workflow, and delivers consistent service across your entire portfolio. We specialize in property management support, offering dedicated account management, priority scheduling, and <a href="/pricing" class="text-ocean-600 hover:underline font-medium">transparent billing</a> designed specifically for property managers in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and beyond.
+Managing 10, 20, or 50 properties across <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A</a> means coordinating hundreds of tasks simultaneously. When junk removal is needed, you need a partner who understands the urgency, respects your workflow, and delivers consistent service across your entire portfolio. We specialize in property management support, offering dedicated account management, priority scheduling, and <a href="/pricing" class="text-ocean-600 hover:underline font-medium">transparent billing</a> designed specifically for property managers in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and beyond.
 
 ### When You Need Property Management Support
 
 **Vacation Rental Turnovers:**
-- <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">Emergency furniture replacement</a> between guests
+- <a href="/services#furniture-removal" class="text-ocean-600 hover:underline font-medium">Emergency furniture replacement</a> between guests
 - Seasonal property refreshes
-- Regular <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliance</a> and fixture upgrades
+- Regular <a href="/services#appliance-removal" class="text-ocean-600 hover:underline font-medium">appliance</a> and fixture upgrades
 - Post-guest damage assessment and cleanup
 - Deep refresh projects between seasons
 - Damaged furniture and broken item removal
 - Guest left-behind item disposal
 
-For more about <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental junk removal</a>, visit our dedicated page.
+For more about <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental junk removal</a>, visit our dedicated page.
 
 **Property Transitions:**
-- <a href="/services/estate-cleanouts" class="text-ocean-600 hover:underline font-medium">Estate cleanouts</a> for inherited properties
+- <a href="/services#estate-cleanouts" class="text-ocean-600 hover:underline font-medium">Estate cleanouts</a> for inherited properties
 - Post-foreclosure property clearance
 - Investment property preparation
 - Tenant move-out debris removal
@@ -1230,7 +1230,7 @@ Learn about <a href="https://www.epa.gov/recycle" target="_blank" rel="nofollow 
     content: `
 ## Charity Donation Pickup Service on 30A
 
-You've cleaned out your closets, replaced <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture</a>, or updated your <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">property</a>. You have quality items in good condition that you don't need - why send them to a landfill? Our donation pickup service transforms your unwanted items into charitable contributions that help families and community organizations throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A</a> while you receive tax-deductible donation receipts. Learn more about donation guidelines from <a href="https://www.goodwill.org/donate" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Goodwill</a>. It's easy, it's charitable, and it makes a real impact on your community.
+You've cleaned out your closets, replaced <a href="/services#furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture</a>, or updated your <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">property</a>. You have quality items in good condition that you don't need - why send them to a landfill? Our donation pickup service transforms your unwanted items into charitable contributions that help families and community organizations throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A</a> while you receive tax-deductible donation receipts. Learn more about donation guidelines from <a href="https://www.goodwill.org/donate" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Goodwill</a>. It's easy, it's charitable, and it makes a real impact on your community.
 
 ### When You Need Donation Pickup Service
 
@@ -1286,7 +1286,7 @@ You've cleaned out your closets, replaced <a href="/services/furniture-removal" 
 
 **Environmental Values** - <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A communities</a> prioritize environmental stewardship. Donations keep items out of landfills while supporting community organizations following <a href="https://www.epa.gov/recycle" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA recycling principles</a>. This aligns with coastal community values.
 
-**HOA Coordination** - Communities like <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, and <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> appreciate coordinated removal that maintains property aesthetics. Donation pickups are handled professionally and discretely. Check our <a href="/pricing" class="text-ocean-600 hover:underline font-medium">pricing page</a> or <a href="/contact" class="text-ocean-600 hover:underline font-medium">contact us</a> for scheduling.
+**HOA Coordination** - Communities like <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, and <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> appreciate coordinated removal that maintains property aesthetics. Donation pickups are handled professionally and discretely. Check our <a href="/pricing" class="text-ocean-600 hover:underline font-medium">pricing page</a> or <a href="/contact" class="text-ocean-600 hover:underline font-medium">contact us</a> for scheduling.
 
 ### Pricing for Donation Pickup
 
@@ -1352,11 +1352,11 @@ You've cleaned out your closets, replaced <a href="/services/furniture-removal" 
 
 ### Success Stories: Donation Impact
 
-**Seaside Downsizing Success:** Couple in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> moving from 4-bedroom beach home to 2-bedroom condo. Coordinated donation of 15+ quality furniture pieces, kitchen items, and household goods to <a href="https://www.habitat.org/restores" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Habitat ReStore</a> and local church. Received $3,200 in tax-deductible donations, simplified move, supported community. Downsizing felt meaningful rather than wasteful.
+**Seaside Downsizing Success:** Couple in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> moving from 4-bedroom beach home to 2-bedroom condo. Coordinated donation of 15+ quality furniture pieces, kitchen items, and household goods to <a href="https://www.habitat.org/restores" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Habitat ReStore</a> and local church. Received $3,200 in tax-deductible donations, simplified move, supported community. Downsizing felt meaningful rather than wasteful.
 
-**WaterColor Vacation Rental Refresh:** <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">Property manager</a> in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> upgrading 6 <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental properties</a> with new furniture. Previous furnishings were still quality and usable - 40+ pieces donated to community organizations. Volunteers benefited, nonprofit received revenue from Habitat ReStore sales, property manager achieved $4,000 in deductions.
+**WaterColor Vacation Rental Refresh:** <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">Property manager</a> in <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> upgrading 6 <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental properties</a> with new furniture. Previous furnishings were still quality and usable - 40+ pieces donated to community organizations. Volunteers benefited, nonprofit received revenue from Habitat ReStore sales, property manager achieved $4,000 in deductions.
 
-**Grayton Beach Estate Transformation:** <a href="/services/estate-cleanouts" class="text-ocean-600 hover:underline font-medium">Estate cleanout</a> in <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a> coordinated with strategic donation of quality items. High-end furniture, china, silver, and household goods matched with charities that could benefit. Estate executor provided detailed records; family received satisfaction of charitable contribution; community organizations received support.
+**Grayton Beach Estate Transformation:** <a href="/services#estate-cleanouts" class="text-ocean-600 hover:underline font-medium">Estate cleanout</a> in <a href="/service-areas#grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a> coordinated with strategic donation of quality items. High-end furniture, china, silver, and household goods matched with charities that could benefit. Estate executor provided detailed records; family received satisfaction of charitable contribution; community organizations received support.
     `,
     features: [
       'Free donation coordination',
@@ -1405,7 +1405,7 @@ You've cleaned out your closets, replaced <a href="/services/furniture-removal" 
     content: `
 ## Professional Yard Debris Removal on 30A
 
-Living on <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A</a> means maintaining a pristine coastal property - manicured landscaping, palm trees, beach vegetation - but yard maintenance generates significant debris. Palm fronds, branches, leaves, and landscaping waste pile up quickly. Storm season brings emergency cleanup needs. Whether you're dealing with routine landscaping cleanup or post-hurricane debris in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, or <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, we provide fast, professional yard debris removal. For emergency preparedness, visit <a href="https://www.ready.gov/hurricanes" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Ready.gov's hurricane guide</a>.
+Living on <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A</a> means maintaining a pristine coastal property - manicured landscaping, palm trees, beach vegetation - but yard maintenance generates significant debris. Palm fronds, branches, leaves, and landscaping waste pile up quickly. Storm season brings emergency cleanup needs. Whether you're dealing with routine landscaping cleanup or post-hurricane debris in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, or <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, we provide fast, professional yard debris removal. For emergency preparedness, visit <a href="https://www.ready.gov/hurricanes" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Ready.gov's hurricane guide</a>.
 
 ### When You Need Yard Debris Removal
 
@@ -1460,9 +1460,9 @@ Living on <a href="/service-areas" class="text-ocean-600 hover:underline font-me
 
 **Palm Tree Density** - 30A landscaping emphasizes palm trees - desirable aesthetically but requiring significant maintenance. Palm fronds drop year-round, requiring recurring pickup. Trimmed palms generate heavy, bulky debris.
 
-**Vacation Rental Property Demands** - Guest-facing landscaping must be pristine. Dead branches, brown fronds, or debris piles are unacceptable in high-end <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rentals</a>. Frequent cleanup ensures consistent curb appeal and positive guest experience.
+**Vacation Rental Property Demands** - Guest-facing landscaping must be pristine. Dead branches, brown fronds, or debris piles are unacceptable in high-end <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rentals</a>. Frequent cleanup ensures consistent curb appeal and positive guest experience.
 
-**HOA Landscaping Standards** - Communities like <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> maintain strict landscaping standards. Debris staging and removal must coordinate with HOA guidelines. We understand these requirements.
+**HOA Landscaping Standards** - Communities like <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> maintain strict landscaping standards. Debris staging and removal must coordinate with HOA guidelines. We understand these requirements.
 
 **Sandy Soil and Drainage** - 30A properties drain quickly (sandy soil) but yard debris removal requires careful navigation to avoid damage to irrigation systems, utilities, and landscape features installed in sandy soil.
 
@@ -1531,11 +1531,11 @@ Living on <a href="/service-areas" class="text-ocean-600 hover:underline font-me
 
 ### Success Stories: 30A Yard Debris Success
 
-**Seaside Storm Response:** Hurricane generated significant debris across 5-property complex in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>. Coordinated multi-day storm cleanup, cleared downed branches and palm fronds, removed damaged landscaping. Response within 24 hours of storm passage. Properties accessed within 48 hours. HOA coordination ensured debris staging met community standards. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for emergency storm response.
+**Seaside Storm Response:** Hurricane generated significant debris across 5-property complex in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>. Coordinated multi-day storm cleanup, cleared downed branches and palm fronds, removed damaged landscaping. Response within 24 hours of storm passage. Properties accessed within 48 hours. HOA coordination ensured debris staging met community standards. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for emergency storm response.
 
-**WaterColor Vacation Rental Seasonal:** <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">Property manager</a> in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> scheduled quarterly yard debris pickups before peak seasons. Palm frond accumulation, landscaping maintenance, and general cleanup coordinated 4 times yearly. Consistent service maintained pristine property appearance for guest experience. Volume pricing achieved $200/quarter savings.
+**WaterColor Vacation Rental Seasonal:** <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">Property manager</a> in <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> scheduled quarterly yard debris pickups before peak seasons. Palm frond accumulation, landscaping maintenance, and general cleanup coordinated 4 times yearly. Consistent service maintained pristine property appearance for guest experience. Volume pricing achieved $200/quarter savings.
 
-**Grayton Beach Landscaping Project:** Homeowner in <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a> completed major landscape renovation - removed old sod, installed new plantings, replaced mulch. Generated debris from both removal and installation. Two-trip removal service cleared site completely. New landscaping displayed beautifully without <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris</a>. Project completion accelerated by 2 days with professional debris removal. Check our <a href="/pricing" class="text-ocean-600 hover:underline font-medium">pricing options</a>.
+**Grayton Beach Landscaping Project:** Homeowner in <a href="/service-areas#grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a> completed major landscape renovation - removed old sod, installed new plantings, replaced mulch. Generated debris from both removal and installation. Two-trip removal service cleared site completely. New landscaping displayed beautifully without <a href="/services#construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris</a>. Project completion accelerated by 2 days with professional debris removal. Check our <a href="/pricing" class="text-ocean-600 hover:underline font-medium">pricing options</a>.
     `,
     features: [
       'Storm debris cleanup',
@@ -1584,7 +1584,7 @@ Living on <a href="/service-areas" class="text-ocean-600 hover:underline font-me
     content: `
 ## Professional Garage Cleanout Services on 30A
 
-Your garage has become a catchall for everything - broken equipment, old tools, sports gear, inherited items, seasonal items, forgotten projects. You can't park your car. You can't find anything. You can't remember what's even in there. A professional garage cleanout transforms chaos into organized, functional space. We handle all aspects of garage cleanout throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A</a>, from single-car garages in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> to oversized <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental</a> storage spaces in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>.
+Your garage has become a catchall for everything - broken equipment, old tools, sports gear, inherited items, seasonal items, forgotten projects. You can't park your car. You can't find anything. You can't remember what's even in there. A professional garage cleanout transforms chaos into organized, functional space. We handle all aspects of garage cleanout throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A</a>, from single-car garages in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> to oversized <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental</a> storage spaces in <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>.
 
 ### When You Need Garage Cleanout Services
 
@@ -1630,7 +1630,7 @@ Your garage has become a catchall for everything - broken equipment, old tools, 
 
 3. **Complete Removal** - Our team handles all lifting, loading, and hauling. We work systematically through the garage, protecting stored items you want to keep.
 
-4. **Final Cleanup** - Garage is swept, organized, and ready for new use. <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">Donated items</a> are delivered to <a href="https://www.habitat.org/restores" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">charities</a>, and you receive documentation for tax purposes. Learn more about proper disposal from the <a href="https://www.epa.gov/hw" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA's hazardous waste guidelines</a>.
+4. **Final Cleanup** - Garage is swept, organized, and ready for new use. <a href="/services#donation-pickup" class="text-ocean-600 hover:underline font-medium">Donated items</a> are delivered to <a href="https://www.habitat.org/restores" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">charities</a>, and you receive documentation for tax purposes. Learn more about proper disposal from the <a href="https://www.epa.gov/hw" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA's hazardous waste guidelines</a>.
 
 ### What Makes 30A Garage Cleanout Different
 
@@ -1646,9 +1646,9 @@ Your garage has become a catchall for everything - broken equipment, old tools, 
 
 **Property Value Impact** - Clean, organized garages increase property appeal and value. A cluttered garage in a high-value 30A property actually reduces perceived value. Professional clearout improves property presentation significantly.
 
-**HOA Coordination** - Communities like <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> have standards about what's visible from the street. An open garage door showing clutter affects community appearance. Professional cleanup maintains HOA compliance.
+**HOA Coordination** - Communities like <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> have standards about what's visible from the street. An open garage door showing clutter affects community appearance. Professional cleanup maintains HOA compliance.
 
-**Inherited Garages and Estate Items** - Many 30A property acquisitions include full garages of previous owner's items. Professional sorting helps identify valuable items while efficiently clearing accumulated clutter. We also offer <a href="/services/estate-cleanouts" class="text-ocean-600 hover:underline font-medium">estate cleanout services</a> for comprehensive property clearing.
+**Inherited Garages and Estate Items** - Many 30A property acquisitions include full garages of previous owner's items. Professional sorting helps identify valuable items while efficiently clearing accumulated clutter. We also offer <a href="/services#estate-cleanouts" class="text-ocean-600 hover:underline font-medium">estate cleanout services</a> for comprehensive property clearing.
 
 ### Pricing for Garage Cleanout
 
@@ -1739,11 +1739,11 @@ Large garage or additional storage (3+ hours): $600-$900
 
 ### Success Stories: Garage Transformations
 
-**Seaside Residential Success:** Homeowner in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> couldn't park in 2-car garage - 20+ years of accumulation including inherited items, old equipment, seasonal clutter. Full garage cleanout over 3 hours. Sorted usable items for <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donation</a> (received $1,200 tax deduction), disposed of broken items, kept 2 shelves of organized important items. Garage now parks 2 vehicles with organized storage. Property value perception improved significantly. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for your garage cleanout.
+**Seaside Residential Success:** Homeowner in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> couldn't park in 2-car garage - 20+ years of accumulation including inherited items, old equipment, seasonal clutter. Full garage cleanout over 3 hours. Sorted usable items for <a href="/services#donation-pickup" class="text-ocean-600 hover:underline font-medium">donation</a> (received $1,200 tax deduction), disposed of broken items, kept 2 shelves of organized important items. Garage now parks 2 vehicles with organized storage. Property value perception improved significantly. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for your garage cleanout.
 
-**WaterColor Vacation Rental Transformation:** <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">Property manager</a> cleared <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental</a> garage in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> used for guest storage. Removed broken beach equipment, obsolete items, and seasonal debris. Installed shelving system for organized guest storage. Guests appreciated clear space for luggage and beach gear. Cleanout investment returned through improved guest reviews and better property utilization.
+**WaterColor Vacation Rental Transformation:** <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">Property manager</a> cleared <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental</a> garage in <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> used for guest storage. Removed broken beach equipment, obsolete items, and seasonal debris. Installed shelving system for organized guest storage. Guests appreciated clear space for luggage and beach gear. Cleanout investment returned through improved guest reviews and better property utilization.
 
-**Rosemary Beach Estate Acquisition:** Inherited 30A property in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> came with full garage of previous owner's items. Professional sorting identified valuable tools and antiques for estate sale (raised $4,000), donated usable items to <a href="https://www.goodwill.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">community organizations</a>, properly disposed of broken equipment and hazardous materials. 2-day cleanout process simplified. Garage space now adds functional value to premium property. See our <a href="/pricing" class="text-ocean-600 hover:underline font-medium">pricing information</a>.
+**Rosemary Beach Estate Acquisition:** Inherited 30A property in <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> came with full garage of previous owner's items. Professional sorting identified valuable tools and antiques for estate sale (raised $4,000), donated usable items to <a href="https://www.goodwill.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">community organizations</a>, properly disposed of broken equipment and hazardous materials. 2-day cleanout process simplified. Garage space now adds functional value to premium property. See our <a href="/pricing" class="text-ocean-600 hover:underline font-medium">pricing information</a>.
     `,
     features: [
       'Full or partial garage cleanouts',
@@ -1792,7 +1792,7 @@ Large garage or additional storage (3+ hours): $600-$900
     content: `
 ## Professional Office Furniture Removal on 30A
 
-Whether you're relocating your business, downsizing office space, closing an operation, or upgrading your workspace, removing office furniture requires specialized handling. Unlike <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">residential furniture removal</a>, office setups include modular systems, heavy desks, filing systems, and equipment that demand professional coordination. We provide fast, efficient office furniture removal throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A</a> from <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> to <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> with minimal disruption to your operations.
+Whether you're relocating your business, downsizing office space, closing an operation, or upgrading your workspace, removing office furniture requires specialized handling. Unlike <a href="/services#furniture-removal" class="text-ocean-600 hover:underline font-medium">residential furniture removal</a>, office setups include modular systems, heavy desks, filing systems, and equipment that demand professional coordination. We provide fast, efficient office furniture removal throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A</a> from <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> to <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> with minimal disruption to your operations.
 
 ### When You Need Office Furniture Removal
 
@@ -1833,7 +1833,7 @@ Whether you're relocating your business, downsizing office space, closing an ope
 
 3. **Professional Removal** - Our team systematically removes all office furniture. For modular cubicle systems, we disassemble carefully. For desks and storage, we navigate safely through office hallways and exits. We protect surrounding office infrastructure.
 
-4. **Proper Disposal and Donation** - Quality office furniture in good condition is <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donated</a> to <a href="https://www.goodwill.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">nonprofits</a> and educational institutions. Damaged or non-functional items are recycled appropriately following <a href="https://www.epa.gov/recycle" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA recycling guidelines</a>. We provide documentation of all removals.
+4. **Proper Disposal and Donation** - Quality office furniture in good condition is <a href="/services#donation-pickup" class="text-ocean-600 hover:underline font-medium">donated</a> to <a href="https://www.goodwill.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">nonprofits</a> and educational institutions. Damaged or non-functional items are recycled appropriately following <a href="https://www.epa.gov/recycle" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA recycling guidelines</a>. We provide documentation of all removals.
 
 ### What Makes 30A Office Furniture Different
 
@@ -1841,7 +1841,7 @@ Whether you're relocating your business, downsizing office space, closing an ope
 
 **Seasonal Business Fluctuations** - Many 30A businesses experience dramatic seasonal swings. Vacation rental management companies, seasonal tour operators, and hospitality businesses expand and contract seasonally. Office furniture removal must accommodate these fluctuations efficiently.
 
-**Property Management Hub** - Multiple <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property management companies</a> operate across 30A, managing <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rentals</a>, residential properties, and commercial spaces. Office furniture removal coordinated with property transitions is common.
+**Property Management Hub** - Multiple <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">property management companies</a> operate across 30A, managing <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rentals</a>, residential properties, and commercial spaces. Office furniture removal coordinated with property transitions is common.
 
 **Tourism and Hospitality Office Needs** - Tour operators, vacation rental companies, hospitality businesses, and retail operations use sophisticated office setups. When seasonal operations shift or businesses transition, comprehensive office furniture removal is essential. Learn more about Florida's business environment at <a href="https://www.visitflorida.com" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">Visit Florida</a>.
 
@@ -1933,11 +1933,11 @@ Complete office building clearance: Custom quote (typically $2,000-$5,000+)
 
 ### Success Stories: Office Furniture Removal
 
-**Seaside Property Management Expansion:** <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">Property management company</a> in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> expanded from single 2-room office to larger space. Moved office suite of 8 desks, conference table, filing systems, and storage. Removal coordinated Friday evening into Saturday, allowing Monday morning setup in new space. Zero business disruption. Old furniture <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donated</a> to <a href="https://www.habitat.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">nonprofit</a> creating donated $2,500 value.
+**Seaside Property Management Expansion:** <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">Property management company</a> in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> expanded from single 2-room office to larger space. Moved office suite of 8 desks, conference table, filing systems, and storage. Removal coordinated Friday evening into Saturday, allowing Monday morning setup in new space. Zero business disruption. Old furniture <a href="/services#donation-pickup" class="text-ocean-600 hover:underline font-medium">donated</a> to <a href="https://www.habitat.org" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">nonprofit</a> creating donated $2,500 value.
 
-**WaterColor Tour Operator Seasonal Transition:** Seasonal tour business in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> contracted from full office operation to home-based model with occasional client meetings. Removed 80% of office furniture while maintaining small meeting area. After-hours evening removal preserved guest operations. Downsizing reduced office cost by $1,500/month while maintaining client-facing presence.
+**WaterColor Tour Operator Seasonal Transition:** Seasonal tour business in <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> contracted from full office operation to home-based model with occasional client meetings. Removed 80% of office furniture while maintaining small meeting area. After-hours evening removal preserved guest operations. Downsizing reduced office cost by $1,500/month while maintaining client-facing presence.
 
-**Rosemary Beach Business Closure:** Professional services business in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> closed after relocation of principal to another market. Complete office clearing coordinated - 6 desks, conference table, filing systems, equipment, and storage units. Week-long removal process coordinated with liquidation auction. Office space prepared clean for new tenant. Efficient, professional transition for difficult business situation. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for office cleanout assistance.
+**Rosemary Beach Business Closure:** Professional services business in <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> closed after relocation of principal to another market. Complete office clearing coordinated - 6 desks, conference table, filing systems, equipment, and storage units. Week-long removal process coordinated with liquidation auction. Office space prepared clean for new tenant. Efficient, professional transition for difficult business situation. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for office cleanout assistance.
     `,
     features: [
       'Complete office cleanouts',
@@ -1984,7 +1984,7 @@ Complete office building clearance: Custom quote (typically $2,000-$5,000+)
     content: `
 ## Professional Mattress Removal on 30A
 
-Getting rid of an old mattress is one of the most frustrating disposal challenges homeowners and <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental managers</a> face on 30A. Mattresses are bulky, heavy, and difficult to transport. Most curbside trash services won't take them, and Walton County has specific disposal requirements. Whether you're replacing a worn-out mattress in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, upgrading guest bedding in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, or handling a <a href="/services/estate-cleanouts" class="text-ocean-600 hover:underline font-medium">full estate cleanout</a>, we provide fast, affordable mattress removal with responsible disposal.
+Getting rid of an old mattress is one of the most frustrating disposal challenges homeowners and <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental managers</a> face on 30A. Mattresses are bulky, heavy, and difficult to transport. Most curbside trash services won't take them, and Walton County has specific disposal requirements. Whether you're replacing a worn-out mattress in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, upgrading guest bedding in <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, or handling a <a href="/services#estate-cleanouts" class="text-ocean-600 hover:underline font-medium">full estate cleanout</a>, we provide fast, affordable mattress removal with responsible disposal.
 
 ### Why Professional Mattress Removal Matters
 
@@ -1997,13 +1997,13 @@ Old mattresses can harbor dust mites, allergens, bed bugs, mold, and bacteria, e
 ### Our Mattress Removal Process
 
 **Step 1: Schedule Your Pickup**
-Call, text, or book online. Send us a photo showing the mattress size and location. We offer same-day service when available and can typically schedule within 24 hours. We serve all 30A communities from <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a> to <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>.
+Call, text, or book online. Send us a photo showing the mattress size and location. We offer same-day service when available and can typically schedule within 24 hours. We serve all 30A communities from <a href="/service-areas#santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a> to <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>.
 
 **Step 2: We Handle Everything**
 Our team arrives on time, navigates stairs, hallways, and tight spaces. We carefully remove the mattress without damaging walls, doors, or floors. No need to drag it outside yourself; we handle it from bedroom to truck.
 
 **Step 3: Responsible Disposal**
-We prioritize recycling whenever possible. Mattress components including steel springs, foam, cotton, and wood can often be recycled. Materials are separated and sent to appropriate facilities. For mattresses in good condition, we coordinate <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donation pickup</a> with local charities following <a href="https://www.epa.gov/recycle" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA recycling guidelines</a>.
+We prioritize recycling whenever possible. Mattress components including steel springs, foam, cotton, and wood can often be recycled. Materials are separated and sent to appropriate facilities. For mattresses in good condition, we coordinate <a href="/services#donation-pickup" class="text-ocean-600 hover:underline font-medium">donation pickup</a> with local charities following <a href="https://www.epa.gov/recycle" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA recycling guidelines</a>.
 
 ### What We Remove
 
@@ -2022,7 +2022,7 @@ We prioritize recycling whenever possible. Mattress components including steel s
 
 ### Vacation Rental Mattress Management
 
-For <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental properties</a> on 30A, mattress quality directly impacts guest reviews and bookings. We work with <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property managers</a> across <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, and <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> to coordinate mattress swaps between guest stays. We can remove old mattresses the same day new ones are delivered, minimizing property downtime. We understand the urgency when a mattress issue is discovered during turnover. Stained, damaged, or worn mattresses need immediate replacement to maintain your property rating and guest satisfaction.
+For <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental properties</a> on 30A, mattress quality directly impacts guest reviews and bookings. We work with <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">property managers</a> across <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, and <a href="/service-areas#watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> to coordinate mattress swaps between guest stays. We can remove old mattresses the same day new ones are delivered, minimizing property downtime. We understand the urgency when a mattress issue is discovered during turnover. Stained, damaged, or worn mattresses need immediate replacement to maintain your property rating and guest satisfaction.
 
 ### Pricing Transparency
 
@@ -2039,7 +2039,7 @@ Single mattress removal starts at $75. This includes all labor, loading, transpo
 
 ### Why Choose Us for Mattress Removal
 
-We understand 30A properties. From the narrow streets of <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> to the elegant homes of <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, we navigate tight spaces, stairs, and HOA requirements with care. Our team protects your property during removal, covering floors and protecting walls. We are fully insured, professional, and committed to recycling whenever possible. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> today for fast, affordable mattress removal.
+We understand 30A properties. From the narrow streets of <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> to the elegant homes of <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, we navigate tight spaces, stairs, and HOA requirements with care. Our team protects your property during removal, covering floors and protecting walls. We are fully insured, professional, and committed to recycling whenever possible. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> today for fast, affordable mattress removal.
     `,
     features: [
       'Proper mattress disposal and recycling',
@@ -2086,7 +2086,7 @@ We understand 30A properties. From the narrow streets of <a href="/service-areas
     content: `
 ## Professional TV & Electronics Recycling on 30A
 
-Electronic waste is one of the fastest-growing waste streams in the United States, and the 30A corridor is no exception. From outdated flat-screen TVs in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> vacation rentals to obsolete computer equipment in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> home offices, electronic devices require specialized handling and disposal. Unlike regular household waste, electronics contain hazardous materials including lead, mercury, cadmium, and flame retardants that pose serious environmental and health risks when improperly disposed. Our professional e-waste recycling service ensures your old electronics are handled responsibly and in full compliance with <a href="https://www.epa.gov/recycle/electronics-donation-and-recycling" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA electronics recycling guidelines</a>.
+Electronic waste is one of the fastest-growing waste streams in the United States, and the 30A corridor is no exception. From outdated flat-screen TVs in <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> vacation rentals to obsolete computer equipment in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> home offices, electronic devices require specialized handling and disposal. Unlike regular household waste, electronics contain hazardous materials including lead, mercury, cadmium, and flame retardants that pose serious environmental and health risks when improperly disposed. Our professional e-waste recycling service ensures your old electronics are handled responsibly and in full compliance with <a href="https://www.epa.gov/recycle/electronics-donation-and-recycling" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA electronics recycling guidelines</a>.
 
 ### Why Electronics Require Special Disposal
 
@@ -2125,7 +2125,7 @@ Computers, smartphones, tablets, and storage devices contain personal and financ
 - Cable boxes and satellite receivers
 - Old cell phones and smartphones
 
-**<a href="/services/office-furniture" class="text-ocean-600 hover:underline font-medium">Office</a> and Business Electronics:**
+**<a href="/services#office-furniture" class="text-ocean-600 hover:underline font-medium">Office</a> and Business Electronics:**
 - Server equipment and racks
 - Phone systems and conferencing equipment
 - Point-of-sale systems
@@ -2136,7 +2136,7 @@ Computers, smartphones, tablets, and storage devices contain personal and financ
 ### Our E-Waste Recycling Process
 
 **Step 1: Inventory and Quote**
-Text us photos of your electronics for a fast, accurate quote. We assess the type, quantity, and any special handling needs including data destruction requirements. We serve all communities from <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a> to <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>.
+Text us photos of your electronics for a fast, accurate quote. We assess the type, quantity, and any special handling needs including data destruction requirements. We serve all communities from <a href="/service-areas#santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a> to <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>.
 
 **Step 2: Safe Removal**
 Our team carefully disconnects and removes all electronic equipment. We handle wall-mounted TVs, built-in systems, and heavy equipment. Cables and mounting hardware are removed as well.
@@ -2149,7 +2149,7 @@ Electronics are transported to certified e-waste recycling facilities. Materials
 
 ### Vacation Rental Electronics Updates
 
-<a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental properties</a> regularly upgrade electronics to stay competitive. When you replace TVs, sound systems, or smart home devices in your <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> or <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> rental, we handle the old equipment removal. We can coordinate with your installer to remove old equipment the same day new equipment is installed. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your electronics recycling pickup.
+<a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental properties</a> regularly upgrade electronics to stay competitive. When you replace TVs, sound systems, or smart home devices in your <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> or <a href="/service-areas#watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> rental, we handle the old equipment removal. We can coordinate with your installer to remove old equipment the same day new equipment is installed. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your electronics recycling pickup.
 
 ### Florida E-Waste Law and Why Curbside Refuses Electronics
 
@@ -2219,7 +2219,7 @@ Our certified data destruction service includes physical drive shredding (NIST 8
     content: `
 ## Professional Shed Demolition & Removal on 30A
 
-Old, damaged, or unwanted sheds are a common challenge for 30A property owners. Whether it is a rotting wooden shed in <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, a rusted metal storage building in <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>, or a storm-damaged structure anywhere along <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">the 30A corridor</a>, our team handles complete demolition, debris removal, and site cleanup. The humid, salt-air environment of coastal Northwest Florida accelerates shed deterioration, making professional demolition a common need for homeowners and <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property managers</a> throughout the area.
+Old, damaged, or unwanted sheds are a common challenge for 30A property owners. Whether it is a rotting wooden shed in <a href="/service-areas#santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, a rusted metal storage building in <a href="/service-areas#grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>, or a storm-damaged structure anywhere along <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">the 30A corridor</a>, our team handles complete demolition, debris removal, and site cleanup. The humid, salt-air environment of coastal Northwest Florida accelerates shed deterioration, making professional demolition a common need for homeowners and <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">property managers</a> throughout the area.
 
 ### When Shed Demolition Is Needed
 
@@ -2236,7 +2236,7 @@ Old, damaged, or unwanted sheds are a common challenge for 30A property owners. 
 ### Our Shed Demolition Process
 
 **Assessment and Planning:**
-Every shed demolition starts with a thorough assessment. We evaluate the structure's materials, size, foundation type, proximity to other structures, and any potential hazards. For sheds near property lines in communities like <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> or <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, we plan carefully to protect neighboring properties and landscaping.
+Every shed demolition starts with a thorough assessment. We evaluate the structure's materials, size, foundation type, proximity to other structures, and any potential hazards. For sheds near property lines in communities like <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> or <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, we plan carefully to protect neighboring properties and landscaping.
 
 **Safe Demolition:**
 Our experienced crew uses proper tools and techniques for each material type. Wood sheds are carefully dismantled to separate recyclable lumber from damaged material. Metal sheds are cut apart and sorted for scrap recycling. Vinyl and composite structures are broken down for proper disposal. We always work safely, following OSHA guidelines for demolition projects.
@@ -2245,7 +2245,7 @@ Our experienced crew uses proper tools and techniques for each material type. Wo
 All demolition debris is loaded into our trucks and hauled away. We separate recyclable materials including clean wood, metal, and concrete for proper recycling. The job site is left clean and level. We remove nails, screws, and small debris that could be hazardous.
 
 **Foundation and Site Work:**
-Many sheds sit on concrete slabs, gravel pads, or wooden platforms. We can remove concrete foundations using breaking equipment, grade gravel pads, and remove wooden platforms. Ask about <a href="/services/concrete-removal" class="text-ocean-600 hover:underline font-medium">concrete removal</a> if your shed has a slab foundation. After removal, the site is graded and ready for new construction, landscaping, or lawn restoration.
+Many sheds sit on concrete slabs, gravel pads, or wooden platforms. We can remove concrete foundations using breaking equipment, grade gravel pads, and remove wooden platforms. Ask about <a href="/services#concrete-removal" class="text-ocean-600 hover:underline font-medium">concrete removal</a> if your shed has a slab foundation. After removal, the site is graded and ready for new construction, landscaping, or lawn restoration.
 
 ### Shed Types We Demolish
 
@@ -2263,7 +2263,7 @@ Large workshop buildings, multi-room sheds, and custom-built outbuildings. These
 
 ### Coastal Considerations
 
-The 30A environment is hard on outdoor structures. Salt spray accelerates corrosion on metal components. Humidity promotes mold, mildew, and wood rot. Termites thrive in our warm climate. Hurricane-force winds can damage or destroy sheds, creating <a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">yard debris</a> and safety hazards. We understand these local challenges and provide efficient demolition services that restore your property. For <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris</a> from larger projects, we offer volume pricing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a free shed demolition estimate.
+The 30A environment is hard on outdoor structures. Salt spray accelerates corrosion on metal components. Humidity promotes mold, mildew, and wood rot. Termites thrive in our warm climate. Hurricane-force winds can damage or destroy sheds, creating <a href="/services#yard-debris" class="text-ocean-600 hover:underline font-medium">yard debris</a> and safety hazards. We understand these local challenges and provide efficient demolition services that restore your property. For <a href="/services#construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris</a> from larger projects, we offer volume pricing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a free shed demolition estimate.
 
 ### Florida Permits and Building Code for Shed Removal
 
@@ -2304,7 +2304,7 @@ Beyond the demolition itself, we handle the site cleanup and basic restoration:
 
 **Photo documentation** before and after the demolition is part of standard service — useful for property records, HOA documentation, or insurance documentation if the shed was damaged by storm.
 
-For larger structural demolition (full deck removal, garage demolition, structural additions), see our <a href="/services/deck-removal" class="text-ocean-600 hover:underline font-medium">deck removal</a> and <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris removal</a> services.
+For larger structural demolition (full deck removal, garage demolition, structural additions), see our <a href="/services#deck-removal" class="text-ocean-600 hover:underline font-medium">deck removal</a> and <a href="/services#construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris removal</a> services.
     `,
     features: [
       'Complete shed demolition and teardown',
@@ -2351,7 +2351,7 @@ For larger structural demolition (full deck removal, garage demolition, structur
     content: `
 ## Professional Deck Removal & Demolition on 30A
 
-Decks are essential outdoor living spaces for 30A homes, but the coastal environment takes a harsh toll. Salt air, intense sun, humidity, termites, and hurricane-force winds cause accelerated deterioration that eventually makes deck replacement necessary. Whether you need to remove a rotting wooden deck in <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>, demolish a storm-damaged elevated deck in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, or clear a deteriorating deck for a new build in <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, our professional demolition team handles the entire process from teardown to hauling and cleanup.
+Decks are essential outdoor living spaces for 30A homes, but the coastal environment takes a harsh toll. Salt air, intense sun, humidity, termites, and hurricane-force winds cause accelerated deterioration that eventually makes deck replacement necessary. Whether you need to remove a rotting wooden deck in <a href="/service-areas#grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>, demolish a storm-damaged elevated deck in <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, or clear a deteriorating deck for a new build in <a href="/service-areas#santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, our professional demolition team handles the entire process from teardown to hauling and cleanup.
 
 ### Why Professional Deck Removal
 
@@ -2387,14 +2387,14 @@ Pressure-treated pine, cedar, redwood, and tropical hardwood decks. Wood decks i
 Trex, TimberTech, Azek, and other composite or PVC decking materials. While more durable than wood, these materials still degrade over time and the substructure often fails before the decking. We disassemble and properly dispose of all composite materials.
 
 **Elevated and Multi-Level Decks:**
-Many <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> and <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> homes feature elevated decks on pilings or multi-level deck systems. These require careful demolition planning, proper fall protection, and experienced crew management. We have extensive experience with elevated coastal deck removal.
+Many <a href="/service-areas#watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> and <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> homes feature elevated decks on pilings or multi-level deck systems. These require careful demolition planning, proper fall protection, and experienced crew management. We have extensive experience with elevated coastal deck removal.
 
 **Attached Structures:**
-Pergolas, gazebos, built-in seating, planters, hot tub platforms, and screen enclosures attached to or part of deck structures. We remove all attached elements as part of the demolition. For standalone <a href="/services/hot-tub-removal" class="text-ocean-600 hover:underline font-medium">hot tub removal</a>, see our dedicated service.
+Pergolas, gazebos, built-in seating, planters, hot tub platforms, and screen enclosures attached to or part of deck structures. We remove all attached elements as part of the demolition. For standalone <a href="/services#hot-tub-removal" class="text-ocean-600 hover:underline font-medium">hot tub removal</a>, see our dedicated service.
 
 ### Coastal Deck Challenges
 
-30A deck removal presents unique challenges. Homes in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> and <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> have limited access for equipment. Elevated coastal homes require working at height. Termite-damaged structures can be unstable and unpredictable. Our experienced team handles all these challenges safely and efficiently. We also handle <a href="/services/fence-removal" class="text-ocean-600 hover:underline font-medium">fence removal</a> and other exterior demolition projects. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a free deck demolition estimate.
+30A deck removal presents unique challenges. Homes in <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> and <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> have limited access for equipment. Elevated coastal homes require working at height. Termite-damaged structures can be unstable and unpredictable. Our experienced team handles all these challenges safely and efficiently. We also handle <a href="/services#fence-removal" class="text-ocean-600 hover:underline font-medium">fence removal</a> and other exterior demolition projects. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a free deck demolition estimate.
 
 ### Deck Material Routing After Demolition
 
@@ -2467,7 +2467,7 @@ We coordinate permitting, HOA approval routing, and any required documentation a
     content: `
 ## Professional Fence Removal on 30A
 
-Fences along the 30A corridor face relentless challenges from salt air, humidity, hurricanes, and the sandy soil conditions unique to our coastal environment. When your fence has deteriorated beyond repair, been damaged by storms, or simply needs to be replaced as part of a property renovation, our professional fence removal team handles the complete process. We serve homeowners and <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property managers</a> throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a> including <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, and <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>.
+Fences along the 30A corridor face relentless challenges from salt air, humidity, hurricanes, and the sandy soil conditions unique to our coastal environment. When your fence has deteriorated beyond repair, been damaged by storms, or simply needs to be replaced as part of a property renovation, our professional fence removal team handles the complete process. We serve homeowners and <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">property managers</a> throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a> including <a href="/service-areas#santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, and <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>.
 
 ### When Fence Removal Is Needed
 
@@ -2485,7 +2485,7 @@ Fences along the 30A corridor face relentless challenges from salt air, humidity
 ### Our Fence Removal Process
 
 **Step 1: Assessment**
-We evaluate your fence's length, height, material, post type, and condition. We identify gate hardware, attached structures, and any utilities near the fence line. For properties in <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> and <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, we also review HOA requirements for fence removal and replacement.
+We evaluate your fence's length, height, material, post type, and condition. We identify gate hardware, attached structures, and any utilities near the fence line. For properties in <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> and <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, we also review HOA requirements for fence removal and replacement.
 
 **Step 2: Fence Panel and Rail Removal**
 Fence boards, panels, and rails are removed first. We work section by section, stacking and loading materials efficiently. Recyclable materials including clean wood and metal are separated for proper handling.
@@ -2519,7 +2519,7 @@ Many fence removal services cut posts at ground level and leave the concrete foo
 
 ### Coastal Fence Considerations
 
-30A properties have unique fencing challenges. Sandy soil means posts and footings can shift over time. Salt spray corrodes metal hardware and fasteners rapidly. Hurricane-force winds can flatten entire fence runs. After major storms, we provide priority fence removal service to clear <a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">storm debris</a> and damaged fencing quickly. We also handle <a href="/services/deck-removal" class="text-ocean-600 hover:underline font-medium">deck removal</a> and <a href="/services/shed-demolition" class="text-ocean-600 hover:underline font-medium">shed demolition</a> for complete exterior cleanup projects. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a free fence removal estimate.
+30A properties have unique fencing challenges. Sandy soil means posts and footings can shift over time. Salt spray corrodes metal hardware and fasteners rapidly. Hurricane-force winds can flatten entire fence runs. After major storms, we provide priority fence removal service to clear <a href="/services#yard-debris" class="text-ocean-600 hover:underline font-medium">storm debris</a> and damaged fencing quickly. We also handle <a href="/services#deck-removal" class="text-ocean-600 hover:underline font-medium">deck removal</a> and <a href="/services#shed-demolition" class="text-ocean-600 hover:underline font-medium">shed demolition</a> for complete exterior cleanup projects. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a free fence removal estimate.
     `,
     features: [
       'All fence types removed',
@@ -2566,7 +2566,7 @@ Many fence removal services cut posts at ground level and leave the concrete foo
     content: `
 ## Professional Carpet Removal on 30A
 
-Replacing old carpet is one of the most impactful home improvements you can make, but the removal process is messy, labor-intensive, and generates a surprising amount of waste. Whether you are upgrading to hardwood or tile in your <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> home, dealing with water-damaged carpet in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, or preparing a <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental</a> for new flooring, our professional carpet removal team handles everything. We rip out carpet, padding, and tack strips, then haul away all debris so your subfloor is clean and ready for new flooring installation.
+Replacing old carpet is one of the most impactful home improvements you can make, but the removal process is messy, labor-intensive, and generates a surprising amount of waste. Whether you are upgrading to hardwood or tile in your <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> home, dealing with water-damaged carpet in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, or preparing a <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental</a> for new flooring, our professional carpet removal team handles everything. We rip out carpet, padding, and tack strips, then haul away all debris so your subfloor is clean and ready for new flooring installation.
 
 ### Why Professional Carpet Removal
 
@@ -2579,10 +2579,10 @@ A single room of carpet and padding can weigh 200-400 pounds. A full home genera
 ### Our Carpet Removal Process
 
 **Step 1: Assessment and Quote**
-We evaluate the square footage, number of rooms, carpet type, and subfloor condition. We check for asbestos-era materials in older homes, water damage, mold, and other issues. Text photos and approximate square footage for a quick quote. We serve all communities from <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a> to <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>.
+We evaluate the square footage, number of rooms, carpet type, and subfloor condition. We check for asbestos-era materials in older homes, water damage, mold, and other issues. Text photos and approximate square footage for a quick quote. We serve all communities from <a href="/service-areas#santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a> to <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>.
 
 **Step 2: Furniture Coordination**
-If rooms are furnished, we can work around furniture or coordinate with <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture removal</a> as part of the project. For whole-home carpet removal, rooms can be done in phases to keep the home functional.
+If rooms are furnished, we can work around furniture or coordinate with <a href="/services#furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture removal</a> as part of the project. For whole-home carpet removal, rooms can be done in phases to keep the home functional.
 
 **Step 3: Carpet and Padding Removal**
 Carpet is cut into manageable sections and rolled for efficient removal. Padding is scraped from the subfloor. Adhesive residue is addressed. All carpet, padding, and debris are loaded into our trucks.
@@ -2596,7 +2596,7 @@ The exposed subfloor is swept, scraped of adhesive residue, and inspected. We id
 ### Common Carpet Removal Scenarios
 
 **Vacation Rental Upgrades:**
-<a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental properties</a> across <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a>, and <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> are increasingly switching from carpet to luxury vinyl plank or tile. These hard-surface floors are easier to clean, more durable, and preferred by guests. We handle the carpet removal portion quickly so your flooring installer can start immediately.
+<a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental properties</a> across <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas#watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a>, and <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> are increasingly switching from carpet to luxury vinyl plank or tile. These hard-surface floors are easier to clean, more durable, and preferred by guests. We handle the carpet removal portion quickly so your flooring installer can start immediately.
 
 **Water Damage Restoration:**
 Coastal humidity and occasional flooding make water-damaged carpet a common issue on 30A. Wet carpet must be removed promptly to prevent mold growth. We provide fast-response carpet removal for water damage situations, including pulling up wet carpet and padding, and preparing the subfloor for drying.
@@ -2606,7 +2606,7 @@ Removing old, stained carpet before listing your home can significantly increase
 
 ### Pricing Information
 
-Carpet removal is priced by square footage and complexity. Basic carpet and padding removal starts at $200. Tack strip removal is included in our standard service. Adhesive removal, subfloor repair, and furniture moving are available as add-on services. For whole-home projects, we provide volume pricing. Text photos and approximate square footage for accurate quotes. For <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris</a> from larger renovation projects, ask about combined pricing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your carpet removal.
+Carpet removal is priced by square footage and complexity. Basic carpet and padding removal starts at $200. Tack strip removal is included in our standard service. Adhesive removal, subfloor repair, and furniture moving are available as add-on services. For whole-home projects, we provide volume pricing. Text photos and approximate square footage for accurate quotes. For <a href="/services#construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris</a> from larger renovation projects, ask about combined pricing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your carpet removal.
 
 ### Carpet Disposal Routing in Florida
 
@@ -2680,7 +2680,7 @@ Property managers handling 15+ units typically batch carpet replacement during s
     content: `
 ## Professional Storage Unit Cleanout on 30A
 
-Storage units have a way of becoming forgotten repositories for items that no longer serve a purpose. Monthly rental fees add up, and eventually the cost of storing items exceeds their value. Whether you have inherited a storage unit in <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, need to vacate a unit before your lease ends in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, or are managing a deceased relative's storage as part of an <a href="/services/estate-cleanouts" class="text-ocean-600 hover:underline font-medium">estate cleanout</a>, we provide fast, affordable storage unit cleanout service across <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a>.
+Storage units have a way of becoming forgotten repositories for items that no longer serve a purpose. Monthly rental fees add up, and eventually the cost of storing items exceeds their value. Whether you have inherited a storage unit in <a href="/service-areas#santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, need to vacate a unit before your lease ends in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, or are managing a deceased relative's storage as part of an <a href="/services#estate-cleanouts" class="text-ocean-600 hover:underline font-medium">estate cleanout</a>, we provide fast, affordable storage unit cleanout service across <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a>.
 
 ### Why Professional Storage Cleanout
 
@@ -2702,10 +2702,10 @@ Tell us the unit size and general contents. If possible, send photos of the unit
 Unless you want everything removed, we sort items into categories: keep, donate, recycle, and dispose. You can be present to make decisions or give us general guidelines to follow. We carefully handle any items you want to keep and can deliver them to your home.
 
 **Step 3: Loading and Hauling**
-Our team loads all removal items into our trucks efficiently. We handle heavy <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture</a>, <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliances</a>, boxes, and miscellaneous items. Multiple units can be cleared in a single visit for additional savings.
+Our team loads all removal items into our trucks efficiently. We handle heavy <a href="/services#furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture</a>, <a href="/services#appliance-removal" class="text-ocean-600 hover:underline font-medium">appliances</a>, boxes, and miscellaneous items. Multiple units can be cleared in a single visit for additional savings.
 
 **Step 4: Donation and Disposal**
-Quality items in good condition are <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donated to local charities</a>. Recyclable materials are separated. Remaining items are properly disposed. We provide donation receipts for tax purposes when items are donated to qualifying organizations.
+Quality items in good condition are <a href="/services#donation-pickup" class="text-ocean-600 hover:underline font-medium">donated to local charities</a>. Recyclable materials are separated. Remaining items are properly disposed. We provide donation receipts for tax purposes when items are donated to qualifying organizations.
 
 **Step 5: Broom-Clean Handoff**
 We sweep the unit clean so you can turn in your keys without cleaning fees. The unit is left in move-out condition, ready for your final walkthrough with the facility.
@@ -2716,7 +2716,7 @@ We sweep the unit clean so you can turn in your keys without cleaning fees. The 
 
 **Boxes of Household Items:** Kitchen items, decor, clothing, books, toys, and seasonal items. We sort through boxes quickly and separate donatable items from trash.
 
-**Electronics:** Old TVs, computers, and <a href="/services/tv-electronics-recycling" class="text-ocean-600 hover:underline font-medium">electronics that require proper recycling</a>. We ensure e-waste is handled according to environmental regulations.
+**Electronics:** Old TVs, computers, and <a href="/services#tv-electronics-recycling" class="text-ocean-600 hover:underline font-medium">electronics that require proper recycling</a>. We ensure e-waste is handled according to environmental regulations.
 
 **Appliances:** Stored washers, dryers, refrigerators, and small appliances. Working appliances can be donated; non-working units are properly recycled.
 
@@ -2724,7 +2724,7 @@ We sweep the unit clean so you can turn in your keys without cleaning fees. The 
 
 ### Storage Unit Sizes We Clear
 
-We handle all common storage unit sizes from 5x5 closet units to 10x30 warehouse-sized units. Climate-controlled and standard units are both serviced. We also clear outdoor storage areas, RV storage spots, and parking space storage. For properties needing both storage and home cleanout, we offer combined <a href="/services/garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garage cleanout</a> packages. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your storage unit cleanout and start saving on monthly rent.
+We handle all common storage unit sizes from 5x5 closet units to 10x30 warehouse-sized units. Climate-controlled and standard units are both serviced. We also clear outdoor storage areas, RV storage spots, and parking space storage. For properties needing both storage and home cleanout, we offer combined <a href="/services#garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garage cleanout</a> packages. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your storage unit cleanout and start saving on monthly rent.
 
 ### Auction-Purchase Storage Cleanouts
 
@@ -2812,7 +2812,7 @@ The sort-and-route approach typically recovers $200-$800 in donation tax-deducti
     content: `
 ## Compassionate Hoarding Cleanup on 30A
 
-Hoarding is a recognized mental health condition that affects millions of Americans, and residents of the 30A area are no exception. When a loved one's accumulation of possessions has become overwhelming, or when you need to address a hoarding situation in a property you manage, our team provides compassionate, non-judgmental cleanup services. We understand the sensitivity required for these situations and approach every project with respect, patience, and professionalism. We serve families and <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property managers</a> throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a>.
+Hoarding is a recognized mental health condition that affects millions of Americans, and residents of the 30A area are no exception. When a loved one's accumulation of possessions has become overwhelming, or when you need to address a hoarding situation in a property you manage, our team provides compassionate, non-judgmental cleanup services. We understand the sensitivity required for these situations and approach every project with respect, patience, and professionalism. We serve families and <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">property managers</a> throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a>.
 
 ### Our Approach: Compassion First
 
@@ -2820,10 +2820,10 @@ Hoarding is a recognized mental health condition that affects millions of Americ
 Hoarding disorder is not about laziness or poor housekeeping. It is a complex condition recognized by the American Psychiatric Association. Our team is trained to work with individuals and families experiencing hoarding situations with complete empathy and without judgment. We never rush the process or dismiss the emotional difficulty of letting go of possessions.
 
 **Working at the Client's Pace:**
-When the individual is involved in the cleanup, we work at their pace. We explain each step, ask permission before removing items, and respect boundaries. For situations where the individual is not present, such as <a href="/services/estate-cleanouts" class="text-ocean-600 hover:underline font-medium">estate cleanouts</a> or property management situations, we document everything carefully and follow family instructions.
+When the individual is involved in the cleanup, we work at their pace. We explain each step, ask permission before removing items, and respect boundaries. For situations where the individual is not present, such as <a href="/services#estate-cleanouts" class="text-ocean-600 hover:underline font-medium">estate cleanouts</a> or property management situations, we document everything carefully and follow family instructions.
 
 **Privacy and Discretion:**
-We arrive in unmarked vehicles when requested. Our crew is professional and discreet. We understand that hoarding situations carry stigma, and we protect our clients' privacy at all times. In close-knit 30A communities like <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> and <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, discretion is especially important.
+We arrive in unmarked vehicles when requested. Our crew is professional and discreet. We understand that hoarding situations carry stigma, and we protect our clients' privacy at all times. In close-knit 30A communities like <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> and <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, discretion is especially important.
 
 ### Our Hoarding Cleanup Process
 
@@ -2837,7 +2837,7 @@ Before major cleanup begins, we address immediate safety concerns. Blocked exits
 We work through the property room by room, sorting items into categories: keep, donate, recycle, and dispose. Important documents, valuables, photographs, and sentimental items are carefully separated and preserved. We understand that buried treasures exist in every hoarding situation, and we search carefully to find and protect them.
 
 **Phase 4: Deep Cleaning and Restoration**
-Once items are removed, we address the property itself. This may include cleaning floors, walls, and surfaces. We identify damage that requires professional repair including water damage, pest damage, and structural issues. For properties in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>, and other 30A communities, we coordinate with local contractors for necessary repairs.
+Once items are removed, we address the property itself. This may include cleaning floors, walls, and surfaces. We identify damage that requires professional repair including water damage, pest damage, and structural issues. For properties in <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, <a href="/service-areas#grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>, and other 30A communities, we coordinate with local contractors for necessary repairs.
 
 **Phase 5: Follow-Up and Support**
 After the initial cleanup, we provide follow-up visits if needed to address additional areas or subsequent accumulation. We can connect families with local resources and support services for ongoing management of hoarding disorder.
@@ -2850,9 +2850,9 @@ Severe hoarding situations may involve biohazard conditions including animal was
 
 **Family Intervention:** Adult children recognizing a parent's hoarding condition and seeking professional help to restore the home to safe, livable condition while preserving the parent's dignity and autonomy.
 
-**Estate Settlement:** Discovering a hoarding situation after a loved one passes, requiring complete property cleanout for sale or transfer. These often overlap with our <a href="/services/estate-cleanouts" class="text-ocean-600 hover:underline font-medium">estate cleanout services</a>.
+**Estate Settlement:** Discovering a hoarding situation after a loved one passes, requiring complete property cleanout for sale or transfer. These often overlap with our <a href="/services#estate-cleanouts" class="text-ocean-600 hover:underline font-medium">estate cleanout services</a>.
 
-**Property Management:** Landlords or <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property managers</a> discovering hoarding conditions in rental properties after tenant departure, requiring complete cleanout and property restoration.
+**Property Management:** Landlords or <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">property managers</a> discovering hoarding conditions in rental properties after tenant departure, requiring complete cleanout and property restoration.
 
 **Self-Referral:** Individuals recognizing they need help and reaching out for professional assistance. These clients deserve particular respect and encouragement, and we provide our most patient, supportive service.
 
@@ -2905,7 +2905,7 @@ Hoarding cleanups are rarely completed in a single day. We plan multi-day projec
     content: `
 ## Professional Foreclosure Cleanout on 30A
 
-Foreclosure properties and bank-owned (REO) homes along the 30A corridor require prompt, thorough cleanout to preserve property value and meet lender deadlines. Whether you are a bank asset manager, REO agent, property preservation company, or individual who has acquired a foreclosed property, we provide complete cleanout services that meet institutional standards. We serve all <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A communities</a> including <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and surrounding areas.
+Foreclosure properties and bank-owned (REO) homes along the 30A corridor require prompt, thorough cleanout to preserve property value and meet lender deadlines. Whether you are a bank asset manager, REO agent, property preservation company, or individual who has acquired a foreclosed property, we provide complete cleanout services that meet institutional standards. We serve all <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A communities</a> including <a href="/service-areas#santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and surrounding areas.
 
 ### Understanding Foreclosure Cleanouts
 
@@ -2921,10 +2921,10 @@ Financial institutions have specific requirements for property preservation. The
 We conduct an on-site or photo-based assessment of the property condition and contents. We document the current state with timestamped photos covering every room, exterior areas, and any notable conditions. This initial documentation protects all parties involved.
 
 **Step 2: Complete Contents Removal**
-Our team removes all remaining personal property, furniture, appliances, and debris. This includes items in closets, cabinets, attics, <a href="/services/garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garages</a>, sheds, and outdoor areas. Nothing is left behind. We handle <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture</a>, <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliances</a>, <a href="/services/mattress-removal" class="text-ocean-600 hover:underline font-medium">mattresses</a>, <a href="/services/tv-electronics-recycling" class="text-ocean-600 hover:underline font-medium">electronics</a>, and all household contents.
+Our team removes all remaining personal property, furniture, appliances, and debris. This includes items in closets, cabinets, attics, <a href="/services#garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garages</a>, sheds, and outdoor areas. Nothing is left behind. We handle <a href="/services#furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture</a>, <a href="/services#appliance-removal" class="text-ocean-600 hover:underline font-medium">appliances</a>, <a href="/services#mattress-removal" class="text-ocean-600 hover:underline font-medium">mattresses</a>, <a href="/services#tv-electronics-recycling" class="text-ocean-600 hover:underline font-medium">electronics</a>, and all household contents.
 
 **Step 3: Yard and Exterior Cleanup**
-Foreclosed properties often have neglected yards and exterior areas. We remove <a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">yard debris</a>, abandoned outdoor furniture, trash, and any items stored outside. The exterior is cleared to present a maintained appearance for listing or sale.
+Foreclosed properties often have neglected yards and exterior areas. We remove <a href="/services#yard-debris" class="text-ocean-600 hover:underline font-medium">yard debris</a>, abandoned outdoor furniture, trash, and any items stored outside. The exterior is cleared to present a maintained appearance for listing or sale.
 
 **Step 4: Broom-Clean Finish**
 After all items are removed, we sweep all floors, wipe countertops, and ensure the property is in broom-clean condition. This meets the standard requirement for most banks and property preservation companies.
@@ -2935,16 +2935,16 @@ We provide comprehensive after photos matching our initial documentation. Every 
 ### Property Types We Clear
 
 **Single-Family Homes:**
-The most common foreclosure cleanout type on 30A. From modest homes in <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a> to luxury properties in <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, we clear homes of all sizes efficiently and thoroughly.
+The most common foreclosure cleanout type on 30A. From modest homes in <a href="/service-areas#santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a> to luxury properties in <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, we clear homes of all sizes efficiently and thoroughly.
 
 **Condominiums and Townhomes:**
 Condo cleanouts require coordination with HOA management for access, elevator use, and debris removal logistics. We handle all coordination and ensure HOA common areas are not impacted.
 
 **Vacation Rental Properties:**
-<a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental properties</a> that have been foreclosed often contain commercial-grade furnishings and equipment. We remove all contents and coordinate with property management for access.
+<a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental properties</a> that have been foreclosed often contain commercial-grade furnishings and equipment. We remove all contents and coordinate with property management for access.
 
 **Commercial Properties:**
-Foreclosed commercial spaces including offices, retail, and mixed-use properties. We clear all contents, fixtures, and debris to prepare for new ownership. See our <a href="/services/commercial-junk-removal" class="text-ocean-600 hover:underline font-medium">commercial junk removal</a> service for more details.
+Foreclosed commercial spaces including offices, retail, and mixed-use properties. We clear all contents, fixtures, and debris to prepare for new ownership. See our <a href="/services#commercial-junk-removal" class="text-ocean-600 hover:underline font-medium">commercial junk removal</a> service for more details.
 
 ### Working with Banks and REO Companies
 
@@ -2976,7 +2976,7 @@ We've handled foreclosure cleanouts across both Walton and Bay County REO invent
 
 ### Common Foreclosure Cleanout Discovery Items
 
-Foreclosure properties commonly contain items that need specialized handling: refrigerators with refrigerant (requiring <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">EPA Section 608 recovery</a>), older mattresses (requiring <a href="/services/mattress-removal" class="text-ocean-600 hover:underline font-medium">Florida plastic-bag rule compliance</a>), hazardous materials (paint, chemicals, automotive fluids), occasional vintage furniture with collector value, and accumulated documents requiring secure disposal. Our standard workflow includes sorting these categories for appropriate routing.
+Foreclosure properties commonly contain items that need specialized handling: refrigerators with refrigerant (requiring <a href="/services#appliance-removal" class="text-ocean-600 hover:underline font-medium">EPA Section 608 recovery</a>), older mattresses (requiring <a href="/services#mattress-removal" class="text-ocean-600 hover:underline font-medium">Florida plastic-bag rule compliance</a>), hazardous materials (paint, chemicals, automotive fluids), occasional vintage furniture with collector value, and accumulated documents requiring secure disposal. Our standard workflow includes sorting these categories for appropriate routing.
     `,
     features: [
       'Full property clearing and cleanout',
@@ -3023,7 +3023,7 @@ Foreclosure properties commonly contain items that need specialized handling: re
     content: `
 ## Professional Commercial Junk Removal on 30A
 
-The 30A commercial corridor is a vibrant mix of restaurants, boutique retail, professional offices, vacation rental management companies, and hospitality businesses. Each generates commercial waste and junk that exceeds regular trash service capabilities. From restaurant equipment removal in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> to <a href="/services/office-furniture" class="text-ocean-600 hover:underline font-medium">office furniture</a> disposal in <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, we provide reliable commercial junk removal that keeps your business running smoothly.
+The 30A commercial corridor is a vibrant mix of restaurants, boutique retail, professional offices, vacation rental management companies, and hospitality businesses. Each generates commercial waste and junk that exceeds regular trash service capabilities. From restaurant equipment removal in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a> to <a href="/services#office-furniture" class="text-ocean-600 hover:underline font-medium">office furniture</a> disposal in <a href="/service-areas#santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, we provide reliable commercial junk removal that keeps your business running smoothly.
 
 ### Commercial Services We Provide
 
@@ -3031,13 +3031,13 @@ The 30A commercial corridor is a vibrant mix of restaurants, boutique retail, pr
 The 30A dining scene is constantly evolving. When restaurants renovate, upgrade equipment, or close, they need reliable removal of commercial kitchen equipment, dining furniture, fixtures, signage, and accumulated storage items. We handle booths, tables, chairs, commercial ovens, refrigeration units, dish systems, bar equipment, and all restaurant-related items.
 
 **Retail and Boutique:**
-30A's boutique shopping districts in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, and surrounding areas see regular store turnovers and renovations. We remove display fixtures, shelving, signage, old inventory, packaging materials, and all commercial retail waste.
+30A's boutique shopping districts in <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, and surrounding areas see regular store turnovers and renovations. We remove display fixtures, shelving, signage, old inventory, packaging materials, and all commercial retail waste.
 
 **Office and Professional:**
-Professional offices, medical practices, real estate offices, and other service businesses generate <a href="/services/office-furniture" class="text-ocean-600 hover:underline font-medium">office furniture</a> and equipment waste. We provide complete office cleanouts, individual item removal, and <a href="/services/tv-electronics-recycling" class="text-ocean-600 hover:underline font-medium">electronics recycling</a>.
+Professional offices, medical practices, real estate offices, and other service businesses generate <a href="/services#office-furniture" class="text-ocean-600 hover:underline font-medium">office furniture</a> and equipment waste. We provide complete office cleanouts, individual item removal, and <a href="/services#tv-electronics-recycling" class="text-ocean-600 hover:underline font-medium">electronics recycling</a>.
 
 **Hospitality and Lodging:**
-Hotels, inns, and bed-and-breakfasts along 30A regularly replace furniture, fixtures, and equipment. Bulk mattress, <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture</a>, and <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliance removal</a> for hospitality properties is one of our specialties.
+Hotels, inns, and bed-and-breakfasts along 30A regularly replace furniture, fixtures, and equipment. Bulk mattress, <a href="/services#furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture</a>, and <a href="/services#appliance-removal" class="text-ocean-600 hover:underline font-medium">appliance removal</a> for hospitality properties is one of our specialties.
 
 ### After-Hours and Minimal Disruption Service
 
@@ -3053,21 +3053,21 @@ Large commercial cleanouts may require multiple days. We develop a phased plan t
 Commercial projects often involve large volumes of material. We offer volume pricing that reduces your per-item or per-load cost on larger projects. The more you need removed, the more you save per unit.
 
 **Recurring Pickup Service:**
-For businesses that generate ongoing waste beyond regular trash service, we offer weekly, bi-weekly, or monthly recurring pickup. This is ideal for <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction contractors</a>, <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property management companies</a>, and businesses with regular equipment turnover.
+For businesses that generate ongoing waste beyond regular trash service, we offer weekly, bi-weekly, or monthly recurring pickup. This is ideal for <a href="/services#construction-debris" class="text-ocean-600 hover:underline font-medium">construction contractors</a>, <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">property management companies</a>, and businesses with regular equipment turnover.
 
 **Priority Scheduling:**
 Recurring commercial clients receive priority scheduling, consistent pricing, and dedicated account support. We understand that commercial timelines are critical and ensure reliable, on-time service.
 
 ### Commercial Compliance
 
-We understand the regulatory requirements for commercial waste disposal in Walton County. We maintain proper licensing, insurance, and disposal documentation. For businesses in planned communities like <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> and <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, we coordinate with HOA and community management for service access and scheduling. We follow all <a href="https://www.epa.gov/smm" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA sustainable materials management</a> guidelines for commercial waste.
+We understand the regulatory requirements for commercial waste disposal in Walton County. We maintain proper licensing, insurance, and disposal documentation. For businesses in planned communities like <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a> and <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, we coordinate with HOA and community management for service access and scheduling. We follow all <a href="https://www.epa.gov/smm" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA sustainable materials management</a> guidelines for commercial waste.
 
 ### Industries We Serve
 
 - Restaurants, cafes, and bars
 - Retail stores and boutiques
 - Professional offices and medical practices
-- <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental</a> management companies
+- <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental</a> management companies
 - Hotels, inns, and lodging properties
 - Construction companies and contractors
 - Real estate and property management
@@ -3133,7 +3133,7 @@ Commercial junk removal pricing typically differs from residential in three ways
 - Large commercial cleanout (full restaurant closeout, multi-floor office, large retail buildout): $2,000-$6,000+
 - Recurring scheduled service (weekly/biweekly): $300-$1,500/month depending on volume
 
-See our <a href="/blog/junk-removal-cost-30a-2026-pricing-guide" class="text-ocean-600 hover:underline font-medium">2026 pricing deep dive</a> for the broader cost structure, and our <a href="/services/foreclosure-cleanout" class="text-ocean-600 hover:underline font-medium">foreclosure cleanout</a> and <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property management</a> services for adjacent commercial work.
+See our <a href="/blog/junk-removal-cost-30a-2026-pricing-guide" class="text-ocean-600 hover:underline font-medium">2026 pricing deep dive</a> for the broader cost structure, and our <a href="/services#foreclosure-cleanout" class="text-ocean-600 hover:underline font-medium">foreclosure cleanout</a> and <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">property management</a> services for adjacent commercial work.
     `,
     features: [
       'After-hours and weekend service',
@@ -3180,7 +3180,7 @@ See our <a href="/blog/junk-removal-cost-30a-2026-pricing-guide" class="text-oce
     content: `
 ## Professional Bathroom Demolition on 30A
 
-Bathroom renovations are among the most popular home improvement projects on 30A, and for good reason. Updated bathrooms dramatically increase property value and guest satisfaction for <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental properties</a>. But before the beautiful new tile, modern vanity, and walk-in shower can go in, the old bathroom must come out. That is where our professional bathroom demolition service comes in. We serve homeowners and contractors throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a> including <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, and <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>.
+Bathroom renovations are among the most popular home improvement projects on 30A, and for good reason. Updated bathrooms dramatically increase property value and guest satisfaction for <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental properties</a>. But before the beautiful new tile, modern vanity, and walk-in shower can go in, the old bathroom must come out. That is where our professional bathroom demolition service comes in. We serve homeowners and contractors throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a> including <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, and <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>.
 
 ### What Bathroom Demolition Includes
 
@@ -3194,7 +3194,7 @@ Toilets, sinks, bathtubs, shower bases, and faucets are disconnected and removed
 Bathroom vanities, medicine cabinets, linen cabinets, and built-in storage are removed. Countertops including granite, marble, quartz, and laminate are taken out. We disconnect plumbing connections and cap lines as needed.
 
 **Flooring Removal:**
-Beyond tile, we remove vinyl flooring, linoleum, and any underlayment or subfloor materials that need replacement. <a href="/services/carpet-removal" class="text-ocean-600 hover:underline font-medium">Carpet removal</a> in adjoining areas is available as well.
+Beyond tile, we remove vinyl flooring, linoleum, and any underlayment or subfloor materials that need replacement. <a href="/services#carpet-removal" class="text-ocean-600 hover:underline font-medium">Carpet removal</a> in adjoining areas is available as well.
 
 ### Our Bathroom Demo Process
 
@@ -3208,7 +3208,7 @@ We follow a proven sequence: fixtures first, then tile, then vanities and cabine
 Bathroom demolition generates significant debris. Tile, mortar, porcelain, cast iron, and cabinet materials are heavy and voluminous. We load everything into our trucks as we work, keeping the jobsite clean and safe throughout the process. All debris is hauled away as part of the service.
 
 **Step 4: Site Preparation**
-After demolition, we leave the space ready for your contractor. Walls are stripped to studs where specified. Floors are cleared to the subfloor. The space is swept clean and debris-free. We can also handle <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris</a> from the renovation phase as your project progresses.
+After demolition, we leave the space ready for your contractor. Walls are stripped to studs where specified. Floors are cleared to the subfloor. The space is swept clean and debris-free. We can also handle <a href="/services#construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris</a> from the renovation phase as your project progresses.
 
 ### Coastal Bathroom Considerations
 
@@ -3216,7 +3216,7 @@ After demolition, we leave the space ready for your contractor. Walls are stripp
 
 ### Vacation Rental Bathroom Upgrades
 
-For <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental properties</a>, bathroom quality directly impacts guest reviews and bookings. <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">Property managers</a> across <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a>, <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, and <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a> schedule bathroom renovations during low-season windows. We understand the urgency of completing demolition quickly so your renovation contractor can start immediately. Tight timelines and seasonal scheduling are no problem for our experienced team.
+For <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental properties</a>, bathroom quality directly impacts guest reviews and bookings. <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">Property managers</a> across <a href="/service-areas#watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a>, <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, and <a href="/service-areas#grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a> schedule bathroom renovations during low-season windows. We understand the urgency of completing demolition quickly so your renovation contractor can start immediately. Tight timelines and seasonal scheduling are no problem for our experienced team.
 
 ### Pricing and Scope
 
@@ -3248,7 +3248,7 @@ We offer three standard scopes for bathroom demolition projects:
 
 **Selective demo with preservation** ($800-$1,400) — specific elements removed while preserving others (e.g., remove tile and vanity but keep tub, or remove fixtures but keep tile). Requires careful coordination with contractor on what stays vs. goes. Photo documentation per area preserved.
 
-For multi-bathroom projects or renovations across multiple property areas, see our <a href="/services/kitchen-demolition" class="text-ocean-600 hover:underline font-medium">kitchen demolition</a> and <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris removal</a> services. Coordinated multi-area projects receive volume pricing.
+For multi-bathroom projects or renovations across multiple property areas, see our <a href="/services#kitchen-demolition" class="text-ocean-600 hover:underline font-medium">kitchen demolition</a> and <a href="/services#construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris removal</a> services. Coordinated multi-area projects receive volume pricing.
     `,
     features: [
       'Complete tile removal',
@@ -3295,21 +3295,21 @@ For multi-bathroom projects or renovations across multiple property areas, see o
     content: `
 ## Professional Kitchen Demolition on 30A
 
-Kitchen renovations deliver the highest return on investment for 30A properties, whether you are updating your permanent residence or upgrading a <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental</a> to attract premium bookings. The demolition phase sets the foundation for everything that follows. Sloppy demolition leads to contractor delays, hidden costs, and subpar results. Our professional kitchen demolition team provides clean, efficient, and thorough tearout that gets your renovation started right. We serve homeowners and contractors throughout <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, and all <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A communities</a>.
+Kitchen renovations deliver the highest return on investment for 30A properties, whether you are updating your permanent residence or upgrading a <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental</a> to attract premium bookings. The demolition phase sets the foundation for everything that follows. Sloppy demolition leads to contractor delays, hidden costs, and subpar results. Our professional kitchen demolition team provides clean, efficient, and thorough tearout that gets your renovation started right. We serve homeowners and contractors throughout <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, and all <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A communities</a>.
 
 ### What Kitchen Demolition Includes
 
 **Cabinet Removal:**
-Upper and lower cabinets are carefully removed from walls and base platforms. We handle all cabinet types including custom built-ins, stock cabinetry, and specialty installations. Hardware, hinges, and mounting systems are all removed. Cabinets in good condition can be <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donated to local charities</a> like Habitat for Humanity ReStore.
+Upper and lower cabinets are carefully removed from walls and base platforms. We handle all cabinet types including custom built-ins, stock cabinetry, and specialty installations. Hardware, hinges, and mounting systems are all removed. Cabinets in good condition can be <a href="/services#donation-pickup" class="text-ocean-600 hover:underline font-medium">donated to local charities</a> like Habitat for Humanity ReStore.
 
 **Countertop Removal:**
 Granite, marble, quartz, laminate, butcher block, concrete, and tile countertops are all removed and hauled away. Heavy stone countertops require special handling and multiple crew members. We cut and section large pieces for safe, efficient removal without damaging surrounding structures.
 
 **Appliance Removal:**
-Refrigerators, stoves, ovens, dishwashers, microwaves, range hoods, wine coolers, and all kitchen <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliances are removed</a> and hauled away. We disconnect standard connections and coordinate with licensed professionals for gas line and hardwired electrical disconnections.
+Refrigerators, stoves, ovens, dishwashers, microwaves, range hoods, wine coolers, and all kitchen <a href="/services#appliance-removal" class="text-ocean-600 hover:underline font-medium">appliances are removed</a> and hauled away. We disconnect standard connections and coordinate with licensed professionals for gas line and hardwired electrical disconnections.
 
 **Flooring Removal:**
-Kitchen tile, hardwood, vinyl, and underlayment are removed when included in the renovation scope. We expose the subfloor cleanly and note any damage or issues for your contractor. See our <a href="/services/carpet-removal" class="text-ocean-600 hover:underline font-medium">carpet removal</a> service for adjacent areas.
+Kitchen tile, hardwood, vinyl, and underlayment are removed when included in the renovation scope. We expose the subfloor cleanly and note any damage or issues for your contractor. See our <a href="/services#carpet-removal" class="text-ocean-600 hover:underline font-medium">carpet removal</a> service for adjacent areas.
 
 **Backsplash and Wall Prep:**
 Tile backsplash, drywall behind cabinets, and any wall-mounted elements are removed. Walls are left at the condition specified by your contractor, whether that is bare studs, existing drywall, or cleaned surfaces.
@@ -3337,7 +3337,7 @@ The demolished kitchen is swept clean and ready for your contractor. We walk thr
 
 ### Working with Contractors
 
-We work seamlessly with renovation contractors across the 30A area. We take direction from your contractor on scope and specifications, communicate directly with their team, and schedule our work to match your project timeline. For contractors who need regular demolition support, we offer priority scheduling and project pricing. We also handle ongoing <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris removal</a> throughout the renovation process. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your kitchen demolition and get your renovation started.
+We work seamlessly with renovation contractors across the 30A area. We take direction from your contractor on scope and specifications, communicate directly with their team, and schedule our work to match your project timeline. For contractors who need regular demolition support, we offer priority scheduling and project pricing. We also handle ongoing <a href="/services#construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris removal</a> throughout the renovation process. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your kitchen demolition and get your renovation started.
 
 ### Kitchen Cabinet Disposition Strategy
 
@@ -3353,7 +3353,7 @@ Kitchen cabinets are the highest-value disposal category in a kitchen demolition
 
 Kitchen demolitions typically include 4-6 major appliances requiring specific handling:
 
-**Refrigerators** require EPA Section 608 refrigerant recovery before disposal — see our <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliance removal service</a> for the full workflow.
+**Refrigerators** require EPA Section 608 refrigerant recovery before disposal — see our <a href="/services#appliance-removal" class="text-ocean-600 hover:underline font-medium">appliance removal service</a> for the full workflow.
 
 **Built-in ovens, ranges, cooktops** typically have $30-$80 in scrap metal value. Disconnection coordinated with licensed electrician for gas units; we handle electric disconnection.
 
@@ -3377,7 +3377,7 @@ Kitchen countertops route through different disposal channels by material:
 
 **Butcher block / wood countertops** — clean wood routes to green-waste facilities at lower cost than mixed C&D.
 
-For full kitchen renovations including the full appliance suite, see our <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliance removal</a> service and <a href="/blog/30a-homeowner-renovation-debris-removal-guide" class="text-ocean-600 hover:underline font-medium">renovation debris removal guide</a>.
+For full kitchen renovations including the full appliance suite, see our <a href="/services#appliance-removal" class="text-ocean-600 hover:underline font-medium">appliance removal</a> service and <a href="/blog/30a-homeowner-renovation-debris-removal-guide" class="text-ocean-600 hover:underline font-medium">renovation debris removal guide</a>.
     `,
     features: [
       'Cabinet removal and disposal',
@@ -3424,7 +3424,7 @@ For full kitchen renovations including the full appliance suite, see our <a href
     content: `
 ## Same Day Junk Removal on 30A
 
-When you need junk removed today, not tomorrow, not next week, our same-day junk removal service delivers. We understand that urgency drives many removal needs on 30A. A broken <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliance</a> blocking your kitchen. A guest checkout revealing a damaged <a href="/services/mattress-removal" class="text-ocean-600 hover:underline font-medium">mattress</a> with new guests arriving in hours. A <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction project</a> that generated more debris than expected. Whatever your situation, we provide fast response and same-day completion throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a>.
+When you need junk removed today, not tomorrow, not next week, our same-day junk removal service delivers. We understand that urgency drives many removal needs on 30A. A broken <a href="/services#appliance-removal" class="text-ocean-600 hover:underline font-medium">appliance</a> blocking your kitchen. A guest checkout revealing a damaged <a href="/services#mattress-removal" class="text-ocean-600 hover:underline font-medium">mattress</a> with new guests arriving in hours. A <a href="/services#construction-debris" class="text-ocean-600 hover:underline font-medium">construction project</a> that generated more debris than expected. Whatever your situation, we provide fast response and same-day completion throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a>.
 
 ### How Same-Day Service Works
 
@@ -3432,7 +3432,7 @@ When you need junk removed today, not tomorrow, not next week, our same-day junk
 Call or text us with details about what needs to be removed. Photos help us provide accurate quotes quickly. The more information you share upfront, the faster we can respond. We monitor calls and texts throughout the day, including evenings.
 
 **Step 2: 2-Hour Response Window**
-Once confirmed, we dispatch a crew to your location. Our goal is to arrive within 2 hours of confirmation during normal operating hours. We serve all 30A communities from <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a> to <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, so response times are quick regardless of your location.
+Once confirmed, we dispatch a crew to your location. Our goal is to arrive within 2 hours of confirmation during normal operating hours. We serve all 30A communities from <a href="/service-areas#santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a> to <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, so response times are quick regardless of your location.
 
 **Step 3: Fast, Professional Removal**
 Our team arrives, confirms the scope and price, and gets to work immediately. We handle all lifting, loading, and cleanup. Most same-day jobs are completed within 1-2 hours of arrival.
@@ -3443,13 +3443,13 @@ Here is the best part: we do not charge extra for same-day service. Your price i
 ### When You Need Same-Day Service
 
 **Vacation Rental Emergencies:**
-<a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental</a> turnovers on 30A leave no room for delays. When a <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">damaged sofa</a> is discovered at checkout and new guests arrive at 4 PM, you need removal now, not next Tuesday. <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">Property managers</a> across <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> rely on our same-day service for turnover emergencies.
+<a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental</a> turnovers on 30A leave no room for delays. When a <a href="/services#furniture-removal" class="text-ocean-600 hover:underline font-medium">damaged sofa</a> is discovered at checkout and new guests arrive at 4 PM, you need removal now, not next Tuesday. <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">Property managers</a> across <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> rely on our same-day service for turnover emergencies.
 
 **Moving Day Surprises:**
 You are moving today and discover the old couch will not fit in the new place, or the previous owners left items behind. Same-day removal keeps your move on track without additional stress.
 
 **Project Overruns:**
-Your <a href="/services/garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garage cleanout</a> generated more junk than expected. Your contractor's debris pile is overflowing. Your <a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">yard debris</a> from weekend cleanup is too much for regular trash. We handle the overflow the same day.
+Your <a href="/services#garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garage cleanout</a> generated more junk than expected. Your contractor's debris pile is overflowing. Your <a href="/services#yard-debris" class="text-ocean-600 hover:underline font-medium">yard debris</a> from weekend cleanup is too much for regular trash. We handle the overflow the same day.
 
 **Appliance Failures:**
 When a refrigerator, washer, or dishwasher fails and the replacement is being delivered today, we remove the old unit same-day so your installation proceeds on schedule.
@@ -3459,19 +3459,19 @@ Broken items, sharp debris, fallen tree limbs, and other hazardous situations ne
 
 ### Evening and Weekend Availability
 
-We understand that not all urgencies happen during business hours. Our same-day service extends into evening hours, and we offer weekend availability as well. For <a href="/services/commercial-junk-removal" class="text-ocean-600 hover:underline font-medium">commercial clients</a> who prefer off-hours service, evening pickup is ideal. Text us anytime; we respond to messages from early morning through evening, seven days a week.
+We understand that not all urgencies happen during business hours. Our same-day service extends into evening hours, and we offer weekend availability as well. For <a href="/services#commercial-junk-removal" class="text-ocean-600 hover:underline font-medium">commercial clients</a> who prefer off-hours service, evening pickup is ideal. Text us anytime; we respond to messages from early morning through evening, seven days a week.
 
 ### What We Remove Same-Day
 
 We provide same-day service for virtually everything we handle, including:
 
-- <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">Furniture of all types</a>
-- <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">Appliances large and small</a>
-- <a href="/services/mattress-removal" class="text-ocean-600 hover:underline font-medium">Mattresses and box springs</a>
-- <a href="/services/tv-electronics-recycling" class="text-ocean-600 hover:underline font-medium">TVs and electronics</a>
-- <a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">Yard debris and branches</a>
-- <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">Construction debris</a>
-- <a href="/services/hot-tub-removal" class="text-ocean-600 hover:underline font-medium">Hot tubs</a> (may require assessment)
+- <a href="/services#furniture-removal" class="text-ocean-600 hover:underline font-medium">Furniture of all types</a>
+- <a href="/services#appliance-removal" class="text-ocean-600 hover:underline font-medium">Appliances large and small</a>
+- <a href="/services#mattress-removal" class="text-ocean-600 hover:underline font-medium">Mattresses and box springs</a>
+- <a href="/services#tv-electronics-recycling" class="text-ocean-600 hover:underline font-medium">TVs and electronics</a>
+- <a href="/services#yard-debris" class="text-ocean-600 hover:underline font-medium">Yard debris and branches</a>
+- <a href="/services#construction-debris" class="text-ocean-600 hover:underline font-medium">Construction debris</a>
+- <a href="/services#hot-tub-removal" class="text-ocean-600 hover:underline font-medium">Hot tubs</a> (may require assessment)
 - General household junk and clutter
 - Garage and storage cleanouts
 
@@ -3525,18 +3525,18 @@ Our pricing is always based on volume: how much space your items take in our tru
     content: `
 ## Bulk Trash Pickup on 30A
 
-Regular curbside trash service has strict limitations on what they will pick up. Large furniture, appliances, mattresses, yard debris, and oversized items are routinely left behind or refused. Walton County offers limited bulk pickup, but scheduling can take weeks and there are significant restrictions on what qualifies. Our bulk trash pickup service fills this gap, providing fast, reliable removal of oversized items and large volumes of material that exceed regular trash service capabilities. We serve all <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A communities</a> including <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>, and surrounding areas.
+Regular curbside trash service has strict limitations on what they will pick up. Large furniture, appliances, mattresses, yard debris, and oversized items are routinely left behind or refused. Walton County offers limited bulk pickup, but scheduling can take weeks and there are significant restrictions on what qualifies. Our bulk trash pickup service fills this gap, providing fast, reliable removal of oversized items and large volumes of material that exceed regular trash service capabilities. We serve all <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A communities</a> including <a href="/service-areas#santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas#grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>, and surrounding areas.
 
 ### What Qualifies as Bulk Trash
 
 **Oversized Items:**
-<a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">Furniture</a> including sofas, tables, dressers, and bed frames. <a href="/services/mattress-removal" class="text-ocean-600 hover:underline font-medium">Mattresses</a> and box springs. <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">Appliances</a> including refrigerators, washers, and dryers. <a href="/services/exercise-equipment" class="text-ocean-600 hover:underline font-medium">Exercise equipment</a> including treadmills and weight machines. These items cannot be placed in regular trash bins and require professional pickup.
+<a href="/services#furniture-removal" class="text-ocean-600 hover:underline font-medium">Furniture</a> including sofas, tables, dressers, and bed frames. <a href="/services#mattress-removal" class="text-ocean-600 hover:underline font-medium">Mattresses</a> and box springs. <a href="/services#appliance-removal" class="text-ocean-600 hover:underline font-medium">Appliances</a> including refrigerators, washers, and dryers. <a href="/services#exercise-equipment" class="text-ocean-600 hover:underline font-medium">Exercise equipment</a> including treadmills and weight machines. These items cannot be placed in regular trash bins and require professional pickup.
 
 **Large Volume Cleanup:**
-Post-party cleanup, seasonal property clearing, <a href="/services/garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garage cleanouts</a>, and general decluttering projects that generate more waste than your regular service handles. When you have a pile of items on your driveway or curb that keeps growing, bulk pickup is the solution.
+Post-party cleanup, seasonal property clearing, <a href="/services#garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garage cleanouts</a>, and general decluttering projects that generate more waste than your regular service handles. When you have a pile of items on your driveway or curb that keeps growing, bulk pickup is the solution.
 
 **Yard and Outdoor Waste:**
-Large branches, tree trimmings, fence sections, old outdoor furniture, grills, broken play equipment, landscape debris, and other <a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">yard waste</a> that exceeds regular service limits.
+Large branches, tree trimmings, fence sections, old outdoor furniture, grills, broken play equipment, landscape debris, and other <a href="/services#yard-debris" class="text-ocean-600 hover:underline font-medium">yard waste</a> that exceeds regular service limits.
 
 ### Our Bulk Pickup Process
 
@@ -3544,13 +3544,13 @@ Large branches, tree trimmings, fence sections, old outdoor furniture, grills, b
 Call or text with a description or photos of your bulk items. Let us know if items are at the curb, in the garage, inside the house, or in the yard. We provide a fast quote based on volume.
 
 **Step 2: Schedule Your Pickup**
-Choose a convenient date and time. We offer <a href="/services/same-day-junk-removal" class="text-ocean-600 hover:underline font-medium">same-day pickup</a> when available, as well as scheduled appointments. For curbside items, we can often pick up the same day you call.
+Choose a convenient date and time. We offer <a href="/services#same-day-junk-removal" class="text-ocean-600 hover:underline font-medium">same-day pickup</a> when available, as well as scheduled appointments. For curbside items, we can often pick up the same day you call.
 
 **Step 3: We Handle Everything**
 For curbside pickup, we load items directly from your curb or driveway. For items inside your home, garage, or yard, we do all the lifting and carrying. You never need to drag heavy items to the curb yourself.
 
 **Step 4: Responsible Disposal**
-We sort bulk items for <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donation</a>, recycling, and disposal. Usable furniture and appliances go to local charities. Metal items are recycled. The remainder is disposed of at licensed facilities following proper waste management procedures.
+We sort bulk items for <a href="/services#donation-pickup" class="text-ocean-600 hover:underline font-medium">donation</a>, recycling, and disposal. Usable furniture and appliances go to local charities. Metal items are recycled. The remainder is disposed of at licensed facilities following proper waste management procedures.
 
 ### Curbside vs. Full-Service Pickup
 
@@ -3558,7 +3558,7 @@ We sort bulk items for <a href="/services/donation-pickup" class="text-ocean-600
 If your items are already at the curb, driveway, or accessible outdoor area, curbside pickup is the fastest and most affordable option. We pull up, load, and go. Perfect for items you have already moved outside.
 
 **Full-Service Pickup:**
-For items still inside your home, garage, <a href="/services/attic-cleanout" class="text-ocean-600 hover:underline font-medium">attic</a>, or shed, we provide full-service pickup. Our team comes inside, carries items out, loads them, and cleans up. This is the hands-free option where you point and we do all the work.
+For items still inside your home, garage, <a href="/services#attic-cleanout" class="text-ocean-600 hover:underline font-medium">attic</a>, or shed, we provide full-service pickup. Our team comes inside, carries items out, loads them, and cleans up. This is the hands-free option where you point and we do all the work.
 
 ### Scheduled and Recurring Service
 
@@ -3566,11 +3566,11 @@ For items still inside your home, garage, <a href="/services/attic-cleanout" cla
 Perfect for move-outs, cleanouts, seasonal clearing, and one-off projects. Schedule a single pickup and we handle everything.
 
 **Recurring Bulk Service:**
-For <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property managers</a>, contractors, and businesses that regularly accumulate bulk items, we offer weekly, bi-weekly, or monthly scheduled bulk pickup. Consistent pricing and priority scheduling keep your property clear and professional.
+For <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">property managers</a>, contractors, and businesses that regularly accumulate bulk items, we offer weekly, bi-weekly, or monthly scheduled bulk pickup. Consistent pricing and priority scheduling keep your property clear and professional.
 
 ### 30A Bulk Pickup Challenges
 
-Many 30A communities have strict rules about items left at the curb. HOAs in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, and <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> may fine homeowners for leaving bulk items visible. Our prompt pickup service helps you avoid HOA violations and maintain your property's appearance. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your bulk trash pickup today.
+Many 30A communities have strict rules about items left at the curb. HOAs in <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, and <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> may fine homeowners for leaving bulk items visible. Our prompt pickup service helps you avoid HOA violations and maintain your property's appearance. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your bulk trash pickup today.
 
 ### Why Professional Bulk Pickup Beats Waiting for Curbside
 
@@ -3592,7 +3592,7 @@ These categories require alternative disposal channels regardless of municipalit
 
 **Refrigerators, freezers, AC units, dehumidifiers** — EPA Section 608 requires certified refrigerant recovery before disposal. See our <a href="/blog/refrigerator-appliance-disposal-30a-pcb-complete-guide" class="text-ocean-600 hover:underline font-medium">refrigerator/appliance disposal guide</a> for the complete workflow.
 
-**Hot tubs and swim spas** — too large for any curbside service. See our <a href="/services/hot-tub-removal" class="text-ocean-600 hover:underline font-medium">hot tub removal service</a> and <a href="/blog/hot-tub-removal-cost-30a-pricing-breakdown" class="text-ocean-600 hover:underline font-medium">cost breakdown</a>.
+**Hot tubs and swim spas** — too large for any curbside service. See our <a href="/services#hot-tub-removal" class="text-ocean-600 hover:underline font-medium">hot tub removal service</a> and <a href="/blog/hot-tub-removal-cost-30a-pricing-breakdown" class="text-ocean-600 hover:underline font-medium">cost breakdown</a>.
 
 **Tires** — disposed of through retailer take-back when buying new tires, or paid drop-off at county facilities. Tire dumping is a Florida misdemeanor with fines starting at $500.
 
@@ -3664,7 +3664,7 @@ For specifics by service type, see our <a href="/blog/junk-removal-cost-30a-2026
     content: `
 ## Hurricane & Storm Debris Cleanup on 30A
 
-Living on the Florida panhandle means living with hurricane risk. When storms strike the 30A corridor, they leave behind a landscape of fallen trees, damaged structures, scattered debris, and disrupted lives. From the aftermath of major hurricanes to cleanup after severe thunderstorms and tropical systems, our storm debris cleanup team provides fast emergency response and thorough property restoration. We serve all <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A communities</a> including <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, and the surrounding panhandle region.
+Living on the Florida panhandle means living with hurricane risk. When storms strike the 30A corridor, they leave behind a landscape of fallen trees, damaged structures, scattered debris, and disrupted lives. From the aftermath of major hurricanes to cleanup after severe thunderstorms and tropical systems, our storm debris cleanup team provides fast emergency response and thorough property restoration. We serve all <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">30A communities</a> including <a href="/service-areas#santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, and the surrounding panhandle region.
 
 ### Types of Storm Debris We Handle
 
@@ -3672,16 +3672,16 @@ Living on the Florida panhandle means living with hurricane risk. When storms st
 Hurricanes and severe storms topple trees and scatter large limbs across properties, driveways, and structures. We cut, section, and remove fallen trees and branches of all sizes. Trees on structures, vehicles, or power lines require careful coordination with utility companies and structural engineers.
 
 **Structural Debris:**
-Damaged roofing materials, siding, fencing, <a href="/services/deck-removal" class="text-ocean-600 hover:underline font-medium">deck sections</a>, <a href="/services/shed-demolition" class="text-ocean-600 hover:underline font-medium">shed debris</a>, screen enclosures, and other structural components scattered or destroyed by storm winds. We collect, load, and haul away all structural storm debris.
+Damaged roofing materials, siding, fencing, <a href="/services#deck-removal" class="text-ocean-600 hover:underline font-medium">deck sections</a>, <a href="/services#shed-demolition" class="text-ocean-600 hover:underline font-medium">shed debris</a>, screen enclosures, and other structural components scattered or destroyed by storm winds. We collect, load, and haul away all structural storm debris.
 
-**<a href="/services/yard-debris" class="text-ocean-600 hover:underline font-medium">Yard Debris</a>:**
+**<a href="/services#yard-debris" class="text-ocean-600 hover:underline font-medium">Yard Debris</a>:**
 Leaves, palm fronds, small branches, vegetation, mulch displacement, sand deposits, and general landscape debris left by storm winds and flooding.
 
 **Water Damage Items:**
-Flood-damaged furniture, <a href="/services/carpet-removal" class="text-ocean-600 hover:underline font-medium">carpeting</a>, <a href="/services/appliance-removal" class="text-ocean-600 hover:underline font-medium">appliances</a>, drywall, insulation, and personal belongings that cannot be salvaged after storm flooding or water intrusion.
+Flood-damaged furniture, <a href="/services#carpet-removal" class="text-ocean-600 hover:underline font-medium">carpeting</a>, <a href="/services#appliance-removal" class="text-ocean-600 hover:underline font-medium">appliances</a>, drywall, insulation, and personal belongings that cannot be salvaged after storm flooding or water intrusion.
 
 **Fencing and Exterior Structures:**
-Storm-damaged <a href="/services/fence-removal" class="text-ocean-600 hover:underline font-medium">fences</a>, pergolas, outdoor kitchens, pool cages, and other exterior structures that need removal or emergency stabilization.
+Storm-damaged <a href="/services#fence-removal" class="text-ocean-600 hover:underline font-medium">fences</a>, pergolas, outdoor kitchens, pool cages, and other exterior structures that need removal or emergency stabilization.
 
 ### Our Storm Response Process
 
@@ -3718,11 +3718,11 @@ The Atlantic hurricane season runs June through November, with peak activity Aug
 - Documenting your property's pre-storm condition with photos
 - Having our contact information ready for post-storm response
 
-For <a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental</a> and <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property management</a> clients, we offer priority post-storm response to help get rental properties back online quickly after storms. The faster your property is cleaned up and repaired, the sooner it can generate revenue again.
+For <a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">vacation rental</a> and <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">property management</a> clients, we offer priority post-storm response to help get rental properties back online quickly after storms. The faster your property is cleaned up and repaired, the sooner it can generate revenue again.
 
 ### Serving the Entire Panhandle
 
-While we are based on 30A, our storm cleanup services extend throughout the Florida panhandle. Major storms affect the entire region, and communities from <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a> to <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> and beyond all need rapid debris cleanup. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> before, during, or after storm season. We are here to help our community recover.
+While we are based on 30A, our storm cleanup services extend throughout the Florida panhandle. Major storms affect the entire region, and communities from <a href="/service-areas#grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a> to <a href="/service-areas#watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> and beyond all need rapid debris cleanup. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> before, during, or after storm season. We are here to help our community recover.
     `,
     features: [
       'Emergency storm response',
@@ -3791,7 +3791,7 @@ Church-style organs, home organs, and electronic organ systems. These vary drama
 ### Our Piano Removal Process
 
 **Step 1: Assessment**
-Every piano removal starts with a thorough assessment. We need to know the piano type, location within the home, doorway and hallway widths, stair configurations, and any access challenges. Text us photos showing the piano and the path to the nearest exterior door. For properties in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and other 30A communities, we also assess exterior access including gates, steps, and truck positioning.
+Every piano removal starts with a thorough assessment. We need to know the piano type, location within the home, doorway and hallway widths, stair configurations, and any access challenges. Text us photos showing the piano and the path to the nearest exterior door. For properties in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a>, and other 30A communities, we also assess exterior access including gates, steps, and truck positioning.
 
 **Step 2: Preparation**
 Floors, walls, doorframes, and railings are protected with padding, blankets, and floor coverings. For grand pianos, legs and pedal assemblies are removed and the piano is carefully positioned on its side on a padded piano board.
@@ -3800,11 +3800,11 @@ Floors, walls, doorframes, and railings are protected with padding, blankets, an
 Our team uses proper piano-moving techniques including dollies, straps, piano boards, and ramps. Every team member knows their role and the piano is moved smoothly and safely through your home and to our truck. We never drag, tilt unsecured, or rush the process.
 
 **Step 4: Loading and Transport**
-The piano is loaded into our truck using a ramp or lift gate and secured for transport. We handle all transportation to the disposal, <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donation</a>, or storage destination.
+The piano is loaded into our truck using a ramp or lift gate and secured for transport. We handle all transportation to the disposal, <a href="/services#donation-pickup" class="text-ocean-600 hover:underline font-medium">donation</a>, or storage destination.
 
 ### Narrow Space Expertise
 
-Many 30A homes present significant access challenges for piano removal. Older cottages in <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a> have narrow doorways and halls. Multi-story homes in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> and <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> require navigating stairs. Some pianos were moved into rooms before walls or doorframes were finished, meaning the current openings are too small for normal removal. Our team has experience with every scenario including removing doors, disassembling railings, and creative routing through challenging spaces.
+Many 30A homes present significant access challenges for piano removal. Older cottages in <a href="/service-areas#grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a> have narrow doorways and halls. Multi-story homes in <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a> and <a href="/service-areas#watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a> require navigating stairs. Some pianos were moved into rooms before walls or doorframes were finished, meaning the current openings are too small for normal removal. Our team has experience with every scenario including removing doors, disassembling railings, and creative routing through challenging spaces.
 
 ### Donation and Disposal Options
 
@@ -3902,7 +3902,7 @@ A commercial-grade treadmill can weigh over 300 pounds. A loaded Smith machine c
 Many exercise machines are too large to fit through standard doorways when fully assembled. Treadmills often need to be folded or partially disassembled. Multi-station home gyms require significant disassembly including removing cables, pulleys, and weight stacks. We handle all disassembly as part of the removal service.
 
 **Stair and Access Challenges:**
-Home gyms are frequently located in basements, upstairs bonus rooms, garages, and other spaces that require navigating stairs or tight turns. In 30A homes, multi-story construction in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, <a href="/service-areas/watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a>, and <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> means exercise equipment is often on upper floors. We navigate stairs and tight spaces with care and experience.
+Home gyms are frequently located in basements, upstairs bonus rooms, garages, and other spaces that require navigating stairs or tight turns. In 30A homes, multi-story construction in <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, <a href="/service-areas#watersound" class="text-ocean-600 hover:underline font-medium">WaterSound</a>, and <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> means exercise equipment is often on upper floors. We navigate stairs and tight spaces with care and experience.
 
 ### Our Removal Process
 
@@ -3916,15 +3916,15 @@ Our crew arrives with the tools needed for your specific equipment. We disassemb
 Disassembled components and intact equipment are carefully moved through your home using dollies and protective coverings. We protect floors, walls, and doorframes throughout the process. Everything is loaded into our truck for hauling.
 
 **Step 4: Disposal and Recycling**
-Equipment in working condition can be <a href="/services/donation-pickup" class="text-ocean-600 hover:underline font-medium">donated</a> to community centers, schools, or charitable organizations. Non-functioning equipment is recycled for its metal, electronic, and plastic components whenever possible.
+Equipment in working condition can be <a href="/services#donation-pickup" class="text-ocean-600 hover:underline font-medium">donated</a> to community centers, schools, or charitable organizations. Non-functioning equipment is recycled for its metal, electronic, and plastic components whenever possible.
 
 ### Vacation Rental and Property Management
 
-<a href="/services/vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental</a> properties and <a href="/services/property-management" class="text-ocean-600 hover:underline font-medium">property management</a> clients occasionally need exercise equipment removed during property updates or when amenities change. We work around guest schedules and rental turnovers to minimize property downtime. Equipment can be swapped on the same day new items arrive.
+<a href="/services#vacation-rentals" class="text-ocean-600 hover:underline font-medium">Vacation rental</a> properties and <a href="/services#property-management" class="text-ocean-600 hover:underline font-medium">property management</a> clients occasionally need exercise equipment removed during property updates or when amenities change. We work around guest schedules and rental turnovers to minimize property downtime. Equipment can be swapped on the same day new items arrive.
 
 ### Pricing
 
-Exercise equipment removal starts at $150 for single items like stationary bikes and standard weight benches. Treadmills and ellipticals typically run $150-$250 depending on weight and access. Full home gym systems with multiple machines and weight sets range from $300-$600+. Stairs and difficult access add to the price. For <a href="/services/bulk-trash-pickup" class="text-ocean-600 hover:underline font-medium">bulk pickup</a> combined with exercise equipment, ask about package pricing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a fast exercise equipment removal quote.
+Exercise equipment removal starts at $150 for single items like stationary bikes and standard weight benches. Treadmills and ellipticals typically run $150-$250 depending on weight and access. Full home gym systems with multiple machines and weight sets range from $300-$600+. Stairs and difficult access add to the price. For <a href="/services#bulk-trash-pickup" class="text-ocean-600 hover:underline font-medium">bulk pickup</a> combined with exercise equipment, ask about package pricing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a fast exercise equipment removal quote.
 
 ### Why Exercise Equipment Disposal Is Operationally Complex
 
@@ -4005,7 +4005,7 @@ For property managers handling multi-unit gym updates, we coordinate with instal
     content: `
 ## Professional Attic Cleanout on 30A
 
-Attics are the forgotten storage spaces of most homes. Over years and decades, they accumulate boxes, seasonal decorations, old furniture, clothing, documents, and items that seem too important to throw away but too unimportant to keep accessible. Eventually, the attic becomes so packed that it is unusable, or a home sale, renovation, or <a href="/services/estate-cleanouts" class="text-ocean-600 hover:underline font-medium">estate cleanout</a> requires it to be emptied completely. Our professional attic cleanout service handles the difficult, dirty, and physically demanding work of clearing your attic safely and completely. We serve homeowners throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a> including <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, and <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>.
+Attics are the forgotten storage spaces of most homes. Over years and decades, they accumulate boxes, seasonal decorations, old furniture, clothing, documents, and items that seem too important to throw away but too unimportant to keep accessible. Eventually, the attic becomes so packed that it is unusable, or a home sale, renovation, or <a href="/services#estate-cleanouts" class="text-ocean-600 hover:underline font-medium">estate cleanout</a> requires it to be emptied completely. Our professional attic cleanout service handles the difficult, dirty, and physically demanding work of clearing your attic safely and completely. We serve homeowners throughout <a href="/service-areas" class="text-ocean-600 hover:underline font-medium">all 30A communities</a> including <a href="/service-areas#santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, and <a href="/service-areas#grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>.
 
 ### Why Professional Attic Cleanout
 
@@ -4038,9 +4038,9 @@ Once all items are removed, the attic is swept clean. We inspect for any remaini
 
 **Documents and Photos:** Tax records, family documents, photo albums, and personal papers. These are always set aside for your review, never discarded without your approval.
 
-**Old Furniture:** Small <a href="/services/furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture pieces</a>, chairs, small tables, and lamps that were stored rather than disposed. We remove everything regardless of size or weight.
+**Old Furniture:** Small <a href="/services#furniture-removal" class="text-ocean-600 hover:underline font-medium">furniture pieces</a>, chairs, small tables, and lamps that were stored rather than disposed. We remove everything regardless of size or weight.
 
-**<a href="/services/tv-electronics-recycling" class="text-ocean-600 hover:underline font-medium">Electronics</a> and Equipment:** Old computers, speakers, holiday lighting, and miscellaneous electronic items. These are handled according to e-waste disposal guidelines.
+**<a href="/services#tv-electronics-recycling" class="text-ocean-600 hover:underline font-medium">Electronics</a> and Equipment:** Old computers, speakers, holiday lighting, and miscellaneous electronic items. These are handled according to e-waste disposal guidelines.
 
 **Insulation and Building Materials:** In some cases, attic cleanout includes removing old insulation to prepare for new installation or renovation. Blown-in insulation removal requires specialized equipment. We coordinate with insulation contractors for these projects.
 
@@ -4050,7 +4050,7 @@ Once all items are removed, the attic is swept clean. We inspect for any remaini
 
 ### Preparing for Sale or Renovation
 
-Many attic cleanouts are triggered by home sales or renovations. A clean attic shows buyers the full usable space. For renovations that involve attic access, clearing the space beforehand keeps your contractor on schedule. We also offer <a href="/services/garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garage cleanout</a> and <a href="/services/storage-unit-cleanout" class="text-ocean-600 hover:underline font-medium">storage unit cleanout</a> for complete property clearing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your attic cleanout.
+Many attic cleanouts are triggered by home sales or renovations. A clean attic shows buyers the full usable space. For renovations that involve attic access, clearing the space beforehand keeps your contractor on schedule. We also offer <a href="/services#garage-cleanouts" class="text-ocean-600 hover:underline font-medium">garage cleanout</a> and <a href="/services#storage-unit-cleanout" class="text-ocean-600 hover:underline font-medium">storage unit cleanout</a> for complete property clearing. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> to schedule your attic cleanout.
     `,
     features: [
       'Insulation awareness and safety',
@@ -4097,7 +4097,7 @@ Many attic cleanouts are triggered by home sales or renovations. A clean attic s
     content: `
 ## Professional Concrete Removal on 30A
 
-Concrete removal is one of the most physically demanding and equipment-intensive removal services we offer. Whether you need a cracked driveway removed in <a href="/service-areas/santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, an old patio demolished in <a href="/service-areas/seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, a pool deck torn out in <a href="/service-areas/watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, or foundation remnants cleared in <a href="/service-areas/grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>, our team handles the complete process from breaking to hauling and disposal. Concrete is extremely heavy, with a typical 4-inch slab weighing about 50 pounds per square foot, meaning even a small 10x10 patio generates 2.5 tons of material. Professional equipment and experienced crews are essential for safe, efficient concrete removal.
+Concrete removal is one of the most physically demanding and equipment-intensive removal services we offer. Whether you need a cracked driveway removed in <a href="/service-areas#santa-rosa-beach" class="text-ocean-600 hover:underline font-medium">Santa Rosa Beach</a>, an old patio demolished in <a href="/service-areas#seaside" class="text-ocean-600 hover:underline font-medium">Seaside</a>, a pool deck torn out in <a href="/service-areas#watercolor" class="text-ocean-600 hover:underline font-medium">WaterColor</a>, or foundation remnants cleared in <a href="/service-areas#grayton-beach" class="text-ocean-600 hover:underline font-medium">Grayton Beach</a>, our team handles the complete process from breaking to hauling and disposal. Concrete is extremely heavy, with a typical 4-inch slab weighing about 50 pounds per square foot, meaning even a small 10x10 patio generates 2.5 tons of material. Professional equipment and experienced crews are essential for safe, efficient concrete removal.
 
 ### Types of Concrete We Remove
 
@@ -4108,10 +4108,10 @@ Cracked, heaving, or settling driveways are both an eyesore and a safety hazard.
 Outdoor living spaces are central to the 30A lifestyle, and when concrete patios or pool decks deteriorate, replacement transforms your property. We remove existing concrete to prepare for new pavers, stamped concrete, travertine, or other surface materials.
 
 **Sidewalks and Walkways:**
-Tree root damage, settling, and age cause sidewalk cracking and tripping hazards. We remove damaged sections or entire walkways. For properties in <a href="/service-areas/rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> and <a href="/service-areas/alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, we coordinate with HOA requirements for sidewalk replacement timelines.
+Tree root damage, settling, and age cause sidewalk cracking and tripping hazards. We remove damaged sections or entire walkways. For properties in <a href="/service-areas#rosemary-beach" class="text-ocean-600 hover:underline font-medium">Rosemary Beach</a> and <a href="/service-areas#alys-beach" class="text-ocean-600 hover:underline font-medium">Alys Beach</a>, we coordinate with HOA requirements for sidewalk replacement timelines.
 
 **Foundations and Slabs:**
-<a href="/services/shed-demolition" class="text-ocean-600 hover:underline font-medium">Shed foundations</a>, old building pads, equipment bases, AC unit pads, and other concrete slabs. We remove foundations completely including below-grade footings when needed.
+<a href="/services#shed-demolition" class="text-ocean-600 hover:underline font-medium">Shed foundations</a>, old building pads, equipment bases, AC unit pads, and other concrete slabs. We remove foundations completely including below-grade footings when needed.
 
 **Steps and Stoops:**
 Concrete entry steps, stoops, and landing pads. These are often reinforced and attached to the home's foundation, requiring careful removal to avoid damaging the house structure.
@@ -4138,7 +4138,7 @@ After concrete removal, we grade and level the exposed subbase. Sand, gravel, or
 
 ### Concrete Recycling
 
-Concrete is one of the most recyclable construction materials. Clean concrete without significant contamination can be crushed and reused as aggregate for new concrete, road base, and fill material. We separate clean concrete for recycling whenever possible, reducing landfill impact and supporting sustainable <a href="/services/construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris</a> management. For more information about construction material recycling, visit <a href="https://www.epa.gov/smm/sustainable-management-construction-and-demolition-materials" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA's construction and demolition materials page</a>.
+Concrete is one of the most recyclable construction materials. Clean concrete without significant contamination can be crushed and reused as aggregate for new concrete, road base, and fill material. We separate clean concrete for recycling whenever possible, reducing landfill impact and supporting sustainable <a href="/services#construction-debris" class="text-ocean-600 hover:underline font-medium">construction debris</a> management. For more information about construction material recycling, visit <a href="https://www.epa.gov/smm/sustainable-management-construction-and-demolition-materials" target="_blank" rel="nofollow external noopener noreferrer" class="text-seafoam-600 hover:underline">EPA's construction and demolition materials page</a>.
 
 ### Coastal Concrete Challenges
 
@@ -4146,7 +4146,7 @@ Concrete along the 30A corridor faces unique challenges. Sandy soil causes uneve
 
 ### Combined Demolition Projects
 
-Concrete removal is often part of larger demolition projects. We commonly combine concrete work with <a href="/services/deck-removal" class="text-ocean-600 hover:underline font-medium">deck removal</a>, <a href="/services/fence-removal" class="text-ocean-600 hover:underline font-medium">fence removal</a>, and <a href="/services/shed-demolition" class="text-ocean-600 hover:underline font-medium">shed demolition</a> for comprehensive exterior renovation prep. Package pricing is available for multi-service projects. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a concrete removal estimate.
+Concrete removal is often part of larger demolition projects. We commonly combine concrete work with <a href="/services#deck-removal" class="text-ocean-600 hover:underline font-medium">deck removal</a>, <a href="/services#fence-removal" class="text-ocean-600 hover:underline font-medium">fence removal</a>, and <a href="/services#shed-demolition" class="text-ocean-600 hover:underline font-medium">shed demolition</a> for comprehensive exterior renovation prep. Package pricing is available for multi-service projects. <a href="/contact" class="text-ocean-600 hover:underline font-medium">Contact us</a> for a concrete removal estimate.
     `,
     features: [
       'Concrete breaking and demolition',

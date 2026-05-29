@@ -1,453 +1,336 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
-import Image from 'next/image'
 import {
-  Truck,
-  Hammer,
-  Home,
-  Building2,
-  Refrigerator,
-  Sofa,
-  Waves,
-  Heart,
-  ArrowRight,
   Phone,
-  BedDouble,
-  Monitor,
-  Warehouse,
-  Fence,
-  Scissors,
-  Package,
-  HandHeart,
-  KeyRound,
-  Store,
-  Bath,
-  ChefHat,
-  Zap,
-  Trash2,
-  CloudRain,
-  Music,
-  Dumbbell,
-  ArchiveRestore,
-  Blocks,
+  ArrowRight,
+  CheckCircle,
+  Star,
+  Clock,
+  ShieldCheck,
 } from 'lucide-react'
 import { FORMATTED_PHONE, PHONE_NUMBER } from '@/lib/utils'
 import { LinksSection } from '@/components/seo/LinksSection'
 import { CollectionPageSchema } from '@/components/seo/PagedSchemas'
-import { BreadcrumbSchema } from '@/components/seo/StructuredData'
-import { getAllServiceSlugs } from '@/lib/services'
+import {
+  BreadcrumbSchema,
+  ServiceSchema,
+  FAQSchema,
+} from '@/components/seo/StructuredData'
+import {
+  serviceDetails,
+  getAllServiceSlugs,
+  getServicePriceRange,
+} from '@/lib/services'
 import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo'
+
+// CONSOLIDATED /services HUB
+// Per 2026-05-28 AI compliance audit: this single page replaces the
+// previous 31 templated /services/[name] pages. Each service renders
+// as a deep-anchored section. Old URLs 301 to /services#[slug].
+//
+// Why one page: 31 sibling pages sharing 80%+ template structure
+// triggered the May 2026 Core Update "scaled content abuse" pattern.
+// The OfferCatalog schema (declared on the homepage globally) already
+// announces all 31 services to Google. This consolidated page now
+// fulfills the user-facing role without the sibling-similarity risk.
 
 export const metadata: Metadata = {
   title: 'Services',
-  description: 'Comprehensive junk removal services for 30A. One-time hauls, construction debris, vacation rental turnovers, estate cleanouts, appliance removal, and more.',
+  description:
+    'All junk removal services for 30A & PCB — furniture, hot tubs, estate cleanouts, construction debris, vacation rental turnovers, and more.',
   alternates: {
     canonical: getCanonicalUrl('/services'),
   },
 }
 
-const services = [
-  {
-    title: 'One-Time Hauls',
-    description: 'Quick junk removal for any size job. From a single item to a full garage cleanout. Perfect for homeowners and rental properties.',
-    icon: Truck,
-    href: '/services/one-time-hauls',
-    color: 'ocean',
-    features: ['Same-day service available', 'Transparent pricing', 'We do all the lifting'],
-  },
-  {
-    title: 'Construction Debris',
-    description: 'Renovation and construction cleanup. Drywall, tile, lumber, concrete, and more. We follow EPA guidelines for proper disposal.',
-    icon: Hammer,
-    href: '/services/construction-debris',
-    color: 'gold',
-    features: ['Custom quotes for your project', 'We sort and recycle', 'Weight-based pricing'],
-  },
-  {
-    title: 'Vacation Rental Turnovers',
-    description: 'Fast turnaround between guests. We work around your check-in/check-out times.',
-    icon: Home,
-    href: '/services/vacation-rentals',
-    color: 'seafoam',
-    features: ['Priority scheduling', 'Photo documentation', 'Reliable timing'],
-  },
-  {
-    title: 'Estate Cleanouts',
-    description: 'Respectful, thorough clearing of entire homes. We coordinate donations with local charities like Habitat for Humanity on your behalf.',
-    icon: Building2,
-    href: '/services/estate-cleanouts',
-    color: 'ocean',
-    features: ['Donation receipts', 'Careful item handling', 'Complete home clearing'],
-  },
-  {
-    title: 'Appliance Removal',
-    description: 'Safe removal of refrigerators, washers, dryers, stoves, and all major appliances. Eco-friendly recycling when possible.',
-    icon: Refrigerator,
-    href: '/services/appliance-removal',
-    color: 'seafoam',
-    features: ['Proper disposal', 'Recycling when possible', 'All brands handled'],
-  },
-  {
-    title: 'Furniture Removal',
-    description: 'Couches, beds, tables, dressers - we remove all types of furniture.',
-    icon: Sofa,
-    href: '/services/furniture-removal',
-    color: 'ocean',
-    features: ['Any size furniture', 'Careful maneuvering', 'Donation coordination'],
-  },
-  {
-    title: 'Hot Tub Removal',
-    description: 'Expert dismantling and hauling of hot tubs and spas.',
-    icon: Waves,
-    href: '/services/hot-tub-removal',
-    color: 'gold',
-    features: ['Professional dismantling', 'Complete removal', 'Deck-safe process'],
-  },
-  {
-    title: 'Donation Pickup',
-    description: 'We sort and donate usable items on your behalf, with tax receipts provided.',
-    icon: Heart,
-    href: '/services/donation-pickup',
-    color: 'seafoam',
-    features: ['Tax-deductible receipts', 'We handle sorting', 'Local charity partners'],
-  },
-  {
-    title: 'Mattress Removal',
-    description: 'Professional mattress and box spring removal with eco-friendly disposal and recycling.',
-    icon: BedDouble,
-    href: '/services/mattress-removal',
-    color: 'ocean',
-    features: ['All sizes', 'Same-day available', 'Proper recycling'],
-  },
-  {
-    title: 'TV & Electronics Recycling',
-    description: 'EPA-compliant disposal of TVs, computers, monitors, and electronic waste.',
-    icon: Monitor,
-    href: '/services/tv-electronics-recycling',
-    color: 'seafoam',
-    features: ['EPA compliant', 'Data destruction', 'Certified recycling'],
-  },
-  {
-    title: 'Shed Demolition',
-    description: 'Complete shed teardown, debris removal, and site cleanup.',
-    icon: Warehouse,
-    href: '/services/shed-demolition',
-    color: 'gold',
-    features: ['Full demolition', 'Debris hauling', 'Site cleanup'],
-  },
-  {
-    title: 'Deck Removal',
-    description: 'Professional deck demolition and lumber disposal for renovation projects.',
-    icon: Hammer,
-    href: '/services/deck-removal',
-    color: 'ocean',
-    features: ['Complete demolition', 'Nail-free cleanup', 'Material recycling'],
-  },
-  {
-    title: 'Fence Removal',
-    description: 'All fence types removed including wood, chain link, vinyl, and metal with post extraction.',
-    icon: Fence,
-    href: '/services/fence-removal',
-    color: 'seafoam',
-    features: ['All fence types', 'Post removal', 'Site grading'],
-  },
-  {
-    title: 'Carpet Removal',
-    description: 'Carpet, padding, and tack strip removal to prepare floors for new installation.',
-    icon: Scissors,
-    href: '/services/carpet-removal',
-    color: 'gold',
-    features: ['Carpet & padding', 'Tack strip removal', 'Subfloor prep'],
-  },
-  {
-    title: 'Storage Unit Cleanout',
-    description: 'Complete storage unit clearing with donation sorting and same-day service.',
-    icon: Package,
-    href: '/services/storage-unit-cleanout',
-    color: 'ocean',
-    features: ['All unit sizes', 'Donation sorting', 'Same-day service'],
-  },
-  {
-    title: 'Hoarding Cleanup',
-    description: 'Compassionate, non-judgmental hoarding cleanup with multi-day project support.',
-    icon: HandHeart,
-    href: '/services/hoarder-cleanout',
-    color: 'seafoam',
-    features: ['Compassionate service', 'Multi-day projects', 'Thorough cleaning'],
-  },
-  {
-    title: 'Foreclosure Cleanout',
-    description: 'Full property clearing with photo documentation for banks and REO properties.',
-    icon: KeyRound,
-    href: '/services/foreclosure-cleanout',
-    color: 'gold',
-    features: ['Photo documentation', 'Bank coordination', 'Full clearing'],
-  },
-  {
-    title: 'Commercial Junk Removal',
-    description: 'After-hours commercial junk removal with volume pricing and recurring service options.',
-    icon: Store,
-    href: '/services/commercial-junk-removal',
-    color: 'ocean',
-    features: ['After-hours service', 'Volume pricing', 'Recurring options'],
-  },
-  {
-    title: 'Bathroom Demolition',
-    description: 'Bathroom tile, fixture, and vanity demolition with complete debris removal.',
-    icon: Bath,
-    href: '/services/bathroom-demolition',
-    color: 'seafoam',
-    features: ['Tile removal', 'Fixture disposal', 'Debris hauling'],
-  },
-  {
-    title: 'Kitchen Demolition',
-    description: 'Kitchen cabinet, countertop, and appliance demolition for renovation projects.',
-    icon: ChefHat,
-    href: '/services/kitchen-demolition',
-    color: 'gold',
-    features: ['Cabinet removal', 'Countertop disposal', 'Appliance hauling'],
-  },
-  {
-    title: 'Same Day Junk Removal',
-    description: 'Urgent same-day junk removal with 2-hour response time across the 30A corridor.',
-    icon: Zap,
-    href: '/services/same-day-junk-removal',
-    color: 'ocean',
-    features: ['2-hour response', 'Evening available', 'No extra charge'],
-  },
-  {
-    title: 'Bulk Trash Pickup',
-    description: 'Scheduled bulk trash and large item curbside pickup for residential properties.',
-    icon: Trash2,
-    href: '/services/bulk-trash-pickup',
-    color: 'seafoam',
-    features: ['Curbside pickup', 'All materials', 'Scheduled service'],
-  },
-  {
-    title: 'Hurricane & Storm Debris',
-    description: 'Emergency hurricane and storm debris cleanup with FEMA documentation support.',
-    icon: CloudRain,
-    href: '/services/hurricane-debris',
-    color: 'gold',
-    features: ['Emergency response', 'FEMA documentation', 'Tree removal'],
-  },
-  {
-    title: 'Piano Removal',
-    description: 'Careful piano removal including uprights, grands, baby grands, and organs.',
-    icon: Music,
-    href: '/services/piano-removal',
-    color: 'ocean',
-    features: ['All piano types', 'Careful handling', 'Narrow space expertise'],
-  },
-  {
-    title: 'Exercise Equipment',
-    description: 'Treadmill, elliptical, weight system, and gym equipment removal and disposal.',
-    icon: Dumbbell,
-    href: '/services/exercise-equipment',
-    color: 'seafoam',
-    features: ['Disassembly included', 'All equipment types', 'Heavy lifting handled'],
-  },
-  {
-    title: 'Attic Cleanout',
-    description: 'Complete attic clearing with careful navigation, sorting, and debris removal.',
-    icon: ArchiveRestore,
-    href: '/services/attic-cleanout',
-    color: 'gold',
-    features: ['Careful navigation', 'Full cleanout', 'Donation sorting'],
-  },
-  {
-    title: 'Concrete Removal',
-    description: 'Concrete breaking, hauling, and recycling for driveways, patios, and foundations.',
-    icon: Blocks,
-    href: '/services/concrete-removal',
-    color: 'ocean',
-    features: ['Breaking & hauling', 'All types', 'Recycling available'],
-  },
-]
-
-const colorMap = {
-  ocean: {
-    bg: 'bg-ocean-50',
-    icon: 'bg-ocean-100 text-ocean-600',
-    hover: 'hover:border-ocean-300',
-  },
-  gold: {
-    bg: 'bg-gold-50',
-    icon: 'bg-gold-100 text-gold-600',
-    hover: 'hover:border-gold-300',
-  },
-  seafoam: {
-    bg: 'bg-seafoam-50',
-    icon: 'bg-seafoam-100 text-seafoam-600',
-    hover: 'hover:border-seafoam-300',
-  },
-}
+const slugs = getAllServiceSlugs()
+const services = slugs
+  .map((s) => serviceDetails[s])
+  .filter(Boolean)
 
 export default function ServicesPage() {
   const internalLinks = getContextualLinks('core', '/services')
   const externalLinks = getExternalLinks(5)
-  const serviceCount = getAllServiceSlugs().length
+
+  // Aggregate FAQ schema across all services -- one FAQPage entry on
+  // the consolidated hub for AI citation eligibility.
+  const allFaqs = services.flatMap((s) =>
+    (s.faqs || []).map((faq) => ({
+      question: faq.question,
+      answer: faq.answer,
+    }))
+  )
 
   return (
-    <main className="min-h-screen">
-      <CollectionPageSchema
-        name="Junk Removal Services in 30A and Panama City Beach"
-        description="Complete list of junk removal services across the 30A corridor and Panama City Beach -- vacation rental cleanouts, estate cleanouts, construction debris, furniture and appliance removal, hot tub removal, hurricane debris, and more."
-        url="/services"
-        numberOfItems={serviceCount}
-      />
+    <main className="bg-white">
       <BreadcrumbSchema
         items={[
-          { name: 'Home', url: '/' },
-          { name: 'Services', url: '/services' },
+          { name: 'Home', url: 'https://www.30ajunkremoval.com' },
+          { name: 'Services', url: 'https://www.30ajunkremoval.com/services' },
         ]}
       />
-      {/* Hero */}
-      <section className="-mt-24 pt-32 pb-20 md:pt-36 md:pb-28 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white overflow-hidden relative">
-        {/* Decorative blobs */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-ocean-400/10 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2" />
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-seafoam-400/10 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2" />
-
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm text-white/90 text-sm font-medium border border-white/10 rounded-full mb-6">
-              <Truck className="w-4 h-4" />
-              Full-Service Junk Removal
-            </div>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">
-              Our Services
-            </h1>
-            <p className="mt-6 text-xl text-ocean-100">
-              Whatever you need removed, we've got you covered. Professional, reliable junk removal for all of <Link href="/service-areas" className="text-white hover:text-seafoam-200 underline font-medium">30A communities</Link> including <Link href="/service-areas/alys-beach" className="text-white hover:text-seafoam-200 underline font-medium">Alys Beach</Link>, <Link href="/service-areas/santa-rosa-beach" className="text-white hover:text-seafoam-200 underline font-medium">Santa Rosa Beach</Link>, and beyond.
-            </p>
-            <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href={`tel:${PHONE_NUMBER}`}
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-ocean-600 rounded-xl font-bold hover:bg-sand-50 transition-colors shadow-lg"
-              >
-                <Phone className="w-5 h-5" />
-                Call {FORMATTED_PHONE}
-              </a>
-              <a
-                href={`sms:${PHONE_NUMBER}`}
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white text-white rounded-xl font-bold hover:bg-white/10 transition-colors"
-              >
-                Text for Quote
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Introduction */}
-      <section className="py-12 bg-white">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-slate max-w-none">
-            <p className="text-lg text-slate-600 leading-relaxed">
-              From <Link href="/services/construction-debris" className="text-ocean-600 hover:underline font-medium">construction debris removal</Link> to <Link href="/services/appliance-removal" className="text-ocean-600 hover:underline font-medium">old appliance disposal</Link>, we handle every type of junk removal job. Our team serves the entire <a href="https://www.visitsouthwalton.com/" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">South Walton area</a>, providing eco-friendly services that prioritize <a href="https://www.habitat.org/restores" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">donation</a> and <a href="https://www.epa.gov/recycle/recycling-basics" target="_blank" rel="nofollow external noopener noreferrer" className="text-seafoam-600 hover:underline">recycling</a> whenever possible. Need help deciding? Check our <Link href="/pricing" className="text-ocean-600 hover:underline font-medium">pricing guide</Link> or <Link href="/contact" className="text-ocean-600 hover:underline font-medium">contact us</Link> for a custom quote.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Hero Image */}
-      <section className="py-12 bg-white">
-      <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-xl max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <Image
-          src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&h=500&fit=crop"
-          alt="Luxury home on 30A Florida ready for professional junk removal and cleanout services"
-          fill
-          className="object-cover"
-          sizes="(max-width: 1280px) 100vw, 1200px"
-        />
-      </div>
-      </section>
-
-      {/* Services Grid */}
-      <section className="py-16 bg-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-8">
-            {services.map((service) => {
-              const Icon = service.icon
-              const colors = colorMap[service.color as keyof typeof colorMap]
-              return (
-                <div
-                  key={service.title}
-                  className={`group rounded-2xl p-8 border border-sand-200 ${colors.hover} hover:shadow-lg transition-all`}
-                >
-                  <div className={`inline-flex items-center justify-center w-14 h-14 rounded-xl ${colors.icon} mb-6`}>
-                    <Icon className="w-7 h-7" />
-                  </div>
-
-                  <h3 className="text-2xl font-bold text-slate-800 mb-3">{service.title}</h3>
-                  <p className="text-slate-600 mb-6">{service.description}</p>
-
-                  <ul className="space-y-2 mb-6">
-                    {service.features.map((feature) => (
-                      <li key={feature} className="flex items-center gap-2 text-sm text-slate-600">
-                        <div className="w-1.5 h-1.5 rounded-full bg-ocean-500" />
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-
-                  <Link
-                    href={service.href}
-                    className="inline-flex items-center text-ocean-600 font-semibold hover:text-ocean-700 transition-colors"
-                  >
-                    Learn more
-                    <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                  </Link>
-                </div>
-              )
+      <CollectionPageSchema
+        name="30A Junk Removal — All Services"
+        description="Complete list of junk removal services across 30A, Panama City Beach, Walton & Bay Counties."
+        url="/services"
+        numberOfItems={services.length}
+      />
+      <FAQSchema questions={allFaqs.slice(0, 50)} />
+      {services.map((s) => {
+        const priceRange = getServicePriceRange(s.pricing)
+        return (
+          <ServiceSchema
+            key={s.slug}
+            name={s.title}
+            description={s.description}
+            url={`/services#${s.slug}`}
+            {...(priceRange && {
+              lowPrice: priceRange.lowPrice,
+              highPrice: priceRange.highPrice,
             })}
-          </div>
-        </div>
-      </section>
-
-      {/* Beach Community Image */}
-      <section className="py-12 bg-white">
-        <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-xl max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Image
-            src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=1200&h=500&fit=crop"
-            alt="Beautiful 30A Florida beach community served by professional junk removal"
-            fill
-            className="object-cover"
-            sizes="(max-width: 1280px) 100vw, 1200px"
           />
-        </div>
-      </section>
+        )
+      })}
 
-      {/* CTA */}
-      <section className="py-16 bg-gradient-to-r from-ocean-600 to-ocean-700 text-white">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
-          <p className="text-xl text-ocean-100 mb-8">
-            Get your instant quote online or give us a call. Same-day service available throughout <Link href="/service-areas/seaside" className="text-white hover:text-seafoam-200 underline font-medium">Seaside</Link>, <Link href="/service-areas/watercolor" className="text-white hover:text-seafoam-200 underline font-medium">WaterColor</Link>, and all 30A communities.
+      {/* Hero */}
+      <section className="-mt-24 pt-32 pb-16 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-900 text-white">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+          <nav className="text-sm text-ocean-200 mb-4">
+            <Link href="/" className="hover:text-white">Home</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white">Services</span>
+          </nav>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
+            Every Junk Removal Service We Offer
+          </h1>
+          <p className="text-xl text-ocean-100 max-w-3xl mb-6 leading-relaxed">
+            {services.length} services across 30A, Panama City Beach, Walton &amp; Bay Counties. Same-day available. Photo quotes within 10 minutes. From $150 minimum.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/#quote"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-ocean-600 rounded-xl font-bold hover:bg-sand-50 transition-colors shadow-lg"
-            >
-              Get Instant Quote
-            </Link>
+          <div className="flex flex-wrap gap-3 mb-6">
             <a
               href={`tel:${PHONE_NUMBER}`}
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white text-white rounded-xl font-bold hover:bg-white/10 transition-colors"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-gold-500 text-slate-900 rounded-xl font-bold hover:bg-gold-400 transition-colors shadow-md"
             >
               <Phone className="w-5 h-5" />
-              {FORMATTED_PHONE}
+              Call {FORMATTED_PHONE}
             </a>
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-white text-ocean-700 rounded-xl font-bold hover:bg-sand-50 transition-colors shadow-md"
+            >
+              Text for a Quote
+              <ArrowRight className="w-5 h-5" />
+            </Link>
+          </div>
+          <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm text-ocean-200">
+            <span className="inline-flex items-center gap-1.5">
+              <Star className="w-4 h-4 text-gold-400 fill-gold-400" />
+              4.9★ · 127+ Reviews
+            </span>
+            <span className="inline-flex items-center gap-1.5">
+              <Clock className="w-4 h-4 text-emerald-400" />
+              Same-Day Service
+            </span>
+            <span className="inline-flex items-center gap-1.5">
+              <ShieldCheck className="w-4 h-4 text-seafoam-300" />
+              Licensed &amp; Insured
+            </span>
           </div>
         </div>
       </section>
 
-      {/* Links Section */}
+      {/* Table of contents -- jump-to navigation for all 31 services */}
+      <section className="py-10 bg-slate-50 border-b border-slate-200 sticky top-0 z-10">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-sm font-bold uppercase tracking-wide text-slate-600 mb-3">
+            Jump to a service ({services.length})
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            {services.map((s) => (
+              <a
+                key={s.slug}
+                href={`#${s.slug}`}
+                className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-sm text-slate-700 hover:border-ocean-400 hover:text-ocean-700 transition-colors"
+              >
+                {s.shortTitle}
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Each service as an anchor section */}
+      <section className="py-12 md:py-16">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 space-y-16">
+          {services.map((s, idx) => {
+            const priceRange = getServicePriceRange(s.pricing)
+            const priceLabel = priceRange
+              ? `$${priceRange.lowPrice} - $${priceRange.highPrice}`
+              : s.pricing.starting || 'Custom Quote'
+            return (
+              <article
+                key={s.slug}
+                id={s.slug}
+                className="scroll-mt-24 border-t-2 border-slate-200 pt-12 first:border-t-0 first:pt-0"
+              >
+                <div className="grid md:grid-cols-[1fr_280px] gap-8 mb-6">
+                  <div>
+                    <div className="text-xs font-bold uppercase tracking-wide text-ocean-600 mb-2">
+                      Service {idx + 1} of {services.length}
+                    </div>
+                    <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-3">
+                      {s.title}
+                    </h2>
+                    <p className="text-lg text-slate-700 leading-relaxed">
+                      {s.description}
+                    </p>
+                  </div>
+                  <aside className="bg-gradient-to-br from-ocean-50 to-seafoam-50 border border-ocean-200 rounded-2xl p-5">
+                    <div className="text-xs font-semibold text-ocean-700 uppercase tracking-wide mb-1">
+                      Typical Price Range
+                    </div>
+                    <div className="text-2xl font-bold text-ocean-900 mb-3">
+                      {priceLabel}
+                    </div>
+                    <a
+                      href={`tel:${PHONE_NUMBER}`}
+                      className="block w-full text-center px-4 py-2.5 bg-ocean-600 text-white rounded-lg font-semibold hover:bg-ocean-700 transition-colors mb-2"
+                    >
+                      Call for Quote
+                    </a>
+                    <Link
+                      href="/contact"
+                      className="block w-full text-center px-4 py-2.5 bg-white text-ocean-700 rounded-lg font-semibold border-2 border-ocean-200 hover:bg-ocean-50 transition-colors"
+                    >
+                      Text Photos
+                    </Link>
+                  </aside>
+                </div>
+
+                {/* Features */}
+                {s.features && s.features.length > 0 && (
+                  <div className="mb-5">
+                    <h3 className="text-sm font-bold uppercase tracking-wide text-slate-600 mb-3">
+                      What&apos;s included
+                    </h3>
+                    <ul className="grid sm:grid-cols-2 gap-2 text-sm text-slate-700">
+                      {s.features.slice(0, 8).map((feature, i) => (
+                        <li key={i} className="flex items-start gap-2">
+                          <CheckCircle className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                          <span>{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+
+                {/* Pricing tiers (if available) */}
+                {(s.pricing.quarterTruck || s.pricing.halfTruck) && (
+                  <div className="mb-5 bg-slate-50 rounded-xl p-4">
+                    <h3 className="text-sm font-bold uppercase tracking-wide text-slate-600 mb-2">
+                      Pricing tiers
+                    </h3>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
+                      {s.pricing.quarterTruck && (
+                        <div>
+                          <div className="text-xs text-slate-500">¼ truck</div>
+                          <div className="font-bold text-slate-900">
+                            {s.pricing.quarterTruck}
+                          </div>
+                        </div>
+                      )}
+                      {s.pricing.halfTruck && (
+                        <div>
+                          <div className="text-xs text-slate-500">½ truck</div>
+                          <div className="font-bold text-slate-900">
+                            {s.pricing.halfTruck}
+                          </div>
+                        </div>
+                      )}
+                      {s.pricing.threeQuarterTruck && (
+                        <div>
+                          <div className="text-xs text-slate-500">¾ truck</div>
+                          <div className="font-bold text-slate-900">
+                            {s.pricing.threeQuarterTruck}
+                          </div>
+                        </div>
+                      )}
+                      {s.pricing.fullTruck && (
+                        <div>
+                          <div className="text-xs text-slate-500">Full truck</div>
+                          <div className="font-bold text-slate-900">
+                            {s.pricing.fullTruck}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )}
+
+                {/* FAQs (collapsible accordion) */}
+                {s.faqs && s.faqs.length > 0 && (
+                  <details className="group bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                    <summary className="cursor-pointer px-5 py-3 font-semibold text-slate-900 flex items-center justify-between">
+                      <span>Common questions about {s.shortTitle}</span>
+                      <span className="text-slate-500 group-open:rotate-180 transition-transform">
+                        ↓
+                      </span>
+                    </summary>
+                    <div className="px-5 pb-5 space-y-3">
+                      {s.faqs.map((faq, i) => (
+                        <div key={i} className="border-t border-slate-200 pt-3">
+                          <div className="font-semibold text-slate-900 mb-1.5">
+                            {faq.question}
+                          </div>
+                          <p
+                            className="faq-answer text-sm text-slate-700 leading-relaxed"
+                            data-speakable
+                          >
+                            {faq.answer}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  </details>
+                )}
+              </article>
+            )
+          })}
+        </div>
+      </section>
+
+      {/* Bottom CTA */}
+      <section className="py-16 md:py-20 bg-gradient-to-br from-ocean-600 via-ocean-700 to-slate-900 text-white">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Don&apos;t see what you need?
+          </h2>
+          <p className="text-xl text-ocean-100 mb-8">
+            We haul almost anything. Call or text photos for a custom quote.
+          </p>
+          <div className="flex flex-wrap gap-3 justify-center">
+            <a
+              href={`tel:${PHONE_NUMBER}`}
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-gold-500 text-slate-900 rounded-xl font-bold hover:bg-gold-400 transition-colors shadow-md"
+            >
+              <Phone className="w-5 h-5" />
+              Call {FORMATTED_PHONE}
+            </a>
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-white text-ocean-700 rounded-xl font-bold hover:bg-sand-50 transition-colors shadow-md"
+            >
+              Text for a Quote
+              <ArrowRight className="w-5 h-5" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <LinksSection
         internalLinks={internalLinks}
         externalLinks={externalLinks}
-        title="Service Areas & Additional Resources"
+        title="Related Resources"
       />
     </main>
   )

@@ -1,27 +1,19 @@
 import { MetadataRoute } from 'next'
-// Cache bust 2026-05-27 - force re-deploy for XML sitemap fix
 import { getAllBlogSlugs, getBlogPost } from '@/lib/blog'
-import { getAllServiceSlugs } from '@/lib/services'
-import { getAllLocationSlugs } from '@/lib/locations'
-import { getAllCountySlugs } from '@/lib/counties'
-import { getAllCategorySlugs } from '@/lib/blog-categories'
 import { getAllIndustrySlugs } from '@/lib/industries'
-import { blogPosts } from '@/lib/blog'
-import { totalBlogPages } from '@/components/blog/BlogHeroFeaturedGrid'
 import config from '@/lib/config'
 
 // Hardcoded "site content last meaningfully updated" date. Bump when shipping
 // substantive content changes. Sitemap lastmod should reflect real edits, not
 // the timestamp of the latest crawl -- Google deprioritizes always-fresh dates.
-const SITE_CONTENT_UPDATED = new Date('2026-05-24')
+const SITE_CONTENT_UPDATED = new Date('2026-05-29')
 
-// Relester SEO Method: Priority Tier System
-// 1.0 = Homepage (most authoritative)
-// 0.9 = Primary conversion page (contact)
-// 0.8 = Blog listing, pricing, service listing (discovery hubs)
-// 0.7 = Service pages (core offer pages)
-// 0.6 = Blog posts (content pages)
-// 0.5 = Location pages (programmatic SEO pages)
+// Post-consolidation sitemap (2026-05-28 AI compliance audit).
+// Templated /services/[name] (31), /service-areas/[town] (27),
+// /service-areas/county/[county] (2), and 15 templated location
+// blog posts have all been consolidated into the /services and
+// /service-areas hub pages with anchor sections. Old URLs 308 to
+// their new anchor destinations via next.config.ts redirects.
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // PRIORITY 1.0: Homepage
@@ -44,7 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
-  // PRIORITY 0.8: Discovery hubs
+  // PRIORITY 0.8: Discovery hubs + consolidated /services + /service-areas
   const discoveryPages: MetadataRoute.Sitemap = [
     '/blog',
     '/services',
@@ -54,37 +46,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/compare',
     '/seasonal/hurricane-prep',
     '/seasonal/snowbird-season',
-  ].map(route => ({
+  ].map((route) => ({
     url: `${config.siteUrl}${route}`,
     lastModified: SITE_CONTENT_UPDATED,
     changeFrequency: 'daily' as const,
     priority: 0.8,
   }))
 
-  // PRIORITY 0.7: Service pages (hand-crafted, high-value)
-  const serviceSlugs = getAllServiceSlugs()
-  const servicePages: MetadataRoute.Sitemap = serviceSlugs.map(slug => ({
-    url: `${config.siteUrl}/services/${slug}`,
-    lastModified: SITE_CONTENT_UPDATED,
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }))
-
-  // PRIORITY 0.6: Blog posts -- use the post's actual lastUpdated/date
-  // and include the featured image so Google Images can index it.
-  // Image inclusion in the sitemap is a Google Images discovery signal
-  // and can drive 5-15% incremental traffic via image search.
-  //
-  // CRITICAL: image URLs must be XML-safe. Next.js does NOT auto-escape
-  // entries in the `images` array, so Unsplash query strings like
-  // `?w=1200&h=630&fit=crop` produce unescaped `&` that break the XML
-  // (Google Search Console error: "Parsing error" line 312 etc).
-  // Strip the query string for sitemap output -- Google fetches the
-  // canonical image URL anyway and the query params are presentation-
-  // only resizing hints.
+  // PRIORITY 0.6: Blog posts (now 39 after the 15 templated location
+  // posts were filtered out per the audit consolidation)
   const stripQueryString = (url: string) => url.split('?')[0]
   const blogSlugs = getAllBlogSlugs()
-  const blogPostEntries: MetadataRoute.Sitemap = blogSlugs.map(slug => {
+  const blogPostEntries: MetadataRoute.Sitemap = blogSlugs.map((slug) => {
     const post = getBlogPost(slug)
     const dateStr = post?.lastUpdated || post?.date
     const lastModified = dateStr ? new Date(dateStr) : SITE_CONTENT_UPDATED
@@ -97,40 +70,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   })
 
-  // PRIORITY 0.7: County hub pages (pillar content)
-  const countySlugs = getAllCountySlugs()
-  const countyPages: MetadataRoute.Sitemap = countySlugs.map(slug => ({
-    url: `${config.siteUrl}/service-areas/county/${slug}`,
-    lastModified: SITE_CONTENT_UPDATED,
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }))
-
-  // PRIORITY 0.5: Location pages (programmatic SEO)
-  const locationSlugs = getAllLocationSlugs()
-  const locationPages: MetadataRoute.Sitemap = locationSlugs.map(slug => ({
-    url: `${config.siteUrl}/service-areas/${slug}`,
-    lastModified: SITE_CONTENT_UPDATED,
-    changeFrequency: 'monthly' as const,
-    priority: 0.5,
-  }))
-
-  // Blog category archives + pagination REMOVED from sitemap per
-  // 2026-05-28 compliance audit. These pages are now noindex but
-  // remain crawlable for blog-post discovery via rel=follow.
-  // (Previous: 4 category pages at 0.7 priority + 4 pagination
-  // pages at 0.5 priority were emitted here.)
-  const categoryPages: MetadataRoute.Sitemap = []
-  const blogPaginationPages: MetadataRoute.Sitemap = []
-  // Reference vars to silence "unused" warnings while we keep the
-  // helper imports for future use.
-  void getAllCategorySlugs
-  void totalBlogPages
-  void blogPosts
-
-  // PRIORITY 0.7: Industry vertical landing pages (B2B intent)
+  // PRIORITY 0.7: Industry vertical landing pages (B2B intent --
+  // these survive the consolidation because they are distinct
+  // verticals with substantively different content per page).
   const industrySlugs = getAllIndustrySlugs()
-  const industryPages: MetadataRoute.Sitemap = industrySlugs.map(slug => ({
+  const industryPages: MetadataRoute.Sitemap = industrySlugs.map((slug) => ({
     url: `${config.siteUrl}/industries/${slug}`,
     lastModified: SITE_CONTENT_UPDATED,
     changeFrequency: 'monthly' as const,
@@ -142,14 +86,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/tools',
     '/tools/hot-tub-cost-calculator',
     '/tools/junk-removal-cost-calculator',
-  ].map(route => ({
+  ].map((route) => ({
     url: `${config.siteUrl}${route}`,
     lastModified: SITE_CONTENT_UPDATED,
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }))
 
-  // PRIORITY 0.6: Other pages (about, faq, our-work, reviews, glossary, industries)
+  // PRIORITY 0.6: Other pages
   const otherPages: MetadataRoute.Sitemap = [
     '/about',
     '/faq',
@@ -157,7 +101,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/reviews',
     '/glossary',
     '/industries',
-  ].map(route => ({
+  ].map((route) => ({
     url: `${config.siteUrl}${route}`,
     lastModified: SITE_CONTENT_UPDATED,
     changeFrequency: 'monthly' as const,
@@ -168,7 +112,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const legalPages: MetadataRoute.Sitemap = [
     '/privacy',
     '/terms',
-  ].map(route => ({
+  ].map((route) => ({
     url: `${config.siteUrl}${route}`,
     lastModified: SITE_CONTENT_UPDATED,
     changeFrequency: 'monthly' as const,
@@ -179,12 +123,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...homepage,
     ...conversionPages,
     ...discoveryPages,
-    ...servicePages,
-    ...countyPages,
-    ...categoryPages,
-    ...blogPaginationPages,
     ...blogPostEntries,
-    ...locationPages,
     ...industryPages,
     ...toolPages,
     ...otherPages,

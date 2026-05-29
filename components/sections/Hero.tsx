@@ -47,8 +47,8 @@ export function Hero() {
             <span className="font-medium">
               Serving{' '}
               <Link href="/service-areas" className="text-white underline decoration-white/50 hover:decoration-white">30A</Link> from{' '}
-              <Link href="/service-areas/inlet-beach" className="text-white underline decoration-white/50 hover:decoration-white">Inlet Beach</Link> to{' '}
-              <Link href="/service-areas/panama-city-beach" className="text-white underline decoration-white/50 hover:decoration-white">Panama City Beach</Link>
+              <Link href="/service-areas#inlet-beach" className="text-white underline decoration-white/50 hover:decoration-white">Inlet Beach</Link> to{' '}
+              <Link href="/service-areas#panama-city-beach" className="text-white underline decoration-white/50 hover:decoration-white">Panama City Beach</Link>
             </span>
           </div>
           {/* Headline with entrance animation */}
@@ -67,10 +67,10 @@ export function Hero() {
             className="mt-6 md:mt-8 text-lg sm:text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed px-4"
           >
             From <Link href="/#quote" className="text-white underline decoration-white/50 hover:decoration-white">quick truck loads</Link> to{' '}
-            <Link href="/services/estate-cleanouts" className="text-white underline decoration-white/50 hover:decoration-white">full estate cleanouts</Link>.{' '}
+            <Link href="/services#estate-cleanouts" className="text-white underline decoration-white/50 hover:decoration-white">full estate cleanouts</Link>.{' '}
             <span className="text-white/90 font-medium">Easy enough for a quick cleanout</span>,{' '}
             <span className="text-seafoam-300 font-medium">professional enough for{' '}
-            <Link href="/services/property-management" className="text-white underline decoration-white/50 hover:decoration-white">estate management</Link></span>.
+            <Link href="/services#property-management" className="text-white underline decoration-white/50 hover:decoration-white">estate management</Link></span>.
           </p>
           {/* CTAs */}
           <div
@@ -84,7 +84,7 @@ export function Hero() {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link
-              href="/services/property-management"
+              href="/services#property-management"
               className="group w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded-lg font-semibold hover:bg-white/20 transition-all duration-200"
             >
               <Star className="w-5 h-5 text-gold-400" />

@@ -45,7 +45,7 @@ export const industries: Industry[] = [
       'Volume discount: 8-15% off standard rates. Per-removal pricing: $150-$300 typical with volume bundle. Monthly retainer option for high-volume PMs (10+ Saturday turnovers/week).',
     standardTerms:
       '4-hour Saturday SLA when called by 11 AM (90-minute for preferred-vendor agreements), 4-8 photo documentation per billed removal, weekly or biweekly invoicing with property-level line items, net-15 payment terms for established accounts.',
-    body: `30A and Panama City Beach is one of the densest short-term rental markets in Florida, with thousands of units operating across communities like [Seaside](/service-areas/seaside), [Rosemary Beach](/service-areas/rosemary-beach), [Alys Beach](/service-areas/alys-beach), [Watercolor](/service-areas/watercolor), and [Sandestin](/service-areas/sandestin). The Saturday turnover window — checkout at 10 AM, check-in at 4 PM — is the most-demanding operational reality in our service area.
+    body: `30A and Panama City Beach is one of the densest short-term rental markets in Florida, with thousands of units operating across communities like [Seaside](/service-areas#seaside), [Rosemary Beach](/service-areas#rosemary-beach), [Alys Beach](/service-areas#alys-beach), [Watercolor](/service-areas#watercolor), and [Sandestin](/service-areas#sandestin). The Saturday turnover window — checkout at 10 AM, check-in at 4 PM — is the most-demanding operational reality in our service area.
 
 ## What goes wrong during reactive turnovers
 
@@ -66,7 +66,7 @@ If you do not have a preferred-vendor relationship with your junk removal compan
 - **Weekly or biweekly invoicing** with net-15 terms
 - **After-hours emergency response** for time-pressured turnovers
 - **Quarterly owner-statement-ready reports** showing all removal activity by property
-- **HOA-savvy crews** familiar with [Alys Beach](/service-areas/alys-beach), [Rosemary Beach](/service-areas/rosemary-beach), [Watersound](/service-areas/watersound), and Sandestin gate processes
+- **HOA-savvy crews** familiar with [Alys Beach](/service-areas#alys-beach), [Rosemary Beach](/service-areas#rosemary-beach), [Watersound](/service-areas#watersound), and Sandestin gate processes
 
 ## Common turnover removals
 
@@ -100,11 +100,11 @@ Call **+1 (850) 368-3495** or [contact us](/contact). Standard onboarding:
 5. **First job** — typically a same-week onboarding job to confirm fit
 6. **Net-15 terms activated** — after the first invoice cycles successfully`,
     services: [
-      { name: 'Vacation Rental Junk Removal', href: '/services/vacation-rentals' },
-      { name: 'Mattress Removal', href: '/services/mattress-removal' },
-      { name: 'Furniture Removal', href: '/services/furniture-removal' },
-      { name: 'Appliance Removal', href: '/services/appliance-removal' },
-      { name: 'Property Management Service', href: '/services/property-management' },
+      { name: 'Vacation Rental Junk Removal', href: '/services#vacation-rentals' },
+      { name: 'Mattress Removal', href: '/services#mattress-removal' },
+      { name: 'Furniture Removal', href: '/services#furniture-removal' },
+      { name: 'Appliance Removal', href: '/services#appliance-removal' },
+      { name: 'Property Management Service', href: '/services#property-management' },
     ],
     relatedPosts: [
       { name: 'Property Manager Playbook', href: '/blog/property-manager-junk-removal-playbook-30a' },
@@ -195,7 +195,7 @@ For asset managers handling foreclosure properties: REO preparation involves coo
 - Disposal manifests (where required)
 - Coordination with property preservation services already on-site
 
-See our [foreclosure cleanout service](/services/foreclosure-cleanout) for service details.
+See our [foreclosure cleanout service](/services#foreclosure-cleanout) for service details.
 
 ### Estate cleanouts coordinated through agents
 When listing agents handle estates where the seller is the executor, agents often coordinate the junk removal vendor relationship. Our [estate cleanout workflow](/blog/estate-cleanout-services-30a-valuable-item-recovery) includes valuable-item recovery, donation routing with tax receipts, and family communication that protects the agent's relationship with the executor.
@@ -207,7 +207,7 @@ We have been the preferred junk removal vendor for multiple 30A real estate offi
 1. **We hit the closing-day window.** No exceptions.
 2. **Photo documentation goes to your file.** Always.
 3. **We coordinate with property preservation and other on-site vendors.** We do not show up unannounced.
-4. **Our crews understand the 30A market.** [Alys Beach](/service-areas/alys-beach), [Rosemary Beach](/service-areas/rosemary-beach), [Watersound](/service-areas/watersound) HOA processes are familiar territory.
+4. **Our crews understand the 30A market.** [Alys Beach](/service-areas#alys-beach), [Rosemary Beach](/service-areas#rosemary-beach), [Watersound](/service-areas#watersound) HOA processes are familiar territory.
 5. **We do not surprise you with on-site price changes.** Photo quotes are accurate 95%+ of the time.
 
 ## How to set up an agent vendor relationship
@@ -219,11 +219,11 @@ Call **+1 (850) 368-3495** or [contact us](/contact). Most agents request:
 - Process for billing seller vs buyer vs agent commission
 - Photo documentation format that integrates with their transaction file system`,
     services: [
-      { name: 'Estate Cleanouts', href: '/services/estate-cleanouts' },
-      { name: 'Foreclosure Cleanout', href: '/services/foreclosure-cleanout' },
-      { name: 'One-Time Hauls', href: '/services/one-time-hauls' },
-      { name: 'Garage Cleanouts', href: '/services/garage-cleanouts' },
-      { name: 'Same-Day Junk Removal', href: '/services/same-day-junk-removal' },
+      { name: 'Estate Cleanouts', href: '/services#estate-cleanouts' },
+      { name: 'Foreclosure Cleanout', href: '/services#foreclosure-cleanout' },
+      { name: 'One-Time Hauls', href: '/services#one-time-hauls' },
+      { name: 'Garage Cleanouts', href: '/services#garage-cleanouts' },
+      { name: 'Same-Day Junk Removal', href: '/services#same-day-junk-removal' },
     ],
     relatedPosts: [
       { name: 'Move-In Move-Out Guide', href: '/blog/move-in-move-out-junk-removal-30a-pcb-complete-guide' },
@@ -326,7 +326,7 @@ These projects typically run $3,000-$15,000+ depending on size and content.
 
 ## Why 30A hospitality businesses trust us
 
-We have served [Panama City Beach](/service-areas/panama-city-beach) and 30A restaurants since 2018, including some of the area's longest-operating venues. Our process:
+We have served [Panama City Beach](/service-areas#panama-city-beach) and 30A restaurants since 2018, including some of the area's longest-operating venues. Our process:
 
 1. **After-hours scheduling** — most hospitality work happens at 6 AM or 10 PM, not during service hours
 2. **608-certified crew** — federal compliance for refrigerated equipment
@@ -343,11 +343,11 @@ Call **+1 (850) 368-3495** or [contact us](/contact). For ongoing relationships,
 - Net-15 payment terms after a 30-day track record
 - Quarterly check-ins to discuss upcoming equipment replacement cycles`,
     services: [
-      { name: 'Commercial Junk Removal', href: '/services/commercial-junk-removal' },
-      { name: 'Appliance Removal', href: '/services/appliance-removal' },
-      { name: 'Kitchen Demolition', href: '/services/kitchen-demolition' },
-      { name: 'Office Furniture Removal', href: '/services/office-furniture' },
-      { name: 'Construction Debris', href: '/services/construction-debris' },
+      { name: 'Commercial Junk Removal', href: '/services#commercial-junk-removal' },
+      { name: 'Appliance Removal', href: '/services#appliance-removal' },
+      { name: 'Kitchen Demolition', href: '/services#kitchen-demolition' },
+      { name: 'Office Furniture Removal', href: '/services#office-furniture' },
+      { name: 'Construction Debris', href: '/services#construction-debris' },
     ],
     relatedPosts: [
       {
@@ -416,9 +416,9 @@ Call **+1 (850) 368-3495** or [contact us](/contact). For ongoing relationships,
 
 ### HOA restrictions
 Most 30A communities prohibit street-placed dumpsters without architectural review committee approval:
-- [Alys Beach](/service-areas/alys-beach): 7-14 day approval, $50-200 fee
-- [Rosemary Beach](/service-areas/rosemary-beach): Similar restrictions
-- [Watersound](/service-areas/watersound): Strict on truck access and noise hours
+- [Alys Beach](/service-areas#alys-beach): 7-14 day approval, $50-200 fee
+- [Rosemary Beach](/service-areas#rosemary-beach): Similar restrictions
+- [Watersound](/service-areas#watersound): Strict on truck access and noise hours
 - Sandestin: Resort-level coordination required
 
 For short renovations (1-4 weeks), the approval cycle exceeds the project timeline. Junk removal pickup at job-site cadence (weekly or as-needed) bypasses the approval requirement entirely.
@@ -492,11 +492,11 @@ Call **+1 (850) 368-3495** or [contact us](/contact). Standard onboarding:
 4. Documentation preferences (manifest format, photo documentation level)
 5. Service area confirmation`,
     services: [
-      { name: 'Construction Debris', href: '/services/construction-debris' },
-      { name: 'Bathroom Demolition', href: '/services/bathroom-demolition' },
-      { name: 'Kitchen Demolition', href: '/services/kitchen-demolition' },
-      { name: 'Shed Demolition', href: '/services/shed-demolition' },
-      { name: 'Deck Removal', href: '/services/deck-removal' },
+      { name: 'Construction Debris', href: '/services#construction-debris' },
+      { name: 'Bathroom Demolition', href: '/services#bathroom-demolition' },
+      { name: 'Kitchen Demolition', href: '/services#kitchen-demolition' },
+      { name: 'Shed Demolition', href: '/services#shed-demolition' },
+      { name: 'Deck Removal', href: '/services#deck-removal' },
     ],
     relatedPosts: [
       { name: 'Construction Debris Cost Guide', href: '/blog/construction-debris-cost-30a-renovation-pricing' },
