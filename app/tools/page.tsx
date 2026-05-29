@@ -12,7 +12,7 @@ import { PHONE_NUMBER, FORMATTED_PHONE } from '@/lib/utils'
 export const metadata: Metadata = {
   title: 'Interactive Cost Calculators & Tools',
   description:
-    'Interactive cost calculators and planning tools for 30A and PCB junk removal. Hot tub removal cost, general junk removal pricing, and more — get instant estimates before you call.',
+    'Interactive cost calculators for 30A and PCB junk removal — hot tub removal, general junk pricing. Instant estimates before you call.',
   alternates: {
     canonical: 'https://www.30ajunkremoval.com/tools',
   },

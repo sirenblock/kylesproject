@@ -29,9 +29,9 @@ import { PHONE_NUMBER, FORMATTED_PHONE } from '@/lib/utils'
 // handyman/labor-only) demonstrates depth in the vertical.
 
 export const metadata: Metadata = {
-  title: 'Junk Removal vs DIY vs Dumpster vs Handyman | 30A Comparison Guide',
+  title: 'Junk Removal vs DIY vs Dumpster',
   description:
-    'Side-by-side comparison of junk removal vs DIY hauls, dumpster rental, and handyman services. Cost, time, labor, and convenience compared for 30A and PCB property owners.',
+    'Side-by-side comparison of junk removal, DIY, dumpster rental, and handyman services for 30A & PCB property owners.',
   keywords: [
     'junk removal vs DIY',
     'junk removal vs dumpster rental',

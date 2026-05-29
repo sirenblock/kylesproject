@@ -12,7 +12,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.30ajunkremoval.
 export const metadata: Metadata = {
   title: 'Reviews',
   description:
-    'Read customer reviews of 30A Junk Removal from property managers, homeowners, and contractors across 30A and Panama City Beach. 4.9/5 average rating from 127+ verified customers.',
+    'Customer reviews of 30A Junk Removal from property managers, homeowners, and contractors. 4.9/5 from 127+ verified customers.',
   alternates: {
     canonical: getCanonicalUrl('/reviews'),
   },

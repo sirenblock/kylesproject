@@ -20,7 +20,7 @@ import { getCanonicalUrl, getContextualLinks, getExternalLinks } from '@/lib/seo
 export const metadata: Metadata = {
   title: 'Industries We Serve',
   description:
-    'B2B junk removal services for 30A and Panama City Beach industries — vacation rental property management, real estate, hospitality, retail, construction, and estate attorneys. Preferred-vendor pricing, scheduled service, photo documentation.',
+    'B2B junk removal for 30A & PCB industries — vacation rental PM, real estate, hospitality, retail, construction, professional services.',
   alternates: {
     canonical: getCanonicalUrl('/industries'),
   },

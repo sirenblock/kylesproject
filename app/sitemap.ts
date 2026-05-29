@@ -115,26 +115,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }))
 
-  // PRIORITY 0.7: Blog category archive pages (topical authority hubs)
-  const categorySlugs = getAllCategorySlugs()
-  const categoryPages: MetadataRoute.Sitemap = categorySlugs.map(slug => ({
-    url: `${config.siteUrl}/blog/category/${slug}`,
-    lastModified: SITE_CONTENT_UPDATED,
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }))
-
-  // PRIORITY 0.5: Blog pagination pages (page 2+)
-  const totalPages = totalBlogPages(blogPosts.length)
-  const blogPaginationPages: MetadataRoute.Sitemap = Array.from(
-    { length: Math.max(0, totalPages - 1) },
-    (_, i) => ({
-      url: `${config.siteUrl}/blog/page/${i + 2}`,
-      lastModified: SITE_CONTENT_UPDATED,
-      changeFrequency: 'weekly' as const,
-      priority: 0.5,
-    })
-  )
+  // Blog category archives + pagination REMOVED from sitemap per
+  // 2026-05-28 compliance audit. These pages are now noindex but
+  // remain crawlable for blog-post discovery via rel=follow.
+  // (Previous: 4 category pages at 0.7 priority + 4 pagination
+  // pages at 0.5 priority were emitted here.)
+  const categoryPages: MetadataRoute.Sitemap = []
+  const blogPaginationPages: MetadataRoute.Sitemap = []
+  // Reference vars to silence "unused" warnings while we keep the
+  // helper imports for future use.
+  void getAllCategorySlugs
+  void totalBlogPages
+  void blogPosts
 
   // PRIORITY 0.7: Industry vertical landing pages (B2B intent)
   const industrySlugs = getAllIndustrySlugs()

@@ -53,10 +53,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       // Self-referencing canonical per secret-sauce pattern #5
       canonical: getCanonicalUrl(`/blog/page/${pageNum}`),
     },
-    // Per Google guidance: pagination pages stay indexable; we use
-    // self-canonical + rel=prev/next links in the pagination component.
+    // noindex per 2026-05-28 compliance audit: pagination pages are
+    // low-value indexable duplicates -- canonical /blog covers the
+    // discovery surface. Keep crawlable (follow=true) so Google can
+    // still reach all blog posts via the paginated archive.
     robots: {
-      index: true,
+      index: false,
       follow: true,
     },
   }

@@ -30,9 +30,9 @@ import { PHONE_NUMBER, FORMATTED_PHONE } from '@/lib/utils'
 // another internal-link node feeding the link-equity pipeline.
 
 export const metadata: Metadata = {
-  title: 'How It Works | 30A Junk Removal Process — Same-Day Service',
+  title: 'How It Works',
   description:
-    'Our 5-step junk removal process: text photos for a price, schedule, we haul, you pay only when satisfied. Same-day service across 30A, PCB, Walton & Bay Counties.',
+    'Our 5-step junk removal process: text photos, get a price, schedule, we haul, pay when done. Same-day service across 30A & PCB.',
   keywords: [
     'how does junk removal work',
     'junk removal process',

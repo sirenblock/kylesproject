@@ -29,6 +29,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${category.name}`,
     description: category.metaDescription,
+    // noindex per 2026-05-28 compliance audit: blog category archives
+    // are low-value duplicate-of-blog-hub URLs; keep crawlable for
+    // discovery (follow=true) but out of the search index.
+    robots: {
+      index: false,
+      follow: true,
+    },
     alternates: {
       canonical: getCanonicalUrl(`/blog/category/${slug}`),
     },
